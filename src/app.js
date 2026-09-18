@@ -1245,7 +1245,8 @@
     (E.scenarios.scenarios || []).forEach(function (s) {
       var o = document.createElement('option');
       o.value = s.id;
-      o.textContent = s.libelle || s.titre || s.id;
+      o.textContent = (s.libelle || s.titre || s.id) + (s.etapes_route ? ' · ' + s.etapes_route + ' étapes route' : '');
+      o.title = [s.resume, s.logique_route].filter(Boolean).join(' — ');
       sel.appendChild(o);
     });
     sel.value = E.scenarioId;
