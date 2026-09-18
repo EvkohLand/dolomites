@@ -12,19 +12,19 @@
   {
     "date": "2026-10-11",
     "jour": 2,
-    "titre": "Traversée vers le Haut-Adige",
+    "titre": "Traversée vers le Val Gardena",
     "zone": "Route",
-    "nuit": "camping-olympia",
+    "nuit": "aire-ortisei",
     "trajet": "etape-aller-2",
     "activites": [],
-    "note": "Grosse journée de route. Plein au Brenner en libre-service avant de basculer dans les vallées."
+    "note": "Grosse journée de route. Plein en France avant la frontière : le gazole y est nettement moins cher qu'en Italie. Arrivée en Val Gardena en fin de journée."
   },
   {
     "date": "2026-10-12",
     "jour": 3,
     "titre": "Val di Funes",
     "zone": "Val Gardena / Funes",
-    "nuit": "camping-olympia",
+    "nuit": "aire-ortisei",
     "trajet": null,
     "activites": [
       {
@@ -44,7 +44,7 @@
     "jour": 4,
     "titre": "Seceda",
     "zone": "Val Gardena",
-    "nuit": "camping-olympia",
+    "nuit": "aire-ortisei",
     "trajet": null,
     "activites": [
       {
@@ -60,7 +60,7 @@
     "jour": 5,
     "titre": "Alpe di Siusi",
     "zone": "Val Gardena",
-    "nuit": "camping-olympia",
+    "nuit": "aire-ortisei",
     "trajet": null,
     "activites": [
       {
@@ -76,12 +76,22 @@
     "jour": 6,
     "titre": "Col Raiser et Alta Badia",
     "zone": "Alta Badia",
-    "nuit": "camping-olympia",
+    "nuit": "camping-cortina",
     "trajet": null,
     "activites": [
       {
+        "lieu": "passo-gardena",
+        "heure": "09:00",
+        "note": "La bascule vers l'est : col au pied du Sella."
+      },
+      {
         "lieu": "col-raiser",
         "heure": "09:30"
+      },
+      {
+        "lieu": "corvara",
+        "heure": "12:30",
+        "note": "Ravitaillement avant Cortina."
       },
       {
         "lieu": "pralongia",

@@ -5,41 +5,117 @@
       "jour": 1,
       "de": "depart",
       "vers": "etape-route-aller",
-      "distance_km": 213,
-      "duree_h": 2.3,
-      "peages": 22,
-      "note": "A9 puis A7 vers le nord. Rouler à 110 avec la tente de toit : moins bruyant, moins gourmand.",
       "par": [],
+      "peages": 22,
       "pays": "FR",
-      "mesure": "Distance et durée calculées sur le réseau routier réel (OSRM), pas estimées."
+      "note": "Départ — vallée du Rhône",
+      "distance_km": 213,
+      "duree_h": 2.3
     },
     {
       "id": "etape-aller-2",
       "jour": 2,
       "de": "etape-route-aller",
-      "vers": "camping-olympia",
-      "distance_km": 908,
-      "duree_h": 10.4,
+      "vers": "aire-ortisei",
+      "par": [],
       "peages": 55,
-      "note": "Traversée de la plaine du Pô puis montée vers le Haut-Adige. Distances et péages À AFFINER selon l'itinéraire retenu.",
+      "pays": "IT",
+      "note": "Traversée vers le Val Gardena",
+      "distance_km": 767,
+      "duree_h": 8.7
+    },
+    {
+      "id": "etape-j3",
+      "jour": 3,
+      "de": "aire-ortisei",
+      "vers": "aire-ortisei",
       "par": [
-        "station-brennero"
+        "santa-maddalena"
       ],
       "pays": "IT",
-      "mesure": "Distance et durée calculées sur le réseau routier réel (OSRM), pas estimées."
+      "note": "Val di Funes",
+      "distance_km": 67,
+      "duree_h": 1.3
+    },
+    {
+      "id": "etape-j6",
+      "jour": 6,
+      "de": "aire-ortisei",
+      "vers": "camping-cortina",
+      "par": [
+        "passo-gardena",
+        "corvara"
+      ],
+      "pays": "IT",
+      "note": "Col Raiser et Alta Badia",
+      "distance_km": 74,
+      "duree_h": 1.6
+    },
+    {
+      "id": "etape-j7",
+      "jour": 7,
+      "de": "camping-cortina",
+      "vers": "camping-cortina",
+      "par": [
+        "passo-falzarego"
+      ],
+      "pays": "IT",
+      "note": "Falzarego et Lagazuoi",
+      "distance_km": 52,
+      "duree_h": 1.2
+    },
+    {
+      "id": "etape-j8",
+      "jour": 8,
+      "de": "camping-cortina",
+      "vers": "camping-cortina",
+      "par": [
+        "passo-giau"
+      ],
+      "pays": "IT",
+      "note": "Passo Giau et repos",
+      "distance_km": 54,
+      "duree_h": 1.3
+    },
+    {
+      "id": "etape-j10",
+      "jour": 10,
+      "de": "camping-cortina",
+      "vers": "camping-olympia",
+      "par": [
+        "route-tre-cime",
+        "misurina",
+        "lago-antorno"
+      ],
+      "pays": "IT",
+      "note": "Tre Cime di Lavaredo",
+      "distance_km": 54,
+      "duree_h": 1.6
+    },
+    {
+      "id": "etape-j11",
+      "jour": 11,
+      "de": "camping-olympia",
+      "vers": "camping-olympia",
+      "par": [
+        "lago-braies"
+      ],
+      "pays": "IT",
+      "note": "Braies et Prato Piazza",
+      "distance_km": 31,
+      "duree_h": 0.6
     },
     {
       "id": "etape-retour",
       "jour": 14,
       "de": "camping-olympia",
       "vers": "depart",
-      "distance_km": 1014,
-      "duree_h": 11.4,
-      "peages": 77,
-      "note": "Retour direct ou coupé en deux selon la fatigue. Vendredi : trafic plus calme que le samedi.",
       "par": [],
+      "peages": 77,
       "pays": "IT",
-      "mesure": "Distance et durée calculées sur le réseau routier réel (OSRM), pas estimées."
+      "note": "Retour",
+      "distance_km": 1014,
+      "duree_h": 11.4
     }
   ],
   "style_trace": {
@@ -48,5 +124,5 @@
     "opacite": 0.55,
     "pointilles": "6 6"
   },
-  "note": "Distances et durées calculées sur le réseau routier réel. Les péages restent des estimations à recaler."
+  "note": "Étapes générées depuis le planning, distances et durées calculées sur le réseau routier réel. Relancer node etapes-depuis-planning.js puis node trace-route.js après modification du planning."
 }

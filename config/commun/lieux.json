@@ -2790,5 +2790,75 @@
         "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
       }
     ]
+  },
+  {
+    "id": "passo-gardena",
+    "nom": "Passo Gardena / Grödner Joch",
+    "categorie": "vue",
+    "gps": [
+      46.5478,
+      11.8036
+    ],
+    "commune": "Selva / Corvara (BZ)",
+    "altitude": 2121,
+    "resume": "Col entre le Val Gardena et l'Alta Badia, au pied des parois du Sella. La route de bascule entre les deux vallées.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "chien": {
+      "admis": true
+    },
+    "niveau_prix": "€",
+    "equipements": [
+      "parking-gratuit",
+      "vue",
+      "acces-voiture",
+      "restaurant",
+      "chien"
+    ],
+    "ouverture": {
+      "note": "Ouvert en octobre sauf chute de neige. Fermeture ponctuelle possible après une neige précoce."
+    },
+    "recherche_photo": "Passo Gardena Groednerjoch",
+    "etiquettes": [
+      "gratuit",
+      "sans marche",
+      "col",
+      "bascule vers l'est"
+    ]
+  },
+  {
+    "id": "corvara",
+    "nom": "Corvara / Alta Badia",
+    "categorie": "village",
+    "gps": [
+      46.5506,
+      11.8744
+    ],
+    "commune": "Corvara in Badia (BZ)",
+    "altitude": 1568,
+    "resume": "Village au cœur de l'Alta Badia, carrefour des cols. Ravitaillement et point de départ vers Pralongià.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "chien": {
+      "admis": true
+    },
+    "niveau_prix": "€",
+    "equipements": [
+      "parking",
+      "restaurant",
+      "bar",
+      "epicerie",
+      "acces-voiture",
+      "chien"
+    ],
+    "recherche_photo": "Corvara Alta Badia",
+    "etiquettes": [
+      "ravitaillement",
+      "carrefour"
+    ]
   }
 ]
