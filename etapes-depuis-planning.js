@@ -38,37 +38,73 @@ const peagesConnus = {
     const dossier = path.join(CFG, s.dossier);
     const planning = lire(path.join(dossier, 'planning.json'));
     const ancien = lire(path.join(dossier, 'itineraire.json'));
+    const anciennes = new Map((ancien.etapes || []).map(e => [e.id, e]));
 
     const etapes = [];
+    let ordre = 0;
     let veille = 'depart';          // d'où l'on part le matin
 
     for (const j of planning) {
       const arrivee = j.nuit || (j.jour === planning.length ? 'depart' : veille);
 
-      /* Les points de passage de la journée : uniquement ceux qu'on rejoint en
-         voiture, dans l'ordre du programme, sans répéter le départ ni l'arrivée. */
-      const par = (j.activites || [])
-        .map(a => a.lieu)
-        .filter(id => {
+      /* Un lieu non accessible en voiture peut déclarer acces_route vers le
+         parking, col ou départ de sentier réellement atteint en voiture.
+         Exemple : Lago Sorapis -> Passo Tre Croci. */
+      const visites = (j.activites || []).map(a => a.lieu).filter(Boolean);
+      const par = visites
+        .map(id => {
           const l = parId.get(id);
-          return l && !SANS_VOITURE.has(l.categorie);
+          if (!l) return null;
+          if (l.acces_route) return l.acces_route;
+          if (l.route_voiture === true) return id;
+          return SANS_VOITURE.has(l.categorie) ? null : id;
         })
+        .filter(Boolean)
         .filter((id, i, t) => t.indexOf(id) === i)
         .filter(id => id !== veille && id !== arrivee);
 
-      /* Une journée sans déplacement (même base, aucun arrêt en voiture)
-         n'a pas d'étape : inutile de tracer un trait de zéro kilomètre. */
+      /* Une journée sans déplacement (même base, aucun arrêt routier) n'a pas de
+         tracé voiture. L'activité reste bien visible dans le planning. */
       if (arrivee === veille && !par.length) { continue; }
 
       const id = j.jour === 1 ? 'etape-aller-1'
                : j.jour === 2 ? 'etape-aller-2'
                : j.jour === planning.length ? 'etape-retour'
                : `etape-j${j.jour}`;
+      ordre++;
 
-      const e = { id, jour: j.jour, de: veille, vers: arrivee, par };
+      const avant = anciennes.get(id) || {};
+      const type = j.jour === planning.length ? 'retour'
+                 : (j.jour <= 2 ? 'aller' : (veille === arrivee ? 'boucle' : 'transfert'));
+      const refsRoute = new Set([veille, ...par, arrivee]);
+      const visitesHorsRoute = visites.filter(id => !refsRoute.has(id));
+
+      const e = {
+        id,
+        ordre,
+        jour: j.jour,
+        type,
+        libelle: j.titre || '',
+        de: veille,
+        vers: arrivee,
+        par,
+        visites,
+        visites_hors_route: visitesHorsRoute,
+        pays: j.jour === 1 ? 'FR' : 'IT',
+        note: j.titre || ''
+      };
       if (peagesConnus[id]) e.peages = peagesConnus[id];
-      e.pays = j.jour === 1 ? 'FR' : 'IT';
-      e.note = j.titre || '';
+      else if (avant.peages) e.peages = avant.peages;
+
+      /* Les données calculées restent disponibles jusqu'au prochain recalcul OSRM. */
+      if (typeof avant.distance_km === 'number') e.distance_km = avant.distance_km;
+      if (typeof avant.duree_h === 'number') e.duree_h = avant.duree_h;
+
+      /* Champs éditoriaux manuels que le générateur ne doit jamais effacer. */
+      ['axes', 'note_route', 'attention', 'alternative'].forEach(k => {
+        if (avant[k] !== undefined) e[k] = avant[k];
+      });
+
       etapes.push(e);
       veille = arrivee;
     }
@@ -84,7 +120,7 @@ const peagesConnus = {
     fs.writeFileSync(path.join(dossier, 'itineraire.json'), JSON.stringify(itineraire, null, 2) + '\n', 'utf8');
     console.log(`\n${s.id} : ${etapes.length} étapes`);
     for (const e of etapes) {
-      console.log(`  j${String(e.jour).padStart(2)}  ${e.de} → ${e.vers}` + (e.par.length ? `  via ${e.par.join(', ')}` : ''));
+      console.log(`  E${e.ordre} / j${String(e.jour).padStart(2)}  ${e.de} → ${e.vers}` + (e.par.length ? `  via ${e.par.join(', ')}` : '') + ` [${e.type}]`);
     }
   }
 })();
