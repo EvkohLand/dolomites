@@ -96,8 +96,19 @@ function acceptable(ph) {
   return true;
 }
 
+function nettoyerTextePublic(txt) {
+  return String(txt || '')
+    // Certains noms de fichiers Commons contiennent des identifiants Flickr/Panoramio
+    // assez longs pour ressembler à des numéros personnels au validateur du dépôt.
+    .replace(/\b(?:\d[\s.\-]?){8,}\b/g, '')
+    .replace(/\s*\(\s*\)/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
 function credit(ph) {
-  const a = ph.auteur && ph.auteur.length < 70 ? ph.auteur : 'auteur non précisé';
+  const brut = ph.auteur && ph.auteur.length < 70 ? ph.auteur : 'auteur non précisé';
+  const a = nettoyerTextePublic(brut) || 'auteur non précisé';
   return `${a} — Wikimedia Commons, ${ph.licence}`;
 }
 
@@ -112,10 +123,15 @@ function credit(ph) {
     const deja = existantes.length;
     if (deja >= CIBLE) { console.log(`  ${l.id} : déjà ${deja} photos, ignoré`); continue; }
 
-    // Plusieurs formulations : le nom seul rend peu sur les lieux peu connus.
-    const requetes = [l.recherche_photo, l.nom, l.nom + ' Dolomites',
+    // On commence par les formulations les plus précises pour éviter qu'un nom
+    // générique (camping, aire, station...) ramène des photos d'un homonyme.
+    const communePhoto = l.commune ? l.commune.replace(/\s*\([A-Z]{2}\)/, '').trim() : '';
+    const nomCourt = l.nom.split('/')[0].trim();
+    const requetes = [l.recherche_photo,
+                      communePhoto ? nomCourt + ' ' + communePhoto : null,
+                      l.nom + ' Dolomites',
                       l.nom + ' Italy',
-                      l.commune ? l.nom.split('/')[0].trim() + ' ' + l.commune.replace(/\s*\([A-Z]{2}\)/, '') : null]
+                      l.nom]
                      .filter(Boolean);
 
     const vus = new Set();
@@ -137,7 +153,8 @@ function credit(ph) {
         const cleLegende = normaliser(ph.legende);
         if (urlsGardees.has(ph.url)) continue;
         if (cleLegende && legendesGardees.has(cleLegende)) continue;
-        gardees.push({ url: ph.url, legende: ph.legende.slice(0, 90), credit: credit(ph) });
+        const legende = nettoyerTextePublic(ph.legende).slice(0, 90) || l.nom;
+        gardees.push({ url: ph.url, legende, credit: credit(ph) });
         urlsGardees.add(ph.url);
         if (cleLegende) legendesGardees.add(cleLegende);
       }
