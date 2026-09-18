@@ -11,6 +11,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/enrichir-photos.yml"
+      - "photos-commons.js"
 
 permissions:
   contents: write
@@ -25,17 +26,52 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Rechercher des photos libres sur Wikimedia Commons
         env:
           CIBLE: ${{ github.event.inputs.cible || '30' }}
           LARGEUR: "960"
-          RESULTATS_PAR_RECHERCHE: "50"
+          RESULTATS_PAR_RECHERCHE: "35"
         run: node photos-commons.js
+
+      - name: Conserver le résultat de la recherche
+        run: cp config/commun/lieux.json "$RUNNER_TEMP/lieux-enrichis.json"
+
+      - name: Reprendre le main courant et fusionner seulement les photos
+        env:
+          CIBLE: ${{ github.event.inputs.cible || '30' }}
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          node <<'NODE'
+          const fs = require('fs');
+          const courantPath = 'config/commun/lieux.json';
+          const enrichiPath = process.env.RUNNER_TEMP + '/lieux-enrichis.json';
+          const courant = JSON.parse(fs.readFileSync(courantPath, 'utf8'));
+          const enrichis = JSON.parse(fs.readFileSync(enrichiPath, 'utf8'));
+          const parId = new Map(enrichis.map(l => [l.id, l]));
+          const cle = p => p && (p.url || (p.fichier ? 'file:' + p.fichier : '') || ('leg:' + (p.legende || '')));
+          for (const lieu of courant) {
+            const src = parId.get(lieu.id);
+            if (!src || !Array.isArray(src.photos)) continue;
+            const photos = Array.isArray(lieu.photos) ? lieu.photos.slice() : [];
+            const vues = new Set(photos.map(cle).filter(Boolean));
+            for (const ph of src.photos) {
+              const k = cle(ph);
+              if (!k || vues.has(k)) continue;
+              photos.push(ph);
+              vues.add(k);
+            }
+            lieu.photos = photos;
+          }
+          fs.writeFileSync(courantPath, JSON.stringify(courant, null, 2) + '\n', 'utf8');
+          NODE
 
       - name: Valider la configuration
         run: node validate.js
