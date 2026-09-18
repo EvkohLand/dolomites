@@ -12,15 +12,16 @@
     "resume": "Télécabine puis téléphérique depuis Ortisei. La crête dentelée de Seceda est l'image la plus connue des Dolomites. En haut, plateau herbeux praticable avec le chien.",
     "prix": {
       "type": "payant",
-      "adulte_ar": 45,
+      "adulte_ar": 74,
+      "chien": 7,
       "unite": "aller-retour",
-      "annee_tarif": 2025,
-      "detail": "Ortisei–Furnes–Seceda, aller-retour adulte. Tarif à revérifier pour 2026."
+      "annee_tarif": 2026,
+      "detail": "Aller-retour complet Ortisei–Furnes–Seceda. Le chien paie 7 €. Tarif officiel 2026."
     },
     "ouverture": {
       "fin_saison": "2026-11-02",
-      "a_reverifier": true,
-      "note": "Saison 2025 : 23 mai au 2 novembre. Ouvert pendant tout le séjour."
+      "a_reverifier": false,
+      "note": "Saison 2026 confirmée : 22 mai au 2 novembre, 8h30-17h30. Ouvert tout le séjour."
     },
     "chien": {
       "admis": true,
@@ -72,8 +73,8 @@
     },
     "ouverture": {
       "fin_saison": "2026-11-02",
-      "a_reverifier": true,
-      "note": "Saison 2026 annoncée du 22 mai au 2 novembre. Ouvert pendant tout le séjour."
+      "a_reverifier": false,
+      "note": "Saison 2026 : jusqu'au 2 novembre. Ouvert tout le séjour."
     },
     "chien": {
       "admis": true,
@@ -177,17 +178,16 @@
       "type": "payant",
       "montant": 40,
       "unite": "jour",
-      "annee_tarif": 2025,
-      "detail": "Par voiture, péage et parking au Rifugio Auronzo compris. Était à 30 € avant 2025."
+      "annee_tarif": 2026,
+      "detail": "Voiture 40 €, moto 26 €, camping-car 60 €. Billet valable 12 h. Réservation en ligne obligatoire sur auronzo.info."
     },
     "reserver": {
       "obligatoire": true,
       "url": "https://www.auronzo.info"
     },
     "ouverture": {
-      "fin_saison": "2026-11-08",
       "a_reverifier": true,
-      "note": "Route fermée pour l'hiver début novembre. La navette depuis Dobbiaco, elle, s'arrête le 12 octobre : sans importance, on monte en voiture."
+      "note": "Tarifs 2026 confirmés. ATTENTION : aucune date de fermeture d'automne publiée — vérifier sur auronzo.info que la route est ouverte du 10 au 23 octobre."
     },
     "source": "https://www.dolomitireview.com/strada-per-le-tre-cime-di-lavaredo-pedaggio-orari-informazioni-pratiche/",
     "etiquettes": [
@@ -493,7 +493,11 @@
         "libelle": "Musée en plein air de la Grande Guerre",
         "url": "https://www.cortinamuseiguerra.it/"
       }
-    ]
+    ],
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Sentier libre toute l'année. Le Rifugio Scoiattoli ferme début octobre : prévoir de quoi manger."
+    }
   },
   {
     "id": "adolf-munkel",
@@ -608,7 +612,7 @@
     },
     "chien": {
       "admis": true,
-      "note": "Passages sur vires équipées de câbles : difficile avec un chien peu sûr. À décider sur place."
+      "note": "Harnais plutôt que collier : le sentier 215 comporte des passages exposés et des escaliers métalliques. À évaluer selon le chien."
     },
     "etiquettes": [
       "lac",
@@ -626,7 +630,10 @@
         "libelle": "Description du sentier 215",
         "url": "https://www.dolomiti.it/en/cortina/"
       }
-    ]
+    ],
+    "ouverture": {
+      "note": "Parking gratuit au Passo Tre Croci. En octobre, le lac est souvent presque à sec."
+    }
   },
   {
     "id": "col-raiser",
@@ -780,7 +787,7 @@
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Fermeture d'automne à vérifier : souvent début à mi-octobre."
+      "note": "RISQUE ÉLEVÉ DE FERMETURE : domaine surtout hivernal, saison ski du 29 novembre au 19 avril. Aucune remontée touristique confirmée en octobre. Vérifier sur kronplatz.com avant d'y aller."
     },
     "chien": {
       "admis": true
@@ -1149,6 +1156,175 @@
         "libelle": "Chercher une halte sur park4night",
         "url": "https://park4night.com/"
       }
+    ]
+  },
+  {
+    "id": "sass-pordoi",
+    "nom": "Sass Pordoi",
+    "categorie": "remontee",
+    "gps": [
+      46.4878,
+      11.8128
+    ],
+    "commune": "Passo Pordoi (TN)",
+    "altitude": 2950,
+    "resume": "Téléphérique depuis le Passo Pordoi jusqu'au « toit des Dolomites » : un plateau rocheux à 2950 m, accessible sans marcher.",
+    "description": "Le téléphérique monte en quatre minutes du col à 2950 m. En haut, un plateau lunaire de rochers plats avec vue sur la Marmolada et tout le massif du Sella. Confirmé ouvert pendant tout le séjour, ce qui en fait l'alternative au Lagazuoi si celui-ci a fermé.",
+    "prix": {
+      "type": "payant",
+      "adulte_ar": 32,
+      "unite": "aller-retour",
+      "annee_tarif": 2026,
+      "detail": "Aller-retour adulte. Tarif chien non publié : prévoir de quoi payer un supplément."
+    },
+    "ouverture": {
+      "fin_saison": "2026-11-01",
+      "a_reverifier": false,
+      "note": "Horaires 2026 confirmés : 9h-17h jusqu'au 18 octobre, puis 9h-16h30 jusqu'au 1er novembre. Ouvert tout le séjour."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire. Tarif chien non publié."
+    },
+    "niveau_prix": "€€€",
+    "equipements": [
+      "refuge",
+      "restaurant",
+      "vue",
+      "chien",
+      "toilettes",
+      "acces-voiture"
+    ],
+    "liens": [
+      {
+        "libelle": "Sass Pordoi — horaires et tarifs",
+        "url": "https://www.sasspordoi.it/en/info-times-and-prices/"
+      }
+    ],
+    "source": "https://www.sasspordoi.it/en/info-times-and-prices/",
+    "etiquettes": [
+      "confirme ouvert",
+      "sans marche",
+      "vue",
+      "repli si Lagazuoi ferme"
+    ]
+  },
+  {
+    "id": "lago-landro",
+    "nom": "Lago di Landro",
+    "categorie": "lac",
+    "gps": [
+      46.6272,
+      12.2214
+    ],
+    "commune": "Dobbiaco / Toblach (BZ)",
+    "altitude": 1406,
+    "resume": "Lac au bord de la route Dobbiaco-Misurina, avec les Tre Cime en arrière-plan. Vue depuis le parking, sans marche.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "chien": {
+      "admis": true
+    },
+    "niveau_prix": "€",
+    "equipements": [
+      "parking-gratuit",
+      "vue",
+      "acces-voiture",
+      "chien",
+      "plat"
+    ],
+    "liens": [
+      {
+        "libelle": "Lago di Landro",
+        "url": "https://www.suedtirolerland.it/en/highlights/nature-and-landscape/lakes-in-south-tyrol/lake-landro/"
+      }
+    ],
+    "etiquettes": [
+      "gratuit",
+      "sans marche",
+      "sur la route"
+    ]
+  },
+  {
+    "id": "lago-antorno",
+    "nom": "Lago di Antorno",
+    "categorie": "lac",
+    "gps": [
+      46.5936,
+      12.26
+    ],
+    "commune": "Auronzo di Cadore (BL)",
+    "altitude": 1866,
+    "resume": "Petit lac juste avant le péage des Tre Cime, avec leur reflet dans l'eau. Deux minutes de marche depuis le parking.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "chien": {
+      "admis": true
+    },
+    "niveau_prix": "€",
+    "equipements": [
+      "parking",
+      "restaurant",
+      "vue",
+      "chien",
+      "plat",
+      "acces-voiture"
+    ],
+    "etiquettes": [
+      "gratuit",
+      "sur la route des Tre Cime",
+      "photo"
+    ]
+  },
+  {
+    "id": "lago-dobbiaco",
+    "nom": "Lago di Dobbiaco",
+    "categorie": "lac",
+    "gps": [
+      46.7069,
+      12.2286
+    ],
+    "commune": "Dobbiaco / Toblach (BZ)",
+    "altitude": 1259,
+    "resume": "Lac accessible en cinq minutes à pied du parking, tour du lac plat et ombragé. Tout près du camping.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "chien": {
+      "admis": true
+    },
+    "rando": {
+      "distance_km": 3.5,
+      "denivele_m": 30,
+      "duree_h": 1,
+      "difficulte": "facile",
+      "boucle": true
+    },
+    "niveau_prix": "€",
+    "equipements": [
+      "parking",
+      "restaurant",
+      "chien",
+      "plat",
+      "ombre",
+      "acces-voiture"
+    ],
+    "liens": [
+      {
+        "libelle": "Lago di Dobbiaco",
+        "url": "https://throneandvine.com/lago-di-dobbiaco-toblacher-see/"
+      }
+    ],
+    "etiquettes": [
+      "gratuit",
+      "plat",
+      "proche du camping",
+      "balade du soir"
     ]
   }
 ]

@@ -39,7 +39,7 @@
     "titre": "Papiers du chien pour l'Italie",
     "portee": "Passage de frontière France-Italie",
     "resume": "Passeport européen, puce électronique et vaccin antirabique en cours de validité.",
-    "detail": "Le vaccin antirabique doit dater d'au moins 21 jours avant le passage et être encore valide au retour. À VÉRIFIER auprès du vétérinaire avant le départ : les dates de rappel se contrôlent sur le passeport, pas de mémoire.",
+    "detail": "Puce électronique, puis passeport européen rempli par un vétérinaire. Le vaccin antirabique n'est valide que 21 jours après la primo-injection, et cette injection doit être POSTÉRIEURE à la pose de la puce. Un rappel fait avant expiration du vaccin précédent ne rouvre pas le délai de 21 jours. À FAIRE MAINTENANT : vérifier la date du dernier rappel sur le passeport pour caler le délai avant octobre.",
     "gravite": "elevee",
     "a_reverifier": true
   },
@@ -56,8 +56,8 @@
     "id": "route-hiver",
     "titre": "Équipement hivernal et cols",
     "portee": "Italie du Nord, routes de montagne",
-    "resume": "Pneus hiver ou chaînes à bord exigibles dès le 15 octobre sur de nombreuses routes de montagne.",
-    "detail": "Les ordonnances locales du Haut-Adige et de la Vénétie imposent pneus hiver ou chaînes à bord sur de nombreux axes d'altitude à partir de la mi-octobre — soit pendant le séjour. Les cols (Giau, Falzarego, Pordoi, Sella) peuvent fermer après une chute de neige précoce. À VÉRIFIER avant de partir, et prévoir les chaînes.",
+    "resume": "Pneus hiver ou chaînes obligatoires du 15 novembre au 15 avril — donc pas encore pendant le séjour.",
+    "detail": "L'obligation légale court du 15 novembre au 15 avril : elle ne s'applique pas du 10 au 23 octobre. Mais elle ne protège de rien en cas de neige précoce, et les provinces alpines peuvent l'avancer par arrêté local. Précédent réel : le 3 octobre 2024, le Passo Giau a fermé une nuit pour 15 à 40 cm de neige, rouvert le lendemain. Les cols dolomitiques n'ont pas de date de fermeture fixe : elle se décide au cas par cas selon la neige tombée. Chaînes à bord recommandées malgré tout.",
     "gravite": "elevee",
     "a_reverifier": true
   },
@@ -68,5 +68,42 @@
     "resume": "Mesurer la hauteur réelle une fois la tente montée et la noter.",
     "detail": "Une voiture équipée d'une tente de toit dépasse souvent 2 m, ce qui interdit la plupart des parkings souterrains et impose de vérifier les portiques. La surconsommation est réelle : compter 10 à 20 % de carburant en plus, d'où les 9,5 L/100 km retenus au budget. Rouler à 110 km/h plutôt qu'à 130 réduit nettement la consommation et le bruit.",
     "gravite": "moyenne"
+  },
+  {
+    "id": "chien-voiture-italie",
+    "titre": "Transport du chien en voiture en Italie",
+    "portee": "Toute l'Italie, article 169 du code de la route",
+    "resume": "Le chien doit être en caisse, derrière une grille, ou attaché par un harnais à une ceinture arrière.",
+    "detail": "Un transport qui gêne ou met en danger la conduite est interdit. Trois montages sont conformes : une caisse de transport, une grille séparant le coffre de l'habitacle, ou un harnais relié à une ceinture arrière trois points. Un chien libre sur la banquette ne l'est pas. Sanction : 87 à 344 € et un point de permis. C'est contrôlé.",
+    "amende": "87 à 344 € et 1 point",
+    "gravite": "elevee",
+    "source": "https://www.poliziadistato.it/articolo/alcune-regole-per-il-trasporto"
+  },
+  {
+    "id": "equipement-voiture",
+    "titre": "Équipement obligatoire à bord",
+    "portee": "Italie, véhicule immatriculé en France",
+    "resume": "Un gilet réfléchissant par personne et un triangle de présignalisation. Pas de vignette en Italie.",
+    "detail": "Le gilet est obligatoire pour qui descend sur la chaussée ou l'accotement, et le triangle se place à 50 m en cas de panne. L'Italie n'a pas de vignette forfaitaire : les autoroutes se paient au péage, à l'usage.",
+    "gravite": "moyenne",
+    "source": "https://www.preventionroutiere.asso.fr/wp-content/uploads/2016/04/Italie.pdf"
+  },
+  {
+    "id": "ztl",
+    "titre": "Zones à circulation restreinte (ZTL)",
+    "portee": "Bolzano et Bressanone",
+    "resume": "Centres interdits en permanence aux véhicules non autorisés, avec contrôle par caméra.",
+    "detail": "Bolzano et Bressanone ont des ZTL permanentes : l'accès est réservé aux détenteurs d'un permis, et les caméras verbalisent automatiquement. Se garer à l'extérieur et finir à pied. Les villages de montagne du séjour ne sont pas concernés.",
+    "gravite": "moyenne",
+    "source": "https://urbanaccessregulations.eu/countries-mainmenu-147/italy-mainmenu-81/bolzano-province/bolzano-ar"
+  },
+  {
+    "id": "peage-hauteur",
+    "titre": "Péages et hauteur avec la tente de toit",
+    "portee": "Autoroutes françaises et italiennes",
+    "resume": "Au-delà de 2 m, éviter les voies de télépéage automatique : prendre une voie avec péagiste.",
+    "detail": "La classification au péage se fait sur la hauteur du véhicule, et une tente de toit fait couramment franchir les 2 m — une simple galerie ajoute déjà 15 à 20 cm. Les portiques automatiques peuvent alors surclasser le véhicule. Mesurer la hauteur réelle une fois la tente montée, la noter, et privilégier les voies avec péagiste au moindre doute.",
+    "gravite": "moyenne",
+    "source": "https://www.bipandgo.com/actualites/peage-coffre-toit"
   }
 ]

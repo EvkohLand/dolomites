@@ -113,7 +113,7 @@
         "heure": "14:00"
       }
     ],
-    "note": "Le jour à ne pas manquer : le téléphérique du Lagazuoi ferme sa saison le 19."
+    "note": "Le jour à ne pas manquer : le téléphérique du Lagazuoi a fermé le 19 octobre en 2025. S'il est déjà fermé, replier sur le Sass Pordoi, confirmé ouvert jusqu'au 1er novembre."
   },
   {
     "date": "2026-10-17",
@@ -135,6 +135,11 @@
       {
         "lieu": "misurina",
         "heure": "15:00"
+      },
+      {
+        "lieu": "lago-antorno",
+        "heure": "15:30",
+        "note": "Juste avant le péage, reflet des Tre Cime."
       }
     ],
     "note": "Le morceau de bravoure. Monter tôt : le parking du Rifugio Auronzo se remplit."

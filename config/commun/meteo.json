@@ -1,47 +1,47 @@
 {
-  "source": "Normales saisonnières d'octobre pour les vallées des Dolomites (1200-1600 m), d'après les moyennes publiées pour Cortina d'Ampezzo et Dobbiaco.",
-  "avertissement": "ESTIMATION SAISONNIÈRE, PAS UNE PRÉVISION. Une prévision à 13 mois n'existe pas. À remplacer par une vraie prévision 5 jours avant le départ.",
-  "note_altitude": "En altitude (2000-2500 m), retirer 6 à 8 °C aux valeurs ci-dessous. Au sommet du Lagazuoi ou des Tre Cime, le gel est la règle le matin.",
+  "source": "Normales climatiques de Cortina d'Ampezzo (1224 m), moyennes par décade : 12,4/4,6 °C du 1er au 10 octobre, 11,1/2,9 du 11 au 20, 9,8/1,5 du 21 au 31. Environ 12 jours avec précipitations sur le mois, 4 à 6 h de soleil par jour.",
+  "avertissement": "ESTIMATION SAISONNIÈRE, PAS UNE PRÉVISION — une prévision à 13 mois n'existe pas. Ces valeurs sont des moyennes climatiques. À remplacer par une vraie prévision 5 jours avant le départ.",
+  "note_altitude": "Au-dessus de 2000 m : 2 à 8 °C dans la journée et gel nocturne régulier dès la première semaine. Risque de neige croissant au-dessus de 2500 m. Au sommet du Lagazuoi, du Sass Pordoi ou aux Tre Cime, compter le gel le matin.",
   "soleil": {
-    "lever": "07:35",
-    "coucher": "18:35",
-    "note": "Mi-octobre. Le jour raccourcit vite : environ 11 heures de lumière, et la nuit tombe tôt dans les vallées encaissées."
+    "lever": "07:26",
+    "coucher": "18:27",
+    "note": "Relevé à Cortina le 15 octobre : 11 h 01 de jour. La nuit tombe tôt dans les vallées encaissées — prévoir les frontales."
   },
   "jours": [
     {
       "date": "2026-10-10",
       "jour": 1,
-      "temp_min": 3,
-      "temp_max": 13,
+      "temp_min": 5,
+      "temp_max": 12,
       "ciel": "soleil",
       "pluie_pct": 20,
-      "limite_neige_m": 2200,
+      "limite_neige_m": 2500,
       "note": "Vallée du Rhône : plus doux que les valeurs ci-dessus, compter 8 à 18 °C."
     },
     {
       "date": "2026-10-11",
       "jour": 2,
       "temp_min": 3,
-      "temp_max": 13,
+      "temp_max": 11,
       "ciel": "nuages",
       "pluie_pct": 30,
-      "limite_neige_m": 2200,
+      "limite_neige_m": 2500,
       "note": "Journée de route. Températures indiquées à l'arrivée dans le Haut-Adige."
     },
     {
       "date": "2026-10-12",
       "jour": 3,
-      "temp_min": 2,
-      "temp_max": 12,
+      "temp_min": 3,
+      "temp_max": 11,
       "ciel": "soleil",
       "pluie_pct": 15,
-      "limite_neige_m": 2200
+      "limite_neige_m": 2500
     },
     {
       "date": "2026-10-13",
       "jour": 4,
-      "temp_min": 2,
-      "temp_max": 12,
+      "temp_min": 3,
+      "temp_max": 11,
       "ciel": "soleil",
       "pluie_pct": 15,
       "limite_neige_m": 2200
@@ -49,8 +49,8 @@
     {
       "date": "2026-10-14",
       "jour": 5,
-      "temp_min": 2,
-      "temp_max": 12,
+      "temp_min": 3,
+      "temp_max": 11,
       "ciel": "nuages",
       "pluie_pct": 35,
       "limite_neige_m": 2200
@@ -58,7 +58,7 @@
     {
       "date": "2026-10-15",
       "jour": 6,
-      "temp_min": 1,
+      "temp_min": 3,
       "temp_max": 11,
       "ciel": "pluie",
       "pluie_pct": 55,
@@ -68,7 +68,7 @@
     {
       "date": "2026-10-16",
       "jour": 7,
-      "temp_min": 1,
+      "temp_min": 3,
       "temp_max": 11,
       "ciel": "nuages",
       "pluie_pct": 30,
@@ -77,66 +77,66 @@
     {
       "date": "2026-10-17",
       "jour": 8,
-      "temp_min": 1,
+      "temp_min": 3,
       "temp_max": 11,
       "ciel": "soleil",
       "pluie_pct": 20,
-      "limite_neige_m": 2000
+      "limite_neige_m": 2200
     },
     {
       "date": "2026-10-18",
       "jour": 9,
-      "temp_min": 0,
-      "temp_max": 10,
+      "temp_min": 3,
+      "temp_max": 11,
       "ciel": "soleil",
       "pluie_pct": 20,
-      "limite_neige_m": 2000,
+      "limite_neige_m": 2200,
       "note": "Gel matinal probable dans la tente. Duvet chaud et sous-couche indispensables."
     },
     {
       "date": "2026-10-19",
       "jour": 10,
-      "temp_min": 0,
-      "temp_max": 10,
+      "temp_min": 3,
+      "temp_max": 11,
       "ciel": "nuages",
       "pluie_pct": 35,
-      "limite_neige_m": 2000
+      "limite_neige_m": 2200
     },
     {
       "date": "2026-10-20",
       "jour": 11,
-      "temp_min": 0,
-      "temp_max": 10,
+      "temp_min": 3,
+      "temp_max": 11,
       "ciel": "pluie",
       "pluie_pct": 50,
-      "limite_neige_m": 2000
+      "limite_neige_m": 2200
     },
     {
       "date": "2026-10-21",
       "jour": 12,
-      "temp_min": -1,
-      "temp_max": 9,
+      "temp_min": 2,
+      "temp_max": 10,
       "ciel": "nuages",
       "pluie_pct": 35,
-      "limite_neige_m": 2000
+      "limite_neige_m": 2200
     },
     {
       "date": "2026-10-22",
       "jour": 13,
-      "temp_min": -1,
-      "temp_max": 9,
+      "temp_min": 2,
+      "temp_max": 10,
       "ciel": "soleil",
       "pluie_pct": 25,
-      "limite_neige_m": 2000
+      "limite_neige_m": 2200
     },
     {
       "date": "2026-10-23",
       "jour": 14,
-      "temp_min": -2,
-      "temp_max": 9,
+      "temp_min": 2,
+      "temp_max": 10,
       "ciel": "soleil",
       "pluie_pct": 25,
-      "limite_neige_m": 2000,
+      "limite_neige_m": 2200,
       "note": "Retour. Gel au départ, redoux en descendant vers le sud."
     }
   ],

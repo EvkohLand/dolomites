@@ -4,17 +4,17 @@
   "pays": {
     "FR": {
       "libelle": "France",
-      "gazole": 1.72,
-      "sp95": 1.82,
-      "note": "Prix moyen hors autoroute. Sur autoroute, compter 15 à 25 centimes de plus par litre : faire le plein avant de s'engager.",
+      "gazole": 1.8,
+      "sp95": 1.85,
+      "note": "Ordre de grandeur hors autoroute en septembre 2026 ; les relevés divergent beaucoup d'une source à l'autre. Sur autoroute, 15 à 25 centimes de plus par litre.",
       "a_reverifier": true,
       "source": "https://www.prix-carburants.gouv.fr/"
     },
     "IT": {
       "libelle": "Italie",
-      "gazole": 1.75,
-      "sp95": 1.85,
-      "note": "Toujours choisir le « fai da te » (libre-service) plutôt que le « servito » : l'écart atteint 15 à 20 centimes par litre pour exactement le même carburant.",
+      "gazole": 2.266,
+      "sp95": 2.143,
+      "note": "Relevé mi-septembre 2026 en libre-service. Sur autoroute c'est plus cher : gazole 2,346 €/L, essence 2,236 €/L. Toujours choisir le « fai da te » plutôt que le « servito ».",
       "a_reverifier": true,
       "source": "https://carburanti.mise.gov.it/"
     },
@@ -26,5 +26,5 @@
       "a_reverifier": true
     }
   },
-  "strategie": "Faire le plein en Autriche si l'itinéraire y passe, sinon en Italie en libre-service. Éviter les stations d'autoroute françaises, les plus chères du parcours."
+  "strategie": "Sur les relevés de septembre 2026, le carburant est NETTEMENT plus cher en Italie qu'en France (gazole 2,27 contre 1,80 €/L). Faire le plein en France avant la frontière, puis en libre-service en Italie. Prix à revérifier avec une application de prix à la pompe avant de partir : ces chiffres bougent chaque semaine."
 }
