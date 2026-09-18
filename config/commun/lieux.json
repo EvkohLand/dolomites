@@ -2372,7 +2372,8 @@
         "legende": "Plants in the Dolomites at Lake Sorapis 05",
         "credit": "Petr1888 — Wikimedia Commons, CC BY-SA 4.0"
       }
-    ]
+    ],
+    "acces_route": "passo-tre-croci"
   },
   {
     "id": "col-raiser",
@@ -2960,7 +2961,8 @@
         "legende": "Neuner Vancouver2",
         "credit": "ZBOBZ — Wikimedia Commons, CC BY-SA 2.0"
       }
-    ]
+    ],
+    "acces_route": "pederu"
   },
   {
     "id": "kronplatz",
@@ -4665,7 +4667,8 @@
         "legende": "Passo pordoi Sas Pordoi Rifugio Maria 2995 m View from Piz Boe 3152m (1998y.) panoramio",
         "credit": "Zoran Kurelić Rabko — Wikimedia Commons, CC BY-SA 3.0"
       }
-    ]
+    ],
+    "acces_route": "passo-pordoi"
   },
   {
     "id": "lago-landro",
@@ -5549,5 +5552,104 @@
         "credit": "VitVit — Wikimedia Commons, CC BY-SA 4.0"
       }
     ]
+  },
+  {
+    "id": "passo-tre-croci",
+    "nom": "Passo Tre Croci — accès Lago di Sorapis",
+    "categorie": "parking",
+    "gps": [
+      46.5558,
+      12.2031
+    ],
+    "commune": "Cortina d'Ampezzo (BL)",
+    "altitude": 1809,
+    "resume": "Point d'accès routier au sentier 215 vers le Lago di Sorapis. Le tracé voiture s'arrête ici ; la suite se fait à pied.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "chien": {
+      "admis": true
+    },
+    "niveau_prix": "€",
+    "equipements": [
+      "parking",
+      "acces-voiture",
+      "chien"
+    ],
+    "recherche_photo": "Passo Tre Croci Dolomites",
+    "etiquettes": [
+      "accès randonnée",
+      "parking",
+      "tracé voiture"
+    ],
+    "source": "https://thephotohikes.com/lago-di-sorapis-hike/"
+  },
+  {
+    "id": "pederu",
+    "nom": "Pederü — accès Alpe di Fanes",
+    "categorie": "parking",
+    "gps": [
+      46.6394,
+      12.0412
+    ],
+    "commune": "San Vigilio di Marebbe (BZ)",
+    "altitude": 1548,
+    "resume": "Fin de la route de la vallée et départ classique vers Fanes. Le tracé voiture s'arrête au parking de Pederü.",
+    "prix": {
+      "type": "variable",
+      "detail": "Parking : tarif et conditions à revérifier selon la saison."
+    },
+    "chien": {
+      "admis": true
+    },
+    "niveau_prix": "€",
+    "equipements": [
+      "parking",
+      "restaurant",
+      "acces-voiture",
+      "chien"
+    ],
+    "recherche_photo": "Pederu Fanes Dolomites",
+    "etiquettes": [
+      "accès randonnée",
+      "parking",
+      "tracé voiture"
+    ],
+    "source": "https://www.rifugiofanes.com/en/contacts-how-to-arrive"
+  },
+  {
+    "id": "passo-pordoi",
+    "nom": "Passo Pordoi — accès Sass Pordoi",
+    "categorie": "vue",
+    "gps": [
+      46.4877,
+      11.812
+    ],
+    "commune": "Canazei / Arabba",
+    "altitude": 2239,
+    "resume": "Col routier et station basse de la remontée vers Sass Pordoi. Cette étape rend visible le long détour routier nécessaire depuis l'est des Dolomites.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "chien": {
+      "admis": true
+    },
+    "niveau_prix": "€",
+    "equipements": [
+      "parking",
+      "restaurant",
+      "vue",
+      "acces-voiture",
+      "chien"
+    ],
+    "recherche_photo": "Passo Pordoi Dolomites",
+    "etiquettes": [
+      "col",
+      "accès remontée",
+      "tracé voiture"
+    ],
+    "source": "https://www.getty.edu/vow/TGNFullDisplay?english=Y&subjectid=7054193"
   }
 ]
