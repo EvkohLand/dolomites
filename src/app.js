@@ -272,6 +272,34 @@
     });
   }
 
+  /* Vignette de la liste : la première photo du lieu, sinon l'icône de sa catégorie
+     sur un aplat de sa couleur — toutes les lignes gardent ainsi le même alignement. */
+  function vignette(l) {
+    var c = cat(l.categorie);
+    var n = el('span', 'vignette');
+    n.style.setProperty('--c', c.couleur);
+
+    var ph = (l.photos || []).find(function (x) { return x && (x.url || x.fichier); });
+    if (ph) {
+      var img = document.createElement('img');
+      img.src = ph.url || cheminPhoto(ph.fichier);
+      img.alt = '';
+      img.loading = 'lazy';
+      /* Photo distante indisponible hors ligne : on retombe sur l'icône. */
+      img.addEventListener('error', function () {
+        img.remove();
+        n.classList.add('vignette--icone');
+        n.appendChild(svg(c.icone));
+      });
+      n.appendChild(img);
+    } else {
+      n.classList.add('vignette--icone');
+      n.appendChild(svg(c.icone));
+    }
+    if (aVerifier(l)) n.classList.add('vignette--alerte');
+    return n;
+  }
+
   function dessinerListe() {
     var ul = document.getElementById('liste-lieux');
     var compte = document.getElementById('liste-compte');
@@ -283,10 +311,8 @@
       var b = el('button', 'liste__item');
       b.type = 'button';
       b.dataset.lieu = l.id;
-      var p = el('span', 'liste__pastille');
-      p.style.setProperty('--c', cat(l.categorie).couleur);
-      b.appendChild(p);
-      var d = el('span');
+      b.appendChild(vignette(l));
+      var d = el('span', 'liste__texte');
       d.appendChild(el('span', 'liste__nom', l.nom));
       d.appendChild(document.createElement('br'));
       var bits = [cat(l.categorie).libelle];

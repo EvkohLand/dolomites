@@ -87,13 +87,18 @@ const PLAFOND_MO = 15;
 const TYPES = { '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png',
                 '.webp': 'image/webp', '.avif': 'image/avif', '.gif': 'image/gif' };
 
-/* Seules les photos réellement citées par un lieu sont embarquées : une image
-   oubliée dans le dossier ne doit pas alourdir le fichier qu'on met sur le téléphone. */
+/* Seules les premières photos de chaque lieu sont embarquées. Tout embarquer ferait
+   un fichier de 15 Mo que Chrome Android met plusieurs secondes à ouvrir ; les photos
+   suivantes restent en ligne et s'affichent dès que le réseau revient. */
+const EMBARQUEES_PAR_LIEU = Number(process.env.PHOTOS_HORS_LIGNE || 2);
 const citees = new Set();
 for (const rel of fichiers) {
   if (!rel.endsWith('lieux.json')) continue;
   for (const l of JSON.parse(lireFichier(path.join(R, 'config', rel)))) {
-    (l.photos || []).forEach(ph => { if (ph && ph.fichier) citees.add(ph.fichier); });
+    (l.photos || [])
+      .filter(ph => ph && ph.fichier)
+      .slice(0, EMBARQUEES_PAR_LIEU)
+      .forEach(ph => citees.add(ph.fichier));
   }
 }
 
@@ -150,7 +155,11 @@ console.log(`  dist/index.html      site servi par Pages`);
 console.log(`  dist/dolomites.html  fichier autonome hors ligne, ${poids}`);
 console.log(`  ${fichiers.length} fichiers de configuration inlinés`);
 if (blocsPhotos.length) console.log(`  ${blocsPhotos.length} photo(s) embarquée(s), ${poidsLisible(poidsPhotos)}`);
-if (ignorees.length) console.log(`  ${ignorees.length} photo(s) non embarquée(s) : ${ignorees.join(', ')}`);
+const horsEmbarque = photosDispo.length - blocsPhotos.length;
+if (horsEmbarque > 0) console.log(`  ${horsEmbarque} photo(s) servies en ligne seulement (site), non embarquées`);
+if (ignorees.filter(x => x.includes('(')).length) {
+  console.log(`  écartées : ${ignorees.filter(x => x.includes('(')).join(', ')}`);
+}
 if (externesBloquants.length) {
   console.warn('\n  Attention — ressources externes qui bloqueraient le hors ligne :');
   externesBloquants.forEach(u => console.warn('    · ' + u));
