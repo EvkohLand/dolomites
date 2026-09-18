@@ -4,18 +4,32 @@
     {
       "id": "14-jours",
       "libelle": "14 jours — séjour complet",
-      "resume": "Du 10 au 23 octobre. Val Gardena, Alta Badia, Cortina, Tre Cime, Braies, Fanes.",
+      "resume": "Du 10 au 23 octobre. 3 bases principales : Ortisei, Cortina puis Dobbiaco. Progression d'ouest en est, avec journées locales et retour clairement séparé.",
       "jours": 14,
       "dossier": "scenarios/14-jours",
-      "titre": "Dolomites — 14 jours"
+      "titre": "Dolomites — 14 jours",
+      "logique_route": "Ouest → Est : Ortisei / Val Gardena → Alta Badia → Cortina → Tre Cime / Braies. Les boucles locales sont distinguées des transferts et le retour est affiché séparément.",
+      "bases": [
+        "Ortisei",
+        "Cortina",
+        "Dobbiaco"
+      ],
+      "etapes_route": 12
     },
     {
       "id": "10-jours",
       "libelle": "10 jours — version courte",
-      "resume": "Du 10 au 19 octobre. Garde Lagazuoi, Seceda, Alpe di Siusi et Tre Cime ; abandonne Fanes, Kronplatz et la journée tampon.",
+      "resume": "Du 10 au 19 octobre. Version compacte sur les mêmes 3 bases, en gardant Seceda, Alpe di Siusi, Lagazuoi, Tre Cime et Braies.",
       "jours": 10,
       "dossier": "scenarios/10-jours",
-      "titre": "Dolomites — 10 jours"
+      "titre": "Dolomites — 10 jours",
+      "logique_route": "Même progression Ouest → Est que le séjour complet, avec moins de journées locales. Les détours de visite sont visibles séparément du trajet principal.",
+      "bases": [
+        "Ortisei",
+        "Cortina",
+        "Dobbiaco"
+      ],
+      "etapes_route": 8
     }
   ],
   "note": "Ajouter un scénario : copier un dossier de scenarios/, adapter ses quatre fichiers (reglages, planning, itineraire, budget), ajouter une entrée ici. Les lieux, catégories, météo et règles restent communs : jamais dupliqués."
