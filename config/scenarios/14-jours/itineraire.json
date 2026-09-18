@@ -2,35 +2,55 @@
   "etapes": [
     {
       "id": "etape-aller-1",
+      "ordre": 1,
       "jour": 1,
+      "type": "aller",
+      "libelle": "Départ — vallée du Rhône",
       "de": "depart",
       "vers": "etape-route-aller",
       "par": [],
-      "peages": 22,
+      "visites": [],
+      "visites_hors_route": [],
       "pays": "FR",
       "note": "Départ — vallée du Rhône",
+      "peages": 22,
       "distance_km": 213,
       "duree_h": 2.3
     },
     {
       "id": "etape-aller-2",
+      "ordre": 2,
       "jour": 2,
+      "type": "aller",
+      "libelle": "Traversée vers le Val Gardena",
       "de": "etape-route-aller",
       "vers": "aire-ortisei",
       "par": [],
-      "peages": 55,
+      "visites": [],
+      "visites_hors_route": [],
       "pays": "IT",
       "note": "Traversée vers le Val Gardena",
+      "peages": 55,
       "distance_km": 767,
       "duree_h": 8.7
     },
     {
       "id": "etape-j3",
+      "ordre": 3,
       "jour": 3,
+      "type": "boucle",
+      "libelle": "Val di Funes",
       "de": "aire-ortisei",
       "vers": "aire-ortisei",
       "par": [
         "santa-maddalena"
+      ],
+      "visites": [
+        "santa-maddalena",
+        "adolf-munkel"
+      ],
+      "visites_hors_route": [
+        "adolf-munkel"
       ],
       "pays": "IT",
       "note": "Val di Funes",
@@ -39,12 +59,25 @@
     },
     {
       "id": "etape-j6",
+      "ordre": 4,
       "jour": 6,
+      "type": "transfert",
+      "libelle": "Col Raiser et Alta Badia",
       "de": "aire-ortisei",
       "vers": "camping-cortina",
       "par": [
         "passo-gardena",
         "corvara"
+      ],
+      "visites": [
+        "col-raiser",
+        "passo-gardena",
+        "corvara",
+        "pralongia"
+      ],
+      "visites_hors_route": [
+        "col-raiser",
+        "pralongia"
       ],
       "pays": "IT",
       "note": "Col Raiser et Alta Badia",
@@ -53,11 +86,23 @@
     },
     {
       "id": "etape-j7",
+      "ordre": 5,
       "jour": 7,
+      "type": "boucle",
+      "libelle": "Falzarego et Lagazuoi",
       "de": "camping-cortina",
       "vers": "camping-cortina",
       "par": [
         "passo-falzarego"
+      ],
+      "visites": [
+        "passo-falzarego",
+        "lagazuoi",
+        "cinque-torri"
+      ],
+      "visites_hors_route": [
+        "lagazuoi",
+        "cinque-torri"
       ],
       "pays": "IT",
       "note": "Falzarego et Lagazuoi",
@@ -66,26 +111,65 @@
     },
     {
       "id": "etape-j8",
+      "ordre": 6,
       "jour": 8,
+      "type": "boucle",
+      "libelle": "Passo Giau et repos",
       "de": "camping-cortina",
       "vers": "camping-cortina",
       "par": [
         "passo-giau"
       ],
+      "visites": [
+        "passo-giau"
+      ],
+      "visites_hors_route": [],
       "pays": "IT",
       "note": "Passo Giau et repos",
       "distance_km": 54,
       "duree_h": 1.3
     },
     {
+      "id": "etape-j9",
+      "ordre": 7,
+      "jour": 9,
+      "type": "boucle",
+      "libelle": "Lago di Sorapis",
+      "de": "camping-cortina",
+      "vers": "camping-cortina",
+      "par": [
+        "passo-tre-croci"
+      ],
+      "visites": [
+        "lago-sorapis"
+      ],
+      "visites_hors_route": [
+        "lago-sorapis"
+      ],
+      "pays": "IT",
+      "note": "Lago di Sorapis"
+    },
+    {
       "id": "etape-j10",
+      "ordre": 8,
       "jour": 10,
+      "type": "transfert",
+      "libelle": "Tre Cime di Lavaredo",
       "de": "camping-cortina",
       "vers": "camping-olympia",
       "par": [
         "route-tre-cime",
-        "misurina",
-        "lago-antorno"
+        "lago-antorno",
+        "misurina"
+      ],
+      "visites": [
+        "route-tre-cime",
+        "rando-tre-cime",
+        "lago-antorno",
+        "misurina"
+      ],
+      "visites_hors_route": [
+        "rando-tre-cime"
       ],
       "pays": "IT",
       "note": "Tre Cime di Lavaredo",
@@ -94,11 +178,21 @@
     },
     {
       "id": "etape-j11",
+      "ordre": 9,
       "jour": 11,
+      "type": "boucle",
+      "libelle": "Braies et Prato Piazza",
       "de": "camping-olympia",
       "vers": "camping-olympia",
       "par": [
         "lago-braies"
+      ],
+      "visites": [
+        "lago-braies",
+        "prato-piazza"
+      ],
+      "visites_hors_route": [
+        "prato-piazza"
       ],
       "pays": "IT",
       "note": "Braies et Prato Piazza",
@@ -106,14 +200,59 @@
       "duree_h": 0.6
     },
     {
+      "id": "etape-j12",
+      "ordre": 10,
+      "jour": 12,
+      "type": "boucle",
+      "libelle": "Alpe di Fanes",
+      "de": "camping-olympia",
+      "vers": "camping-olympia",
+      "par": [
+        "pederu"
+      ],
+      "visites": [
+        "alpe-fanes"
+      ],
+      "visites_hors_route": [
+        "alpe-fanes"
+      ],
+      "pays": "IT",
+      "note": "Alpe di Fanes"
+    },
+    {
+      "id": "etape-j13",
+      "ordre": 11,
+      "jour": 13,
+      "type": "boucle",
+      "libelle": "Sass Pordoi ou journée libre",
+      "de": "camping-olympia",
+      "vers": "camping-olympia",
+      "par": [
+        "passo-pordoi"
+      ],
+      "visites": [
+        "sass-pordoi"
+      ],
+      "visites_hors_route": [
+        "sass-pordoi"
+      ],
+      "pays": "IT",
+      "note": "Sass Pordoi ou journée libre"
+    },
+    {
       "id": "etape-retour",
+      "ordre": 12,
       "jour": 14,
+      "type": "retour",
+      "libelle": "Retour",
       "de": "camping-olympia",
       "vers": "depart",
       "par": [],
-      "peages": 77,
+      "visites": [],
+      "visites_hors_route": [],
       "pays": "IT",
       "note": "Retour",
+      "peages": 77,
       "distance_km": 1014,
       "duree_h": 11.4
     }
@@ -124,5 +263,5 @@
     "opacite": 0.55,
     "pointilles": "6 6"
   },
-  "note": "Étapes générées depuis le planning, distances et durées calculées sur le réseau routier réel. Relancer node etapes-depuis-planning.js puis node trace-route.js après modification du planning."
+  "note": "Étapes générées depuis le planning : une par journée avec déplacement, passant par les lieux accessibles en voiture. Les sommets de remontées, plateaux et randonnées en sont exclus — on ne les rejoint pas au volant. Relancer node trace-route.js après modification."
 }
