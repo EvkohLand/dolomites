@@ -1,0 +1,53 @@
+name: Enrichir les galeries photos
+
+on:
+  workflow_dispatch:
+    inputs:
+      cible:
+        description: "Nombre maximum de photos par lieu"
+        required: false
+        default: "30"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/enrichir-photos.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enrichir-photos
+  cancel-in-progress: false
+
+jobs:
+  enrichir:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Rechercher des photos libres sur Wikimedia Commons
+        env:
+          CIBLE: ${{ github.event.inputs.cible || '30' }}
+          LARGEUR: "960"
+          RESULTATS_PAR_RECHERCHE: "50"
+        run: node photos-commons.js
+
+      - name: Valider la configuration
+        run: node validate.js
+
+      - name: Enregistrer les nouvelles photos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/commun/lieux.json
+          if git diff --cached --quiet; then
+            echo "Aucune nouvelle photo."
+          else
+            git commit -m "Enrich photo galleries from Wikimedia Commons"
+            git push
+          fi
