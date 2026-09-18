@@ -458,6 +458,10 @@
         corps.appendChild(el('span', 'resume-etape__detour',
           'Visites hors tracé voiture : ' + hors.map(nomRef).join(', ')));
       }
+      if (type === 'boucle' && km >= 80) {
+        corps.appendChild(el('span', 'resume-etape__detour',
+          'Détour routier important : ' + km + ' km aller-retour depuis la base.'));
+      }
 
       b.appendChild(corps);
       b.addEventListener('click', function () { focusEtape(e); });
@@ -923,6 +927,9 @@
           [metaRoute.libelle, kmRoute ? kmRoute + ' km' : '', hRoute ? dureeAffiche(hRoute) : ''].filter(Boolean).join(' · ')));
         var horsRoute = visitesHorsRoute(routeJour);
         if (horsRoute.length) tc.appendChild(el('span', 'jour__trajet-detour', 'Hors route voiture : ' + horsRoute.map(nomRef).join(', ')));
+        if (type === 'boucle' && kmRoute >= 80) {
+          tc.appendChild(el('span', 'jour__trajet-detour', 'Détour routier important : ' + kmRoute + ' km A/R.'));
+        }
         tr.appendChild(tc);
         tr.addEventListener('click', function () {
           focusEtape(routeJour);
