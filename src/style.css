@@ -135,6 +135,64 @@ main { padding: 0 var(--gouttiere); max-width: 1320px; margin: 0 auto; }
 
 .panneau-cote { display: flex; flex-direction: column; gap: 12px; min-height: 0; }
 
+.resume-itineraire {
+  padding: 12px;
+  border: 1px solid var(--trait);
+  border-radius: var(--rayon);
+  background: var(--surface);
+}
+.resume-itineraire__tete {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
+  margin-bottom: 5px;
+}
+.resume-itineraire__tete strong { font-size: 14px; }
+.resume-itineraire__tete span { font-size: 11.5px; color: var(--discret); }
+.resume-itineraire__intro {
+  margin: 0 0 9px;
+  color: var(--discret);
+  font-size: 11.5px;
+  line-height: 1.35;
+}
+.resume-itineraire__liste {
+  display: flex; flex-direction: column; gap: 5px;
+  max-height: 28vh; overflow-y: auto;
+  padding-right: 2px;
+}
+.resume-etape {
+  display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 8px;
+  width: 100%; padding: 7px 8px;
+  border: 1px solid var(--trait); border-left: 4px solid var(--trace);
+  border-radius: 8px; background: #fff;
+  color: var(--texte); font: inherit; text-align: left; cursor: pointer;
+}
+.resume-etape:hover, .resume-etape:focus-visible, .resume-etape.est-actif {
+  border-color: var(--trace);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--trace) 28%, transparent);
+}
+.resume-etape__num {
+  align-self: start;
+  display: grid; place-items: center;
+  min-width: 32px; min-height: 28px;
+  border-radius: 7px;
+  background: var(--trace); color: #fff;
+  font-size: 11px; font-weight: 800; letter-spacing: .04em;
+}
+.resume-etape__corps { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.resume-etape__titre { font-size: 12px; font-weight: 650; }
+.resume-etape__parcours {
+  font-size: 11.5px; line-height: 1.28; color: var(--texte);
+  white-space: normal;
+}
+.resume-etape__meta { font-size: 10.5px; color: var(--discret); }
+.resume-etape__detour {
+  margin-top: 2px; padding-top: 3px; border-top: 1px dashed var(--trait);
+  color: #755b26; font-size: 10.5px; line-height: 1.3;
+}
+.trace-legende { display: flex; flex-wrap: wrap; gap: 7px 10px; margin-top: 9px; }
+.trace-legende span { display: inline-flex; align-items: center; gap: 4px; color: var(--discret); font-size: 10.5px; }
+.trace-legende i { width: 13px; height: 4px; border-radius: 999px; background: var(--trace); }
+.resume-itineraire__aide { margin: 7px 0 0; color: var(--discret); font-size: 10px; line-height: 1.3; }
+
 .filtres { display: flex; flex-wrap: wrap; gap: 6px; }
 .filtre {
   display: inline-flex; align-items: center; gap: 6px;
@@ -204,6 +262,35 @@ main { padding: 0 var(--gouttiere); max-width: 1320px; margin: 0 auto; }
   color: #fff;
 }
 .pin__point svg { width: 14px; height: 14px; fill: currentColor; }
+.pin__etape {
+  position: absolute; left: 22px; top: 2px;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 24px; height: 17px; padding: 0 4px;
+  border-radius: 999px;
+  background: #fff; border: 1px solid rgba(0,0,0,.18);
+  color: #20201e; box-shadow: 0 1px 3px rgba(0,0,0,.18);
+  font: 800 9px/1 system-ui, sans-serif;
+  white-space: nowrap;
+}
+.trace-etape-wrap, .trace-fleche-wrap { background: none !important; border: 0 !important; }
+.trace-etape {
+  display: grid; grid-template-columns: auto auto; align-items: center; gap: 4px;
+  padding: 4px 7px; border-radius: 999px;
+  background: #fff; border: 2px solid var(--trace);
+  color: var(--trace); box-shadow: 0 2px 7px rgba(0,0,0,.23);
+  white-space: nowrap;
+}
+.trace-etape b { font: 800 10px/1 system-ui, sans-serif; }
+.trace-etape small { font: 700 8px/1 system-ui, sans-serif; color: #5e5a54; }
+.trace-fleche {
+  display: grid; place-items: center;
+  width: 22px; height: 22px;
+  color: var(--trace); font: 900 20px/1 system-ui, sans-serif;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff, 0 2px 5px rgba(0,0,0,.32);
+  transform-origin: 50% 50%;
+}
+.bulle__route { color: #6e675f; font-size: 11px; }
+.bulle--trace { font-weight: 600; }
 .pin--alerte::after {
   content: ""; position: absolute; top: -2px; right: -2px;
   width: 9px; height: 9px; border-radius: 50%;
@@ -323,6 +410,23 @@ main { padding: 0 var(--gouttiere); max-width: 1320px; margin: 0 auto; }
 .jour__date { font-size: 12px; color: var(--discret); }
 .jour__titre { margin: 0 0 8px; font-size: 17px; }
 .jour__zone { display: inline-block; margin-bottom: 9px; font-size: 12px; color: var(--discret); }
+.jour__trajet {
+  display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 8px;
+  width: 100%; margin: 1px 0 11px; padding: 8px 9px;
+  border: 1px solid var(--trait); border-left: 4px solid var(--trace);
+  border-radius: 8px; background: color-mix(in srgb, var(--trace) 5%, #fff);
+  color: var(--texte); font: inherit; text-align: left; cursor: pointer;
+}
+.jour__trajet:hover, .jour__trajet:focus-visible { border-color: var(--trace); }
+.jour__trajet-num {
+  display: grid; place-items: center; height: 27px;
+  border-radius: 7px; background: var(--trace); color: #fff;
+  font-size: 10.5px; font-weight: 800;
+}
+.jour__trajet-corps { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.jour__trajet-parcours { font-size: 11.5px; line-height: 1.3; font-weight: 600; }
+.jour__trajet-meta { color: var(--discret); font-size: 10.5px; }
+.jour__trajet-detour { color: #755b26; font-size: 10.5px; line-height: 1.3; }
 .jour__liste { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-direction: column; gap: 5px; }
 .jour__item {
   display: flex; gap: 8px; align-items: baseline;
@@ -415,6 +519,7 @@ table.grille td { font-variant-numeric: tabular-nums; }
   .choix select { flex: 1; max-width: none; }
   .carte-zone { grid-template-columns: 1fr; }
   #carte { height: 56vh; min-height: 320px; }
+  .resume-itineraire__liste { max-height: 260px; }
   .liste { max-height: none; }
   .modale__titre { font-size: 21px; }
   .barre { grid-template-columns: 96px 1fr 72px; font-size: 13px; }
