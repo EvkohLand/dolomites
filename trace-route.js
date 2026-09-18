@@ -77,7 +77,9 @@ async function route(dep, arr, par) {
       try {
         const r = await route(dep, arr, par);
         trace.etapes[e.id] = r;
-        const ecart = e.distance_km ? ` (annoncé ${e.distance_km} km)` : '';
+        const ecart = e.distance_km ? ` (ancien ${e.distance_km} km)` : '';
+        e.distance_km = r.distance_km;
+        e.duree_h = r.duree_h;
         console.log(`${r.distance_km} km, ${r.duree_h} h, ${r.points.length} points${ecart}`);
       } catch (err) {
         console.log(`échec — ${err.message}`);
@@ -86,6 +88,7 @@ async function route(dep, arr, par) {
     }
 
     fs.writeFileSync(path.join(dossier, 'trace.json'), JSON.stringify(trace, null, 2) + '\n', 'utf8');
-    console.log(`  → ${s.dossier}/trace.json écrit\n`);
+    fs.writeFileSync(path.join(dossier, 'itineraire.json'), JSON.stringify(itineraire, null, 2) + '\n', 'utf8');
+    console.log(`  → ${s.dossier}/trace.json + itineraire.json écrits\n`);
   }
 })();
