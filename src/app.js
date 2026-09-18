@@ -6,6 +6,7 @@
   var E = {};          // état courant
   var carte = null, coucheMarqueurs = null, coucheTrace = null;
   var marqueurs = new Map();
+  var couchesEtapes = new Map();
 
   /* ---------- Chargement : servi (fetch) ou inliné (balises script) ---------- */
 
@@ -45,6 +46,14 @@
     var d = new Date(iso + 'T12:00:00');
     if (isNaN(d)) return iso;
     return d.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' });
+  }
+
+  function dureeAffiche(h) {
+    if (typeof h !== 'number' || isNaN(h)) return '';
+    var total = Math.round(h * 60);
+    var heures = Math.floor(total / 60), minutes = total % 60;
+    if (!heures) return minutes + ' min';
+    return heures + ' h' + (minutes ? ' ' + String(minutes).padStart(2, '0') : '');
   }
 
   function vide(n) { while (n && n.firstChild) n.removeChild(n.firstChild); }
@@ -183,15 +192,79 @@
     m.hidden = false;
   }
 
-  function icone(c, alerte) {
+  function etapesTriees() {
+    return ((E.itineraire && E.itineraire.etapes) || []).slice()
+      .sort(function (a, b) {
+        var oa = typeof a.ordre === 'number' ? a.ordre : (a.jour || 0);
+        var ob = typeof b.ordre === 'number' ? b.ordre : (b.jour || 0);
+        return oa - ob;
+      });
+  }
+
+  function typeEtape(e, i, total) {
+    if (e && e.type) return e.type;
+    if (e && (e.vers === 'depart' || i === total - 1)) return 'retour';
+    if (e && e.de === e.vers) return 'boucle';
+    if (i < 2) return 'aller';
+    return 'transfert';
+  }
+
+  function styleEtape(type) {
+    if (type === 'retour') return { couleur: '#8b4a3f', libelle: 'Retour' };
+    if (type === 'boucle') return { couleur: '#2f6f4f', libelle: 'Boucle / détour' };
+    if (type === 'transfert') return { couleur: '#9a6a2f', libelle: 'Transfert' };
+    return { couleur: '#42627a', libelle: 'Aller' };
+  }
+
+  function nomRef(ref) {
+    var l = resoudre(ref);
+    return l ? l.nom : ref;
+  }
+
+  function referencesEtape(e) {
+    return [e.de].concat(e.par || []).concat([e.vers]).filter(Boolean);
+  }
+
+  function visitesHorsRoute(e) {
+    if (Array.isArray(e.visites_hors_route)) return e.visites_hors_route;
+    var j = (E.planning || []).find(function (x) { return x.jour === e.jour; });
+    if (!j) return [];
+    var refs = new Set(referencesEtape(e));
+    return (j.activites || []).map(function (a) { return a.lieu; })
+      .filter(function (id) { return !refs.has(id); });
+  }
+
+  function indexPassagesEtapes() {
+    var m = new Map();
+    etapesTriees().forEach(function (e, i, arr) {
+      var ordre = typeof e.ordre === 'number' ? e.ordre : i + 1;
+      var type = typeEtape(e, i, arr.length);
+      referencesEtape(e).forEach(function (ref) {
+        if (!ref || ref === 'depart') return;
+        var v = m.get(ref) || [];
+        if (!v.some(function (x) { return x.ordre === ordre; })) {
+          v.push({ ordre: ordre, jour: e.jour, type: type });
+          m.set(ref, v);
+        }
+      });
+    });
+    return m;
+  }
+
+  function icone(c, alerte, passages) {
+    passages = passages || [];
+    var nums = passages.slice(0, 3).map(function (x) { return x.ordre; });
+    var badge = nums.length
+      ? '<span class="pin__etape">E' + nums.join('·') + (passages.length > 3 ? '+' : '') + '</span>'
+      : '';
     return L.divIcon({
       className: 'pin' + (alerte ? ' pin--alerte' : ''),
-      html: '<span class="pin__point" style="--pin:' + c.couleur + '"><svg aria-hidden="true"><use href="#ico-' + c.icone + '"></use></svg></span>',
-      iconSize: [26, 26], iconAnchor: [13, 13]
+      html: '<span class="pin__point" style="--pin:' + c.couleur + '"><svg aria-hidden="true"><use href="#ico-' + c.icone + '"></use></svg></span>' + badge,
+      iconSize: [42, 34], iconAnchor: [13, 17]
     });
   }
 
-  function infobulle(l) {
+  function infobulle(l, passages) {
     var bits = [cat(l.categorie).libelle];
     var px = prixAffiche(l);
     if (px) bits.push(px);
@@ -200,6 +273,11 @@
     n.appendChild(el('strong', null, l.nom));
     n.appendChild(document.createElement('br'));
     n.appendChild(el('span', 'bulle__meta', bits.join(' · ')));
+    if (passages && passages.length) {
+      n.appendChild(document.createElement('br'));
+      n.appendChild(el('span', 'bulle__route',
+        'Itinéraire : ' + passages.map(function (p) { return 'E' + p.ordre + ' (J' + p.jour + ')'; }).join(', ')));
+    }
     return n;
   }
 
@@ -207,24 +285,73 @@
     if (!carte) return;
     coucheMarqueurs.clearLayers();
     marqueurs.clear();
+    var passages = indexPassagesEtapes();
     E.lieuxVisibles().forEach(function (l) {
       if (!Array.isArray(l.gps)) return;
-      var m = L.marker(l.gps, { icon: icone(cat(l.categorie), aVerifier(l)), title: l.nom, riseOnHover: true });
+      var pe = passages.get(l.id) || [];
+      var m = L.marker(l.gps, { icon: icone(cat(l.categorie), aVerifier(l), pe), title: l.nom, riseOnHover: true });
       m.on('click', function () { ouvrirPanneau(l.id); });
-      /* Survol : le nom, le prix et les deux liens de navigation, sans ouvrir la fiche. */
-      m.bindTooltip(infobulle(l), { direction: 'top', offset: [0, -14], opacity: 1, className: 'bulle' });
+      /* Survol : le nom, le prix et les étapes qui passent par ce point. */
+      m.bindTooltip(infobulle(l, pe), { direction: 'top', offset: [0, -14], opacity: 1, className: 'bulle' });
       m.addTo(coucheMarqueurs);
       marqueurs.set(l.id, m);
+    });
+  }
+
+  function pointEtAngle(ligne, fraction) {
+    if (!ligne || ligne.length < 2) return null;
+    var i = Math.max(1, Math.min(ligne.length - 2, Math.round((ligne.length - 1) * fraction)));
+    var a = ligne[i - 1], p = ligne[i], b = ligne[i + 1];
+    var dx = b[1] - a[1];
+    var dy = -(b[0] - a[0]);
+    return { gps: p, angle: Math.atan2(dy, dx) * 180 / Math.PI };
+  }
+
+  function iconeFleche(couleur, angle) {
+    return L.divIcon({
+      className: 'trace-fleche-wrap',
+      html: '<span class="trace-fleche" style="--trace:' + couleur + ';transform:rotate(' + angle.toFixed(1) + 'deg)">➤</span>',
+      iconSize: [22, 22], iconAnchor: [11, 11]
+    });
+  }
+
+  function iconeNumeroEtape(ordre, jour, type, couleur) {
+    var retour = type === 'retour' ? ' ↩' : '';
+    return L.divIcon({
+      className: 'trace-etape-wrap',
+      html: '<span class="trace-etape" style="--trace:' + couleur + '"><b>E' + ordre + retour + '</b><small>J' + jour + '</small></span>',
+      iconSize: [48, 32], iconAnchor: [24, 16]
+    });
+  }
+
+  function focusEtape(e) {
+    if (!carte || !e) return;
+    var r = couchesEtapes.get(e.id);
+    if (r && r.ligne && r.ligne.length > 1) {
+      carte.fitBounds(L.latLngBounds(r.ligne), { padding: [44, 44], maxZoom: 13 });
+      if (r.polyline && r.polyline.setStyle) {
+        var w = r.poids || 4;
+        r.polyline.setStyle({ weight: w + 3, opacity: 1 });
+        setTimeout(function () {
+          if (r.polyline && r.polyline.setStyle) r.polyline.setStyle({ weight: w, opacity: r.opacite });
+        }, 1600);
+      }
+    }
+    Array.prototype.forEach.call(document.querySelectorAll('.resume-etape'), function (n) {
+      n.classList.toggle('est-actif', n.dataset.etape === e.id);
     });
   }
 
   function dessinerTrace() {
     if (!carte || !E.itineraire) return;
     coucheTrace.clearLayers();
+    couchesEtapes.clear();
     var st = E.itineraire.style_trace || {};
-    (E.itineraire.etapes || []).slice().sort(function (a, b) { return (a.jour || 0) - (b.jour || 0); }).forEach(function (e) {
+    var etapes = etapesTriees();
+
+    etapes.forEach(function (e, i) {
       var pts = [];
-      [e.de].concat(e.par || []).concat([e.vers]).forEach(function (ref) {
+      referencesEtape(e).forEach(function (ref) {
         var l = resoudre(ref);
         if (l && Array.isArray(l.gps)) pts.push(l.gps);
       });
@@ -233,20 +360,124 @@
       var ligne = suitLaRoute ? reel.points : pts;
       if (ligne.length < 2) return;
 
-      L.polyline(ligne, {
-        color: st.couleur || '#1c1b19',
-        weight: st.epaisseur || 3,
-        opacity: suitLaRoute ? (st.opacite || 0.55) : 0.35,
-        /* Le tracé réel est plein ; une ligne droite reste en pointillés,
-           pour qu'on voie d'un coup d'œil qu'elle n'est pas une route. */
-        dashArray: suitLaRoute ? null : (st.pointilles || '6 6')
-      }).bindTooltip(
-        'Étape ' + (e.jour || '') + (reel ? ' — ' + reel.distance_km + ' km, ' + reel.duree_h + ' h' : ''),
-        { sticky: true }
-      ).addTo(coucheTrace);
+      var ordre = typeof e.ordre === 'number' ? e.ordre : i + 1;
+      var type = typeEtape(e, i, etapes.length);
+      var meta = styleEtape(type);
+      var poids = (st.epaisseur || 3) + 1;
+      var opacite = suitLaRoute ? 0.78 : 0.38;
+      var km = reel ? reel.distance_km : e.distance_km;
+      var dh = reel ? reel.duree_h : e.duree_h;
+      var titre = 'Étape ' + ordre + ' · J' + e.jour + ' · ' + meta.libelle;
+      if (e.note) titre += ' — ' + e.note;
+      if (km) titre += ' — ' + km + ' km';
+      if (dh) titre += ' · ' + dureeAffiche(dh);
+
+      var pl = L.polyline(ligne, {
+        color: meta.couleur,
+        weight: poids,
+        opacity: opacite,
+        dashArray: suitLaRoute ? (type === 'retour' ? '10 5' : null) : (st.pointilles || '6 6'),
+        lineCap: 'round',
+        lineJoin: 'round'
+      }).bindTooltip(titre, { sticky: true, className: 'bulle bulle--trace' }).addTo(coucheTrace);
+
+      pl.on('click', function () { focusEtape(e); });
+      couchesEtapes.set(e.id, { polyline: pl, ligne: ligne, poids: poids, opacite: opacite });
+
+      var milieu = pointEtAngle(ligne, 0.5);
+      if (milieu) {
+        L.marker(milieu.gps, {
+          icon: iconeNumeroEtape(ordre, e.jour, type, meta.couleur),
+          interactive: true,
+          keyboard: false,
+          zIndexOffset: 250
+        }).on('click', function () { focusEtape(e); })
+          .bindTooltip(titre, { direction: 'top', opacity: 1, className: 'bulle bulle--trace' })
+          .addTo(coucheTrace);
+      }
+
+      var fractions = km && km > 250 ? [0.16, 0.34, 0.58, 0.78]
+        : km && km > 70 ? [0.28, 0.68] : [0.58];
+      fractions.forEach(function (fr) {
+        var pa = pointEtAngle(ligne, fr);
+        if (!pa) return;
+        L.marker(pa.gps, {
+          icon: iconeFleche(meta.couleur, pa.angle),
+          interactive: false,
+          keyboard: false,
+          zIndexOffset: 180
+        }).addTo(coucheTrace);
+      });
 
       if (!suitLaRoute && e.id) anomalies.push('Tracé routier absent pour l’étape « ' + e.id + ' » : ligne droite affichée. Lancer node trace-route.js.');
     });
+  }
+
+  function dessinerResumeItineraire() {
+    var zone = document.getElementById('resume-itineraire');
+    if (!zone) return;
+    vide(zone);
+    var etapes = etapesTriees();
+    if (!etapes.length) { zone.hidden = true; return; }
+    zone.hidden = false;
+
+    var tete = el('div', 'resume-itineraire__tete');
+    tete.appendChild(el('strong', null, 'Itinéraire voiture'));
+    tete.appendChild(el('span', null, etapes.length + ' étapes'));
+    zone.appendChild(tete);
+
+    if (E.scenario && (E.scenario.logique_route || E.scenario.resume)) {
+      zone.appendChild(el('p', 'resume-itineraire__intro', E.scenario.logique_route || E.scenario.resume));
+    }
+
+    var liste = el('div', 'resume-itineraire__liste');
+    etapes.forEach(function (e, i) {
+      var ordre = typeof e.ordre === 'number' ? e.ordre : i + 1;
+      var type = typeEtape(e, i, etapes.length);
+      var meta = styleEtape(type);
+      var reel = E.trace && E.trace.etapes && E.trace.etapes[e.id];
+      var km = reel ? reel.distance_km : e.distance_km;
+      var dh = reel ? reel.duree_h : e.duree_h;
+
+      var b = el('button', 'resume-etape');
+      b.type = 'button';
+      b.dataset.etape = e.id;
+      b.style.setProperty('--trace', meta.couleur);
+
+      var num = el('span', 'resume-etape__num', 'E' + ordre);
+      b.appendChild(num);
+      var corps = el('span', 'resume-etape__corps');
+      corps.appendChild(el('span', 'resume-etape__titre', 'J' + e.jour + ' · ' + (e.note || meta.libelle)));
+      var parcours = referencesEtape(e).map(nomRef).join(' → ');
+      corps.appendChild(el('span', 'resume-etape__parcours', parcours));
+      var infos = [meta.libelle, km ? km + ' km' : '', dh ? dureeAffiche(dh) : ''].filter(Boolean);
+      corps.appendChild(el('span', 'resume-etape__meta', infos.join(' · ')));
+
+      var hors = visitesHorsRoute(e);
+      if (hors.length) {
+        corps.appendChild(el('span', 'resume-etape__detour',
+          'Visites hors tracé voiture : ' + hors.map(nomRef).join(', ')));
+      }
+
+      b.appendChild(corps);
+      b.addEventListener('click', function () { focusEtape(e); });
+      liste.appendChild(b);
+    });
+    zone.appendChild(liste);
+
+    var leg = el('div', 'trace-legende');
+    ['aller', 'boucle', 'transfert', 'retour'].forEach(function (type) {
+      var m = styleEtape(type);
+      var s = el('span');
+      var p = el('i');
+      p.style.setProperty('--trace', m.couleur);
+      s.appendChild(p);
+      s.appendChild(document.createTextNode(m.libelle));
+      leg.appendChild(s);
+    });
+    zone.appendChild(leg);
+    zone.appendChild(el('p', 'resume-itineraire__aide',
+      'Flèches = sens de circulation. Les pastilles E1, E2… numérotent les étapes ; ↩ identifie le retour.'));
   }
 
   /* ---------- Filtres et liste ---------- */
@@ -671,6 +902,35 @@
       c.appendChild(el('h3', 'jour__titre', j.titre || ''));
       if (j.zone) c.appendChild(el('span', 'jour__zone', j.zone));
 
+      var routeJour = etapesTriees().find(function (e) { return e.jour === j.jour; });
+      if (routeJour) {
+        var toutes = etapesTriees();
+        var ri = toutes.indexOf(routeJour);
+        var ordre = typeof routeJour.ordre === 'number' ? routeJour.ordre : ri + 1;
+        var type = typeEtape(routeJour, ri, toutes.length);
+        var metaRoute = styleEtape(type);
+        var reelRoute = E.trace && E.trace.etapes && E.trace.etapes[routeJour.id];
+        var kmRoute = reelRoute ? reelRoute.distance_km : routeJour.distance_km;
+        var hRoute = reelRoute ? reelRoute.duree_h : routeJour.duree_h;
+
+        var tr = el('button', 'jour__trajet');
+        tr.type = 'button';
+        tr.style.setProperty('--trace', metaRoute.couleur);
+        tr.appendChild(el('span', 'jour__trajet-num', 'E' + ordre));
+        var tc = el('span', 'jour__trajet-corps');
+        tc.appendChild(el('span', 'jour__trajet-parcours', referencesEtape(routeJour).map(nomRef).join(' → ')));
+        tc.appendChild(el('span', 'jour__trajet-meta',
+          [metaRoute.libelle, kmRoute ? kmRoute + ' km' : '', hRoute ? dureeAffiche(hRoute) : ''].filter(Boolean).join(' · ')));
+        var horsRoute = visitesHorsRoute(routeJour);
+        if (horsRoute.length) tc.appendChild(el('span', 'jour__trajet-detour', 'Hors route voiture : ' + horsRoute.map(nomRef).join(', ')));
+        tr.appendChild(tc);
+        tr.addEventListener('click', function () {
+          focusEtape(routeJour);
+          document.getElementById('section-carte').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        c.appendChild(tr);
+      }
+
       if ((j.activites || []).length) {
         var ul = el('ul', 'jour__liste');
         j.activites.forEach(function (a) {
@@ -1035,6 +1295,7 @@
     E.actives = new Set(E.categories.filter(function (x) { return x.actif; }).map(function (x) { return x.id; }));
 
     dessinerNav();
+    dessinerResumeItineraire();
     dessinerFiltres();
     dessinerMarqueurs();
     dessinerTrace();
