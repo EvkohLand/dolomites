@@ -15,8 +15,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const CIBLE = Number(process.env.CIBLE || 10);
-const LARGEUR = 1280;
+const CIBLE = Number(process.env.CIBLE || 30);
+const LARGEUR = Number(process.env.LARGEUR || 960);
+const RESULTATS_PAR_RECHERCHE = Number(process.env.RESULTATS_PAR_RECHERCHE || 50);
 const API = 'https://commons.wikimedia.org/w/api.php';
 
 /* Licences acceptées : domaine public et Creative Commons réutilisables.
@@ -107,20 +108,24 @@ function credit(ph) {
 
   for (const l of lieux) {
     if (voulu && l.id !== voulu) continue;
-    const deja = (l.photos || []).length;
+    const existantes = (l.photos || []).filter(Boolean);
+    const deja = existantes.length;
     if (deja >= CIBLE) { console.log(`  ${l.id} : déjà ${deja} photos, ignoré`); continue; }
 
     // Plusieurs formulations : le nom seul rend peu sur les lieux peu connus.
     const requetes = [l.recherche_photo, l.nom, l.nom + ' Dolomites',
+                      l.nom + ' Italy',
                       l.commune ? l.nom.split('/')[0].trim() + ' ' + l.commune.replace(/\s*\([A-Z]{2}\)/, '') : null]
                      .filter(Boolean);
 
     const vus = new Set();
-    const gardees = [];
+    const gardees = existantes.slice();
+    const urlsGardees = new Set(gardees.map(x => x && x.url).filter(Boolean));
+    const legendesGardees = new Set(gardees.map(x => normaliser(x && x.legende)).filter(Boolean));
     for (const q of requetes) {
       if (gardees.length >= CIBLE) break;
       let titres;
-      try { titres = await chercher(q, 30); }
+      try { titres = await chercher(q, RESULTATS_PAR_RECHERCHE); }
       catch (e) { console.log(`  ${l.id} : recherche « ${q} » en échec — ${e.message}`); continue; }
       const nouveaux = titres.filter(t => !vus.has(t));
       nouveaux.forEach(t => vus.add(t));
@@ -129,8 +134,12 @@ function credit(ph) {
       for (const ph of details) {
         if (gardees.length >= CIBLE) break;
         if (!acceptable(ph)) continue;
-        if (gardees.some(g => g.url === ph.url)) continue;
+        const cleLegende = normaliser(ph.legende);
+        if (urlsGardees.has(ph.url)) continue;
+        if (cleLegende && legendesGardees.has(cleLegende)) continue;
         gardees.push({ url: ph.url, legende: ph.legende.slice(0, 90), credit: credit(ph) });
+        urlsGardees.add(ph.url);
+        if (cleLegende) legendesGardees.add(cleLegende);
       }
       await dodo(1100);
     }
