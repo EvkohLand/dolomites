@@ -147,7 +147,9 @@
         "lago-sorapis"
       ],
       "pays": "IT",
-      "note": "Lago di Sorapis"
+      "note": "Lago di Sorapis",
+      "distance_km": 41,
+      "duree_h": 1
     },
     {
       "id": "etape-j10",
@@ -173,8 +175,8 @@
       ],
       "pays": "IT",
       "note": "Tre Cime di Lavaredo",
-      "distance_km": 54,
-      "duree_h": 1.6
+      "distance_km": 51,
+      "duree_h": 1.4
     },
     {
       "id": "etape-j11",
@@ -217,7 +219,9 @@
         "alpe-fanes"
       ],
       "pays": "IT",
-      "note": "Alpe di Fanes"
+      "note": "Alpe di Fanes",
+      "distance_km": 97,
+      "duree_h": 1.8
     },
     {
       "id": "etape-j13",
@@ -237,7 +241,9 @@
         "sass-pordoi"
       ],
       "pays": "IT",
-      "note": "Sass Pordoi ou journée libre"
+      "note": "Sass Pordoi ou journée libre",
+      "distance_km": 156,
+      "duree_h": 2.5
     },
     {
       "id": "etape-retour",
