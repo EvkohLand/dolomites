@@ -1,0 +1,172 @@
+[
+  {
+    "date": "2026-10-10",
+    "jour": 1,
+    "titre": "Départ — vallée du Rhône",
+    "zone": "Route",
+    "nuit": "etape-route-aller",
+    "trajet": "etape-aller-1",
+    "activites": [],
+    "note": "Départ en fin de matinée. Première nuit en tente de toit sur la route, sans chercher loin."
+  },
+  {
+    "date": "2026-10-11",
+    "jour": 2,
+    "titre": "Traversée vers le Haut-Adige",
+    "zone": "Route",
+    "nuit": "camping-olympia",
+    "trajet": "etape-aller-2",
+    "activites": [],
+    "note": "Grosse journée de route. Plein au Brenner en libre-service avant de basculer dans les vallées."
+  },
+  {
+    "date": "2026-10-12",
+    "jour": 3,
+    "titre": "Val di Funes",
+    "zone": "Val Gardena / Funes",
+    "nuit": "camping-olympia",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "santa-maddalena",
+        "heure": "09:30",
+        "note": "Point de vue court, pour se dégourdir après la route."
+      },
+      {
+        "lieu": "adolf-munkel",
+        "heure": "11:00"
+      }
+    ],
+    "note": "Journée douce pour reprendre la marche : forêt puis alpages sous les Odle."
+  },
+  {
+    "date": "2026-10-13",
+    "jour": 4,
+    "titre": "Seceda",
+    "zone": "Val Gardena",
+    "nuit": "camping-olympia",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "seceda",
+        "heure": "09:00",
+        "note": "Monter tôt : la crête est à contre-jour l'après-midi."
+      }
+    ],
+    "note": "L'image des Dolomites. Plateau en haut, marche facile avec le chien."
+  },
+  {
+    "date": "2026-10-14",
+    "jour": 5,
+    "titre": "Alpe di Siusi",
+    "zone": "Val Gardena",
+    "nuit": "camping-olympia",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "alpe-di-siusi",
+        "heure": "09:00",
+        "note": "Chien gratuit en cabine, mais muselière obligatoire au départ de Compaccio."
+      }
+    ],
+    "note": "Le plus grand plateau d'altitude d'Europe. Journée entière sans dénivelé, la meilleure pour le chien."
+  },
+  {
+    "date": "2026-10-15",
+    "jour": 6,
+    "titre": "Col Raiser et Alta Badia",
+    "zone": "Alta Badia",
+    "nuit": "camping-olympia",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "col-raiser",
+        "heure": "09:30"
+      },
+      {
+        "lieu": "pralongia",
+        "heure": "14:00",
+        "note": "Si les remontées de l'Alta Badia sont encore ouvertes, sinon à pied."
+      }
+    ],
+    "note": "Bascule vers l'est. Deux plateaux dans la journée."
+  },
+  {
+    "date": "2026-10-16",
+    "jour": 7,
+    "titre": "Falzarego et Lagazuoi",
+    "zone": "Cortina",
+    "nuit": "camping-cortina",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "passo-falzarego",
+        "heure": "09:00"
+      },
+      {
+        "lieu": "lagazuoi",
+        "heure": "09:30",
+        "note": "PRIORITÉ : ferme le 19 octobre. Ne pas repousser."
+      },
+      {
+        "lieu": "cinque-torri",
+        "heure": "14:00"
+      }
+    ],
+    "note": "Le jour à ne pas manquer : le téléphérique du Lagazuoi ferme sa saison le 19."
+  },
+  {
+    "date": "2026-10-17",
+    "jour": 8,
+    "titre": "Tre Cime di Lavaredo",
+    "zone": "Tre Cime",
+    "nuit": "camping-olympia",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "route-tre-cime",
+        "heure": "08:00",
+        "note": "Réserver en ligne la veille. 40 € la voiture."
+      },
+      {
+        "lieu": "rando-tre-cime",
+        "heure": "09:00"
+      },
+      {
+        "lieu": "misurina",
+        "heure": "15:00"
+      }
+    ],
+    "note": "Le morceau de bravoure. Monter tôt : le parking du Rifugio Auronzo se remplit."
+  },
+  {
+    "date": "2026-10-18",
+    "jour": 9,
+    "titre": "Braies et Prato Piazza",
+    "zone": "Braies",
+    "nuit": "camping-olympia",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "lago-braies",
+        "heure": "08:00",
+        "note": "En octobre l'accès en voiture est libre : arriver tôt pour la lumière."
+      },
+      {
+        "lieu": "prato-piazza",
+        "heure": "11:30"
+      }
+    ],
+    "note": "Le lac au lever du jour, puis le plateau au-dessus. Deux lieux, peu de route."
+  },
+  {
+    "date": "2026-10-19",
+    "jour": 10,
+    "titre": "Retour",
+    "zone": "Route",
+    "nuit": null,
+    "trajet": "etape-retour",
+    "activites": [],
+    "note": "Départ tôt. Retour direct, ou coupé en deux si la fatigue s'en mêle."
+  }
+]

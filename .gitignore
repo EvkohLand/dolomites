@@ -1,0 +1,11 @@
+# Produit par le build : jamais versionné.
+dist/
+
+# Ce qui ne doit pas partir dans un dépôt public.
+config/prive.json
+
+# Résidus système
+.DS_Store
+Thumbs.db
+*.swp
+node_modules/

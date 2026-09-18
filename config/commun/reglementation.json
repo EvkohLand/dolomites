@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bivouac-trentin",
+    "titre": "Bivouac et camping sauvage",
+    "portee": "Trentin-Haut-Adige et Vénétie, parcs naturels compris",
+    "resume": "Le camping sauvage est interdit. Le bivouac n'est toléré qu'au-dessus de 2 500 m, une seule nuit.",
+    "detail": "La tolérance suppose un montage après le coucher du soleil et un démontage au matin, loin de toute route et de tout bâtiment. Une tente de toit sur un parking de vallée n'entre dans aucune de ces conditions : c'est du camping, donc verbalisable. Le séjour s'appuie donc sur les campings, les aires et le réseau Agricamper, pas sur le bivouac sauvage.",
+    "amende": "De 50 à 500 €",
+    "gravite": "elevee",
+    "source": "https://www.dolomitestyrol.fr/bivouacs/"
+  },
+  {
+    "id": "chien-alpage",
+    "titre": "Chien en alpage et chiens de troupeau",
+    "portee": "Tous les sentiers d'altitude, jusqu'à la descente des troupeaux",
+    "resume": "Laisse obligatoire sur tout sentier traversant un pâturage.",
+    "detail": "Des chiens de protection de troupeau (bergers des Abruzzes) gardent les alpages jusqu'à la fin de l'automne. Ils réagissent à la présence d'un autre chien. Contourner très largement le troupeau, tenir le chien court et ne jamais traverser. C'est le risque le plus concret du séjour avec un chien.",
+    "gravite": "elevee"
+  },
+  {
+    "id": "chien-parcs",
+    "titre": "Chien dans les parcs naturels",
+    "portee": "Parcs Fanes-Sennes-Braies, Puez-Odle, Tre Cime",
+    "resume": "Chien admis, laisse obligatoire en permanence.",
+    "detail": "Les parcs naturels du Haut-Adige acceptent les chiens sur les sentiers balisés, tenus en laisse sans exception. Ramasser les déjections : les contrôles existent et les amendes sont appliquées.",
+    "gravite": "moyenne"
+  },
+  {
+    "id": "chien-remontees",
+    "titre": "Chien dans les remontées mécaniques",
+    "portee": "Télécabines et téléphériques des Dolomites",
+    "resume": "Généralement admis. Sur l'Alpe di Siusi le chien ne paie pas, mais la muselière est obligatoire.",
+    "detail": "Chaque société a sa règle : certaines font payer un demi-tarif, d'autres rien. Emporter systématiquement laisse ET muselière, car une muselière manquante peut faire refuser l'embarquement. Vérifié pour l'Alpe di Siusi : transport gratuit, laisse et muselière exigées au départ de Compaccio.",
+    "gravite": "moyenne",
+    "source": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html"
+  },
+  {
+    "id": "chien-papiers",
+    "titre": "Papiers du chien pour l'Italie",
+    "portee": "Passage de frontière France-Italie",
+    "resume": "Passeport européen, puce électronique et vaccin antirabique en cours de validité.",
+    "detail": "Le vaccin antirabique doit dater d'au moins 21 jours avant le passage et être encore valide au retour. À VÉRIFIER auprès du vétérinaire avant le départ : les dates de rappel se contrôlent sur le passeport, pas de mémoire.",
+    "gravite": "elevee",
+    "a_reverifier": true
+  },
+  {
+    "id": "tre-cime-reservation",
+    "titre": "Réservation obligatoire pour les Tre Cime",
+    "portee": "Route à péage d'Auronzo",
+    "resume": "40 € par voiture, réservation en ligne obligatoire, à faire la veille.",
+    "detail": "Depuis 2025, l'accès à la route panoramique se réserve exclusivement en ligne sur le portail de la commune d'Auronzo. Le tarif est passé de 30 à 40 €. Sans réservation, l'accès est refusé au péage.",
+    "gravite": "elevee",
+    "source": "https://www.dolomitireview.com/strada-per-le-tre-cime-di-lavaredo-pedaggio-orari-informazioni-pratiche/"
+  },
+  {
+    "id": "route-hiver",
+    "titre": "Équipement hivernal et cols",
+    "portee": "Italie du Nord, routes de montagne",
+    "resume": "Pneus hiver ou chaînes à bord exigibles dès le 15 octobre sur de nombreuses routes de montagne.",
+    "detail": "Les ordonnances locales du Haut-Adige et de la Vénétie imposent pneus hiver ou chaînes à bord sur de nombreux axes d'altitude à partir de la mi-octobre — soit pendant le séjour. Les cols (Giau, Falzarego, Pordoi, Sella) peuvent fermer après une chute de neige précoce. À VÉRIFIER avant de partir, et prévoir les chaînes.",
+    "gravite": "elevee",
+    "a_reverifier": true
+  },
+  {
+    "id": "tente-toit-hauteur",
+    "titre": "Hauteur du véhicule avec la tente de toit",
+    "portee": "Parkings couverts, tunnels, péages",
+    "resume": "Mesurer la hauteur réelle une fois la tente montée et la noter.",
+    "detail": "Une voiture équipée d'une tente de toit dépasse souvent 2 m, ce qui interdit la plupart des parkings souterrains et impose de vérifier les portiques. La surconsommation est réelle : compter 10 à 20 % de carburant en plus, d'où les 9,5 L/100 km retenus au budget. Rouler à 110 km/h plutôt qu'à 130 réduit nettement la consommation et le bruit.",
+    "gravite": "moyenne"
+  }
+]

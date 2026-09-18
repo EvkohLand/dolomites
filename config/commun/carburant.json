@@ -1,0 +1,30 @@
+{
+  "defaut": "IT",
+  "note": "Prix indicatifs à recaler avant le départ : le carburant bouge chaque semaine. Chaque étape d'itinéraire peut nommer son pays via le champ pays ; sans indication, le pays par défaut s'applique.",
+  "pays": {
+    "FR": {
+      "libelle": "France",
+      "gazole": 1.72,
+      "sp95": 1.82,
+      "note": "Prix moyen hors autoroute. Sur autoroute, compter 15 à 25 centimes de plus par litre : faire le plein avant de s'engager.",
+      "a_reverifier": true,
+      "source": "https://www.prix-carburants.gouv.fr/"
+    },
+    "IT": {
+      "libelle": "Italie",
+      "gazole": 1.75,
+      "sp95": 1.85,
+      "note": "Toujours choisir le « fai da te » (libre-service) plutôt que le « servito » : l'écart atteint 15 à 20 centimes par litre pour exactement le même carburant.",
+      "a_reverifier": true,
+      "source": "https://carburanti.mise.gov.it/"
+    },
+    "AT": {
+      "libelle": "Autriche",
+      "gazole": 1.62,
+      "sp95": 1.68,
+      "note": "Souvent le moins cher des trois. Si l'itinéraire passe par le Brenner, faire le plein côté autrichien avant de redescendre.",
+      "a_reverifier": true
+    }
+  },
+  "strategie": "Faire le plein en Autriche si l'itinéraire y passe, sinon en Italie en libre-service. Éviter les stations d'autoroute françaises, les plus chères du parcours."
+}

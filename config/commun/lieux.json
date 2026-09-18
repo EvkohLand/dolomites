@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "seceda",
+    "nom": "Seceda",
+    "categorie": "remontee",
+    "gps": [
+      46.6094,
+      11.6547
+    ],
+    "commune": "Ortisei / St. Ulrich (BZ)",
+    "altitude": 2518,
+    "resume": "Télécabine puis téléphérique depuis Ortisei. La crête dentelée de Seceda est l'image la plus connue des Dolomites. En haut, plateau herbeux praticable avec le chien.",
+    "prix": {
+      "type": "payant",
+      "adulte_ar": 45,
+      "unite": "aller-retour",
+      "annee_tarif": 2025,
+      "detail": "Ortisei–Furnes–Seceda, aller-retour adulte. Tarif à revérifier pour 2026."
+    },
+    "ouverture": {
+      "fin_saison": "2026-11-02",
+      "a_reverifier": true,
+      "note": "Saison 2025 : 23 mai au 2 novembre. Ouvert pendant tout le séjour."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Admis en cabine, laisse obligatoire."
+    },
+    "source": "https://www.seceda.it/en/summer",
+    "etiquettes": [
+      "incontournable",
+      "vue",
+      "plateau"
+    ],
+    "niveau_prix": "€€€",
+    "equipements": [
+      "restaurant",
+      "refuge",
+      "vue",
+      "chien",
+      "plat"
+    ],
+    "liens": [
+      {
+        "libelle": "Site officiel Seceda",
+        "url": "https://www.seceda.it/en/summer"
+      },
+      {
+        "libelle": "Tarifs et horaires",
+        "url": "https://www.seceda.it/en/summer"
+      }
+    ]
+  },
+  {
+    "id": "alpe-di-siusi",
+    "nom": "Alpe di Siusi / Seiser Alm",
+    "categorie": "plateau",
+    "gps": [
+      46.5406,
+      11.62
+    ],
+    "commune": "Castelrotto / Kastelruth (BZ)",
+    "altitude": 1850,
+    "resume": "Le plus grand plateau d'altitude d'Europe, 56 km2 de prairies vallonnées face au Sassolungo. Terrain plat, sentiers larges : la journée idéale avec le chien, sans dénivelé.",
+    "prix": {
+      "type": "payant",
+      "adulte_ar": 26,
+      "chien": 0,
+      "unite": "aller-retour",
+      "annee_tarif": 2025,
+      "detail": "Télécabine depuis Siusi/Seis. Le chien ne paie pas."
+    },
+    "ouverture": {
+      "fin_saison": "2026-11-02",
+      "a_reverifier": true,
+      "note": "Saison 2026 annoncée du 22 mai au 2 novembre. Ouvert pendant tout le séjour."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 0,
+      "note": "Gratuit en cabine, mais laisse ET muselière obligatoires au départ de Compaccio."
+    },
+    "acces": "Route fermée aux voitures en journée : monter en télécabine depuis Siusi.",
+    "source": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html",
+    "etiquettes": [
+      "plateau",
+      "chien gratuit",
+      "plat"
+    ],
+    "niveau_prix": "€€",
+    "equipements": [
+      "restaurant",
+      "refuge",
+      "plat",
+      "vue",
+      "chien-gratuit",
+      "muselière",
+      "acces-voiture"
+    ],
+    "liens": [
+      {
+        "libelle": "Télécabine Alpe di Siusi",
+        "url": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html"
+      },
+      {
+        "libelle": "Office de tourisme Seiser Alm",
+        "url": "https://www.seiseralm.it/en/"
+      }
+    ],
+    "description": "56 km2 de prairies vallonnées à 1800-2000 m, fermées au trafic en journée. Les sentiers sont de larges chemins carrossables, sans aucun passage exposé : c'est la journée la plus simple du séjour avec un chien, et la seule où l'on peut marcher six heures sans jamais grimper. Refuges espacés de vingt minutes. Muselière exigée à l'embarquement, même si le transport est gratuit."
+  },
+  {
+    "id": "lagazuoi",
+    "nom": "Funivia Lagazuoi",
+    "categorie": "remontee",
+    "gps": [
+      46.5197,
+      12.0086
+    ],
+    "commune": "Passo Falzarego (BL)",
+    "altitude": 2752,
+    "resume": "Téléphérique depuis le col jusqu'au refuge Lagazuoi. Vue à 360 degrés sur les Tofane, la Marmolada et le Sella. Galeries de la Grande Guerre au sommet.",
+    "prix": {
+      "type": "payant",
+      "adulte_ar": 26,
+      "unite": "aller-retour",
+      "annee_tarif": 2025,
+      "detail": "Tarif indicatif, à revérifier pour 2026."
+    },
+    "ouverture": {
+      "fin_saison": "2026-10-19",
+      "a_reverifier": true,
+      "note": "ATTENTION : saison 2025 close le 19 octobre. À faire en premiere semaine du sejour."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire en cabine."
+    },
+    "source": "https://lagazuoi.it/IT/Info-Prezzi-e-info-utili-page140-Funivia-del-Lagazuoi-Estate-2025",
+    "etiquettes": [
+      "vue",
+      "ferme tot",
+      "priorite"
+    ],
+    "niveau_prix": "€€",
+    "equipements": [
+      "refuge",
+      "restaurant",
+      "vue",
+      "chien",
+      "toilettes"
+    ],
+    "liens": [
+      {
+        "libelle": "Funivia Lagazuoi — tarifs",
+        "url": "https://lagazuoi.it/IT/Info-Prezzi-e-info-utili-page140-Funivia-del-Lagazuoi-Estate-2025"
+      },
+      {
+        "libelle": "Rifugio Lagazuoi",
+        "url": "https://rifugiolagazuoi.com/"
+      }
+    ],
+    "description": "Le téléphérique part directement du Passo Falzarego et monte à 2752 m en quelques minutes. Au sommet, le refuge, une terrasse panoramique et le réseau de galeries creusées pendant la Grande Guerre, visitables librement. C'est le lieu le plus contraint du séjour : sa saison s'est terminée le 19 octobre en 2025."
+  },
+  {
+    "id": "route-tre-cime",
+    "nom": "Route à péage des Tre Cime",
+    "categorie": "parking",
+    "gps": [
+      46.6128,
+      12.2953
+    ],
+    "commune": "Auronzo di Cadore (BL)",
+    "altitude": 2320,
+    "resume": "Route panoramique payante d'Auronzo au Rifugio Auronzo, départ du tour des Tre Cime. Réservation en ligne obligatoire depuis 2025.",
+    "prix": {
+      "type": "payant",
+      "montant": 40,
+      "unite": "jour",
+      "annee_tarif": 2025,
+      "detail": "Par voiture, péage et parking au Rifugio Auronzo compris. Était à 30 € avant 2025."
+    },
+    "reserver": {
+      "obligatoire": true,
+      "url": "https://www.auronzo.info"
+    },
+    "ouverture": {
+      "fin_saison": "2026-11-08",
+      "a_reverifier": true,
+      "note": "Route fermée pour l'hiver début novembre. La navette depuis Dobbiaco, elle, s'arrête le 12 octobre : sans importance, on monte en voiture."
+    },
+    "source": "https://www.dolomitireview.com/strada-per-le-tre-cime-di-lavaredo-pedaggio-orari-informazioni-pratiche/",
+    "etiquettes": [
+      "cher",
+      "reservation",
+      "incontournable"
+    ],
+    "niveau_prix": "€€€€",
+    "equipements": [
+      "parking",
+      "reservation",
+      "toilettes",
+      "restaurant",
+      "refuge",
+      "acces-voiture"
+    ],
+    "liens": [
+      {
+        "libelle": "Réserver l'accès (obligatoire)",
+        "url": "https://www.auronzo.info"
+      },
+      {
+        "libelle": "Infos péage et horaires",
+        "url": "https://www.alto-adige.com/informazioni-utili/strada-a-pedaggio-tre-cime"
+      }
+    ],
+    "description": "Depuis 2025 l'accès se réserve exclusivement en ligne et le tarif est passé de 30 à 40 € par voiture. Le péage comprend le stationnement au Rifugio Auronzo, point de départ du tour. Arriver tôt : le parking est dimensionné et une fois plein, il faut attendre. La navette publique depuis Dobbiaco ne circule plus après le 12 octobre, mais elle ne nous concerne pas puisqu'on monte en voiture."
+  },
+  {
+    "id": "rando-tre-cime",
+    "nom": "Tour des Tre Cime di Lavaredo",
+    "categorie": "rando",
+    "gps": [
+      46.618,
+      12.305
+    ],
+    "commune": "Auronzo di Cadore (BL)",
+    "altitude": 2400,
+    "resume": "La boucle classique autour des trois sommets, depuis le Rifugio Auronzo par le Rifugio Locatelli. Sentier large, jamais exposé.",
+    "rando": {
+      "distance_km": 10,
+      "denivele_m": 400,
+      "duree_h": 3.5,
+      "difficulte": "facile",
+      "boucle": true,
+      "depart_lieu": "route-tre-cime"
+    },
+    "prix": {
+      "type": "gratuit",
+      "montant": 0,
+      "detail": "La randonnée est gratuite : c'est l'accès routier qui coûte 40 €."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire, zone de pâturage."
+    },
+    "reglement": "chien-alpage",
+    "etiquettes": [
+      "incontournable",
+      "boucle"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "refuge",
+      "restaurant",
+      "vue",
+      "chien",
+      "toilettes"
+    ],
+    "liens": [
+      {
+        "libelle": "Tracé et description",
+        "url": "https://www.dolomitireview.com/strada-per-le-tre-cime-di-lavaredo-pedaggio-orari-informazioni-pratiche/"
+      }
+    ]
+  },
+  {
+    "id": "lago-braies",
+    "nom": "Lago di Braies / Pragser Wildsee",
+    "categorie": "lac",
+    "gps": [
+      46.6947,
+      12.085
+    ],
+    "commune": "Braies / Prags (BZ)",
+    "altitude": 1496,
+    "resume": "Lac émeraude encaissé sous la Croda del Becco, avec ses barques en bois. Tour du lac plat et facile, très photogénique au lever du jour.",
+    "prix": {
+      "type": "payant",
+      "montant": 8,
+      "unite": "jour",
+      "annee_tarif": 2025,
+      "detail": "Parking seul. À revérifier pour 2026."
+    },
+    "ouverture": {
+      "note": "En octobre, l'accès en voiture est libre : les restrictions de circulation ne s'appliquent que du 10 juillet au 10 septembre."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire sur le tour du lac."
+    },
+    "rando": {
+      "distance_km": 3.5,
+      "denivele_m": 60,
+      "duree_h": 1.2,
+      "difficulte": "facile",
+      "boucle": true
+    },
+    "source": "https://www.lagodibraies.com/en/parking-p155.html",
+    "etiquettes": [
+      "incontournable",
+      "plat",
+      "acces libre en octobre"
+    ],
+    "niveau_prix": "€€",
+    "equipements": [
+      "parking",
+      "restaurant",
+      "toilettes",
+      "chien",
+      "plat",
+      "vue",
+      "acces-voiture"
+    ],
+    "liens": [
+      {
+        "libelle": "Parking et accès",
+        "url": "https://www.lagodibraies.com/en/parking-p155.html"
+      },
+      {
+        "libelle": "Réservation haute saison",
+        "url": "https://www.prags.bz/en"
+      }
+    ]
+  },
+  {
+    "id": "prato-piazza",
+    "nom": "Prato Piazza / Plätzwiese",
+    "categorie": "plateau",
+    "gps": [
+      46.6469,
+      12.1594
+    ],
+    "commune": "Braies / Prags (BZ)",
+    "altitude": 2000,
+    "resume": "Vaste plateau d'alpage au pied de la Croda Rossa, dans le parc Fanes-Sennes-Braies. Chemins plats, très large, idéal pour marcher longtemps sans dénivelé.",
+    "prix": {
+      "type": "payant",
+      "montant": 6,
+      "unite": "jour",
+      "annee_tarif": 2025,
+      "detail": "Parking. Route à accès réglementé en haute saison."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire : parc naturel et alpage."
+    },
+    "reglement": "chien-alpage",
+    "etiquettes": [
+      "plateau",
+      "plat",
+      "parc naturel"
+    ],
+    "niveau_prix": "€€",
+    "equipements": [
+      "parking",
+      "refuge",
+      "restaurant",
+      "plat",
+      "vue",
+      "chien",
+      "acces-voiture"
+    ],
+    "liens": [
+      {
+        "libelle": "Parc Fanes-Sennes-Braies",
+        "url": "https://www.provinz.bz.it/natur-umwelt/natur-raum/naturparks/naturpark-fanes-sennes-prags.asp"
+      }
+    ]
+  },
+  {
+    "id": "passo-giau",
+    "nom": "Passo Giau",
+    "categorie": "vue",
+    "gps": [
+      46.4794,
+      12.0544
+    ],
+    "commune": "Colle Santa Lucia (BL)",
+    "altitude": 2236,
+    "resume": "Le plus beau col routier des Dolomites, face au Ra Gusela. Accessible en voiture, vue immédiate depuis le parking sans marcher.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "ouverture": {
+      "note": "Col ouvert en octobre sauf neige. Fermeture hivernale possible après une chute de neige précoce."
+    },
+    "chien": {
+      "admis": true
+    },
+    "etiquettes": [
+      "gratuit",
+      "sans marche",
+      "vue"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "parking-gratuit",
+      "vue",
+      "acces-voiture",
+      "restaurant",
+      "chien"
+    ],
+    "liens": [
+      {
+        "libelle": "État des cols en temps réel",
+        "url": "https://www.dolomiti.it/en/"
+      }
+    ]
+  },
+  {
+    "id": "passo-falzarego",
+    "nom": "Passo Falzarego",
+    "categorie": "vue",
+    "gps": [
+      46.5194,
+      12.0097
+    ],
+    "commune": "Cortina d'Ampezzo (BL)",
+    "altitude": 2105,
+    "resume": "Col routier large, départ du téléphérique du Lagazuoi. Parking gratuit, vestiges de la Grande Guerre, point de bascule entre Cortina et l'Alta Badia.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "chien": {
+      "admis": true
+    },
+    "etiquettes": [
+      "gratuit",
+      "sans marche",
+      "carrefour"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "parking-gratuit",
+      "vue",
+      "acces-voiture",
+      "restaurant",
+      "bar",
+      "chien"
+    ],
+    "liens": [
+      {
+        "libelle": "Téléphérique du Lagazuoi",
+        "url": "https://lagazuoi.it/"
+      }
+    ]
+  },
+  {
+    "id": "cinque-torri",
+    "nom": "Cinque Torri",
+    "categorie": "rando",
+    "gps": [
+      46.5133,
+      12.0575
+    ],
+    "commune": "Cortina d'Ampezzo (BL)",
+    "altitude": 2250,
+    "resume": "Cinq tours de roche isolées, entourées de tranchées restaurées de la Grande Guerre. Boucle courte et plate, musée à ciel ouvert.",
+    "rando": {
+      "distance_km": 4,
+      "denivele_m": 150,
+      "duree_h": 1.5,
+      "difficulte": "facile",
+      "boucle": true
+    },
+    "prix": {
+      "type": "gratuit",
+      "montant": 0,
+      "detail": "Sentier libre. Le télésiège Bai de Dones est payant mais évitable à pied."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire."
+    },
+    "etiquettes": [
+      "gratuit",
+      "histoire",
+      "court"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "refuge",
+      "restaurant",
+      "vue",
+      "chien",
+      "parking"
+    ],
+    "liens": [
+      {
+        "libelle": "Musée en plein air de la Grande Guerre",
+        "url": "https://www.cortinamuseiguerra.it/"
+      }
+    ]
+  },
+  {
+    "id": "adolf-munkel",
+    "nom": "Adolf-Munkel-Weg (Val di Funes)",
+    "categorie": "rando",
+    "gps": [
+      46.6353,
+      11.7286
+    ],
+    "commune": "Funes / Villnöss (BZ)",
+    "altitude": 1900,
+    "resume": "Sentier au pied des parois nord des Odle, dans le parc Puez-Odle. Forêt puis alpages, l'un des plus beaux sentiers des Dolomites.",
+    "rando": {
+      "distance_km": 9,
+      "denivele_m": 450,
+      "duree_h": 3.5,
+      "difficulte": "moyen",
+      "boucle": true
+    },
+    "prix": {
+      "type": "payant",
+      "montant": 6,
+      "unite": "jour",
+      "annee_tarif": 2025,
+      "detail": "Parking Zannes / Zanser Alm."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire : parc naturel."
+    },
+    "reglement": "chien-alpage",
+    "etiquettes": [
+      "foret",
+      "parc naturel"
+    ],
+    "niveau_prix": "€€",
+    "equipements": [
+      "parking",
+      "refuge",
+      "restaurant",
+      "ombre",
+      "chien",
+      "vue"
+    ],
+    "liens": [
+      {
+        "libelle": "Val di Funes — sentiers",
+        "url": "https://www.villnoess.com/en/"
+      }
+    ]
+  },
+  {
+    "id": "santa-maddalena",
+    "nom": "Santa Maddalena (Val di Funes)",
+    "categorie": "village",
+    "gps": [
+      46.6414,
+      11.7
+    ],
+    "commune": "Funes / Villnöss (BZ)",
+    "altitude": 1339,
+    "resume": "Le village et sa petite église devant les Odle : la vue la plus photographiée du Haut-Adige. Point de vue accessible en quelques minutes à pied.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0
+    },
+    "chien": {
+      "admis": true
+    },
+    "etiquettes": [
+      "gratuit",
+      "sans marche",
+      "photo"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "parking",
+      "vue",
+      "acces-voiture",
+      "chien",
+      "restaurant"
+    ],
+    "liens": [
+      {
+        "libelle": "Val di Funes",
+        "url": "https://www.villnoess.com/en/"
+      }
+    ]
+  },
+  {
+    "id": "lago-sorapis",
+    "nom": "Lago di Sorapis",
+    "categorie": "rando",
+    "gps": [
+      46.5386,
+      12.225
+    ],
+    "commune": "Cortina d'Ampezzo (BL)",
+    "altitude": 1925,
+    "resume": "Lac turquoise laiteux au pied du Sorapis, depuis le Passo Tre Croci. Sentier 215 par endroits étroit avec des câbles : à évaluer selon le chien.",
+    "rando": {
+      "distance_km": 12,
+      "denivele_m": 500,
+      "duree_h": 4,
+      "difficulte": "moyen",
+      "boucle": false
+    },
+    "prix": {
+      "type": "gratuit",
+      "montant": 0,
+      "detail": "Sentier libre, parking au Passo Tre Croci souvent saturé."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Passages sur vires équipées de câbles : difficile avec un chien peu sûr. À décider sur place."
+    },
+    "etiquettes": [
+      "lac",
+      "passages etroits"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "refuge",
+      "vue",
+      "chien",
+      "parking"
+    ],
+    "liens": [
+      {
+        "libelle": "Description du sentier 215",
+        "url": "https://www.dolomiti.it/en/cortina/"
+      }
+    ]
+  },
+  {
+    "id": "col-raiser",
+    "nom": "Col Raiser",
+    "categorie": "plateau",
+    "gps": [
+      46.5833,
+      11.7
+    ],
+    "commune": "Santa Cristina Val Gardena (BZ)",
+    "altitude": 2106,
+    "resume": "Plateau herbeux sous les Odle, accessible par télécabine depuis Santa Cristina. Alternative moins fréquentée à Seceda, avec les mêmes parois en face.",
+    "prix": {
+      "type": "payant",
+      "adulte_ar": 28,
+      "unite": "aller-retour",
+      "annee_tarif": 2025,
+      "detail": "Tarif indicatif, à revérifier pour 2026."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Dates de fermeture d'automne 2026 non publiées."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire."
+    },
+    "etiquettes": [
+      "plateau",
+      "moins frequente"
+    ],
+    "niveau_prix": "€€€",
+    "equipements": [
+      "refuge",
+      "restaurant",
+      "plat",
+      "vue",
+      "chien"
+    ],
+    "liens": [
+      {
+        "libelle": "Remontées Val Gardena",
+        "url": "https://www.valgardena.it/en/"
+      }
+    ]
+  },
+  {
+    "id": "pralongia",
+    "nom": "Pralongià",
+    "categorie": "plateau",
+    "gps": [
+      46.5347,
+      11.9006
+    ],
+    "commune": "Corvara / Alta Badia (BZ)",
+    "altitude": 2157,
+    "resume": "Plateau doux entre Corvara et Cortina, panorama circulaire sur le Sella, la Marmolada et les Tofane. Chemins larges et roulants.",
+    "prix": {
+      "type": "variable",
+      "detail": "Accès à pied gratuit, ou par les remontées de l'Alta Badia (dates d'automne à revérifier)."
+    },
+    "ouverture": {
+      "a_reverifier": true
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire, alpages."
+    },
+    "reglement": "chien-alpage",
+    "etiquettes": [
+      "plateau",
+      "plat",
+      "panorama"
+    ],
+    "niveau_prix": "€€",
+    "equipements": [
+      "refuge",
+      "restaurant",
+      "plat",
+      "vue",
+      "chien"
+    ],
+    "liens": [
+      {
+        "libelle": "Alta Badia",
+        "url": "https://www.altabadia.org/en/"
+      }
+    ]
+  },
+  {
+    "id": "alpe-fanes",
+    "nom": "Alpe di Fanes",
+    "categorie": "plateau",
+    "gps": [
+      46.6431,
+      12.0417
+    ],
+    "commune": "Parc naturel Fanes-Sennes-Braies (BZ)",
+    "altitude": 2060,
+    "resume": "Haut plateau karstique au cœur du parc Fanes-Sennes. Vaste, silencieux, très peu de monde en octobre. Accès long depuis Pederü.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0,
+      "detail": "Sentier libre. Navette 4x4 payante depuis Pederü, dates d'automne à revérifier."
+    },
+    "ouverture": {
+      "a_reverifier": true
+    },
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire : parc naturel."
+    },
+    "reglement": "chien-alpage",
+    "etiquettes": [
+      "plateau",
+      "sauvage",
+      "parc naturel"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "refuge",
+      "plat",
+      "vue",
+      "chien",
+      "calme"
+    ],
+    "liens": [
+      {
+        "libelle": "Parc naturel Fanes-Sennes-Braies",
+        "url": "https://www.provinz.bz.it/natur-umwelt/natur-raum/naturparks/naturpark-fanes-sennes-prags.asp"
+      }
+    ]
+  },
+  {
+    "id": "kronplatz",
+    "nom": "Plan de Corones / Kronplatz",
+    "categorie": "plateau",
+    "gps": [
+      46.7375,
+      11.955
+    ],
+    "commune": "Brunico / Bruneck (BZ)",
+    "altitude": 2275,
+    "resume": "Sommet-plateau arrondi et entièrement dégagé, vue à 360 degrés sur les Alpes. Deux musées au sommet, dont le Messner Museum Corones.",
+    "prix": {
+      "type": "payant",
+      "adulte_ar": 32,
+      "unite": "aller-retour",
+      "annee_tarif": 2025,
+      "detail": "Tarif indicatif, à revérifier pour 2026."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Fermeture d'automne à vérifier : souvent début à mi-octobre."
+    },
+    "chien": {
+      "admis": true
+    },
+    "etiquettes": [
+      "plateau",
+      "vue",
+      "musee"
+    ],
+    "niveau_prix": "€€€",
+    "equipements": [
+      "restaurant",
+      "refuge",
+      "plat",
+      "vue",
+      "chien",
+      "toilettes"
+    ],
+    "liens": [
+      {
+        "libelle": "Kronplatz — remontées",
+        "url": "https://www.kronplatz.com/en/"
+      },
+      {
+        "libelle": "Messner Mountain Museum Corones",
+        "url": "https://www.messner-mountain-museum.it/en/corones/museum/"
+      }
+    ]
+  },
+  {
+    "id": "misurina",
+    "nom": "Lago di Misurina",
+    "categorie": "lac",
+    "gps": [
+      46.5822,
+      12.2531
+    ],
+    "commune": "Auronzo di Cadore (BL)",
+    "altitude": 1754,
+    "resume": "Lac au bord de la route, reflet du Sorapis, sur le chemin des Tre Cime. Tour du lac plat, court, sans effort.",
+    "prix": {
+      "type": "payant",
+      "montant": 5,
+      "unite": "jour",
+      "annee_tarif": 2025,
+      "detail": "Parkings payants autour du lac."
+    },
+    "chien": {
+      "admis": true
+    },
+    "rando": {
+      "distance_km": 2.5,
+      "denivele_m": 20,
+      "duree_h": 0.8,
+      "difficulte": "facile",
+      "boucle": true
+    },
+    "etiquettes": [
+      "plat",
+      "sur la route",
+      "court"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "parking",
+      "restaurant",
+      "bar",
+      "plat",
+      "chien",
+      "acces-voiture",
+      "toilettes"
+    ],
+    "liens": [
+      {
+        "libelle": "Misurina et les Tre Cime",
+        "url": "https://www.dolomiti.it/en/auronzo-misurina/"
+      }
+    ]
+  },
+  {
+    "id": "camping-olympia",
+    "nom": "Camping Olympia",
+    "categorie": "camping",
+    "gps": [
+      46.7297,
+      12.2178
+    ],
+    "commune": "Dobbiaco / Toblach (BZ)",
+    "altitude": 1250,
+    "resume": "Grand camping ouvert à l'année, sanitaires chauffés, laverie. Base arrière idéale pour les Tre Cime et Braies.",
+    "prix": {
+      "type": "payant",
+      "montant": 38,
+      "unite": "nuit",
+      "annee_tarif": 2025,
+      "detail": "Estimation basse saison : 2 adultes, voiture avec tente de toit, chien. À confirmer."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 5,
+      "note": "Supplément par nuit, laisse obligatoire sur le terrain."
+    },
+    "services": [
+      "douches chaudes",
+      "laverie",
+      "wifi",
+      "électricité",
+      "épicerie"
+    ],
+    "eau": true,
+    "ouverture": {
+      "note": "Ouvert toute l'année."
+    },
+    "reserver": {
+      "obligatoire": false,
+      "url": "https://www.camping-olympia.com"
+    },
+    "sources": [
+      "camping"
+    ],
+    "etiquettes": [
+      "confort",
+      "lessive",
+      "base arriere",
+      "ouvert en octobre"
+    ],
+    "niveau_prix": "€€",
+    "equipements": [
+      "electricite",
+      "eau",
+      "vidange",
+      "douches",
+      "toilettes",
+      "laverie",
+      "wifi",
+      "epicerie",
+      "restaurant",
+      "chien",
+      "ouvert-annee",
+      "poubelles"
+    ],
+    "liens": [
+      {
+        "libelle": "Camping Olympia — site officiel",
+        "url": "https://www.camping-olympia.com"
+      }
+    ]
+  },
+  {
+    "id": "camping-cortina",
+    "nom": "Camping Olympia Cortina / Dolomiti",
+    "categorie": "camping",
+    "gps": [
+      46.5936,
+      12.135
+    ],
+    "commune": "Cortina d'Ampezzo (BL)",
+    "altitude": 1300,
+    "resume": "Camping proche de Cortina, utile comme base pour Falzarego, Cinque Torri et Sorapis.",
+    "prix": {
+      "type": "payant",
+      "montant": 35,
+      "unite": "nuit",
+      "annee_tarif": 2025,
+      "detail": "Estimation basse saison. Ouverture d'automne À CONFIRMER : beaucoup de campings de Cortina ferment fin septembre."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 5
+    },
+    "services": [
+      "douches chaudes",
+      "électricité"
+    ],
+    "eau": true,
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouverture en octobre à confirmer par téléphone avant de partir."
+    },
+    "sources": [
+      "camping"
+    ],
+    "etiquettes": [
+      "a confirmer"
+    ],
+    "niveau_prix": "€€",
+    "equipements": [
+      "electricite",
+      "eau",
+      "douches",
+      "toilettes",
+      "chien",
+      "poubelles"
+    ],
+    "liens": [
+      {
+        "libelle": "Campings de Cortina",
+        "url": "https://www.dolomiti.org/en/cortina/"
+      }
+    ]
+  },
+  {
+    "id": "aire-ortisei",
+    "nom": "Aire camping-car d'Ortisei",
+    "categorie": "aire",
+    "gps": [
+      46.5747,
+      11.6725
+    ],
+    "commune": "Ortisei / St. Ulrich (BZ)",
+    "altitude": 1236,
+    "resume": "Aire de stationnement en bord de village, à pied du départ des remontées de Seceda.",
+    "prix": {
+      "type": "payant",
+      "montant": 25,
+      "unite": "nuit",
+      "annee_tarif": 2025,
+      "detail": "Tarif et ouverture À VÉRIFIER sur place ou via park4night."
+    },
+    "services": [
+      "eau",
+      "vidange"
+    ],
+    "eau": true,
+    "ouverture": {
+      "a_reverifier": true
+    },
+    "sources": [
+      "park4night"
+    ],
+    "lien_p4n": "https://park4night.com/fr/search?q=Ortisei",
+    "etiquettes": [
+      "a verifier",
+      "proche remontees"
+    ],
+    "niveau_prix": "€€",
+    "equipements": [
+      "eau",
+      "vidange",
+      "chien",
+      "parking",
+      "poubelles"
+    ],
+    "liens": [
+      {
+        "libelle": "Chercher sur park4night",
+        "url": "https://park4night.com/fr/search?q=Ortisei"
+      }
+    ]
+  },
+  {
+    "id": "agricamper-alto-adige",
+    "nom": "Agricamper Italia — fermes du Haut-Adige",
+    "categorie": "agricamper",
+    "gps": [
+      46.6,
+      11.75
+    ],
+    "commune": "Haut-Adige (BZ) — plusieurs fermes",
+    "resume": "Réseau de fermes, domaines viticoles et brasseries offrant 24 h de stationnement gratuit aux adhérents. Point indicatif : les adresses exactes se consultent dans l'application après adhésion.",
+    "prix": {
+      "type": "payant",
+      "montant": 34.9,
+      "unite": "abonnement annuel",
+      "annee_tarif": 2025,
+      "detail": "34,90 €/an pour l'accès à plus de 250 structures en Italie. Les nuits sont ensuite gratuites (24 h)."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Filtre « animaux admis » disponible dans l'application."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouverture de chaque ferme variable en octobre : vérifier dans l'application."
+    },
+    "reserver": {
+      "obligatoire": true,
+      "url": "https://www.agricamper.com"
+    },
+    "sources": [
+      "agricamper"
+    ],
+    "etiquettes": [
+      "gratuit apres abonnement",
+      "a verifier"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "calme",
+      "chien",
+      "ouvert-annee",
+      "reservation"
+    ],
+    "liens": [
+      {
+        "libelle": "Agricamper Italia — adhésion",
+        "url": "https://www.agricamper.com"
+      },
+      {
+        "libelle": "Comment ça marche",
+        "url": "https://www.agricamper.com/en/"
+      }
+    ]
+  },
+  {
+    "id": "station-brennero",
+    "nom": "Station-service — axe du Brenner",
+    "categorie": "carburant",
+    "gps": [
+      46.9986,
+      11.506
+    ],
+    "commune": "Brennero / Brenner (BZ)",
+    "resume": "Dernier plein avant de basculer vers les vallées. Privilégier le « fai da te » (libre-service), nettement moins cher que le « servito ».",
+    "carburant": {
+      "gazole": true,
+      "sp95": true,
+      "ouvert_24h": true
+    },
+    "etiquettes": [
+      "plein",
+      "self-service"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "24h",
+      "toilettes",
+      "bar",
+      "acces-voiture"
+    ],
+    "liens": [
+      {
+        "libelle": "Prix des carburants en Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ]
+  },
+  {
+    "id": "etape-route-aller",
+    "nom": "Étape de route — vallée du Rhône",
+    "categorie": "etape-route",
+    "gps": [
+      44.9333,
+      4.8917
+    ],
+    "commune": "Vallée du Rhône (France)",
+    "resume": "Coupure de l'aller : environ 4 h depuis le départ. Point indicatif à préciser selon l'heure de départ réelle.",
+    "prix": {
+      "type": "variable",
+      "detail": "Aire gratuite ou camping selon l'arrivée."
+    },
+    "sources": [
+      "park4night"
+    ],
+    "lien_p4n": "https://park4night.com/",
+    "etiquettes": [
+      "a preciser"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "calme",
+      "chien"
+    ],
+    "liens": [
+      {
+        "libelle": "Chercher une halte sur park4night",
+        "url": "https://park4night.com/"
+      }
+    ]
+  }
+]

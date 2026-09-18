@@ -1,0 +1,22 @@
+{
+  "defaut": "14-jours",
+  "scenarios": [
+    {
+      "id": "14-jours",
+      "libelle": "14 jours — séjour complet",
+      "resume": "Du 10 au 23 octobre. Val Gardena, Alta Badia, Cortina, Tre Cime, Braies, Fanes.",
+      "jours": 14,
+      "dossier": "scenarios/14-jours",
+      "titre": "Dolomites — 14 jours"
+    },
+    {
+      "id": "10-jours",
+      "libelle": "10 jours — version courte",
+      "resume": "Du 10 au 19 octobre. Garde Lagazuoi, Seceda, Alpe di Siusi et Tre Cime ; abandonne Fanes, Kronplatz et la journée tampon.",
+      "jours": 10,
+      "dossier": "scenarios/10-jours",
+      "titre": "Dolomites — 10 jours"
+    }
+  ],
+  "note": "Ajouter un scénario : copier un dossier de scenarios/, adapter ses quatre fichiers (reglages, planning, itineraire, budget), ajouter une entrée ici. Les lieux, catégories, météo et règles restent communs : jamais dupliqués."
+}

@@ -1,0 +1,14 @@
+{
+  "camping":     { "libelle": "Camping",            "couleur": "#3a6ea5", "icone": "camp",      "ordre": 1, "actif": true },
+  "aire":        { "libelle": "Aire camping-car",   "couleur": "#2f6f4f", "icone": "tente",     "ordre": 2, "actif": true },
+  "agricamper":  { "libelle": "Agricamper / ferme", "couleur": "#7a9b4f", "icone": "ferme",     "ordre": 3, "actif": true },
+  "parking":     { "libelle": "Parking",            "couleur": "#7a6f5d", "icone": "parking",   "ordre": 4, "actif": true },
+  "plateau":     { "libelle": "Plateau d'altitude", "couleur": "#c2763a", "icone": "plateau",   "ordre": 5, "actif": true },
+  "rando":       { "libelle": "Randonnée",          "couleur": "#8a5a9b", "icone": "chaussure", "ordre": 6, "actif": true },
+  "remontee":    { "libelle": "Remontée mécanique", "couleur": "#c08a2e", "icone": "cabine",    "ordre": 7, "actif": true },
+  "lac":         { "libelle": "Lac",                "couleur": "#3f8fa5", "icone": "lac",       "ordre": 8, "actif": true },
+  "vue":         { "libelle": "Point de vue",       "couleur": "#4f8f8f", "icone": "oeil",      "ordre": 9, "actif": true },
+  "village":     { "libelle": "Village",            "couleur": "#9b6b5a", "icone": "village",   "ordre": 10, "actif": false },
+  "carburant":   { "libelle": "Station-service",    "couleur": "#b4603a", "icone": "essence",   "ordre": 11, "actif": false },
+  "etape-route": { "libelle": "Étape de route",     "couleur": "#6f6a63", "icone": "route",     "ordre": 12, "actif": false }
+}

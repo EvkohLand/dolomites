@@ -1,0 +1,52 @@
+{
+  "etapes": [
+    {
+      "id": "etape-aller-1",
+      "jour": 1,
+      "de": "depart",
+      "vers": "etape-route-aller",
+      "distance_km": 213,
+      "duree_h": 2.3,
+      "peages": 22,
+      "note": "A9 puis A7 vers le nord. Rouler à 110 avec la tente de toit : moins bruyant, moins gourmand.",
+      "par": [],
+      "pays": "FR",
+      "mesure": "Distance et durée calculées sur le réseau routier réel (OSRM), pas estimées."
+    },
+    {
+      "id": "etape-aller-2",
+      "jour": 2,
+      "de": "etape-route-aller",
+      "vers": "camping-olympia",
+      "distance_km": 908,
+      "duree_h": 10.4,
+      "peages": 55,
+      "note": "Traversée de la plaine du Pô puis montée vers le Haut-Adige. Distances et péages À AFFINER selon l'itinéraire retenu.",
+      "par": [
+        "station-brennero"
+      ],
+      "pays": "IT",
+      "mesure": "Distance et durée calculées sur le réseau routier réel (OSRM), pas estimées."
+    },
+    {
+      "id": "etape-retour",
+      "jour": 10,
+      "de": "camping-olympia",
+      "vers": "depart",
+      "distance_km": 1014,
+      "duree_h": 11.4,
+      "peages": 77,
+      "note": "Retour direct ou coupé en deux selon la fatigue. Vendredi : trafic plus calme que le samedi.",
+      "par": [],
+      "pays": "IT",
+      "mesure": "Distance et durée calculées sur le réseau routier réel (OSRM), pas estimées."
+    }
+  ],
+  "style_trace": {
+    "couleur": "#1c1b19",
+    "epaisseur": 3,
+    "opacite": 0.55,
+    "pointilles": "6 6"
+  },
+  "note": "Distances et durées calculées sur le réseau routier réel. Les péages restent des estimations à recaler."
+}

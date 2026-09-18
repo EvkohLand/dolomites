@@ -1,0 +1,14 @@
+{
+  "libelle": "Voiture avec tente de toit",
+  "carburant": "gazole",
+  "conso_base_100km": 6.2,
+  "surconso_tente_pct": 22,
+  "conso_reelle_100km": 7.6,
+  "note_conso": "La consommation retenue pour le budget est conso_base majorée de surconso_tente_pct. Une tente de toit coûte 10 à 25 % de carburant selon la vitesse : à 110 km/h la pénalité est nettement plus faible qu'à 130.",
+  "reservoir_l": 50,
+  "autonomie_km": 650,
+  "hauteur_tente_fermee_m": 2.05,
+  "note_hauteur": "À MESURER une fois la tente montée sur les barres. Au-delà de 2 m, la plupart des parkings couverts sont interdits : vérifier les portiques avant de s'engager.",
+  "vitesse_conseillee_kmh": 110,
+  "confidentialite": "Aucun modèle, aucune immatriculation : ce fichier est public et ne décrit que ce qui sert au calcul."
+}
