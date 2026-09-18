@@ -931,7 +931,15 @@
       if (r.detail) c.appendChild(el('p', 'regle__detail', r.detail));
       if (r.amende) c.appendChild(el('span', 'badge badge--alerte regle__amende', 'Amende : ' + r.amende));
       if (r.a_reverifier) c.appendChild(el('span', 'badge badge--alerte regle__amende', 'à revérifier avant le départ'));
-      if (r.source) {
+      if (Array.isArray(r.sources) && r.sources.length) {
+        r.sources.forEach(function (s, i) {
+          if (!s || !s.url) return;
+          var a = el('a', 'lien-ext', s.libelle || ('Source ' + (i + 1)));
+          a.href = s.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+          a.style.marginTop = '10px';
+          c.appendChild(a);
+        });
+      } else if (r.source) {
         var a = el('a', 'lien-ext', 'Source');
         a.href = r.source; a.target = '_blank'; a.rel = 'noopener noreferrer';
         a.style.marginTop = '10px';
