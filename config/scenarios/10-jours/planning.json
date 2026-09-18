@@ -80,13 +80,13 @@
     "trajet": null,
     "activites": [
       {
-        "lieu": "passo-gardena",
-        "heure": "09:00",
-        "note": "La bascule vers l'est : col au pied du Sella."
+        "lieu": "col-raiser",
+        "heure": "08:30"
       },
       {
-        "lieu": "col-raiser",
-        "heure": "09:30"
+        "lieu": "passo-gardena",
+        "heure": "11:30",
+        "note": "La bascule vers l'est : col au pied du Sella."
       },
       {
         "lieu": "corvara",
@@ -99,7 +99,7 @@
         "note": "Si les remontées de l'Alta Badia sont encore ouvertes, sinon à pied."
       }
     ],
-    "note": "Bascule vers l'est. Deux plateaux dans la journée."
+    "note": "Progression logique d'ouest en est : Col Raiser d'abord, puis Passo Gardena, Corvara et Alta Badia avant de dormir côté Cortina."
   },
   {
     "date": "2026-10-16",
@@ -143,16 +143,16 @@
         "heure": "09:00"
       },
       {
-        "lieu": "misurina",
-        "heure": "15:00"
+        "lieu": "lago-antorno",
+        "heure": "15:00",
+        "note": "Juste avant le péage, reflet des Tre Cime."
       },
       {
-        "lieu": "lago-antorno",
-        "heure": "15:30",
-        "note": "Juste avant le péage, reflet des Tre Cime."
+        "lieu": "misurina",
+        "heure": "15:30"
       }
     ],
-    "note": "Le morceau de bravoure. Monter tôt : le parking du Rifugio Auronzo se remplit."
+    "note": "Montée au Rifugio Auronzo, randonnée, puis descente sans aller-retour inutile : Lago d'Antorno avant Misurina, puis continuation vers la base de nuit."
   },
   {
     "date": "2026-10-18",
