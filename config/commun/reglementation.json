@@ -1,13 +1,26 @@
 [
   {
     "id": "bivouac-trentin",
-    "titre": "Bivouac et camping sauvage",
-    "portee": "Trentin-Haut-Adige et Vénétie, parcs naturels compris",
-    "resume": "Le camping sauvage est interdit. Le bivouac n'est toléré qu'au-dessus de 2 500 m, une seule nuit.",
-    "detail": "La tolérance suppose un montage après le coucher du soleil et un démontage au matin, loin de toute route et de tout bâtiment. Une tente de toit sur un parking de vallée n'entre dans aucune de ces conditions : c'est du camping, donc verbalisable. Le séjour s'appuie donc sur les campings, les aires et le réseau Agricamper, pas sur le bivouac sauvage.",
-    "amende": "De 50 à 500 €",
+    "titre": "Bivouac, tente de toit et camping sauvage",
+    "portee": "Dolomites : règles différentes selon le Trentin, le Haut-Adige et les zones protégées de Vénétie",
+    "resume": "Il n’existe pas de règle générale autorisant le bivouac au-dessus de 2 500 m. Une tente de toit déployée sur un parking n’est pas automatiquement assimilée à un bivouac alpin.",
+    "detail": "En Trentin, un campement individuel occasionnel peut être admis jusqu’à 24 h uniquement là où aucune interdiction explicite de l’autorité compétente ne s’applique. En Haut-Adige, le camping avec camping-car ou caravane et la nuit sous tente sur le domaine public sont en principe interdits hors campings et aires officiellement autorisés. Dans certaines zones protégées de Vénétie, camping libre et bivouac sont interdits sauf urgence ou nécessité. Pour une tente de toit sur un parking, il faut donc vérifier la règle du parking, de la commune et du parc concerné : l’altitude seule ne rend pas la nuit légale.",
     "gravite": "elevee",
-    "source": "https://www.dolomitestyrol.fr/bivouacs/"
+    "a_reverifier": true,
+    "sources": [
+      {
+        "libelle": "Trentin — loi provinciale",
+        "url": "https://www.consiglio.provincia.tn.it/leggi-e-archivi/codice-provinciale/Pages/legge.aspx?uid=+23806"
+      },
+      {
+        "libelle": "Haut-Adige — Province de Bolzano",
+        "url": "https://giunta-provinciale.provincia.bz.it/it/news/campeggio-selvaggio-i-controlli-a-livello-provinciale-danno-risultati"
+      },
+      {
+        "libelle": "Vénétie — règlement de zone protégée",
+        "url": "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=Dgr_620_21_AllegatoA_448436.pdf&storico=False&type=9"
+      }
+    ]
   },
   {
     "id": "chien-alpage",
