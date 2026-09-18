@@ -1,0 +1,55 @@
+name: Recalculer les itinéraires
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/recalculer-itineraires.yml"
+      - "etapes-depuis-planning.js"
+      - "trace-route.js"
+      - "config/commun/lieux.json"
+      - "config/scenarios/**/planning.json"
+      - "config/scenarios/**/reglages.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recalculer-itineraires
+  cancel-in-progress: true
+
+jobs:
+  recalculer:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Générer les étapes depuis les scénarios
+        run: node etapes-depuis-planning.js
+
+      - name: Recalculer les vrais tracés routiers
+        run: node trace-route.js
+
+      - name: Valider le site
+        run: node validate.js
+
+      - name: Enregistrer les itinéraires et traces
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/scenarios/*/itineraire.json config/scenarios/*/trace.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement de tracé."
+            exit 0
+          fi
+          git commit -m "Recalculate scenario routes and traces"
+          git pull --rebase origin main
+          git push
