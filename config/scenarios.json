@@ -30,6 +30,22 @@
         "Dobbiaco"
       ],
       "etapes_route": 8
+    },
+    {
+      "id": "11-jours-etape",
+      "libelle": "11 jours — aller coupé en deux",
+      "resume": "Du 9 au 19 octobre. Départ de Saint-Gély le 9 vers midi, environ 5 h de route jusqu'en Ligurie, puis environ 5 h le 10 pour rejoindre le Val Gardena. Retour le 19.",
+      "jours": 11,
+      "dossier": "scenarios/11-jours-etape",
+      "titre": "Dolomites — 11 jours, aller coupé",
+      "logique_route": "Aller fractionné en deux étapes équilibrées : Saint-Gély-du-Fesc → Finale Ligure → Val Gardena, puis même progression Ouest → Est dans les Dolomites.",
+      "bases": [
+        "Finale Ligure",
+        "Ortisei",
+        "Cortina",
+        "Dobbiaco"
+      ],
+      "etapes_route": 8
     }
   ],
   "note": "Ajouter un scénario : copier un dossier de scenarios/, adapter ses quatre fichiers (reglages, planning, itineraire, budget), ajouter une entrée ici. Les lieux, catégories, météo et règles restent communs : jamais dupliqués."
