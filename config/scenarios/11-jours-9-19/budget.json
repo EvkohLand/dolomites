@@ -1,0 +1,86 @@
+{
+  "postes": [
+    {
+      "id": "nuit",
+      "libelle": "Hébergement",
+      "couleur": "#2f6f4f"
+    },
+    {
+      "id": "carburant",
+      "libelle": "Carburant",
+      "couleur": "#b4603a"
+    },
+    {
+      "id": "peages",
+      "libelle": "Péages",
+      "couleur": "#7a6f5d"
+    },
+    {
+      "id": "activite",
+      "libelle": "Activités",
+      "couleur": "#8a5a9b"
+    },
+    {
+      "id": "nourriture",
+      "libelle": "Nourriture",
+      "couleur": "#3a6ea5"
+    },
+    {
+      "id": "divers",
+      "libelle": "Divers",
+      "couleur": "#6f6a63"
+    }
+  ],
+  "calcule": [
+    {
+      "depuis": "planning.nuit",
+      "poste": "nuit"
+    },
+    {
+      "depuis": "planning.activites",
+      "poste": "activite"
+    },
+    {
+      "depuis": "itineraire.peages",
+      "poste": "peages"
+    },
+    {
+      "depuis": "itineraire.carburant",
+      "poste": "carburant",
+      "note": "Consommation lue dans commun/vehicule.json, prix du litre dans commun/carburant.json selon le pays de l'étape."
+    }
+  ],
+  "saisi": [
+    {
+      "jour": 1,
+      "poste": "nourriture",
+      "libelle": "Courses de départ",
+      "montant": 70
+    },
+    {
+      "jour": 4,
+      "poste": "nourriture",
+      "libelle": "Ravitaillement Haut-Adige",
+      "montant": 60
+    },
+    {
+      "jour": 9,
+      "poste": "nourriture",
+      "libelle": "Ravitaillement Cortina",
+      "montant": 60
+    },
+    {
+      "jour": null,
+      "poste": "divers",
+      "libelle": "Abonnement Agricamper Italia",
+      "montant": 34.9
+    },
+    {
+      "jour": null,
+      "poste": "divers",
+      "libelle": "Marge imprévu",
+      "montant": 200
+    }
+  ],
+  "objectif_par_jour": 95
+}
