@@ -5651,5 +5651,41 @@
       "tracé voiture"
     ],
     "source": "https://www.getty.edu/vow/TGNFullDisplay?english=Y&subjectid=7054193"
+  },
+  {
+    "id": "etape-route-ligurie",
+    "nom": "Étape de route — Finale Ligure",
+    "categorie": "etape-route",
+    "gps": [
+      44.1738,
+      8.3547
+    ],
+    "commune": "Finale Ligure (Ligurie, Italie)",
+    "resume": "Coupure de l'aller au voisinage de la moitié du trajet : environ 5 h depuis Saint-Gély-du-Fesc et environ 5 h jusqu'au Val Gardena.",
+    "prix": {
+      "type": "variable",
+      "detail": "Aire, camping ou stationnement adapté à choisir selon l'heure d'arrivée."
+    },
+    "sources": [
+      "itineraire-google-maps",
+      "calcul-trace"
+    ],
+    "lien_p4n": "https://park4night.com/",
+    "etiquettes": [
+      "étape aller",
+      "à préciser"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "calme",
+      "chien"
+    ],
+    "liens": [
+      {
+        "libelle": "Chercher une halte sur park4night",
+        "url": "https://park4night.com/"
+      }
+    ],
+    "recherche_photo": "Finale Ligure Ligurie"
   }
 ]
