@@ -22,8 +22,7 @@ const lire = p => JSON.parse(fs.readFileSync(p, 'utf8'));
 const SANS_VOITURE = new Set(['remontee', 'plateau', 'rando']);
 
 const peagesConnus = {
-  'etape-aller-1': 22,
-  'etape-aller-2': 55,
+  'etape-aller-1': 77,
   'etape-retour': 77,
 };
 
@@ -68,14 +67,13 @@ const peagesConnus = {
       if (arrivee === veille && !par.length) { continue; }
 
       const id = j.jour === 1 ? 'etape-aller-1'
-               : j.jour === 2 ? 'etape-aller-2'
                : j.jour === planning.length ? 'etape-retour'
                : `etape-j${j.jour}`;
       ordre++;
 
       const avant = anciennes.get(id) || {};
       const type = j.jour === planning.length ? 'retour'
-                 : (j.jour <= 2 ? 'aller' : (veille === arrivee ? 'boucle' : 'transfert'));
+                 : (j.jour === 1 ? 'aller' : (veille === arrivee ? 'boucle' : 'transfert'));
       const refsRoute = new Set([veille, ...par, arrivee]);
       const visitesHorsRoute = visites.filter(id => !refsRoute.has(id));
 
