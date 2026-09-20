@@ -1,0 +1,71 @@
+{
+  "titre": "Dolomites — 11 jours",
+  "sous_titre": "Du 9 au 19 octobre — aller coupé en deux, tente de toit et chien",
+  "sejour": {
+    "debut": "2026-10-09",
+    "fin": "2026-10-19",
+    "jours": 11
+  },
+  "depart": {
+    "libelle": "Saint-Gély-du-Fesc",
+    "gps": [
+      43.695,
+      3.81
+    ],
+    "note": "Point pris à la sortie de la commune. Dépôt public : jamais une adresse."
+  },
+  "carte": {
+    "centre": [
+      46.5,
+      11.9
+    ],
+    "zoom": 9,
+    "zoom_min": 5,
+    "zoom_max": 17,
+    "tuiles": {
+      "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "attribution": "© OpenStreetMap",
+      "message_hors_ligne": "Fond de carte indisponible sans réseau. Les positions des points, leurs coordonnées et tout le détail restent lisibles."
+    },
+    "zone_valide": [
+      [
+        42,
+        2
+      ],
+      [
+        48.5,
+        13.5
+      ]
+    ]
+  },
+  "couleurs": {
+    "fond": "#faf9f7",
+    "surface": "#ffffff",
+    "texte": "#1c1b19",
+    "discret": "#6f6a63",
+    "trait": "#e4e0d9",
+    "accent": "#2f6f4f"
+  },
+  "sections": [
+    {
+      "id": "carte",
+      "libelle": "Carte"
+    },
+    {
+      "id": "planning",
+      "libelle": "Planning"
+    },
+    {
+      "id": "budget",
+      "libelle": "Budget"
+    },
+    {
+      "id": "meteo",
+      "libelle": "Météo"
+    },
+    {
+      "id": "reglementation",
+      "libelle": "Règles"
+    }
+  ]
+}
