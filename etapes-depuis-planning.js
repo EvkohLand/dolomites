@@ -66,14 +66,14 @@ const peagesConnus = {
          tracé voiture. L'activité reste bien visible dans le planning. */
       if (arrivee === veille && !par.length) { continue; }
 
-      const id = j.jour === 1 ? 'etape-aller-1'
+      const id = j.trajet || (j.jour === 1 ? 'etape-aller-1'
                : j.jour === planning.length ? 'etape-retour'
-               : `etape-j${j.jour}`;
+               : `etape-j${j.jour}`);
       ordre++;
 
       const avant = anciennes.get(id) || {};
       const type = j.jour === planning.length ? 'retour'
-                 : (j.jour === 1 ? 'aller' : (veille === arrivee ? 'boucle' : 'transfert'));
+                 : (String(id).startsWith('etape-aller') ? 'aller' : (veille === arrivee ? 'boucle' : 'transfert'));
       const refsRoute = new Set([veille, ...par, arrivee]);
       const visitesHorsRoute = visites.filter(id => !refsRoute.has(id));
 
@@ -88,7 +88,7 @@ const peagesConnus = {
         par,
         visites,
         visites_hors_route: visitesHorsRoute,
-        pays: j.jour === 1 ? 'FR' : 'IT',
+        pays: j.pays || (j.jour === 1 ? 'FR' : 'IT'),
         note: j.titre || ''
       };
       if (peagesConnus[id]) e.peages = peagesConnus[id];
