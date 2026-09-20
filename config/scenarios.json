@@ -46,6 +46,22 @@
         "Dobbiaco"
       ],
       "etapes_route": 8
+    },
+    {
+      "id": "11-jours-9-19",
+      "libelle": "11 jours — départ le 9 à midi",
+      "resume": "Du 9 au 19 octobre. Départ de Saint-Gély vers midi, première nuit vers Savone / Vado Ligure après environ 5 h de route, arrivée au Val Gardena le 10.",
+      "jours": 11,
+      "dossier": "scenarios/11-jours-9-19",
+      "titre": "Dolomites — 11 jours (9 → 19 octobre)",
+      "logique_route": "Aller coupé en deux : Saint-Gély → Savone / Vado Ligure le 9, puis Val Gardena le 10. Ensuite progression Ouest → Est jusqu'à Braies, journée tampon le 18 et retour le 19.",
+      "bases": [
+        "Savone / Vado Ligure",
+        "Ortisei",
+        "Cortina",
+        "Dobbiaco"
+      ],
+      "etapes_route": 10
     }
   ],
   "note": "Ajouter un scénario : copier un dossier de scenarios/, adapter ses quatre fichiers (reglages, planning, itineraire, budget), ajouter une entrée ici. Les lieux, catégories, météo et règles restent communs : jamais dupliqués."
