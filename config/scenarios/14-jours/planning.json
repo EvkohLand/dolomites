@@ -2,26 +2,16 @@
   {
     "date": "2026-10-10",
     "jour": 1,
-    "titre": "Départ — vallée du Rhône",
-    "zone": "Route",
-    "nuit": "etape-route-aller",
+    "titre": "Saint-Gély-du-Fesc → Val Gardena",
+    "zone": "Route / Val Gardena",
+    "nuit": "aire-ortisei",
     "trajet": "etape-aller-1",
     "activites": [],
-    "note": "Départ en fin de matinée. Première nuit en tente de toit sur la route, sans chercher loin."
+    "note": "Départ très tôt le matin, voire au milieu de la nuit, pour arriver dans les Dolomites avant 18 h. Pas de visite prévue : arrivée, installation et préparation pour la nuit."
   },
   {
     "date": "2026-10-11",
     "jour": 2,
-    "titre": "Traversée vers le Val Gardena",
-    "zone": "Route",
-    "nuit": "aire-ortisei",
-    "trajet": "etape-aller-2",
-    "activites": [],
-    "note": "Grosse journée de route. Plein en France avant la frontière : le gazole y est nettement moins cher qu'en Italie. Arrivée en Val Gardena en fin de journée."
-  },
-  {
-    "date": "2026-10-12",
-    "jour": 3,
     "titre": "Val di Funes",
     "zone": "Val Gardena / Funes",
     "nuit": "aire-ortisei",
@@ -40,8 +30,8 @@
     "note": "Journée douce pour reprendre la marche : forêt puis alpages sous les Odle."
   },
   {
-    "date": "2026-10-13",
-    "jour": 4,
+    "date": "2026-10-12",
+    "jour": 3,
     "titre": "Seceda",
     "zone": "Val Gardena",
     "nuit": "aire-ortisei",
@@ -56,8 +46,8 @@
     "note": "L'image des Dolomites. Plateau en haut, marche facile avec le chien."
   },
   {
-    "date": "2026-10-14",
-    "jour": 5,
+    "date": "2026-10-13",
+    "jour": 4,
     "titre": "Alpe di Siusi",
     "zone": "Val Gardena",
     "nuit": "aire-ortisei",
@@ -72,8 +62,8 @@
     "note": "Le plus grand plateau d'altitude d'Europe. Journée entière sans dénivelé, la meilleure pour le chien."
   },
   {
-    "date": "2026-10-15",
-    "jour": 6,
+    "date": "2026-10-14",
+    "jour": 5,
     "titre": "Col Raiser et Alta Badia",
     "zone": "Alta Badia",
     "nuit": "camping-cortina",
@@ -102,8 +92,8 @@
     "note": "Progression logique d'ouest en est : Col Raiser d'abord, puis Passo Gardena, Corvara et Alta Badia avant de dormir côté Cortina."
   },
   {
-    "date": "2026-10-16",
-    "jour": 7,
+    "date": "2026-10-15",
+    "jour": 6,
     "titre": "Falzarego et Lagazuoi",
     "zone": "Cortina",
     "nuit": "camping-cortina",
@@ -126,8 +116,8 @@
     "note": "Le jour à ne pas manquer : le téléphérique du Lagazuoi a fermé le 19 octobre en 2025. S'il est déjà fermé, replier sur le Sass Pordoi, confirmé ouvert jusqu'au 1er novembre."
   },
   {
-    "date": "2026-10-17",
-    "jour": 8,
+    "date": "2026-10-16",
+    "jour": 7,
     "titre": "Passo Giau et repos",
     "zone": "Cortina",
     "nuit": "camping-cortina",
@@ -141,8 +131,8 @@
     "note": "Journée courte, tout en voiture et points de vue. Lessive et ravitaillement."
   },
   {
-    "date": "2026-10-18",
-    "jour": 9,
+    "date": "2026-10-17",
+    "jour": 8,
     "titre": "Lago di Sorapis",
     "zone": "Cortina",
     "nuit": "camping-cortina",
@@ -157,8 +147,8 @@
     "note": "La seule randonnée du séjour avec des passages étroits. Repli possible : Misurina."
   },
   {
-    "date": "2026-10-19",
-    "jour": 10,
+    "date": "2026-10-18",
+    "jour": 9,
     "titre": "Tre Cime di Lavaredo",
     "zone": "Tre Cime",
     "nuit": "camping-olympia",
@@ -186,8 +176,8 @@
     "note": "Montée au Rifugio Auronzo, randonnée, puis descente sans aller-retour inutile : Lago d'Antorno avant Misurina, puis continuation vers la base de nuit."
   },
   {
-    "date": "2026-10-20",
-    "jour": 11,
+    "date": "2026-10-19",
+    "jour": 10,
     "titre": "Braies et Prato Piazza",
     "zone": "Braies",
     "nuit": "camping-olympia",
@@ -206,8 +196,8 @@
     "note": "Le lac au lever du jour, puis le plateau au-dessus. Deux lieux, peu de route."
   },
   {
-    "date": "2026-10-21",
-    "jour": 12,
+    "date": "2026-10-20",
+    "jour": 11,
     "titre": "Alpe di Fanes",
     "zone": "Braies",
     "nuit": "camping-olympia",
@@ -221,8 +211,8 @@
     "note": "Journée sauvage dans le parc, très peu de monde en octobre."
   },
   {
-    "date": "2026-10-22",
-    "jour": 13,
+    "date": "2026-10-21",
+    "jour": 12,
     "titre": "Sass Pordoi ou journée libre",
     "zone": "Braies",
     "nuit": "camping-olympia",
@@ -235,6 +225,16 @@
       }
     ],
     "note": "Journée tampon : rattraper ce que la météo aurait fait sauter. Le Kronplatz, lui, est un domaine surtout hivernal, sans doute fermé en octobre."
+  },
+  {
+    "date": "2026-10-22",
+    "jour": 13,
+    "titre": "Journée tampon / météo",
+    "zone": "Dolomites",
+    "nuit": "camping-olympia",
+    "trajet": null,
+    "activites": [],
+    "note": "Journée volontairement libre pour récupérer, absorber un imprévu ou rattraper une visite décalée par la météo."
   },
   {
     "date": "2026-10-23",
