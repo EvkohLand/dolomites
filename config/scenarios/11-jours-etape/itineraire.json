@@ -1,10 +1,185 @@
 {
-  "etapes": [],
+  "etapes": [
+    {
+      "id": "etape-aller-ligurie",
+      "ordre": 1,
+      "jour": 1,
+      "type": "aller",
+      "libelle": "Saint-Gély-du-Fesc → Finale Ligure",
+      "de": "depart",
+      "vers": "etape-route-ligurie",
+      "par": [],
+      "visites": [],
+      "visites_hors_route": [],
+      "pays": "FR",
+      "note": "Saint-Gély-du-Fesc → Finale Ligure",
+      "distance_km": 467,
+      "duree_h": 5.3
+    },
+    {
+      "id": "etape-aller-dolomites",
+      "ordre": 2,
+      "jour": 2,
+      "type": "aller",
+      "libelle": "Finale Ligure → Val Gardena",
+      "de": "etape-route-ligurie",
+      "vers": "aire-ortisei",
+      "par": [],
+      "visites": [],
+      "visites_hors_route": [],
+      "pays": "IT",
+      "note": "Finale Ligure → Val Gardena",
+      "distance_km": 494,
+      "duree_h": 5.5
+    },
+    {
+      "id": "etape-j3",
+      "ordre": 3,
+      "jour": 3,
+      "type": "boucle",
+      "libelle": "Val di Funes",
+      "de": "aire-ortisei",
+      "vers": "aire-ortisei",
+      "par": [
+        "santa-maddalena"
+      ],
+      "visites": [
+        "santa-maddalena",
+        "adolf-munkel"
+      ],
+      "visites_hors_route": [
+        "adolf-munkel"
+      ],
+      "pays": "IT",
+      "note": "Val di Funes",
+      "distance_km": 67,
+      "duree_h": 1.3
+    },
+    {
+      "id": "etape-j6",
+      "ordre": 4,
+      "jour": 6,
+      "type": "transfert",
+      "libelle": "Col Raiser et Alta Badia",
+      "de": "aire-ortisei",
+      "vers": "camping-cortina",
+      "par": [
+        "passo-gardena",
+        "corvara"
+      ],
+      "visites": [
+        "col-raiser",
+        "passo-gardena",
+        "corvara",
+        "pralongia"
+      ],
+      "visites_hors_route": [
+        "col-raiser",
+        "pralongia"
+      ],
+      "pays": "IT",
+      "note": "Col Raiser et Alta Badia",
+      "distance_km": 74,
+      "duree_h": 1.6
+    },
+    {
+      "id": "etape-j7",
+      "ordre": 5,
+      "jour": 7,
+      "type": "boucle",
+      "libelle": "Falzarego et Lagazuoi",
+      "de": "camping-cortina",
+      "vers": "camping-cortina",
+      "par": [
+        "passo-falzarego"
+      ],
+      "visites": [
+        "passo-falzarego",
+        "lagazuoi",
+        "cinque-torri"
+      ],
+      "visites_hors_route": [
+        "lagazuoi",
+        "cinque-torri"
+      ],
+      "pays": "IT",
+      "note": "Falzarego et Lagazuoi",
+      "distance_km": 52,
+      "duree_h": 1.2
+    },
+    {
+      "id": "etape-j8",
+      "ordre": 6,
+      "jour": 8,
+      "type": "transfert",
+      "libelle": "Tre Cime di Lavaredo",
+      "de": "camping-cortina",
+      "vers": "camping-olympia",
+      "par": [
+        "route-tre-cime",
+        "lago-antorno",
+        "misurina"
+      ],
+      "visites": [
+        "route-tre-cime",
+        "rando-tre-cime",
+        "lago-antorno",
+        "misurina"
+      ],
+      "visites_hors_route": [
+        "rando-tre-cime"
+      ],
+      "pays": "IT",
+      "note": "Tre Cime di Lavaredo",
+      "distance_km": 51,
+      "duree_h": 1.4
+    },
+    {
+      "id": "etape-j9",
+      "ordre": 7,
+      "jour": 9,
+      "type": "boucle",
+      "libelle": "Braies et Prato Piazza",
+      "de": "camping-olympia",
+      "vers": "camping-olympia",
+      "par": [
+        "lago-braies"
+      ],
+      "visites": [
+        "lago-braies",
+        "prato-piazza"
+      ],
+      "visites_hors_route": [
+        "prato-piazza"
+      ],
+      "pays": "IT",
+      "note": "Braies et Prato Piazza",
+      "distance_km": 31,
+      "duree_h": 0.6
+    },
+    {
+      "id": "etape-retour",
+      "ordre": 8,
+      "jour": 11,
+      "type": "retour",
+      "libelle": "Retour",
+      "de": "camping-olympia",
+      "vers": "depart",
+      "par": [],
+      "visites": [],
+      "visites_hors_route": [],
+      "pays": "IT",
+      "note": "Retour",
+      "peages": 77,
+      "distance_km": 1014,
+      "duree_h": 11.4
+    }
+  ],
   "style_trace": {
     "couleur": "#1c1b19",
     "epaisseur": 3,
     "opacite": 0.55,
     "pointilles": "6 6"
   },
-  "note": "Étapes générées automatiquement depuis le planning."
+  "note": "Étapes générées depuis le planning : une par journée avec déplacement, passant par les lieux accessibles en voiture. Les sommets de remontées, plateaux et randonnées en sont exclus — on ne les rejoint pas au volant. Relancer node trace-route.js après modification."
 }
