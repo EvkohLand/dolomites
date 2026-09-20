@@ -9,6 +9,7 @@ on:
       - "etapes-depuis-planning.js"
       - "trace-route.js"
       - "config/commun/lieux.json"
+      - "config/scenarios.json"
       - "config/scenarios/**/planning.json"
       - "config/scenarios/**/reglages.json"
 
