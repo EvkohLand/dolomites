@@ -4467,6 +4467,34 @@
     "recherche_photo": "Vallee du Rhone paysage"
   },
   {
+    "id": "etape-savone",
+    "nom": "Étape de route — Savone / Vado Ligure",
+    "categorie": "etape-route",
+    "gps": [
+      44.27341,
+      8.42271
+    ],
+    "commune": "Vado Ligure / Savone (Italie)",
+    "resume": "Halte intermédiaire du scénario 9–19 octobre, placée autour de la moitié du trajet Saint-Gély-du-Fesc → Val Gardena.",
+    "prix": {
+      "type": "variable",
+      "detail": "Aire, camping ou halte Park4Night à choisir selon l'heure d'arrivée."
+    },
+    "sources": [
+      "itineraire"
+    ],
+    "etiquettes": [
+      "etape mi-chemin",
+      "a preciser"
+    ],
+    "niveau_prix": "€",
+    "equipements": [
+      "calme",
+      "chien"
+    ],
+    "recherche_photo": "Savona Liguria landscape"
+  },
+  {
     "id": "sass-pordoi",
     "nom": "Sass Pordoi",
     "categorie": "remontee",
