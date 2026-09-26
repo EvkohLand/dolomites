@@ -12,9 +12,10 @@
       "visites": [],
       "visites_hors_route": [],
       "pays": "FR",
-      "note": "Première moitié de l'aller",
-      "distance_km": 475,
-      "duree_h": 5.1
+      "note": "Saint-Gély-du-Fesc → Savone / Vado Ligure",
+      "peages": 77,
+      "distance_km": 477,
+      "duree_h": 5.4
     },
     {
       "id": "etape-aller-2",
@@ -28,9 +29,9 @@
       "visites": [],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Deuxième moitié de l'aller",
-      "distance_km": 478,
-      "duree_h": 5.2
+      "note": "Savone / Vado Ligure → Val Gardena",
+      "distance_km": 472,
+      "duree_h": 5.1
     },
     {
       "id": "etape-j3",
@@ -159,7 +160,7 @@
     },
     {
       "id": "etape-retour",
-      "ordre": 10,
+      "ordre": 8,
       "jour": 11,
       "type": "retour",
       "libelle": "Retour",
@@ -181,5 +182,5 @@
     "opacite": 0.55,
     "pointilles": "6 6"
   },
-  "note": "Étapes générées depuis le planning. Relancer node trace-route.js après modification."
+  "note": "Étapes générées depuis le planning : une par journée avec déplacement, passant par les lieux accessibles en voiture. Les sommets de remontées, plateaux et randonnées en sont exclus — on ne les rejoint pas au volant. Relancer node trace-route.js après modification."
 }
