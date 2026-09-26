@@ -23,7 +23,7 @@ concurrency:
 jobs:
   enrichir:
     if: github.actor != 'github-actions[bot]'
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, vega]  # own runner (only push/dispatch triggers: no fork code runs here)
     steps:
       - uses: actions/checkout@v4
         with:
