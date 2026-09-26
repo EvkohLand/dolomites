@@ -59,8 +59,19 @@ jobs:
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
+      # Runner Vega (Debian 13, sans sudo) : la CLI `gh` n'y est pas installée
+      # (elle l'était sur les images GitHub). On appelle donc directement l'API
+      # REST « workflow_dispatch » avec curl, présent sur Vega. Même effet que
+      # `gh workflow run pages.yml --ref main` ; --fail fait échouer l'étape si
+      # l'API refuse (réponse attendue : 204).
       - name: Publier immédiatement le nouveau tracé
         if: steps.commit.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run pages.yml --ref main
+        run: |
+          curl --fail-with-body -sS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/workflows/pages.yml/dispatches" \
+            -d '{"ref":"main"}'
