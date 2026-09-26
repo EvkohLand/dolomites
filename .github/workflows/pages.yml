@@ -18,7 +18,7 @@ concurrency:
 jobs:
   construire:
     name: Valider et construire
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, vega]  # own runner (only push/dispatch triggers: no fork code runs here)
     steps:
       - uses: actions/checkout@v4
 
@@ -43,7 +43,7 @@ jobs:
   publier:
     name: Publier sur GitHub Pages
     needs: construire
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, vega]  # own runner (only push/dispatch triggers: no fork code runs here)
     environment:
       name: github-pages
       url: ${{ steps.deploiement.outputs.page_url }}
