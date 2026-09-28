@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "note": "Sélection strictement rattachée aux zones du planning. Les dates d'ouverture 2026 sont reprises des sources officielles lorsqu'elles sont publiées. Une activité fermée aux dates du voyage est conservée mais marquée comme indisponible pour éviter les faux bons plans.",
+  "zones": [
+    {
+      "id": "funes-bressanone",
+      "zones_planning": [
+        "Funes / Bressanone",
+        "Bressanone / Val Gardena"
+      ],
+      "items": [
+        {
+          "type": "visite",
+          "nom": "Maison du parc naturel Puez-Odle — Santa Maddalena",
+          "disponibilite": "À vérifier le jour même",
+          "resume": "Cinéma de montagne, grande photo aérienne praticable, exposition interactive sur le parc et film lié à Reinhold Messner.",
+          "source": "https://www.suedtirol.info/en/en/regions/dolomites-region-luesen-villnoess"
+        },
+        {
+          "type": "visite",
+          "nom": "Musée des minéraux de Tiso / Teis",
+          "disponibilite": "À vérifier",
+          "resume": "Petit musée consacré notamment aux célèbres géodes de Tiso ; bon repli si météo moyenne.",
+          "source": "https://www.suedtirol.info/en/en/regions/dolomites-region-luesen-villnoess"
+        },
+        {
+          "type": "experience",
+          "nom": "Slow Food Travel — randonnée guidée sur le Farmers Trail",
+          "disponibilite": "15 octobre 2026, 09:00–17:00 ; réservation requise ; page actuellement indiquée complète",
+          "prix": "20 € participation + dégustation 30 € adulte",
+          "resume": "Randonnée guidée entre fermes et producteurs locaux avec dégustations. Intéressante à garder comme référence si des places se libèrent.",
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/events-south-tyrol/pdp-event.E6E319F04C5B4DCFB2C6F357CBBBC117.slow-food-travel---guided-hike-on-the-farmers-trail.villnoess-funes"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Semaines de l’agneau Villnösser Brillenschaf",
+          "disponibilite": "9–18 octobre 2026",
+          "resume": "Spécialités autour de la race locale dans plusieurs restaurants de Funes : Fines, Pitzock, Kabis, Geisleralm, Viel Nois, Waldschenke, Dreimädelhaus, etc.",
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/events-south-tyrol/pdp-event.43FDA904BA204BCB9EF899018EF1FDFA.lamb-weeks-of-villnoesser-brillenschaf-sheep.villnoess-funes"
+        },
+        {
+          "type": "remontee",
+          "nom": "Plose — télécabine depuis Bressanone",
+          "disponibilite": "23 mai–1 novembre 2026 ; 09:00–17:00 du 7 septembre au 1er novembre",
+          "chien": "Admis, 5 € / jour selon l'exploitant",
+          "resume": "Alternative météo/activité depuis Bressanone : montée vers 2 000 m, panorama et départ de promenades.",
+          "source": "https://www.plose.org/en/summer-plose/opening-hours-prices.html"
+        },
+        {
+          "type": "activite",
+          "nom": "Plosebob",
+          "disponibilite": "23 mai–1 novembre 2026 ; 09:45–16:30 à partir du 7 septembre, pause 12:15–13:00 après le 5 octobre",
+          "resume": "Luge sur rails à la station haute de la Plose ; peut fermer en cas de pluie, neige, brouillard ou orage.",
+          "source": "https://www.plose.org/en/summer-plose/opening-hours-prices.html"
+        },
+        {
+          "type": "activite",
+          "nom": "Plose Looping — « Eye of the Dolomites »",
+          "disponibilite": "5 octobre–1 novembre 2026 : 09:15–12:30 et 13:00–16:45",
+          "resume": "Attraction 360° à la station haute ; activité courte à combiner avec la Plose.",
+          "source": "https://www.plose.org/en/summer-plose/adrenaline-plose/looping.html"
+        },
+        {
+          "type": "visite",
+          "nom": "Bressanone — vieille ville, cathédrale et cloître",
+          "disponibilite": "Toute l'année ; horaires des édifices à vérifier",
+          "resume": "Très bon programme de repli : centre médiéval/baroque, cathédrale, cloître et arcades.",
+          "source": "https://www.brixen.org/en/my-holiday/holidaying-in-brixen/frequently-asked-questions-faq"
+        },
+        {
+          "type": "visite",
+          "nom": "Hofburg + Musée diocésain de Bressanone",
+          "disponibilite": "À vérifier",
+          "resume": "Ancienne résidence épiscopale et musée ; option pluie.",
+          "source": "https://www.brixen.org/en/my-holiday/brixen-as-a-holiday-destination/brixen-suedtirol-guest-pass"
+        },
+        {
+          "type": "visite",
+          "nom": "Abbaye de Novacella / Neustift",
+          "disponibilite": "À vérifier",
+          "resume": "Abbaye majeure de la région alpine, proche de Bressanone ; très bonne alternative culturelle.",
+          "source": "https://www.brixen.org/en/my-holiday/brixen-as-a-holiday-destination/brixen-suedtirol-guest-pass"
+        },
+        {
+          "type": "visite",
+          "nom": "Musée de la Pharmacie de Bressanone",
+          "disponibilite": "À vérifier",
+          "resume": "Petit musée historique inclus parmi les principales visites de Bressanone ; adapté à une demi-journée météo.",
+          "source": "https://www.brixen.org/en/my-holiday/brixen-as-a-holiday-destination/brixen-suedtirol-guest-pass"
+        },
+        {
+          "type": "activite",
+          "nom": "Acquarena Bressanone",
+          "disponibilite": "Piscine couverte ; horaires à vérifier",
+          "resume": "Piscine intérieure avec bassin sportif, bassin ludique, rapides et eau salée : solution de vraie mauvaise météo.",
+          "source": "https://www.brixen.org/en/my-holiday/brixen-as-a-holiday-destination/brixen-suedtirol-guest-pass"
+        }
+      ]
+    },
+    {
+      "id": "val-gardena",
+      "zones_planning": [
+        "Val Gardena",
+        "Bressanone / Val Gardena"
+      ],
+      "items": [
+        {
+          "type": "remontee",
+          "nom": "Ortisei → Furnes → Seceda",
+          "disponibilite": "22 mai–2 novembre 2026 ; 08:30–17:00 du 12 octobre au 2 novembre",
+          "resume": "Remontée directe la plus fiable à vos dates pour rejoindre Seceda sans faire toute l'ascension à pied.",
+          "source": "https://www.valgardena.it/en/summer-holidays-dolomites/lifts/"
+        },
+        {
+          "type": "remontee",
+          "nom": "Col Raiser",
+          "disponibilite": "22 mai–1 novembre 2026 ; 08:30–16:30 du 11 octobre au 1er novembre",
+          "resume": "Accès très pratique au secteur Seceda/Puez-Odle, compatible avec plusieurs randonnées déjà présentes dans le site.",
+          "source": "https://www.valgardena.it/en/summer-holidays-dolomites/lifts/"
+        },
+        {
+          "type": "remontee",
+          "nom": "Funiculaire Resciesa",
+          "disponibilite": "FERMÉ à vos dates Val Gardena : saison jusqu'au 11 octobre 2026",
+          "resume": "À ne pas prévoir les 13–16 octobre. Les itinéraires partant de la station haute doivent donc être adaptés ou faits entièrement à pied.",
+          "source": "https://www.valgardena.it/en/summer-holidays-dolomites/lifts/"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Almhotel Col Raiser",
+          "disponibilite": "Été + hiver selon le guide Val Gardena ; vérifier le jour même",
+          "resume": "Refuge/restaurant à 2 106 m entre Sassolungo et Seceda, directement utile avec la remontée Col Raiser.",
+          "source": "https://www.valgardena.it/en/holiday_guide/30/"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Baita Sofie / Sofie Hütte",
+          "disponibilite": "Horaires saisonniers à confirmer",
+          "resume": "Adresse de montagne très connue sur Seceda ; utile pour déjeuner pendant la journée Seceda.",
+          "source": "https://www.valgardena.it/en/holiday_guide/"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Chalet Resciesa",
+          "disponibilite": "À vérifier ; la restauration est décrite comme été + hiver",
+          "resume": "Cuisine sud-tyrolienne et ambiance de refuge sur Resciesa ; à retenir surtout si l'itinéraire de la journée change.",
+          "source": "https://www.valgardena.it/en/holiday_guide/30/"
+        }
+      ]
+    },
+    {
+      "id": "alpe-siusi",
+      "zones_planning": [
+        "Alpe di Siusi",
+        "Alpe di Siusi / Alta Badia"
+      ],
+      "items": [
+        {
+          "type": "remontee",
+          "nom": "Ortisei → Alpe di Siusi",
+          "disponibilite": "1 mai–2 novembre 2026 ; 08:30–18:00 jusqu'au 16 octobre puis 08:30–17:00",
+          "resume": "Remontée encore ouverte pendant le séjour et alternative au stationnement sur le plateau.",
+          "source": "https://www.seiseralm.it/en/active/winter/ropeway-systems-in-winter.html"
+        },
+        {
+          "type": "remontee",
+          "nom": "Panorama",
+          "disponibilite": "FERMÉ à votre journée du 14 octobre : fin de saison 11 octobre 2026",
+          "resume": "Ne pas construire un itinéraire du 14 octobre autour de cette remontée.",
+          "source": "https://www.seiseralm.it/en/active/winter/ropeway-systems-in-winter.html"
+        },
+        {
+          "type": "remontee",
+          "nom": "Bullaccia / Puflatsch",
+          "disponibilite": "FERMÉ à votre journée du 14 octobre : fin de saison 12 octobre 2026",
+          "resume": "À considérer comme indisponible le 14 octobre.",
+          "source": "https://www.seiseralm.it/en/active/winter/ropeway-systems-in-winter.html"
+        },
+        {
+          "type": "experience",
+          "nom": "Piaceri autunnali in montagna",
+          "disponibilite": "1 septembre–30 octobre 2026",
+          "resume": "Programme automnal officiel : randonnées guidées au lever du soleil, petits-déjeuners en refuge, dégustations et Törggelen.",
+          "source": "https://www.seiseralm.it/it/gusto-ed-esperienze/esperienze/eventi-e-appuntamenti/piaceri-autunnali-in-montagna.html"
+        },
+        {
+          "type": "experience",
+          "nom": "Trekking avec les alpagas — région Alpe di Siusi",
+          "disponibilite": "14 octobre 2026 à 10:00 annoncé au calendrier officiel",
+          "resume": "Activité originale à Fiè allo Sciliar le jour même de votre étape Alpe di Siusi ; vérifier places et conditions.",
+          "source": "https://www.seiseralm.it/it/gusto-ed-esperienze/esperienze/eventi-e-appuntamenti/22.html"
+        },
+        {
+          "type": "activite",
+          "nom": "E-bike Tour Tires / e-MTB plaisir",
+          "disponibilite": "14 octobre 2026 à partir de 09:30/10:00 au calendrier officiel",
+          "resume": "Alternative sportive si vous préférez une activité guidée plutôt qu'une longue randonnée.",
+          "source": "https://www.seiseralm.it/it/gusto-ed-esperienze/esperienze/eventi-e-appuntamenti/22.html"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Organic alp Huber / Malga Huber",
+          "disponibilite": "14 mai–25 octobre 2026, 09:00–17:00 ; cuisine chaude 11:00–16:00",
+          "chien": "Chiens admis",
+          "resume": "Cuisine sud-tyrolienne et produits maison, à 50 m sous Compatsch. Très adaptée à votre journée du 14 octobre.",
+          "source": "https://www.seiseralm.it/en/enjoyment-experience/enjoyment/restaurants-bars/0C52ED8EC2C4F85C1D631856F1EEBB78-g-alpe-biologica-malga-huber.html"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Gostner Schwaige",
+          "disponibilite": "Horaires exacts à vérifier",
+          "resume": "Ferme/refuge du plateau connue pour son petit-déjeuner/brunch ; réservation recommandée.",
+          "source": "https://www.seiseralm.it/media/8e7b2026-dd12-4a79-ae80-235f4d27ee99/breakfast-and-brunch.pdf"
+        }
+      ]
+    },
+    {
+      "id": "lagazuoi-falzarego",
+      "zones_planning": [
+        "Val Gardena / Alta Badia",
+        "Alta Badia / Falzarego"
+      ],
+      "items": [
+        {
+          "type": "remontee",
+          "nom": "Funivia Lagazuoi",
+          "disponibilite": "6 juin–18 octobre 2026 ; 09:00, dernière montée 16:40, dernière descente 17:00",
+          "chien": "Chiens admis sous conditions de l'exploitant",
+          "resume": "Priorité absolue les 17–18 octobre : après le 18, elle ferme pour la saison estivale.",
+          "source": "https://lagazuoi.it/IT/Info-Prezzi-e-info-utili-page20-Funivia-del-Lagazuoi"
+        },
+        {
+          "type": "visite",
+          "nom": "Musée à ciel ouvert de la Grande Guerre — Lagazuoi",
+          "disponibilite": "Meilleure période indiquée : mai à octobre ; visites guidées 2026 seulement jusqu'au 6 septembre",
+          "resume": "Positions militaires, galeries et histoire du front à plus de 2 700 m. L'application officielle permet de consulter les contenus hors ligne.",
+          "source": "https://lagazuoi.it/EN/Discover-History-page4-The-Lagazuoi-OpenAir-Museum"
+        },
+        {
+          "type": "visite",
+          "nom": "Lagazuoi Expo Dolomiti",
+          "disponibilite": "Pendant la saison estivale du Lagazuoi ; vérifier exposition en cours",
+          "resume": "Espace d'exposition culturelle à haute altitude, à combiner avec la remontée.",
+          "source": "https://lagazuoi.it/index_en.php"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Rifugio Lagazuoi + Terrace Bar",
+          "disponibilite": "Pendant la saison estivale de la remontée ; vérifier le 17/18 octobre",
+          "resume": "Terrasses panoramiques à 2 752 m ; pause logique lors de la journée Lagazuoi.",
+          "source": "https://lagazuoi.it/index_en.php"
+        },
+        {
+          "type": "remontee",
+          "nom": "Remontées estivales Alta Badia (Col Alto, Boé, Vallon…)",
+          "disponibilite": "FERMÉES à vos dates : la plupart terminent le 4 octobre 2026",
+          "resume": "Ne pas baser les journées du 17–20 octobre sur ces remontées. Lagazuoi constitue l'exception importante jusqu'au 18 octobre.",
+          "source": "https://www.altabadia.org/en/dolomites/getting-around-in-summer/alta-badia-summer-lifts"
+        },
+        {
+          "type": "activite",
+          "nom": "Équitation Adanéquitation — Badia",
+          "disponibilite": "Ouverture annoncée toute l'année",
+          "resume": "Option différente de la randonnée si vous voulez varier, dans la vallée d'Alta Badia.",
+          "source": "https://www.altabadia.org/en/info-service/when-it-rains"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Ciablun — La Val",
+          "disponibilite": "4 mai–30 octobre 2026",
+          "resume": "Ferme-auberge / restaurant traditionnel dans Alta Badia ; bonne option pour cuisine locale après une journée dehors.",
+          "source": "https://www.altabadia.org/en/culinary/flavours-of-tradition/ladin-restaurants"
+        }
+      ]
+    },
+    {
+      "id": "pordoi",
+      "zones_planning": [
+        "Alta Badia / Passo Pordoi"
+      ],
+      "items": [
+        {
+          "type": "remontee",
+          "nom": "Funivia Sass Pordoi",
+          "disponibilite": "Ouverte pendant le séjour ; horaires 2026 : 09:00–16:30 après le 18 octobre, jusqu'au 1er novembre",
+          "resume": "Accès rapide au plateau du Sella vers ~2 950 m. Condition météo indispensable ; altitude très élevée pour octobre.",
+          "source": "https://www.sasspordoi.it/en/info-times-and-prices/"
+        },
+        {
+          "type": "vue",
+          "nom": "Terrasse panoramique Sass Pordoi",
+          "disponibilite": "Avec la remontée, sous réserve météo/vent",
+          "resume": "Option intéressante même sans randonnée longue : panorama très haute montagne.",
+          "source": "https://www.sasspordoi.it/en/info-times-and-prices/"
+        }
+      ]
+    },
+    {
+      "id": "fanes",
+      "zones_planning": [
+        "Alta Badia / Fanes"
+      ],
+      "items": [
+        {
+          "type": "experience",
+          "nom": "Plateau de Fanes et refuges Fanes/Lavarella",
+          "disponibilite": "Accès à pied ; ouverture des refuges à vérifier fin octobre",
+          "resume": "Même sans faire la grande traversée, monter depuis Pederü jusqu'au plateau permet une excursion plus courte modulable.",
+          "source": "https://www.sanvigilio.com/en/activity/summer-hike-to-the-gran-fanes-pastures_211064?cmpscreen=1"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Cuisine ladine en Alta Badia",
+          "disponibilite": "Variable selon restaurant ; nombreuses fermetures intersaison",
+          "resume": "Privilégier les établissements explicitement ouverts à vos dates ; la page officielle permet de filtrer les restaurants par date.",
+          "source": "https://www.altabadia.org/en/culinary/flavours-of-tradition/ladin-restaurants"
+        },
+        {
+          "type": "activite",
+          "nom": "Équitation à Badia",
+          "disponibilite": "Toute l'année annoncée",
+          "resume": "Alternative en vallée si Fanes est trop enneigé ou glissant.",
+          "source": "https://www.altabadia.org/en/info-service/when-it-rains"
+        }
+      ]
+    },
+    {
+      "id": "tre-cime-dobbiaco",
+      "zones_planning": [
+        "Tre Cime / Dobbiaco",
+        "Dobbiaco"
+      ],
+      "items": [
+        {
+          "type": "remontee",
+          "nom": "Helmjet Sesto / Monte Elmo",
+          "disponibilite": "23 mai–8 novembre 2026 ; 08:30–16:30 à partir du 12 octobre",
+          "resume": "Ouvert pendant votre séjour à Dobbiaco ; accès à une montagne panoramique du secteur 3 Zinnen.",
+          "source": "https://www.dreizinnen.com/en/the-cable-cars/info-service/operating-times-cable-cars"
+        },
+        {
+          "type": "remontee",
+          "nom": "Croda Rossa",
+          "disponibilite": "23 mai–1 novembre 2026 ; 08:30–16:30 à partir du 12 octobre",
+          "resume": "Encore ouverte les 21–24 octobre si météo favorable.",
+          "source": "https://www.dreizinnen.com/en/the-cable-cars/info-service/operating-times-cable-cars"
+        },
+        {
+          "type": "remontee",
+          "nom": "Drei Zinnen cable car",
+          "disponibilite": "6 juin–1 novembre 2026 ; 08:30–16:30 à partir du 12 octobre",
+          "resume": "Autre remontée encore réellement disponible pendant votre séjour.",
+          "source": "https://www.dreizinnen.com/en/the-cable-cars/info-service/operating-times-cable-cars"
+        },
+        {
+          "type": "activite",
+          "nom": "Monte Baranci + Funbob",
+          "disponibilite": "FERMÉS à votre arrivée : fin de saison 18 octobre 2026",
+          "resume": "À ne pas prévoir pour les 21–24 octobre.",
+          "source": "https://www.dreizinnen.com/en/the-cable-cars/info-service/operating-times-cable-cars"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Rifugio Auronzo",
+          "disponibilite": "09:00–17:00 jusqu'au 31 octobre 2026 annoncé",
+          "resume": "Adresse directement pertinente pour la journée Tre Cime si la route et le refuge sont effectivement accessibles.",
+          "source": "https://www.dreizinnen.com/en/indulgence-relaxation/mountain-huts-restaurants"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Restaurant Rienz — Dobbiaco",
+          "disponibilite": "11:30–21:00 jusqu'au 1er novembre 2026 ; repos mardi/mercredi annoncé",
+          "resume": "Adresse de vallée officiellement listée comme ouverte pendant votre séjour.",
+          "source": "https://www.dreizinnen.com/en/indulgence-relaxation/culinary-establishments-in-the-valley"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Ristorante Winkelkeller — Dobbiaco",
+          "disponibilite": "11:00–15:00 et 18:00–23:00 jusqu'au 16 novembre 2026",
+          "resume": "Autre adresse de vallée ouverte sur toute votre période Dobbiaco.",
+          "source": "https://www.dreizinnen.com/en/indulgence-relaxation/culinary-establishments-in-the-valley"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Eirisch Grill — Dobbiaco",
+          "disponibilite": "11:30–14:30 et 17:30–21:00 jusqu'au 31 octobre 2026 ; repos lundi",
+          "resume": "Option simple et ouverte pendant votre séjour.",
+          "source": "https://www.dreizinnen.com/en/indulgence-relaxation/culinary-establishments-in-the-valley"
+        }
+      ]
+    },
+    {
+      "id": "braies",
+      "zones_planning": [
+        "Braies"
+      ],
+      "items": [
+        {
+          "type": "activite",
+          "nom": "Tour du Lago di Braies",
+          "disponibilite": "Toute saison selon état du sentier",
+          "resume": "Boucle facile d'environ 3,5 km / 1 h 30 ; rive ouest plus plate, rive est plus étroite avec marches.",
+          "source": "https://www.suedtirol.info/fr/fr/decouvertes-et-manifestations/nature/lacs-et-piscines-naturelles/lac-de-braies"
+        },
+        {
+          "type": "activite",
+          "nom": "Barques du Lago di Braies",
+          "disponibilite": "Saisonnier — ouverture d'octobre à confirmer directement avant déplacement",
+          "resume": "Location de barque à l'embarcadère historique lorsqu'il est ouvert ; ne pas compter dessus sans confirmation.",
+          "source": "https://www.suedtirol.info/fr/fr/decouvertes-et-manifestations/nature/lacs-et-piscines-naturelles/lac-de-braies"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Emma's Bistro / self-service Pragser Wildsee",
+          "disponibilite": "09:30–18:30 jusqu'au 28 février 2027 annoncé",
+          "resume": "Solution directement au Lago di Braies, officiellement listée ouverte pendant votre passage.",
+          "source": "https://www.dreizinnen.com/en/indulgence-relaxation/culinary-establishments-in-the-valley"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Chalet / Grill / Bar Pragser Wildsee",
+          "disponibilite": "07:30–20:00 jusqu'au 1er novembre 2026 annoncé",
+          "resume": "Autre possibilité au lac, ouverte aux dates prévues.",
+          "source": "https://www.dreizinnen.com/en/indulgence-relaxation/culinary-establishments-in-the-valley"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Speckstube Eggerhof — Braies",
+          "disponibilite": "12:00–15:00 ; ouverture affichée toute l'année",
+          "resume": "Adresse locale autour de Braies pour une pause plus traditionnelle.",
+          "source": "https://www.dreizinnen.com/en/indulgence-relaxation/culinary-establishments-in-the-valley"
+        }
+      ]
+    }
+  ]
+}
