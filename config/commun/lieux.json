@@ -3485,7 +3485,7 @@
   },
   {
     "id": "camping-cortina",
-    "nom": "Camping Cortina (à confirmer)",
+    "nom": "Camping Cortina — Cortina d’Ampezzo",
     "categorie": "camping",
     "gps": [
       46.5936,
@@ -3495,15 +3495,12 @@
     "altitude": 1300,
     "resume": "Camping Cortina distinct de Camping Olympia Cortina. Disponibilité en octobre et acceptation de la tente de toit encore en attente de réponse.",
     "prix": {
-      "type": "payant",
-      "montant": 35,
-      "unite": "nuit",
-      "annee_tarif": 2025,
-      "detail": "Estimation 2025 sans confirmation pour octobre 2026 ; ne pas utiliser comme base de nuit avant réponse du camping."
+      "type": "variable",
+      "detail": "Camping ouvert en octobre selon le site officiel, mais aucun tarif 2026 suffisamment fiable n'est publié dans une page exploitable : demander le prix exact pour 2 adultes + Prince + voiture avec tente de toit."
     },
     "chien": {
       "admis": true,
-      "supplement": 5
+      "note": "Chiens annoncés admis par les annuaires récents ; vérifier supplément et conditions exactes directement avec le camping."
     },
     "services": [
       "douches chaudes",
@@ -3511,8 +3508,8 @@
     ],
     "eau": true,
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Dates 2026 à confirmer ; Camping Olympia Cortina est un autre établissement et annonce la fermeture en octobre–novembre."
+      "a_reverifier": false,
+      "note": "Le site officiel indique ouvert en été et en hiver, fermé uniquement en novembre. Octobre est donc dans la période d'ouverture annoncée. À ne pas confondre avec International Camping Olympia Cortina, qui ferme en octobre–novembre."
     },
     "sources": [
       "camping"
@@ -3682,7 +3679,8 @@
         "credit": "Giorgio Galeotti — Wikimedia Commons, CC BY-SA 4.0"
       }
     ],
-    "recherche_photo": "Cortina d'Ampezzo Dolomiti"
+    "recherche_photo": "Cortina d'Ampezzo Dolomiti",
+    "source": "https://www.campingcortina.it/"
   },
   {
     "id": "aire-ortisei",
