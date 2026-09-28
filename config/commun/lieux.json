@@ -9145,10 +9145,26 @@
       11.73651
     ],
     "commune": "Santa Cristina Val Gardena (BZ)",
-    "resume": "Point de départ routier de la télécabine Col Raiser ; stationnement payant.",
+    "resume": "Trois parkings extérieurs payants au pied de la télécabine Col Raiser : 2 €/h, 10 € les 12 h. Pas de réservation, ouvert toute l'année.",
     "prix": {
-      "type": "variable",
-      "detail": "Parking payant ; prix actuel à vérifier. À ajouter au budget avant départ."
+      "type": "payant",
+      "montant": 10,
+      "unite": "voiture / 12 h",
+      "detail": "2 €/h ; 10 € jusqu'à 12 h ; 20 € au-delà de la 12e heure. Tarif publié par Val Gardena, année non indiquée : non confirmé pour 2026.",
+      "grille": [
+        {
+          "libelle": "1 heure",
+          "valeur": "2 €"
+        },
+        {
+          "libelle": "Jusqu'à 12 h",
+          "valeur": "10 €"
+        },
+        {
+          "libelle": "À partir de la 13e heure",
+          "valeur": "20 €"
+        }
+      ]
     },
     "source": "https://www.valgardena.it/en/addresses/detail/base/poi/selva-di-val-gardena/parking-col-raiser/90F07BDD272E416197A9AD912EA2F5A7/",
     "equipements": [
@@ -9159,6 +9175,22 @@
       {
         "libelle": "Parking Col Raiser — Val Gardena",
         "url": "https://www.valgardena.it/en/addresses/detail/base/poi/selva-di-val-gardena/parking-col-raiser/90F07BDD272E416197A9AD912EA2F5A7/"
+      },
+      {
+        "libelle": "Parking Col Raiser — Val Gardena (tarifs)",
+        "url": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/selva-di-val-gardena/parcheggio-col-raiser/90F07BDD272E416197A9AD912EA2F5A7/"
+      },
+      {
+        "libelle": "Col Raiser — accès et parkings",
+        "url": "https://www.colraiser.it/it/arrivo.asp"
+      },
+      {
+        "libelle": "Col Raiser — FAQ (parking, chien, horaires)",
+        "url": "https://www.colraiser.it/it/faq.asp"
+      },
+      {
+        "libelle": "Col Raiser — prix et horaires 2026",
+        "url": "https://www.colraiser.it/it/informazioni.asp"
       }
     ],
     "photos": [
@@ -9238,7 +9270,71 @@
         "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
       }
     ],
-    "recherche_photo": "Col Raiser"
+    "recherche_photo": "Col Raiser",
+    "adresse": "Streda Raiser / Via Raiser 65, 39048 Selva di Val Gardena",
+    "horaires": [
+      {
+        "libelle": "Parking",
+        "valeur": "toute l'année, 24 h/24 (pas de réservation)"
+      },
+      {
+        "libelle": "Télécabine 12 oct.–1er nov. 2026",
+        "valeur": "8h30–16h30"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Places",
+        "valeur": "≈ 217 (3 parkings P1–P3)"
+      },
+      {
+        "libelle": "Réservation",
+        "valeur": "impossible"
+      },
+      {
+        "libelle": "Nuit",
+        "valeur": "stationnement plusieurs jours autorisé, dormir/camper interdit"
+      },
+      {
+        "libelle": "Télépéage",
+        "valeur": "non accepté"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Val Gardena — fiche parking Col Raiser (2 €/h, 10 €/12 h, 20 € dès 13e h)",
+          "url": "https://www.valgardena.it/en/addresses/detail/base/poi/selva-di-val-gardena/parking-col-raiser/90F07BDD272E416197A9AD912EA2F5A7/"
+        },
+        {
+          "libelle": "Col Raiser — FAQ officielle (pas de réservation, pas de nuit en camping)",
+          "url": "https://www.colraiser.it/it/faq.asp"
+        },
+        {
+          "libelle": "Col Raiser — saison 2026 : 22 mai–1er nov.",
+          "url": "https://www.colraiser.it/it/informazioni.asp"
+        },
+        {
+          "libelle": "OpenStreetMap — parkings Col Raiser P1/P2/P3",
+          "url": "https://www.openstreetmap.org/way/29748660"
+        }
+      ],
+      "doutes": "Tarif du parking sans année (office de tourisme) ; OSM porte un ancien tarif (1 €/h, 5 €/12 h). Nombre de places : 217 (Val Gardena) contre 248 (somme OSM)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Parking ouvert toute l'année : utilisable pendant le séjour. Tarif 2026 non confirmé par l'exploitant (seul l'office de tourisme le publie, sans année)."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Parking extérieur. La télécabine accepte les chiens avec billet dédié (5 € en 2026)."
+    },
+    "acces": "Depuis Santa Cristina, suivre Col Raiser / Streda Raiser. Parking de surface : aucune limite de hauteur, la tente de toit (1,95 m) ne pose pas de problème. Alternative : garage Maciaconi (couvert, hauteur non publiée) avec navette gratuite 8h30–12h en été — éviter avec 1,95 m.",
+    "reserver": {
+      "obligatoire": false
+    },
+    "description": "Le stationnement se fait sur trois parkings à ciel ouvert (P1, P2, P3, environ 217 places selon Val Gardena) juste à côté de la station aval de la télécabine Col Raiser. Tarif affiché par l'office de tourisme : 2 € de l'heure, 10 € pour 12 h, 20 € à partir de la 13e heure (année du tarif non précisée). Pas de hauteur limite : parkings de surface, aucune barrière de hauteur. Réservation impossible ; en haute saison le parking principal est plein vers 11 h, en octobre la pression est bien moindre. La télécabine tourne jusqu'au 1er novembre 2026 (8h30–16h30 à partir du 12 octobre), chien admis avec billet à 5 €. Pas de nuit sur place pour dormir (camping interdit)."
   },
   {
     "id": "parking-alpe-p1",
@@ -9249,26 +9345,41 @@
       11.6051
     ],
     "commune": "Alpe di Siusi (BZ)",
-    "resume": "Parking de jour à 15 € pour la voiture. Compter environ 30 minutes de montée à pied pour Compatsch, plus le retour.",
+    "resume": "15 € la journée, réservation en ligne obligatoire, entrée avant 9h30 et route fermée 9h–17h. Puis ≈ 30 min de montée à pied jusqu'à Compatsch.",
     "prix": {
       "type": "payant",
       "montant": 15,
       "unite": "voiture / jour",
       "annee_tarif": 2026,
-      "detail": "P1 Spitzbühl : 15 € par voiture/jour en 2026. Réservation payée en ligne ; pas d'annulation/remboursement après achat."
+      "detail": "Paiement à la réservation en ligne ; ni annulation ni remboursement. Hors saison (début nov.–début déc.) : gratuit.",
+      "grille": [
+        {
+          "libelle": "Voiture / jour",
+          "valeur": "15 €"
+        },
+        {
+          "libelle": "Moto / jour",
+          "valeur": "10 €"
+        },
+        {
+          "libelle": "Hors saison (nov.–déc.)",
+          "valeur": "gratuit"
+        }
+      ]
     },
     "reserver": {
       "obligatoire": true,
-      "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
+      "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm/seiser-alm-parking-reservation.html"
     },
     "ouverture": {
+      "fin_saison": "2026-11-02",
       "a_reverifier": false,
-      "note": "Réservation en ligne obligatoire depuis le 29/06/2026. La réservation devient possible 6 jours avant la date et peut encore être faite le jour même avant l'accès si des places restent. Route fermée à la montée au trafic privé de 09:00 à 17:00 ; arriver avant 09:00. Entrée du parking avec réservation admise au plus tard à 09:30 selon la FAQ, mais ne pas compter sur cette tolérance routière. Stationnement interdit 23:00–05:00."
+      "note": "Ouvert pendant le séjour, avec réservation obligatoire et arrivée avant 9h (route fermée 9h–17h)."
     },
     "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
     "chien": {
       "admis": true,
-      "note": "Marche de liaison d’environ 30 minutes jusqu’à Compatsch, à adapter à Prince."
+      "note": "Parking extérieur ; 30 min de marche en montée vers Compatsch, à ajouter à l'aller et au retour."
     },
     "niveau_prix": "€",
     "equipements": [
@@ -9279,6 +9390,165 @@
     "liens": [
       {
         "libelle": "Parkings P1/P2 — prix et accès officiels",
+        "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
+      },
+      {
+        "libelle": "Réservation parking Seiser Alm",
+        "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm/seiser-alm-parking-reservation.html"
+      },
+      {
+        "libelle": "Fiche P1 Spitzbühl",
+        "url": "https://www.seiseralm.it/en/enjoyment-experience/experience/shopping/E7503F91A0D51BC9FEB48FEE16D368CE-parking-place-p1-spitzbuehl.html"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Alpe_di_Siusi_CIMG3092.JPG/960px-Alpe_di_Siusi_CIMG3092.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Alpe di Siusi CIMG3092",
+        "credit": "Original uploader was Luiclemens at it.wikipedia — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Seiser_Alm_Plaza_-_Hotel.jpg/960px-Seiser_Alm_Plaza_-_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seiser Alm Plaza Hotel",
+        "credit": "Ladislav Luppa — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Seiser_Alm%2C_Compatsch_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "legende": "Seiser Alm, Compatsch panoramio",
+        "credit": "Frans-Banja Mulder — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Franziskuskirche_Seiser_Alm.jpg/960px-Franziskuskirche_Seiser_Alm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Franziskuskirche Seiser Alm",
+        "credit": "Ladislav Luppa — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Bergstadion_Seiser_Alm_-_panoramio.jpg/960px-Bergstadion_Seiser_Alm_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Bergstadion Seiser Alm panoramio",
+        "credit": "Andre, Schade — Wikimedia Commons, CC BY 3.0"
+      }
+    ],
+    "recherche_photo": "Compatsch Seiser Alm",
+    "adresse": "Spitzbichl 1, 39040 Alpe di Siusi",
+    "horaires": [
+      {
+        "libelle": "Parking",
+        "valeur": "5h–23h (interdit 23h–5h)"
+      },
+      {
+        "libelle": "Route d'accès",
+        "valeur": "voitures uniquement avant 9h et après 17h"
+      },
+      {
+        "libelle": "Entrée avec réservation",
+        "valeur": "au plus tard 9h30"
+      },
+      {
+        "libelle": "Saison 2026",
+        "valeur": "règles en vigueur jusqu'à la fermeture de la télécabine (2 novembre 2026)"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Contrôle",
+        "valeur": "aucune barrière ; plaque contrôlée"
+      },
+      {
+        "libelle": "Réservation",
+        "valeur": "6 jours avant, jusqu'au matin même"
+      },
+      {
+        "libelle": "Liaison Compatsch",
+        "valeur": "≈ 30 min à pied en montée (bus 14 seulement fin juillet–septembre)"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Seiser Alm — parkings P1/P2 : tarifs 2026, réservation, interdiction 23h–5h",
+          "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
+        },
+        {
+          "libelle": "Seiser Alm — réservation : entrée au plus tard 9h30, sans remboursement",
+          "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm/seiser-alm-parking-reservation.html"
+        },
+        {
+          "libelle": "Seiser Alm — accès : route ouverte seulement avant 9h et après 17h",
+          "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm.html"
+        },
+        {
+          "libelle": "Fiche officielle P1 (adresse, 5h–23h, hors saison gratuit)",
+          "url": "https://www.seiseralm.it/en/enjoyment-experience/experience/shopping/E7503F91A0D51BC9FEB48FEE16D368CE-parking-place-p1-spitzbuehl.html"
+        },
+        {
+          "libelle": "OpenStreetMap — parking Spitzbühl",
+          "url": "https://www.openstreetmap.org/way/101311192"
+        }
+      ],
+      "doutes": "Aucune page officielle ne donne la date de fin de l'obligation de réservation ; déduite de la saison de la télécabine (2 nov.) et du tarif hors saison « début novembre »."
+    },
+    "acces": "Depuis Siusi/Seis par la route de l'Alpe (contrôle à St. Valentin). Parking de surface, aucune limite de hauteur publiée ni barrière : 1,95 m sans problème.",
+    "description": "Premier parking du plateau, à ciel ouvert, sans barrière (place libre au choix). En 2026 la réservation en ligne est obligatoire depuis le 29 juin : ouverte 6 jours avant, jusqu'au matin même si places restantes ; plaque d'immatriculation non modifiable, aucun remboursement. La route d'accès n'est ouverte aux voitures qu'avant 9h et après 17h ; l'entrée au parking doit se faire au plus tard à 9h30, sinon la réservation est perdue. Le 16 octobre 2026 est en pleine saison (télécabine jusqu'au 2 novembre), donc ces règles s'appliquent. Tarif réduit (gratuit) seulement début novembre–début décembre. Stationnement interdit 23h–5h dans le parc naturel. Depuis P1, sentier de ≈ 30 min en montée vers Compatsch ; le bus 14 ne circule que fin juillet–septembre."
+  },
+  {
+    "id": "parking-alpe-p2",
+    "nom": "P2 Compatsch — Alpe di Siusi",
+    "categorie": "parking",
+    "gps": [
+      46.5399,
+      11.617
+    ],
+    "commune": "Alpe di Siusi (BZ)",
+    "resume": "30 € la journée, réservation en ligne obligatoire, QR code à la barrière, entrée avant 9h30 ; au cœur du plateau, sans marche de liaison.",
+    "prix": {
+      "type": "payant",
+      "montant": 30,
+      "unite": "voiture / jour",
+      "annee_tarif": 2026,
+      "detail": "Paiement à la réservation ; ni annulation ni remboursement. Tarif intersaison (mi-avril–mi-mai, début nov.–début déc.) : 15 €.",
+      "grille": [
+        {
+          "libelle": "Voiture / jour",
+          "valeur": "30 €"
+        },
+        {
+          "libelle": "Moto / jour",
+          "valeur": "15 €"
+        },
+        {
+          "libelle": "Voiture, intersaison",
+          "valeur": "15 €"
+        }
+      ]
+    },
+    "reserver": {
+      "obligatoire": true,
+      "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm/seiser-alm-parking-reservation.html"
+    },
+    "ouverture": {
+      "fin_saison": "2026-11-02",
+      "a_reverifier": false,
+      "note": "Ouvert pendant le séjour au tarif plein (30 €), réservation obligatoire, arrivée avant 9h."
+    },
+    "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
+    "niveau_prix": "€€",
+    "equipements": [
+      "parking",
+      "acces-voiture",
+      "reservation"
+    ],
+    "liens": [
+      {
+        "libelle": "P2 Compatsch — accès et tarifs",
+        "url": "https://www.seiseralm.it/en/info-service/current-information/information-a-z/9AA771C79C64046677206620236F645F-p-parking-p2-compatsch.html"
+      },
+      {
+        "libelle": "Réservation parking Seiser Alm",
+        "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm/seiser-alm-parking-reservation.html"
+      },
+      {
+        "libelle": "Parkings P1/P2 — tarifs 2026",
         "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
       }
     ],
@@ -9309,74 +9579,64 @@
         "credit": "Andre, Schade — Wikimedia Commons, CC BY 3.0"
       }
     ],
-    "recherche_photo": "Compatsch Seiser Alm"
-  },
-  {
-    "id": "parking-alpe-p2",
-    "nom": "P2 Compatsch — Alpe di Siusi",
-    "categorie": "parking",
-    "gps": [
-      46.5399,
-      11.617
-    ],
-    "commune": "Alpe di Siusi (BZ)",
-    "resume": "Parking de jour à Compatsch, proche du plateau ; alternative sans la marche de liaison du P1.",
-    "prix": {
-      "type": "payant",
-      "montant": 30,
-      "unite": "voiture / jour",
-      "annee_tarif": 2026,
-      "detail": "P2 Compatsch : 30 € par voiture/jour en 2026. Réservation payée en ligne ; pas d'annulation/remboursement après achat."
-    },
-    "reserver": {
-      "obligatoire": true,
-      "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
-    },
-    "ouverture": {
-      "a_reverifier": false,
-      "note": "Réservation en ligne obligatoire depuis le 29/06/2026. La réservation devient possible 6 jours avant la date et peut encore être faite le jour même avant l'accès si des places restent. Route fermée à la montée au trafic privé de 09:00 à 17:00 ; arriver avant 09:00. QR code requis. Stationnement interdit 23:00–05:00."
-    },
-    "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
-    "niveau_prix": "€€",
-    "equipements": [
-      "parking",
-      "acces-voiture",
-      "reservation"
-    ],
-    "liens": [
+    "recherche_photo": "Compatsch Seiser Alm",
+    "adresse": "Compatsch 15, 39040 Alpe di Siusi",
+    "horaires": [
       {
-        "libelle": "P2 Compatsch — accès et tarifs",
-        "url": "https://www.seiseralm.it/en/info-service/current-information/information-a-z/9AA771C79C64046677206620236F645F-p-parking-p2-compatsch.html"
+        "libelle": "Parking",
+        "valeur": "5h–23h tous les jours (barrières bloquées 23h–5h)"
+      },
+      {
+        "libelle": "Route d'accès",
+        "valeur": "voitures uniquement avant 9h et après 17h"
+      },
+      {
+        "libelle": "Entrée avec réservation",
+        "valeur": "au plus tard 9h30"
       }
     ],
-    "photos": [
+    "pratique": [
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Alpe_di_Siusi_CIMG3092.JPG/960px-Alpe_di_Siusi_CIMG3092.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Alpe di Siusi CIMG3092",
-        "credit": "Original uploader was Luiclemens at it.wikipedia — Wikimedia Commons, CC BY-SA 3.0"
+        "libelle": "Barrière",
+        "valeur": "QR code de la réservation"
       },
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Seiser_Alm_Plaza_-_Hotel.jpg/960px-Seiser_Alm_Plaza_-_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Seiser Alm Plaza Hotel",
-        "credit": "Ladislav Luppa — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Seiser_Alm%2C_Compatsch_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Seiser Alm, Compatsch panoramio",
-        "credit": "Frans-Banja Mulder — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Franziskuskirche_Seiser_Alm.jpg/960px-Franziskuskirche_Seiser_Alm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Franziskuskirche Seiser Alm",
-        "credit": "Ladislav Luppa — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Bergstadion_Seiser_Alm_-_panoramio.jpg/960px-Bergstadion_Seiser_Alm_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Bergstadion Seiser Alm panoramio",
-        "credit": "Andre, Schade — Wikimedia Commons, CC BY 3.0"
+        "libelle": "Services",
+        "valeur": "station amont télécabine, hôtels et bars de Compatsch"
       }
     ],
-    "recherche_photo": "Compatsch Seiser Alm"
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Seiser Alm — parkings P1/P2 : tarifs 2026, réservation, interdiction 23h–5h",
+          "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
+        },
+        {
+          "libelle": "Seiser Alm — réservation : entrée au plus tard 9h30, sans remboursement",
+          "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm/seiser-alm-parking-reservation.html"
+        },
+        {
+          "libelle": "Seiser Alm — accès : route ouverte seulement avant 9h et après 17h",
+          "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm.html"
+        },
+        {
+          "libelle": "Fiche officielle P2 (adresse, 5h–23h, 15 € intersaison)",
+          "url": "https://www.seiseralm.it/en/info-service/current-information/information-a-z/9AA771C79C64046677206620236F645F-p-parking-p2-compatsch.html"
+        },
+        {
+          "libelle": "OpenStreetMap — parking P2",
+          "url": "https://www.openstreetmap.org/way/96095936"
+        }
+      ],
+      "doutes": "Date exacte de fin de l'obligation de réservation non publiée ; hauteur limite de la barrière non publiée."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Parking extérieur, départ direct des promenades de Compatsch."
+    },
+    "acces": "Route de l'Alpe depuis Siusi (contrôle à St. Valentin). Parking de surface à barrière QR code ; aucune limite de hauteur publiée, 1,95 m sans problème connu.",
+    "description": "Grand parking de Compatsch, à côté de la station amont de la télécabine de Siusi, accès par barrière avec lecture du QR code de la réservation (deux barrières au-dessus de l'hôtel Zorzi). Réservation obligatoire en 2026 depuis le 29 juin, ouverte 6 jours avant ; plaque non modifiable, aucun remboursement. Route fermée aux voitures 9h–17h : arriver avant 9h ; entrée au plus tard 9h30 sinon réservation perdue. Barrières bloquées 23h–5h (nuit interdite). Le 16 octobre 2026 est en saison : 30 €. Tarif réduit à 15 € seulement de début novembre à début décembre."
   },
   {
     "id": "parking-bai-de-dones",
@@ -9387,14 +9647,17 @@
       12.0379
     ],
     "commune": "Passo Falzarego (BL)",
-    "resume": "Départ à pied pour les Cinque Torri après fermeture du télésiège le 11 octobre ; vérifier sentier et enneigement.",
+    "resume": "Parking gratuit non gardé au départ du télésiège des Cinque Torri, fermé depuis le 11 octobre 2026 : montée à pied en 1 h–1 h 30.",
     "prix": {
-      "type": "variable",
-      "detail": "Conditions et éventuel stationnement à vérifier sur place."
+      "type": "gratuit",
+      "montant": 0,
+      "annee_tarif": 2026,
+      "detail": "Parking gratuit et non gardé selon l'exploitant 5 Torri."
     },
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Parking de jour uniquement ; sentier conditionné par météo et enneigement."
+      "fin_saison": "2026-10-11",
+      "a_reverifier": false,
+      "note": "Parking accessible pendant le séjour ; télésiège fermé depuis le 11 octobre, montée à pied uniquement."
     },
     "source": "https://5torri.it/EN/p38-Lift-facilities-Summer",
     "equipements": [
@@ -9405,6 +9668,10 @@
       {
         "libelle": "Remontées 5 Torri — saison 2026",
         "url": "https://5torri.it/EN/p38-Lift-facilities-Summer"
+      },
+      {
+        "libelle": "Baita Bai de Dones — accès et parking",
+        "url": "https://5torri.it/EN/s23-Baita-Bai-De-Dones"
       }
     ],
     "photos": [
@@ -9484,7 +9751,60 @@
         "credit": "Er Tovaja — Wikimedia Commons, CC BY-SA 4.0"
       }
     ],
-    "recherche_photo": "Cinque Torri"
+    "recherche_photo": "Cinque Torri",
+    "adresse": "Loc. Bai de Dones, SS48 (route Pocol–Falzarego), 32043 Cortina d'Ampezzo",
+    "horaires": [
+      {
+        "libelle": "Parking",
+        "valeur": "accès libre"
+      },
+      {
+        "libelle": "Télésiège 5 Torri 2026",
+        "valeur": "6 juin – 11 octobre, 9h–17h (fermé pendant le séjour)"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Surveillance",
+        "valeur": "aucune"
+      },
+      {
+        "libelle": "Baita Bai de Dones",
+        "valeur": "ouverte de juin à septembre et en hiver : probablement fermée mi-octobre"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "5 Torri — télésiège 06.06–11.10.2026",
+          "url": "https://5torri.it/EN/p38-Lift-facilities-Summer"
+        },
+        {
+          "libelle": "5 Torri — Baita Bai de Dones : parking gratuit non gardé, 1 889 m",
+          "url": "https://5torri.it/EN/s23-Baita-Bai-De-Dones"
+        },
+        {
+          "libelle": "OpenStreetMap — parking gratuit Bai de Dones",
+          "url": "https://www.openstreetmap.org/way/900787870"
+        },
+        {
+          "libelle": "Earthtrekkers — montée à pied depuis Bai de Dones",
+          "url": "https://www.earthtrekkers.com/cinque-torri-hike-dolomites/"
+        }
+      ],
+      "doutes": "État du sentier et enneigement mi-octobre à contrôler la veille. Gratuité confirmée par l'exploitant sans date de mise à jour."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Randonnée à pied possible avec Prince ; aucune règle chien propre au parking."
+    },
+    "acces": "SS48 Grande Strada delle Dolomiti, entre Pocol et le Passo Falzarego. Parking de surface, aucune limite de hauteur.",
+    "reserver": {
+      "obligatoire": false
+    },
+    "description": "Grand parking gratuit et non surveillé sur la SS48, au pied du télésiège 5 Torri et de la Baita Bai de Dones (1 889 m). Le télésiège fonctionne du 6 juin au 11 octobre 2026 (9h–17h) : pendant le séjour il est fermé. Montée à pied par le sentier 425 puis la route goudronnée qui passe au Rifugio Cinque Torri et le sentier 439 : ≈ 4,4 km, 350–400 m de dénivelé, 1 h–1 h 30. En octobre, neige et verglas possibles en altitude. Aucune règle de nuit publiée ; ce n'est pas une aire de bivouac.",
+    "altitude": 1889
   },
   {
     "id": "ferme-gletscher-hons",
@@ -9704,18 +10024,18 @@
     "nom": "Conad Superstore Savone — courses avec chien",
     "categorie": "supermarche",
     "gps": [
-      44.30055,
-      8.46509
+      44.30022,
+      8.46309
     ],
     "commune": "Via Stalingrado / Piazza Simone Weil 4r, Savone",
-    "resume": "Courses de départ sur l’axe ligure : accès animaux et chariots pour animaux indiqués sur la fiche officielle. Parking extérieur à privilégier avec la voiture haute de 1,95 m ; vérifier sur place la taille admise dans les chariots. Ce parking n’est pas une nuitée.",
+    "resume": "Ouvert 7 j/7 de 8h30 à 20h30. Magasin déclaré « animaux admis » avec chariots pour animaux ; parking extérieur et en toiture gratuits.",
     "prix": {
       "type": "variable",
       "unite": "courses"
     },
     "chien": {
       "admis": true,
-      "note": "Accès animaux et chariots pour animaux déclarés par ce magasin ; demander à l’accueil le mode d’installation adapté à Prince."
+      "note": "« Animali consentiti » et chariots pour animaux sur la fiche du magasin ; chariots prévus pour petits chiens, gros chien : demander à l'accueil."
     },
     "source": "https://www.conad.it/ricerca-negozi/conad-superstore-via-stalingrado-piazza-simone-weil-4r-17100-savona--008482",
     "equipements": [
@@ -9726,31 +10046,129 @@
         "libelle": "Conad — magasin et horaires",
         "url": "https://www.conad.it/ricerca-negozi/conad-superstore-via-stalingrado-piazza-simone-weil-4r-17100-savona--008482"
       }
-    ]
+    ],
+    "adresse": "Via Stalingrado – Piazza Simone Weil 4r, 17100 Savona",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h30–20h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h30–20h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h30–20h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h30–20h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h30–20h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h30–20h30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "8h30–20h30"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "gratuit, surface et toiture ; couvert de hauteur inconnue"
+      },
+      {
+        "libelle": "Toilettes",
+        "valeur": "oui"
+      },
+      {
+        "libelle": "Chien",
+        "valeur": "admis, chariots pour animaux"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle (horaires, services)",
+          "url": "https://www.conad.it/ricerca-negozi/conad-superstore-via-stalingrado-piazza-simone-weil-4r-17100-savona--008482"
+        },
+        {
+          "libelle": "OpenStreetMap — Conad Via Stalingrado (Mo-Su 08:30-20:30)",
+          "url": "https://www.openstreetmap.org/node/2190185256"
+        },
+        {
+          "libelle": "Dissapore — Conad : chariots pour chiens (règle : petits chiens, ≤ 10 kg environ)",
+          "url": "https://www.dissapore.com/notizie/conad-cani-nei-carrelli/"
+        }
+      ],
+      "doutes": "Hauteur du parking couvert non publiée. Taille de chien acceptée non précisée par le magasin."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Ouvert tous les jours d'octobre 2026, dimanche compris (aucune fermeture exceptionnelle annoncée)."
+    },
+    "acces": "Via Stalingrado, sortie Savona de l'A10. Parkings gratuits en surface et en toiture (pas de plafond) ; parking couvert de hauteur inconnue à éviter.",
+    "description": "Grand Conad Superstore à l'entrée ouest de Savone. La fiche officielle donne 8h30–20h30 tous les jours, dimanche compris, sans fermeture exceptionnelle annoncée. Services : animaux admis, chariots pour animaux, toilettes, rayon boucherie/poissonnerie/traiteur. Chez Conad, les chariots pour chiens visent les petits chiens (≈ 10 kg max selon la presse) : si Prince est plus gros, demander à l'accueil ou faire les courses à tour de rôle. Parking : le magasin annonce un parking couvert et un parking extérieur ; OSM montre des parkings gratuits en surface et en toiture (Piazza Ilaria Alpi). Hauteur du parking couvert non publiée : utiliser la surface ou la toiture avec 1,95 m."
   },
   {
     "id": "parking-lago-dobbiaco",
     "nom": "Parking de jour — Lago di Dobbiaco",
     "categorie": "parking",
     "gps": [
-      46.70491,
-      12.22025
+      46.70631,
+      12.22027
     ],
     "commune": "Dobbiaco (BZ)",
-    "resume": "Parking de visite pour le tour du lac. Stationnement payant selon la commune depuis juin 2026 ; prix et signalisation à lire sur place. Aucun bivouac nocturne.",
+    "resume": "Parking à barrière au bord du lac : 3 €/h, 15 €/jour, payant 7h–19h, stationnement interdit 22h–6h.",
     "prix": {
-      "type": "variable",
-      "unite": "stationnement de jour"
+      "type": "payant",
+      "montant": 15,
+      "unite": "voiture / jour",
+      "annee_tarif": 2026,
+      "detail": "Relevé visiteurs août 2026, non confirmé par la commune.",
+      "grille": [
+        {
+          "libelle": "30 min",
+          "valeur": "1,50 €"
+        },
+        {
+          "libelle": "1 heure",
+          "valeur": "3 €"
+        },
+        {
+          "libelle": "Journée",
+          "valeur": "15 €"
+        }
+      ]
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Tarifs 2026 et accès à contrôler sur les panneaux."
+      "note": "Ouvert pendant le séjour (parking toute l'année) ; tarif 2026 à confirmer sur l'horodateur."
     },
-    "source": "https://dobbiaco.eu/it/Novita/Avvisi/Nuova_regolamentazione_per_i_parcheggi_a_pagamento_da_giugno_2026_in_poi",
+    "source": "https://park4night.com/en/place/298269",
     "liens": [
       {
         "libelle": "Commune — stationnement 2026",
         "url": "https://dobbiaco.eu/it/Novita/Avvisi/Nuova_regolamentazione_per_i_parcheggi_a_pagamento_da_giugno_2026_in_poi"
+      },
+      {
+        "libelle": "Commune — stationnement payant dès juin 2026",
+        "url": "https://www.dobbiaco.eu/system/web/news.aspx?sprache=3&menuonr=219102810&detailonr=225802920-852"
+      },
+      {
+        "libelle": "Tre Cime — fiche parking Lago di Dobbiaco",
+        "url": "https://www.dreizinnen.com/en/info/parking-place-lake-of-dobbiaco_6483"
+      },
+      {
+        "libelle": "park4night — avis et tarifs récents",
+        "url": "https://park4night.com/en/place/298269"
       }
     ],
     "photos": [
@@ -9830,7 +10248,59 @@
         "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
       }
     ],
-    "recherche_photo": "Toblacher See"
+    "recherche_photo": "Toblacher See",
+    "adresse": "Via Dolomiti 3, 39034 Dobbiaco",
+    "horaires": [
+      {
+        "libelle": "Payant",
+        "valeur": "7h–19h"
+      },
+      {
+        "libelle": "Barrières",
+        "valeur": "fermées vers 20h30"
+      },
+      {
+        "libelle": "Interdit",
+        "valeur": "22h–6h"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Places",
+        "valeur": "≈ 40 selon park4night (il existe deux parkings au bord du lac)"
+      },
+      {
+        "libelle": "Paiement",
+        "valeur": "pièces, carte, application"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "park4night — 3 €/h, 15 €/jour, 7h–19h, interdit 22h–6h (avis août 2026)",
+          "url": "https://park4night.com/en/place/298269"
+        },
+        {
+          "libelle": "Tre Cime Dolomiti — adresse Via Dolomiti 3",
+          "url": "https://www.dreizinnen.com/en/info/parking-place-lake-of-dobbiaco_6483"
+        },
+        {
+          "libelle": "OpenStreetMap — parking Toblacher See",
+          "url": "https://www.openstreetmap.org/way/75384548"
+        }
+      ],
+      "doutes": "Page de la commune (réglementation juin 2026) inaccessible depuis ce poste (403 du proxy) : tarif et horaires viennent d'avis de visiteurs d'août 2026 uniquement."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Tour du lac en laisse."
+    },
+    "acces": "SS51 Dobbiaco–Cortina, ≈ 3 km au sud du village. Parking de surface à barrière ; pas de hauteur limite publiée, vans et camping-cars y stationnent.",
+    "reserver": {
+      "obligatoire": false
+    },
+    "description": "Parkings de surface au nord du lac de Dobbiaco, sur la SS51 d'Alemagna. Tarifs relevés par des visiteurs en août 2026 : 1,50 € la demi-heure, 3 €/h, 15 €/jour, payant de 7h à 19h (pièces, carte ou application). Les barrières d'entrée ferment vers 20h30 ; stationnement interdit de 22h à 6h. Depuis juin 2026 la commune a une nouvelle réglementation (abonnement annuel valable sur ce parking) ; la page officielle n'a pas pu être lue. Tour du lac à plat ≈ 1 h, praticable avec un chien en laisse."
   },
   {
     "id": "camping-tahiti-finale",
@@ -10052,18 +10522,18 @@
     "nom": "Conad City Varazze — courses avec chien",
     "categorie": "supermarche",
     "gps": [
-      44.36421,
-      8.575075
+      44.36216,
+      8.57545
     ],
     "commune": "Via Piave 30, Varazze (SV)",
-    "resume": "Courses possibles sur l’axe ligure le samedi 10 avant de poursuivre vers Finale Ligure. Fiche Conad : accès animaux/chariots adaptés et parking extérieur ; horaires samedi annoncés 08 h 15–19 h 30. Demander à l’accueil le mode d’installation adapté à Prince.",
+    "resume": "Lundi–vendredi 8h15–13h et 15h30–19h30, samedi 8h15–19h30 continu, dimanche 9h–13h. Animaux admis, chariots pour animaux, parking extérieur gratuit.",
     "prix": {
       "type": "variable",
       "unite": "courses"
     },
     "chien": {
       "admis": true,
-      "note": "Accès animaux et chariots animaux annoncés sur la fiche du magasin ; modalités selon taille de Prince à vérifier."
+      "note": "« Animali consentiti » et chariots pour animaux sur la fiche du magasin ; chariots prévus pour petits chiens."
     },
     "source": "https://www.conad.it/ricerca-negozi/conad-city-via-piave-30-17019-varazze--003238",
     "equipements": [
@@ -10074,7 +10544,72 @@
         "libelle": "Fiche magasin et horaires samedi",
         "url": "https://www.conad.it/ricerca-negozi/conad-city-via-piave-30-17019-varazze--003238"
       }
-    ]
+    ],
+    "adresse": "Via Piave 30, 17019 Varazze",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h15–13h00 et 15h30–19h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h15–13h00 et 15h30–19h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h15–13h00 et 15h30–19h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h15–13h00 et 15h30–19h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h15–13h00 et 15h30–19h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h15–19h30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "9h00–13h00"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "découvert, ≈ 30 places, gratuit (OSM)"
+      },
+      {
+        "libelle": "Chien",
+        "valeur": "admis, chariots pour animaux"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle",
+          "url": "https://www.conad.it/ricerca-negozi/conad-city-via-piave-30-17019-varazze--003238"
+        },
+        {
+          "libelle": "OpenStreetMap — Conad City Via Piave 30",
+          "url": "https://www.openstreetmap.org/way/203205662"
+        },
+        {
+          "libelle": "Dissapore — Conad : chariots pour chiens (règle : petits chiens, ≤ 10 kg environ)",
+          "url": "https://www.dissapore.com/notizie/conad-cani-nei-carrelli/"
+        }
+      ],
+      "doutes": "OSM indique des horaires d'été plus larges (16h–20h, dimanche après-midi) ; la fiche Conad (15h30–19h30, dimanche matin) fait foi pour octobre."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Ouvert tous les jours en octobre ; dimanche matin seulement ; fermé en semaine 13h–15h30."
+    },
+    "acces": "Via Piave, centre de Varazze, près de l'Aurelia (SS1). Parking découvert, pas de plafond.",
+    "description": "Petit Conad City du centre de Varazze. Horaires officiels : coupure de midi en semaine, journée continue le samedi, matin seulement le dimanche. Services déclarés : animaux admis, chariots pour animaux, parking découvert (≈ 30 places, gratuit selon OSM). Les chariots Conad pour chiens visent les petits chiens (≈ 10 kg) : pour Prince, demander à l'accueil ou se relayer."
   },
   {
     "id": "camping-green-europa-cogoleto",
@@ -10990,14 +11525,14 @@
       11.65445
     ],
     "commune": "Via Brennero 21/a, Bressanone (BZ)",
-    "resume": "Grandes courses pour plusieurs nuits à l'ouest : lundi–samedi 08 h–19 h 30, dimanche 09 h–19 h 30 selon magasin. Despar : chien uniquement en sac/caisse, sinon achat à tour de rôle. Vérifier hauteur du parking sur place.",
+    "resume": "Ouvert 7 j/7 : 8h–19h30, dimanche 9h–19h30. Chien seulement en sac ou caisse (règle Despar) : sinon courses à tour de rôle.",
     "prix": {
       "type": "variable",
       "unite": "courses"
     },
     "chien": {
-      "admis": null,
-      "note": "Politique Despar : uniquement dans un sac ou une caisse ; si Prince n'y tient pas, un adulte attend dehors avec lui."
+      "admis": false,
+      "note": "Seulement en sac ou caisse de transport (FAQ Despar) : un adulte attend dehors avec Prince."
     },
     "source": "https://www.despar.it/it/punto-vendita-eurospar/93/bressanone/",
     "liens": [
@@ -11009,25 +11544,90 @@
         "libelle": "Despar — FAQ animaux",
         "url": "https://www.despar.it/it/contatti/"
       }
-    ]
+    ],
+    "adresse": "Via Brennero 21/a, 39042 Bressanone",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "9h00–19h30"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "surface, payant, 3 h max (OSM / park4night, non officiel)"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Despar — fiche officielle Eurospar Bressanone",
+          "url": "https://www.despar.it/it/punto-vendita-eurospar/93/bressanone/"
+        },
+        {
+          "libelle": "Despar — FAQ : animaux admis seulement en sac ou caisse de transport",
+          "url": "https://www.despar.it/it/contatti/"
+        },
+        {
+          "libelle": "OpenStreetMap — Eurospar",
+          "url": "https://www.openstreetmap.org/node/1870088510"
+        },
+        {
+          "libelle": "park4night — parking Via Brennero 21",
+          "url": "https://park4night.com/en/place/392136"
+        }
+      ],
+      "doutes": "Conditions exactes du parking (payant, 3 h) non publiées par Despar."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Ouvert tous les jours d'octobre 2026, dimanche 9h–19h30."
+    },
+    "acces": "Via Brennero (SS12), nord de Bressanone. Parking de surface, pas de plafond.",
+    "description": "Eurospar au nord du centre de Bressanone, sur la route du Brenner. La fiche officielle donne 8h–19h30 du lundi au samedi et 9h–19h30 le dimanche, aucune ouverture ou fermeture exceptionnelle annoncée. La FAQ Despar (valable pour Despar, Eurospar, Interspar) : animaux admis seulement dans un sac ou une caisse de transport. Parking de surface payant à côté (durée limitée à 3 h selon OSM/park4night) ; pas de parking souterrain connu."
   },
   {
     "id": "courses-despar-la-villa",
     "nom": "Despar La Villa — provisions Alta Badia",
     "categorie": "supermarche",
     "gps": [
-      46.587057,
-      11.9055128
+      46.58949,
+      11.90312
     ],
     "commune": "Strada Boscdaplan 107, La Villa (BZ)",
-    "resume": "Arrêt pratique vers San Cassiano : lundi–samedi 08 h–19 h 30, dimanche 08 h 30–19 h 30 selon la fiche officielle. Le Despar Strada Col Alt 10 à Corvara est actuellement affiché fermé toute la semaine, mais un autre Despar à Colfosco (Str. Col Pradat 37, commune de Corvara) est ouvert tous les jours : 07 h–12 h et 15 h–19 h, dimanche reprise à 16 h.",
+    "resume": "Ouvert 7 j/7 : 8h–19h30, dimanche 8h30–19h30. Chien seulement en sac ou caisse ; parking client gratuit.",
     "prix": {
       "type": "variable",
       "unite": "courses"
     },
     "chien": {
-      "admis": null,
-      "note": "Despar : sac ou caisse requis ; un adulte peut attendre dehors avec Prince."
+      "admis": false,
+      "note": "Seulement en sac ou caisse de transport (FAQ Despar)."
     },
     "source": "https://www.despar.it/it/punto-vendita-despar/21/la-villa/",
     "liens": [
@@ -11042,8 +11642,77 @@
       {
         "libelle": "Despar Corvara Col Alt — fiche actuellement fermée",
         "url": "https://www.despar.it/it/punto-vendita-despar/754/corvara/"
+      },
+      {
+        "libelle": "Despar — FAQ animaux",
+        "url": "https://www.despar.it/it/contatti/"
       }
-    ]
+    ],
+    "adresse": "Strada Boscdaplan 107, 39036 La Villa",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "8h30–19h30"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "clients, gratuit, surface (OSM)"
+      },
+      {
+        "libelle": "Alternative",
+        "valeur": "Despar Colfosco, Str. Col Pradat 37"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Despar — fiche officielle La Villa",
+          "url": "https://www.despar.it/it/punto-vendita-despar/21/la-villa/"
+        },
+        {
+          "libelle": "Despar — FAQ : animaux admis seulement en sac ou caisse de transport",
+          "url": "https://www.despar.it/it/contatti/"
+        },
+        {
+          "libelle": "OpenStreetMap — Despar Strada Boscdaplan 107",
+          "url": "https://www.openstreetmap.org/node/331278869"
+        }
+      ],
+      "doutes": "OSM indique 8h30–19h30 tous les jours : la fiche officielle (8h en semaine) fait foi."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Ouvert tous les jours d'octobre 2026 selon la fiche officielle."
+    },
+    "acces": "Strada Boscdaplan (SS244), La Villa. Parking client de surface, pas de plafond.",
+    "description": "Supermarché Despar de La Villa, sur la route principale de l'Alta Badia. Fiche officielle : 8h–19h30 du lundi au samedi, 8h30–19h30 le dimanche, aucune fermeture exceptionnelle annoncée. Parking client gratuit en surface (OSM). Chien : règle Despar, sac ou caisse uniquement. Alternative : Despar de Colfosco (Str. Col Pradat 37), 7h–12h et 15h–19h, dimanche 7h–12h et 16h–19h ; le Despar Strada Col Alt 10 de Corvara est affiché fermé toute la semaine."
   },
   {
     "id": "courses-despar-dobbiaco",
@@ -11054,22 +11723,103 @@
       12.22312
     ],
     "commune": "St. Johannesstrasse 2, Dobbiaco (BZ)",
-    "resume": "Lundi–samedi 08 h 30–12 h 30 et 15 h 30–19 h 30 ; dimanche fermé selon la fiche officielle actuelle. Votre arrivée prévue à Dobbiaco est le mercredi 21 octobre : magasin normalement ouvert ce jour-là, sous réserve de changement exceptionnel.",
+    "resume": "Selon Despar : lundi–samedi 8h30–12h30 et 15h30–19h30, dimanche fermé. Existence du magasin douteuse : OSM y place un Eurospin depuis 2021.",
     "prix": {
       "type": "variable",
       "unite": "courses"
     },
     "chien": {
-      "admis": null,
-      "note": "Despar : uniquement en sac ou caisse ; vérifier les modalités sur place."
+      "admis": false,
+      "note": "Seulement en sac ou caisse (FAQ Despar)."
     },
     "source": "https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/",
     "liens": [
       {
         "libelle": "Despar Dobbiaco — horaires",
         "url": "https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/"
+      },
+      {
+        "libelle": "Despar Dobbiaco Via Conti Kunigl — fiche",
+        "url": "https://www.despar.it/it/punto-vendita-despar/325/dobbiaco/"
+      },
+      {
+        "libelle": "Eurospin Dobbiaco — fiche",
+        "url": "https://www.eurospin.it/punti-vendita/dobbiaco-viale-s-giovanni/"
       }
-    ]
+    ],
+    "adresse": "St. Johannesstraße / Viale San Giovanni 2, 39034 Dobbiaco",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h30–12h30 et 15h30–19h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h30–12h30 et 15h30–19h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h30–12h30 et 15h30–19h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h30–12h30 et 15h30–19h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h30–12h30 et 15h30–19h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h30–12h30 et 15h30–19h30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "4 places client + stationnement gratuit dans la rue (OSM)"
+      },
+      {
+        "libelle": "Alternative sûre",
+        "valeur": "Despar Via Conti Kunigl 3/7 ; Eurospin Viale San Giovanni"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Despar — fiche officielle St. Johannesstr. 2",
+          "url": "https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/"
+        },
+        {
+          "libelle": "OpenStreetMap — historique : Despar devenu Euro Spin en 2021",
+          "url": "https://www.openstreetmap.org/node/1822887863/history"
+        },
+        {
+          "libelle": "Distribuzione Moderna — Eurospin ouvre à Dobbiaco (19/08/2021)",
+          "url": "https://distribuzionemoderna.info/news/eurospin-apre-a-dobbiaco-bz"
+        },
+        {
+          "libelle": "Toblach Shopping — commerçants alimentaires (pas de Despar St. Johannes)",
+          "url": "http://www.toblachshopping.it/kaufleute-toblach/unsere-geschaefte/lebensmittel.html"
+        },
+        {
+          "libelle": "Despar — FAQ : animaux admis seulement en sac ou caisse de transport",
+          "url": "https://www.despar.it/it/contatti/"
+        }
+      ],
+      "doutes": "Existence réelle du Despar St. Johannesstr. 2 non confirmée : fiche Despar en ligne mais sans prospectus, OSM et liste des commerçants l'ignorent."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Horaires officiels Despar, mais le magasin a peut-être été remplacé par un Eurospin. Dimanche fermé dans tous les cas."
+    },
+    "acces": "Viale San Giovanni, centre de Dobbiaco. Petit parking client gratuit (4 places, OSM) et places gratuites le long de la rue.",
+    "description": "La fiche Despar affiche encore ce magasin (8h30–12h30 et 15h30–19h30 du lundi au samedi, fermé le dimanche). Mais à cette adresse OpenStreetMap indique un Eurospin depuis septembre 2021 (ouverture Eurospin à Dobbiaco en août 2021), et la liste des commerçants de Dobbiaco ne cite pas ce Despar. Autre Despar certain : Via Conti Kunigl 3/7 (Kaufhaus Sapelza), 8h30–12h et 15h–19h, samedi 8h30–12h30, dimanche fermé. Eurospin Viale San Giovanni : 8h30–19h, dimanche fermé. Chien : sac ou caisse uniquement chez Despar. Aucun supermarché de Dobbiaco n'annonce d'ouverture le dimanche."
   },
   {
     "id": "courses-conad-dobbiaco",
@@ -11081,14 +11831,14 @@
     ],
     "gps_approximatif": true,
     "commune": "Piazza Parrocchia 1, Dobbiaco (BZ) — épingle indicative du centre",
-    "resume": "Magasin du centre ouvert lundi–samedi 08 h–19 h selon la fiche ; dimanche non indiqué. Fiche sans preuve d'entrée des chiens : courses à tour de rôle. L'épingle correspond au centre de Dobbiaco, consulter l'adresse officielle pour l'itinéraire.",
+    "resume": "Lundi–samedi 8h–19h continu, dimanche fermé. Chiens non mentionnés sur la fiche ; parking devant payant (3 €/h selon OSM).",
     "prix": {
       "type": "variable",
       "unite": "courses"
     },
     "chien": {
-      "admis": null,
-      "note": "Aucune admission des chiens indiquée sur la fiche Conad de ce magasin."
+      "admis": false,
+      "note": "Aucune admission des animaux déclarée sur la fiche Conad de ce magasin."
     },
     "source": "https://www.conad.it/ricerca-negozi/conad-city-piazza-parrocchia-1-39034-dobbiaco--010691",
     "liens": [
@@ -11096,26 +11846,87 @@
         "libelle": "Conad — adresse, services et horaires",
         "url": "https://www.conad.it/ricerca-negozi/conad-city-piazza-parrocchia-1-39034-dobbiaco--010691"
       }
-    ]
+    ],
+    "adresse": "Piazza Parrocchia 1, 39034 Dobbiaco",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "surface, payant 3 €/h ; rue 2 h max (OSM)"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle",
+          "url": "https://www.conad.it/ricerca-negozi/conad-city-piazza-parrocchia-1-39034-dobbiaco--010691"
+        },
+        {
+          "libelle": "OpenStreetMap — Conad City Piazza Parrocchia 1",
+          "url": "https://www.openstreetmap.org/node/14135009014"
+        },
+        {
+          "libelle": "OpenStreetMap — parking Conad City 3 EUR/hour",
+          "url": "https://www.openstreetmap.org/way/1538961362"
+        }
+      ],
+      "doutes": "Tarif du parking issu d'OSM uniquement."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Ouvert du lundi au samedi en octobre ; fermé le dimanche."
+    },
+    "acces": "Centre de Dobbiaco, place de l'église. Parking de surface payant, pas de plafond.",
+    "description": "Conad City sur la place de l'église de Dobbiaco. La fiche officielle donne 8h–19h du lundi au samedi et n'indique aucun horaire le dimanche : fermé. La fiche ne déclare pas l'admission des animaux (contrairement aux Conad de Savone et Varazze) : se relayer pour les courses. Stationnement devant : parking payant 3 €/h et places de rue limitées à 2 h (OSM) ; places gratuites plus au sud sur Viale San Giovanni."
   },
   {
     "id": "courses-conad-bressanone",
     "nom": "Conad Via Dante — Bressanone",
     "categorie": "supermarche",
     "gps": [
-      46.721,
-      11.648
+      46.71845,
+      11.65138
     ],
     "gps_approximatif": true,
     "commune": "Via Dante 26, Bressanone (BZ), épingle de rue indicative",
-    "resume": "Alternative au Eurospar : lundi–vendredi 07 h 30–19 h 30, samedi 08 h–19 h 30 selon fiche ; parking extérieur mentionné, accès des chiens non confirmé. Naviguer vers l’adresse officielle, pas vers l’épingle indicative.",
+    "resume": "Lundi–vendredi 7h30–19h30, samedi 8h–19h30, dimanche fermé. Chiens non mentionnés ; parking extérieur et couvert (hauteur inconnue).",
     "prix": {
       "type": "variable",
       "unite": "courses"
     },
     "chien": {
-      "admis": null,
-      "note": "La fiche Conad ne mentionne pas l’admission des chiens : se relayer pour les courses."
+      "admis": false,
+      "note": "Aucune admission des animaux déclarée sur la fiche Conad de ce magasin."
     },
     "source": "https://www.conad.it/ricerca-negozi/conad-via-dante-26-39042-bressanone--009867",
     "liens": [
@@ -11123,7 +11934,64 @@
         "libelle": "Conad Bressanone — adresse et horaires",
         "url": "https://www.conad.it/ricerca-negozi/conad-via-dante-26-39042-bressanone--009867"
       }
-    ]
+    ],
+    "adresse": "Via Dante 26, 39042 Bressanone",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "7h30–19h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "7h30–19h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "7h30–19h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "7h30–19h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "7h30–19h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "extérieur et couvert ; hauteur du couvert non publiée"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle",
+          "url": "https://www.conad.it/ricerca-negozi/conad-via-dante-26-39042-bressanone--009867"
+        },
+        {
+          "libelle": "OpenStreetMap — Conad Via Dante 26 (Su off)",
+          "url": "https://www.openstreetmap.org/node/7077867123"
+        }
+      ],
+      "doutes": "Hauteur du parking couvert non publiée."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Ouvert du lundi au samedi en octobre ; fermé le dimanche."
+    },
+    "acces": "Via Dante, sud du centre de Bressanone. Parking extérieur (conseillé) ou couvert de hauteur inconnue.",
+    "description": "Conad du quartier sud de Bressanone. Fiche officielle : 7h30–19h30 en semaine, 8h–19h30 le samedi, pas d'horaire le dimanche : fermé. Parking extérieur et couvert annoncés ; hauteur du couvert non publiée : rester en extérieur avec 1,95 m. Aucune admission des animaux déclarée : se relayer. Le dimanche, l'Eurospar Via Brennero (9h–19h30) est l'alternative ouverte."
   },
   {
     "id": "aire-pontives",
