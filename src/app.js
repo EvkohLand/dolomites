@@ -674,7 +674,7 @@
 
     /* Photos */
     if (Array.isArray(l.photos) && l.photos.length) {
-      var g = el('div', 'galerie');
+      var g = el('div', 'galerie galerie--etape');
       l.photos.forEach(function (ph, i) {
         if (!ph) return;
         var src = ph.url || (ph.fichier ? cheminPhoto(ph.fichier) : null);
