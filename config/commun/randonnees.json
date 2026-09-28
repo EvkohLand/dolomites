@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "note": "Bibliothèque strictement rattachée aux zones du planning. Audit contradictoire du 28/09/2026 : priorité aux sources officielles ; données chiffrées reprises des fiches sources, services saisonniers séparés de la praticabilité des sentiers, et statuts futurs non garantis. Les conditions neige/verglas et fermetures doivent être recontrôlées le jour J.",
   "zones": [
     {
@@ -702,7 +702,7 @@
           "nom": "Lac de Lagazuoi — boucle",
           "distance_km": 8.9,
           "duree": "3 h 40",
-          "denivele_plus_m": 741,
+          "denivele_plus_m": 769,
           "niveau": "Intermédiaire",
           "type": "Boucle",
           "depart": "Secteur Lagazuoi",
@@ -714,9 +714,10 @@
             "boucle haute",
             "retour"
           ],
-          "source": "https://cortina.dolomiti.org/fr/ete/quoi-faire/activites/trekking/avec-les-remontees/",
-          "denivele_moins_m": 769,
-          "verifie_le": "2026-09-28"
+          "source": "https://cortina.dolomiti.org/en/escursioni/to-lago-del-lagazuoi-en/",
+          "denivele_moins_m": 741,
+          "verifie_le": "2026-09-28",
+          "statut_source": "Métriques recoupées sur la fiche anglaise Cortina : 8,9 km, 3 h 40, D+769/D−741. Les refuges Scotoni/Lagazuoi doivent être recontrôlés séparément à vos dates."
         },
         {
           "nom": "Passo Valparola → Lagazuoi par Kaiserjäger",
@@ -741,8 +742,8 @@
           "nom": "Ligne de front Lagazuoi → Forcella Travenanzes",
           "distance_km": 4.7,
           "duree": "2 h 15",
-          "denivele_plus_m": 681,
-          "denivele_moins_m": 69,
+          "denivele_plus_m": 69,
+          "denivele_moins_m": 681,
           "niveau": "Intermédiaire",
           "type": "Traversée / boucle avec téléphérique",
           "depart": "Passo Falzarego",
@@ -758,8 +759,9 @@
             "Forcella Travenanzes",
             "retour vers départ du téléphérique"
           ],
-          "source": "https://cortina.dolomiti.org/fr/escursioni/le-long-de-la-ligne-de-front-lagazuoi-et-forcella-travenanzes/",
-          "verifie_le": "2026-09-28"
+          "source": "https://cortina.dolomiti.org/en/escursioni/along-the-front-line-lagazuoi-and-forcella-travenanzes-en/",
+          "verifie_le": "2026-09-28",
+          "statut_source": "Métriques corrigées après audit : 4,7 km, 2 h 15, D+69/D−681. La première saisie avait inversé montée et descente."
         }
       ]
     },
@@ -802,8 +804,8 @@
           "nom": "Tour des 5 Torri",
           "distance_km": 4.7,
           "duree": "2 h",
-          "denivele_plus_m": 446,
-          "denivele_moins_m": 67,
+          "denivele_plus_m": 67,
+          "denivele_moins_m": 446,
           "niveau": "Facile",
           "type": "Traversée/descente selon accès",
           "depart": "Rifugio Scoiattoli",
@@ -818,8 +820,9 @@
             "lac Bai de Dones",
             "parking"
           ],
-          "source": "https://cortina.dolomiti.org/fr/escursioni/tour-des-5-torri/",
-          "verifie_le": "2026-09-28"
+          "source": "https://cortina.dolomiti.org/en/escursioni/giro-delle-cinque-torri-en/",
+          "verifie_le": "2026-09-28",
+          "statut_source": "Versions anglaise/italienne Cortina + trace indépendante cohérentes : D+67/D−446. La page française affiche les libellés montée/descente inversés. À vos dates, télésiège fermé : cet itinéraire tel quel n'est pas directement reproductible sans montée à pied préalable."
         },
         {
           "nom": "Bai de Dones → Col Gallina → Lac des Anguane",
