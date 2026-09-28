@@ -20,7 +20,10 @@
         "libelle": "Vénétie — règlement de zone protégée",
         "url": "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=Dgr_620_21_AllegatoA_448436.pdf&storico=False&type=9"
       }
-    ]
+    ],
+    "quand": {
+      "nuit": true
+    }
   },
   {
     "id": "nuit-val-gardena",
@@ -43,7 +46,21 @@
         "libelle": "Pontives — avis sur tente de toit",
         "url": "https://park4night.com/en/place/70563"
       }
-    ]
+    ],
+    "quand": {
+      "zones_contient": [
+        "Gardena",
+        "Seceda",
+        "Siusi"
+      ],
+      "lieux": [
+        "aire-ortisei",
+        "aire-pontives",
+        "parking-col-raiser",
+        "col-raiser",
+        "seceda"
+      ]
+    }
   },
   {
     "id": "chien-alpage",
@@ -51,7 +68,14 @@
     "portee": "Tous les sentiers d'altitude, jusqu'à la descente des troupeaux",
     "resume": "Laisse obligatoire sur tout sentier traversant un pâturage.",
     "detail": "Des chiens de protection de troupeau (bergers des Abruzzes) gardent les alpages jusqu'à la fin de l'automne. Ils réagissent à la présence d'un autre chien. Contourner très largement le troupeau, tenir le chien court et ne jamais traverser. C'est le risque le plus concret du séjour avec un chien.",
-    "gravite": "elevee"
+    "gravite": "elevee",
+    "quand": {
+      "categories": [
+        "rando",
+        "plateau"
+      ],
+      "randos": true
+    }
   },
   {
     "id": "chien-parcs",
@@ -59,7 +83,24 @@
     "portee": "Parcs Fanes-Sennes-Braies, Puez-Odle, Tre Cime",
     "resume": "Chien admis, laisse obligatoire en permanence.",
     "detail": "Les parcs naturels du Haut-Adige acceptent les chiens sur les sentiers balisés, tenus en laisse sans exception. Ramasser les déjections : les contrôles existent et les amendes sont appliquées.",
-    "gravite": "moyenne"
+    "gravite": "moyenne",
+    "quand": {
+      "zones_contient": [
+        "Braies",
+        "Fanes",
+        "Tre Cime",
+        "Funes",
+        "Dobbiaco"
+      ],
+      "lieux": [
+        "santa-maddalena",
+        "adolf-munkel",
+        "prato-piazza",
+        "lago-braies",
+        "alpe-fanes",
+        "rando-tre-cime"
+      ]
+    }
   },
   {
     "id": "chien-remontees",
@@ -69,7 +110,12 @@
     "detail": "Ne jamais supposer la gratuité. Cabinovia Alpe di Siusi : chien 3 € aller / 6 € A/R en été 2026, laisse et muselière obligatoires dans les stations et cabines. Col Raiser : 5 € pour le chien. Lagazuoi : chien admis ; laisse et muselière, avec billet spécifique pour les chiens dépassant le format gratuit prévu par l'exploitant. Emporter systématiquement laisse ET muselière.",
     "gravite": "moyenne",
     "source": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html",
-    "a_reverifier": false
+    "a_reverifier": false,
+    "quand": {
+      "categories": [
+        "remontee"
+      ]
+    }
   },
   {
     "id": "chien-papiers",
@@ -78,7 +124,10 @@
     "resume": "Passeport européen, puce électronique et vaccin antirabique en cours de validité.",
     "detail": "Puce électronique, puis passeport européen rempli par un vétérinaire. Le vaccin antirabique n'est valide que 21 jours après la primo-injection, et cette injection doit être POSTÉRIEURE à la pose de la puce. Un rappel fait avant expiration du vaccin précédent ne rouvre pas le délai de 21 jours. À FAIRE MAINTENANT : vérifier la date du dernier rappel sur le passeport pour caler le délai avant octobre.",
     "gravite": "elevee",
-    "a_reverifier": true
+    "a_reverifier": true,
+    "quand": {
+      "passage_frontiere": true
+    }
   },
   {
     "id": "tre-cime-reservation",
@@ -87,7 +136,13 @@
     "resume": "40 € par voiture selon le tarif 2026 actuellement publié ; réservation en ligne obligatoire. Il n'existe pas de règle générale imposant de réserver seulement la veille.",
     "detail": "L'accès routier aux Tre Cime se réserve en ligne via le portail officiel. Le calendrier affiche les créneaux disponibles en temps réel. La plaque peut être indiquée lors de la réservation ou, si elle manque, complétée au plus tard à 23 h 59 la veille de l'accès. Fin octobre, l'ouverture de la route reste dépendante de la météo : vérifier l'état de la route avant de payer.",
     "gravite": "elevee",
-    "source": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/"
+    "source": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/",
+    "quand": {
+      "lieux": [
+        "route-tre-cime",
+        "rando-tre-cime"
+      ]
+    }
   },
   {
     "id": "route-hiver",
@@ -110,7 +165,10 @@
         "libelle": "Veneto Strade — obligation hivernale sur les routes concernées",
         "url": "https://www.venetostrade.it/"
       }
-    ]
+    ],
+    "quand": {
+      "cols": true
+    }
   },
   {
     "id": "tente-toit-hauteur",
@@ -118,7 +176,13 @@
     "portee": "Parkings couverts, tunnels, péages",
     "resume": "Voiture et tente de toit fermée : 1,95 m selon la mesure des voyageurs ; vérifier la marge réelle sous chaque portique.",
     "detail": "La hauteur de 1,95 m concerne la tente fermée. Une marge de seulement 5 cm sous un portique de 2 m demande de vérifier sur place le gabarit réel, y compris les accessoires ; la hauteur tente ouverte concerne l'emplacement. Le budget utilise 7,6 L/100 km (base 6,2 majorée de 22 %).",
-    "gravite": "moyenne"
+    "gravite": "moyenne",
+    "quand": {
+      "route_longue": true,
+      "categories": [
+        "parking"
+      ]
+    }
   },
   {
     "id": "chien-voiture-italie",
@@ -128,7 +192,10 @@
     "detail": "Article 169 §6 : il est interdit de transporter plus d'un animal domestique sans dispositif adapté, et tout animal doit être transporté sans constituer un obstacle ou un danger pour la conduite. Pour plusieurs animaux, cage/conteneur ou compartiment arrière séparé par un filet ou dispositif analogue est explicitement prévu. Pour Prince seul, un harnais automobile fixé à un point approprié est une solution prudente, mais le site ne le présente plus comme une obligation textuelle unique. Ne jamais laisser Prince circuler librement vers le conducteur.",
     "amende": "87 à 344 € pour violation des autres dispositions de l'article 169 (montants affichés par l'ACI au 26/09/2026)",
     "gravite": "elevee",
-    "source": "https://aci.gov.it/codice-della-strada/art-169/"
+    "source": "https://aci.gov.it/codice-della-strada/art-169/",
+    "quand": {
+      "passage_frontiere": true
+    }
   },
   {
     "id": "equipement-voiture",
@@ -137,7 +204,10 @@
     "resume": "Un gilet réfléchissant par personne et un triangle de présignalisation. Pas de vignette en Italie.",
     "detail": "Le gilet est obligatoire pour qui descend sur la chaussée ou l'accotement, et le triangle se place à 50 m en cas de panne. L'Italie n'a pas de vignette forfaitaire : les autoroutes se paient au péage, à l'usage.",
     "gravite": "moyenne",
-    "source": "https://www.preventionroutiere.asso.fr/wp-content/uploads/2016/04/Italie.pdf"
+    "source": "https://www.preventionroutiere.asso.fr/wp-content/uploads/2016/04/Italie.pdf",
+    "quand": {
+      "passage_frontiere": true
+    }
   },
   {
     "id": "ztl",
@@ -146,7 +216,18 @@
     "resume": "Centres interdits en permanence aux véhicules non autorisés, avec contrôle par caméra.",
     "detail": "Bolzano et Bressanone ont des ZTL permanentes : l'accès est réservé aux détenteurs d'un permis, et les caméras verbalisent automatiquement. Se garer à l'extérieur et finir à pied. Les villages de montagne du séjour ne sont pas concernés.",
     "gravite": "moyenne",
-    "source": "https://urbanaccessregulations.eu/countries-mainmenu-147/italy-mainmenu-81/bolzano-province/bolzano-ar"
+    "source": "https://urbanaccessregulations.eu/countries-mainmenu-147/italy-mainmenu-81/bolzano-province/bolzano-ar",
+    "quand": {
+      "zones_contient": [
+        "Bressanone",
+        "Bolzano"
+      ],
+      "lieux": [
+        "camping-loewenhof",
+        "courses-conad-bressanone",
+        "courses-eurospar-bressanone"
+      ]
+    }
   },
   {
     "id": "peage-hauteur",
@@ -164,6 +245,9 @@
         "libelle": "Autostrade per l'Italia — classes de péage",
         "url": "https://www.autostrade.it/en/servizi-al-cliente/pedaggio/classi-di-pedaggio"
       }
-    ]
+    ],
+    "quand": {
+      "route_longue": true
+    }
   }
 ]

@@ -1134,11 +1134,7 @@
     var bandeau = document.getElementById('bandeau-route');
     if (bandeau) {
       vide(bandeau);
-      bandeau.appendChild(document.createTextNode('Octobre : les cols (Gardena, Falzarego, Giau, Pordoi…) ne se passent que sur chaussée sèche, sans chaînes à bord. '));
-      var a = el('a', null, 'Consignes route');
-      a.href = '#volet-route';
-      a.addEventListener('click', function () { document.getElementById('volet-route').open = true; });
-      bandeau.appendChild(a);
+      bandeau.appendChild(document.createTextNode('Octobre : les cols (Gardena, Falzarego, Giau, Pordoi…) ne se passent que sur chaussée sèche, sans chaînes à bord. Chaque étape liste ses règles, sa météo et son budget.'));
     }
     if (!zone) return;
     vide(zone);
@@ -1499,17 +1495,53 @@
     conteneur.appendChild(bloc('Budget du jour', d));
   }
 
-  function dessinerReglesEtape(j, conteneur) {
-    var ids = [];
-    lieuxDuJour(j).forEach(function (l) { if (l.reglement && ids.indexOf(l.reglement) === -1) ids.push(l.reglement); });
-    var regles = ids.map(function (id) { return (E.regles || []).find(function (r) { return r.id === id; }); }).filter(Boolean);
-    if (!regles.length) return;
-    var d = el('div');
-    regles.forEach(function (r) {
-      d.appendChild(el('p', 'regle-etape__titre', r.titre));
-      if (r.resume) d.appendChild(el('p', 'jour__note', r.resume));
+  /* Une règle s'affiche dans les étapes que décrit son champ « quand » :
+     catégories de lieux visités, zone du jour, lieux précis, cols, route longue,
+     départ (papiers et équipement à avoir avant de passer la frontière). */
+  function reglesPourJour(j) {
+    var lieux = lieuxDuJour(j);
+    var r = routeDuJour(j);
+    var refs = r ? referencesEtape(r.etape).map(function (x) { return E.parId.get(x); }).filter(Boolean) : [];
+    var tous = lieux.concat(refs);
+    var ids = tous.map(function (l) { return l.id; });
+    var cats = tous.map(function (l) { return l.categorie; });
+    var zone = j.zone || '';
+    var premier = (E.planning || [])[0] === j;
+    return (E.regles || []).filter(function (rg) {
+      if (lieux.some(function (l) { return l.reglement === rg.id; })) return true;
+      var q = rg.quand;
+      if (!q) return false;
+      if (q.nuit && j.nuit) return true;
+      if (q.passage_frontiere && premier) return true;
+      if (q.route_longue && r && r.km >= 150) return true;
+      if (q.cols && tous.some(function (l) { return (l.altitude || 0) >= 1800 && /passo|pass|col|joch/i.test(l.nom); })) return true;
+      if (q.randos && randosPourJour(j).length) return true;
+      if ((q.categories || []).some(function (c) { return cats.indexOf(c) !== -1; })) return true;
+      if ((q.lieux || []).some(function (id) { return ids.indexOf(id) !== -1; })) return true;
+      if ((q.zones_contient || []).some(function (z) { return zone.indexOf(z) !== -1; })) return true;
+      return false;
     });
-    conteneur.appendChild(bloc('Règles qui s’appliquent', d));
+  }
+
+  function dessinerReglesEtape(j, conteneur) {
+    var regles = reglesPourJour(j);
+    if (!regles.length) return;
+    var d = el('div', 'regles-etape');
+    regles.forEach(function (r) {
+      var det = el('details', 'regle-etape' + (r.gravite ? ' regle-etape--' + r.gravite : ''));
+      var sm = el('summary', null);
+      sm.appendChild(el('span', 'regle-etape__titre', r.titre));
+      if (r.resume) sm.appendChild(el('span', 'jour__note', r.resume));
+      det.appendChild(sm);
+      if (r.detail) det.appendChild(el('p', null, r.detail));
+      if (r.amende) det.appendChild(el('p', 'jour__note', 'Amende : ' + r.amende));
+      var srcs = Array.isArray(r.sources) && r.sources.length ? r.sources : (r.source ? [{ libelle: 'Source', url: r.source }] : []);
+      var dl = el('div', 'puces');
+      srcs.forEach(function (x) { if (x && x.url) dl.appendChild(lienExterne(x.libelle || 'Source', x.url)); });
+      if (dl.childNodes.length) det.appendChild(dl);
+      d.appendChild(det);
+    });
+    conteneur.appendChild(bloc('Règles du jour (' + regles.length + ')', d));
   }
 
   /* ---------- Budget ---------- */
@@ -1795,6 +1827,7 @@
 
   function dessinerMeteo() {
     var zone = document.getElementById('meteo');
+    if (!zone) return;
     vide(zone);
     var m = E.meteo;
     if (!m) { zone.appendChild(el('p', 'jour__note', 'Météo indisponible.')); return; }
@@ -1855,6 +1888,7 @@
 
   function dessinerRegles() {
     var zone = document.getElementById('reglementation');
+    if (!zone) return;
     vide(zone);
     var d = el('div', 'regles');
     (E.regles || []).forEach(function (r) {

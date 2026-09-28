@@ -865,3 +865,9 @@ table.grille td { font-variant-numeric: tabular-nums; }
 .regle-etape__titre { margin: 8px 0 2px; font-weight: 600; font-size: 14px; }
 .a-demander { margin: 10px 0; padding: 10px 12px; border-left: 3px solid #d9a441; background: #fff8e8; border-radius: 6px; }
 .a-demander p { margin: 0 0 6px; font-size: 14px; }
+.regles-etape { display: flex; flex-direction: column; gap: 6px; }
+.regle-etape { border: 1px solid var(--trait); border-radius: var(--rayon); padding: 8px 10px; background: var(--surface); }
+.regle-etape > summary { cursor: pointer; list-style: none; display: flex; flex-direction: column; gap: 2px; }
+.regle-etape > summary::-webkit-details-marker { display: none; }
+.regle-etape--elevee { border-left: 3px solid #b3261e; }
+.regle-etape p { font-size: 14px; margin: 8px 0 0; }
