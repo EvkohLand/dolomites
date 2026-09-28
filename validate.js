@@ -81,6 +81,7 @@ const regles = lire('commun/reglementation.json');
 const vehicule = lire('commun/vehicule.json');
 const carburant = lire('commun/carburant.json');
 const randonnees = lire('commun/randonnees.json');
+const decouvertes = lire('commun/decouvertes.json');
 
 for (const [rel, obj] of [
   ['scenarios.json', scenarios], ['commun/lieux.json', lieux],
@@ -88,6 +89,7 @@ for (const [rel, obj] of [
   ['commun/meteo.json', meteo], ['commun/reglementation.json', regles],
   ['commun/vehicule.json', vehicule], ['commun/carburant.json', carburant],
   ['commun/randonnees.json', randonnees],
+  ['commun/decouvertes.json', decouvertes],
 ]) {
   if (obj) chasserDonneesPerso(rel, obj, '');
 }
@@ -225,6 +227,36 @@ if (randonnees) {
         if (r.denivele_plus_m === null || r.denivele_plus_m === undefined) {
           warn('commun/randonnees.json', `« ${nomZone} / ${nom} » : dénivelé positif non publié dans la fiche source`);
         }
+      });
+    });
+  }
+}
+
+/* ---------- Découvertes / activités / remontées / bonnes adresses ---------- */
+
+if (decouvertes) {
+  if (!Array.isArray(decouvertes.zones)) {
+    err('commun/decouvertes.json', 'zones doit être un tableau');
+  } else {
+    const idsZones = new Set();
+    decouvertes.zones.forEach((z, zi) => {
+      const nomZone = z && z.id || `#${zi}`;
+      if (!z || typeof z !== 'object') { err('commun/decouvertes.json', `zone #${zi} : pas un objet`); return; }
+      if (!z.id) err('commun/decouvertes.json', `zone #${zi} : id manquant`);
+      else if (idsZones.has(z.id)) err('commun/decouvertes.json', `zone en double : « ${z.id} »`);
+      else idsZones.add(z.id);
+      if (!Array.isArray(z.zones_planning) || !z.zones_planning.length) err('commun/decouvertes.json', `« ${nomZone} » : zones_planning vide`);
+      if (!Array.isArray(z.items) || !z.items.length) { err('commun/decouvertes.json', `« ${nomZone} » : aucun item`); return; }
+      const noms = new Set();
+      z.items.forEach((x, xi) => {
+        const nom = x && x.nom || `#${xi}`;
+        if (!x || typeof x !== 'object') { err('commun/decouvertes.json', `« ${nomZone} » item #${xi} : pas un objet`); return; }
+        if (!x.nom) err('commun/decouvertes.json', `« ${nomZone} » item #${xi} : nom manquant`);
+        else if (noms.has(x.nom)) err('commun/decouvertes.json', `« ${nomZone} » : item en double « ${x.nom} »`);
+        else noms.add(x.nom);
+        if (!x.type) warn('commun/decouvertes.json', `« ${nomZone} / ${nom} » : type absent`);
+        if (!x.resume) warn('commun/decouvertes.json', `« ${nomZone} / ${nom} » : résumé absent`);
+        if (!x.source || !/^https:\/\//.test(x.source)) err('commun/decouvertes.json', `« ${nomZone} / ${nom} » : source HTTPS obligatoire`);
       });
     });
   }
