@@ -6040,6 +6040,7 @@
             "Dates de fermeture 2026 du Rifugio Viel del Pan et du Rifugio Fredarola introuvables (sites injoignables ou muets) : ne pas compter dessus.",
             "Fontaines et présence de bétail en octobre non vérifiées."
           ],
+          "nom": "Passo Pordoi → Rifugio Viel del Pan (Viel del Pan, sentier 601), aller-retour",
           "source": "https://www.outdooractive.com/en/route/hiking-trail/livinallongo-del-col-di-lana/viel-dal-pan/46202650/",
           "verifie_le": "2026-09-28"
         },
@@ -6129,6 +6130,7 @@
           "doutes": [
             "Distance et dénivelé mesurés sur le dernier tronçon du tracé officiel APT du Piz Boè (Forcella → Passo : 2,64 km, D− 636), inversé. Durée de montée 2 h 30 : SAT (accès au Rifugio Boè « dal Passo Pordoi, segnavia 627 che passa dal rifugio Forcella Pordoi »)."
           ],
+          "nom": "Passo Pordoi → Forcella Pordoi à pied (sentier 627), retour en téléphérique ou à pied",
           "source": "https://www.sat.tn.it/rifugi/rifugio-boe/",
           "verifie_le": "2026-09-28"
         }
@@ -8459,6 +8461,7 @@
             "Les fiches dreizinnen.com et suedtirol.info reprennent la même base de données régionale : ce ne sont pas deux mesures indépendantes ; la trace GPX officielle a servi de recoupement.",
             "Présence du bétail à mi-octobre non vérifiée : la descente des troupeaux a normalement eu lieu, mais aucune source ne le confirme pour 2026."
           ],
+          "nom": "Prato Piazza → Picco di Vallandro / Dürrenstein",
           "source": "https://www.dreizinnen.com/de/activity/sommerwanderung-parkplatz-pl-tzwiese-d-rrenstein_678",
           "verifie_le": "2026-09-28"
         },
@@ -8570,6 +8573,7 @@
             "Les fiches dreizinnen.com et suedtirol.info reprennent la même base de données régionale : ce ne sont pas deux mesures indépendantes ; la trace GPX officielle a servi de recoupement.",
             "Présence du bétail à mi-octobre non vérifiée : la descente des troupeaux a normalement eu lieu, mais aucune source ne le confirme pour 2026."
           ],
+          "nom": "Lago di Braies → Rifugio Biella / Seekofelhütte (variante sommet Croda del Becco / Seekofel)",
           "source": "https://www.dreizinnen.com/de/activity/sommerwanderung-pragser-wildsee-seekofelh-tte_50050",
           "verifie_le": "2026-09-28"
         }
