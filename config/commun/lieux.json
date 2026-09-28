@@ -22,7 +22,7 @@
     "ouverture": {
       "fin_saison": "2026-11-02",
       "a_reverifier": false,
-      "note": "Saison 2026 confirmée : 22 mai au 2 novembre, 8h30-17h30. Ouvert tout le séjour."
+      "note": "Saison 2026 confirmée : 22 mai au 2 novembre. Du 12 octobre au 2 novembre : 8h30–17h00."
     },
     "chien": {
       "admis": true,
@@ -430,14 +430,14 @@
       "type": "payant",
       "adulte_ar": 26,
       "unite": "2 adultes A/R, chien en sus éventuel",
-      "annee_tarif": 2026,
-      "detail": "Provision de 52 € pour deux adultes ; vérifier le tarif exact de basse saison 2026 et le chien avant achat.",
+      "annee_tarif": null,
+      "detail": "Budget conservatoire : 52 € pour deux adultes A/R. La page officielle 2026 confirme la saison et les horaires mais le tableau de prix n'est pas lisible de façon fiable dans l'extraction ; vérifier le tarif exact avant achat.",
       "montant": 52
     },
     "ouverture": {
       "fin_saison": "2026-10-18",
-      "a_reverifier": false,
-      "note": "6 juin – 18 octobre 2026 ; programmé le 15 ou 16 octobre, sous réserve de météo et de fonctionnement du jour."
+      "a_reverifier": true,
+      "note": "Saison estivale 2026 confirmée : 6 juin–18 octobre ; 09:00, dernière montée 16:40, dernière descente 17:00. Prévu le 17/10, report possible au 18/10 seulement."
     },
     "chien": {
       "admis": true,
