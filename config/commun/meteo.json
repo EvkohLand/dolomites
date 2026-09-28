@@ -1,121 +1,8 @@
 {
   "source": "Repères climatiques moyens de Cortina d’Ampezzo (1 224 m), par décade en octobre : environ 12,4/4,6 °C du 1er au 10, 11,1/2,9 °C du 11 au 20 et 9,8/1,5 °C du 21 au 31. Ces valeurs ne couvrent ni les cols ni les sommets.",
-  "avertissement": "REPÈRES CLIMATIQUES, PAS PRÉVISION JOUR PAR JOUR — aucune icône ni pourcentage de pluie ne prédit le temps à cette date. Consulter la météo, les routes et les remontées 3 à 5 jours avant, puis le matin même.",
+  "avertissement": "AUCUNE PRÉVISION DU 10–25 OCTOBRE N'EST FIABLE À CETTE ÉCHÉANCE. Les températures ci-dessous sont seulement des repères climatiques de vallée. Pour les décisions de route/randonnée, utiliser les bulletins officiels montagne 3 à 5 jours avant puis le matin même.",
   "note_altitude": "Au-dessus de 2000 m : 2 à 8 °C dans la journée et gel nocturne régulier dès la première semaine. Risque de neige croissant au-dessus de 2500 m. Au sommet du Lagazuoi, du Sass Pordoi ou aux Tre Cime, compter le gel le matin.",
-  "jours": [
-    {
-      "date": "2026-10-10",
-      "temp_min": 5,
-      "temp_max": 12,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-11",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-12",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-13",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-14",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-15",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-16",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-17",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-18",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-19",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-20",
-      "temp_min": 3,
-      "temp_max": 11,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-21",
-      "temp_min": 1,
-      "temp_max": 10,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-22",
-      "temp_min": 1,
-      "temp_max": 10,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-23",
-      "temp_min": 1,
-      "temp_max": 10,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-24",
-      "temp_min": 1,
-      "temp_max": 10,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    },
-    {
-      "date": "2026-10-25",
-      "temp_min": 1,
-      "temp_max": 10,
-      "ciel": "variable",
-      "note": "Températures moyennes indicatives à Cortina, sans prévision météo à cette date. En altitude, prévoir le gel."
-    }
-  ],
+  "jours": [],
   "ciels": {
     "soleil": {
       "libelle": "Ensoleillé",
@@ -137,5 +24,34 @@
       "libelle": "Temps à vérifier",
       "icone": "nuage"
     }
-  }
+  },
+  "mode": "climatologie",
+  "titre": "Repères d'octobre — pas une prévision",
+  "reperes": [
+    {
+      "zone": "Vallées / Cortina-Dobbiaco",
+      "temperature": "ordre de grandeur d'octobre : environ 2 à 12 °C selon altitude et période",
+      "note": "Valeur indicative, pas une température prévue pour vos dates."
+    },
+    {
+      "zone": "~2 000 m",
+      "temperature": "gel possible, vent et neige précoce",
+      "note": "La station Alpe di Siusi-Zallinger à 2 050 m affichait déjà de la neige au sol fin septembre 2026 : ne pas extrapoler une météo douce des vallées."
+    },
+    {
+      "zone": "2 500–3 150 m",
+      "temperature": "conditions potentiellement hivernales",
+      "note": "Lagazuoi, Sass Pordoi, Piz Boè et passages hauts : décider uniquement avec bulletin montagne + état du terrain."
+    }
+  ],
+  "sources": [
+    {
+      "libelle": "Météo officielle Alto Adige — montagne, radar, stations",
+      "url": "https://meteo.provincia.bz.it/it/home"
+    },
+    {
+      "libelle": "ARPAV — Dolomiti Meteo (Belluno/Vénétie)",
+      "url": "https://www.arpa.veneto.it/dati-ambientali/bollettini/meteo/dolomiti"
+    }
+  ]
 }
