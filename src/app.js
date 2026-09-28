@@ -1386,6 +1386,25 @@
 
     if (m.avertissement) zone.appendChild(el('p', 'meteo-avert', m.avertissement));
 
+    if (m.mode === 'climatologie' && Array.isArray(m.reperes)) {
+      var rc = el('div', 'meteo-grille');
+      m.reperes.forEach(function (r) {
+        var c = el('div', 'meteo-jour meteo-jour--repere');
+        c.appendChild(el('div', 'meteo-jour__date', r.zone || 'Repère'));
+        c.appendChild(el('div', 'meteo-jour__temp', r.temperature || ''));
+        if (r.note) c.appendChild(el('div', 'meteo-jour__pluie', r.note));
+        rc.appendChild(c);
+      });
+      zone.appendChild(rc);
+      if (Array.isArray(m.sources)) m.sources.forEach(function (s) {
+        var a = el('a', 'lien-ext', s.libelle || 'Source météo officielle');
+        a.href = s.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+        zone.appendChild(a);
+      });
+      if (m.note_altitude) zone.appendChild(el('p', 'jour__note', m.note_altitude));
+      return;
+    }
+
     var dates = {};
     (E.planning || []).forEach(function (j) { dates[j.date] = j.jour; });
 
