@@ -16661,8 +16661,79 @@
       "court"
     ],
     "niveau_prix": "€",
-    "photos": [],
-    "recherche_photo": "Karersee Lago di Carezza Latemar",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Karersee_HDR.jpg/960px-Karersee_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Karersee HDR",
+        "credit": "Afrank99 — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Panoramica_del_Lago_di_Carezza_in_Val_d%27Ega_BZ_-_%C3%9Cbersicht_Karersee_in_Val_d%27Ega_BZ.jpg/960px-Panoramica_del_Lago_di_Carezza_in_Val_d%27Ega_BZ_-_%C3%9Cbersicht_Karersee_in_Val_d%27Ega_BZ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Panoramica del Lago di Carezza in Val d'Ega BZ Übersicht Karersee in Val d'Ega BZ",
+        "credit": "Franco Visintainer — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Lago_di_Carezza_%28Karersee%29_-_panoramio.jpg/960px-Lago_di_Carezza_%28Karersee%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Carezza (Karersee) panoramio",
+        "credit": "Figure — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Welschnofen_Latemar_%26_Karersee_2.jpg/960px-Welschnofen_Latemar_%26_Karersee_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Welschnofen Latemar & Karersee 2",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Lago_di_Carezza_sole2.jpg/960px-Lago_di_Carezza_sole2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Carezza sole2",
+        "credit": "TrismegistusDAC — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lago_di_Carezza_sole3.jpg/960px-Lago_di_Carezza_sole3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Carezza sole3",
+        "credit": "TrismegistusDAC — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Lago_di_Carezza_sole4.jpg/960px-Lago_di_Carezza_sole4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Carezza sole4",
+        "credit": "TrismegistusDAC — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Lago_di_carezza_soleggiato.jpg/960px-Lago_di_carezza_soleggiato.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di carezza soleggiato",
+        "credit": "TrismegistusDAC — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Lago_di_Carezza_06.jpg/960px-Lago_di_Carezza_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Carezza 06",
+        "credit": "Adert — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Lago_di_Carezza_-_Welschnofen_-_It%C3%A1lia.jpg/960px-Lago_di_Carezza_-_Welschnofen_-_It%C3%A1lia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Carezza Welschnofen Itália",
+        "credit": "Leonardo Felizardo — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Lago_di_Carezza%3B_Karersee.jpg/960px-Lago_di_Carezza%3B_Karersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Carezza; Karersee",
+        "credit": "Linguaddict — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Lake_Carezza%2C_view_heading_South-East.jpg/960px-Lake_Carezza%2C_view_heading_South-East.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lake Carezza, view heading South East",
+        "credit": "Marco Ober — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Lake_Carezza%2C_view_heading_North.jpg/960px-Lake_Carezza%2C_view_heading_North.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lake Carezza, view heading North",
+        "credit": "Marco Ober — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Lake_Carezza%2C_view_heading_West.jpg/960px-Lake_Carezza%2C_view_heading_West.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lake Carezza, view heading West",
+        "credit": "Marco Ober — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "recherche_photo": "Karersee Lago di Carezza",
     "source": "https://eggental.com/de/infos/p1-parkplatz-karer-see_48312",
     "verification": {
       "date": "2026-09-28",
@@ -16818,8 +16889,84 @@
       "sur la route de Dobbiaco"
     ],
     "niveau_prix": "€",
-    "photos": [],
-    "recherche_photo": "Antholzer See Lago di Anterselva",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Lago_di_Anterselva.jpg/960px-Lago_di_Anterselva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Anterselva",
+        "credit": "Corrado de Luca (user Corrado86) — Wikimedia Commons, CC BY-SA 2.5 it"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Seespiegelung_am_Antholzer_See_in_Italien_23082018_001.jpg/960px-Seespiegelung_am_Antholzer_See_in_Italien_23082018_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seespiegelung am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Seespiegelung_am_Antholzer_See_in_Italien_23082018_004.jpg/960px-Seespiegelung_am_Antholzer_See_in_Italien_23082018_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seespiegelung am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Seespiegelung_am_Antholzer_See_in_Italien_23082018_005.jpg/960px-Seespiegelung_am_Antholzer_See_in_Italien_23082018_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seespiegelung am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Seespiegelung_am_Antholzer_See_in_Italien_23082018_009.jpg/960px-Seespiegelung_am_Antholzer_See_in_Italien_23082018_009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seespiegelung am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Berge_am_Antholzer_See_in_Italien_23082018_008.jpg/960px-Berge_am_Antholzer_See_in_Italien_23082018_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Berge am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Seespiegelung_am_Antholzer_See_in_Italien_23082018_012.jpg/960px-Seespiegelung_am_Antholzer_See_in_Italien_23082018_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seespiegelung am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Steg_am_Antholzer_See_in_Italien_23082018_013.jpg/960px-Steg_am_Antholzer_See_in_Italien_23082018_013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Steg am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Seespiegelung_am_Antholzer_See_in_Italien_23082018_014.jpg/960px-Seespiegelung_am_Antholzer_See_in_Italien_23082018_014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seespiegelung am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Seespiegelung_am_Antholzer_See_in_Italien_23082018_019.jpg/960px-Seespiegelung_am_Antholzer_See_in_Italien_23082018_019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seespiegelung am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Seespiegelung_am_Antholzer_See_in_Italien_23082018_020.jpg/960px-Seespiegelung_am_Antholzer_See_in_Italien_23082018_020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seespiegelung am Antholzer See in Italien",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Wasserspiegelung_am_Antholzer_See_23082018_002.jpg/960px-Wasserspiegelung_am_Antholzer_See_23082018_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Wasserspiegelung am Antholzer See",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Br%C3%BCcke_am_Antholzer_See_23082018_001.jpg/960px-Br%C3%BCcke_am_Antholzer_See_23082018_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Brücke am Antholzer See",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Wald_am_Antholzer_See_23082018_005.jpg/960px-Wald_am_Antholzer_See_23082018_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Wald am Antholzer See",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Wald_und_Berge_am_Antholzer_See_23082018_006.jpg/960px-Wald_und_Berge_am_Antholzer_See_23082018_006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Wald und Berge am Antholzer See",
+        "credit": "PantheraLeo1359531 — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "recherche_photo": "Antholzer See",
     "source": "https://www.antholzertal.com/landingpages-de/lake/de-antholzer-see/parkplatzgebuehren",
     "verification": {
       "date": "2026-09-28",
@@ -16962,8 +17109,69 @@
       "photo"
     ],
     "niveau_prix": "€",
-    "photos": [],
-    "recherche_photo": "Geisleralm Geislerkino Odle",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Gruppo_delle_Odle_dalla_malga_Geisleralm.jpg/960px-Gruppo_delle_Odle_dalla_malga_Geisleralm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Gruppo delle Odle dalla malga Geisleralm",
+        "credit": "Llorenzi — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "legende": "Odle di Funes",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "adolf-munkel-1.jpg"
+      },
+      {
+        "legende": "Odle di Funes   Geisler bei Villnoess",
+        "credit": "Luca83 — Wikimedia Commons, CC BY 3.0",
+        "fichier": "adolf-munkel-2.jpg"
+      },
+      {
+        "legende": "Gruppo delle Odle dalla malga Geisleralm",
+        "credit": "Llorenzi — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "adolf-munkel-3.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Geislergruppe_-_Gruppo_delle_Odle..jpg/1280px-Geislergruppe_-_Gruppo_delle_Odle..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Geislergruppe   Gruppo delle Odle.",
+        "credit": "Tobia Maio — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Le_Magnifiche_Odle_-_panoramio.jpg/1280px-Le_Magnifiche_Odle_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Le Magnifiche Odle   panoramio",
+        "credit": "Mario Penner — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Puez-Geisler-Odle_msu_2018_-7887.jpg/1280px-Puez-Geisler-Odle_msu_2018_-7887.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Puez Geisler Odle msu 2018  7887",
+        "credit": "User:Matthias Süßen — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Puez-Geisler-Odle_msu_2018_-7968.jpg/1280px-Puez-Geisler-Odle_msu_2018_-7968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Puez Geisler Odle msu 2018  7968",
+        "credit": "User:Matthias Süßen — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Puez-Geisler-Odle_msu_2018_-7969.jpg/1280px-Puez-Geisler-Odle_msu_2018_-7969.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Puez Geisler Odle msu 2018  7969",
+        "credit": "User:Matthias Süßen — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Puez-Geisler-Odle_msu_2018_-7972.jpg/1280px-Puez-Geisler-Odle_msu_2018_-7972.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Puez Geisler Odle msu 2018  7972",
+        "credit": "User:Matthias Süßen — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Puez-Geisler-Odle_msu_2018_-7996.jpg/960px-Puez-Geisler-Odle_msu_2018_-7996.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Puez Geisler Odle msu 2018 7996",
+        "credit": "User:Matthias Süßen — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Puez-Geisler-Odle_msu_2018_-7997.jpg/960px-Puez-Geisler-Odle_msu_2018_-7997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Puez Geisler Odle msu 2018 7997",
+        "credit": "User:Matthias Süßen — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "recherche_photo": "Geisleralm Geisler",
     "source": "https://www.geisleralm.com/",
     "verification": {
       "date": "2026-09-28",
@@ -17068,7 +17276,83 @@
       "court"
     ],
     "niveau_prix": "€",
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Urtij%C3%ABi_dal_pas_de_Pin%C3%ABi.JPG/960px-Urtij%C3%ABi_dal_pas_de_Pin%C3%ABi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi dal pas de Pinëi",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Da_Rusina_ju_a_Urtijei.jpg/960px-Da_Rusina_ju_a_Urtijei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Da Rusina ju a Urtijei",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Dlieja_sacun_Urtij%C3%ABi_Santa_Dorotea.JPG/960px-Dlieja_sacun_Urtij%C3%ABi_Santa_Dorotea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Dlieja sacun Urtijëi Santa Dorotea",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Pfarrkirche_Sankt_Ulrich_in_Gr%C3%B6den_nachts.jpg/960px-Pfarrkirche_Sankt_Ulrich_in_Gr%C3%B6den_nachts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pfarrkirche Sankt Ulrich in Gröden nachts",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Urtij%C3%ABi_ududa_da_Bula_ju.jpg/960px-Urtij%C3%ABi_ududa_da_Bula_ju.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi ududa da Bula ju",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Urtij%C3%ABi_Plajes_Saslonch.jpg/960px-Urtij%C3%ABi_Plajes_Saslonch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi Plajes Saslonch",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Urtij%C3%ABi_udu_da_Bulacia_te_Gherd%C3%ABina.jpg/960px-Urtij%C3%ABi_udu_da_Bulacia_te_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi udu da Bulacia te Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Urtij%C3%ABi_udu_da_Ronc_via.jpg/960px-Urtij%C3%ABi_udu_da_Ronc_via.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi udu da Ronc via",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Urtij%C3%ABi_dlieja_S._Antone_Sella_te_Gherd%C3%ABina.jpg/960px-Urtij%C3%ABi_dlieja_S._Antone_Sella_te_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi dlieja S. Antone Sella te Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Urtij%C3%ABi_Mont_de_S%C3%ABuc_Scili%C3%ABr_y_Bulacia_udui_dal_Gran_Punton.jpg/960px-Urtij%C3%ABi_Mont_de_S%C3%ABuc_Scili%C3%ABr_y_Bulacia_udui_dal_Gran_Punton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi Mont de Sëuc Sciliër y Bulacia udui dal Gran Punton",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Balest_Urtij%C3%ABi_Mont_de_S%C3%ABuc_Scili%C3%ABr_y_Bulacia_udui_Gran_Punton.jpg/960px-Balest_Urtij%C3%ABi_Mont_de_S%C3%ABuc_Scili%C3%ABr_y_Bulacia_udui_Gran_Punton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Balest Urtijëi Mont de Sëuc Sciliër y Bulacia udui Gran Punton",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Balest_Urtij%C3%ABi_Mont_de_S%C3%ABuc_Scili%C3%ABr_y_Bulacia_Gran_Punton.jpg/960px-Balest_Urtij%C3%ABi_Mont_de_S%C3%ABuc_Scili%C3%ABr_y_Bulacia_Gran_Punton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Balest Urtijëi Mont de Sëuc Sciliër y Bulacia Gran Punton",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Autere_juebia_dai_Andli_dan_la_dlieja_San_Antone_a_Urtij%C3%ABi.jpg/960px-Autere_juebia_dai_Andli_dan_la_dlieja_San_Antone_a_Urtij%C3%ABi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Autere juebia dai Andli dan la dlieja San Antone a Urtijëi",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Urtij%C3%ABi_cun_l_Sela_Y_Saslonch_da_Tlesura.jpg/960px-Urtij%C3%ABi_cun_l_Sela_Y_Saslonch_da_Tlesura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi cun l Sela Y Saslonch da Tlesura",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Gran_autere_dlieja_San_Durich_a_Urtij%C3%ABi.jpg/960px-Gran_autere_dlieja_San_Durich_a_Urtij%C3%ABi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Gran autere dlieja San Durich a Urtijëi",
+        "credit": "Moroder — Wikimedia Commons, CC BY-SA 3.0"
+      }
+    ],
     "source": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/ortisei-val-gardena/parcheggio-fever/487E70EA9D74488B9983888ACCD29762/",
     "verification": {
       "date": "2026-09-28",
@@ -17090,6 +17374,7 @@
           "url": "https://www.val-gardena.com/de/adressen/detail/base/poi/st-ulrich-groeden/parkplatz-setil/86A378B5EE944362B156724D663E9113/"
         }
       ]
-    }
+    },
+    "recherche_photo": "Ortisei Urtijëi"
   }
 ]
