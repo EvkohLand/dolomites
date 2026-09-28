@@ -891,6 +891,112 @@
     setTimeout(function () { c.classList.remove('est-vise'); }, 1600);
   }
 
+  function randosPourJour(j) {
+    var groupes = (((E.randonnees || {}).zones) || []).filter(function (g) {
+      return Array.isArray(g.zones_planning) && g.zones_planning.indexOf(j.zone) !== -1;
+    });
+    var titre = (j.titre || '').toLowerCase();
+
+    /* Falzarego contient deux sous-zones très proches mais distinctes.
+       On ne montre que le secteur nommé par la journée, sauf lorsque le planning
+       prévoit explicitement l'un comme solution de repli de l'autre. */
+    if (j.zone === 'Alta Badia / Falzarego') {
+      var citeCinque = titre.indexOf('cinque torri') !== -1;
+      var citeLagazuoi = titre.indexOf('lagazuoi') !== -1;
+      if (citeCinque && !citeLagazuoi) groupes = groupes.filter(function (g) { return g.id === 'cinque-torri'; });
+      if (citeLagazuoi && !citeCinque) groupes = groupes.filter(function (g) { return g.id === 'lagazuoi'; });
+    }
+    return groupes;
+  }
+
+  function texteMetrique(val, suffixe) {
+    if (val === null || val === undefined || val === '') return null;
+    return String(val).replace('.', ',') + (suffixe || '');
+  }
+
+  function randoResume(r) {
+    return [
+      texteMetrique(r.distance_km, ' km'),
+      r.distance_max_km ? ('jusqu\'à ' + texteMetrique(r.distance_max_km, ' km')) : null,
+      r.duree,
+      r.denivele_plus_m !== null && r.denivele_plus_m !== undefined ? ('D+ ' + r.denivele_plus_m + ' m') : null,
+      r.niveau
+    ].filter(Boolean).join(' · ');
+  }
+
+  function dessinerRandosJour(j, conteneur) {
+    var groupes = randosPourJour(j);
+    if (!groupes.length) return;
+
+    var sec = el('section', 'jour-randos');
+    sec.appendChild(el('h4', 'jour-randos__titre', 'Randonnées de cette zone'));
+
+    groupes.forEach(function (g) {
+      var zg = el('div', 'zone-rando');
+      var zh = el('div', 'zone-rando__head');
+      zh.appendChild(el('strong', null, g.id.replace(/-/g, ' ')));
+      if (g.difficulte_zone) zh.appendChild(el('span', null, g.difficulte_zone));
+      zg.appendChild(zh);
+
+      if (Array.isArray(g.risques_zone) && g.risques_zone.length) {
+        var rz = el('p', 'zone-rando__risques');
+        rz.appendChild(el('strong', null, 'Risques de la zone : '));
+        rz.appendChild(document.createTextNode(g.risques_zone.join(' · ')));
+        zg.appendChild(rz);
+      }
+
+      (g.randos || []).forEach(function (r) {
+        var d = el('details', 'rando-card');
+        var sm = document.createElement('summary');
+        sm.appendChild(el('span', 'rando-card__nom', r.nom));
+        var resume = randoResume(r);
+        if (resume) sm.appendChild(el('span', 'rando-card__meta', resume));
+        d.appendChild(sm);
+
+        var grille = el('dl', 'rando-grid');
+        [
+          ['Distance', r.distance_km !== null && r.distance_km !== undefined
+            ? (texteMetrique(r.distance_km, ' km') + (r.distance_max_km ? ' à ' + texteMetrique(r.distance_max_km, ' km') : ''))
+            : null],
+          ['Durée', r.duree],
+          ['Dénivelé +', r.denivele_plus_m !== null && r.denivele_plus_m !== undefined ? r.denivele_plus_m + ' m' : null],
+          ['Dénivelé -', r.denivele_moins_m !== null && r.denivele_moins_m !== undefined ? r.denivele_moins_m + ' m' : null],
+          ['Altitude max', r.altitude_max_m ? r.altitude_max_m + ' m' : null],
+          ['Niveau', r.niveau],
+          ['Type', r.type],
+          ['Départ', r.depart],
+          ['Risque', r.risque]
+        ].forEach(function (x) {
+          if (!x[1]) return;
+          grille.appendChild(el('dt', null, x[0]));
+          grille.appendChild(el('dd', null, String(x[1])));
+        });
+        d.appendChild(grille);
+
+        if (Array.isArray(r.plan) && r.plan.length) {
+          var bp = el('div', 'rando-plan');
+          bp.appendChild(el('strong', null, 'Plan de randonnée'));
+          var ol = document.createElement('ol');
+          r.plan.forEach(function (p) { ol.appendChild(el('li', null, p)); });
+          bp.appendChild(ol);
+          d.appendChild(bp);
+        }
+
+        if (r.source) {
+          var src = el('a', 'rando-source', 'Source de l’itinéraire');
+          src.href = r.source;
+          src.target = '_blank';
+          src.rel = 'noopener noreferrer';
+          d.appendChild(src);
+        }
+        zg.appendChild(d);
+      });
+      sec.appendChild(zg);
+    });
+
+    conteneur.appendChild(sec);
+  }
+
   function dessinerPlanning() {
     var zone = document.getElementById('planning');
     vide(zone);
@@ -955,6 +1061,8 @@
         });
         c.appendChild(ul);
       }
+
+      dessinerRandosJour(j, c);
 
       if (j.nuit) {
         var n = resoudre(j.nuit);
@@ -1331,7 +1439,8 @@
       lire('commun/meteo.json'),
       lire('commun/reglementation.json'),
       lire('commun/vehicule.json'),
-      lire('commun/carburant.json')
+      lire('commun/carburant.json'),
+      lire('commun/randonnees.json')
     ]).then(function (r) {
       E.scenarios = r[0] || { scenarios: [] };
       E.lieux = r[1] || [];
@@ -1340,6 +1449,7 @@
       E.regles = r[5] || [];
       E.vehicule = r[6];
       E.carburant = r[7];
+      E.randonnees = r[8] || { zones: [] };
 
       E.parId = indexer(E.lieux);
       E.categories = construireCategories(E.lieux, r[2] || {});
