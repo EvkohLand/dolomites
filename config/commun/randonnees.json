@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "note": "Bibliothèque strictement rattachée aux zones du planning. Les métriques sont reprises des sources indiquées ; aucune randonnée d'une autre zone n'est injectée.",
+  "version": 2,
+  "note": "Bibliothèque strictement rattachée aux zones du planning. Données chiffrées reprises des sources indiquées ; métriques laissées nulles lorsqu'elles ne sont pas publiées. Les risques sont qualifiés pour un voyage en octobre et ne remplacent pas le contrôle météo/état du sentier le jour même. Les itinéraires signalés fermés par leur source restent visibles mais explicitement marqués fermés.",
   "zones": [
     {
       "id": "funes",
@@ -103,6 +103,76 @@
             "Zans"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/D3C26167D5906647E33AD23EE9D079E7"
+        },
+        {
+          "nom": "Zans → Gampenalm — aller-retour",
+          "distance_km": 7.29,
+          "duree": "2 h 19",
+          "denivele_plus_m": 399,
+          "denivele_moins_m": 399,
+          "niveau": "Intermédiaire",
+          "type": "Aller-retour",
+          "depart": "Parking Zans",
+          "altitude_max_m": 2072,
+          "risque": "Faible à modéré",
+          "plan": [
+            "Parking Zans",
+            "Zanser Schwaige",
+            "sentier 6 dans Tschantschenon",
+            "jonction piste forestière",
+            "sentier 35",
+            "Gampenalm",
+            "retour par le même itinéraire"
+          ],
+          "source": "https://www.odlesdolomites.com/en/activities/8E8F6062070B10CF0DCE441E1674BEDD",
+          "statut_source": "open"
+        },
+        {
+          "nom": "Zans → Kirchwiesl → Kaserillalm — boucle courte",
+          "distance_km": 4.38,
+          "duree": "1 h 23",
+          "denivele_plus_m": 247,
+          "denivele_moins_m": 247,
+          "niveau": "Facile",
+          "type": "Boucle / aller-retour au choix",
+          "depart": "Parking Zans",
+          "altitude_max_m": 1923,
+          "risque": "Faible",
+          "plan": [
+            "Parking Zans",
+            "sentier 25 le long du Kaserillbach",
+            "Kirchwiesl",
+            "piste 32",
+            "Kaserillalm",
+            "retour par 32/25 ou piste 33"
+          ],
+          "source": "https://www.odlesdolomites.com/en/activities/1461D51D9A8B51C8840F695E55A31E22",
+          "statut_source": "open"
+        },
+        {
+          "nom": "Brogles – Cisles – Forcella Pana / Forcella Mesdì",
+          "distance_km": 18.13,
+          "duree": "6 h 27",
+          "denivele_plus_m": 1546,
+          "denivele_moins_m": 1546,
+          "niveau": "Difficile",
+          "type": "Boucle",
+          "depart": "Ranui / Santa Maddalena",
+          "altitude_max_m": 2597,
+          "risque": "Très élevé ; passage actuellement fermé signalé par l'office",
+          "plan": [
+            "Ranui",
+            "sentier 28 vers Broglesalm",
+            "sentier 6 vers Forcella Pana",
+            "Seceda",
+            "Piera Longia",
+            "Cisles",
+            "Forcella Mesdì",
+            "descente vers Weißbrunn",
+            "Ranui"
+          ],
+          "source": "https://www.odlesdolomites.com/en/activities/CFA99E5013117DC03362339B67E75B24",
+          "statut_source": "closed — Panascharte fermée"
         }
       ]
     },
@@ -178,6 +248,90 @@
             "terrasse UNESCO"
           ],
           "source": "https://www.valgardena.it/en/outdoor/base/outdoor/curona-de-gherdeeina-deluxe-stage-1-resciesa-col-raiser-seceda/811293484/"
+        },
+        {
+          "nom": "Cristauta → Sëurasas → Seceda Ridge Line",
+          "distance_km": 6.3,
+          "duree": "3 h 04",
+          "denivele_plus_m": 861,
+          "denivele_moins_m": 102,
+          "niveau": "Intermédiaire",
+          "type": "Linéaire",
+          "depart": "Parking / arrêt Cristauta",
+          "altitude_max_m": 2511,
+          "risque": "Modéré à élevé en octobre",
+          "plan": [
+            "Cristauta",
+            "montée vers Sëurasas",
+            "alpages sous Seceda",
+            "Seceda Ridge Line",
+            "croix sommitale / panorama"
+          ],
+          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-cristauta-seeurasas/810055443/",
+          "statut_source": "open"
+        },
+        {
+          "nom": "Ortisei → Seceda Ridge Line à pied",
+          "distance_km": 7.6,
+          "duree": "4 h 07",
+          "denivele_plus_m": 1261,
+          "denivele_moins_m": 7,
+          "niveau": "Difficile",
+          "type": "Linéaire",
+          "depart": "Ortisei",
+          "altitude_max_m": 2511,
+          "risque": "Élevé par effort, altitude et conditions automnales",
+          "plan": [
+            "Ortisei",
+            "Val d'Anna",
+            "sentiers forestiers",
+            "alpages de Seceda",
+            "Seceda Ridge Line"
+          ],
+          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-ortisei/810055445/",
+          "statut_source": "open"
+        },
+        {
+          "nom": "Seceda via Brogles et Forcella Mesdì",
+          "distance_km": 14.1,
+          "duree": "6 h",
+          "denivele_plus_m": 1090,
+          "denivele_moins_m": 668,
+          "niveau": "Difficile",
+          "type": "Traversée",
+          "depart": "Station haute Resciesa",
+          "altitude_max_m": 2596,
+          "risque": "Très élevé ; accessibilité de Forcella Mesdì à vérifier le jour même",
+          "plan": [
+            "Resciesa",
+            "sentier 35",
+            "Brogles Saddle",
+            "Brogles Hut",
+            "secteur Forcella Mesdì",
+            "Mastlé / Seceda"
+          ],
+          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-through-the-forcella-mezdi/810055437/",
+          "statut_source": "open, passage à contrôler"
+        },
+        {
+          "nom": "Col Raiser vallée → Seceda via Rifugio Firenze",
+          "distance_km": 7.9,
+          "duree": "3 h 25",
+          "denivele_plus_m": 983,
+          "denivele_moins_m": 15,
+          "niveau": "Intermédiaire",
+          "type": "Linéaire",
+          "depart": "Station vallée Col Raiser",
+          "altitude_max_m": 2510,
+          "risque": "Modéré à élevé",
+          "plan": [
+            "Station vallée Col Raiser",
+            "Rifugio Firenze",
+            "alpages du Puez-Odle",
+            "Seceda Ridge Line"
+          ],
+          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-col-raiser-valley-station-rifugio-firenze/808744765/",
+          "statut_source": "open"
         }
       ]
     },
@@ -227,6 +381,70 @@
             "retour Compatsch"
           ],
           "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/regions/dolomites-region-seiser-alm/hiking-trails.page4"
+        },
+        {
+          "nom": "Compatsch → Piz → Saltria",
+          "distance_km": 7.8,
+          "duree": "2 h 07",
+          "denivele_plus_m": 167,
+          "denivele_moins_m": 324,
+          "niveau": "Facile",
+          "type": "Linéaire",
+          "depart": "Compatsch",
+          "altitude_max_m": 1926,
+          "risque": "Faible",
+          "plan": [
+            "Compatsch",
+            "sentier 30a vers Ritsch",
+            "embranchement Piz",
+            "Sporthotel Sonne",
+            "sentier 9",
+            "Saltria"
+          ],
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi1e736121609b33a32ae9c18259f6a549.from-compatsch-to-piz-and-saltria.alpe-di-siusi-seiseralm"
+        },
+        {
+          "nom": "Compatsch → Panorama → Spitzbühl → Compatsch",
+          "distance_km": 8,
+          "duree": "2 h 10",
+          "denivele_plus_m": 194,
+          "denivele_moins_m": 194,
+          "niveau": "Facile",
+          "type": "Boucle",
+          "depart": "Compatsch",
+          "altitude_max_m": 2018,
+          "risque": "Faible",
+          "plan": [
+            "Compatsch",
+            "Tschon Stoan",
+            "sentier 6B",
+            "Panorama",
+            "Spitzbühl",
+            "sentier 10",
+            "Compatsch"
+          ],
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi0ed51171605bf8ffc6a75a355cd91615.the-tschon-boulder-on-the-seiser-alm.alpe-di-siusi-seiseralm"
+        },
+        {
+          "nom": "Hans & Paula Steger Trail → Saltria",
+          "distance_km": 8.7,
+          "duree": "2 h 10",
+          "denivele_plus_m": 301,
+          "denivele_moins_m": 475,
+          "niveau": "Facile à intermédiaire",
+          "type": "Linéaire",
+          "depart": "Compatsch / secteur Steger",
+          "altitude_max_m": 1957,
+          "risque": "Faible à modéré",
+          "plan": [
+            "Plateau de Compatsch",
+            "sentier Hans & Paula Steger",
+            "Refuge Laranz",
+            "sentier 12",
+            "vallée de Saltria",
+            "Saltria"
+          ],
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi55d58e3813d89c8e78904cfb37673d85.hans-and-paula-steger-hiking-trail.alpe-di-siusi-seiseralm"
         }
       ]
     },
@@ -249,7 +467,7 @@
           "nom": "Sommet du Piccolo Lagazuoi — promenade haute",
           "distance_km": 1.7,
           "duree": "45 min",
-          "denivele_plus_m": null,
+          "denivele_plus_m": 58,
           "niveau": "Facile",
           "type": "Promenade",
           "depart": "Station haute Lagazuoi",
@@ -260,13 +478,14 @@
             "ligne de front / crête panoramique",
             "retour station"
           ],
-          "source": "https://cortina.dolomiti.org/fr/ete/quoi-faire/activites/trekking/avec-les-remontees/"
+          "source": "https://cortina.dolomiti.org/fr/ete/quoi-faire/activites/trekking/avec-les-remontees/",
+          "denivele_moins_m": 58
         },
         {
           "nom": "Lac de Lagazuoi — boucle",
           "distance_km": 8.9,
           "duree": "3 h 40",
-          "denivele_plus_m": null,
+          "denivele_plus_m": 741,
           "niveau": "Intermédiaire",
           "type": "Boucle",
           "depart": "Secteur Lagazuoi",
@@ -278,7 +497,8 @@
             "boucle haute",
             "retour"
           ],
-          "source": "https://cortina.dolomiti.org/fr/ete/quoi-faire/activites/trekking/avec-les-remontees/"
+          "source": "https://cortina.dolomiti.org/fr/ete/quoi-faire/activites/trekking/avec-les-remontees/",
+          "denivele_moins_m": 769
         },
         {
           "nom": "Passo Valparola → Lagazuoi par Kaiserjäger",
@@ -297,6 +517,29 @@
             "sommet Lagazuoi"
           ],
           "source": "https://www.altabadia.org/en/bike/cycling-tours-dolomites/detail/oa/from-passo-valparola-to-the-lagacio-lagazuoi-peak-on-the-kaiserjaeger-trail"
+        },
+        {
+          "nom": "Ligne de front Lagazuoi → Forcella Travenanzes",
+          "distance_km": 4.7,
+          "duree": "2 h 15",
+          "denivele_plus_m": 681,
+          "denivele_moins_m": 69,
+          "niveau": "Intermédiaire",
+          "type": "Traversée / boucle avec téléphérique",
+          "depart": "Passo Falzarego",
+          "altitude_max_m": 2778,
+          "risque": "Élevé en octobre : altitude, vent, neige/verglas",
+          "plan": [
+            "Passo Falzarego",
+            "téléphérique Lagazuoi",
+            "Piccolo Lagazuoi",
+            "sentier 401",
+            "Forcella Lagazuoi",
+            "sentier 402",
+            "Forcella Travenanzes",
+            "retour vers départ du téléphérique"
+          ],
+          "source": "https://cortina.dolomiti.org/fr/escursioni/le-long-de-la-ligne-de-front-lagazuoi-et-forcella-travenanzes/"
         }
       ]
     },
@@ -338,8 +581,8 @@
           "nom": "Tour des 5 Torri",
           "distance_km": 4.7,
           "duree": "2 h",
-          "denivele_plus_m": 67,
-          "denivele_moins_m": 446,
+          "denivele_plus_m": 446,
+          "denivele_moins_m": 67,
           "niveau": "Facile",
           "type": "Traversée/descente selon accès",
           "depart": "Rifugio Scoiattoli",
@@ -355,6 +598,49 @@
             "parking"
           ],
           "source": "https://cortina.dolomiti.org/fr/escursioni/tour-des-5-torri/"
+        },
+        {
+          "nom": "Bai de Dones → Col Gallina → Lac des Anguane",
+          "distance_km": 4.1,
+          "duree": "1 h 20",
+          "denivele_plus_m": 197,
+          "denivele_moins_m": 188,
+          "niveau": "Facile",
+          "type": "Boucle",
+          "depart": "Rifugio Bai de Dones",
+          "altitude_max_m": 2054,
+          "risque": "Faible à modéré",
+          "plan": [
+            "Bai de Dones",
+            "sentier 424",
+            "Rifugio Col Gallina",
+            "secteur du Lac des Anguane",
+            "retour Bai de Dones"
+          ],
+          "source": "https://cortina.dolomiti.org/fr/escursioni/au-refuge-col-gallina-et-au-lac-des-anguane/"
+        },
+        {
+          "nom": "Passo Giau → Cinque Torri → Averau → Nuvolau → Passo Giau",
+          "distance_km": 9.8,
+          "duree": "5 h",
+          "denivele_plus_m": 612,
+          "denivele_moins_m": 612,
+          "niveau": "Expert",
+          "type": "Boucle",
+          "depart": "Passo Giau",
+          "altitude_max_m": 2575,
+          "risque": "Élevé ; sentier expert et conditions d'octobre",
+          "plan": [
+            "Passo Giau",
+            "sentier 443",
+            "secteur Cinque Torri",
+            "Rifugio Scoiattoli",
+            "sentier 439",
+            "Rifugio Averau",
+            "Rifugio Nuvolau",
+            "retour Passo Giau"
+          ],
+          "source": "https://cortina.dolomiti.org/fr/escursioni/au-refuge-nuvolau/"
         }
       ]
     },
@@ -392,21 +678,25 @@
         },
         {
           "nom": "Sass Pordoi → Piz Boè",
-          "distance_km": null,
-          "duree": "1 h 30 depuis la station haute",
-          "denivele_plus_m": null,
+          "distance_km": 8.3,
+          "duree": "4 h 15",
+          "denivele_plus_m": 383,
           "niveau": "EE",
-          "type": "Linéaire",
-          "depart": "Station haute Sass Pordoi",
+          "type": "Boucle avec montée mécanique au Sass Pordoi puis retour au Passo Pordoi",
+          "depart": "Passo Pordoi",
           "altitude_max_m": 3152,
           "risque": "Très élevé en conditions automnales",
           "plan": [
-            "Station haute",
-            "plateau Sella",
-            "vers Rifugio Boè",
-            "montée finale sur roche cassée vers Piz Boè"
+            "Passo Pordoi",
+            "téléphérique vers Sass Pordoi",
+            "Forcella Pordoi",
+            "sentier 638 vers Piz Boè",
+            "Rifugio Boè",
+            "Forcella Pordoi",
+            "descente vers Passo Pordoi"
           ],
-          "source": "https://www.fassa.com/en/accommodation/maria"
+          "source": "https://www.fassa.com/en/routes-trails/pordoi-pass-sass-pordoi-forcella-pordoi-piz-boe-boe-refuge-forcella-pordoi-pordoi-pass",
+          "denivele_moins_m": 1008
         }
       ]
     },
@@ -491,6 +781,84 @@
             "retour identique"
           ],
           "source": "https://www.sanvigilio.com/en/activity/peace-trail-fanes-monte-vallon-bianco_210944"
+        },
+        {
+          "nom": "Capanna Alpina → Fanes → Pederü",
+          "distance_km": 14.3,
+          "duree": "5 h 30",
+          "denivele_plus_m": 563,
+          "denivele_moins_m": 739,
+          "niveau": "Intermédiaire",
+          "type": "Traversée",
+          "depart": "San Cassiano / Capanna Alpina",
+          "altitude_max_m": 2171,
+          "risque": "Modéré à élevé",
+          "plan": [
+            "Capanna Alpina",
+            "sentier 11",
+            "Col de Locia",
+            "Gran Plan",
+            "Tadega Pass",
+            "Gran Fanes",
+            "Lech de Limo",
+            "Rifugio Fanes / Lavarela",
+            "sentier 7",
+            "Pederü"
+          ],
+          "source": "https://www.altabadia.org/en/dolomites/hiking-alta-badia/detail/oa/hike-from-san-cassiano-to-the-fanes-plateau",
+          "statut_source": "itinéraire officiel"
+        },
+        {
+          "nom": "Capanna Alpina → Forcela dl Lech → Lagazuoi Lake → Scotoni — boucle",
+          "distance_km": 12.8,
+          "duree": "5 h 45",
+          "denivele_plus_m": 822,
+          "denivele_moins_m": 822,
+          "niveau": "Intermédiaire",
+          "type": "Boucle",
+          "depart": "San Cassiano / Sciaré",
+          "altitude_max_m": 2475,
+          "risque": "Élevé en octobre ; descente raide sous Forcela dl Lech",
+          "plan": [
+            "Sciaré",
+            "Capanna Alpina",
+            "sentier 11",
+            "Col de Locia",
+            "Plan de Ciaulunch",
+            "sentier 20B",
+            "Forcela dl Lech",
+            "Lech de Lagació",
+            "sentier 20",
+            "Ütia Scotoni",
+            "Armentarola",
+            "Sciaré"
+          ],
+          "source": "https://www.altabadia.org/en/tour/oadetail/oa/from-san-cassiano-sciare-across-the-forcela-dl-lech-notch-to-the-lech-de-lagacio-lake-and-the-uetia-scotoni-hut"
+        },
+        {
+          "nom": "Capanna Alpina → sommet Conturines",
+          "distance_km": 15,
+          "duree": "8 h",
+          "denivele_plus_m": 998,
+          "denivele_moins_m": 1596,
+          "niveau": "Difficile / alpin",
+          "type": "Grande randonnée alpine",
+          "depart": "Capanna Alpina",
+          "altitude_max_m": 3064,
+          "risque": "Très élevé ; câbles, orientation et compétences d'escalade recommandées",
+          "plan": [
+            "Capanna Alpina",
+            "sentier 11",
+            "Col de Locia",
+            "Gran Plan",
+            "Tadega Pass",
+            "Lech de Conturines",
+            "Büsc da Stlü",
+            "selle Lavarela–Conturines",
+            "passages câblés",
+            "sommet Conturines"
+          ],
+          "source": "https://www.altabadia.org/en/tour/detail/oa/ascent-of-mt-conturines"
         }
       ]
     },
@@ -546,6 +914,74 @@
             "retour"
           ],
           "source": "https://www.dreizinnen.com/en/activity/hike-sextner-stein-three-peaks_433"
+        },
+        {
+          "nom": "Innerfeldtal → Rifugio Locatelli / Tre Cime",
+          "distance_km": 12.5,
+          "duree": "4 h 30",
+          "denivele_plus_m": 1223,
+          "denivele_moins_m": 85,
+          "niveau": "Difficile",
+          "type": "Linéaire",
+          "depart": "Val Campo di Dentro / Innerfeldtal",
+          "altitude_max_m": 2466,
+          "risque": "Élevé",
+          "plan": [
+            "Entrée Innerfeldtal",
+            "Dreischusterhütte",
+            "Alta Via Dolomiti 4",
+            "montée vers Tre Cime",
+            "Rifugio Locatelli"
+          ],
+          "source": "https://www.dreizinnen.com/en/activity/hike-val-campo-di-dentro-innerfeldtal-valley-three-peaks_624",
+          "statut_source": "open"
+        },
+        {
+          "nom": "Innerfeldtal → Tre Cime → Fischleintal",
+          "distance_km": 27.6,
+          "duree": "9 h 05",
+          "denivele_plus_m": 1197,
+          "denivele_moins_m": 1013,
+          "niveau": "Difficile",
+          "type": "Traversée",
+          "depart": "Innerfeldtal",
+          "altitude_max_m": 2464,
+          "risque": "Très élevé par longueur et altitude",
+          "plan": [
+            "Innerfeldtal",
+            "Dreischusterhütte",
+            "sentier 105",
+            "Gwengalpenjoch",
+            "Sextner Stein",
+            "Rifugio Locatelli",
+            "sentier 102",
+            "Altensteintal",
+            "Talschlusshütte",
+            "Fischleintal"
+          ],
+          "source": "https://www.dreizinnen.com/en/activity/hike-crossing-innerfeldtal-valley-fischleintal-valley_445",
+          "statut_source": "open"
+        },
+        {
+          "nom": "Landro → Monte Piano",
+          "distance_km": 6.8,
+          "duree": "3 h 30",
+          "denivele_plus_m": 1035,
+          "denivele_moins_m": 115,
+          "niveau": "Difficile",
+          "type": "Linéaire",
+          "depart": "Vista Tre Cime / Landro",
+          "altitude_max_m": 2324,
+          "risque": "Élevé ; passages parfois exposés",
+          "plan": [
+            "Vista Tre Cime / Landro",
+            "sentier 102 dans Rienztal",
+            "sentier 108 vers Val Rinbianco",
+            "sentier 111",
+            "Monte Piano / musée à ciel ouvert"
+          ],
+          "source": "https://www.dreizinnen.com/en/activity/summer-hiking-tour-view-of-the-three-peaks-landro-monte-piano_815",
+          "statut_source": "open"
         }
       ]
     },
@@ -600,6 +1036,109 @@
             "retour"
           ],
           "source": "https://www.outdooractive.com/fr/route/randonnee/pragser-dolomiten/de-la-plaetzwiese-au-strudelkopf/41690670/"
+        },
+        {
+          "nom": "Tour du Lago di Braies",
+          "distance_km": 3.5,
+          "duree": "1 h 30",
+          "denivele_plus_m": null,
+          "denivele_moins_m": null,
+          "niveau": "Facile",
+          "type": "Boucle",
+          "depart": "Lago di Braies",
+          "altitude_max_m": null,
+          "risque": "Faible ; prudence sur sections humides/gelées",
+          "plan": [
+            "Embarcadère / rive nord",
+            "rive ouest",
+            "extrémité sud",
+            "rive est",
+            "retour rive nord"
+          ],
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/nature/lakes-and-natural-pools/pragser-wildsee-lake"
+        },
+        {
+          "nom": "Lago di Braies → Rossalm / Malga Cavallo",
+          "distance_km": 6.6,
+          "duree": "2 h 55",
+          "denivele_plus_m": 846,
+          "denivele_moins_m": 158,
+          "niveau": "Intermédiaire",
+          "type": "Linéaire",
+          "depart": "Lago di Braies",
+          "altitude_max_m": 2285,
+          "risque": "Élevé en octobre si neige/verglas",
+          "plan": [
+            "Rive ouest du Lago di Braies",
+            "extrémité sud",
+            "sentier 1",
+            "bifurcation après ~2,2 km",
+            "sentier 4",
+            "Rossalm / Malga Cavallo"
+          ],
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoia791ff40d860dd63b4030a40bacae3c0.summer-hiking-tour---lago-di-braies-pragser-wildsee-lake---malga-cavollo-hut.braies-di-dentro-innerprags"
+        },
+        {
+          "nom": "Lago di Braies → Cima dei Colli Alti / Hochalpenkopf",
+          "distance_km": 5.8,
+          "duree": "3 h 10",
+          "denivele_plus_m": 1202,
+          "denivele_moins_m": 155,
+          "niveau": "Très difficile",
+          "type": "Linéaire",
+          "depart": "Lago di Braies",
+          "altitude_max_m": 2535,
+          "risque": "Très élevé ; terrain raide et accidenté",
+          "plan": [
+            "Lago di Braies",
+            "Riedlhof",
+            "Kasern",
+            "Forcella di Braies",
+            "sentier raide sur terrain accidenté",
+            "Cima dei Colli Alti"
+          ],
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi874a1b79fea4b24de848d5ad30d7d5b2.summer-hiking---lago-di-braies-pragser-wildsee---mountain-cima-dei-colli-alti-hochalpenkopf.braies-di-fuori-ausserprags"
+        },
+        {
+          "nom": "Prato Piazza → Monte Specie / Strudelkopf",
+          "distance_km": 4.1,
+          "duree": "1 h 28",
+          "denivele_plus_m": 359,
+          "denivele_moins_m": 42,
+          "niveau": "Facile à intermédiaire",
+          "type": "Linéaire",
+          "depart": "Parking Prato Piazza",
+          "altitude_max_m": 2305,
+          "risque": "Modéré en octobre",
+          "plan": [
+            "Prato Piazza",
+            "Rifugio Vallandro / Dürrensteinhütte",
+            "ancien ouvrage autrichien",
+            "sentier 34",
+            "crête du Strudelkopf",
+            "sommet Monte Specie"
+          ],
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi4fbb9fd8e8714152b685c23ab6b5d364.summer-hiking-tour---parking-space-prato-piazza-plaetzwiese---monte-specie-strudelkopf.braies-di-fuori-ausserprags"
+        },
+        {
+          "nom": "Lago di Braies → Kühwiesenkopf / Monte Pra della Vacca",
+          "distance_km": 3.4,
+          "duree": "2 h 01",
+          "denivele_plus_m": 641,
+          "denivele_moins_m": 5,
+          "niveau": "Intermédiaire",
+          "type": "Linéaire",
+          "depart": "Lago di Braies",
+          "altitude_max_m": 2131,
+          "risque": "Modéré à élevé",
+          "plan": [
+            "Parking du lac",
+            "Riedlhof",
+            "Kühwiesenhütte / Alpe Pra della Vacca",
+            "montée finale",
+            "Kühwiesenkopf"
+          ],
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi940c4163468c9c773ae8d7c650d15ee0.summer-hiking---lago-di-braies-pragser-wildsee---mountain-monte-pra-della-vacca-kuehwiesenkopf.braies-di-fuori-ausserprags"
         }
       ]
     },
@@ -676,6 +1215,36 @@
             "retour boucle"
           ],
           "source": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-bonner-hut_50058"
+        },
+        {
+          "nom": "Dobbiaco Alpine Ridgeway / Toblacher Höhenweg",
+          "distance_km": 27.1,
+          "duree": "9 h",
+          "denivele_plus_m": 1801,
+          "denivele_moins_m": 1801,
+          "niveau": "Difficile",
+          "type": "Boucle",
+          "depart": "Wahlen / San Silvestro",
+          "altitude_max_m": 2662,
+          "risque": "Très élevé par longueur, dénivelé et exposition automnale",
+          "plan": [
+            "Wahlen / San Silvestro",
+            "sentier 24",
+            "Frondeigen",
+            "Golfen",
+            "Hochhorn",
+            "Gaishörndl",
+            "Pfannhorn",
+            "Bonnerhütte",
+            "Blankenstein",
+            "Marchkinkele",
+            "sentier 1",
+            "Steinbergalm",
+            "Silvesteralm",
+            "retour"
+          ],
+          "source": "https://www.dreizinnen.com/en/activity/dobbiaco-alpine-ridgeway-_543",
+          "statut_source": "open"
         }
       ]
     }
