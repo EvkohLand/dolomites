@@ -5424,8 +5424,13 @@
       {
         "libelle": "Camping Löwenhof — emplacements",
         "url": "https://www.loewenhof.it/en/camping/pitches"
+      },
+      {
+        "libelle": "Services inclus camping / Guest Pass",
+        "url": "https://www.loewenhof.it/en/camping/conditions"
       }
-    ]
+    ],
+    "description": "Le camping inclut le Brixen Südtirol Guest Pass : transports publics régionaux, certains musées/abbaye, Acquarena (hors dimanche/jours fériés selon conditions) et, en 2026 pendant votre séjour, une montée + descente quotidienne sur certaines remontées Plose. Disponibilité de l'emplacement tente de toit et tarif exact restent à confirmer."
   },
   {
     "id": "camping-sass-dlacia",
