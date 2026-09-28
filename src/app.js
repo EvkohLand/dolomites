@@ -1488,6 +1488,9 @@
   }
 
   function prevision(l, date) {
+    /* Open-Meteo ne prévoit qu'à 16 jours : au-delà, ne pas appeler (réponse 400). */
+    var ecart = (new Date(date + 'T12:00:00') - Date.now()) / 86400000;
+    if (ecart > 15.5 || ecart < -1) return Promise.reject(new Error('hors fenêtre'));
     var cle = l.id + '|' + date;
     if (!cacheMeteo[cle]) {
       var u = 'https://api.open-meteo.com/v1/forecast?latitude=' + l.gps[0] + '&longitude=' + l.gps[1] +
