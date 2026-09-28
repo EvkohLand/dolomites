@@ -1,14 +1,16 @@
 {
   "libelle": "Voiture avec tente de toit",
   "carburant": "gazole",
-  "conso_base_100km": 6.2,
+  "conso_base_100km": 5,
   "surconso_tente_pct": 22,
-  "conso_reelle_100km": 7.6,
-  "note_conso": "La consommation retenue pour le budget est conso_base majorée de surconso_tente_pct. Une tente de toit coûte 10 à 25 % de carburant selon la vitesse : à 110 km/h la pénalité est nettement plus faible qu'à 130.",
-  "reservoir_l": 50,
-  "autonomie_km": 650,
+  "conso_reelle_100km": 6.1,
+  "note_conso": "Référence constructeur utilisée pour le calcul : 2.0 TDI 110 kW/150 ch DSG, environ 5,0 L/100 km WLTP. La majoration de 22 % pour la tente de toit est une hypothèse prudente de budget, pas une donnée constructeur ; elle donne environ 6,1 L/100 km. Recaler avec la consommation réelle une fois la tente montée.",
+  "reservoir_l": 66,
+  "autonomie_km": 1000,
   "hauteur_tente_fermee_m": 1.95,
   "note_hauteur": "Hauteur voiture avec tente de toit fermée indiquée par les voyageurs : 1,95 m. Vérifier chaque portique et accès : une marge de 5 cm sous 2 m est faible, et la hauteur tente ouverte est différente.",
   "vitesse_conseillee_kmh": 110,
-  "confidentialite": "Aucun modèle, aucune immatriculation : ce fichier est public et ne décrit que ce qui sert au calcul."
+  "confidentialite": "Aucun modèle, aucune immatriculation : ce fichier est public et ne décrit que ce qui sert au calcul.",
+  "note_autonomie": "Autonomie budgétaire arrondie à 1 000 km avec 66 L et 6,1 L/100 km, en gardant une marge. Ce n'est pas une promesse d'autonomie réelle.",
+  "source_technique": "https://www.skoda-storyboard.com/en/press-kits/the-all-new-skoda-superb-press-kit/powertrains-six-engine-variants-efficient-mild-hybrid-and-new-generation-plug-in-hybrid/"
 }
