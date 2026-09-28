@@ -99,13 +99,13 @@
   },
   {
     "id": "chien-voiture-italie",
-    "titre": "Transport du chien en voiture en Italie",
-    "portee": "Toute l'Italie, article 169 du code de la route",
-    "resume": "Le chien doit être en caisse, derrière une grille, ou attaché par un harnais à une ceinture arrière.",
-    "detail": "Un transport qui gêne ou met en danger la conduite est interdit. Trois montages sont conformes : une caisse de transport, une grille séparant le coffre de l'habitacle, ou un harnais relié à une ceinture arrière trois points. Un chien libre sur la banquette ne l'est pas. Sanction : 87 à 344 € et un point de permis. C'est contrôlé.",
-    "amende": "87 à 344 € et 1 point",
+    "titre": "Transport de Prince en voiture en Italie",
+    "portee": "Toute l'Italie — article 169 du Code de la route",
+    "resume": "Avec un seul chien, la loi italienne exige surtout qu'il ne gêne pas et ne mette pas en danger la conduite. Cage, séparation arrière ou harnais correctement fixé restent des solutions de sécurité recommandées, mais le texte ne les impose pas toutes indistinctement pour un seul animal.",
+    "detail": "Article 169 §6 : il est interdit de transporter plus d'un animal domestique sans dispositif adapté, et tout animal doit être transporté sans constituer un obstacle ou un danger pour la conduite. Pour plusieurs animaux, cage/conteneur ou compartiment arrière séparé par un filet ou dispositif analogue est explicitement prévu. Pour Prince seul, un harnais automobile fixé à un point approprié est une solution prudente, mais le site ne le présente plus comme une obligation textuelle unique. Ne jamais laisser Prince circuler librement vers le conducteur.",
+    "amende": "87 à 344 € pour violation des autres dispositions de l'article 169 (montants affichés par l'ACI au 26/09/2026)",
     "gravite": "elevee",
-    "source": "https://www.poliziadistato.it/articolo/alcune-regole-per-il-trasporto"
+    "source": "https://aci.gov.it/codice-della-strada/art-169/"
   },
   {
     "id": "equipement-voiture",
