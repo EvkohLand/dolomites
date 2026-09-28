@@ -421,54 +421,6 @@
     if (!etapes.length) { zone.hidden = true; return; }
     zone.hidden = false;
 
-    var tete = el('div', 'resume-itineraire__tete');
-    tete.appendChild(el('strong', null, 'Itinéraire voiture'));
-    tete.appendChild(el('span', null, etapes.length + ' étapes'));
-    zone.appendChild(tete);
-
-    if (E.scenario && (E.scenario.logique_route || E.scenario.resume)) {
-      zone.appendChild(el('p', 'resume-itineraire__intro', E.scenario.logique_route || E.scenario.resume));
-    }
-
-    var liste = el('div', 'resume-itineraire__liste');
-    etapes.forEach(function (e, i) {
-      var ordre = typeof e.ordre === 'number' ? e.ordre : i + 1;
-      var type = typeEtape(e, i, etapes.length);
-      var meta = styleEtape(type);
-      var reel = E.trace && E.trace.etapes && E.trace.etapes[e.id];
-      var km = reel ? reel.distance_km : e.distance_km;
-      var dh = reel ? reel.duree_h : e.duree_h;
-
-      var b = el('button', 'resume-etape');
-      b.type = 'button';
-      b.dataset.etape = e.id;
-      b.style.setProperty('--trace', meta.couleur);
-
-      var num = el('span', 'resume-etape__num', 'E' + ordre);
-      b.appendChild(num);
-      var corps = el('span', 'resume-etape__corps');
-      corps.appendChild(el('span', 'resume-etape__titre', 'J' + e.jour + ' · ' + (e.note || meta.libelle)));
-      var parcours = referencesEtape(e).map(nomRef).join(' → ');
-      corps.appendChild(el('span', 'resume-etape__parcours', parcours));
-      var infos = [meta.libelle, km ? km + ' km' : '', dh ? dureeAffiche(dh) : ''].filter(Boolean);
-      corps.appendChild(el('span', 'resume-etape__meta', infos.join(' · ')));
-
-      var hors = visitesHorsRoute(e);
-      if (hors.length) {
-        corps.appendChild(el('span', 'resume-etape__detour',
-          'Visites hors tracé voiture : ' + hors.map(nomRef).join(', ')));
-      }
-      if (type === 'boucle' && km >= 80) {
-        corps.appendChild(el('span', 'resume-etape__detour',
-          'Détour routier important : ' + km + ' km aller-retour depuis la base.'));
-      }
-
-      b.appendChild(corps);
-      b.addEventListener('click', function () { focusEtape(e); });
-      liste.appendChild(b);
-    });
-    zone.appendChild(liste);
-
     var leg = el('div', 'trace-legende');
     ['aller', 'boucle', 'transfert', 'retour'].forEach(function (type) {
       var m = styleEtape(type);
@@ -481,7 +433,7 @@
     });
     zone.appendChild(leg);
     zone.appendChild(el('p', 'resume-itineraire__aide',
-      'Flèches = sens de circulation. Les pastilles E1, E2… numérotent les étapes ; ↩ identifie le retour.'));
+      'Flèches = sens de circulation ; les pastilles E1, E2… sont les étapes.'));
   }
 
   /* ---------- Filtres et liste ---------- */
@@ -660,9 +612,10 @@
     return tb;
   }
 
-  function ouvrirPanneau(id) {
+  function ouvrirPanneau(id, opts) {
     var l = E.parId.get(id);
     if (!l) return;
+    var retour = opts && opts.retour;
     var c = cat(l.categorie);
     var p = document.getElementById('panneau');
     var corps = document.getElementById('panneau-corps');
@@ -679,6 +632,13 @@
     document.getElementById('panneau-lieu').textContent = sous.join(' · ');
 
     vide(corps);
+
+    if (retour) {
+      var br = el('button', 'retour-etape', '← Retour au jour ' + retour);
+      br.type = 'button';
+      br.addEventListener('click', function () { ouvrirEtape(retour); });
+      corps.appendChild(br);
+    }
 
     /* Badges */
     var badges = el('div', 'badges');
@@ -861,8 +821,7 @@
         b2.appendChild(el('span', 'jour__heure', 'Jour ' + q.j.jour));
         b2.appendChild(el('span', 'jour__lieu', q.j.titre + ' — ' + q.txt));
         b2.addEventListener('click', function () {
-          fermerPanneau();
-          viserJour(q.j.jour);
+          ouvrirEtape(q.j.jour);
         });
         dq.appendChild(b2);
         if (q.note) dq.appendChild(el('p', 'jour__note', q.note));
@@ -941,18 +900,10 @@
     if (p.hidden) return;
     p.hidden = true;
     document.body.style.overflow = '';
-    if (location.hash.indexOf('#lieu-') === 0) history.pushState({}, '', location.pathname + location.search);
+    if (/^#(lieu|jour)-/.test(location.hash)) history.pushState({}, '', location.pathname + location.search);
   }
 
   /* ---------- Planning ---------- */
-
-  function viserJour(n) {
-    var c = document.querySelector('.jour[data-jour="' + n + '"]');
-    if (!c) return;
-    c.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    c.classList.add('est-vise');
-    setTimeout(function () { c.classList.remove('est-vise'); }, 1600);
-  }
 
   function randosPourJour(j) {
     var groupes = (((E.randonnees || {}).zones) || []).filter(function (g) {
@@ -1118,157 +1069,284 @@
     if (!zone) return;
     vide(zone);
     var d = E.pratique || {};
-    if (d.introduction) zone.appendChild(el('p', 'pratique__intro', d.introduction));
-
-    var nuits = (E.planning || []).filter(function (j) { return j.nuit; });
-    var liste = el('div', 'pratique__nuits');
-    liste.appendChild(el('h3', 'pratique__titre', 'Nuits de ce scénario'));
-    nuits.forEach(function (j) {
-      var lieu = E.parId.get(j.nuit);
-      if (!lieu) return;
-      var b = el('button', 'pratique__nuit', dateCourte(j.date) + ' · ' + lieu.nom);
-      b.type = 'button';
-      b.addEventListener('click', function () { ouvrirPanneau(lieu.id); });
-      liste.appendChild(b);
+    [d.introduction, d.alerte_courses, d.conseil_nuit, d.conseil_chien].forEach(function (t) {
+      if (t) zone.appendChild(el('p', 'pratique__note', t));
     });
-    zone.appendChild(liste);
+  }
 
-    if (d.alerte_courses) zone.appendChild(el('p', 'pratique__alerte', d.alerte_courses));
+  /* Groupe d'hébergements ou de courses qui contient ce lieu, pour proposer
+     les voisins comme solutions de repli dans la vue de l'étape. */
+  function groupeDe(groupes, id) {
+    return (groupes || []).find(function (g) { return (g.lieux || []).indexOf(id) !== -1; }) || null;
+  }
 
-    function groupes(titre, groupesListe, type) {
-      var sec = el('div', 'pratique__partie');
-      sec.appendChild(el('h3', 'pratique__titre', titre));
-      (groupesListe || []).forEach(function (g) {
-        var bloc = el('div', 'pratique__groupe');
-        bloc.appendChild(el('h4', 'pratique__sous-titre', g.titre));
-        if (g.note) bloc.appendChild(el('p', 'pratique__note', g.note));
-        var cartes = el('div', 'pratique__grille');
-        (g.lieux || []).forEach(function (id) {
-          var l = E.parId.get(id);
-          if (!l) { anomalies.push('Lieu pratique introuvable : ' + id); return; }
-          var b = el('button', 'pratique__carte');
-          b.type = 'button';
-          b.appendChild(el('strong', null, l.nom));
-          b.appendChild(el('span', 'pratique__carte-detail', l.resume || 'Voir les informations et les sources.'));
-          if (type === 'nuit') {
-            var n = nuits.filter(function (j) { return j.nuit === id; }).length;
-            b.appendChild(el('span', 'pratique__carte-statut', l.nuit_possible === false ? 'Écarté pour la nuit' : (n ? n + ' nuit' + (n > 1 ? 's' : '') + ' dans ce scénario' : 'Piste à confirmer')));
-          }
-          b.addEventListener('click', function () { ouvrirPanneau(id); });
-          cartes.appendChild(b);
-        });
-        bloc.appendChild(cartes);
-        sec.appendChild(bloc);
+  function distanceKm(a, b) {
+    if (!Array.isArray(a) || !Array.isArray(b)) return Infinity;
+    var dx = (a[1] - b[1]) * 76, dy = (a[0] - b[0]) * 111;
+    return Math.sqrt(dx * dx + dy * dy);
+  }
+
+  function lieuxDuJour(j) {
+    var ids = [];
+    (j.activites || []).forEach(function (a) { if (a.lieu && ids.indexOf(a.lieu) === -1) ids.push(a.lieu); });
+    if (j.nuit && ids.indexOf(j.nuit) === -1) ids.push(j.nuit);
+    return ids.map(function (id) { return E.parId.get(id); }).filter(Boolean);
+  }
+
+  function photosDuJour(j) {
+    var out = [];
+    lieuxDuJour(j).forEach(function (l) {
+      (l.photos || []).forEach(function (ph) {
+        if (ph && (ph.url || ph.fichier)) out.push({ ph: ph, lieu: l });
       });
-      zone.appendChild(sec);
-    }
+    });
+    return out;
+  }
 
-    groupes('Campings, fermes et terrains privés', d.groupes_hebergement, 'nuit');
-    groupes('Courses par étape', d.groupes_courses, 'courses');
-    if (d.conseil_nuit) zone.appendChild(el('p', 'pratique__note', d.conseil_nuit));
-    if (d.conseil_chien) zone.appendChild(el('p', 'pratique__note', d.conseil_chien));
+  function routeDuJour(j) {
+    var toutes = etapesTriees();
+    var e = toutes.find(function (x) { return x.jour === j.jour; });
+    if (!e) return null;
+    var i = toutes.indexOf(e);
+    var reel = E.trace && E.trace.etapes && E.trace.etapes[e.id];
+    var type = typeEtape(e, i, toutes.length);
+    return {
+      etape: e, type: type, meta: styleEtape(type),
+      ordre: typeof e.ordre === 'number' ? e.ordre : i + 1,
+      km: reel ? reel.distance_km : e.distance_km,
+      h: reel ? reel.duree_h : e.duree_h
+    };
+  }
+
+  function dessinerRouteHiver() {
+    var zone = document.getElementById('route-hiver');
+    var bandeau = document.getElementById('bandeau-route');
+    if (bandeau) {
+      vide(bandeau);
+      bandeau.appendChild(document.createTextNode('Octobre : les cols (Gardena, Falzarego, Giau, Pordoi…) ne se passent que sur chaussée sèche, sans chaînes à bord. '));
+      var a = el('a', null, 'Consignes route');
+      a.href = '#volet-route';
+      a.addEventListener('click', function () { document.getElementById('volet-route').open = true; });
+      bandeau.appendChild(a);
+    }
+    if (!zone) return;
+    vide(zone);
+    zone.appendChild(el('p', null, 'La période générale d’obligation hivernale commence habituellement le 15 novembre, mais neige, verglas ou pluie verglaçante peuvent rendre un équipement hivernal obligatoire avant cette date sur les routes de montagne. Véhicule déclaré sans chaînes et sans pneus hiver : ne pas engager un col enneigé ou verglacé.'));
+    var hu = el('ul', null);
+    [
+      'Avant chaque journée avec col ou route d’altitude : vérifier météo et état officiel de la route le matin même.',
+      'Si neige, verglas, pluie verglaçante ou chaussée blanche : demi-tour ou itinéraire de vallée ; ne pas tenter le passage.',
+      'Vérifier les marquages réels des pneus 4 saisons : M+S pour la conformité italienne ; 3PMSF est nettement préférable sur neige.',
+      'Sans chaînes à bord, Passo Gardena, Falzarego, Valparola, Pordoi, Giau et les accès élevés sont conditionnels à une chaussée sèche et dégagée.'
+    ].forEach(function (x) { hu.appendChild(el('li', null, x)); });
+    zone.appendChild(hu);
   }
 
   function dessinerPlanning() {
     var zone = document.getElementById('planning');
     vide(zone);
 
-    var hiver = el('aside', 'alerte-hiver');
-    hiver.appendChild(el('strong', null, 'Sécurité route — équipement hiver'));
-    hiver.appendChild(el('p', null, 'Voyage prévu en octobre : la période générale d’obligation hivernale commence habituellement le 15 novembre, mais neige, verglas ou pluie verglaçante peuvent rendre un équipement hivernal obligatoire avant cette date sur les routes de montagne. Véhicule déclaré sans chaînes et sans pneus hiver : ne pas engager un col enneigé/verglacé.'));
-    var hu = el('ul', null);
-    [
-      'Avant chaque journée avec col ou route d’altitude : vérifier météo + état officiel de la route le matin même.',
-      'Si neige, verglas, pluie verglaçante ou chaussée blanche : demi-tour / itinéraire de vallée ; ne pas “tenter” le passage.',
-      'Vérifier les marquages réels des 4 saisons : M+S pour la conformité italienne ; 3PMSF est le repère nettement préférable pour la performance sur neige.',
-      'Sans chaînes à bord, considérer Passo Gardena, Falzarego, Valparola, Pordoi, Giau et les accès élevés comme conditionnels à une chaussée sèche et dégagée.'
-    ].forEach(function (x) { hu.appendChild(el('li', null, x)); });
-    hiver.appendChild(hu);
-    zone.appendChild(hiver);
-
     (E.planning || []).forEach(function (j) {
-      var c = el('div', 'jour');
+      var c = el('button', 'etape');
+      c.type = 'button';
       c.dataset.jour = j.jour;
 
-      var t = el('div', 'jour__tete');
-      t.appendChild(el('span', 'jour__num', 'Jour ' + j.jour));
-      t.appendChild(el('span', 'jour__date', dateCourte(j.date)));
-      c.appendChild(t);
-
-      c.appendChild(el('h3', 'jour__titre', j.titre || ''));
-      if (j.zone) c.appendChild(el('span', 'jour__zone', j.zone));
-
-      var routeJour = etapesTriees().find(function (e) { return e.jour === j.jour; });
-      if (routeJour) {
-        var toutes = etapesTriees();
-        var ri = toutes.indexOf(routeJour);
-        var ordre = typeof routeJour.ordre === 'number' ? routeJour.ordre : ri + 1;
-        var type = typeEtape(routeJour, ri, toutes.length);
-        var metaRoute = styleEtape(type);
-        var reelRoute = E.trace && E.trace.etapes && E.trace.etapes[routeJour.id];
-        var kmRoute = reelRoute ? reelRoute.distance_km : routeJour.distance_km;
-        var hRoute = reelRoute ? reelRoute.duree_h : routeJour.duree_h;
-
-        var tr = el('button', 'jour__trajet');
-        tr.type = 'button';
-        tr.style.setProperty('--trace', metaRoute.couleur);
-        tr.appendChild(el('span', 'jour__trajet-num', 'E' + ordre));
-        var tc = el('span', 'jour__trajet-corps');
-        tc.appendChild(el('span', 'jour__trajet-parcours', referencesEtape(routeJour).map(nomRef).join(' → ')));
-        tc.appendChild(el('span', 'jour__trajet-meta',
-          [metaRoute.libelle, kmRoute ? kmRoute + ' km' : '', hRoute ? dureeAffiche(hRoute) : ''].filter(Boolean).join(' · ')));
-        var horsRoute = visitesHorsRoute(routeJour);
-        if (horsRoute.length) tc.appendChild(el('span', 'jour__trajet-detour', 'Hors route voiture : ' + horsRoute.map(nomRef).join(', ')));
-        if (type === 'boucle' && kmRoute >= 80) {
-          tc.appendChild(el('span', 'jour__trajet-detour', 'Détour routier important : ' + kmRoute + ' km A/R.'));
-        }
-        tr.appendChild(tc);
-        tr.addEventListener('click', function () {
-          focusEtape(routeJour);
-          document.getElementById('section-carte').scrollIntoView({ behavior: 'smooth', block: 'start' });
-        });
-        c.appendChild(tr);
+      var photos = photosDuJour(j);
+      var couv = el('div', 'etape__photo');
+      if (photos.length) {
+        var ph = photos[0].ph;
+        var img = document.createElement('img');
+        img.src = ph.url || cheminPhoto(ph.fichier);
+        img.alt = '';
+        img.loading = 'lazy';
+        img.addEventListener('error', function () { img.remove(); });
+        couv.appendChild(img);
+        if (photos.length > 1) couv.appendChild(el('span', 'etape__nb-photos', photos.length + ' photos'));
       }
+      c.appendChild(couv);
 
-      if ((j.activites || []).length) {
-        var ul = el('ul', 'jour__liste');
-        j.activites.forEach(function (a) {
-          var l = resoudre(a.lieu);
-          var li = document.createElement('li');
-          var b = el('button', 'jour__item');
-          b.type = 'button';
-          b.appendChild(el('span', 'jour__heure', a.heure || '—'));
-          var nom = el('span', 'jour__lieu', l ? l.nom : a.lieu);
-          if (l && aVerifier(l)) nom.textContent += ' ⚠';
-          b.appendChild(nom);
-          b.addEventListener('click', function () { if (l) ouvrirPanneau(l.id); });
-          li.appendChild(b);
-          ul.appendChild(li);
-        });
-        c.appendChild(ul);
-      }
+      var corps = el('div', 'etape__corps');
+      var t = el('div', 'etape__tete');
+      t.appendChild(el('span', 'etape__num', 'Jour ' + j.jour));
+      t.appendChild(el('span', 'etape__date', dateCourte(j.date)));
+      corps.appendChild(t);
+      corps.appendChild(el('h3', 'etape__titre', j.titre || ''));
 
-      dessinerRandosJour(j, c);
-      dessinerDecouvertesJour(j, c);
+      var r = routeDuJour(j);
+      var infos = [];
+      if (r && r.km) infos.push(r.km + ' km' + (r.h ? ' · ' + dureeAffiche(r.h) : ''));
+      var nbAct = (j.activites || []).length;
+      if (nbAct) infos.push(nbAct + ' visite' + (nbAct > 1 ? 's' : ''));
+      if (infos.length) corps.appendChild(el('p', 'etape__meta', infos.join(' · ')));
 
-      if (j.nuit) {
-        var n = resoudre(j.nuit);
-        var dn = el('p', 'jour__nuit');
-        dn.appendChild(document.createTextNode('Nuit : '));
-        var a = el('a', null, n ? n.nom : j.nuit);
-        a.href = '#';
-        a.addEventListener('click', function (ev) { ev.preventDefault(); if (n) ouvrirPanneau(n.id); });
-        dn.appendChild(a);
-        var mp = n ? prixAffiche(n) : null;
-        if (mp) dn.appendChild(document.createTextNode(' — ' + mp));
-        c.appendChild(dn);
-      } else {
-        c.appendChild(el('p', 'jour__nuit', 'Nuit : retour, pas d’hébergement.'));
-      }
+      var n = j.nuit ? resoudre(j.nuit) : null;
+      corps.appendChild(el('p', 'etape__nuit', n ? 'Nuit : ' + n.nom : 'Pas de nuit : retour'));
+      if (lieuxDuJour(j).some(aVerifier)) corps.appendChild(el('span', 'etape__alerte', 'infos à revérifier'));
+      c.appendChild(corps);
 
-      if (j.note) c.appendChild(el('p', 'jour__note', j.note));
+      c.addEventListener('click', function () { ouvrirEtape(j.jour); });
       zone.appendChild(c);
     });
+  }
+
+  function ouvrirEtape(num) {
+    var j = (E.planning || []).find(function (x) { return x.jour === Number(num); });
+    if (!j) return;
+    var p = document.getElementById('panneau');
+    var corps = document.getElementById('panneau-corps');
+    var hcat = document.getElementById('panneau-cat');
+    hcat.textContent = 'Jour ' + j.jour + ' · ' + dateCourte(j.date);
+    hcat.style.setProperty('--c', 'var(--accent)');
+    document.getElementById('panneau-titre').textContent = j.titre || '';
+    document.getElementById('panneau-lieu').textContent = j.zone || '';
+    vide(corps);
+
+    /* Photos de tous les lieux de la journée, chacune légendée par son lieu. */
+    var photos = photosDuJour(j);
+    if (photos.length) {
+      var g = el('div', 'galerie galerie--etape');
+      var liste = photos.map(function (x) {
+        return { url: x.ph.url, fichier: x.ph.fichier, legende: x.lieu.nom + (x.ph.legende ? ' — ' + x.ph.legende : ''), credit: x.ph.credit };
+      });
+      liste.forEach(function (ph, i) {
+        var fig = el('figure', 'photo');
+        var img = document.createElement('img');
+        img.src = ph.url || cheminPhoto(ph.fichier);
+        img.alt = ph.legende;
+        img.loading = 'lazy';
+        img.addEventListener('click', function () { agrandir(liste, i, j.titre); });
+        img.addEventListener('error', function () { fig.remove(); });
+        fig.appendChild(img);
+        fig.appendChild(el('figcaption', null, photos[i].lieu.nom));
+        g.appendChild(fig);
+      });
+      corps.appendChild(bloc('Photos (' + photos.length + ')', g));
+    }
+
+    if (j.note) corps.appendChild(el('p', 'modale__desc', j.note));
+
+    /* Route */
+    var r = routeDuJour(j);
+    if (r) {
+      var tr = el('button', 'jour__trajet');
+      tr.type = 'button';
+      tr.style.setProperty('--trace', r.meta.couleur);
+      tr.appendChild(el('span', 'jour__trajet-num', 'E' + r.ordre));
+      var tc = el('span', 'jour__trajet-corps');
+      tc.appendChild(el('span', 'jour__trajet-parcours', referencesEtape(r.etape).map(nomRef).join(' → ')));
+      tc.appendChild(el('span', 'jour__trajet-meta',
+        [r.meta.libelle, r.km ? r.km + ' km' : '', r.h ? dureeAffiche(r.h) : '', 'voir sur la carte'].filter(Boolean).join(' · ')));
+      var hors = visitesHorsRoute(r.etape);
+      if (hors.length) tc.appendChild(el('span', 'jour__trajet-detour', 'Hors route voiture : ' + hors.map(nomRef).join(', ')));
+      tr.appendChild(tc);
+      tr.addEventListener('click', function () {
+        fermerPanneau();
+        focusEtape(r.etape);
+        document.getElementById('section-carte').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      corps.appendChild(bloc('Route', tr));
+    }
+
+    /* Programme : chaque visite ouvre sa fiche complète. */
+    if ((j.activites || []).length) {
+      var ul = el('div', 'programme');
+      j.activites.forEach(function (a) {
+        var l = resoudre(a.lieu);
+        var b = el('button', 'programme__item');
+        b.type = 'button';
+        b.appendChild(el('span', 'jour__heure', a.heure || '—'));
+        var txt = el('span', 'programme__corps');
+        txt.appendChild(el('span', 'jour__lieu', (l ? l.nom : a.lieu) + (l && aVerifier(l) ? ' ⚠' : '')));
+        var px = l ? prixAffiche(l) : null;
+        if (px) txt.appendChild(el('span', 'programme__prix', px));
+        if (a.note) txt.appendChild(el('span', 'jour__note', a.note));
+        b.appendChild(txt);
+        b.addEventListener('click', function () { if (l) ouvrirPanneau(l.id, { retour: j.jour }); });
+        ul.appendChild(b);
+      });
+      corps.appendChild(bloc('Programme', ul));
+    }
+
+    /* Nuit, puis les solutions de repli du même secteur. */
+    var pr = E.pratique || {};
+    if (j.nuit) {
+      var n = resoudre(j.nuit);
+      var dn = el('div');
+      var bn = el('button', 'programme__item');
+      bn.type = 'button';
+      var tn = el('span', 'programme__corps');
+      tn.appendChild(el('span', 'jour__lieu', n.nom + (aVerifier(n) ? ' ⚠' : '')));
+      var pn = prixAffiche(n);
+      if (pn) tn.appendChild(el('span', 'programme__prix', pn));
+      if (n.resume) tn.appendChild(el('span', 'jour__note', n.resume));
+      bn.appendChild(tn);
+      bn.addEventListener('click', function () { ouvrirPanneau(n.id, { retour: j.jour }); });
+      dn.appendChild(bn);
+      var gh = groupeDe(pr.groupes_hebergement, n.id);
+      var autres = gh ? gh.lieux.filter(function (id) { return id !== n.id && E.parId.has(id); }) : [];
+      if (autres.length) {
+        dn.appendChild(el('p', 'jour__note', 'Si c’est plein ou fermé :'));
+        var ra = el('div', 'puces');
+        autres.forEach(function (id) {
+          var l = E.parId.get(id);
+          var b = el('button', 'puce', l.nom);
+          b.type = 'button';
+          b.addEventListener('click', function () { ouvrirPanneau(id, { retour: j.jour }); });
+          ra.appendChild(b);
+        });
+        dn.appendChild(ra);
+      }
+      corps.appendChild(bloc('Nuit', dn));
+
+      /* Courses : magasins listés à moins de 25 km de la nuit. */
+      var courses = [];
+      (pr.groupes_courses || []).forEach(function (g) {
+        (g.lieux || []).forEach(function (id) {
+          var l = E.parId.get(id);
+          if (l && courses.indexOf(l) === -1 && distanceKm(l.gps, n.gps) < 25) courses.push(l);
+        });
+      });
+      if (courses.length) {
+        var dc = el('div', 'puces');
+        courses.forEach(function (l) {
+          var b = el('button', 'puce', l.nom);
+          b.type = 'button';
+          b.addEventListener('click', function () { ouvrirPanneau(l.id, { retour: j.jour }); });
+          dc.appendChild(b);
+        });
+        corps.appendChild(bloc('Courses à proximité', dc));
+      }
+    }
+
+    /* Randonnées et adresses de la zone : repliées, pour ne pas noyer la journée. */
+    var nbRandos = randosPourJour(j).reduce(function (s, g) { return s + (g.randos || []).length; }, 0);
+    if (nbRandos) {
+      var dr = el('details', 'volet volet--interne');
+      dr.appendChild(el('summary', null, 'Autres randonnées dans la zone (' + nbRandos + ')'));
+      dessinerRandosJour(j, dr);
+      corps.appendChild(dr);
+    }
+    var nbDec = decouvertesPourJour(j).reduce(function (s, g) { return s + (g.items || []).length; }, 0);
+    if (nbDec) {
+      var dd = el('details', 'volet volet--interne');
+      dd.appendChild(el('summary', null, 'À faire, remontées et bonnes adresses (' + nbDec + ')'));
+      dessinerDecouvertesJour(j, dd);
+      corps.appendChild(dd);
+    }
+
+    /* Navigation entre les jours sans refermer. */
+    var nav = el('div', 'paire');
+    var prec = (E.planning || []).find(function (x) { return x.jour === j.jour - 1; });
+    var suiv = (E.planning || []).find(function (x) { return x.jour === j.jour + 1; });
+    if (prec) { var bp = el('button', 'action', '← Jour ' + prec.jour); bp.type = 'button'; bp.addEventListener('click', function () { ouvrirEtape(prec.jour); }); nav.appendChild(bp); }
+    if (suiv) { var bs = el('button', 'action action--fort', 'Jour ' + suiv.jour + ' →'); bs.type = 'button'; bs.addEventListener('click', function () { ouvrirEtape(suiv.jour); }); nav.appendChild(bs); }
+    corps.appendChild(nav);
+
+    p.hidden = false;
+    document.body.style.overflow = 'hidden';
+    if (location.hash !== '#jour-' + j.jour) history.pushState({ jour: j.jour }, '', '#jour-' + j.jour);
+    document.getElementById('panneau-fermer').focus();
+    corps.scrollTop = 0;
   }
 
   /* ---------- Budget ---------- */
@@ -1486,7 +1564,7 @@
       c.appendChild(t);
       if (d.pluie_pct !== undefined) c.appendChild(el('div', 'meteo-jour__pluie', d.pluie_pct + ' % pluie'));
       if (d.note) c.title = d.note;
-      c.addEventListener('click', function () { if (dates[d.date]) viserJour(dates[d.date]); });
+      c.addEventListener('click', function () { if (dates[d.date]) ouvrirEtape(dates[d.date]); });
       g.appendChild(c);
     });
     zone.appendChild(g);
@@ -1536,11 +1614,9 @@
   function dessinerNav() {
     var n = document.getElementById('nav');
     vide(n);
-    (E.reglages.sections || []).forEach(function (s) {
-      var sec = document.getElementById('section-' + s.id);
-      if (!sec) return;
-      var a = el('a', null, s.libelle);
-      a.href = '#section-' + s.id;
+    [['etapes', 'Étapes'], ['carte', 'Carte'], ['infos', 'Avant de partir']].forEach(function (x) {
+      var a = el('a', null, x[1]);
+      a.href = '#section-' + x[0];
       n.appendChild(a);
     });
   }
@@ -1623,6 +1699,7 @@
     dessinerTrace();
     dessinerListe();
     dessinerPratique();
+    dessinerRouteHiver();
     dessinerPlanning();
     dessinerBudget();
     dessinerMeteo();
@@ -1680,10 +1757,7 @@
         rendre();
         preparerHorsLigne();
 
-        if (location.hash.indexOf('#lieu-') === 0) {
-          var id = location.hash.slice(6);
-          if (E.parId.has(id)) ouvrirPanneau(id);
-        }
+        ouvrirDepuisAdresse();
       });
     }).catch(function (e) {
       anomalies.push('Démarrage impossible : ' + e.message);
@@ -1709,12 +1783,15 @@
 
   document.getElementById('panneau-fermer').addEventListener('click', fermerPanneau);
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fermerPanneau(); });
+  /* #lieu-<id> ouvre une fiche, #jour-<n> la vue d'une étape. */
+  function ouvrirDepuisAdresse() {
+    var h = location.hash;
+    if (h.indexOf('#lieu-') === 0 && E.parId && E.parId.has(h.slice(6))) { ouvrirPanneau(h.slice(6)); return true; }
+    if (h.indexOf('#jour-') === 0 && E.planning) { ouvrirEtape(Number(h.slice(6))); return true; }
+    return false;
+  }
   window.addEventListener('popstate', function () {
-    if (location.hash.indexOf('#lieu-') === 0) {
-      var id = location.hash.slice(6);
-      if (E.parId && E.parId.has(id)) { ouvrirPanneau(id); return; }
-    }
-    fermerPanneau();
+    if (!ouvrirDepuisAdresse()) fermerPanneau();
   });
 
   var nav = document.getElementById('nav');

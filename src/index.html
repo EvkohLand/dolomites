@@ -70,14 +70,21 @@
 <nav class="nav" id="nav" aria-label="Sections"></nav>
 
 <main>
+  <section class="section" id="section-etapes">
+    <h2 class="section__titre">Étapes</h2>
+    <p class="bandeau-route" id="bandeau-route"></p>
+    <div id="planning" class="etapes"></div>
+  </section>
+
   <section class="section" id="section-carte">
+    <h2 class="section__titre">Carte</h2>
     <div class="carte-zone">
       <div class="carte-zone__carte">
         <div id="carte" role="application" aria-label="Carte du séjour"></div>
         <p class="carte-hors-ligne" id="carte-hors-ligne" hidden></p>
       </div>
       <aside class="panneau-cote">
-        <div class="resume-itineraire" id="resume-itineraire" aria-label="Étapes de l'itinéraire"></div>
+        <div class="resume-itineraire" id="resume-itineraire" aria-label="Légende du tracé"></div>
         <div class="filtres" id="filtres" role="group" aria-label="Filtrer les points"></div>
         <p class="liste-compte" id="liste-compte"></p>
         <ul class="liste" id="liste-lieux"></ul>
@@ -85,33 +92,14 @@
     </div>
   </section>
 
-  <section class="section" id="section-pratique">
-    <h2 class="section__titre">Nuits et ravitaillement</h2>
-    <div id="pratique"></div>
-  </section>
-
-  <section class="section" id="section-planning">
-    <h2 class="section__titre">Planning</h2>
-    <div id="planning" class="jours"></div>
-  </section>
-
-  <section class="section" id="section-budget">
-    <h2 class="section__titre">Budget</h2>
-    <div id="budget"></div>
-  </section>
-
-  <section class="section" id="section-meteo">
-    <h2 class="section__titre">Météo</h2>
-    <div id="meteo"></div>
-  </section>
-
-  <section class="section" id="section-reglementation">
-    <h2 class="section__titre">Règles à connaître</h2>
-    <div id="reglementation"></div>
-  </section>
-
-  <section class="section" id="section-depannage">
-    <h2 class="section__titre">Dépannage mécanique</h2>
+  <section class="section" id="section-infos">
+    <h2 class="section__titre">Avant de partir</h2>
+    <details class="volet" id="volet-budget"><summary>Budget</summary><div id="budget"></div></details>
+    <details class="volet" id="volet-meteo"><summary>Météo</summary><div id="meteo"></div></details>
+    <details class="volet" id="volet-route"><summary>Route en octobre : cols, neige, équipement</summary><div id="route-hiver"></div></details>
+    <details class="volet" id="volet-pratique"><summary>Nuits et courses : règles générales</summary><div id="pratique"></div></details>
+    <details class="volet" id="volet-reglementation"><summary>Règles à connaître</summary><div id="reglementation"></div></details>
+    <details class="volet" id="volet-depannage"><summary>Dépannage mécanique</summary>
     <div class="regles">
       <p><strong>Kit de voyage — dépannage courant.</strong> Objectif : pouvoir gérer une roue, une petite fixation desserrée, un cache qui pend, un fusible ou une réparation provisoire. Pas de mécanique lourde ni de démontage moteur.</p>
 
@@ -149,6 +137,7 @@
 
       <p><strong>À ne pas charger inutilement :</strong> embouts XZN spécialisés, grosses douilles moteur, outils de vidange, outils de distribution ou autre matériel d'atelier. Si un incident exige ce type d'outillage pendant le voyage, privilégier l'assistance ou un garage.</p>
     </div>
+    </details>
   </section>
 
   <section class="section" id="section-diagnostic" hidden>
