@@ -395,6 +395,15 @@ main { padding: 0 var(--gouttiere); max-width: 1320px; margin: 0 auto; }
 .tableau-cle { width: 100%; border-collapse: collapse; font-size: 14px; }
 .tableau-cle th, .tableau-cle td { text-align: left; padding: 6px 0; vertical-align: top; }
 .tableau-cle th { font-weight: 500; color: var(--discret); width: 42%; padding-right: 12px; }
+.tableau-cle + p, .tableau-cle + .liens { margin-top: 10px; }
+p + .liens { margin-top: 8px; }
+
+.alternatives { display: flex; flex-direction: column; gap: 14px; }
+.alternative { padding: 12px 14px; border: 1px solid var(--trait); border-radius: var(--rayon); background: var(--fond); }
+.alternative p { margin: 0 0 6px; }
+.alternative__nom { font-weight: 600; }
+.alternative .liens { flex-direction: row; flex-wrap: wrap; }
+.alternative .lien-ext { padding: 7px 11px; font-size: 13px; }
 
 /* ---------- Planning ---------- */
 

@@ -633,6 +633,33 @@
     montrer();
   }
 
+  function lienExterne(libelle, url) {
+    var a = el('a', 'lien-ext', libelle);
+    a.href = url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    return a;
+  }
+
+  /* [{ libelle, valeur }] → tableau à deux colonnes ; une chaîne seule prend toute la ligne. */
+  function tableauCle(lignes) {
+    var tb = el('table', 'tableau-cle');
+    (lignes || []).forEach(function (x) {
+      if (!x) return;
+      var tr = document.createElement('tr');
+      if (typeof x === 'string') {
+        var td = el('td', null, x);
+        td.colSpan = 2;
+        tr.appendChild(td);
+      } else {
+        tr.appendChild(el('th', null, x.libelle || ''));
+        tr.appendChild(el('td', null, String(x.valeur == null ? '' : x.valeur)));
+      }
+      tb.appendChild(tr);
+    });
+    return tb;
+  }
+
   function ouvrirPanneau(id) {
     var l = E.parId.get(id);
     if (!l) return;
@@ -728,20 +755,25 @@
       corps.appendChild(bloc('Sur place', eq));
     }
 
+    /* Adresse */
+    if (l.adresse) corps.appendChild(bloc('Adresse', el('p', null, l.adresse)));
+
     /* Prix détaillé */
-    if (l.prix && (l.prix.detail || l.prix.annee_tarif)) {
+    if (l.prix && (l.prix.detail || l.prix.annee_tarif || l.prix.grille)) {
       var dp = el('div');
+      if (l.prix.grille) dp.appendChild(tableauCle(l.prix.grille));
       if (l.prix.detail) dp.appendChild(el('p', null, l.prix.detail));
       if (l.prix.annee_tarif) dp.appendChild(el('p', 'jour__note', 'Tarif relevé pour ' + l.prix.annee_tarif + '.'));
       corps.appendChild(bloc('Prix', dp));
     }
 
-    /* Saison */
-    if (l.ouverture) {
+    /* Saison et horaires */
+    if (l.ouverture || l.horaires) {
       var o = el('div');
-      if (l.ouverture.fin_saison) o.appendChild(el('p', null, 'Fin de saison : ' + dateCourte(l.ouverture.fin_saison)));
-      if (l.ouverture.note) o.appendChild(el('p', null, l.ouverture.note));
-      if (o.childNodes.length) corps.appendChild(bloc('Saison', o));
+      if (l.horaires) o.appendChild(tableauCle(l.horaires));
+      if (l.ouverture && l.ouverture.fin_saison) o.appendChild(el('p', null, 'Fin de saison : ' + dateCourte(l.ouverture.fin_saison)));
+      if (l.ouverture && l.ouverture.note) o.appendChild(el('p', null, l.ouverture.note));
+      if (o.childNodes.length) corps.appendChild(bloc(l.horaires ? 'Saison et horaires' : 'Saison', o));
     }
 
     /* Randonnée */
@@ -781,6 +813,26 @@
 
     /* Accès */
     if (l.acces) corps.appendChild(bloc('Accès', el('p', null, l.acces)));
+
+    /* Infos pratiques */
+    if (l.pratique) corps.appendChild(bloc('Pratique', tableauCle(l.pratique)));
+
+    /* Solutions de repli */
+    if (Array.isArray(l.alternatives) && l.alternatives.length) {
+      var da = el('div', 'alternatives');
+      l.alternatives.forEach(function (x) {
+        var d = el('div', 'alternative');
+        d.appendChild(el('p', 'alternative__nom', x.nom));
+        if (x.adresse) d.appendChild(el('p', 'jour__note', x.adresse));
+        if (x.note) d.appendChild(el('p', null, x.note));
+        var dl2 = el('div', 'liens');
+        if (Array.isArray(x.gps)) dl2.appendChild(lienExterne('Google Maps', 'https://www.google.com/maps/search/?api=1&query=' + x.gps[0] + ',' + x.gps[1]));
+        if (x.url) dl2.appendChild(lienExterne('Site', x.url));
+        if (dl2.childNodes.length) d.appendChild(dl2);
+        da.appendChild(d);
+      });
+      corps.appendChild(bloc('Si c\'est plein ou fermé', da));
+    }
 
     /* Règle liée */
     if (l.reglement && E.regles) {
@@ -829,13 +881,23 @@
       liens.forEach(function (x) {
         if (!x || !x.url || vus[x.url]) return;
         vus[x.url] = 1;
-        var a = el('a', 'lien-ext', x.libelle || x.url);
-        a.href = x.url;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        dl.appendChild(a);
+        dl.appendChild(lienExterne(x.libelle || x.url, x.url));
       });
       if (dl.childNodes.length) corps.appendChild(bloc('Liens', dl));
+    }
+
+    /* Vérification : quand, contre quelles sources, ce qui reste incertain */
+    if (l.verification) {
+      var v = l.verification;
+      var dv = el('div');
+      if (v.date) dv.appendChild(el('p', 'jour__note', 'Données recoupées le ' + dateCourte(v.date) + (v.sources && v.sources.length ? ' sur ' + v.sources.length + ' source' + (v.sources.length > 1 ? 's' : '') + '.' : '.')));
+      if (v.doutes) dv.appendChild(el('p', null, 'Reste incertain : ' + v.doutes));
+      if (v.sources && v.sources.length) {
+        var ds = el('div', 'liens');
+        v.sources.forEach(function (s) { if (s && s.url) ds.appendChild(lienExterne(s.libelle || s.url, s.url)); });
+        dv.appendChild(ds);
+      }
+      corps.appendChild(bloc('Sources vérifiées', dv));
     }
 
     /* Actions */
