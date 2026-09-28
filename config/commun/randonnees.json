@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "note": "Bibliothèque strictement rattachée aux zones du planning. Audit contradictoire du 28/09/2026 : priorité aux sources officielles ; données chiffrées reprises des fiches sources, services saisonniers séparés de la praticabilité des sentiers, et statuts futurs non garantis. Les conditions neige/verglas et fermetures doivent être recontrôlées le jour J.",
   "zones": [
     {
@@ -85,15 +85,15 @@
         },
         {
           "nom": "Zans – Kaserill – Zendleser Kofel – retour",
-          "distance_km": 5.55,
+          "distance_km": null,
           "duree": "2 h 39",
-          "denivele_plus_m": 785,
-          "denivele_moins_m": 38,
+          "denivele_plus_m": null,
+          "denivele_moins_m": null,
           "niveau": "Intermédiaire",
           "type": "Boucle annoncée par l'office",
           "depart": "Parking Zans",
           "altitude_max_m": 2420,
-          "risque": "Élevé en octobre si neige/verglas",
+          "risque": "Élevé en octobre si neige/verglas ; métriques officielles incohérentes",
           "plan": [
             "Zans",
             "sentiers 25 et 32",
@@ -106,7 +106,7 @@
             "Zans"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/D3C26167D5906647E33AD23EE9D079E7",
-          "statut_source": "Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10.",
+          "statut_source": "ATTENTION — fiche officielle incohérente : elle décrit une boucle mais publie 5,55 km, D+785 m et D−38 m. Ces métriques ne sont pas utilisées pour planifier ; conserver seulement l'idée d'itinéraire et vérifier le GPX/terrain avant départ.",
           "verifie_le": "2026-09-28"
         },
         {
@@ -342,6 +342,33 @@
           ],
           "source": "https://www.odlesdolomites.com/en/activities/2DA0861BA28CA0BE817C26F09BA0BA0C",
           "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
+        },
+        {
+          "nom": "Zans → Schlüterhütte → Kreuzjoch — boucle",
+          "distance_km": 10.93,
+          "duree": "4 h 10",
+          "denivele_plus_m": 770,
+          "denivele_moins_m": 770,
+          "niveau": "Intermédiaire",
+          "type": "Boucle",
+          "depart": "Parking Zans",
+          "altitude_max_m": 2420,
+          "risque": "Modéré à élevé en octobre ; la source demande équipement adapté et prudence",
+          "plan": [
+            "Parking Zans",
+            "sentier 25",
+            "Kaserillalm",
+            "sentier 31A",
+            "Gampenalm",
+            "sentier 33",
+            "Schlüterhütte",
+            "sentier 3 vers Kreuzjoch",
+            "sentier 6 par Tschantschenon",
+            "retour Zans"
+          ],
+          "source": "https://www.odlesdolomites.com/en/activities/A49D1D384F0A6C7FB21F8F9C17B53E5C",
+          "statut_source": "Ouvert au contrôle du 28/09/2026 ; la fiche officielle indique « only accessible with suitable equipment and caution ». Refuges/services saisonniers à recontrôler.",
           "verifie_le": "2026-09-28"
         }
       ]
@@ -858,25 +885,27 @@
         {
           "nom": "Sass Pordoi → Rifugio Boè",
           "distance_km": null,
-          "duree": "50 min",
+          "duree": "1 h environ",
           "denivele_plus_m": null,
           "niveau": "E (randonnée)",
-          "type": "Linéaire",
+          "type": "Aller-retour",
           "depart": "Station haute Sass Pordoi",
           "altitude_max_m": 2873,
-          "risque": "Élevé en octobre",
+          "risque": "Élevé en octobre : altitude ~2 900 m, orientation sur plateau, neige/verglas possibles, refuge fermé",
           "plan": [
             "Station haute Sass Pordoi",
-            "Forcella Pordoi",
-            "plateau du Sella",
-            "Rifugio Boè"
+            "descente à Forcella Pordoi",
+            "sentier 627 à travers le plateau du Sella",
+            "Rifugio Boè (fermé à vos dates)",
+            "retour par le même itinéraire vers la station haute"
           ],
-          "source": "https://www.fassa.com/en/accommodation/maria",
-          "verifie_le": "2026-09-28"
+          "source": "https://www.rifugioboe.it/dove-siamo",
+          "verifie_le": "2026-09-28",
+          "statut_source": "Itinéraire confirmé par le Rifugio Boè et Dolomiti Superski. Le refuge ferme le 27/09/2026 : le 19/10, aucune restauration ni accueil à y attendre."
         },
         {
           "nom": "Sass Pordoi → Piz Boè",
-          "distance_km": 8.3,
+          "distance_km": 9.6,
           "duree": "4 h 15",
           "denivele_plus_m": 383,
           "niveau": "EE",
@@ -895,7 +924,8 @@
           ],
           "source": "https://www.fassa.com/en/routes-trails/pordoi-pass-sass-pordoi-forcella-pordoi-piz-boe-boe-refuge-forcella-pordoi-pordoi-pass",
           "denivele_moins_m": 1008,
-          "verifie_le": "2026-09-28"
+          "verifie_le": "2026-09-28",
+          "statut_source": "Carte officielle Val di Fassa vérifiée : 9,6 km, 4 h 15, D+383/D−1008 avec utilisation du téléphérique. Une ancienne donnée web affichait 8,3 km : la carte officielle la plus récente est retenue. Rifugio Boè fermé le 19/10."
         }
       ]
     },
