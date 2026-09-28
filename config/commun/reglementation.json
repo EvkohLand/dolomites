@@ -249,5 +249,36 @@
     "quand": {
       "route_longue": true
     }
+  },
+  {
+    "id": "nuit-froide",
+    "titre": "Nuit froide sous la tente de toit",
+    "portee": "Toutes les nuits en altitude (Alta Badia, Dobbiaco, Bressanone)",
+    "resume": "Normales d’octobre autour de 0 °C la nuit à 1 200–1 700 m, gel possible.",
+    "detail": "Nuits autour de 0 °C en Alta Badia et à Dobbiaco : sacs confort ≤ −5 °C, tapis isolant sous le matelas de la tente, couverture pour Prince ; si −5 °C ou neige annoncés, se replier sur une nuit en dur.",
+    "gravite": "moyenne",
+    "quand": {
+      "nuit": true
+    },
+    "sources": [
+      {
+        "libelle": "Normales d’octobre de Cortina (meteo.json)",
+        "url": "https://meteo.provincia.bz.it/it/home"
+      }
+    ]
+  },
+  {
+    "id": "eau-chien",
+    "titre": "Eau pour Prince en randonnée",
+    "portee": "Toutes les randonnées d’octobre",
+    "resume": "Refuges presque tous fermés et peu de fontaines : emporter 1,5 à 2 L pour le chien et une gamelle pliable.",
+    "gravite": "moyenne",
+    "quand": {
+      "randos": true,
+      "categories": [
+        "rando",
+        "plateau"
+      ]
+    }
   }
 ]

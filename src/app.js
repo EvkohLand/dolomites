@@ -1692,6 +1692,36 @@
     return min;
   }
 
+  /* Position d'un point le long du tracé du jour : km parcourus depuis le départ jusqu'au
+     sommet du tracé le plus proche, ramenés à la distance officielle de l'étape. */
+  function kmDepuisDepart(j, gps) {
+    var r = routeDuJour(j);
+    var t = r && E.trace && E.trace.etapes && E.trace.etapes[r.etape.id];
+    if (!t || !Array.isArray(t.points) || t.points.length < 2) return null;
+    var pts = t.points, cumul = 0, meilleur = Infinity, pos = 0, total = 0, i;
+    var cum = [0];
+    for (i = 1; i < pts.length; i++) { total += distanceKm(pts[i - 1], pts[i]); cum.push(total); }
+    for (i = 0; i < pts.length; i++) {
+      var dd = distanceKm(pts[i], gps);
+      if (dd < meilleur) { meilleur = dd; pos = cum[i]; }
+    }
+    var officiel = r.km || total;
+    return total ? Math.round(pos / total * officiel) : null;
+  }
+
+  /* Pour une longue étape, la station la moins chère de chaque tranche de 150 km :
+     avec 650 km d'autonomie, la moins chère de toute l'étape peut être hors d'atteinte. */
+  function stationsParTranche(st, kmJour) {
+    if (!kmJour || kmJour < 300) return st.slice(0, 3);
+    var parTranche = {};
+    st.forEach(function (s) {
+      if (s.depuis_depart == null) return;
+      var t = Math.floor(s.depuis_depart / 150);
+      if (!parTranche[t] || s.gazole < parTranche[t].gazole) parTranche[t] = s;
+    });
+    return Object.keys(parTranche).map(Number).sort(function (a, b) { return a - b; }).map(function (t) { return parTranche[t]; });
+  }
+
   /* Stations retenues pour le jour, prix français relus en direct s'ils sont arrivés. */
   function stationsDuJour(j) {
     var c = E.carbuLive;
@@ -1703,6 +1733,7 @@
       var o = {};
       Object.keys(s).forEach(function (k) { o[k] = s[k]; });
       o.km = x.km;
+      o.depuis_depart = kmDepuisDepart(j, s.gps);
       var d = s.pays === 'FR' ? E.prixFranceDirect[s.id] : null;
       if (d) {
         o.gazole = d.gazole; o.releve = d.releve; o.direct = true;
@@ -1763,7 +1794,10 @@
     if (!st.length) {
       d.appendChild(el('p', 'jour__note', 'Aucun prix récent relevé à moins de ' + (c.rayon_km || 5) + ' km du tracé de ce jour.'));
     }
-    st.slice(0, 3).forEach(function (s) {
+    var rj = routeDuJour(j);
+    var kmJour = rj && rj.km;
+    if (kmJour >= 300) d.appendChild(el('p', 'jour__note', 'Étape de ' + kmJour + ' km pour 650 km d’autonomie : la moins chère de chaque tranche de 150 km, avec sa position depuis le départ. Partir le plein fait, ou le faire dans la première tranche.'));
+    stationsParTranche(st, kmJour).forEach(function (s) {
       var ligne = el('div', 'carbu__station');
       var tete = el('p', 'carbu__tete');
       tete.appendChild(el('span', 'carbu__prix', prixLitreAffiche(s.gazole)));
@@ -1774,7 +1808,8 @@
         s.gazole_servito && s.gazole_servito !== s.gazole ? 'servi ' + prixLitreAffiche(s.gazole_servito) : '',
         typeof s.sp95 === 'number' ? 'SP95 ' + prixLitreAffiche(s.sp95) : (typeof s.e10 === 'number' ? 'E10 ' + prixLitreAffiche(s.e10) : ''),
         s.autoroute ? 'sur autoroute' : '',
-        String(s.km).replace('.', ',') + ' km du tracé'
+        String(s.km).replace('.', ',') + ' km du tracé',
+        s.depuis_depart != null ? '≈ ' + s.depuis_depart + ' km après le départ' : ''
       ].filter(Boolean).join(' · ')));
       ligne.appendChild(el('p', 'carbu__detail', [s.adresse, 'relevé le ' + dateHeure(s.releve) + (s.direct ? ' (lu en direct)' : '')].filter(Boolean).join(' · ')));
       var lien = el('div', 'puces');

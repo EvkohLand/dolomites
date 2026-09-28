@@ -74,6 +74,12 @@
       "poste": "divers",
       "libelle": "Marge imprévu",
       "montant": 200
+    },
+    {
+      "jour": null,
+      "poste": "nourriture",
+      "libelle": "Complément pique-niques et repas au camping (objectif ≈ 20 €/jour à deux, croquettes comprises)",
+      "montant": 90
     }
   ],
   "objectif_par_jour": 95,

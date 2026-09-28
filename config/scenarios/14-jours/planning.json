@@ -22,7 +22,7 @@
         "note": "Grand ravitaillement : accès animaux et chariots pour animaux déclarés, parking extérieur pour 1,95 m. Ouvert 08 h 30–20 h 30 selon fiche."
       }
     ],
-    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée. Tester Pinzagen si l’hôte confirme le pré, les dates, le chien et l’accès ; sinon Gamp / Vahrner See."
+    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée. Tester Pinzagen si l’hôte confirme le pré, les dates, le chien et l’accès ; sinon Gamp / Vahrner See. Plein obligatoire en début d’étape (Savone, avant l’Apennin) : 1 013 km en deux jours pour 650 km d’autonomie."
   },
   {
     "date": "2026-10-14",
@@ -133,7 +133,8 @@
     "activites": [
       {
         "lieu": "sass-pordoi",
-        "heure": "10:00"
+        "heure": "09:00",
+        "note": "Première benne 9 h ; dernière descente 16 h 30 dès le 19/10."
       }
     ],
     "note": "Site proche de 2 950 m : télécabine et chien à revérifier ; renoncer si vent, neige ou fermeture et préférer Corvara."
@@ -224,7 +225,7 @@
     "nuit": "camping-olympia",
     "trajet": null,
     "activites": [],
-    "note": "Temps libre pour visite reportée si route et météo le permettent ; sinon balade courte avec Prince. Aucun billet conditionnel acheté à l’avance."
+    "note": "Temps libre pour visite reportée si route et météo le permettent ; sinon balade courte avec Prince. Courses du retour aujourd'hui (Despar fermé à 12 h 30, Conad jusqu'à 19 h ; tout est fermé dimanche). Cette nuit, passage à l'heure d'hiver."
   },
   {
     "date": "2026-10-25",

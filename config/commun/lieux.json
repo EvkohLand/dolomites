@@ -1003,7 +1003,7 @@
           "valeur": "paiement électronique à la barrière de sortie"
         }
       ],
-      "alternative_gratuite": "À pied depuis la barrière (15 places gratuites juste avant, 46.5994, 12.2700) : sentier « avvicinamento 101 », 3,3 km, +470 m, 1 h 15 – 1 h 30 selon le CAI ; depuis le parking du lac d'Antorno, 4,4 km et 1 h 30 – 1 h 45. Navette arrêtée le 4 octobre."
+      "alternative_gratuite": "À pied depuis la barrière (15 places gratuites juste avant, 46.5994, 12.2700) : sentier « avvicinamento 101 », 3,3 km, +470 m, 1 h 15 – 1 h 30 selon le CAI ; depuis le parking du lac d'Antorno, 4,4 km et 1 h 30 – 1 h 45. Navettes arrêtées (Dolomitibus le 4/10, ligne 444 depuis Dobbiaco le 11/10)."
     },
     "reserver": {
       "obligatoire": true,
@@ -1602,7 +1602,7 @@
     "liens": [
       {
         "libelle": "Parking et accès",
-        "url": "https://www.lagodibraies.com/en/parking-p155.html"
+        "url": "https://www.lagodibraies.com/parking-p155.html"
       },
       {
         "libelle": "Réservation haute saison",
@@ -1835,7 +1835,7 @@
         },
         {
           "libelle": "Hôtel Lago di Braies — saison d'été 01.05.2026 – 01.11.2026",
-          "url": "https://www.lagodibraies.com/en/"
+          "url": "https://www.lagodibraies.com/"
         },
         {
           "libelle": "Emma's Bistro — horaires",
@@ -8342,7 +8342,7 @@
           "valeur": "gratuit"
         }
       ],
-      "alternative_gratuite": "Parking gratuit à la gare de Dobbiaco."
+      "alternative_gratuite": "Aller au lac à pied depuis le camping Olympia (sentier de fond de vallée) : parking de la gare payant selon la commune."
     },
     "chien": {
       "admis": true,
@@ -9421,9 +9421,9 @@
     "altitude": 1548,
     "resume": "Fin de la route du val de Rudo, à 12 km de San Vigilio, départ vers Fanes et Sennes. Péage 2026 du 20 juin au 13 septembre seulement : en octobre, route libre et parking payant 1 €/h, 5 € la journée. Auberge fermée du 11 octobre au 26 décembre 2026. Bus 462 en horaire d'hiver dès le 12 octobre.",
     "prix": {
-      "type": "variable",
+      "type": "payant",
       "montant": 5,
-      "unite": "voiture, journée de stationnement à Pederü (octobre 2026, hors période de péage)",
+      "unite": "voiture / jour (1 €/h, 5 € au-delà de 5 h)",
       "annee_tarif": 2026,
       "detail": "Délibération communale 153/2026 : péage du 20/06 au 13/09/2026, de 7h30 à 16h, 13 € la voiture parking compris. En dehors de cette période, pas de péage mais le parking de Pederü reste payant : 1 €/h, 5 € au-delà de 5 heures (tarif journée, délibération 372/2023 reprise en 2026). Le 20 octobre : 5 € pour la journée.",
       "grille": [
@@ -10552,7 +10552,7 @@
       11.6051
     ],
     "commune": "Alpe di Siusi (BZ)",
-    "resume": "15 € la journée, réservation en ligne obligatoire, entrée avant 9h30 et route fermée 9h–17h. Puis ≈ 30 min de montée à pied jusqu'à Compatsch.",
+    "resume": "15 € la journée, réservation en ligne obligatoire ; passer le contrôle de San Valentino avant 9 h (route fermée à la montée 9h–17h, même avec réservation) ; descente autorisée à toute heure. Puis ≈ 30 min de montée à pied jusqu'à Compatsch.",
     "prix": {
       "type": "payant",
       "montant": 15,
@@ -10658,6 +10658,10 @@
       }
     ],
     "pratique": [
+      {
+        "libelle": "Heure limite",
+        "valeur": "monter avant 9 h : route fermée à la montée de 9 h à 17 h, même avec réservation (seiseralm.it) ; la descente reste libre"
+      },
       {
         "libelle": "Contrôle",
         "valeur": "aucune barrière ; plaque contrôlée"
@@ -10822,6 +10826,10 @@
       }
     ],
     "pratique": [
+      {
+        "libelle": "Heure limite",
+        "valeur": "monter avant 9 h : route fermée à la montée de 9 h à 17 h, même avec réservation (seiseralm.it) ; la descente reste libre"
+      },
       {
         "libelle": "Barrière",
         "valeur": "QR code de la réservation"

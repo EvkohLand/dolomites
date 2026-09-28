@@ -22,7 +22,7 @@
         "note": "Grand ravitaillement : accès animaux et chariots pour animaux déclarés, parking extérieur pour 1,95 m. Ouvert 08 h 30–20 h 30 selon fiche."
       }
     ],
-    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée. Tester Pinzagen si l’hôte confirme le pré, les dates, le chien et l’accès ; sinon Gamp / Vahrner See."
+    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée. Tester Pinzagen si l’hôte confirme le pré, les dates, le chien et l’accès ; sinon Gamp / Vahrner See. Plein obligatoire en début d’étape (Savone, avant l’Apennin) : 1 013 km en deux jours pour 650 km d’autonomie."
   },
   {
     "date": "2026-10-14",
@@ -98,7 +98,7 @@
       {
         "lieu": "lagazuoi",
         "heure": "09:30",
-        "note": "Fermeture de la remontée annoncée le 18 octobre : vérifier le matin même."
+        "note": "Dernier jour d'ouverture le 18 octobre (saison 6 juin – 18 octobre 2026) : vérifier le matin même."
       },
       {
         "lieu": "cinque-torri",
@@ -116,6 +116,11 @@
     "nuit": "camping-olympia",
     "trajet": null,
     "activites": [
+      {
+        "lieu": "courses-despar-la-villa",
+        "heure": "07:30",
+        "note": "Courses du dimanche et du retour avant de quitter l'Alta Badia : ouvert dimanche 8h30–19h30 ; les magasins de Dobbiaco sont fermés le dimanche."
+      },
       {
         "lieu": "misurina",
         "heure": "08:00"
