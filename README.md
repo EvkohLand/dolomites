@@ -124,6 +124,32 @@ node trace-route.js 14-jours   # un seul
 Sans ce fichier, la carte affiche une ligne droite en pointillés et le signale dans
 le panneau d'anomalies en bas de page.
 
+## Données en direct
+
+La vue d'une étape (`#jour-3`) affiche, en plus du programme :
+
+| Bloc | Source | Comment | Fréquence |
+|---|---|---|---|
+| Carburant sur la route | France : flux officiel prix-carburants ; Italie : Osservaprezzi (MIMIT) | fichier `config/commun/carburant-live.json` ; les prix français sont relus en direct par la page | chaque jour vers 9 h 40 |
+| Routes et cols | centrale trafic de la Province de Bolzano, avis Veneto Strade | lus en direct par la page | à chaque ouverture |
+| Routes et cols | ANAS (routes nationales) | fichier `config/commun/routes-live.json`, aussi copie de secours des deux autres | toutes les 3 heures |
+| Webcams | Panomax, foto-webcam.eu | `config/commun/webcams.json`, par `id` de lieu | images renouvelées toutes les 10 min |
+| Lever et coucher du soleil | calcul dans la page | aucune requête | — |
+
+Les deux fichiers sont produits par le workflow « Actualiser les données en direct »,
+qui relance la publication quand ils changent. Le prix italien ne peut pas être lu
+depuis la page : le ministère n'autorise pas l'appel depuis un navigateur. Pour les
+produire à la main :
+
+```bash
+node scripts/carburant-live.js   # stations à moins de 5 km du tracé de chaque jour
+node scripts/routes-live.js      # messages de circulation près des tracés
+```
+
+Quand un prix du jour existe, le budget compte le carburant de l'étape au prix moyen
+des trois stations les moins chères du tracé, au lieu du prix indicatif de
+`carburant.json`. Hors ligne, la page affiche la dernière copie, ou masque le bloc.
+
 ## Photos
 
 Déposer les images dans `photos/`, puis les déclarer dans la fiche du lieu.

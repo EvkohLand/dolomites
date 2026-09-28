@@ -31,6 +31,16 @@
       });
   }
 
+  /* Fichier facultatif (données en direct, webcams) : son absence n'est pas une anomalie. */
+  function lireOptionnel(chemin) {
+    var direct = inline('cfg:' + chemin);
+    if (direct !== null) return Promise.resolve(direct);
+    if (!window.fetch) return Promise.resolve(null);
+    return fetch('config/' + chemin, { cache: 'no-cache' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+  }
+
   var estInline = !!document.getElementById('cfg:scenarios.json');
 
   /* ---------- Utilitaires ---------- */
@@ -1400,6 +1410,11 @@
       }
     }
 
+    /* Données en direct : routes, carburant, webcams. Absentes hors ligne : bloc masqué ou message. */
+    dessinerRoutesEtape(j, principal);
+    dessinerCarburantEtape(j, principal);
+    dessinerWebcamsEtape(j, principal);
+
     /* Randonnées et adresses de la zone : repliées, pour ne pas noyer la journée. */
     var nbRandos = randosPourJour(j).reduce(function (s, g) { return s + (g.randos || []).length; }, 0);
     if (nbRandos) {
@@ -1498,6 +1513,12 @@
       d.appendChild(ligne);
       var nm = normale(pt.lieu, j.date);
       if (nm) ligne.appendChild(el('p', 'jour__note', 'Normale de saison estimée à ' + (pt.lieu.altitude || '?') + ' m : ' + nm));
+      var sol = j.date ? soleil(pt.lieu.gps[0], pt.lieu.gps[1], j.date) : null;
+      if (sol) {
+        var jourMin = Math.round((sol.coucher - sol.lever) / 60000);
+        ligne.appendChild(el('p', 'meteo-etape__soleil', 'Soleil : lever ' + heureLocale(sol.lever) + ' · coucher ' + heureLocale(sol.coucher) +
+          ' · ' + Math.floor(jourMin / 60) + ' h ' + String(jourMin % 60).padStart(2, '0') + ' de jour'));
+      }
       if (!j.date || !window.fetch) { val.textContent = 'Prévision indisponible hors ligne.'; return; }
       prevision(pt.lieu, j.date).then(function (x) {
         if (!x || !x.time || !x.time.length || x.temperature_2m_max[0] == null) throw new Error('vide');
@@ -1514,7 +1535,7 @@
         val.textContent = 'Pas encore de prévision pour cette date (au-delà de 16 jours ou hors ligne).';
       });
     });
-    d.appendChild(el('p', 'jour__note', 'Prévision Open-Meteo à l’altitude du lieu, actualisée à chaque ouverture ; fiable à 3–5 jours seulement.'));
+    d.appendChild(el('p', 'jour__note', 'Prévision Open-Meteo à l’altitude du lieu, actualisée à chaque ouverture ; fiable à 3–5 jours seulement. Lever et coucher du soleil calculés sur la page, à l’horizon dégagé : au fond d’une vallée, le soleil passe derrière les sommets plus tôt.'));
     var enDolomites = pts.some(function (pt) { return dansZone(pt.lieu, (m.normales_reference || {}).zone); });
     if (enDolomites) {
       if (pts.some(function (pt) { return (pt.lieu.altitude || 0) >= 1800; }) && m.note_altitude) d.appendChild(el('p', 'jour__note', m.note_altitude));
@@ -1605,6 +1626,395 @@
       d.appendChild(det);
     });
     conteneur.appendChild(bloc('Règles du jour (' + regles.length + ')', d));
+  }
+
+  /* ---------- Données en direct d'une étape : carburant, routes, webcams ---------- */
+
+  var MOIS_COURTS = ['janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'];
+
+  /* « 26 sept. 22:01 ». Une date avec fuseau est ramenée à l'heure de Paris et Rome. */
+  function dateHeure(iso) {
+    if (!iso) return '';
+    if (/[zZ]$|[+-]\d\d:\d\d$/.test(iso)) {
+      var d = new Date(iso);
+      if (!isNaN(d)) {
+        return d.toLocaleString('fr-FR', { timeZone: 'Europe/Rome', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+      }
+    }
+    var m = /^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/.exec(iso);
+    if (!m) return iso;
+    return Number(m[3]) + ' ' + MOIS_COURTS[Number(m[2]) - 1] + (m[4] ? ' ' + m[4] + ':' + m[5] : '');
+  }
+
+  function prixLitreAffiche(n) {
+    return typeof n === 'number' ? n.toFixed(3).replace('.', ',') + ' €/L' : '—';
+  }
+
+  function aujourdhuiIso() {
+    var d = new Date();
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+
+  /* Distance en km d'un point à un segment, en projection locale : juste à quelques kilomètres près. */
+  function distanceSegmentKm(p, a, b) {
+    var k = Math.cos(p[0] * Math.PI / 180) * 111.32;
+    var ax = a[1] * k, ay = a[0] * 110.57, bx = b[1] * k, by = b[0] * 110.57, px = p[1] * k, py = p[0] * 110.57;
+    var dx = bx - ax, dy = by - ay, l2 = dx * dx + dy * dy;
+    var t = l2 ? Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / l2)) : 0;
+    var x = ax + t * dx - px, y = ay + t * dy - py;
+    return Math.sqrt(x * x + y * y);
+  }
+
+  /* Tracés routiers du jour, plus le point de la nuit. */
+  function lignesDuJour(j) {
+    var out = [];
+    ((E.itineraire && E.itineraire.etapes) || []).forEach(function (e) {
+      if (e.jour !== j.jour) return;
+      var t = E.trace && E.trace.etapes && E.trace.etapes[e.id];
+      if (t && Array.isArray(t.points) && t.points.length) out.push(t.points);
+    });
+    var n = j.nuit && E.parId.get(j.nuit);
+    if (n && Array.isArray(n.gps)) out.push([n.gps]);
+    return out;
+  }
+
+  function distanceAuxLignes(p, lignes) {
+    var min = Infinity;
+    lignes.forEach(function (l) {
+      if (l.length === 1) min = Math.min(min, distanceSegmentKm(p, l[0], l[0]));
+      for (var i = 1; i < l.length; i++) min = Math.min(min, distanceSegmentKm(p, l[i - 1], l[i]));
+    });
+    return min;
+  }
+
+  /* Stations retenues pour le jour, prix français relus en direct s'ils sont arrivés. */
+  function stationsDuJour(j) {
+    var c = E.carbuLive;
+    if (!c || !c.jours || !c.stations) return null;
+    var liste = (c.jours[E.scenarioId] || {})[j.jour] || [];
+    return liste.map(function (x) {
+      var s = c.stations[x.id];
+      if (!s || !Array.isArray(s.gps)) return null;
+      var o = {};
+      Object.keys(s).forEach(function (k) { o[k] = s[k]; });
+      o.km = x.km;
+      var d = s.pays === 'FR' ? E.prixFranceDirect[s.id] : null;
+      if (d) {
+        o.gazole = d.gazole; o.releve = d.releve; o.direct = true;
+        if (typeof d.sp95 === 'number') o.sp95 = d.sp95;
+        if (typeof d.e10 === 'number') o.e10 = d.e10;
+      }
+      return typeof o.gazole === 'number' ? o : null;
+    }).filter(Boolean).sort(function (a, b) { return (a.gazole - b.gazole) || (a.km - b.km); });
+  }
+
+  /* Prix retenu pour le budget : moyenne des 3 stations les moins chères du tracé, dans le pays de l'étape. */
+  function prixCarburantDuJour(jour, pays) {
+    var j = (E.planning || []).find(function (x) { return x.jour === jour; });
+    var st = j ? stationsDuJour(j) : null;
+    if (!st) return null;
+    var memes = st.filter(function (s) { return !pays || s.pays === pays; }).slice(0, 3);
+    if (!memes.length) return null;
+    var somme = memes.reduce(function (a, s) { return a + s.gazole; }, 0);
+    var releve = memes.map(function (s) { return s.releve || ''; }).sort()[0];
+    return { prix: Math.round(somme / memes.length * 1000) / 1000, releve: releve, n: memes.length };
+  }
+
+  var URL_PRIX_FRANCE = 'https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records';
+
+  /* Le flux français autorise l'appel depuis le navigateur : on relit les stations françaises du scénario. */
+  function rafraichirPrixFrance() {
+    var c = E.carbuLive;
+    if (!c || !c.jours || !c.stations || !window.fetch) return Promise.resolve(0);
+    var ids = [];
+    Object.keys(c.jours[E.scenarioId] || {}).forEach(function (jour) {
+      (c.jours[E.scenarioId][jour] || []).forEach(function (x) {
+        var s = c.stations[x.id];
+        if (s && s.pays === 'FR' && /^\d+$/.test(s.id) && !E.prixFranceDirect[s.id] && ids.indexOf(s.id) === -1) ids.push(s.id);
+      });
+    });
+    if (!ids.length) return Promise.resolve(0);
+    var u = URL_PRIX_FRANCE + '?limit=100&select=' + encodeURIComponent('id,gazole_prix,gazole_maj,sp95_prix,e10_prix') +
+      '&where=' + encodeURIComponent('id in (' + ids.join(',') + ')');
+    return fetch(u).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function (d) {
+        var n = 0;
+        (d.results || []).forEach(function (x) {
+          var t = Date.parse(x.gazole_maj);
+          if (typeof x.gazole_prix !== 'number' || isNaN(t) || Date.now() - t > 8 * 86400000) return;
+          E.prixFranceDirect[String(x.id)] = { gazole: x.gazole_prix, releve: x.gazole_maj, sp95: x.sp95_prix, e10: x.e10_prix };
+          n++;
+        });
+        return n;
+      })
+      .catch(function () { return 0; });   // hors ligne : on garde les prix du fichier
+  }
+
+  function dessinerCarburantEtape(j, conteneur) {
+    var c = E.carbuLive;
+    var st = stationsDuJour(j);
+    if (!c || st === null || !routeDuJour(j)) return;
+    var d = el('div', 'carbu');
+    if (!st.length) {
+      d.appendChild(el('p', 'jour__note', 'Aucun prix récent relevé à moins de ' + (c.rayon_km || 5) + ' km du tracé de ce jour.'));
+    }
+    st.slice(0, 3).forEach(function (s) {
+      var ligne = el('div', 'carbu__station');
+      var tete = el('p', 'carbu__tete');
+      tete.appendChild(el('span', 'carbu__prix', prixLitreAffiche(s.gazole)));
+      tete.appendChild(el('span', 'carbu__nom', [s.marque, s.nom].filter(Boolean).join(' · ')));
+      ligne.appendChild(tete);
+      ligne.appendChild(el('p', 'carbu__detail', [
+        'gazole' + (s.pays === 'IT' ? (s.gazole_mode === 'servito' ? ' servi' : ' libre-service') : ''),
+        s.gazole_servito && s.gazole_servito !== s.gazole ? 'servi ' + prixLitreAffiche(s.gazole_servito) : '',
+        typeof s.sp95 === 'number' ? 'SP95 ' + prixLitreAffiche(s.sp95) : (typeof s.e10 === 'number' ? 'E10 ' + prixLitreAffiche(s.e10) : ''),
+        s.autoroute ? 'sur autoroute' : '',
+        String(s.km).replace('.', ',') + ' km du tracé'
+      ].filter(Boolean).join(' · ')));
+      ligne.appendChild(el('p', 'carbu__detail', [s.adresse, 'relevé le ' + dateHeure(s.releve) + (s.direct ? ' (lu en direct)' : '')].filter(Boolean).join(' · ')));
+      var lien = el('div', 'puces');
+      lien.appendChild(lienExterne('Google Maps', 'https://www.google.com/maps/search/?api=1&query=' + s.gps[0] + ',' + s.gps[1]));
+      ligne.appendChild(lien);
+      d.appendChild(ligne);
+    });
+    var r = routeDuJour(j);
+    var pb = prixCarburantDuJour(j.jour, r && r.etape.pays);
+    if (pb) d.appendChild(el('p', 'jour__note', 'Le budget du jour compte ' + prixLitreAffiche(pb.prix) + ', moyenne des ' + pb.n + ' stations les moins chères du tracé' + (r.etape.pays ? ' (' + r.etape.pays + ')' : '') + '.'));
+    var src = c.sources || {};
+    var morceaux = [];
+    if (src.FR) morceaux.push('France : flux officiel, dernier relevé ' + dateHeure(src.FR.releve));
+    if (src.IT) morceaux.push('Italie : extraction MIMIT du ' + dateHeure(src.IT.extraction));
+    d.appendChild(el('p', 'jour__note', morceaux.join(' · ') + ' — stations à moins de ' + (c.rayon_km || 5) + ' km du tracé ou de la nuit ; fichier mis à jour chaque jour.'));
+    var liens = el('div', 'puces');
+    ['FR', 'IT'].forEach(function (p) { if (src[p] && src[p].url) liens.appendChild(lienExterne(p === 'FR' ? 'prix-carburants.gouv.fr' : 'Osservaprezzi (MIMIT)', src[p].url)); });
+    if (liens.childNodes.length) d.appendChild(liens);
+    conteneur.appendChild(bloc('Carburant sur la route', d));
+  }
+
+  var URL_TRAFIC_BZ = 'https://static-verkehr.provinz.bz.it/publications/traffic/traffic.json';
+  var URL_AVIS_VENETO = 'https://www.venetostrade.it/myportal/VSSPA/api/content?type=rve_avviso&pageIndex=1&onlyNotHidden=true&parent=/Avvisi&includeSubFolders=true&sortBy=pubDate&desc=true&pageSize=10';
+  var cacheFlux = {};
+
+  function texteSimple(html) {
+    var t = String(html || '').replace(/<br\s*\/?>|<\/(p|li|div)>/gi, ' ').replace(/<[^>]+>/g, ' ');
+    var n = document.createElement('textarea');
+    n.innerHTML = t;   // décode les entités (&agrave; …) sans rien exécuter
+    return n.value.replace(/\s+/g, ' ').trim();
+  }
+
+  function couper(t, n) { return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : t; }
+
+  /* Même conversion que scripts/routes-live.js (messageBz), qui produit la copie de secours. */
+  function messageBz(x) {
+    if (!x || typeof x.X !== 'number' || typeof x.Y !== 'number') return null;
+    if (/piste ciclabili|radwege/i.test(x.messageStreetInternetDescIt || x.messageStreetInternetDescDe || '')) return null;
+    var grade = String(x.messageGradId || '');
+    return {
+      source: 'bz', id: String(x.messageId),
+      route: [String(x.messageStreetNr || '').trim(), x.messageStreetInternetDescIt].filter(Boolean).join(' — '),
+      niveau: grade === '3' ? 'fermeture' : grade === '4' ? 'gene' : 'info',
+      etat: x.messageGradDescIt || '',
+      texte: couper(texteSimple(x.placeIt || x.placeDe), 400),
+      debut: x.beginDate || '', fin: x.endDate || '',
+      gps: [x.Y, x.X]
+    };
+  }
+
+  /* Même conversion que scripts/routes-live.js (avisVeneto). */
+  function avisVeneto(ent) {
+    var a = (ent && ent.attributes) || {};
+    return {
+      titre: texteSimple(a.sys_title),
+      texte: couper(texteSimple(a.sys_testo_incorporamento || a.sys_description), 500),
+      date: String(a.sys_start_pub_date || a.def_date_last_modified || '').slice(0, 16),
+      url: a.sys_canonical_url ? 'https://www.venetostrade.it/myportal/VSSPA' + a.sys_canonical_url : 'https://www.venetostrade.it/'
+    };
+  }
+
+  /* Lecture directe d'une source (autorisée depuis le navigateur), gardée 5 minutes. */
+  function fluxDirect(cle, url, convertir) {
+    if (!window.fetch) return Promise.reject(new Error('fetch absent'));
+    var c = cacheFlux[cle];
+    if (c && Date.now() - c.t < 300000) return c.p;
+    var p = fetch(url, { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(convertir);
+    p.catch(function () { delete cacheFlux[cle]; });
+    cacheFlux[cle] = { t: Date.now(), p: p };
+    return p;
+  }
+
+  function fluxBz() {
+    return fluxDirect('bz', URL_TRAFIC_BZ, function (l) {
+      return { messages: (l || []).map(messageBz).filter(Boolean), maj: ((l && l[0] && l[0].publishDateTime) || '').slice(0, 16) };
+    });
+  }
+
+  function fluxVeneto() {
+    return fluxDirect('veneto', URL_AVIS_VENETO, function (d) {
+      var limite = new Date(Date.now() - 14 * 86400000).toISOString().slice(0, 16);
+      return ((d && d.page && d.page.entities) || []).map(avisVeneto).filter(function (a) { return a.date >= limite; });
+    });
+  }
+
+  /* Veneto Strade publie des communiqués sans coordonnées pour la province de Belluno. */
+  function passeParBelluno(j, lignes) {
+    if (lieuxDuJour(j).some(function (l) { return /\(BL\)/.test(l.commune || ''); })) return true;
+    return lignes.some(function (l) {
+      return l.some(function (p) { return p[0] > 46.45 && p[0] < 46.62 && p[1] > 12.0 && p[1] < 12.4; });
+    });
+  }
+
+  var RANG_NIVEAU = { fermeture: 0, gene: 1, info: 2 };
+  var SOURCE_ROUTE = { bz: 'Province de Bolzano', anas: 'ANAS' };
+
+  function dessinerRoutesEtape(j, conteneur) {
+    var lignes = lignesDuJour(j);
+    if (!lignes.length || !routeDuJour(j)) return;
+    var copie = E.routesLive;
+    if (!copie && !window.fetch) return;
+    var rayon = (copie && copie.rayon_km) || 5;
+    /* Date de référence : le jour du trajet, ou aujourd'hui si le jour est passé. */
+    var ref = j.date && j.date > aujourdhuiIso() ? j.date : aujourdhuiIso();
+    var belluno = passeParBelluno(j, lignes);
+    var d = el('div', 'routes');
+    var corps = el('div');
+    var etat = el('p', 'jour__note');
+    d.appendChild(corps);
+    d.appendChild(etat);
+
+    function carte(m) {
+      var it = el('div', 'route-msg route-msg--' + m.niveau);
+      it.appendChild(el('p', 'route-msg__route', (m.route || 'Route') + (m.etat ? ' · ' + m.etat : '')));
+      if (m.texte) it.appendChild(el('p', 'route-msg__texte', m.texte));
+      it.appendChild(el('p', 'route-msg__meta', [
+        m.debut ? 'depuis le ' + dateHeure(m.debut) : '',
+        m.fin ? 'jusqu’au ' + dateHeure(m.fin) : 'sans date de fin',
+        SOURCE_ROUTE[m.source] || m.source
+      ].filter(Boolean).join(' · ')));
+      return it;
+    }
+
+    function afficher(bz, veneto, direct) {
+      vide(corps);
+      var anas = ((copie && copie.messages) || []).filter(function (m) { return m.source === 'anas'; });
+      var msgs = (bz || []).concat(anas).filter(function (m) {
+        return Array.isArray(m.gps) && (!m.debut || m.debut <= ref) && (!m.fin || m.fin >= ref) && distanceAuxLignes(m.gps, lignes) <= rayon;
+      });
+      msgs.sort(function (a, b) { return (RANG_NIVEAU[a.niveau] - RANG_NIVEAU[b.niveau]) || String(a.route).localeCompare(String(b.route)); });
+      if (!msgs.length) corps.appendChild(el('p', null, 'Aucun message de circulation en vigueur le ' + dateCourte(ref) + ' à moins de ' + rayon + ' km du tracé.'));
+      msgs.slice(0, 6).forEach(function (m) { corps.appendChild(carte(m)); });
+      if (msgs.length > 6) {
+        var plus = el('details', 'volet volet--interne');
+        plus.appendChild(el('summary', null, (msgs.length - 6) + ' autre' + (msgs.length > 7 ? 's messages' : ' message')));
+        msgs.slice(6).forEach(function (m) { plus.appendChild(carte(m)); });
+        corps.appendChild(plus);
+      }
+      if (belluno && veneto && veneto.length) {
+        corps.appendChild(el('p', 'route-msg__sous', 'Province de Belluno — derniers avis Veneto Strade (non localisés)'));
+        veneto.slice(0, 3).forEach(function (a) {
+          var it = el('div', 'route-msg route-msg--info');
+          var t = el('p', 'route-msg__route');
+          t.appendChild(lienExterne(dateHeure(a.date) + ' — ' + couper(a.titre, 90), a.url));
+          it.appendChild(t);
+          if (a.texte) it.appendChild(el('p', 'route-msg__texte', a.texte));
+          corps.appendChild(it);
+        });
+      }
+      var srcs = (copie && copie.sources) || {};
+      etat.textContent = (direct
+        ? 'Province de Bolzano lue en direct' + (direct.maj ? ' (publication du ' + dateHeure(direct.maj) + ')' : '')
+        : (copie ? 'Copie du ' + dateHeure(copie.genere_le) + ' (source directe injoignable ou hors ligne)' : '')) +
+        (srcs.anas ? ' ; ANAS relu toutes les 3 heures' : '') +
+        '. Messages en vigueur le ' + dateCourte(ref) + ', à moins de ' + rayon + ' km du tracé ; textes officiels en italien.';
+    }
+
+    if (copie) afficher((copie.messages || []).filter(function (m) { return m.source === 'bz'; }), copie.veneto || [], null);
+    else corps.appendChild(el('p', null, 'Messages de circulation en cours de chargement…'));
+
+    var bzDirect = fluxBz().catch(function () { return null; });
+    var venDirect = belluno ? fluxVeneto().catch(function () { return null; }) : Promise.resolve(null);
+    Promise.all([bzDirect, venDirect]).then(function (r) {
+      if (!r[0] && !r[1]) {
+        if (!copie) { vide(corps); corps.appendChild(el('p', null, 'Messages de circulation indisponibles hors ligne.')); }
+        return;
+      }
+      afficher(r[0] ? r[0].messages : (copie ? (copie.messages || []).filter(function (m) { return m.source === 'bz'; }) : []),
+        r[1] || (copie && copie.veneto) || [], r[0]);
+    });
+
+    var liens = el('div', 'puces');
+    liens.appendChild(lienExterne('Centrale trafic Bolzano', 'https://verkehr.provinz.bz.it/it/'));
+    liens.appendChild(lienExterne('ANAS VAI', 'https://www.stradeanas.it/it/vai-traffico-in-tempo-reale'));
+    if (belluno) liens.appendChild(lienExterne('Veneto Strade', 'https://www.venetostrade.it/myportal/VSSPA/home'));
+    d.appendChild(liens);
+    conteneur.appendChild(bloc('Routes et cols', d));
+  }
+
+  function dessinerWebcamsEtape(j, conteneur) {
+    var w = E.webcams && E.webcams.lieux;
+    if (!w) return;
+    var vues = {}, liste = [];
+    lieuxDuJour(j).forEach(function (l) {
+      (w[l.id] || []).forEach(function (c) {
+        if (!c || !c.image || vues[c.image]) return;
+        vues[c.image] = true;
+        liste.push({ cam: c, lieu: l });
+      });
+    });
+    if (!liste.length) return;
+    var g = el('div', 'galerie galerie--etape webcams');
+    var tranche = Math.floor(Date.now() / 600000);   // change toutes les 10 minutes : pas d'image périmée en cache
+    liste.forEach(function (x) {
+      var fig = el('figure', 'photo webcam');
+      var a = document.createElement('a');
+      a.href = x.cam.page || x.cam.image;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      var img = document.createElement('img');
+      img.src = x.cam.image + (x.cam.image.indexOf('?') === -1 ? '?' : '&') + 't=' + tranche;
+      img.alt = 'Webcam ' + x.cam.nom;
+      img.loading = 'lazy';
+      img.addEventListener('error', function () {
+        if (img.parentNode) a.replaceChild(el('span', 'webcam__absente', 'Image indisponible hors ligne — ouvrir la webcam'), img);
+      });
+      a.appendChild(img);
+      fig.appendChild(a);
+      fig.appendChild(el('figcaption', null, x.lieu.nom + ' — ' + x.cam.nom +
+        (x.cam.distance_km >= 1 ? ' (' + String(x.cam.distance_km).replace('.', ',') + ' km)' : '')));
+      g.appendChild(fig);
+    });
+    var d = el('div');
+    d.appendChild(g);
+    var fournisseurs = [];
+    liste.forEach(function (x) { if (x.cam.fournisseur && fournisseurs.indexOf(x.cam.fournisseur) === -1) fournisseurs.push(x.cam.fournisseur); });
+    d.appendChild(el('p', 'jour__note', 'Images en direct' + (fournisseurs.length ? ' (' + fournisseurs.join(', ') + ')' : '') +
+      ', renouvelées toutes les 10 minutes environ ; distance entre le lieu et la caméra entre parenthèses.'));
+    conteneur.appendChild(bloc('Webcams (' + liste.length + ')', d));
+  }
+
+  /* Lever et coucher du soleil à l'horizon dégagé (équation du lever, précision de l'ordre de la minute). */
+  function soleil(lat, lon, dateIso) {
+    var rad = Math.PI / 180;
+    var p = dateIso.split('-').map(Number);
+    var jd = Date.UTC(p[0], p[1] - 1, p[2], 12) / 86400000 + 2440587.5;
+    var n = Math.ceil(jd - 2451545.0 + 0.0008);
+    var jEtoile = n - lon / 360;
+    var M = (357.5291 + 0.98560028 * jEtoile) % 360;
+    var C = 1.9148 * Math.sin(M * rad) + 0.02 * Math.sin(2 * M * rad) + 0.0003 * Math.sin(3 * M * rad);
+    var lambda = (M + C + 180 + 102.9372) % 360;
+    var transit = 2451545.0 + jEtoile + 0.0053 * Math.sin(M * rad) - 0.0069 * Math.sin(2 * lambda * rad);
+    var sinDecl = Math.sin(lambda * rad) * Math.sin(23.4397 * rad);
+    var cosDecl = Math.cos(Math.asin(sinDecl));
+    var cosOmega = (Math.sin(-0.833 * rad) - Math.sin(lat * rad) * sinDecl) / (Math.cos(lat * rad) * cosDecl);
+    if (cosOmega < -1 || cosOmega > 1) return null;
+    var omega = Math.acos(cosOmega) / rad;
+    var versDate = function (j) { return new Date((j - 2440587.5) * 86400000); };
+    return { lever: versDate(transit - omega / 360), coucher: versDate(transit + omega / 360) };
+  }
+
+  function heureLocale(d) {
+    return d.toLocaleTimeString('fr-FR', { timeZone: 'Europe/Rome', hour: '2-digit', minute: '2-digit' });
   }
 
   /* ---------- Budget ---------- */
@@ -1716,12 +2126,15 @@
         var conso = consoReelle();
         ((E.itineraire && E.itineraire.etapes) || []).forEach(function (e) {
           if (!e.distance_km) return;
-          var pl = prixLitre(e.pays);
+          /* Prix du jour relevé sur le tracé quand il existe, sinon le prix indicatif du pays. */
+          var live = prixCarburantDuJour(e.jour, e.pays);
+          var pl = live ? live.prix : prixLitre(e.pays);
           var m = e.distance_km / 100 * conso * pl;
           if (m) base.push({
             jour: e.jour, poste: r.poste,
             libelle: e.distance_km + ' km' + (e.troncons_peage && e.troncons_peage.length ? ' sans péage' : '') +
-              (e.pays ? ' (' + e.pays + ')' : '') + ' à ' + euros(pl) + '/L',
+              (e.pays ? ' (' + e.pays + ')' : '') + ' à ' + euros(pl) + '/L' +
+              (live ? ', prix relevé sur le tracé le ' + dateHeure(live.releve).replace(/,?\s\d\d:\d\d$/, '') : ''),
             montant: m
           });
         });
@@ -2077,6 +2490,8 @@
     dessinerMeteo();
     dessinerRegles();
     dessinerDiagnostic();
+    /* Prix français relus en direct : le budget se recalcule quand ils arrivent. */
+    rafraichirPrixFrance().then(function (n) { if (n) dessinerBudget(); });
 
     var pied = [];
     if (E.scenario) pied.push(E.scenario.libelle);
@@ -2099,7 +2514,10 @@
       lire('commun/randonnees.json'),
       lire('commun/decouvertes.json'),
       lire('commun/pratique.json'),
-      lire('commun/peages.json')
+      lire('commun/peages.json'),
+      lireOptionnel('commun/carburant-live.json'),
+      lireOptionnel('commun/routes-live.json'),
+      lireOptionnel('commun/webcams.json')
     ]).then(function (r) {
       E.scenarios = r[0] || { scenarios: [] };
       E.lieux = r[1] || [];
@@ -2112,6 +2530,10 @@
       E.decouvertes = r[9] || { zones: [] };
       E.pratique = r[10] || {};
       E.peages = r[11] || { troncons: [] };
+      E.carbuLive = r[12];
+      E.routesLive = r[13];
+      E.webcams = r[14];
+      E.prixFranceDirect = {};
       chargerChoix();
 
       E.parId = indexer(E.lieux);

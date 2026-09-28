@@ -871,3 +871,26 @@ table.grille td { font-variant-numeric: tabular-nums; }
 .regle-etape > summary::-webkit-details-marker { display: none; }
 .regle-etape--elevee { border-left: 3px solid #b3261e; }
 .regle-etape p { font-size: 14px; margin: 8px 0 0; }
+
+/* ---------- Données en direct d'une étape ---------- */
+.meteo-etape__soleil { margin: 4px 0 0; font-size: 13px; color: var(--discret); }
+.carbu__station { padding: 8px 0; border-bottom: 1px solid var(--trait); }
+.carbu__station .lien-ext { padding: 5px 10px; font-size: 13px; }
+.carbu__tete { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 0; }
+.carbu__prix { font-weight: 700; font-variant-numeric: tabular-nums; }
+.carbu__nom { font-size: 14px; }
+.carbu__detail { margin: 2px 0 0; font-size: 12.5px; color: var(--discret); }
+.route-msg { padding: 8px 0 8px 10px; border-left: 3px solid var(--trait); margin: 6px 0; }
+.route-msg--fermeture { border-left-color: #b23a2e; }
+.route-msg--gene { border-left-color: #c98a1b; }
+.route-msg--info { border-left-color: var(--accent); }
+.route-msg p { margin: 0; }
+.route-msg__route { font-size: 14px; font-weight: 600; }
+.route-msg__texte { font-size: 13.5px; }
+.route-msg__meta { font-size: 12px; color: var(--discret); }
+.route-msg__sous { margin: 12px 0 4px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--discret); }
+.routes .puces, .carbu .puces { margin-top: 10px; }
+.webcams .webcam img { height: 150px; width: 260px; max-width: 70vw; object-fit: cover; }
+.webcam__absente { display: inline-flex; align-items: center; height: 150px; width: 220px; padding: 12px; border: 1px dashed var(--trait); border-radius: var(--rayon); font-size: 13px; }
+.carbu__station .puces { margin-top: 6px; }
+.webcams figcaption { max-width: 260px; white-space: normal; }
