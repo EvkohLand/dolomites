@@ -7,7 +7,7 @@
     "nuit": "camping-tahiti-finale",
     "trajet": "etape-aller-1",
     "activites": [],
-    "note": "Départ après les dernières expéditions. Première étape ≈ 5 h 20 de conduite hors pauses ; arrivée en soirée à confirmer. Tente de toit, Prince et hauteur 1,95 m à faire valider par écrit. Aucune nuit réservée."
+    "note": "Départ après les dernières expéditions. Première étape très longue sans péage (durée dans le bloc Route) ; arrivée en soirée à confirmer. Tente de toit, Prince et hauteur 1,95 m à faire valider par écrit. Aucune nuit réservée."
   },
   {
     "date": "2026-10-13",
@@ -22,7 +22,7 @@
         "note": "Grand ravitaillement : accès animaux et chariots pour animaux déclarés, parking extérieur pour 1,95 m. Ouvert 08 h 30–20 h 30 selon fiche."
       }
     ],
-    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée. Tester Pinzagen si l’hôte confirme le pré, les dates, le chien et l’accès ; sinon Gamp / Vahrner See. Trajet ≈ 5–6 h hors courses."
+    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée. Tester Pinzagen si l’hôte confirme le pré, les dates, le chien et l’accès ; sinon Gamp / Vahrner See."
   },
   {
     "date": "2026-10-14",
@@ -111,6 +111,6 @@
     "nuit": null,
     "trajet": "etape-retour",
     "activites": [],
-    "note": "Départ tôt : environ 10 à 12 h de conduite hors pauses selon la base de départ. Expéditions Vinted le prochain jour ouvré, après contrôle des échéances exactes dans l’application."
+    "note": "Sans péage, le retour dépasse 20 h de volant : impossible en une journée. Prévoir une nuit en route ou cocher les péages qui valent le coup. Expéditions Vinted le prochain jour ouvré, après contrôle des échéances exactes dans l’application."
   }
 ]

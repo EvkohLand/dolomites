@@ -77,6 +77,13 @@ la nuit alimente l'hébergement, les activités payantes la ligne activités.
 
 ## Changer le budget
 
+Le budget de base ne compte que l'indispensable : nuits, carburant, nourriture,
+marge, et les accès payants qu'une fiche de lieu déclare `"budget": "indispensable"`
+avec sa raison (`raison_budget`). Tout le reste est une **option**, affichée avec son
+prix et une case à cocher : chaque tronçon à péage (avec son verdict), chaque
+remontée ou activité payante, et toute ligne saisie marquée `"option": true`. Les
+cases cochées sont mémorisées dans le navigateur.
+
 `config/scenarios/<scénario>/budget.json` ne recopie aucun prix. Il contient des règles
 qui vont les chercher, et des lignes saisies pour ce qui ne vient d'aucun lieu
 (courses, forfaits, marge).
@@ -101,8 +108,13 @@ communs à tous les scénarios : ils ne sont jamais dupliqués.
 
 ## L'itinéraire par la route
 
-Le tracé suit les vraies routes, calculé une fois et figé dans
-`config/scenarios/<scénario>/trace.json`. Après avoir modifié les étapes :
+Le tracé suit les vraies routes **sans péage**, calculé une fois et figé dans
+`config/scenarios/<scénario>/trace.json`. Le calcul passe par Valhalla (serveur
+public FOSSGIS) : l'OSRM public ne sait pas exclure les péages. Une étape peut
+imposer des points de passage sans arrêt (`via_gps`), lister ses tronçons à péage
+(`troncons_peage`, décrits dans `config/commun/peages.json`) ou garder une route de
+montagne payante dont le prix est porté par la fiche d'un lieu (`peage_local`).
+Après avoir modifié les étapes :
 
 ```bash
 node trace-route.js            # recalcule tous les scénarios

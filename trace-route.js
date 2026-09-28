@@ -1,11 +1,17 @@
 #!/usr/bin/env node
-/* Calcule le VRAI tracé routier de chaque étape et le fige dans
+/* Calcule le VRAI tracé routier de chaque étape, SANS PÉAGE, et le fige dans
    config/scenarios/<id>/trace.json, pour que la carte suive les routes
    et que le tracé reste disponible hors ligne.
 
    Usage : node trace-route.js [id-du-scenario]
-   Le service OSRM est public et sans clé. À relancer seulement si
-   les étapes changent — sinon le fichier figé suffit. */
+
+   Moteur : Valhalla public (FOSSGIS, sans clé). L'OSRM public ne sait pas exclure
+   les péages (« Exclude flag combination is not supported ») ; Valhalla le fait avec
+   exclude_tolls, et on refuse toute réponse qui en contient encore un.
+   Pour les étapes qui listent des troncons_peage, on calcule aussi la variante
+   avec péages, gardée pour comparaison (avec_peages).
+   Une étape qui nomme un peage_local (route de montagne payante dont le prix est
+   porté par la fiche du lieu, ex. route des Tre Cime) garde cette route. */
 'use strict';
 
 const fs = require('fs');
@@ -13,9 +19,10 @@ const path = require('path');
 
 const R = __dirname;
 const CFG = path.join(R, 'config');
-const OSRM = 'https://router.project-osrm.org/route/v1/driving/';
+const VALHALLA = 'https://valhalla1.openstreetmap.de/route';
 
 const lire = p => JSON.parse(fs.readFileSync(p, 'utf8'));
+const pause = ms => new Promise(r => setTimeout(r, ms));
 
 function allege(points, pasMax) {
   // 13 000 points par étape alourdissent le fichier autonome pour rien :
@@ -28,30 +35,51 @@ function allege(points, pasMax) {
   return out;
 }
 
-async function route(dep, arr, par) {
-  const pts = [dep, ...par, arr];
-  // OSRM attend longitude,latitude — l'inverse de nos coordonnées.
-  const coords = pts.map(p => `${p[1]},${p[0]}`).join(';');
-  const url = `${OSRM}${coords}?overview=full&geometries=geojson`;
-  const rep = await fetch(url, { headers: { 'User-Agent': 'dolomites-carnet' } });
-  if (!rep.ok) throw new Error(`OSRM HTTP ${rep.status}`);
-  const d = await rep.json();
-  if (d.code !== 'Ok' || !d.routes || !d.routes.length) throw new Error(`OSRM : ${d.code || 'aucune route'}`);
-  const r = d.routes[0];
+// Polyline Valhalla : précision 6 décimales.
+function decoder(txt) {
+  const out = [];
+  let i = 0, lat = 0, lon = 0;
+  while (i < txt.length) {
+    for (const axe of [0, 1]) {
+      let b, dec = 0, res = 0;
+      do { b = txt.charCodeAt(i++) - 63; res |= (b & 0x1f) << dec; dec += 5; } while (b >= 0x20);
+      const d = (res & 1) ? ~(res >> 1) : (res >> 1);
+      if (axe === 0) lat += d; else lon += d;
+    }
+    out.push([Math.round(lat / 10) / 1e5, Math.round(lon / 10) / 1e5]);
+  }
+  return out;
+}
+
+async function route(etapes, sansPeage, hauteur) {
+  const body = {
+    locations: etapes.map(p => ({ lat: p.gps[0], lon: p.gps[1], type: p.type })),
+    costing: 'auto',
+    costing_options: { auto: { exclude_tolls: sansPeage, height: hauteur } },
+    units: 'km',
+    directions_type: 'none'
+  };
+  const rep = await fetch(VALHALLA, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'User-Agent': 'dolomites-carnet' },
+    body: JSON.stringify(body)
+  });
+  const d = await rep.json().catch(() => ({}));
+  if (!rep.ok || !d.trip) throw new Error(`Valhalla HTTP ${rep.status} ${d.error || ''}`.trim());
+  const s = d.trip.summary;
+  if (sansPeage && s.has_toll) throw new Error('le trajet contient encore un péage');
   return {
-    distance_km: Math.round(r.distance / 1000),
-    duree_h: Math.round(r.duration / 360) / 10,
-    // GeoJSON donne [lon, lat] : on remet dans notre ordre [lat, lon].
-    points: allege(r.geometry.coordinates.map(c => [
-      Math.round(c[1] * 1e5) / 1e5,
-      Math.round(c[0] * 1e5) / 1e5
-    ]), 600)
+    distance_km: Math.round(s.length),
+    duree_h: Math.round(s.time / 360) / 10,
+    points: allege([].concat(...d.trip.legs.map(l => decoder(l.shape))), 600)
   };
 }
 
 (async () => {
   const scenarios = lire(path.join(CFG, 'scenarios.json'));
   const lieux = lire(path.join(CFG, 'commun', 'lieux.json'));
+  const vehicule = lire(path.join(CFG, 'commun', 'vehicule.json'));
+  const hauteur = vehicule.hauteur_tente_fermee_m || 2;
   const parId = new Map(lieux.map(l => [l.id, l]));
   const voulu = process.argv[2];
 
@@ -67,24 +95,42 @@ async function route(dep, arr, par) {
       return l && l.gps;
     };
 
-    const trace = { genere_le: new Date().toISOString().slice(0, 10), source: 'OSRM (router.project-osrm.org)', etapes: {} };
+    const trace = {
+      genere_le: new Date().toISOString().slice(0, 10),
+      source: 'Valhalla (valhalla1.openstreetmap.de), péages exclus, hauteur ' + hauteur + ' m',
+      etapes: {}
+    };
 
     for (const e of itineraire.etapes) {
       const dep = gps(e.de), arr = gps(e.vers);
       if (!dep || !arr) { console.warn(`  ${e.id} : coordonnées manquantes, étape ignorée`); continue; }
-      const par = (e.par || []).map(gps).filter(Boolean);
+      // via_gps = passage imposé au calcul, sans arrêt, parcouru avant les lieux visités (par).
+      const pts = [{ gps: dep, type: 'break' }]
+        .concat((e.via_gps || []).map(g => ({ gps: g, type: 'through' })))
+        .concat((e.par || []).map(gps).filter(Boolean).map(g => ({ gps: g, type: 'break' })))
+        .concat([{ gps: arr, type: 'break' }]);
       process.stdout.write(`  ${s.id} / ${e.id} … `);
       try {
-        const r = await route(dep, arr, par);
+        const r = await route(pts, !e.peage_local, hauteur);
         trace.etapes[e.id] = r;
         const ecart = e.distance_km ? ` (ancien ${e.distance_km} km)` : '';
         e.distance_km = r.distance_km;
         e.duree_h = r.duree_h;
-        console.log(`${r.distance_km} km, ${r.duree_h} h, ${r.points.length} points${ecart}`);
+        let msg = `${r.distance_km} km, ${r.duree_h} h ${e.peage_local ? "avec la route payante " + e.peage_local : "sans péage"}, ${r.points.length} points${ecart}`;
+        if ((e.troncons_peage || []).length) {
+          await pause(1200);
+          // Les passages imposés servent l'itinéraire sans péage : la variante autoroute s'en passe.
+          const a = await route(pts.filter(p => p.type !== 'through'), false, hauteur);
+          e.avec_peages = { distance_km: a.distance_km, duree_h: a.duree_h };
+          msg += ` — avec péages ${a.distance_km} km, ${a.duree_h} h`;
+        } else {
+          delete e.avec_peages;
+        }
+        console.log(msg);
       } catch (err) {
         console.log(`échec — ${err.message}`);
       }
-      await new Promise(r => setTimeout(r, 1200));   // service public : on ne le martèle pas
+      await pause(1200);   // service public : on ne le martèle pas
     }
 
     fs.writeFileSync(path.join(dossier, 'trace.json'), JSON.stringify(trace, null, 2) + '\n', 'utf8');

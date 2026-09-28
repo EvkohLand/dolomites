@@ -12,10 +12,30 @@
       "visites": [],
       "visites_hors_route": [],
       "pays": "FR",
+      "via_gps": [
+        [
+          43.406,
+          6.061
+        ],
+        [
+          43.433,
+          6.737
+        ]
+      ],
+      "troncons_peage": [
+        "fr-a9-a54",
+        "fr-a54-a7",
+        "fr-a8-provence",
+        "fr-a8-riviera",
+        "it-a10-ponente"
+      ],
       "note": "Saint-Gély → Finale Ligure / Tahiti",
-      "peages": 77,
-      "distance_km": 468,
-      "duree_h": 5.3
+      "distance_km": 491,
+      "duree_h": 10.9,
+      "avec_peages": {
+        "distance_km": 467,
+        "duree_h": 5.4
+      }
     },
     {
       "id": "etape-aller-2",
@@ -33,9 +53,19 @@
       ],
       "visites_hors_route": [],
       "pays": "IT",
+      "troncons_peage": [
+        "it-a10-savona",
+        "it-savona-piacenza",
+        "it-a21-a4",
+        "it-a22"
+      ],
       "note": "Ligurie → Bressanone",
-      "distance_km": 504,
-      "duree_h": 5.6
+      "distance_km": 522,
+      "duree_h": 10.8,
+      "avec_peages": {
+        "distance_km": 513,
+        "duree_h": 5.8
+      }
     },
     {
       "id": "etape-j3",
@@ -56,8 +86,8 @@
       ],
       "pays": "IT",
       "note": "Seceda par le Col Raiser",
-      "distance_km": 77,
-      "duree_h": 1.5
+      "distance_km": 79,
+      "duree_h": 2
     },
     {
       "id": "etape-j4",
@@ -76,8 +106,8 @@
       "visites_hors_route": [],
       "pays": "IT",
       "note": "Alpe di Siusi par P1 Spitzbühl",
-      "distance_km": 72,
-      "duree_h": 1.4
+      "distance_km": 71,
+      "duree_h": 1.8
     },
     {
       "id": "etape-retour",
@@ -91,10 +121,42 @@
       "visites": [],
       "visites_hors_route": [],
       "pays": "IT",
+      "via_gps": [
+        [
+          44.30055,
+          8.46509
+        ],
+        [
+          43.7905,
+          7.608
+        ],
+        [
+          43.433,
+          6.737
+        ],
+        [
+          43.406,
+          6.061
+        ]
+      ],
+      "troncons_peage": [
+        "it-a22",
+        "it-a21-a4",
+        "it-savona-piacenza",
+        "it-a10-savona",
+        "it-a10-ponente",
+        "fr-a8-riviera",
+        "fr-a8-provence",
+        "fr-a54-a7",
+        "fr-a9-a54"
+      ],
       "note": "Retour à Saint-Gély-du-Fesc",
-      "peages": 77,
-      "distance_km": 957,
-      "duree_h": 10.5
+      "distance_km": 1012,
+      "duree_h": 21.8,
+      "avec_peages": {
+        "distance_km": 964,
+        "duree_h": 10.5
+      }
     }
   ],
   "note": "Étapes générées depuis le planning : une par journée avec déplacement, passant par les lieux accessibles en voiture. Les sommets de remontées, plateaux et randonnées en sont exclus — on ne les rejoint pas au volant. Relancer node trace-route.js après modification."
