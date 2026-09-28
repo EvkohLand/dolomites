@@ -707,3 +707,45 @@ table.grille td { font-variant-numeric: tabular-nums; }
 .alerte-hiver p { margin: 0 0 .55rem; }
 .alerte-hiver ul { margin: 0; padding-left: 1.2rem; }
 .alerte-hiver li + li { margin-top: .3rem; }
+
+/* Idées, remontées, visites et bonnes adresses par zone */
+.jour-decouvertes { margin-top: 1rem; }
+.jour-decouvertes__titre { margin: 0 0 .6rem; font-size: 1rem; }
+.zone-decouverte { display: grid; gap: .45rem; }
+.decouverte-card {
+  border: 1px solid rgba(120,110,95,.28);
+  border-radius: 10px;
+  padding: .15rem .7rem;
+  background: rgba(255,255,255,.42);
+}
+.decouverte-card summary {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .25rem .55rem;
+  align-items: baseline;
+  padding: .55rem 0;
+}
+.decouverte-card__type {
+  text-transform: uppercase;
+  font-size: .68rem;
+  letter-spacing: .06em;
+  opacity: .7;
+}
+.decouverte-card__nom { font-weight: 700; }
+.decouverte-card__dispo {
+  grid-column: 2;
+  font-size: .78rem;
+  opacity: .78;
+}
+.decouverte-card__resume { margin: .15rem 0 .65rem; }
+.decouverte-grid {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: .2rem .7rem;
+  margin: .4rem 0 .7rem;
+  font-size: .86rem;
+}
+.decouverte-grid dt { font-weight: 700; }
+.decouverte-grid dd { margin: 0; }
+.decouverte-source { display: inline-block; margin: 0 0 .65rem; }
