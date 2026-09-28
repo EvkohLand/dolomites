@@ -423,6 +423,42 @@ if (zone && Array.isArray(lieux)) {
   });
 }
 
+/* ---------- Données en direct et webcams : facultatives, la page s'en passe ---------- */
+
+function lireFacultatif(rel) {
+  return fs.existsSync(path.join(RACINE, rel)) ? lire(rel) : null;
+}
+
+const webcams = lireFacultatif('commun/webcams.json');
+if (webcams) {
+  chasserDonneesPerso('commun/webcams.json', webcams, '');
+  if (!webcams.lieux || typeof webcams.lieux !== 'object') err('commun/webcams.json', 'objet « lieux » absent');
+  else for (const [id, cams] of Object.entries(webcams.lieux)) {
+    if (!ids.has(id)) err('commun/webcams.json', `lieu « ${id} » introuvable dans commun/lieux.json`);
+    if (!Array.isArray(cams)) { err('commun/webcams.json', `« ${id} » : liste de webcams attendue`); continue; }
+    cams.forEach((c, i) => {
+      if (!c || !/^https:\/\//.test(c.image || '')) err('commun/webcams.json', `« ${id} » webcam #${i} : image HTTPS obligatoire`);
+    });
+  }
+}
+
+const carbuLive = lireFacultatif('commun/carburant-live.json');
+if (carbuLive) {
+  if (!carbuLive.stations || !carbuLive.jours) err('commun/carburant-live.json', 'champs « stations » et « jours » attendus');
+  else for (const [sc, jours] of Object.entries(carbuLive.jours)) {
+    for (const [jour, liste] of Object.entries(jours || {})) {
+      (liste || []).forEach(x => {
+        const s = carbuLive.stations[x && x.id];
+        if (!s) err('commun/carburant-live.json', `${sc} jour ${jour} : station « ${x && x.id} » absente`);
+        else if (typeof s.gazole !== 'number' || !Array.isArray(s.gps)) err('commun/carburant-live.json', `station « ${x.id} » : prix ou gps manquant`);
+      });
+    }
+  }
+}
+
+const routesLive = lireFacultatif('commun/routes-live.json');
+if (routesLive && !Array.isArray(routesLive.messages)) err('commun/routes-live.json', 'liste « messages » attendue');
+
 /* ---------- Rapport ---------- */
 
 if (alertes.length) {

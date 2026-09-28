@@ -1,0 +1,532 @@
+{
+  "note": "Images fixes publiques, rafraîchies par leur exploitant toutes les 10 minutes environ. Distance à vol d'oiseau entre le lieu et la caméra ; une caméra éloignée montre le secteur, pas le lieu lui-même. Aucune caméra publique trouvée pour Misurina, le lac de Braies, l'Alpe di Fanes et Pederü, ni près de Bressanone.",
+  "verifie_le": "2026-09-28",
+  "sources": [
+    {
+      "libelle": "Panomax (liste publique des caméras)",
+      "url": "https://api.panomax.com/1.0/maps/panomaxweb"
+    },
+    {
+      "libelle": "foto-webcam.eu (liste publique des caméras)",
+      "url": "https://www.foto-webcam.eu/webcam/include/metadata.php"
+    }
+  ],
+  "lieux": {
+    "seceda": [
+      {
+        "nom": "Valgardena Seceda",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1044/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1044/recent_reduced.jpg",
+        "gps": [
+          46.596719,
+          11.724135
+        ],
+        "panorama": true,
+        "distance_km": 0.4
+      }
+    ],
+    "col-raiser": [
+      {
+        "nom": "Col Raiser",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1226/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1226/recent_reduced.jpg",
+        "gps": [
+          46.584692,
+          11.745181
+        ],
+        "panorama": true,
+        "distance_km": 0.0
+      }
+    ],
+    "parking-col-raiser": [
+      {
+        "nom": "Col Raiser",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1226/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1226/recent_reduced.jpg",
+        "gps": [
+          46.584692,
+          11.745181
+        ],
+        "panorama": true,
+        "distance_km": 2.3
+      }
+    ],
+    "alpe-di-siusi": [
+      {
+        "nom": "Seiser Alm",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1389/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1389/recent_reduced.jpg",
+        "gps": [
+          46.54243,
+          11.617214
+        ],
+        "panorama": true,
+        "distance_km": 4.1
+      },
+      {
+        "nom": "Bullaccia",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/7296/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/7296/recent_reduced.jpg",
+        "gps": [
+          46.548784,
+          11.613209
+        ],
+        "panorama": true,
+        "distance_km": 3.9
+      }
+    ],
+    "parking-alpe-p1": [
+      {
+        "nom": "Seiser Alm",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1389/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1389/recent_reduced.jpg",
+        "gps": [
+          46.54243,
+          11.617214
+        ],
+        "panorama": true,
+        "distance_km": 1.0
+      }
+    ],
+    "parking-alpe-p2": [
+      {
+        "nom": "Seiser Alm",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1389/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1389/recent_reduced.jpg",
+        "gps": [
+          46.54243,
+          11.617214
+        ],
+        "panorama": true,
+        "distance_km": 0.3
+      }
+    ],
+    "lagazuoi": [
+      {
+        "nom": "Col Gallina",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/7200/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/7200/recent_reduced.jpg",
+        "gps": [
+          46.515346,
+          12.016948
+        ],
+        "panorama": true,
+        "distance_km": 0.8
+      },
+      {
+        "nom": "5 Torri",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "gps": [
+          46.50809,
+          12.046883
+        ],
+        "panorama": true,
+        "distance_km": 3.2
+      }
+    ],
+    "passo-falzarego": [
+      {
+        "nom": "Col Gallina",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/7200/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/7200/recent_reduced.jpg",
+        "gps": [
+          46.515346,
+          12.016948
+        ],
+        "panorama": true,
+        "distance_km": 0.7
+      },
+      {
+        "nom": "5 Torri",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "gps": [
+          46.50809,
+          12.046883
+        ],
+        "panorama": true,
+        "distance_km": 3.1
+      }
+    ],
+    "parking-bai-de-dones": [
+      {
+        "nom": "5 Torri",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "gps": [
+          46.50809,
+          12.046883
+        ],
+        "panorama": true,
+        "distance_km": 1.4
+      }
+    ],
+    "cinque-torri": [
+      {
+        "nom": "5 Torri",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "gps": [
+          46.50809,
+          12.046883
+        ],
+        "panorama": true,
+        "distance_km": 0.6
+      },
+      {
+        "nom": "Col Gallina",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/7200/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/7200/recent_reduced.jpg",
+        "gps": [
+          46.515346,
+          12.016948
+        ],
+        "panorama": true,
+        "distance_km": 3.0
+      }
+    ],
+    "passo-giau": [
+      {
+        "nom": "5 Torri",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/6678/recent_reduced.jpg",
+        "gps": [
+          46.50809,
+          12.046883
+        ],
+        "panorama": true,
+        "distance_km": 2.9
+      }
+    ],
+    "lago-sorapis": [
+      {
+        "nom": "Rifugio Faloria",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/6192/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/6192/recent_reduced.jpg",
+        "gps": [
+          46.532541,
+          12.172881
+        ],
+        "panorama": true,
+        "distance_km": 3.5
+      }
+    ],
+    "passo-tre-croci": [
+      {
+        "nom": "Rifugio Faloria",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/6192/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/6192/recent_reduced.jpg",
+        "gps": [
+          46.532541,
+          12.172881
+        ],
+        "panorama": true,
+        "distance_km": 3.6
+      }
+    ],
+    "camping-cortina": [
+      {
+        "nom": "Rifugio Faloria",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/6192/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/6192/recent_reduced.jpg",
+        "gps": [
+          46.532541,
+          12.172881
+        ],
+        "panorama": true,
+        "distance_km": 3.2
+      },
+      {
+        "nom": "Cortina Duca d'Aosta",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/2880/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/2880/recent_reduced.jpg",
+        "gps": [
+          46.53771,
+          12.085384
+        ],
+        "panorama": true,
+        "distance_km": 4.1
+      }
+    ],
+    "pralongia": [
+      {
+        "nom": "Rifugio Bioch",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1134/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1134/recent_reduced.jpg",
+        "gps": [
+          46.547184,
+          11.90979
+        ],
+        "panorama": true,
+        "distance_km": 2.0
+      }
+    ],
+    "corvara": [
+      {
+        "nom": "Rifugio Bioch",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1134/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1134/recent_reduced.jpg",
+        "gps": [
+          46.547184,
+          11.90979
+        ],
+        "panorama": true,
+        "distance_km": 2.7
+      },
+      {
+        "nom": "Alta Badia / San Cassiano - La Villa",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/st-kassian/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/st-kassian/",
+        "gps": [
+          46.581471,
+          11.919009
+        ],
+        "altitude": 1530,
+        "distance_km": 4.8
+      }
+    ],
+    "camping-sass-dlacia": [
+      {
+        "nom": "Alta Badia / San Cassiano - La Villa",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/st-kassian/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/st-kassian/",
+        "gps": [
+          46.581471,
+          11.919009
+        ],
+        "altitude": 1530,
+        "distance_km": 4.9
+      }
+    ],
+    "passo-gardena": [
+      {
+        "nom": "Gardena Dantercepies",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1186/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1186/recent_reduced.jpg",
+        "gps": [
+          46.553512,
+          11.799889
+        ],
+        "panorama": true,
+        "distance_km": 0.8
+      }
+    ],
+    "sass-pordoi": [
+      {
+        "nom": "Pordoi",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1293/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1293/recent_reduced.jpg",
+        "gps": [
+          46.477902,
+          11.817875
+        ],
+        "panorama": true,
+        "distance_km": 1.2
+      }
+    ],
+    "passo-pordoi": [
+      {
+        "nom": "Pordoi",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/1293/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/1293/recent_reduced.jpg",
+        "gps": [
+          46.477902,
+          11.817875
+        ],
+        "panorama": true,
+        "distance_km": 1.2
+      }
+    ],
+    "route-tre-cime": [
+      {
+        "nom": "Toblach / Dobbiaco - Drei-Zinnen-Blick / Vista Tre Cime / View of the Three Peaks",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/dreizinnenblick/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/dreizinnenblick/",
+        "gps": [
+          46.641364,
+          12.23141
+        ],
+        "altitude": 1405,
+        "distance_km": 5.8
+      }
+    ],
+    "rando-tre-cime": [
+      {
+        "nom": "Toblach / Dobbiaco - Drei-Zinnen-Blick / Vista Tre Cime / View of the Three Peaks",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/dreizinnenblick/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/dreizinnenblick/",
+        "gps": [
+          46.641364,
+          12.23141
+        ],
+        "altitude": 1405,
+        "distance_km": 5.9
+      }
+    ],
+    "lago-landro": [
+      {
+        "nom": "Toblach / Dobbiaco - Drei-Zinnen-Blick / Vista Tre Cime / View of the Three Peaks",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/dreizinnenblick/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/dreizinnenblick/",
+        "gps": [
+          46.641364,
+          12.23141
+        ],
+        "altitude": 1405,
+        "distance_km": 1.0
+      }
+    ],
+    "prato-piazza": [
+      {
+        "nom": "Toblach / Dobbiaco - Drei-Zinnen-Blick / Vista Tre Cime / View of the Three Peaks",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/dreizinnenblick/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/dreizinnenblick/",
+        "gps": [
+          46.641364,
+          12.23141
+        ],
+        "altitude": 1405,
+        "distance_km": 4.6
+      }
+    ],
+    "camping-olympia": [
+      {
+        "nom": "Alpenhotel Ratsberg - Toblach - Blick nach Süden",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/toblach/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/toblach/",
+        "gps": [
+          46.748771,
+          12.217415
+        ],
+        "altitude": 1630,
+        "distance_km": 2.4
+      },
+      {
+        "nom": "Apparthotel Germania - Neu-Toblach - Blick nach Norden",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/neu-toblach/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/neu-toblach/",
+        "gps": [
+          46.724241,
+          12.222665
+        ],
+        "altitude": 1240,
+        "distance_km": 2.5
+      }
+    ],
+    "lago-dobbiaco": [
+      {
+        "nom": "Apparthotel Germania - Neu-Toblach - Blick nach Norden",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/neu-toblach/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/neu-toblach/",
+        "gps": [
+          46.724241,
+          12.222665
+        ],
+        "altitude": 1240,
+        "distance_km": 2.1
+      }
+    ],
+    "parking-lago-dobbiaco": [
+      {
+        "nom": "Apparthotel Germania - Neu-Toblach - Blick nach Norden",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/neu-toblach/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/neu-toblach/",
+        "gps": [
+          46.724241,
+          12.222665
+        ],
+        "altitude": 1240,
+        "distance_km": 2.0
+      }
+    ],
+    "kronplatz": [
+      {
+        "nom": "Bruneck - Pustertal / Südtirol - Blick nach Südwesten",
+        "fournisseur": "foto-webcam.eu",
+        "image": "https://www.foto-webcam.eu/webcam/bruneck/current/640.jpg",
+        "page": "https://www.foto-webcam.eu/webcam/bruneck/",
+        "gps": [
+          46.796379,
+          11.941309
+        ],
+        "altitude": 839,
+        "distance_km": 2.7
+      },
+      {
+        "nom": "Kronplatz antenna",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/2044/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/2044/recent_reduced.jpg",
+        "gps": [
+          46.740016,
+          11.959848
+        ],
+        "panorama": true,
+        "distance_km": 3.8
+      }
+    ],
+    "santa-maddalena": [
+      {
+        "nom": "Plose - Plancios",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/12997/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/12997/recent_reduced.jpg",
+        "gps": [
+          46.684075,
+          11.711929
+        ],
+        "panorama": true,
+        "distance_km": 4.7
+      }
+    ],
+    "ferme-gletscher-hons": [
+      {
+        "nom": "Plose - Plancios",
+        "fournisseur": "Panomax",
+        "image": "https://panodata.panomax.com/cams/12997/recent_reduced.jpg",
+        "page": "https://panodata.panomax.com/cams/12997/recent_reduced.jpg",
+        "gps": [
+          46.684075,
+          11.711929
+        ],
+        "panorama": true,
+        "distance_km": 4.7
+      }
+    ]
+  }
+}

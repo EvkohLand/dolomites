@@ -1,0 +1,70 @@
+name: Actualiser les données en direct
+
+# Carburant : une fois par jour, après la mise à jour de 8 h du ministère italien.
+# Routes : toutes les 3 heures (copie de secours ; la page lit Bolzano et Veneto Strade en direct).
+on:
+  schedule:
+    - cron: "40 7 * * *"
+    - cron: "10 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: donnees-live
+  cancel-in-progress: false
+
+jobs:
+  actualiser:
+    # Runner hébergé par GitHub : disponible même quand le runner privé est éteint.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      # Une source en panne ne bloque pas l'autre : chaque script garde la copie précédente.
+      - name: Prix du carburant le long des tracés
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '40 7 * * *'
+        continue-on-error: true
+        run: node scripts/carburant-live.js
+
+      - name: Messages de circulation près des tracés
+        continue-on-error: true
+        run: node scripts/routes-live.js
+
+      - name: Valider la configuration
+        run: node validate.js
+
+      - name: Enregistrer les données
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/commun/carburant-live.json config/commun/routes-live.json
+          if git diff --cached --quiet; then
+            echo "Données inchangées."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "chore: actualiser carburant et routes en direct"
+          git pull --rebase origin main
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Un push fait avec le jeton du workflow ne déclenche pas la publication : on la lance.
+      - name: Publier la page
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail-with-body -sS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/workflows/pages.yml/dispatches" \
+            -d '{"ref":"main"}'
