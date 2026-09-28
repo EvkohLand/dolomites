@@ -1,154 +1,171 @@
 [
   {
-    "date": "2026-10-12",
+    "date": "2026-10-09",
     "jour": 1,
-    "titre": "Saint-Gély → Finale Ligure / Tahiti",
+    "titre": "Saint-Gély → Finale Ligure par l’autoroute",
     "zone": "Route / Ligurie",
     "nuit": "camping-tahiti-finale",
     "trajet": "etape-aller-1",
+    "autoroute": true,
+    "troncons_peage": [
+      "fr-a9-a54",
+      "fr-a54-a7",
+      "fr-a8-provence",
+      "fr-a8-riviera",
+      "it-a10-ponente"
+    ],
     "activites": [],
-    "note": "Départ après les dernières expéditions. Première étape très longue sans péage (durée dans le bloc Route) ; arrivée en soirée à confirmer. Tente de toit, Prince et hauteur 1,95 m à faire valider par écrit. Aucune nuit réservée."
+    "note": "Départ à 13 h après les derniers dépôts Vinted. Tout en autoroute (A9, A54, A8, A10) : ≈ 5 h 30 de volant, péages comptés au budget ; avec deux pauses, arrivée vers 19 h 30 au camping Tahiti. Le camping ne publie aucune heure limite d’arrivée (« check-in à partir de 15 h ») : annoncer l’arrivée vers 19 h 30 par e-mail et obtenir une confirmation écrite avant de partir. Tente de toit, Prince et hauteur 1,95 m à faire valider par écrit. Aucune nuit réservée."
   },
   {
-    "date": "2026-10-13",
+    "date": "2026-10-10",
     "jour": 2,
-    "titre": "Ligurie → Bressanone",
-    "zone": "Route / Bressanone",
-    "nuit": "camping-loewenhof",
+    "titre": "Finale → Lago di Carezza → Varna",
+    "zone": "Route / Carezza",
+    "nuit": "camping-vahrner-see",
     "trajet": "etape-aller-2",
+    "autoroute": true,
+    "sans_autoroute_apres": "lago-carezza",
+    "troncons_peage": [
+      "it-a10-savona",
+      "it-savona-piacenza",
+      "it-a21-a4",
+      "it-a22-bolzano"
+    ],
     "activites": [
       {
         "lieu": "courses-conad-savone",
-        "note": "Grand ravitaillement : accès animaux et chariots pour animaux déclarés, parking extérieur pour 1,95 m. Ouvert 08 h 30–20 h 30 selon fiche."
-      }
-    ],
-    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée. Tester Pinzagen si l’hôte confirme le pré, les dates, le chien et l’accès ; sinon Gamp / Vahrner See. Plein obligatoire en début d’étape (Savone, avant l’Apennin) : 1 013 km en deux jours pour 650 km d’autonomie."
-  },
-  {
-    "date": "2026-10-14",
-    "jour": 3,
-    "titre": "Val di Funes et les Odle",
-    "zone": "Funes / Bressanone",
-    "nuit": "camping-loewenhof",
-    "trajet": null,
-    "activites": [
-      {
-        "lieu": "santa-maddalena",
-        "heure": "09:30"
+        "heure": "08:30",
+        "note": "Grand ravitaillement et plein avant l’autoroute : chiens admis, parking extérieur pour 1,95 m."
       },
       {
-        "lieu": "adolf-munkel",
-        "heure": "11:00"
+        "lieu": "lago-carezza",
+        "heure": "15:00",
+        "note": "Tour du lac à pied (1,2 km, 20 à 30 min, plat) : parking P1 au bord du lac, 5 € la première heure. Éviter les parkings Simhild et Paolina, reliés par une passerelle suspendue."
       }
     ],
-    "note": "Randonnée avec Prince selon état du sentier et énergie ; retour à la même base."
+    "note": "Départ de Finale à 7 h 45, courses à Savone dès l’ouverture (8 h 30). Autoroute de Savone à Bolzano Nord (A10, A26, A21, A4, A22) : ≈ 5 h 45 de volant avec la route du Val d’Ega, arrivée au lac vers 15 h. Ensuite, plus aucune autoroute : Carezza → Bolzano → Varna par la SS12 (≈ 1 h 45), arrivée au camping vers 18 h. En tout ≈ 7 h 30 de volant. Camping Vahrner See sans réservation, on s’annonce à l’auberge (ouverte jusqu’à 22 h le samedi) ; Löwenhof ou Gamp en repli."
   },
   {
-    "date": "2026-10-15",
-    "jour": 4,
-    "titre": "Seceda par le Col Raiser",
-    "zone": "Val Gardena",
-    "nuit": "camping-loewenhof",
+    "date": "2026-10-11",
+    "jour": 3,
+    "titre": "Val di Funes : le cinéma des Odle et Santa Maddalena",
+    "zone": "Funes / Bressanone",
+    "nuit": "camping-vahrner-see",
     "trajet": null,
     "activites": [
       {
-        "lieu": "col-raiser",
-        "heure": "08:30",
-        "note": "Option ≈ 73 € à deux avec Prince, puis marche vers la crête ; dernière descente à vérifier."
+        "lieu": "cinema-odle",
+        "heure": "09:00",
+        "note": "Parking de Zans (10 €), puis le sentier Adolf Munkel jusqu’aux transats du refuge Geisleralm (≈ 1 h 40 de montée douce, sans passage vertigineux). Refuge ouvert le dimanche, fermé le lundi ; transats en accès libre sans neige."
+      },
+      {
+        "lieu": "santa-maddalena",
+        "heure": "15:00",
+        "note": "Parking Filler 10 €, puis la boucle de l’église à pied (facile, sans vertige)."
       }
     ],
-    "note": "Si neige ou terrain glissant, choisir le téléphérique direct Ortisei–Seceda (≈ 155 € à trois) ou une promenade en vallée. Pas de double remontée au budget."
+    "note": "Deux parkings payants dans la journée (Zans et Santa Maddalena, 20 € en tout) : aucun stationnement gratuit dans la vallée. Garder le ticket de Zans pour la journée."
   },
   {
-    "date": "2026-10-16",
-    "jour": 5,
-    "titre": "Alpe di Siusi → Alta Badia",
-    "zone": "Alpe di Siusi / Alta Badia",
-    "nuit": "camping-sass-dlacia",
+    "date": "2026-10-12",
+    "jour": 4,
+    "titre": "Alpe di Siusi à pied, puis Ortisei",
+    "zone": "Alpe di Siusi",
+    "nuit": "camping-vahrner-see",
     "trajet": null,
     "activites": [
       {
         "lieu": "parking-alpe-p1",
         "heure": "08:15",
-        "note": "15 € la voiture ; réservation en ligne ouverte 6 jours avant, possible jusqu’au matin même ; entrée avant 9 h."
+        "note": "Entrée sur la route du plateau avant 9 h ; réservation en ligne ouverte 6 jours avant. Balade sans vertige : boucle du Tschon Stoan ou Spitzbühl – Tschapit."
       },
       {
-        "lieu": "passo-gardena",
-        "heure": "15:00"
-      },
-      {
-        "lieu": "corvara",
-        "heure": "16:00"
+        "lieu": "parking-ortisei-gratuit",
+        "heure": "15:00",
+        "note": "Parking Fever gratuit 1 h 30 avec disque : le temps du centre d’Ortisei à pied."
       }
     ],
-    "note": "Départ tôt de Bressanone, promenade sur l’Alpe puis transfert par le Passo Gardena. Réduire la marche si fatigue et vérifier l’accès du col. Arrivée Sass Dlacia, emplacement adapté à l’auto et Prince à confirmer."
+    "note": "Aucune remontée : la télécabine Ortisei – Alpe di Siusi reste en option dans sa fiche. Descente du plateau par Siusi et Castelrotto vers Ortisei (≈ 40 min)."
   },
   {
-    "date": "2026-10-17",
-    "jour": 6,
-    "titre": "Lagazuoi et Cinque Torri à pied",
-    "zone": "Alta Badia / Falzarego",
-    "nuit": "camping-sass-dlacia",
+    "date": "2026-10-13",
+    "jour": 5,
+    "titre": "Varna → Lago di Anterselva → Dobbiaco",
+    "zone": "Anterselva / Dobbiaco",
+    "nuit": "camping-olympia",
     "trajet": null,
     "activites": [
       {
-        "lieu": "passo-falzarego",
-        "heure": "09:00"
-      },
-      {
-        "lieu": "lagazuoi",
-        "heure": "09:30",
-        "note": "Dernier jour d'ouverture le 18 octobre (saison 6 juin – 18 octobre 2026) : vérifier le matin même."
-      },
-      {
-        "lieu": "cinque-torri",
-        "heure": "13:30",
-        "note": "Télésiège fermé après le 11/10 : uniquement à pied si sentier sec."
+        "lieu": "lago-anterselva",
+        "heure": "14:00",
+        "note": "Tour du lac à pied (4 km, ≈ 1 h 10, plat). Parking du centre de biathlon : 5 € à partir de 14 h, 10 € avant."
       }
     ],
-    "note": "Ne pas tenter de tout faire si la marche aux Cinque Torri est trop longue ; Lagazuoi prioritaire et sentiers adaptés à Prince seulement."
+    "note": "Matinée libre à la base, départ vers 12 h 45 pour arriver au lac après 14 h. Val Pusteria par la SS49 jusqu’à Rasun, puis la vallée d’Anterselva ; arrivée au camping Olympia vers 16 h 30 (réception 15 h – 23 h, 2 nuits minimum)."
   },
   {
-    "date": "2026-10-18",
+    "date": "2026-10-14",
+    "jour": 6,
+    "titre": "Lago di Braies",
+    "zone": "Braies",
+    "nuit": "camping-olympia",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "lago-braies",
+        "heure": "08:00",
+        "note": "Tour du lac (≈ 1 h 15), parking P2."
+      }
+    ],
+    "note": "Arriver tôt pour le lac sans foule. Prato Piazza reste en option (parking 10 €), non compté. Retour à Olympia."
+  },
+  {
+    "date": "2026-10-15",
     "jour": 7,
-    "titre": "Misurina / Tre Cime → Dobbiaco",
+    "titre": "Tre Cime à pied depuis Antorno",
     "zone": "Tre Cime / Dobbiaco",
     "nuit": "camping-olympia",
     "trajet": null,
     "activites": [
       {
-        "lieu": "courses-conad-city-cortina",
-        "heure": "09:30",
-        "note": "Courses du dimanche et du retour en traversant Cortina : Conad City ouvert 7 j/7 de 8 h à 20 h ; tout Dobbiaco est fermé le dimanche. Chien non admis : à tour de rôle."
-      },
-      {
-        "lieu": "misurina",
-        "heure": "08:00"
+        "lieu": "lago-landro",
+        "heure": "08:00",
+        "note": "Belvédère des Tre Cime depuis la route, places gratuites au sud du lac."
       },
       {
         "lieu": "lago-antorno",
-        "heure": "08:30"
-      },
-      {
-        "lieu": "route-tre-cime",
-        "heure": "09:00",
-        "note": "Route payante ≈ 40 €, réservation si ouverte ; neige et fermeture possibles."
+        "heure": "08:45",
+        "note": "Parking gratuit : départ à pied."
       },
       {
         "lieu": "rando-tre-cime",
-        "heure": "09:30"
+        "heure": "09:00",
+        "note": "Montée à pied par le sentier 101 jusqu’au refuge Auronzo (≈ 1 h 45), puis le chemin large vers le refuge Lavaredo. Sans passage vertigineux ; faire demi-tour si neige."
       }
     ],
-    "note": "Si la route des Tre Cime est fermée ou enneigée, garder Misurina/Antorno et aller à Olympia ; ne payer la route qu’après confirmation de son ouverture."
+    "note": "Gratuit : la route à péage d’Auronzo (40 €) reste en option dans sa fiche, non comptée. Si neige, garder Landro, Antorno et Misurina à pied."
   },
   {
-    "date": "2026-10-19",
+    "date": "2026-10-16",
     "jour": 8,
-    "titre": "Retour à Saint-Gély-du-Fesc",
+    "titre": "Retour à Saint-Gély par l’autoroute",
     "zone": "Route",
     "nuit": null,
     "trajet": "etape-retour",
+    "autoroute": true,
+    "troncons_peage": [
+      "it-a22",
+      "it-a21-a4",
+      "it-savona-piacenza",
+      "it-a10-savona",
+      "it-a10-ponente",
+      "fr-a8-riviera",
+      "fr-a8-provence",
+      "fr-a54-a7",
+      "fr-a9-a54"
+    ],
     "activites": [],
-    "note": "Sans péage, le retour dépasse 20 h de volant : impossible en une journée. Prévoir une nuit en route ou cocher les péages qui valent le coup. Expéditions Vinted le prochain jour ouvré, après contrôle des échéances exactes dans l’application."
+    "note": "ATTENTION : ≈ 11 h 40 de volant, au-delà de 11 h. Val Pusteria sans autoroute jusqu’à Bressanone, puis tout en autoroute (A22, A4, A21, A26, A10, A8, A9), péages comptés au budget. Partir à 6 h, relais au volant toutes les 2 h ; sinon couper en deux avec une nuit en Ligurie (camping Tahiti, non comptée). Expéditions Vinted dès le jour ouvré suivant ce vendredi, après contrôle des échéances dans l’application."
   }
 ]

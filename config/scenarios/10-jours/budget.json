@@ -54,14 +54,20 @@
     {
       "jour": 2,
       "poste": "nourriture",
-      "libelle": "Courses de départ avec Prince",
+      "libelle": "Courses de départ avec Prince (Conad de Savone)",
       "montant": 70
     },
     {
-      "jour": 6,
+      "jour": 5,
       "poste": "nourriture",
-      "libelle": "Ravitaillement de route",
+      "libelle": "Ravitaillement avant la base est",
       "montant": 60
+    },
+    {
+      "jour": null,
+      "poste": "nourriture",
+      "libelle": "Complément pique-niques et repas au camping (objectif ≈ 20 €/jour à deux, croquettes comprises)",
+      "montant": 90
     },
     {
       "jour": null,
@@ -71,5 +77,5 @@
     }
   ],
   "objectif_par_jour": 95,
-  "note": "Nuits = estimations pour deux adultes, Prince et voiture à tente de toit ; ni disponibilité ni réservation. L’électricité, les taxes inconnues et les suppléments non confirmés sont exclus. Les dates des anciens devis ne sont pas transposées. Aucun abonnement Agricamper renouvelé."
+  "note": "Budget le plus économique : nuits, carburant, péages de l’aller et du retour (autoroute), nourriture, marge, et les seuls parkings sans alternative gratuite. Aucune remontée mécanique ni activité payante au programme : elles restent des options, non comptées sauf si on les coche. Nuits = estimations pour deux adultes, Prince et voiture à tente de toit ; ni disponibilité ni réservation. L’électricité, les taxes inconnues et les suppléments non confirmés sont exclus."
 }

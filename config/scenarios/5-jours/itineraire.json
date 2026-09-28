@@ -5,140 +5,117 @@
       "ordre": 1,
       "jour": 1,
       "type": "aller",
-      "libelle": "Saint-Gély → Finale Ligure / Tahiti",
+      "libelle": "Saint-Gély → Finale Ligure par l’autoroute",
       "de": "depart",
       "vers": "camping-tahiti-finale",
       "par": [],
       "visites": [],
       "visites_hors_route": [],
       "pays": "FR",
-      "via_gps": [
-        [
-          43.406,
-          6.061
-        ],
-        [
-          43.433,
-          6.737
-        ]
-      ],
+      "note": "Saint-Gély → Finale Ligure par l’autoroute",
+      "distance_km": 468,
+      "duree_h": 5.4,
+      "autoroute": true,
       "troncons_peage": [
         "fr-a9-a54",
         "fr-a54-a7",
         "fr-a8-provence",
         "fr-a8-riviera",
         "it-a10-ponente"
-      ],
-      "note": "Saint-Gély → Finale Ligure / Tahiti",
-      "distance_km": 491,
-      "duree_h": 10.9,
-      "avec_peages": {
-        "distance_km": 467,
-        "duree_h": 5.4
-      }
+      ]
     },
     {
       "id": "etape-aller-2",
       "ordre": 2,
       "jour": 2,
       "type": "aller",
-      "libelle": "Ligurie → Bressanone",
+      "libelle": "Finale → Lago di Carezza → Varna",
       "de": "camping-tahiti-finale",
-      "vers": "camping-loewenhof",
+      "vers": "camping-vahrner-see",
       "par": [
-        "courses-conad-savone"
+        "courses-conad-savone",
+        "lago-carezza"
       ],
       "visites": [
-        "courses-conad-savone"
+        "courses-conad-savone",
+        "lago-carezza"
       ],
       "visites_hors_route": [],
       "pays": "IT",
+      "note": "Finale → Lago di Carezza → Varna",
+      "distance_km": 557,
+      "duree_h": 7.5,
+      "autoroute": true,
+      "sans_autoroute_apres": "lago-carezza",
       "troncons_peage": [
         "it-a10-savona",
         "it-savona-piacenza",
         "it-a21-a4",
-        "it-a22"
-      ],
-      "note": "Ligurie → Bressanone",
-      "distance_km": 522,
-      "duree_h": 10.8,
-      "avec_peages": {
-        "distance_km": 513,
-        "duree_h": 5.8
-      }
+        "it-a22-bolzano"
+      ]
     },
     {
       "id": "etape-j3",
       "ordre": 3,
       "jour": 3,
       "type": "boucle",
-      "libelle": "Seceda par le Col Raiser",
-      "de": "camping-loewenhof",
-      "vers": "camping-loewenhof",
+      "libelle": "Val di Funes : le cinéma des Odle et Santa Maddalena",
+      "de": "camping-vahrner-see",
+      "vers": "camping-vahrner-see",
       "par": [
-        "parking-col-raiser"
+        "adolf-munkel",
+        "santa-maddalena"
       ],
       "visites": [
-        "col-raiser"
+        "cinema-odle",
+        "santa-maddalena"
       ],
       "visites_hors_route": [
-        "col-raiser"
+        "cinema-odle"
       ],
       "pays": "IT",
-      "note": "Seceda par le Col Raiser",
-      "distance_km": 79,
-      "duree_h": 2
+      "note": "Val di Funes : le cinéma des Odle et Santa Maddalena",
+      "distance_km": 62,
+      "duree_h": 1.6
     },
     {
       "id": "etape-j4",
       "ordre": 4,
       "jour": 4,
       "type": "boucle",
-      "libelle": "Alpe di Siusi par P1 Spitzbühl",
-      "de": "camping-loewenhof",
-      "vers": "camping-loewenhof",
+      "libelle": "Alpe di Siusi à pied, puis Ortisei",
+      "de": "camping-vahrner-see",
+      "vers": "camping-vahrner-see",
       "par": [
-        "parking-alpe-p1"
+        "parking-alpe-p1",
+        "parking-ortisei-gratuit"
       ],
       "visites": [
-        "parking-alpe-p1"
+        "parking-alpe-p1",
+        "parking-ortisei-gratuit"
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Alpe di Siusi par P1 Spitzbühl",
-      "distance_km": 71,
-      "duree_h": 1.8
+      "note": "Alpe di Siusi à pied, puis Ortisei",
+      "distance_km": 95,
+      "duree_h": 2.4
     },
     {
       "id": "etape-retour",
       "ordre": 5,
       "jour": 5,
       "type": "retour",
-      "libelle": "Retour à Saint-Gély-du-Fesc",
-      "de": "camping-loewenhof",
+      "libelle": "Retour à Saint-Gély par l’autoroute",
+      "de": "camping-vahrner-see",
       "vers": "depart",
       "par": [],
       "visites": [],
       "visites_hors_route": [],
       "pays": "IT",
-      "via_gps": [
-        [
-          44.30055,
-          8.46509
-        ],
-        [
-          43.7905,
-          7.608
-        ],
-        [
-          43.433,
-          6.737
-        ],
-        [
-          43.406,
-          6.061
-        ]
-      ],
+      "note": "Retour à Saint-Gély par l’autoroute",
+      "distance_km": 962,
+      "duree_h": 10.5,
+      "autoroute": true,
       "troncons_peage": [
         "it-a22",
         "it-a21-a4",
@@ -149,14 +126,7 @@
         "fr-a8-provence",
         "fr-a54-a7",
         "fr-a9-a54"
-      ],
-      "note": "Retour à Saint-Gély-du-Fesc",
-      "distance_km": 1012,
-      "duree_h": 21.8,
-      "avec_peages": {
-        "distance_km": 964,
-        "duree_h": 10.5
-      }
+      ]
     }
   ],
   "note": "Étapes générées depuis le planning : une par journée avec déplacement, passant par les lieux accessibles en voiture. Les sommets de remontées, plateaux et randonnées en sont exclus — on ne les rejoint pas au volant. Relancer node trace-route.js après modification."

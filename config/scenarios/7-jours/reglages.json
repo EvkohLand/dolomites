@@ -2,8 +2,8 @@
   "titre": "Dolomites — 7 jours",
   "sous_titre": "7 jours — Odle, Seceda, Alpe et Lagazuoi · voiture et tente de toit 1,95 m · Prince",
   "sejour": {
-    "debut": "2026-10-12",
-    "fin": "2026-10-18",
+    "debut": "2026-10-09",
+    "fin": "2026-10-15",
     "jours": 7
   },
   "depart": {
@@ -16,7 +16,7 @@
   },
   "carte": {
     "centre": [
-      46.0,
+      46,
       9.5
     ],
     "zoom": 7,
@@ -29,8 +29,8 @@
     },
     "zone_valide": [
       [
-        42.0,
-        2.0
+        42,
+        2
       ],
       [
         48.5,
