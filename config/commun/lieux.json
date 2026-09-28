@@ -5726,10 +5726,10 @@
     "resume": "Nuit intermédiaire du 12 au 13 ou du 14 au 15 octobre selon le scénario. Un avis de mai 2026 relate une tente de toit avec chien. Disponibilité, arrivée en soirée et accès voiture de 1,95 m demandés ; aucune réservation.",
     "prix": {
       "type": "payant",
-      "montant": 50,
-      "unite": "nuit, estimation 2 adultes + chien + taxe",
+      "montant": 49.4,
+      "unite": "nuit estimée pour 2 adultes + chien",
       "annee_tarif": 2026,
-      "detail": "Barème publié du 20 mars au 8 novembre : 45 € grand emplacement avec deux adultes, chien 3 €, taxe 0,70 € par adulte = 49,40 €. Électricité facultative 4,50 € ; prix et affectation précis à confirmer."
+      "detail": "Du 20/03 au 08/11/2026 : grande piazzola minimum 45 € incluant équipement + 2 personnes ; chien 3 € ; taxe de séjour 0,70 € par adulte pour les 5 premières nuits = 49,40 € avant électricité facultative 4,50 €."
     },
     "chien": {
       "admis": true,
@@ -5737,9 +5737,9 @@
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Saison publiée couvrant le 12 et le 14 octobre ; horaire limite d'arrivée et disponibilité demandés par mail."
+      "note": "Tarif/saison 2026 officiels couvrent le 10/10. Disponibilité réelle, heure d'arrivée et acceptation explicite de la tente de toit à confirmer avant paiement."
     },
-    "source": "https://www.campingtahitifinaleligure.it/listino-prezzi-campeggi-finale-ligure",
+    "source": "https://www.campingtahitifinaleligure.it/en/price-list-camping-finale-ligure",
     "equipements": [
       "electricite",
       "chien",
@@ -5802,10 +5802,8 @@
     "commune": "Via della Pace 42, Cogoleto (GE)",
     "resume": "Étape économique du 10 au 11 octobre seulement ; emplacement XL compatible tente de toit et voiture, chien payant. Suivre Via della Pace, éviter Via Ronco et Via Magetti selon la consigne d’accès publiée ; pente signalée par des avis. Arrivée et gabarit 1,95 m à confirmer, aucune réservation.",
     "prix": {
-      "type": "payant",
-      "montant": 39,
-      "unite": "nuit, simple hypothèse pour 2 adultes + chien",
-      "detail": "Pitchup affiche un prix d’appel à partir de 32 € pour deux sur emplacement XL plus 5 € par chien ; ce prix ne confirme pas celui du 10/10/2026. Hypothèse budgétaire 39 €, taxe locale et prix de la date inconnus. Électricité facultative 3 €/nuit, 2 A, selon l’annonce."
+      "type": "variable",
+      "detail": "Tarif et ouverture du 10/10/2026 non confirmés. Ne pas budgéter comme camping disponible tant qu'une confirmation écrite n'est pas reçue."
     },
     "chien": {
       "admis": true,
@@ -5813,9 +5811,9 @@
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Ouvert jusqu'au 11 octobre 2026 selon Pitchup ; horaire affiché d'arrivée 15–20 h, arrivée 20–21 h demandée par mail le 28/09."
+      "note": "NE PAS UTILISER comme nuit confirmée le 10/10/2026 sans réponse écrite. Le site officiel ne publie pas de calendrier 2026 exploitable ; la fiche Pitchup actuellement à jour affiche une saison 2026 se terminant le 30/09. Une ancienne donnée indiquant le 11/10 a donc été retirée."
     },
-    "source": "https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent",
+    "source": "https://www.campingeuropaunita.com/",
     "equipements": [
       "electricite",
       "chien",
