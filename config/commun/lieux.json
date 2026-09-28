@@ -238,7 +238,6 @@
     "source": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html",
     "etiquettes": [
       "plateau",
-      "chien gratuit",
       "plat"
     ],
     "niveau_prix": "€€",
@@ -247,7 +246,6 @@
       "refuge",
       "plat",
       "vue",
-      "chien-gratuit",
       "muselière",
       "acces-voiture"
     ],
@@ -5771,7 +5769,7 @@
       8.575075
     ],
     "commune": "Via Piave 30, Varazze (SV)",
-    "resume": "Courses en fin de première étape du samedi 10 avant Cogoleto. Fiche Conad : accès animaux, chariots adaptés et parking extérieur ; horaires du samedi annoncés 08 h 15–19 h 30. Demander si Prince peut utiliser un chariot. Parking uniquement pour les courses.",
+    "resume": "Courses possibles sur l’axe ligure le samedi 10 avant de poursuivre vers Finale Ligure. Fiche Conad : accès animaux/chariots adaptés et parking extérieur ; horaires samedi annoncés 08 h 15–19 h 30. Demander à l’accueil le mode d’installation adapté à Prince.",
     "prix": {
       "type": "variable",
       "unite": "courses"
@@ -6015,7 +6013,7 @@
       11.9055128
     ],
     "commune": "Strada Boscdaplan 107, La Villa (BZ)",
-    "resume": "Arrêt possible sur le trajet vers San Cassiano : lundi–samedi 08 h–19 h 30, dimanche 08 h 30–19 h 30 selon magasin. Corvara est actuellement indiqué fermé sept jours sur sept : prévoir ici plutôt. Chien en sac/caisse uniquement.",
+    "resume": "Arrêt pratique vers San Cassiano : lundi–samedi 08 h–19 h 30, dimanche 08 h 30–19 h 30 selon la fiche officielle. Le Despar Strada Col Alt 10 à Corvara est actuellement affiché fermé toute la semaine, mais un autre Despar à Colfosco (Str. Col Pradat 37, commune de Corvara) est ouvert tous les jours : 07 h–12 h et 15 h–19 h, dimanche reprise à 16 h.",
     "prix": {
       "type": "variable",
       "unite": "courses"
@@ -6031,7 +6029,11 @@
         "url": "https://www.despar.it/it/punto-vendita-despar/21/la-villa/"
       },
       {
-        "libelle": "Despar Corvara — vérifier réouverture avant tout détour",
+        "libelle": "Despar Colfosco — alternative ouverte",
+        "url": "https://www.despar.it/it/punto-vendita-despar/1012/corvara/"
+      },
+      {
+        "libelle": "Despar Corvara Col Alt — fiche actuellement fermée",
         "url": "https://www.despar.it/it/punto-vendita-despar/754/corvara/"
       }
     ]
@@ -6045,7 +6047,7 @@
       12.22312
     ],
     "commune": "St. Johannesstrasse 2, Dobbiaco (BZ)",
-    "resume": "Lundi–samedi 08 h 30–12 h 30 et 15 h 30–19 h 30, dimanche fermé selon magasin. Pour l'arrivée du dimanche 18, acheter avant ; chien en sac/caisse ou courses à tour de rôle.",
+    "resume": "Lundi–samedi 08 h 30–12 h 30 et 15 h 30–19 h 30 ; dimanche fermé selon la fiche officielle actuelle. Votre arrivée prévue à Dobbiaco est le mercredi 21 octobre : magasin normalement ouvert ce jour-là, sous réserve de changement exceptionnel.",
     "prix": {
       "type": "variable",
       "unite": "courses"
