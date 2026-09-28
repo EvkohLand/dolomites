@@ -16,7 +16,7 @@
       "chien": 7,
       "unite": "2 adultes + chien A/R",
       "annee_tarif": 2026,
-      "detail": "2 × 74 € + 7 € chien, départ Ortisei. Option de confort si la marche depuis Col Raiser est trop longue ou impraticable.",
+      "detail": "2 × 74 € + 7 € chien, départ Ortisei. En sus, si l'on va au point photo de la crête : 5 € par personne au tourniquet privé (2026). Option de confort si la marche depuis Col Raiser est trop longue.",
       "montant": 155,
       "grille": [
         {
@@ -57,18 +57,22 @@
         },
         {
           "libelle": "Parking gare de départ",
-          "valeur": "2,50 €/30 min (5h–19h), 0,80 €/h la nuit, 30 €/jour max"
+          "valeur": "garage 250 places, hauteur max 2,20 m : 2,50 €/30 min (5h–19h), 0,80 €/h la nuit, 30 €/jour max"
+        },
+        {
+          "libelle": "Péage privé vers le point photo de la crête (2026)",
+          "valeur": "5 € par personne et par passage de tourniquet, en place jusqu'à la fin de saison"
         }
       ]
     },
     "ouverture": {
       "fin_saison": "2026-11-02",
       "a_reverifier": false,
-      "note": "Saison 2026 confirmée : 22 mai au 2 novembre. Du 12 octobre au 2 novembre : 8h30–17h00."
+      "note": "Saison d'été 2026 du 22 mai au 2 novembre, 8h30–17h30 sans horaire réduit en octobre (page officielle)."
     },
     "chien": {
       "admis": true,
-      "note": "Admis en cabine, laisse obligatoire."
+      "note": "Admis en cabine avec billet à 7 €. Laisse obligatoire ; la règle Val Gardena des transports publics impose aussi la muselière : l'avoir sur soi."
     },
     "source": "https://www.seceda.it/en/summer",
     "etiquettes": [
@@ -274,17 +278,25 @@
       },
       {
         "libelle": "Horaires",
-        "valeur": "8h30–17h30 (les deux tronçons)"
+        "valeur": "8h30–17h30 tous les jours, octobre compris (les deux tronçons)"
       },
       {
         "libelle": "Télésiège Fermeda",
         "valeur": "fermé l'été 2026"
+      },
+      {
+        "libelle": "Passage piéton « La Curta »",
+        "valeur": "ouvert 24 h/24, escalators arrêtés la nuit"
       }
     ],
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "Parking + Garage Seceda au pied de la gare, payant (2,50 €/30 min, 30 €/jour max), places limitées en saison"
+        "valeur": "Parking + Garage Seceda au pied de la gare : plus de 250 places, hauteur max 2,20 m (la voiture avec tente de toit, 1,95 m, passe), 2,50 €/30 min, 30 €/jour max"
+      },
+      {
+        "libelle": "Péage de la crête",
+        "valeur": "tourniquets privés à 5 €/personne (espèces ou carte) sur les sentiers vers le point photo, réinstallés le 12 juin 2026, un second point de péage depuis juillet 2026 ; maintenus jusqu'à la fin de saison"
       },
       {
         "libelle": "Billets",
@@ -319,14 +331,39 @@
           "url": "https://www.openstreetmap.org/search?query=Seceda"
         },
         {
-          "libelle": "In den Bergen — tourniquets payants sur la crête (2025)",
+          "libelle": "Seceda — info : plus de 250 places de parking, adresse, La Curta 24 h/24",
+          "url": "https://www.seceda.it/en/info"
+        },
+        {
+          "libelle": "OpenStreetMap — garage Seceda : capacité 250, hauteur max 2,2 m (édition 30/09/2025)",
+          "url": "https://www.openstreetmap.org/way/689203858"
+        },
+        {
+          "libelle": "OpenStreetMap — gare de départ Ortisei 46.5764, 11.6751",
+          "url": "https://www.openstreetmap.org/node/1638308249"
+        },
+        {
+          "libelle": "Südtirol News — tourniquet réinstallé, 5 € (12/06/2026)",
+          "url": "https://www.suedtirolnews.it/politik/drehkreuz-auf-der-seceda-erneut-installiert"
+        },
+        {
+          "libelle": "ORF Südtirol — second péage à 5 € sur la Seceda (07/2026)",
+          "url": "https://suedtirol.orf.at/stories/3361882/"
+        },
+        {
+          "libelle": "Südtirol News — tourniquet en place jusqu'à la fin de saison (24/09/2026)",
+          "url": "https://www.suedtirolnews.it/chronik/drehkreuz-auf-der-seceda-landesregierung-fuerchtet-domino-effekt"
+        },
+        {
+          "libelle": "In den Bergen — tourniquets 2025 (historique)",
           "url": "https://www.indenbergen.de/weblog/nach-umstrittenem-drehkreuz-jetzt-noch-eine-zahlstelle-auf-der-seceda/"
         }
       ],
-      "doutes": "Muselière en cabine : règle générale Val Gardena, non écrite sur la page de l'exploitant. Tourniquets privés à 5 € vers le point photo : documentés en 2025, maintien en octobre 2026 non confirmé. Capacité du parking : 250 places selon l'exploitant, 14 selon la fiche Val Gardena (la fiche compte probablement une seule zone). Le GPS donné est le sommet ; la gare de départ est en 46.5767, 11.6753."
+      "doutes": "",
+      "a_demander": []
     },
-    "acces": "Ortisei par la SS242 du Val Gardena (sortie A22 Chiusa/Klausen). Gare de départ Via Val d'Anna, dans Ortisei ; le passage piéton « La Curta » (6 min) la relie aux arrêts de bus.",
-    "description": "Départ de la gare de la Via Val d'Anna à Ortisei (≈1 230 m) : télécabine jusqu'à Furnes puis téléphérique jusqu'à Seceda. Saison d'été 2026 du 22 mai au 2 novembre, 8h30–17h30, donc ouverte du 10 au 23 octobre. Le télésiège Fermeda reste fermé tout l'été. Le chien est admis moyennant 7 € ; dans le Val Gardena, la règle générale des transports est laisse et muselière (à avoir sur soi). En haut, plateau d'alpage et crête ; le point photo célèbre de la crête a été équipé en 2025 par des propriétaires privés de tourniquets payants (5 €/personne), statut 2026 non confirmé. Parking couvert payant au pied de la gare (2,50 €/30 min, 30 €/jour max) : cher et vite plein, arriver tôt. Billets en ligne conseillés.",
+    "acces": "Ortisei par la SS242 du Val Gardena (sortie A22 Chiusa/Klausen). Gare de départ Via Val d'Anna 2, dans Ortisei (46.5764, 11.6751) ; garage attenant limité à 2,20 m de hauteur. Le passage piéton « La Curta » (6 min, ouvert 24 h/24) relie la gare aux arrêts de bus de la place S. Antonio. Le GPS de la fiche est le sommet (2 518 m).",
+    "description": "Départ de la gare de la Via Val d'Anna à Ortisei (≈1 230 m) : télécabine jusqu'à Furnes puis téléphérique jusqu'à Seceda. Saison d'été 2026 du 22 mai au 2 novembre, 8h30–17h30 tous les jours, donc ouverte pendant tout le séjour. Le télésiège Fermeda reste fermé tout l'été. Le chien est admis moyennant 7 € ; la règle Val Gardena des transports publics est laisse et muselière (à avoir sur soi). En haut, plateau d'alpage et crête. Le point photo célèbre de la crête est barré par des propriétaires privés : tourniquet à 5 €/personne réinstallé le 12 juin 2026, second péage à 5 € sur un autre sentier depuis juillet, laissés en place jusqu'à la fin de saison malgré un recours annoncé par la Province. Parking couvert au pied de la gare (plus de 250 places, hauteur 2,20 m, 2,50 €/30 min, 30 €/jour max) : cher et vite plein, arriver tôt. Billets en ligne conseillés.",
     "reserver": {
       "obligatoire": false,
       "url": "https://seceda.axess.shop/en"
@@ -337,8 +374,8 @@
     "nom": "Alpe di Siusi / Seiser Alm",
     "categorie": "plateau",
     "gps": [
-      46.5424,
-      11.617
+      46.54021,
+      11.56374
     ],
     "commune": "Castelrotto / Kastelruth (BZ)",
     "altitude": 1844,
@@ -350,7 +387,7 @@
       "unite": "2 adultes + chien A/R",
       "annee_tarif": 2026,
       "montant": 66,
-      "detail": "Cabinovia Alpe di Siusi : 30 € A/R par adulte + 6 € A/R pour Prince, soit 66 € à trois. Parking extérieur de la station basse gratuit selon l'exploitant.",
+      "detail": "Télécabine Siusi–Compaccio : 2 × 30 € A/R + 6 € A/R pour Prince = 66 €. Le parking extérieur P1 de la gare de départ est gratuit (interdit 22h–6h30) : pas besoin des garages payants.",
       "grille": [
         {
           "libelle": "Adulte aller-retour",
@@ -385,8 +422,8 @@
           "valeur": "6 € / 3 €"
         },
         {
-          "libelle": "Parking P1 extérieur",
-          "valeur": "gratuit (interdit 22h–6h30)"
+          "libelle": "Parking extérieur de la gare de départ (P1 vallée)",
+          "valeur": "gratuit, interdit 22h–6h30"
         },
         {
           "libelle": "Garage Walderer",
@@ -401,13 +438,13 @@
     "ouverture": {
       "fin_saison": "2026-11-02",
       "a_reverifier": false,
-      "note": "Cabinovia Alpe di Siusi : saison été 2026 du 22 mai au 2 novembre ; en octobre, 08:00–18:00."
+      "note": "Télécabine Siusi–Alpe di Siusi : saison été du 22 mai au 2 novembre 2026, 8h00–18h00 du 15 septembre au 2 novembre. Tout le séjour (10–25 octobre selon le scénario) est couvert."
     },
     "chien": {
       "admis": true,
-      "note": "Admis ; laisse et muselière obligatoires dans les stations et cabines. Billet chien 3 € aller / 6 € A/R en 2026."
+      "note": "Admis avec billet (3 € aller, 6 € A/R). Muselière et laisse obligatoires dans les stations et les cabines."
     },
-    "acces": "Par voiture seulement avant 9h avec réservation de parking P1 (15 €) ou P2 (30 €) ; retour possible dans la journée. Sinon télécabine depuis Siusi.",
+    "acces": "En voiture jusqu'à la gare de départ de Siusi (Via Sciliar 39), parking extérieur gratuit à côté : pas de hauteur à craindre avec la tente de toit (1,95 m). Monter en voiture jusqu'au plateau n'est possible qu'avec une réservation payante (P1 Spitzbühl 15 €, P2 Compaccio 30 €) et un passage au contrôle de St. Valentin avant 9h ; la route est fermée aux voitures 9h–17h.",
     "source": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html",
     "etiquettes": [
       "plateau",
@@ -440,7 +477,7 @@
         "url": "https://shop.dolomitisuperski.com/companyshop.ashx?valley=400&zone=26&area=531&lang=1"
       }
     ],
-    "description": "Prairies et larges sentiers avec Prince. Option économique P1 Spitzbühl : 30 minutes de montée à pied jusqu’à Compatsch, puis balade sur le plateau. P2 coûte 30 €. Aucune nuit en véhicule ou tente sur le plateau.",
+    "description": "Prairies et larges sentiers avec Prince. Solution la plus simple : laisser la voiture au parking extérieur gratuit de la gare de Siusi et monter en télécabine (66 € à trois A/R). Solution économique : parking P1 Spitzbühl réservé en ligne (15 €), arrivée avant 9h, puis 30 minutes de montée à pied jusqu'à Compaccio. P2 coûte 30 €. Aucune nuit en véhicule ou tente sur le plateau.",
     "photos": [
       {
         "legende": "Alberi AlpediSiusi",
@@ -611,11 +648,15 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "P1 extérieur gratuit ; garages payants 8 €/jour (Walderer) ou 12 €/jour (gare)"
+        "valeur": "extérieur gratuit à la gare de départ (interdit 22h–6h30) ; garages payants 8 €/jour (Walderer) ou 12 €/jour (gare)"
       },
       {
         "libelle": "Hauteur",
-        "valeur": "voiture avec tente de toit (~2,05 m) : préférer le P1 extérieur, hauteur des garages non publiée"
+        "valeur": "voiture avec tente de toit (1,95 m) : parking extérieur, sans limite ; hauteur des garages non publiée, inutile de les tenter"
+      },
+      {
+        "libelle": "Arrivée en haut",
+        "valeur": "Compaccio, 46.5424, 11.6170 (1 844 m)"
       },
       {
         "libelle": "Durée du trajet",
@@ -626,19 +667,32 @@
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Office de tourisme Seiser Alm — télécabine été 2026 (tarifs, chien, muselière, parkings)",
+          "libelle": "Office de tourisme Seiser Alm — télécabine été 2026 : 22 mai–2 nov., 8h–18h, chien 3/6 €, muselière, parkings de la gare",
           "url": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html"
         },
         {
-          "libelle": "seiseralm-dolomites.com — été 2026 (22 mai–2 nov, 30 €/21 €, senior 26 €)",
+          "libelle": "Exploitant de la télécabine — été 2026 : 22 mai–2 nov., 30 €/21 €",
           "url": "https://www.seiseralm-dolomites.com/en/cable-car/summer.html"
         },
         {
-          "libelle": "OpenStreetMap/Nominatim — station Compatsch 46.5424, 11.6170 ; Via Sciliar 39 Siusi 46.5403, 11.5637",
-          "url": "https://www.openstreetmap.org/search?query=Compatsch"
+          "libelle": "Seiser Alm — accès : route fermée 9h–17h pendant l'exploitation",
+          "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm.html"
+        },
+        {
+          "libelle": "OpenStreetMap — gare de départ « Seis - Siusi » 46.54021, 11.56374",
+          "url": "https://www.openstreetmap.org/node/102561253"
+        },
+        {
+          "libelle": "OpenStreetMap — parking extérieur P1 de la gare (surface, gratuit)",
+          "url": "https://www.openstreetmap.org/way/131170911"
+        },
+        {
+          "libelle": "OpenStreetMap — garage à étages de la gare (250 places, hauteur non renseignée)",
+          "url": "https://www.openstreetmap.org/way/262028695"
         }
       ],
-      "doutes": "Une source tierce (seiser-alm.it) donne 21 mai–1er novembre au lieu de 22 mai–2 novembre : sans effet sur le séjour. Hauteur maximale des garages non publiée. Le GPS donné est l'arrivée à Compaccio ; la gare de départ est vers 46.5403, 11.5637."
+      "doutes": "",
+      "a_demander": []
     },
     "reserver": {
       "obligatoire": false,
@@ -3082,7 +3136,7 @@
       "montant": 10,
       "unite": "jour sur place",
       "annee_tarif": 2026,
-      "detail": "Parking Zans : tarif journalier voiture 10 € indiqué dans le guide touristique 2026 ; réservation en ligne possible avec tarif distinct et quota limité.",
+      "detail": "Parking Zans : 10 € la journée sur place (voiture), 12 € en réservation en ligne (prix lu dans le moteur de réservation de l'office de tourisme pour le 12–19 octobre 2026, place garantie même si le feu de Ranui est rouge). Nuit 21h–7h : 40 € tout véhicule.",
       "grille": [
         {
           "libelle": "Voiture, journée, sur place",
@@ -3090,7 +3144,7 @@
         },
         {
           "libelle": "Voiture, journée, réservée en ligne",
-          "valeur": "12 €"
+          "valeur": "12 € (6 € avec la carte d'hôte Slow Dolomites)"
         },
         {
           "libelle": "Camping-car, journée",
@@ -3098,7 +3152,7 @@
         },
         {
           "libelle": "Nuit 21h–7h, tout véhicule",
-          "valeur": "40 €"
+          "valeur": "40 € (camping-car réservé en ligne : 42 €)"
         }
       ],
       "budget": "indispensable",
@@ -3307,9 +3361,9 @@
     "recherche_photo": "Geisler Odle Villnoss",
     "ouverture": {
       "a_reverifier": false,
-      "note": "Parking Zans payant et capacité limitée. Réservation voiture possible en ligne ; sans réservation, accès selon feu/capacité à Ranui. État du sentier à contrôler le 12/10."
+      "note": "Parking Zans payant, capacité limitée ; réservation en ligne ouverte pour le 12–19 octobre 2026. Geisleralm et Glatschalm ouvertes pendant le séjour. État du sentier à contrôler la veille (neige possible)."
     },
-    "source": "https://www.odlesdolomites.com/en/parking-reservation/",
+    "source": "https://www.sentres.com/en/poi/parking/car-park-zans/61217124/",
     "adresse": "Parking Zans, Alm 1, 39040 Zans / Villnöß",
     "horaires": [
       {
@@ -3318,33 +3372,37 @@
       },
       {
         "libelle": "Parking Zans",
-        "valeur": "jour 7h–21h, tarif de nuit 21h–7h"
+        "valeur": "jour 7h–21h, tarif de nuit 21h–7h ; réservation en ligne ouverte du 12 au 19 octobre 2026"
       },
       {
-        "libelle": "Geisleralm (refuge sur la boucle)",
+        "libelle": "Geisleralm (sur la boucle)",
         "valeur": "14 mai – 8 novembre 2026, fermée le lundi"
       },
       {
         "libelle": "Glatschalm",
-        "valeur": "fermeture annoncée le 2 novembre 2026 (une autre source : 19 octobre)"
+        "valeur": "16 mai – 1er novembre 2026, fermée le mardi"
       },
       {
         "libelle": "Gschnagenhardt Alm",
-        "valeur": "ouverte depuis le 13 juin 2026, fermée le mercredi ; date de fermeture d'automne non publiée"
+        "valeur": "ouverte depuis le 13 juin 2026, fermée le mercredi ; fermeture d'automne non publiée : ne pas compter dessus"
       }
     ],
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "Zans, 1 680 m, 10 €/jour (12 € en ligne)"
+        "valeur": "Zans, 1 680 m, 10 €/jour sur place (12 € en ligne)"
+      },
+      {
+        "libelle": "Nuit à Zans",
+        "valeur": "tarif de nuit 40 €, mais ouvrir une tente de toit = camper : interdit sur terrain public (300 à 1 800 €)"
       },
       {
         "libelle": "Bus",
-        "valeur": "ligne 330 depuis Bressanone/Chiusa jusqu'à Zans, sans réservation"
+        "valeur": "ligne 330 depuis Bressanone/Chiusa jusqu'à Zans, toutes les heures, sans réservation"
       },
       {
-        "libelle": "Refuges",
-        "valeur": "Geisleralm (ouverte en octobre), Glatschalm, Gschnagenhardt Alm, Zanser Alm"
+        "libelle": "Refuges ouverts pendant le séjour",
+        "valeur": "Geisleralm (sauf lundi), Glatschalm (sauf mardi)"
       }
     ],
     "verification": {
@@ -3377,12 +3435,33 @@
         {
           "libelle": "Gschnagenhardt Alm — site officiel",
           "url": "https://www.gschnagenhardtalm.it/"
+        },
+        {
+          "libelle": "Office de tourisme — moteur de réservation Zans, dates 12–19 oct. 2026 : voiture 12 €, nuit 40 €, camping-car nuit 42 €",
+          "url": "https://www.odlesdolomites.com/api/events?rids=BBF4CDE820A14B16A5EA28AB3FCF697F,D4048A06F6FE45D597CF6CA4EF586C49&language=en&startDate=2026-10-12&endDate=2026-10-19"
+        },
+        {
+          "libelle": "Glatschalm — site officiel : ouverte du 16 mai au 1er novembre, fermée le mardi",
+          "url": "https://www.glatschalm.com/"
+        },
+        {
+          "libelle": "Gschnagenhardt Alm — site officiel : ouverte depuis le 13 juin, fermée le mercredi, pas de date de fermeture",
+          "url": "https://www.gschnagenhardtalm.it/"
+        },
+        {
+          "libelle": "Commune de Funes — règlement 2026 : camping interdit sur terrain public, 300–1 800 €",
+          "url": "https://www.gemeinde.villnoess.bz.it/system/web/GetDocument.ashx?cts=1783681000&fileId=1553506"
+        },
+        {
+          "libelle": "suedtirol.live — parking de Ranui, mêmes tarifs que Zans (10/16/40 €)",
+          "url": "https://suedtirol.live/en/store/car-park-ranui-st-peter-villnoss-valley-p24055"
         }
       ],
-      "doutes": "Tarifs Zans : aucune page ne porte l'année, mais tous les sites consultés en 2026 donnent 10/12/40 €. Dénivelé de la boucle courte non publié officiellement (380–450 m selon les tracés). Glatschalm : 2 novembre (Sentres) contre 19 octobre (résultat de recherche non confirmé). Gschnagenhardt Alm : fermeture d'automne non publiée, un agrégateur avance le 7 octobre — la considérer comme fermée pendant le séjour."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "A22 sortie Chiusa/Klausen, direction Bressanone ~2 km puis Val di Funes jusqu'à Santa Maddalena et Zans (route de la Zanser Alm). Feu de régulation à Ranui : rouge = parking plein, seuls les véhicules réservés passent.",
-    "description": "Le sentier n°35 part du parking Zans (1 680 m), longe les faces nord des Odle à travers mélézins et alpages. Boucle courte officielle : 9 km, ≈3 h, par les sentiers 6, 35 et 36 avec retour à Zans via la Geisleralm (≈380–450 m de dénivelé selon les tracés). Version longue : 12,4 km, ≈4 h, 513 m de montée jusqu'à la Brogles Alm (2 045 m) et descente vers Ranui. Parking Zans payant : 10 € la journée en voiture sur place, 12 € en réservation en ligne (garantit la place même si le feu est rouge), 40 € la nuit (21h–7h) pour tout véhicule. Un feu à Ranui, 5,5 km avant Zans, indique si le parking est plein ; sinon se garer à Ranui ou à Santa Maddalena et prendre le bus 330. En octobre : la Geisleralm est ouverte jusqu'au 8 novembre (fermée le lundi) ; Glatschalm et Gschnagenhardt Alm peuvent être fermées, dates incertaines. Chien en laisse dans le parc naturel.",
+    "description": "Le sentier n°35 part du parking Zans (1 680 m), longe les faces nord des Odle à travers mélézins et alpages. Boucle courte : 9 km, ≈3 h, par les sentiers 6, 35 et 36 avec retour à Zans via la Geisleralm (≈380–450 m de dénivelé selon les tracés). Version longue : 12,4 km, ≈4 h, 513 m de montée jusqu'à la Brogles Alm (2 045 m). Parking Zans : 10 € la journée sur place, 12 € en réservation en ligne (garantit la place même si le feu de Ranui est rouge), 40 € la nuit (21h–7h). Si le feu de Ranui est rouge, se garer à Ranui ou à Santa Maddalena (parkings Filler, Putzen, 10 €/jour) et prendre le bus 330, qui monte à Zans toutes les heures. Dormir sur le parking avec la tente de toit ouverte est du camping au sens du règlement communal de 2026, interdit sur terrain public (300 à 1 800 €). En octobre : Geisleralm ouverte jusqu'au 8 novembre (fermée le lundi), Glatschalm jusqu'au 1er novembre (fermée le mardi) ; Gschnagenhardt Alm incertaine. Chien en laisse dans le parc naturel.",
     "reserver": {
       "obligatoire": false,
       "url": "https://www.odlesdolomites.com/en/events/BBF4CDE820A14B16A5EA28AB3FCF697F"
@@ -3398,24 +3477,41 @@
     ],
     "commune": "Funes / Villnöss (BZ)",
     "altitude": 1339,
-    "resume": "Le village et sa petite église devant les Odle : la vue la plus photographiée du Haut-Adige. Point de vue accessible en quelques minutes à pied.",
+    "resume": "Le village et sa petite église devant les Odle : la vue la plus photographiée du Haut-Adige. Barrière au centre du village : on se gare en bas (10 à 15 €/jour) et on monte à pied en 15 à 30 min.",
     "prix": {
-      "type": "variable",
-      "unite": "parking/jour",
-      "annee_tarif": 2025,
-      "detail": "Vue gratuite. Parking du centre du village payant : 4 €/jour jusqu'en 2025, hausse votée pour 2026 sans montant publié.",
+      "type": "payant",
+      "montant": 10,
+      "unite": "voiture / jour (parking Filler)",
+      "annee_tarif": 2026,
+      "detail": "Vue gratuite. Stationnement communal payant 24 h/24 toute l'année, tarifs fixés par le règlement communal 2026 : 10 €/jour aux parkings Filler, Putzen et maison du parc naturel ; 15 €/jour au Bergerplatz (centre du village) et au pont Stuffer. Le tarif de 4 €/jour cité dans la presse est caduc.",
       "grille": [
         {
           "libelle": "Point de vue Santa Maddalena",
-          "valeur": "gratuit"
+          "valeur": "gratuit (à pied)"
         },
         {
-          "libelle": "Parking centre du village",
-          "valeur": "4 €/jour en 2025 ; tarif 2026 non publié (en hausse)"
+          "libelle": "Parking Filler (46.6410, 11.7146)",
+          "valeur": "10 €/jour"
+        },
+        {
+          "libelle": "Parkings Putzen et maison du parc Puez-Odle",
+          "valeur": "10 €/jour"
+        },
+        {
+          "libelle": "Bergerplatz, centre du village (46.6414, 11.7154)",
+          "valeur": "15 €/jour"
+        },
+        {
+          "libelle": "Pont Stuffer (46.6409, 11.7163)",
+          "valeur": "15 €/jour"
+        },
+        {
+          "libelle": "Parking de Ranui (après l'hôtel Ranui)",
+          "valeur": "10 €/jour voiture, 16 € camping-car, 40 € la nuit 21h–7h"
         },
         {
           "libelle": "Tourniquet San Giovanni in Ranui (privé)",
-          "valeur": "4 € par personne, en pièces"
+          "valeur": "≈ 4 €/personne en pièces (non publié par le propriétaire)"
         }
       ]
     },
@@ -3460,6 +3556,14 @@
       {
         "libelle": "Barrière 2026 — article il Dolomiti",
         "url": "https://www.ildolomiti.it/cronaca/2026/non-centra-lovertourism-i-turisti-non-disturbano-ma-il-paese-rischia-di-bloccarsi-cosi-funes-riorganizza-laccesso-alla-chiesetta-presa-dassalto-per-i-selfie"
+      },
+      {
+        "libelle": "Commune de Funes — règlement stationnement et camping 2026 (PDF)",
+        "url": "https://www.gemeinde.villnoess.bz.it/system/web/GetDocument.ashx?cts=1783681000&fileId=1553506"
+      },
+      {
+        "libelle": "Commune de Funes — achat de la barrière, délibération 71/2026 (PDF)",
+        "url": "http://deliberedl.gvcc.net/033/033_1_71k_2026.pdf"
       }
     ],
     "photos": [
@@ -3603,18 +3707,30 @@
     "adresse": "St. Magdalena, 39040 Funes / Villnöß",
     "horaires": [
       {
-        "libelle": "Barrière anti-voitures",
-        "valeur": "mi-mai – novembre 2026 : accès motorisé réservé aux habitants et clients hébergés"
+        "libelle": "Barrière au centre du village",
+        "valeur": "active pendant le séjour : accès motorisé au-delà réservé aux habitants et clients hébergés (mi-mai – novembre 2026)"
+      },
+      {
+        "libelle": "Parkings communaux",
+        "valeur": "payants toute l'année, 0h–24h"
       },
       {
         "libelle": "Point de vue",
         "valeur": "accès libre à pied, toute l'année"
+      },
+      {
+        "libelle": "3–4 octobre 2026",
+        "valeur": "route fermée 7h30–20h et Bergerplatz interdit (fête « Speck und Genuss ») : hors séjour"
       }
     ],
     "pratique": [
       {
-        "libelle": "Parking",
-        "valeur": "centre du village, >100 places, payant ; barrière au-delà pour les non-résidents"
+        "libelle": "Parking conseillé",
+        "valeur": "Filler, 10 €/jour, à côté du centre ; Bergerplatz 15 €/jour"
+      },
+      {
+        "libelle": "Nuit",
+        "valeur": "camper ou dormir sur la voie publique interdit : 300 à 1 800 € d'amende (ouvrir une tente de toit compte comme camper)"
       },
       {
         "libelle": "Marche",
@@ -3655,19 +3771,58 @@
         {
           "libelle": "OpenStreetMap/Nominatim — village 46.6415, 11.7153 ; église 46.6447, 11.7193",
           "url": "https://www.openstreetmap.org/search?query=Santa%20Maddalena%20Funes"
+        },
+        {
+          "libelle": "Commune de Funes — règlement stationnement, camping et nuitées, conseil municipal n° 28 du 09.06.2026 : Bergerplatz 15 €/jour, Filler/Putzen 10 €/jour, amende 300–1 800 €",
+          "url": "https://www.gemeinde.villnoess.bz.it/system/web/GetDocument.ashx?cts=1783681000&fileId=1553506"
+        },
+        {
+          "libelle": "Commune de Funes — liste des règlements",
+          "url": "https://www.gemeinde.villnoess.bz.it/de/Verwaltung/Organisation/Verordnungen"
+        },
+        {
+          "libelle": "Commune de Funes — délibération 71 du 08.04.2026, achat de la barrière du centre de Santa Maddalena",
+          "url": "http://deliberedl.gvcc.net/033/033_1_71k_2026.pdf"
+        },
+        {
+          "libelle": "Commune de Funes — ordonnance 54/2026, fermeture 3–4 octobre (hors séjour)",
+          "url": "https://albopretorio.gvcc.net/gem2go/amtstafel/document/21033/10f68508-f69b-4109-a0bb-5371f4fc57b7"
+        },
+        {
+          "libelle": "suedtirol.live — parking de Ranui : 10 €/jour, 16 € camping-car, 40 € la nuit",
+          "url": "https://suedtirol.live/en/store/car-park-ranui-st-peter-villnoss-valley-p24055"
+        },
+        {
+          "libelle": "suedtirol.live — Bergerplatz, centre de Santa Maddalena, payant toute l'année, bus et camping-cars interdits",
+          "url": "https://suedtirol.live/de/geschaeft/parkplatz-berger-platz-st-peter-villnoss-p24037"
+        },
+        {
+          "libelle": "Ranuihof — page de l'église San Giovanni (aucun tarif d'entrée publié)",
+          "url": "https://www.ranuihof.com/ansitz-ranuihof/ranui-kirchlein/"
+        },
+        {
+          "libelle": "OpenStreetMap/Nominatim — Bergerplatz 46.6414, 11.7154 ; Filler 46.6410, 11.7146 ; pont Stuffer 46.6409, 11.7163",
+          "url": "https://www.openstreetmap.org/search?query=Berger%20Platz%20Villn%C3%B6%C3%9F"
         }
       ],
-      "doutes": "Aucune page officielle de la commune trouvée : les règles de la barrière viennent de la presse (janvier–juillet 2026). Tarif 2026 du parking du village non publié. Tourniquet Ranui : 4 € en 2019, repris en 2026 par un guide, pas de source officielle."
+      "doutes": "Montant du tourniquet de l'église San Giovanni in Ranui : 4 € selon la presse de 2019, non publié par le propriétaire.",
+      "a_demander": [
+        {
+          "question": "Combien coûte l'accès au pré de l'église San Giovanni in Ranui en octobre 2026, et le paiement se fait-il uniquement en pièces ?",
+          "page": "https://www.ranuihof.com/kontakt/anfrage/"
+        }
+      ]
     },
-    "acces": "A22 sortie Chiusa/Klausen, puis direction Bressanone sur ~2 km et à droite dans le Val di Funes. Se garer au centre de Santa Maddalena (barrière au-delà) ou plus loin au parking Ranui.",
-    "description": "Le point de vue célèbre (église Santa Maddalena devant les Odle) se rejoint à pied depuis le village. Depuis mi-mai 2026 et jusqu'en novembre, la commune a déplacé une barrière au centre du village : seuls les habitants et les clients des hébergements situés au-delà peuvent monter en voiture. Les visiteurs à la journée se garent sur le parking du centre du village (plus de 100 places, payant, 4 €/jour avant 2026, hausse annoncée pour 2026 sans montant publié), puis marchent 15 à 30 minutes. Le sentier panoramique (Panoramaweg) donne la vue carte postale ; les prés sont privés, rester sur les chemins. L'autre église photographiée du val, San Giovanni in Ranui, est derrière un tourniquet privé payant (4 € par personne en pièces). Le bus 330 relie Bressanone/Chiusa au val. Chien bienvenu en laisse sur les chemins.",
+    "acces": "A22 sortie Chiusa/Klausen, puis direction Bressanone sur ~2 km et à droite dans le Val di Funes. Se garer au parking Filler (10 €/jour) ou au Bergerplatz (15 €/jour) avant la barrière, ou plus loin au parking de Ranui (10 €/jour).",
+    "description": "Le point de vue célèbre (église Santa Maddalena devant les Odle) se rejoint à pied depuis le village. En 2026, la commune a acheté et installé une barrière au centre de Santa Maddalena pour réserver l'accès aux ayants droit (délibération n° 71 du 8 avril 2026) ; selon la presse, seuls les habitants et les clients des hébergements situés au-delà passent en voiture, de mi-mai à novembre. Les visiteurs se garent sur les parkings communaux, payants toute l'année et 24 h/24 : 10 € la journée au parking Filler, à Putzen et à la maison du parc naturel, 15 € au Bergerplatz (centre du village) et au pont Stuffer (règlement communal approuvé le 9 juin 2026). Le parking de Ranui est à 10 € la journée. Le sentier panoramique donne la vue carte postale ; les prés sont privés, rester sur les chemins. L'autre église photographiée du val, San Giovanni in Ranui, se trouve derrière un tourniquet privé (environ 4 € par personne en pièces, montant non publié par le propriétaire). Camper ou dormir dans un véhicule sur la voie publique est interdit dans toute la commune (300 à 1 800 €). Bus 330 depuis Bressanone/Chiusa. Chien bienvenu en laisse sur les chemins.",
     "reserver": {
       "obligatoire": false,
       "url": "https://www.odlesdolomites.com/en/parking-reservation/"
     },
     "ouverture": {
-      "note": "Lieu ouvert toute l'année ; la barrière est active pendant le séjour, donc pas d'accès en voiture jusqu'à l'église."
-    }
+      "note": "Lieu ouvert toute l'année ; la barrière est active pendant le séjour, donc pas d'accès en voiture jusqu'à l'église. Parkings communaux payants 24 h/24."
+    },
+    "source": "https://www.ildolomiti.it/cronaca/2026/non-centra-lovertourism-i-turisti-non-disturbano-ma-il-paese-rischia-di-bloccarsi-cosi-funes-riorganizza-laccesso-alla-chiesetta-presa-dassalto-per-i-selfie"
   },
   {
     "id": "lago-sorapis",
@@ -3991,8 +4146,8 @@
     "nom": "Col Raiser",
     "categorie": "plateau",
     "gps": [
-      46.5749,
-      11.741
+      46.5848,
+      11.7453
     ],
     "commune": "Santa Cristina Val Gardena (BZ)",
     "altitude": 2106,
@@ -4004,7 +4159,7 @@
       "chien": 5,
       "unite": "2 adultes + chien A/R",
       "annee_tarif": 2026,
-      "detail": "2 × 34 € + 5 € pour Prince. Parking de la gare basse payant en sus, montant à vérifier.",
+      "detail": "2 × 34 € + 5 € pour Prince. Parking de la gare basse en sus : 10 € jusqu'à 12 h (2 €/h).",
       "grille": [
         {
           "libelle": "Adulte aller-retour",
@@ -4032,11 +4187,11 @@
         },
         {
           "libelle": "Parking extérieur gare de départ",
-          "valeur": "20 €/jour (année non indiquée)"
+          "valeur": "2 €/h, 10 € jusqu'à 12 h, 20 € au-delà"
         },
         {
-          "libelle": "Garage gare de départ",
-          "valeur": "25 €/jour (année non indiquée)"
+          "libelle": "Garage Maciaconi (navette gratuite 8h30–12h)",
+          "valeur": "tarif et hauteur non publiés — non utilisé avec la tente de toit"
         }
       ],
       "alternative_gratuite": "Montée à pied depuis Santa Cristina, environ 700 m de dénivelé, ou promenade en vallée."
@@ -4260,11 +4415,15 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "payant au pied de la gare : 20 €/jour extérieur, 25 €/jour garage (source hôtel, année non indiquée)"
+        "valeur": "3 parkings extérieurs au pied de la gare (217 places, sans limite de hauteur) : 2 €/h, 10 € jusqu'à 12 h"
       },
       {
         "libelle": "Durée",
         "valeur": "≈7 min de télécabine"
+      },
+      {
+        "libelle": "Dernière descente",
+        "valeur": "télécabine en continu jusqu'à 16h30 (12 oct.–1er nov.) : être à la gare haute avant 16h30"
       },
       {
         "libelle": "Restauration",
@@ -4287,18 +4446,35 @@
           "url": "https://www.colraiser.com/en/the-location"
         },
         {
-          "libelle": "OpenStreetMap/Nominatim — gare de départ 46.5749, 11.7410 ; arrivée 46.5848, 11.7453",
+          "libelle": "OpenStreetMap/Nominatim — le point 46.5749, 11.7410 est le milieu du câble, pas une gare",
           "url": "https://www.openstreetmap.org/search?query=Col%20Raiser"
         },
         {
           "libelle": "Val Gardena — Almhotel Col Raiser, été 2026 : 06/06–12/10",
           "url": "https://www.valgardena.it/en/addresses/detail-gastronomy/base/company/s-cristina-val-gardena/almhotel-col-raiser/C0DF8B3F76D911D18F2900A02427D15E/"
+        },
+        {
+          "libelle": "Val Gardena — fiche parking Col Raiser (2 €/h, 10 €/12 h, 20 € dès 13e h)",
+          "url": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/selva-di-val-gardena/parcheggio-col-raiser/90F07BDD272E416197A9AD912EA2F5A7/"
+        },
+        {
+          "libelle": "Dolomiti Superski — Parking Col Raiser, même tarif, 217 places",
+          "url": "https://www.dolomitisuperski.com/en/Plan-ski-holiday/Dolomites-A-Z/Val-Gardena/Parcheggio-Col-Raiser"
+        },
+        {
+          "libelle": "Col Raiser — FAQ (horaires, parking, chien)",
+          "url": "https://www.colraiser.it/it/faq.asp"
+        },
+        {
+          "libelle": "OpenStreetMap — gare basse 46.5651, 11.7367 ; gare haute 46.5848, 11.7453",
+          "url": "https://www.openstreetmap.org/node/527880834"
         }
       ],
-      "doutes": "Prix du parking : source hôtelière sans année ; aucune source officielle 2026. Heure de la dernière montée non publiée. Hauteur du garage non publiée : avec la tente de toit, viser le parking extérieur. Le GPS donné est la gare de départ (point utile en voiture)."
+      "doutes": "",
+      "a_demander": []
     },
-    "acces": "Depuis Santa Cristina Valgardena (SS242), suivre la direction Col Raiser / Plesdinaz jusqu'à la gare de départ, sur le versant nord de la vallée.",
-    "description": "La télécabine part au-dessus de Santa Cristina (lieu-dit Plesdinaz) et monte en 7 minutes au Col Raiser, porte d'entrée du parc naturel Puez-Odle. Saison d'été 2026 du 22 mai au 1er novembre : ouverte pendant tout le séjour, avec des horaires raccourcis en octobre (8h30–17h jusqu'au 11 octobre, 8h30–16h30 à partir du 12). Le chien paie 5 € ; laisse obligatoire, et en Val Gardena la muselière est exigée dans les transports. En haut, alpages et larges chemins vers la Regensburger Hütte / Firenze et vers Seceda. Parking payant au pied de la gare, cher (20 €/jour en extérieur selon l'hôtel Col Raiser, année non indiquée).",
+    "acces": "Depuis Santa Cristina Valgardena (SS242), suivre Col Raiser / Streda Raiser jusqu'à la gare de départ (46.5651, 11.7367), sur le versant nord de la vallée ; parkings extérieurs attenants. Le GPS de la fiche est la gare haute (2 106 m).",
+    "description": "La télécabine part au-dessus de Santa Cristina (Streda Raiser, 1 550 m) et monte en 7 minutes au Col Raiser (2 106 m), porte d'entrée du parc naturel Puez-Odle. Saison d'été 2026 du 22 mai au 1er novembre : ouverte pendant tout le séjour, avec des horaires raccourcis en octobre (8h30–17h jusqu'au 11 octobre, 8h30–16h30 à partir du 12). Le chien paie 5 € ; laisse obligatoire, et en Val Gardena la muselière est exigée dans les transports : l'avoir sur soi. En haut, alpages et larges chemins vers la Regensburger Hütte / Firenze et vers Seceda. Parking extérieur au pied de la gare : 2 €/h, 10 € jusqu'à 12 h (office de tourisme Val Gardena, Dolomiti Superski).",
     "reserver": {
       "obligatoire": false,
       "url": "https://www.colraiser.it/en/info.asp"
@@ -6290,39 +6466,88 @@
     "nom": "Parking Setil — Ortisei, visite de jour",
     "categorie": "parking",
     "gps": [
-      46.572765,
-      11.670324
+      46.573058,
+      11.670733
     ],
-    "commune": "Streda Setil, 39046 Ortisei / Urtijëi (BZ)",
+    "commune": "Ortisei / St. Ulrich / Urtijëi (BZ)",
     "nuit_possible": false,
-    "resume": "Parking public extérieur à proximité de la télécabine de l’Alpe di Siusi. Adresse et GPS officiels, accès 24 h/24 toute l’année ; voiture 2 €/h, camping-car 3 €/h selon la fiche locale. Stationnement de visite uniquement : l’office du tourisme interdit de passer la nuit dans un véhicule ou sous tente en Val Gardena. Cette fiche remplace l’ancienne « aire camping-car » de 25 €/nuit non identifiée.",
+    "resume": "Parking public à ciel ouvert de 30 places, à 50 m de la télécabine Ortisei–Alpe di Siusi et à 2 min à pied du centre d'Ortisei. Voiture 2 €/h, camping-car 3 €/h en 2026, ouvert 24 h/24. Pas de portique. Visite de jour uniquement : dormir dans le véhicule ou sous tente est interdit dans tout le Val Gardena.",
     "prix": {
       "type": "payant",
-      "montant": 2,
-      "unite": "heure, voiture (tarif publié, à revérifier sur place)",
-      "detail": "Fiche locale : voiture 2 €/h, camping-car 3 €/h, bus 45 €/jour. Aucun tarif de nuitée camping, ni forfait sur plusieurs jours. Les 25 €/nuit affichés auparavant n’avaient pas de source pour ce lieu."
+      "montant": 18,
+      "unite": "voiture, journée de 9 h (8h30–17h30)",
+      "annee_tarif": 2026,
+      "detail": "2 €/h pour une voiture, sans plafond journalier ni forfait sur plusieurs jours. La voiture avec tente de toit repliée paie le tarif voiture. Une journée à l'Alpe di Siusi (8h30–17h30) coûte donc 18 €. Paiement à l'horodateur, en saisissant la plaque.",
+      "grille": [
+        {
+          "libelle": "Voiture",
+          "valeur": "2,00 €/h"
+        },
+        {
+          "libelle": "Camping-car",
+          "valeur": "3,00 €/h"
+        },
+        {
+          "libelle": "Autocar",
+          "valeur": "45,00 €/jour"
+        },
+        {
+          "libelle": "Forfait plusieurs jours ou semaine",
+          "valeur": "aucun"
+        },
+        {
+          "libelle": "Val Gardena Club Card (résidents seulement)",
+          "valeur": "0,50 €/h les 5 premières heures"
+        },
+        {
+          "libelle": "Garage couvert de la télécabine (240 places, repli)",
+          "valeur": "15 €/jour selon OpenStreetMap, non confirmé par l'exploitant"
+        }
+      ]
     },
     "ouverture": {
-      "note": "Accès au stationnement indiqué 00:00–24:00, ouvert toute l’année. Cela ne permet pas d’y camper ni de dormir dans le véhicule : interdiction de nuitée rappelée par l’office de tourisme du Val Gardena."
+      "a_reverifier": false,
+      "note": "Ouvert toute l'année, 24 h/24 ; fiche valable jusqu'au 31 décembre 2026. Stationner la nuit est possible, y dormir est interdit."
     },
-    "acces": "À l’air libre, Streda Setil près du départ de la télécabine Alpe di Siusi. Portique ou hauteur libre d’accès non documenté : vérifier sur place pour la voiture de 1,95 m. Ni borne électrique, ni eau, ni vidange vérifiées pour ce parking ; ne pas lui attribuer les équipements d’une aire de camping-car.",
+    "acces": "Depuis la SS242 à Ortisei, suivre « Seiser Alm / Alpe di Siusi – Seilbahn », puis la Streda Setil. L'entrée est sur la Streda Setil, côté est du parking (46.573058, 11.670733). Parking de surface asphalté, sans barrière de hauteur. Les camping-cars y sont tarifés à part. Si le parking est plein, le garage souterrain de la télécabine (240 places) est juste à côté.",
     "reglement": "nuit-val-gardena",
-    "source": "https://www.val-gardena.com/en/addresses/detail/base/poi/ortisei-val-gardena/parking-setil/86A378B5EE944362B156724D663E9113/",
+    "source": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/ortisei-val-gardena/parcheggio-setil/86A378B5EE944362B156724D663E9113/",
     "equipements": [
-      "parking"
+      "parking",
+      "acces-voiture"
     ],
     "liens": [
       {
-        "libelle": "Fiche Parking Setil : adresse, GPS, prix, ouverture",
-        "url": "https://www.val-gardena.com/en/addresses/detail/base/poi/ortisei-val-gardena/parking-setil/86A378B5EE944362B156724D663E9113/"
+        "libelle": "Val Gardena — fiche Parking Setil (30 places, 2 €/h, 24 h/24)",
+        "url": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/ortisei-val-gardena/parcheggio-setil/86A378B5EE944362B156724D663E9113/"
       },
       {
-        "libelle": "Office de tourisme : nuits en véhicule / tente interdites",
+        "libelle": "Val Gardena — fiche outdoor (GPS, validité 2026)",
+        "url": "https://outdoor.valgardena.it/en/point/parking-lot/parking-setil/810058807/"
+      },
+      {
+        "libelle": "Commune d'Ortisei — parkings et Club Card (juillet 2026)",
+        "url": "https://www.comune.ortisei.bz.it/it/Novita/Comunicati_stampa/Parcheggi_a_tariffa_agevolata_con_la_Val_Gardena_Club_Card"
+      },
+      {
+        "libelle": "Télécabine Ortisei–Alpe di Siusi — horaires et prix 2026",
+        "url": "https://www.funiviaortisei.eu/orari-e-prezzi"
+      },
+      {
+        "libelle": "Val Gardena — nuit en véhicule ou sous tente interdite",
         "url": "https://www.valgardena.it/en/holidays-dolomites/arrival/with-the-caravan-or-camper/"
       },
       {
-        "libelle": "Park4Night : autre parking de jour 4 Promeneda (distinct)",
-        "url": "https://park4night.com/en/place/163505"
+        "libelle": "OpenStreetMap — Parcheggio Setil",
+        "url": "https://www.openstreetmap.org/way/41908951"
+      },
+      {
+        "libelle": "Park4Night — laverie Dolomiti Wash",
+        "url": "https://park4night.com/fr/place/252628"
+      },
+      {
+        "libelle": "Park4Night — Ruacia (Santa Cristina), amende de 100 € pour toit relevable",
+        "url": "https://park4night.com/fr/place/509436"
       }
     ],
     "photos": [
@@ -6476,7 +6701,164 @@
         "legende": "Ortisei (BZ)",
         "credit": "Luciobocchi — Wikimedia Commons, CC BY-SA 3.0"
       }
-    ]
+    ],
+    "adresse": "Streda Setil / Via Setil, 39046 Ortisei (Val Gardena), à côté de la gare de départ de la télécabine Ortisei–Alpe di Siusi (Via Setil 9)",
+    "horaires": [
+      {
+        "libelle": "Parking",
+        "valeur": "toute l'année, 00h00–24h00"
+      },
+      {
+        "libelle": "Télécabine Ortisei–Alpe di Siusi, 12–16 oct. 2026",
+        "valeur": "8h30–18h00"
+      },
+      {
+        "libelle": "Télécabine Ortisei–Alpe di Siusi, 17 oct.–2 nov. 2026",
+        "valeur": "8h30–17h00"
+      },
+      {
+        "libelle": "Télésiège « Sole » (descente vers l'hôtel Sonne)",
+        "valeur": "jusqu'au 16 oct. 2026 : 9h00–12h30 et 13h30–17h30"
+      },
+      {
+        "libelle": "Toilettes publiques de la Via Purger",
+        "valeur": "lun.–ven. 8h00–16h00 (OpenStreetMap)"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Places",
+        "valeur": "30, à ciel ouvert (fiche officielle Val Gardena)"
+      },
+      {
+        "libelle": "Hauteur",
+        "valeur": "aucun portique ni barrière sur OpenStreetMap : 1,95 m passe. Les garages voisins limitent à 2,20 m (Garage Central) et 2,30 m (Pana)"
+      },
+      {
+        "libelle": "Paiement",
+        "valeur": "horodateur, saisie de la plaque ; espèces acceptées (OpenStreetMap)"
+      },
+      {
+        "libelle": "Réservation",
+        "valeur": "impossible, premier arrivé"
+      },
+      {
+        "libelle": "Télécabine Alpe di Siusi",
+        "valeur": "gare de départ à 50 m (Via Setil 9)"
+      },
+      {
+        "libelle": "Centre d'Ortisei",
+        "valeur": "2 min à pied par la passerelle piétonne ; mairie et église à ≈ 400 m"
+      },
+      {
+        "libelle": "Toilettes",
+        "valeur": "WC public gratuit à 250 m, accessible en fauteuil (46.57489, 11.67128), vérifié le 26/09/2025 ; autre WC Via Purger à 330 m, lun.–ven. 8h–16h"
+      },
+      {
+        "libelle": "Eau potable",
+        "valeur": "fontaine à 220 m (46.57473, 11.67047) ; fontaines « Refill » de la commune dans le centre (saisonnières) ; source de la Strada Stazione 39, à débit faible (46.5763, 11.66486)"
+      },
+      {
+        "libelle": "Laverie",
+        "valeur": "Dolomiti Wash, Strada J. B. Purger 30, à 370 m : 4 lave-linge, 3 sèche-linge, ≈ 13 € lavage + séchage (avis de 2025)"
+      },
+      {
+        "libelle": "Vidange, électricité",
+        "valeur": "aucune"
+      },
+      {
+        "libelle": "Nuit",
+        "valeur": "interdite dans le véhicule ou sous tente, dans tout le Val Gardena"
+      }
+    ],
+    "chien": {
+      "admis": true,
+      "note": "Parking extérieur. Télécabine vers l'Alpe di Siusi : billet chien 7 € (tarif 2026 de l’exploitant)."
+    },
+    "reserver": {
+      "obligatoire": false
+    },
+    "description": "Le Parking Setil est le parking public à ciel ouvert situé au pied de la télécabine Ortisei–Alpe di Siusi, qui monte au Mont Sëuc. Il compte 30 places et reste ouvert toute l'année, 24 h/24. Tarifs 2026 : 2 € de l'heure pour une voiture, 3 € pour un camping-car, 45 € par jour pour un autocar. Il n'existe ni plafond journalier ni forfait sur plusieurs jours, et le paiement se fait à l'horodateur en saisissant la plaque. Aucune barrière de hauteur : la voiture avec sa tente de toit (1,95 m) passe. Le centre d'Ortisei est à 2 minutes par la passerelle piétonne. Services à proximité : WC public gratuit à 250 m, fontaine à 220 m, laverie Dolomiti Wash à 370 m. La télécabine tourne jusqu'au 2 novembre 2026 : 8h30–18h00 jusqu'au 16 octobre, 8h30–17h00 ensuite. Aller-retour adulte 41 €, chien 7 €.\n\nNuit : l'office de tourisme du Val Gardena écrit que « camping, setting up tents, or spending the night in your own vehicle is strictly prohibited » et qu'il n'y a « NO campsites in Val Gardena ». Nuits légales les plus proches : l'aire de Pontives, à 3 km, qui refuse les tentes de toit (fiche aire-pontives) ; le camping Gamp à Chiusa, ≈ 25 km par la route (fiche camping-gamp-chiusa) ; le camping Löwenhof à Bressanone, ≈ 40 km (fiche camping-loewenhof).\n\nZone de Ruacia (Santa Cristina, Strada Ruacia) : c'est le seul parking de la vallée où des gardiens encaissent la nuit, 18 € les 12 h ou 36 € les 24 h depuis juin 2026. Selon les avis Park4Night, un fourgon à toit relevable y a reçu une amende de 100 € le 12 août 2026 : « Ein Bus mit Aufstelldach gilt in Italien als Camping », et d'autres véhicules ont été verbalisés en même temps. Le 3 septembre 2026, un policier a aussi verbalisé des campeurs qui avaient sorti tables et chaises. Base légale : le code de la route italien (article 185, alinéa 2) n'admet un stationnement sans camping que si le véhicule « non poggia sul suolo salvo che con le ruote » et n'occupe rien au-delà de son propre encombrement. Une nuit en tente de toit à Ruacia a été signalée sans problème le 18 septembre 2026, mais le risque d'amende reste réel : ne pas y ouvrir la tente.",
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Val Gardena — fiche Parcheggio Setil (IT) : « PARCHEGGI DISPONIBILI: 30 », « Auto: 2,00 € / ora »",
+          "url": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/ortisei-val-gardena/parcheggio-setil/86A378B5EE944362B156724D663E9113/"
+        },
+        {
+          "libelle": "Val Gardena — fiche Parking Setil (EN)",
+          "url": "https://www.val-gardena.com/en/addresses/detail/base/poi/ortisei-val-gardena/parking-setil/86A378B5EE944362B156724D663E9113/"
+        },
+        {
+          "libelle": "Val Gardena outdoor — Parking Setil, 1 216 m, ouvert jusqu'au 31/12/2026",
+          "url": "https://outdoor.valgardena.it/en/point/parking-lot/parking-setil/810058807/"
+        },
+        {
+          "libelle": "Dolomiti Superski — Parking Setil (tarifs identiques)",
+          "url": "https://www.dolomitisuperski.com/en/experiences/services/dolomites-a-z/Val-Gardena/Parcheggio-Setil"
+        },
+        {
+          "libelle": "Commune d'Ortisei — Club Card : Setil dans la liste, paiement au « distributore automatico » avec la plaque (28/07/2026)",
+          "url": "https://www.comune.ortisei.bz.it/it/Novita/Comunicati_stampa/Parcheggi_a_tariffa_agevolata_con_la_Val_Gardena_Club_Card"
+        },
+        {
+          "libelle": "Commune d'Ortisei — page Parcheggi (ancien site Park Urtijëi redirigé ici)",
+          "url": "https://www.comune.ortisei.bz.it/it/Argomenti/Parcheggi"
+        },
+        {
+          "libelle": "Télécabine Ortisei–Alpe di Siusi — horaires et prix 2026",
+          "url": "https://www.funiviaortisei.eu/orari-e-prezzi"
+        },
+        {
+          "libelle": "Télécabine Ortisei–Alpe di Siusi — garage de 240 places, « soli 2 minuti dal centro »",
+          "url": "https://www.funiviaortisei.eu/"
+        },
+        {
+          "libelle": "Val Gardena — nuit en véhicule ou sous tente interdite, aucun camping dans la vallée",
+          "url": "https://www.valgardena.it/en/holidays-dolomites/arrival/with-the-caravan-or-camper/"
+        },
+        {
+          "libelle": "OpenStreetMap — Parcheggio Setil, surface, espèces, sans hauteur limite",
+          "url": "https://www.openstreetmap.org/way/41908951"
+        },
+        {
+          "libelle": "OpenStreetMap — WC public gratuit (vérifié le 26/09/2025)",
+          "url": "https://www.openstreetmap.org/node/3350037175"
+        },
+        {
+          "libelle": "OpenStreetMap — laverie Dolomiti Wash",
+          "url": "https://www.openstreetmap.org/node/12068035238"
+        },
+        {
+          "libelle": "Park4Night — Dolomiti Wash (avis de 09/2026)",
+          "url": "https://park4night.com/fr/place/252628"
+        },
+        {
+          "libelle": "Park4Night — 4 Promeneda : avis sur Setil (14 €/jour camping-car en 2023)",
+          "url": "https://park4night.com/en/place/163505"
+        },
+        {
+          "libelle": "Park4Night — Ruacia, Santa Cristina : amende de 100 € pour toit relevable (12/08/2026)",
+          "url": "https://park4night.com/fr/place/509436"
+        },
+        {
+          "libelle": "Park4Night — Strada Ruacia, Selva : verbalisation de tables et chaises (03/09/2026)",
+          "url": "https://park4night.com/fr/place/515921"
+        },
+        {
+          "libelle": "Code de la route italien, art. 185 (Brocardi)",
+          "url": "https://www.brocardi.it/codice-della-strada/titolo-v/art185.html"
+        }
+      ],
+      "doutes": "Paiement par carte à l'horodateur non publié : prévoir des pièces.",
+      "a_demander": [
+        {
+          "question": "L'horodateur du Parking Setil (Streda Setil) accepte-t-il la carte bancaire sans contact, ou uniquement les espèces ?",
+          "page": "https://www.comune.ortisei.bz.it/it/contatto"
+        }
+      ]
+    }
   },
   {
     "id": "station-brennero",
@@ -6520,6 +6902,10 @@
       {
         "libelle": "Prix du jour, sens sud (PDF)",
         "url": "https://adsoil.autobrennero.it/pdfmaker/prezzi_oil_sud.pdf"
+      },
+      {
+        "libelle": "Horaires et prix — Eni Isarco Est (PrezziBenzina)",
+        "url": "https://www.prezzibenzina.it/distributori/1775-eni-isarco-est"
       },
       {
         "libelle": "Toutes les aires de l'A22",
@@ -6683,11 +7069,11 @@
     "horaires": [
       {
         "libelle": "Carburant",
-        "valeur": "Libre-service ; ouverture 24h/24 non indiquée sur la fiche officielle"
+        "valeur": "24h/24, 7j/7 (lundi–dimanche 00h00–24h00), libre-service"
       },
       {
         "libelle": "Relevé des prix",
-        "valeur": "28/09/2026"
+        "valeur": "28/09/2026 — à relire le jour même, les prix changent chaque jour"
       }
     ],
     "pratique": [
@@ -6716,11 +7102,20 @@
           "url": "https://adsoil.autobrennero.it/pdfmaker/prezzi_oil_nord.pdf"
         },
         {
+          "libelle": "PrezziBenzina — Eni Isarco Est « lunedì-domenica: 00.00-24.00 », gazole self 2,290 € le 28/09/2026",
+          "url": "https://www.prezzibenzina.it/distributori/1775-eni-isarco-est"
+        },
+        {
+          "libelle": "PrezziDistributori — Agip Eni Castelrotto Isarco Est",
+          "url": "https://www.prezzidistributori.it/distributore/castelrotto/isarco-est"
+        },
+        {
           "libelle": "OpenStreetMap / Nominatim — « Eisack Ost - Isarco Est », 46.5701 / 11.5232",
           "url": "https://www.openstreetmap.org/search?query=Isarco%20Est"
         }
       ],
-      "doutes": "Ouverture 24h/24 non confirmée par la fiche officielle. Les prix changent chaque jour : ceux du 28/09/2026 ne valent pas pour le 11/10. Écart au tracé calculé sur config/scenarios/14-jours/trace.json (étape aller 2) : Isarco Est à 0,33 km, col du Brenner à 44 km."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "Uniquement depuis l'A22 en direction du Brennero (nord), après Bolzano Nord ; sortir ensuite à Chiusa/Klausen – Val Gardena pour Ortisei. Inaccessible dans le sens sud.",
     "description": "L'ancien point (col du Brenner, 46,9986 / 11,506) est à ~45 km au nord de la sortie Chiusa/Val Gardena : le trajet du 11 octobre arrive par le sud (Vérone → Bolzano → Chiusa) et ne passe jamais au Brenner. La station utile est l'aire Isarco Est, sur la chaussée nord de l'A22, entre les sorties Bolzano Nord et Chiusa/Val Gardena (celle du Val Gardena), à 0,3 km du tracé du carnet. Enseigne Eni, essence et gazole en libre-service, bar, Wi-Fi, aire de pique-nique, recharge électrique ultra-rapide. Prix affichés par l'Autostrada del Brennero le 28/09/2026 : gazole 2,290 € (self) / 2,190 € (self prépayé), essence 2,090 € / 1,990 €. Les prix sur l'autoroute restent élevés : le carnet prévoit déjà le plein en France. Au retour (sens sud), l'aire équivalente est Sciliar Ovest (km 68,8, gazole 2,499 €) ; la moins chère du sens sud le 28/09 est Paganella Ovest (km 129, Tamoil, gazole 2,190 €).",
@@ -6753,8 +7148,10 @@
       ]
     },
     "ouverture": {
-      "note": "Aire en service le 28/09/2026 (prix publiés ce jour). Le 24h/24 n'est pas écrit sur la fiche officielle : prévoir de payer par carte au pistolet la nuit."
-    }
+      "note": "Aire en service le 28/09/2026. Distributeur ouvert 24h/24 (« lunedì-domenica: 00.00-24.00 », registre des prix). Relire le PDF des prix sens nord le 11 octobre au matin.",
+      "a_reverifier": false
+    },
+    "source": "https://www.autobrennero.it/it/in-viaggio/sosta-e-servizi/aree-di-servizio/area-di-servizio/isarco-est_21_a/"
   },
   {
     "id": "etape-route-aller",
@@ -6828,6 +7225,10 @@
       {
         "libelle": "Le camping (services)",
         "url": "https://www.camping-tain.fr/le-camping/"
+      },
+      {
+        "libelle": "Office de tourisme Ardèche Hermitage — fiche 2026",
+        "url": "https://www.ardeche-hermitage.com/fr/ou-dormir/tous-les-hebergements/detail/camping-les-lucs-164513/"
       },
       {
         "libelle": "Itinéraire",
@@ -6924,7 +7325,7 @@
     "horaires": [
       {
         "libelle": "Saison 2026",
-        "valeur": "1er février – 30 novembre"
+        "valeur": "1er février – 30 novembre (site officiel)"
       },
       {
         "libelle": "Accueil en octobre",
@@ -6957,6 +7358,14 @@
           "url": "https://www.camping-tain.fr/tarif-2023/"
         },
         {
+          "libelle": "Office de tourisme Ardèche Hermitage — périodes 2026 et accueil d'octobre, « à partir de 22 € » (2 pers. + électricité, taxe comprise)",
+          "url": "https://www.ardeche-hermitage.com/fr/ou-dormir/tous-les-hebergements/detail/camping-les-lucs-164513/"
+        },
+        {
+          "libelle": "Ville de Tain-l'Hermitage — camping municipal « du 1er mars au 15 novembre » (page non mise à jour, couvre aussi le 10 octobre)",
+          "url": "https://www.ville-tain.fr/fr/ma-ville/services-de-la-ville/camping-municipal/"
+        },
+        {
           "libelle": "Camping Le Rhône Tournon — ouverture et tarifs 2026 (PDF)",
           "url": "https://www.camping-tournon.fr/wp-content/uploads/2026/01/tarifs.pdf"
         },
@@ -6965,7 +7374,8 @@
           "url": "https://www.drome-cestmanature.com/fiches/le-parc-de-leperviere/"
         }
       ],
-      "doutes": "Seconde source indépendante sur l'ouverture de 2026 non consultée (le site officiel suffit et affiche les tarifs 2026). Le lien de réservation en ligne répond (HTTP 301) mais n'a pas été testé jusqu'au paiement."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "A7 sortie Tain-l'Hermitage, puis N7 (avenue du Président Roosevelt) ; camping au bord du Rhône, près de l'espace aquatique Linaë. Aucune restriction de hauteur signalée.",
     "description": "Point indicatif « vallée du Rhône » (Valence, 44,93 / 4,89) remplacé par une halte précise. Le camping de l'Épervière à Valence, souvent cité, n'existe plus : le site est devenu un parc de loisirs. Camping Les Lucs, municipal, 50 emplacements nus au bord du Rhône et sur la ViaRhôna, près du centre et du coteau de l'Hermitage, à ~18 km au nord de Valence (≈ 230 km du départ au lieu de 213). La sortie A7 « Tain-l'Hermitage / Romans » mène aussi vers Romans puis l'A49 (Grenoble – Chambéry), la route du lendemain. Tarif 2026, basse saison du 01/10 au 30/11 : emplacement 2 personnes avec voiture + caravane ou tente 16 €, chien 2 €, électricité 10 A +5 € (forfait 2 pers. + électricité 21 €), taxe de séjour 0,50 €/nuit/adulte. Total sans électricité : 19 €/nuit ; avec électricité : 24 €. Carte ACSI acceptée : 19 € avec électricité et animal. Accueil en octobre : 8h–12h15 et 12h45–19h, tous les jours. Réservation en ligne possible. Laverie, douches, Wi-Fi, borne de vidange réservée aux clients. Animaux acceptés.",
@@ -6988,8 +7398,10 @@
     "altitude": 123,
     "ouverture": {
       "fin_saison": "2026-11-30",
-      "note": "OUVERT le 10 octobre 2026 (saison du 1er février au 30 novembre). Arriver avant 19h."
-    }
+      "a_reverifier": false,
+      "note": "OUVERT le 10 octobre 2026 : site officiel (1er février – 30 novembre) et office de tourisme Ardèche Hermitage (« Du 01/10 au 31/10/2026 tous les jours de 8h à 12h15 et de 12h45 à 19h »). Arriver avant 19h. Réservation facultative en basse saison."
+    },
+    "source": "https://www.camping-tain.fr/"
   },
   {
     "id": "sass-pordoi",
@@ -9513,7 +9925,7 @@
       "montant": 64.6,
       "unite": "nuit, 2 adultes + chien + taxe de séjour (Classic)",
       "annee_tarif": 2026,
-      "detail": "Classic 51 €/nuit pour 2 adultes (moteur officiel, 13–16 oct. 2026 : 153 € les 3 nuits, électricité 16 A incluse) + taxe de séjour 2,80 €/adulte/nuit (5,60 €) + chien 8 €/nuit (montant cité par les avis, non publié officiellement) = 64,60 €/nuit.",
+      "detail": "Classic 51 €/nuit pour 2 adultes (moteur officiel, 13–16 oct. 2026 : 153 € les 3 nuits, électricité 16 A incluse) + taxe de séjour 2,80 €/personne/nuit (5,60 €, « Taxes 2.80 EUR per person per night » dans les conditions du moteur) + chien 8 €/nuit (non publié par le camping ; même montant dans trois avis Park4Night de 2022, 2024 et avril 2026) = 64,60 €/nuit.",
       "grille": [
         {
           "libelle": "Emplacement Classic, 2 adultes",
@@ -9537,14 +9949,14 @@
         },
         {
           "libelle": "Chien",
-          "valeur": "sur demande ; 8 €/nuit selon avis Park4Night"
+          "valeur": "« Animals allowed on request » ; 8 €/nuit selon trois avis (2022, 2024, avril 2026), non publié officiellement"
         }
       ]
     },
     "chien": {
       "admis": true,
       "supplement": 8,
-      "note": "« All animals allowed upon request » (moteur officiel). Montant non publié ; 8 €/nuit selon plusieurs avis Park4Night. Le déclarer à la réservation."
+      "note": "Conditions du moteur officiel : « Pets policy — Animals allowed on request. All animals allowed upon request ». Le moteur ne permet pas d'ajouter un chien (aucune option, 0 chien possible dans la demande) : le déclarer dans « Special Requests ». Montant non publié par le camping ; 8 €/nuit selon trois avis Park4Night concordants (juin 2022, octobre 2024, avril 2026)."
     },
     "ouverture": {
       "fin_saison": "2026-10-31",
@@ -9583,7 +9995,7 @@
         "url": "https://park4night.com/en/place/50613"
       }
     ],
-    "description": "Petit camping (environ 50 emplacements) derrière le Hotel Löwenhof, au bord du ruisseau de Schalders, sous des feuillus. Quatre catégories : Classic et Classic Basic (65 m², max. 8 m), Comfort et Premium (80 m²), plus un « Parking » réservé aux camping-cars et explicitement « NOT SUITABLE FOR TENTS » (sans Brixen Card). Les emplacements Classic incluent 16 A d'électricité, sanitaires, Wi-Fi et la Brixen Card. Le moteur de réservation officiel affiche pour le 13–16 octobre 2026 un Classic à 153 € les 3 nuits pour 2 adultes (51 €/nuit), la taxe de séjour de 2,80 €/adulte/nuit étant ajoutée par l'API (56,60 €/nuit taxe comprise) ; les séjours 11–17, 13–17 et 15–18 octobre sont proposés au même prix journalier. Chien : « All animals allowed upon request » ; plusieurs avis Park4Night citent 8 €/nuit (non publié par le camping). Brixen Card incluse : transports publics régionaux du Tyrol du Sud gratuits (arrêt de la ligne 320 devant le camping), Acquarena (hors dimanches et fériés), abbaye de Neustift, Hofburg, musée de la pharmacie, et en 2026 une montée + descente quotidienne sur la Plose (valable du 24 mai au 26 octobre). Machine à laver et sèche-linge gratuits, vidange eaux grises (pas eaux noires), toilette chimique, local vélos, restaurant 12h00–14h15 et 18h30–21h15, pizzeria 17h–23h, bar 7h30–minuit, petits pains dès 7h. Aucune mention explicite de la tente de toit sur le site : la seule restriction publiée vise la catégorie Parking.",
+    "description": "Petit camping (environ 50 emplacements) derrière le Hotel Löwenhof, au bord du ruisseau de Schalders, sous des feuillus. Quatre catégories : Classic et Classic Basic (65 m², max. 8 m), Comfort et Premium (80 m²), plus un « Parking » réservé aux camping-cars et explicitement « NOT SUITABLE FOR TENTS » (sans Brixen Card). Les emplacements Classic incluent 16 A d'électricité, sanitaires, Wi-Fi et la Brixen Card. Le moteur de réservation officiel affiche pour le 13–16 octobre 2026 un Classic à 153 € les 3 nuits pour 2 adultes (51 €/nuit), la taxe de séjour de 2,80 €/adulte/nuit étant ajoutée par l'API (56,60 €/nuit taxe comprise) ; les séjours 11–17, 13–17 et 15–18 octobre sont proposés au même prix journalier. Chien : « All animals allowed upon request » ; le moteur ne propose pas d'option chien, et trois avis Park4Night (2022, 2024, avril 2026) citent 8 €/nuit, montant non publié par le camping. Brixen Card incluse : transports publics régionaux du Tyrol du Sud gratuits (arrêt de la ligne 320 devant le camping), Acquarena (hors dimanches et fériés), abbaye de Neustift, Hofburg, musée de la pharmacie, et en 2026 une montée + descente quotidienne sur la Plose (valable du 24 mai au 26 octobre). Machine à laver et sèche-linge gratuits, vidange eaux grises (pas eaux noires), toilette chimique, local vélos, restaurant 12h00–14h15 et 18h30–21h15, pizzeria 17h–23h, bar 7h30–minuit, petits pains dès 7h. Tente de toit : ni le site (DE/EN/IT) ni le moteur ne la citent ; la seule restriction publiée vise la catégorie « Parking (no tent) / Rastplatz (keine Zelte) », et un avis mentionne une « Zeltwiese » (pré à tentes) sur le camping. À confirmer à la réservation.",
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Kloster_Neustift_Suedansicht_01.JPG/960px-Kloster_Neustift_Suedansicht_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -9629,16 +10041,16 @@
         "valeur": "réservable en octobre ; fermé du 1er au 3 novembre 2026 (calendrier du moteur de réservation)"
       },
       {
-        "libelle": "Arrivée",
-        "valeur": "horaires de réception non publiés ; avis : emplacement attribué à partir de 12h à la réception de l'hôtel"
-      },
-      {
         "libelle": "Restaurant",
         "valeur": "12h00–14h15 et 18h30–21h15, sans jour de repos"
       },
       {
         "libelle": "Bar",
         "valeur": "7h30–minuit"
+      },
+      {
+        "libelle": "Arrivée",
+        "valeur": "horaires non publiés ; enregistrement à la réception de l'hôtel, emplacement attribué à partir de 12h selon un avis ; petits pains dès 7h au shop de la réception"
       }
     ],
     "pratique": [
@@ -9661,6 +10073,10 @@
       {
         "libelle": "Annulation",
         "valeur": "gratuite jusqu'à 7 jours avant ; 1re nuit due ensuite (le moteur affiche « gratuite jusqu'au 5 octobre » pour une arrivée le 13)"
+      },
+      {
+        "libelle": "Tente de toit",
+        "valeur": "non citée par le camping ; seule la catégorie « Parking (no tent) » exclut les tentes — le demander à la réservation"
       }
     ],
     "verification": {
@@ -9679,11 +10095,33 @@
           "url": "https://www.eurocampings.co.uk/italy/trentino-alto-adige/south-tyrol/vahrn/camping-lowenhof-104812/"
         },
         {
-          "libelle": "Park4Night — avis (chien 8 €)",
-          "url": "https://park4night.com/en/place/50613"
+          "libelle": "Moteur officiel — conditions (taxe, animaux « on request »)",
+          "url": "https://booking.campingbrixen.it/?skd-checkin=2026-10-13&skd-checkout=2026-10-16&skd-adult-room=2"
+        },
+        {
+          "libelle": "Site officiel — emplacements, Good to know (DE/EN/IT)",
+          "url": "https://www.loewenhof.it/en/camping/pitches"
+        },
+        {
+          "libelle": "Park4Night — avis (chien 8 €, avril 2026 ; arrivée 12h)",
+          "url": "https://park4night.com/de/place/50613"
+        },
+        {
+          "libelle": "PiNCAMP (ADAC) — réception dans l'hôtel",
+          "url": "https://www.pincamp.de/campingplaetze/camping-loewenhof"
         }
       ],
-      "doutes": "Tente de toit : ni acceptée ni refusée explicitement pour les emplacements Classic (seule la catégorie Parking l'exclut). Supplément chien non publié officiellement. Horaires de réception non publiés."
+      "doutes": "Tente de toit ni acceptée ni refusée par écrit pour les emplacements Classic. Montant du chien (8 €/nuit selon les avis) et horaires de réception non publiés par le camping.",
+      "a_demander": [
+        {
+          "question": "Nous arrivons le 13/10/2026 avec une voiture équipée d'une tente de toit (hauteur 1,95 m), 2 adultes et 1 chien : pouvons-nous dormir dans la tente de toit sur un emplacement Classic, et quel est le supplément chien par nuit ?",
+          "page": "https://www.loewenhof.it/en/camping/request"
+        },
+        {
+          "question": "Jusqu'à quelle heure peut-on arriver et s'enregistrer à la réception de l'hôtel pour le camping ?",
+          "page": "https://www.loewenhof.it/en/camping/request"
+        }
+      ]
     },
     "acces": "A22 sortie Bressanone/Val Pusteria puis SS12 direction Bressanone/Varna Löwenviertel. Accès de plain-pied depuis la SS12, pas de restriction de hauteur signalée. Parking gratuit au garage ou dehors.",
     "reserver": {
@@ -9896,12 +10334,13 @@
       11.73651
     ],
     "commune": "Santa Cristina Val Gardena (BZ)",
-    "resume": "Trois parkings extérieurs payants au pied de la télécabine Col Raiser : 2 €/h, 10 € les 12 h. Pas de réservation, ouvert toute l'année.",
+    "resume": "Trois parkings extérieurs payants au pied de la télécabine Col Raiser (217 places) : 2 €/h, 10 € jusqu'à 12 h. Voitures seulement, pas de réservation, ouvert toute l'année.",
     "prix": {
       "type": "payant",
       "montant": 10,
-      "unite": "voiture / 12 h",
-      "detail": "2 €/h ; 10 € jusqu'à 12 h ; 20 € au-delà de la 12e heure. Tarif publié par Val Gardena, année non indiquée : non confirmé pour 2026.",
+      "unite": "voiture / jusqu'à 12 h",
+      "annee_tarif": 2026,
+      "detail": "2 €/h ; forfait 10 € jusqu'à 12 h ; 20 € à partir de la 13e heure. Tarif en vigueur publié par l'office de tourisme Val Gardena et par Dolomiti Superski ; les 20 €/jour cités par l'hôtel Col Raiser correspondent au tarif au-delà de 12 h.",
       "grille": [
         {
           "libelle": "1 heure",
@@ -9912,7 +10351,7 @@
           "valeur": "10 €"
         },
         {
-          "libelle": "À partir de la 13e heure",
+          "libelle": "À partir de la 13e heure (24 h)",
           "valeur": "20 €"
         }
       ]
@@ -10036,11 +10475,15 @@
     "pratique": [
       {
         "libelle": "Places",
-        "valeur": "≈ 217 (3 parkings P1–P3)"
+        "valeur": "217 (3 parkings P1–P3)"
+      },
+      {
+        "libelle": "Véhicules",
+        "valeur": "voitures uniquement : camping-cars, fourgons aménagés et caravanes refusés (la voiture avec tente de toit est une voiture)"
       },
       {
         "libelle": "Réservation",
-        "valeur": "impossible"
+        "valeur": "impossible ; en haute saison plein vers 11 h, arriver avant 10 h"
       },
       {
         "libelle": "Nuit",
@@ -10069,13 +10512,26 @@
         {
           "libelle": "OpenStreetMap — parkings Col Raiser P1/P2/P3",
           "url": "https://www.openstreetmap.org/way/29748660"
+        },
+        {
+          "libelle": "Dolomiti Superski — Parking Col Raiser : 217 places, 2 €/h, 10 €/12 h, 20 € dès la 13e h, voitures uniquement",
+          "url": "https://www.dolomitisuperski.com/en/Plan-ski-holiday/Dolomites-A-Z/Val-Gardena/Parcheggio-Col-Raiser"
+        },
+        {
+          "libelle": "Almhotel Col Raiser — parking extérieur 20 €/jour, garage 25 €/jour",
+          "url": "https://www.colraiser.com/en/the-location"
+        },
+        {
+          "libelle": "Col Raiser — arrivée : trois parkings, garage Maciaconi et navette",
+          "url": "https://www.colraiser.it/it/arrivo.asp"
         }
       ],
-      "doutes": "Tarif du parking sans année (office de tourisme) ; OSM porte un ancien tarif (1 €/h, 5 €/12 h). Nombre de places : 217 (Val Gardena) contre 248 (somme OSM)."
+      "doutes": "",
+      "a_demander": []
     },
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Parking ouvert toute l'année : utilisable pendant le séjour. Tarif 2026 non confirmé par l'exploitant (seul l'office de tourisme le publie, sans année)."
+      "a_reverifier": false,
+      "note": "Parking ouvert toute l'année, 24 h/24 : utilisable pendant tout le séjour."
     },
     "chien": {
       "admis": true,
@@ -10085,7 +10541,7 @@
     "reserver": {
       "obligatoire": false
     },
-    "description": "Le stationnement se fait sur trois parkings à ciel ouvert (P1, P2, P3, environ 217 places selon Val Gardena) juste à côté de la station aval de la télécabine Col Raiser. Tarif affiché par l'office de tourisme : 2 € de l'heure, 10 € pour 12 h, 20 € à partir de la 13e heure (année du tarif non précisée). Pas de hauteur limite : parkings de surface, aucune barrière de hauteur. Réservation impossible ; en haute saison le parking principal est plein vers 11 h, en octobre la pression est bien moindre. La télécabine tourne jusqu'au 1er novembre 2026 (8h30–16h30 à partir du 12 octobre), chien admis avec billet à 5 €. Pas de nuit sur place pour dormir (camping interdit)."
+    "description": "Le stationnement se fait sur trois parkings à ciel ouvert (P1, P2, P3, 217 places) juste à côté de la station aval de la télécabine Col Raiser. Tarif publié par l'office de tourisme Val Gardena et Dolomiti Superski : 2 € de l'heure, 10 € jusqu'à 12 h, 20 € à partir de la 13e heure. Parking réservé aux voitures (camping-cars et caravanes refusés). Pas de hauteur limite : parkings de surface, aucune barrière de hauteur. Réservation impossible ; en haute saison le parking principal est plein vers 11 h, en octobre la pression est bien moindre. La télécabine tourne jusqu'au 1er novembre 2026 (8h30–16h30 à partir du 12 octobre), chien admis avec billet à 5 €. Dormir ou camper sur place est interdit."
   },
   {
     "id": "parking-alpe-p1",
@@ -10127,7 +10583,7 @@
     "ouverture": {
       "fin_saison": "2026-11-02",
       "a_reverifier": false,
-      "note": "Ouvert pendant le séjour, avec réservation obligatoire et arrivée avant 9h (route fermée 9h–17h)."
+      "note": "Obligation de réservation liée à la fermeture de la route 9h–17h, qui dure tant que la télécabine tourne (jusqu'au 2 novembre 2026). Tout le séjour (10–25 octobre selon le scénario) est donc soumis à réservation, entrée avant 9h30."
     },
     "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
     "chien": {
@@ -10197,8 +10653,8 @@
         "valeur": "au plus tard 9h30"
       },
       {
-        "libelle": "Saison 2026",
-        "valeur": "règles en vigueur jusqu'à la fermeture de la télécabine (2 novembre 2026)"
+        "libelle": "Réservation obligatoire",
+        "valeur": "depuis le 29 juin 2026, tant que la télécabine tourne (jusqu'au 2 novembre 2026)"
       }
     ],
     "pratique": [
@@ -10219,19 +10675,23 @@
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Seiser Alm — parkings P1/P2 : tarifs 2026, réservation, interdiction 23h–5h",
+          "libelle": "Seiser Alm — parkings P1/P2 : tarifs 2026, réservation dès le 29 juin, interdiction 23h–5h, intersaison",
           "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
         },
         {
-          "libelle": "Seiser Alm — réservation : entrée au plus tard 9h30, sans remboursement",
+          "libelle": "Seiser Alm — réservation : 6 jours avant, entrée au plus tard 9h30, sans remboursement",
           "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm/seiser-alm-parking-reservation.html"
         },
         {
-          "libelle": "Seiser Alm — accès : route ouverte seulement avant 9h et après 17h",
+          "libelle": "Seiser Alm — accès : route fermée 9h–17h quand la télécabine tourne, libre en intersaison ; portail de réservation zufahrt-seiseralm.it",
           "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm.html"
         },
         {
-          "libelle": "Fiche officielle P1 (adresse, 5h–23h, hors saison gratuit)",
+          "libelle": "Télécabine Seiser Alm — saison jusqu'au 2 novembre 2026",
+          "url": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html"
+        },
+        {
+          "libelle": "Fiche officielle P1 (adresse Spitzbichl 1, 5h–23h, gratuit hors saison)",
           "url": "https://www.seiseralm.it/en/enjoyment-experience/experience/shopping/E7503F91A0D51BC9FEB48FEE16D368CE-parking-place-p1-spitzbuehl.html"
         },
         {
@@ -10239,7 +10699,8 @@
           "url": "https://www.openstreetmap.org/way/101311192"
         }
       ],
-      "doutes": "Aucune page officielle ne donne la date de fin de l'obligation de réservation ; déduite de la saison de la télécabine (2 nov.) et du tarif hors saison « début novembre »."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "Depuis Siusi/Seis par la route de l'Alpe (contrôle à St. Valentin). Parking de surface, aucune limite de hauteur publiée ni barrière : 1,95 m sans problème.",
     "description": "Premier parking du plateau, à ciel ouvert, sans barrière (place libre au choix). En 2026 la réservation en ligne est obligatoire depuis le 29 juin : ouverte 6 jours avant, jusqu'au matin même si places restantes ; plaque d'immatriculation non modifiable, aucun remboursement. La route d'accès n'est ouverte aux voitures qu'avant 9h et après 17h ; l'entrée au parking doit se faire au plus tard à 9h30, sinon la réservation est perdue. Le 16 octobre 2026 est en pleine saison (télécabine jusqu'au 2 novembre), donc ces règles s'appliquent. Tarif réduit (gratuit) seulement début novembre–début décembre. Stationnement interdit 23h–5h dans le parc naturel. Depuis P1, sentier de ≈ 30 min en montée vers Compatsch ; le bus 14 ne circule que fin juillet–septembre."
@@ -10270,8 +10731,16 @@
           "valeur": "15 €"
         },
         {
+          "libelle": "Autocar / jour",
+          "valeur": "160 €"
+        },
+        {
           "libelle": "Voiture, intersaison",
           "valeur": "15 €"
+        },
+        {
+          "libelle": "Autocar, intersaison",
+          "valeur": "80 €"
         }
       ]
     },
@@ -10282,7 +10751,7 @@
     "ouverture": {
       "fin_saison": "2026-11-02",
       "a_reverifier": false,
-      "note": "Ouvert pendant le séjour au tarif plein (30 €), réservation obligatoire, arrivée avant 9h."
+      "note": "Obligation de réservation liée à la fermeture de la route 9h–17h, qui dure tant que la télécabine tourne (jusqu'au 2 novembre 2026). Tout le séjour (10–25 octobre selon le scénario) est donc soumis à réservation, entrée avant 9h30. Tarif plein 30 €."
     },
     "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
     "niveau_prix": "€€",
@@ -10346,6 +10815,10 @@
       {
         "libelle": "Entrée avec réservation",
         "valeur": "au plus tard 9h30"
+      },
+      {
+        "libelle": "Réservation obligatoire",
+        "valeur": "depuis le 29 juin 2026, tant que la télécabine tourne (jusqu'au 2 novembre 2026)"
       }
     ],
     "pratique": [
@@ -10356,39 +10829,48 @@
       {
         "libelle": "Services",
         "valeur": "station amont télécabine, hôtels et bars de Compatsch"
+      },
+      {
+        "libelle": "Hauteur",
+        "valeur": "aucune limite : barrières levantes, autocars admis"
       }
     ],
     "verification": {
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Seiser Alm — parkings P1/P2 : tarifs 2026, réservation, interdiction 23h–5h",
+          "libelle": "Seiser Alm — parkings P1/P2 : tarifs 2026, réservation dès le 29 juin, interdiction 23h–5h, intersaison",
           "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
         },
         {
-          "libelle": "Seiser Alm — réservation : entrée au plus tard 9h30, sans remboursement",
+          "libelle": "Seiser Alm — réservation : 6 jours avant, entrée au plus tard 9h30, sans remboursement",
           "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm/seiser-alm-parking-reservation.html"
         },
         {
-          "libelle": "Seiser Alm — accès : route ouverte seulement avant 9h et après 17h",
+          "libelle": "Seiser Alm — accès : route fermée 9h–17h quand la télécabine tourne, libre en intersaison ; portail de réservation zufahrt-seiseralm.it",
           "url": "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm.html"
         },
         {
-          "libelle": "Fiche officielle P2 (adresse, 5h–23h, 15 € intersaison)",
+          "libelle": "Télécabine Seiser Alm — saison jusqu'au 2 novembre 2026",
+          "url": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html"
+        },
+        {
+          "libelle": "Fiche officielle P2 (Compatsch 15, 5h–23h, barrières, autocars 160 €/jour)",
           "url": "https://www.seiseralm.it/en/info-service/current-information/information-a-z/9AA771C79C64046677206620236F645F-p-parking-p2-compatsch.html"
         },
         {
-          "libelle": "OpenStreetMap — parking P2",
+          "libelle": "OpenStreetMap — parking P2 (surface, gravier, aucun maxheight)",
           "url": "https://www.openstreetmap.org/way/96095936"
         }
       ],
-      "doutes": "Date exacte de fin de l'obligation de réservation non publiée ; hauteur limite de la barrière non publiée."
+      "doutes": "",
+      "a_demander": []
     },
     "chien": {
       "admis": true,
       "note": "Parking extérieur, départ direct des promenades de Compatsch."
     },
-    "acces": "Route de l'Alpe depuis Siusi (contrôle à St. Valentin). Parking de surface à barrière QR code ; aucune limite de hauteur publiée, 1,95 m sans problème connu.",
+    "acces": "Route de l'Alpe depuis Siusi (contrôle à St. Valentin avant 9h). Parking de surface à barrières levantes lues par QR code (deux entrées au-dessus de l'hôtel Zorzi) : pas de portique, les autocars y stationnent (tarif bus 160 €/jour, sortie par l'aire de retournement des bus). La tente de toit (1,95 m) passe.",
     "description": "Grand parking de Compatsch, à côté de la station amont de la télécabine de Siusi, accès par barrière avec lecture du QR code de la réservation (deux barrières au-dessus de l'hôtel Zorzi). Réservation obligatoire en 2026 depuis le 29 juin, ouverte 6 jours avant ; plaque non modifiable, aucun remboursement. Route fermée aux voitures 9h–17h : arriver avant 9h ; entrée au plus tard 9h30 sinon réservation perdue. Barrières bloquées 23h–5h (nuit interdite). Le 16 octobre 2026 est en saison : 30 €. Tarif réduit à 15 € seulement de début novembre à début décembre."
   },
   {
@@ -10589,21 +11071,29 @@
       11.72015
     ],
     "commune": "Santa Maddalena / Funes (BZ)",
-    "resume": "Aire de 19–20 places à la ferme Obermantingerhof, ouverte jusqu'au 31 octobre 2026 : ouverte du 13 au 16 octobre. 37 € la nuit + taxe de 2 €/adulte, soit 41 € à deux ; séjour limité à 3 nuits, arriver avant 18 h.",
+    "resume": "Aire de camping-cars autorisée par la commune (19 emplacements) au-dessus de Santa Maddalena, ouverte jusqu'au 31 octobre. Chiens admis en laisse sans supplément affiché ; 3 nuits maximum, arrivée 8h–20h. Environ 41 € la nuit à deux, taxe comprise. Tente de toit : accord à obtenir.",
     "prix": {
       "type": "payant",
       "montant": 41,
-      "unite": "nuit, 2 adultes, taxe comprise, chien non compris",
+      "unite": "nuit, 2 adultes + chien, taxe de séjour comprise",
       "annee_tarif": 2026,
-      "detail": "37 € l'emplacement (électricité, eau, douche, WC, Wi-Fi compris) + taxe de séjour 2 €/adulte. Campercontact : 41 € pour deux, taxes comprises. park4night : 42 €, 10 € pour les seuls services. Supplément chien non publié.",
+      "detail": "Moteur de réservation officiel : « à partir de 35 € » par emplacement et par nuit, sans supplément par adulte ni pour le chien ; paiement en espèces. Guides 2026 : 37 € l'emplacement + taxe de séjour 2 €/adulte, soit 41 € à deux (Campercontact), 42 € (park4night).",
       "grille": [
         {
-          "libelle": "Emplacement, services compris",
+          "libelle": "Emplacement, services compris (site officiel)",
+          "valeur": "à partir de 35 €/nuit"
+        },
+        {
+          "libelle": "Emplacement (guides 2026)",
           "valeur": "37 €/nuit"
         },
         {
           "libelle": "Taxe de séjour",
-          "valeur": "2 €/personne ≥ 14 ans/nuit"
+          "valeur": "2 €/personne ≥ 14 ans/nuit (guides)"
+        },
+        {
+          "libelle": "Chien",
+          "valeur": "admis en laisse, aucun supplément affiché"
         },
         {
           "libelle": "Services seuls (sans nuit)",
@@ -10613,12 +11103,12 @@
     },
     "chien": {
       "admis": true,
-      "note": "Chiens admis (office de tourisme des Odle, stellplatz.info) ; supplément non publié."
+      "note": "« Hunde erlaubt (an der Leine) » sur le moteur de réservation officiel ; aucun supplément affiché."
     },
     "ouverture": {
       "fin_saison": "2026-10-31",
-      "a_reverifier": false,
-      "note": "Ouverte pendant tout le séjour (fermeture le 31 octobre). Réservation par l'exploitant à obtenir, maximum 3 nuits : le 13–16 octobre tient dans la limite."
+      "a_reverifier": true,
+      "note": "Ouverte pendant tout le séjour (fermeture le 31 octobre). Acceptation d'une voiture à tente de toit non publiée : à confirmer avant de réserver. Maximum 3 nuits."
     },
     "source": "https://www.zumgletscherhons.com/stellplaetze",
     "niveau_prix": "€€",
@@ -10646,6 +11136,14 @@
       {
         "libelle": "Campercontact",
         "url": "https://www.campercontact.com/de/italien/trentino-sudtirol/villno%C3%9F/93252/zum-gletscher-hons"
+      },
+      {
+        "libelle": "Commune de Funes — licence de l'aire, 19 emplacements (PDF)",
+        "url": "http://deliberedl.gvcc.net/033/033_1_207k_2026.pdf"
+      },
+      {
+        "libelle": "Commune de Funes — règlement stationnement et camping 2026 (PDF)",
+        "url": "https://www.gemeinde.villnoess.bz.it/system/web/GetDocument.ashx?cts=1783681000&fileId=1553506"
       }
     ],
     "photos": [
@@ -10730,11 +11228,19 @@
     "horaires": [
       {
         "libelle": "Saison 2026",
-        "valeur": "1er avril – 31 octobre (puis 1er déc. – 31 janv.)"
+        "valeur": "jusqu'au 31 octobre (puis 1er déc. – 31 janv.)"
       },
       {
         "libelle": "Arrivée",
-        "valeur": "avant 18 h"
+        "valeur": "8h–20h (guides : avant 18 h conseillé, souvent complet le soir)"
+      },
+      {
+        "libelle": "Départ",
+        "valeur": "avant 11h"
+      },
+      {
+        "libelle": "Silence",
+        "valeur": "22h–7h"
       },
       {
         "libelle": "Séjour maximum",
@@ -10743,20 +11249,24 @@
     ],
     "pratique": [
       {
+        "libelle": "Statut",
+        "valeur": "aire de camping-cars autorisée par la commune : 19 emplacements (licence 2023, délibération 207/2026)"
+      },
+      {
         "libelle": "Tente de toit",
-        "valeur": "non mentionnée : aire pour camping-cars, accord à demander"
+        "valeur": "non mentionnée par l'exploitant : accord à demander. Légalement, camper n'est permis dans la commune que sur un camping ou une aire autorisée comme celle-ci"
       },
       {
         "libelle": "Services",
-        "valeur": "électricité 2,5 A, eau, vidange, douche, WC, Wi-Fi, lave-linge"
+        "valeur": "électricité 1 kW, eau, vidange eaux grises et WC chimique, douche chaude, WC, Wi-Fi, tri des déchets"
+      },
+      {
+        "libelle": "Paiement",
+        "valeur": "espèces"
       },
       {
         "libelle": "Sur place",
-        "valeur": "magasin de la ferme, restaurant le soir sur réservation, pain le matin"
-      },
-      {
-        "libelle": "Bus",
-        "valeur": "arrêt à 100 m, ticket inclus"
+        "valeur": "magasin de la ferme ; bus à 100 m"
       }
     ],
     "verification": {
@@ -10781,16 +11291,34 @@
         {
           "libelle": "Office de tourisme — chiens admis",
           "url": "https://www.odlesdolomites.com/en/accommodations/C87E93A37AAE756F4256E175636B7B34"
+        },
+        {
+          "libelle": "Site officiel — moteur de réservation : à partir de 35 €/nuit, chiens en laisse, arrivée 8h–20h, départ 11h, 3 nuits max, espèces",
+          "url": "https://www.zumgletscherhons.com/stellplaetze"
+        },
+        {
+          "libelle": "Commune de Funes — délibération 207 du 26.08.2026 : aire « Zum Gletscher Hons », 19 emplacements autorisés",
+          "url": "http://deliberedl.gvcc.net/033/033_1_207k_2026.pdf"
+        },
+        {
+          "libelle": "Commune de Funes — règlement 2026 : camping permis seulement sur camping ou aire autorisée ; annexe C, aire de 19 emplacements",
+          "url": "https://www.gemeinde.villnoess.bz.it/system/web/GetDocument.ashx?cts=1783681000&fileId=1553506"
         }
       ],
-      "doutes": "Le site officiel ne publie ni prix, ni saison, ni règles : tout vient de guides (stellplatz.info, Campercontact, park4night) concordants. Tente de toit jamais citée. Supplément chien inconnu. Date d'ouverture du printemps divergente (1er février ou 1er avril), sans effet sur octobre."
+      "doutes": "Acceptation d'une voiture à tente de toit non publiée par l'exploitant.",
+      "a_demander": [
+        {
+          "question": "Acceptez-vous une voiture avec tente de toit (2 adultes, 1 chien) du 13 au 16 octobre 2026, et quel est le prix total par nuit taxe de séjour comprise ?",
+          "page": "https://www.zumgletscherhons.com/kontakt"
+        }
+      ]
     },
     "acces": "Sortie A22 Bressanone/Chiusa, vallée de Funes jusqu'à Santa Maddalena, puis Ruefenweg au-dessus du village. Route étroite, 9 m de long au maximum.",
     "reserver": {
       "obligatoire": true,
       "url": "https://www.zumgletscherhons.com/kontakt"
     },
-    "description": "Aire pour camping-cars au-dessus de Santa Maddalena, à 1 300 m, avec vue sur les Odle. 19 à 20 emplacements, électricité (2,5 A), eau, vidange, douche, WC, Wi-Fi, lave-linge, magasin de la ferme et restaurant le soir (réserver). Ouverte du 1er avril au 31 octobre et du 1er décembre au 31 janvier (park4night ; stellplatz.info indique 1er février – 31 octobre). Tarif : 37 € la nuit, services compris ; taxe de séjour 2 €/personne de 14 ans et plus : 41 € pour deux (Campercontact), 42 € selon park4night. Séjour maximum 3 nuits, longueur max. 9 m. Chiens admis, supplément non publié. La tente de toit n'est mentionnée nulle part : l'aire se présente comme « Wohnmobilstellplatz » (camping-cars), accord à obtenir. Réservation fortement conseillée, souvent complète le soir ; arrivée avant 18 h. Route d'accès étroite. Ticket de bus inclus.",
+    "description": "Aire pour camping-cars au-dessus de Santa Maddalena, à 1 300 m, avec vue sur les Odle, exploitée par la ferme de Johann Mantinger. La commune l'a autorisée en 2023 pour 19 emplacements (délibération 207 du 26 août 2026) et le règlement communal de 2026 la classe comme aire de camping-cars désignée. Services : électricité 1 kW, eau, vidange, douche chaude, WC, Wi-Fi, tri des déchets, magasin de la ferme. Le moteur de réservation du site affiche « à partir de 35 € » la nuit par emplacement, sans supplément par personne ni pour le chien, paiement en espèces ; les guides 2026 donnent 37 € + taxe de séjour 2 €/adulte, soit environ 41 € à deux. Chiens admis en laisse. Séjour de 3 nuits maximum, arrivée 8h–20h, départ avant 11h, silence 22h–7h. Ouverte jusqu'au 31 octobre. La tente de toit n'est citée nulle part : l'aire s'adresse aux camping-cars, accord à obtenir avant de venir. Réservation conseillée, souvent complet le soir. Route d'accès étroite, 9 m au maximum.",
     "altitude": 1300
   },
   {
@@ -10855,7 +11383,7 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "gratuit, surface et toiture ; couvert de hauteur inconnue"
+        "valeur": "gratuit, surface et toiture (sans plafond) ; parking couvert déclaré, hauteur non publiée : ne pas l'utiliser"
       },
       {
         "libelle": "Toilettes",
@@ -10863,7 +11391,7 @@
       },
       {
         "libelle": "Chien",
-        "valeur": "admis, chariots pour animaux"
+        "valeur": "admis, chariots pour animaux (petits chiens)"
       }
     ],
     "verification": {
@@ -10882,7 +11410,13 @@
           "url": "https://www.dissapore.com/notizie/conad-cani-nei-carrelli/"
         }
       ],
-      "doutes": "Hauteur du parking couvert non publiée. Taille de chien acceptée non précisée par le magasin."
+      "doutes": "Taille de chien admise dans le magasin non précisée par Conad.",
+      "a_demander": [
+        {
+          "question": "Un chien de taille moyenne/grande, tenu en laisse, peut-il entrer dans le magasin avec nous, ou seuls les petits chiens dans les chariots pour animaux sont-ils admis ?",
+          "page": "https://www.conad.it/ricerca-negozi/conad-superstore-via-stalingrado-piazza-simone-weil-4r-17100-savona--008482"
+        }
+      ]
     },
     "ouverture": {
       "a_reverifier": false,
@@ -11111,13 +11645,13 @@
       8.34955
     ],
     "commune": "Via Varese 2, Finale Ligure (SV)",
-    "resume": "Camping en terrasses à 600 m de la mer, ouvert du 20 mars au 8 novembre 2026, donc aux nuits prévues (10, 12 ou 14 octobre). Environ 49,40 €/nuit pour 2 adultes + chien + taxe, électricité 4,50 € en option.",
+    "resume": "Camping en terrasses à 600 m de la mer, ouvert du 11 mars au 21 novembre 2026 (saison moyenne 20 mars – 8 novembre), donc aux nuits prévues (10, 12 ou 14 octobre). 49,40 à 57,40 €/nuit pour 2 adultes + chien + taxe selon que la voiture à tente de toit est comptée comme véhicule seul ou « tente + voiture » ; électricité 4,50 €.",
     "prix": {
       "type": "payant",
-      "montant": 49.4,
-      "unite": "nuit, 2 adultes + chien + taxe de séjour, hors électricité",
+      "montant": 57.4,
+      "unite": "nuit, 2 adultes + chien + taxe de séjour, hors électricité (hypothèse haute « tente + voiture »)",
       "annee_tarif": 2026,
-      "detail": "Saison moyenne 20/03–08/11/2026 : grande piazzola minimum 45 € (camper/roulotte/mini-van/tente + 2 personnes) + chien 3 € + taxe 2 × 0,70 € = 49,40 € ; électricité 4,50 € en option (53,90 € avec). Classement de la voiture à tente de toit dans la grille non précisé par le camping.",
+      "detail": "Saison moyenne 20/03–08/11/2026. Hypothèse haute retenue : « TENDA in piazzola grande + AUTO » 29 € + 2 adultes × 12 € = 53 € + chien 3 € + taxe 2 × 0,70 € = 57,40 €. Hypothèse basse si la voiture à tente de toit est traitée comme un van : minimum grande piazzola 45 € (« camper/ roulotte/ mini-van/ tenda + 2 persone ») + 3 € + 1,40 € = 49,40 €. Électricité 4,50 € en option. La grille ne cite pas la tente de toit.",
       "grille": [
         {
           "libelle": "Grande piazzola + 2 personnes (minimum)",
@@ -11156,13 +11690,13 @@
     },
     "ouverture": {
       "fin_saison": "2026-11-21",
-      "a_reverifier": false,
-      "note": "Ouvert aux nuits du 10, 12 et 14 octobre 2026 (saison officielle jusqu'au 21 novembre). Disponibilité non vérifiable en ligne."
+      "a_reverifier": true,
+      "note": "Ouvert aux nuits du 10, 12 et 14 octobre 2026 : fermeture annuelle seulement « DAL 24/11/2025 AL 10/03/2026 » et basse saison jusqu'au 21/11. Disponibilité et acceptation de la tente de toit à obtenir par le formulaire."
     },
     "horaires": [
       {
         "libelle": "Saison 2026",
-        "valeur": "11 mars – 21 novembre (fermeture annuelle du 24/11/2025 au 10/03/2026)"
+        "valeur": "11 mars – 21 novembre (moyenne saison 20 mars – 8 novembre)"
       },
       {
         "libelle": "Arrivée",
@@ -11171,6 +11705,10 @@
       {
         "libelle": "Départ",
         "valeur": "avant 10h"
+      },
+      {
+        "libelle": "Réception / arrivée tardive",
+        "valeur": "horaires non publiés"
       }
     ],
     "acces": "A10 sortie Finale Ligure, direction Finalmarina puis Aurelia vers Savona ; au bout d'1,5 km, à gauche vers Calvisio (via Drione), le long du torrent Sciusa, pont de pierre puis pont de fer, à droite sur 300 m, passer au-dessus de la voie ferrée puis à gauche via Varese. Allées internes raides et étroites (avis). Pas de limite de hauteur signalée.",
@@ -11307,15 +11845,37 @@
         {
           "libelle": "OpenStreetMap (Nominatim) — point « Tahiti »",
           "url": "https://www.openstreetmap.org/?mlat=44.17574&mlon=8.34955#map=18/44.17574/8.34955"
+        },
+        {
+          "libelle": "Site officiel — le camping (78 emplacements, 6 A)",
+          "url": "https://www.campingtahitifinaleligure.it/campeggio-finale-ligure-tende-camper-caravan"
+        },
+        {
+          "libelle": "Site officiel — formulaire de contact et de réservation",
+          "url": "https://www.campingtahitifinaleligure.it/prenotazioni-campeggio-finale-ligure-savona"
+        },
+        {
+          "libelle": "TripAdvisor — avis tente de toit et petit chien",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g194761-d4764779-Reviews-Camping_Tahiti-Finale_Ligure_Italian_Riviera_Liguria.html"
+        },
+        {
+          "libelle": "camping.info — avis clients",
+          "url": "https://www.camping.info/de/campingplatz/campeggio-tahiti/bewertungen"
         }
       ],
-      "doutes": "Tente de toit : aucune mention officielle, seulement un avis client. Horaires de réception et arrivée tardive non publiés. Disponibilité aux dates non vérifiable sans demande."
+      "doutes": "Acceptation de la tente de toit et tarif appliqué (« tente + voiture » ou van) non publiés ; horaires de réception et arrivée tardive non publiés ; disponibilité aux dates uniquement sur demande.",
+      "a_demander": [
+        {
+          "question": "Nous arrivons le [date] pour 1 nuit, 2 adultes et un chien, avec une voiture équipée d'une tente de toit (hauteur 1,95 m). Acceptez-vous la tente de toit sur une grande piazzola, à quel tarif (tenda + auto 29 € ou minimum piazzola 45 €), y a-t-il de la place ce soir-là, et jusqu'à quelle heure peut-on arriver ?",
+          "page": "https://www.campingtahitifinaleligure.it/prenotazioni-campeggio-finale-ligure-savona"
+        }
+      ]
     },
     "reserver": {
       "obligatoire": false,
       "url": "https://www.campingtahitifinaleligure.it/prenotazioni-campeggio-finale-ligure-savona"
     },
-    "description": "Camping familial de 90 emplacements sur 2 ha, à Finalpia, à 600 m de la plage et à pied du centre de Finale Ligure. Quatre blocs sanitaires, dont certains chauffés, douches chaudes gratuites, laverie, bar-restaurant-pizzeria avec mini-marché, Wi-Fi gratuit, tennis. Le terrain est en terrasses sur la colline : les avis Park4Night décrivent des allées raides et étroites, gênantes pour les grands camping-cars, sans incidence pour une voiture de 1,95 m. Tarif officiel 2026 en saison moyenne (20/03–08/11) : grande piazzola minimum 45 € pour véhicule ou tente + 2 personnes, chien 3 €, taxe de séjour 0,70 €/personne/nuit (5 premières nuits), électricité 4,50 €. Arrivée à partir de 15h, départ avant 10h. La tente de toit n'est pas citée dans la grille ; un avis TripAdvisor relate un séjour avec tente de toit et petit chien, sur une grande piazzola. Pas de réservation en ligne : formulaire de demande, puis acompte de 30 % par virement sous 15 jours."
+    "description": "Camping familial de 78 emplacements (40 à 60 m², électricité 6 A) sur 2 ha, à Finalpia, à 600 m de la plage et à pied du centre de Finale Ligure. Quatre blocs sanitaires, dont certains chauffés, douches chaudes gratuites, laverie, bar-restaurant-pizzeria avec mini-marché, Wi-Fi gratuit, tennis. Le terrain est en terrasses sur la colline : les avis Park4Night décrivent des allées raides et étroites, gênantes pour les grands camping-cars, sans incidence pour une voiture de 1,95 m. Tarif officiel 2026 en saison moyenne (20/03–08/11) : grande piazzola minimum 45 € pour véhicule ou tente + 2 personnes, chien 3 €, taxe de séjour 0,70 €/personne/nuit (5 premières nuits), électricité 4,50 €. Arrivée à partir de 15h, départ avant 10h. La tente de toit n'est citée sur aucune page officielle (italien, anglais, allemand) ; un seul avis TripAdvisor relate un séjour avec tente de toit et petit chien. Selon qu'elle est comptée « tente + voiture » (29 €) ou comme un van (minimum 45 € avec 2 personnes), la nuit coûte 57,40 € ou 49,40 € chien et taxe compris : à faire préciser dans la demande. Pas de réservation en ligne : formulaire de demande, puis acompte de 30 % par virement sous 15 jours."
   },
   {
     "id": "courses-conad-varazze",
@@ -11402,7 +11962,8 @@
           "url": "https://www.dissapore.com/notizie/conad-cani-nei-carrelli/"
         }
       ],
-      "doutes": "OSM indique des horaires d'été plus larges (16h–20h, dimanche après-midi) ; la fiche Conad (15h30–19h30, dimanche matin) fait foi pour octobre."
+      "doutes": "",
+      "a_demander": []
     },
     "ouverture": {
       "a_reverifier": false,
@@ -11553,15 +12114,19 @@
       }
     ],
     "recherche_photo": "Cogoleto",
-    "adresse": "Via della Pace 42, 16016 Cogoleto (GE)",
+    "adresse": "Via Vicinale Chiappino 2 (accès par Via della Pace), 16016 Cogoleto (GE)",
     "horaires": [
       {
         "libelle": "Saison 2026",
-        "valeur": "1er avril – 11 octobre 2026 (puis 18 déc. 2026 – 9 janv. 2027)"
+        "valeur": "1er avril – 11 octobre 2026 (puis 18 déc. 2026 – 9 janv. 2027), selon Pitchup"
       },
       {
-        "libelle": "Réception",
-        "valeur": "horaires non publiés"
+        "libelle": "Arrivée",
+        "valeur": "15h–20h (Pitchup)"
+      },
+      {
+        "libelle": "Départ",
+        "valeur": "avant 12h (Pitchup)"
       }
     ],
     "pratique": [
@@ -11576,6 +12141,10 @@
       {
         "libelle": "Services",
         "valeur": "douches unisexes, restaurant, barbecue, congélateur commun"
+      },
+      {
+        "libelle": "Électricité",
+        "valeur": "câble d'au moins 25 m nécessaire (Pitchup)"
       }
     ],
     "verification": {
@@ -11588,38 +12157,56 @@
         {
           "libelle": "Pitchup — saison 2026, prix, tente de toit",
           "url": "https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/"
+        },
+        {
+          "libelle": "Site officiel — contact (Via Vicinale Chiappino 2)",
+          "url": "https://www.campingeuropaunita.com/campeggio-cogoleto-liguria/"
+        },
+        {
+          "libelle": "OpenStreetMap — Via Vicinale Chiappino, Cogoleto",
+          "url": "https://www.openstreetmap.org/?mlat=44.39681&mlon=8.63430#map=18/44.39681/8.63430"
         }
       ],
-      "doutes": "La date de fin de saison vient de Pitchup, pas du site officiel (qui ne publie aucun calendrier). Grille officielle sans année ni saisons. Taxe de séjour inconnue. GPS non confirmé sur OpenStreetMap (le camping n'y figure pas) ; adresse double sur le site officiel."
+      "doutes": "La fin de saison (11 octobre 2026) n'est publiée que par Pitchup ; le site officiel ne donne aucun calendrier.",
+      "a_demander": [
+        {
+          "question": "Le camping est-il ouvert après le 11 octobre 2026 (nuits du 12 au 19 octobre), pour 2 adultes, un chien et une voiture à tente de toit ?",
+          "page": "https://www.campingeuropaunita.com/campeggio-cogoleto-liguria/"
+        }
+      ]
     },
-    "acces": "Autoroute A10, sortie Arenzano ou Varazze, puis Via della Pace. Véhicules à double essieu refusés. L'ancienne consigne « éviter Via Ronco et Via Magetti » n'a pas été retrouvée sur les pages consultées.",
+    "acces": "Autoroute A10, sortie Arenzano ou Varazze, puis Via della Pace et Via Vicinale Chiappino. Consigne de l'exploitant (Pitchup) : ne pas suivre le GPS par Via Ronco et Via Magetti, inaccessibles aux grands véhicules ; passer par Via della Pace. Véhicules à double essieu refusés.",
     "reserver": {
       "obligatoire": false,
       "url": "https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/"
     },
-    "description": "Camping familial sur les hauteurs de Cogoleto, entre Gênes et Savone. La fiche Pitchup (données 2026) indique une ouverture du 1er avril au 11 octobre 2026 puis du 18 décembre 2026 au 9 janvier 2027 : seule la nuit du 10 octobre (départ le 11) tombe dans la saison ; toute nuit à partir du 11 au soir est impossible. Les emplacements sur herbe/terre acceptent explicitement « Tenda da tetto, Caravan, Furgonato/Van, Camper » (une unité par emplacement) ; les XL font 5 m × 10 m avec stationnement à côté de l'unité. Chiens admis (2 max par emplacement), 5 €/nuit, tatouage ou puce obligatoire. Tarifs officiels : adulte 8–10 €, emplacement 15–25 €, animal 5 €, 2e véhicule 5 € ; Pitchup affiche « à partir de 32 € » pour 2 adultes, électricité +3 €. Aucun horaire de réception publié. Le site officiel donne deux adresses (Via della Pace 42 sur l'accueil, Via Vicinale Chiappino 2 sur la page contact)."
+    "description": "Camping familial sur les hauteurs de Cogoleto, entre Gênes et Savone. La fiche Pitchup (données 2026) indique une ouverture du 1er avril au 11 octobre 2026 puis du 18 décembre 2026 au 9 janvier 2027 : seule la nuit du 10 octobre (départ le 11) tombe dans la saison ; toute nuit à partir du 11 au soir est impossible. Les emplacements sur herbe/terre acceptent explicitement « Tenda da tetto, Caravan, Furgonato/Van, Camper » (une unité par emplacement) ; les XL font 5 m × 10 m avec stationnement à côté de l'unité. Chiens admis (2 max par emplacement), 5 €/nuit, tatouage ou puce obligatoire. Tarifs officiels : adulte 8–10 €, emplacement 15–25 €, animal 5 €, 2e véhicule 5 € ; Pitchup affiche « à partir de 32 € » pour 2 adultes, électricité +3 €. Arrivée 15h–20h, départ avant 12h (Pitchup). Le camping est au bout de la Via Vicinale Chiappino, qui part de la Via della Pace : les deux adresses du site officiel désignent le même accès, et le point GPS tombe à 30 m de cette voie sur OpenStreetMap. Électricité : câble de 25 m nécessaire."
   },
   {
     "id": "ferme-pinzagen-van-moar",
     "nom": "Van Moar — pré privé de Pinzagen",
     "categorie": "agricamper",
     "gps": [
-      46.70682,
-      11.63914
+      46.7064,
+      11.6388
     ],
     "gps_approximatif": true,
     "commune": "Pinzagen / Pinzago près de Bressanone (position du hameau, terrain privé non localisé)",
-    "resume": "Un seul emplacement sur herbe (25 m², 4 personnes max) à la ferme Van Moar, ouvert toute l'année ; tente de toit et chien acceptés sur Campspace. 30 €/nuit l'emplacement, électricité +5 €, pas de douche.",
+    "resume": "Un seul emplacement sur herbe (4 personnes max) à la ferme Van Moar de Pinzagen, ouvert toute l'année ; tente de toit et chien acceptés. 108,30 € les 3 nuits du 13 au 16 octobre 2026 frais compris (36,10 €/nuit), électricité +5 €, pas de douche.",
     "prix": {
       "type": "payant",
-      "montant": 30,
-      "unite": "nuit, emplacement jusqu'à 4 personnes, chien compris, hors électricité, frais de plateforme et taxe de séjour",
+      "montant": 36.1,
+      "unite": "nuit, emplacement jusqu'à 4 personnes, chien compris, frais Campspace et « taxes » compris, hors électricité",
       "annee_tarif": 2026,
-      "detail": "Prix d'appel Campspace « from € 30.00 per night », par emplacement. Électricité +5 €/nuit (35 € avec courant). Aucun supplément chien affiché. Frais de service Campspace et taxe de séjour de Bressanone non affichés.",
+      "detail": "Campspace, 13–16 octobre 2026, 2 adultes : « € 108.30 /incl. taxes & services, 3 nights, 2 guests, 1 pitch » = 36,10 €/nuit (même prix pour 1 adulte : tarif par emplacement). Électricité +5 €/nuit (41,10 € avec courant). Aucun supplément chien. La plateforme n'indique pas si « taxes » couvre la taxe de séjour de Bressanone. Nomady : « From 34.50 € ».",
       "grille": [
         {
-          "libelle": "Emplacement (4 pers. max)",
-          "valeur": "dès 30 €/nuit"
+          "libelle": "Emplacement (4 pers. max), 13–16 oct. 2026",
+          "valeur": "36,10 €/nuit tout compris Campspace (108,30 € les 3 nuits)"
+        },
+        {
+          "libelle": "Prix d'appel",
+          "valeur": "dès 30 €/nuit (Campspace), dès 34,50 € (Nomady)"
         },
         {
           "libelle": "Électricité",
@@ -11630,8 +12217,8 @@
           "valeur": "3,50 €/nuit"
         },
         {
-          "libelle": "Véhicule supplémentaire",
-          "valeur": "25 €"
+          "libelle": "Location de vélo",
+          "valeur": "9 €/personne/nuit"
         }
       ]
     },
@@ -11644,7 +12231,7 @@
       "a_reverifier": false,
       "note": "Ouvert toute l'année, donc ouvert aux dates d'octobre 2026 ; un seul emplacement, disponibilité à réserver."
     },
-    "acces": "Hameau de Pinzagen, au-dessus de Bressanone. Terrain privé non localisé : la position donnée est celle du hameau (OpenStreetMap). Attendre les indications de l'hôte. Sol en herbe.",
+    "acces": "Hameau de Pinzagen, au-dessus de Bressanone, à environ 50 m du restaurant Alpenrose selon l'hôte (position donnée : ce restaurant, OpenStreetMap). Adresse exacte communiquée après acceptation de la réservation. Sol en herbe.",
     "source": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507",
     "niveau_prix": "€",
     "equipements": [
@@ -11694,15 +12281,11 @@
     "horaires": [
       {
         "libelle": "Saison 2026",
-        "valeur": "toute l'année"
+        "valeur": "toute l'année ; dates d'octobre 2026 libres sur Campspace (aucune date bloquée)"
       },
       {
-        "libelle": "Arrivée (Campspace)",
-        "valeur": "12 h – 21 h ; départ 11 h – 12 h"
-      },
-      {
-        "libelle": "Arrivée (Nomady)",
-        "valeur": "dès 11 h 30, au plus tard 22 h ; départ avant 10 h 30"
+        "libelle": "Arrivée",
+        "valeur": "12 h – 21 h (Campspace ; Nomady accepte 11 h 30 – 22 h) ; départ 11 h – 12 h (Nomady : avant 10 h 30)"
       }
     ],
     "pratique": [
@@ -11729,15 +12312,29 @@
         {
           "libelle": "Nomady — hôte Van Moar, horaires, chiens en laisse",
           "url": "https://nomady.camp/en/cabin/wiesenstellplatz-mit-aussicht-1749"
+        },
+        {
+          "libelle": "Campspace — prix du 13 au 16 oct. 2026 (2 adultes)",
+          "url": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507?startDate=2026-10-13&endDate=2026-10-16&numberOfAdults=2&numberOfChildren=0&numberOfPitches=1"
+        },
+        {
+          "libelle": "OpenStreetMap — restaurant Alpenrose, Pinzagen",
+          "url": "https://www.openstreetmap.org/?mlat=46.70635&mlon=11.63879#map=18/46.70635/11.63879"
         }
       ],
-      "doutes": "Aucun site propre à la ferme trouvé : les deux sources sont des plateformes. Prix d'octobre 2026, frais de plateforme et taxe de séjour non affichés. Emplacement exact inconnu. Horaires d'arrivée différents selon la plateforme."
+      "doutes": "On ne sait pas si le prix Campspace « incl. taxes » comprend la taxe de séjour de Bressanone.",
+      "a_demander": [
+        {
+          "question": "Pour 2 adultes du 13 au 16 octobre 2026, le prix Campspace de 108,30 € « incl. taxes » comprend-il la taxe de séjour de Bressanone, ou est-elle à payer sur place (montant) ?",
+          "page": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507"
+        }
+      ]
     },
     "reserver": {
       "obligatoire": true,
       "url": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507"
     },
-    "description": "Pré privé à côté de la ferme d'Andreas et Dorothea, près du potager, avec vaches et poules en liberté comme voisines et vue sur la Plose. Un seul emplacement de 25 m² sur herbe, pour caravane, van, camping-car ou tente de toit (« Roof Top Tent » dans les types acceptés sur Campspace), 4 personnes au maximum. Ouvert toute l'année, une nuit minimum. Prix Campspace : à partir de 30 € la nuit par emplacement (pas par personne), électricité 5 €/nuit, bois 3,50 €, véhicule supplémentaire 25 €. Chiens acceptés, en laisse selon Nomady, sans supplément affiché. WC à 5 minutes au plus, eau potable, lave-linge ; pas de douche sur place. Annulation gratuite jusqu'à 14 jours avant, 50 % de remboursement entre 7 et 14 jours."
+    "description": "Pré privé à côté de la ferme d'Andreas et Dorothea, près du potager, avec vaches et poules en liberté comme voisines et vue sur la Plose. Un seul emplacement de 25 m² sur herbe, pour caravane, van, camping-car ou tente de toit (« Roof Top Tent » dans les types acceptés sur Campspace), 4 personnes au maximum. Ouvert toute l'année, une nuit minimum. Prix Campspace pour le 13–16 octobre 2026 : 108,30 € les 3 nuits « incl. taxes & services », par emplacement (même prix pour 1 ou 2 adultes) ; électricité 5 €/nuit, bois 3,50 €, vélo 9 €/personne/nuit. L'hôte situe la ferme à 50 m du restaurant Alpenrose ; sur Nomady, l'exploitation s'appelle « Van Moar Bauernhof » et n'a pas de site propre. Chiens acceptés, en laisse selon Nomady, sans supplément affiché. WC à 5 minutes au plus, eau potable, lave-linge ; pas de douche sur place. Annulation gratuite jusqu'à 14 jours avant, 50 % de remboursement entre 7 et 14 jours."
   },
   {
     "id": "agricamping-pietra-ulivo",
@@ -11748,39 +12345,52 @@
       8.27046714
     ],
     "commune": "Via Moilastrini 61, Pietra Ligure (SV)",
-    "resume": "Petit agricamping ouvert toute l'année (10 emplacements, arrivée autonome par code). Le règlement officiel interdit de garer une voiture sur les emplacements : une voiture à tente de toit n'y est admise que si l'exploitant l'accepte par écrit.",
+    "resume": "Petit agricamping ouvert toute l'année (10 emplacements, arrivée autonome par code). Le moteur officiel réserve les emplacements aux « camper / caravan / van / mezzi con tenda da tetto » : la voiture à tente de toit est admise. 48,90 € la nuit du 12 octobre 2026 pour 2 adultes + chien + taxe, électricité au compteur.",
     "prix": {
-      "type": "variable",
-      "montant": 29,
-      "unite": "nuit, estimation basse 2 adultes + chien, électricité et taxe de séjour en sus",
+      "type": "payant",
+      "montant": 48.9,
+      "unite": "nuit, 2 adultes + chien + taxe de séjour, électricité et eau au compteur (Standard, 12–13 oct. 2026)",
       "annee_tarif": 2026,
-      "detail": "Dès 186,20 €/semaine l'emplacement standard (26,60 €/nuit, jusqu'à 3 adultes), 212,80 €/semaine le XXL (30,40 €/nuit) selon Camping Direct ; chien environ 2,50 €/jour selon un avis, non publié par l'exploitant. Électricité et eau facturées au compteur. Aucun devis daté d'octobre 2026.",
+      "detail": "Moteur officiel lu le 28/09/2026, 2 adultes : Piazzola Standard 45 € la nuit du 12/10 (43 € le 14/10), Piazzola XL 55 € (52,50 € le 14/10) ; + « Animale domestico … € 2.50 / giorno / animale » ; + « Tassa di soggiorno (€ 0,70/persona - dal 01/04 al 31/10/26) » = 45 + 2,50 + 1,40 = 48,90 €. Électricité 0,60 €/kWh, eau 0,01 €/L. Remises -10 % dès 4 nuits, -15 % dès 7 nuits. Paiement intégral par carte à la réservation.",
       "grille": [
         {
-          "libelle": "Emplacement standard",
-          "valeur": "dès 26,60 €/nuit (186,20 €/sem.)"
+          "libelle": "Piazzola Standard (8,5 × 8 m), 2 adultes",
+          "valeur": "45 €/nuit le 12/10, 43 € le 14/10"
         },
         {
-          "libelle": "Emplacement XXL",
-          "valeur": "dès 30,40 €/nuit (212,80 €/sem.)"
+          "libelle": "Piazzola XL (10 × 8,5 m), 2 adultes",
+          "valeur": "55 €/nuit le 12/10, 52,50 € le 14/10"
         },
         {
           "libelle": "Chien",
-          "valeur": "≈ 2,50 €/jour (avis, non officiel)"
+          "valeur": "2,50 €/jour, 2 animaux max"
         },
         {
-          "libelle": "Électricité / eau",
-          "valeur": "au compteur"
+          "libelle": "Taxe de séjour",
+          "valeur": "0,70 €/personne/nuit (1/04–31/10/2026)"
+        },
+        {
+          "libelle": "Électricité",
+          "valeur": "0,60 €/kWh"
+        },
+        {
+          "libelle": "Eau",
+          "valeur": "0,01 €/L"
+        },
+        {
+          "libelle": "Salle de bain privée",
+          "valeur": "10 €/nuit, sur réservation"
         }
       ]
     },
     "chien": {
       "admis": true,
-      "note": "Admis sur l'emplacement et dans l'aire de détente ; laisse et collier avec médaille obligatoires, carnet de vaccination exigé, interdit dans les sanitaires, ne jamais le laisser seul."
+      "supplement": 2.5,
+      "note": "2,50 €/jour (moteur officiel), 2 animaux max. Laisse et collier avec médaille obligatoires, carnet de vaccination exigé, interdit dans les sanitaires, ne jamais le laisser seul ; aire de détente pour chiens."
     },
     "ouverture": {
       "a_reverifier": false,
-      "note": "Ouvert toute l'année : ouvert les 12–13 et 14–15 octobre 2026. Disponibilité et acceptation de la voiture à tente de toit à obtenir par écrit."
+      "note": "Ouvert toute l'année ; le moteur officiel affiche 3 Standard et 5 XL libres les nuits du 12 et du 14 octobre 2026 (lu le 28/09)."
     },
     "source": "https://www.lapietraelulivo-agricamping-pietraligure.com/data/Agricamping-Regolamento.pdf",
     "liens": [
@@ -11886,29 +12496,29 @@
     "horaires": [
       {
         "libelle": "Saison 2026",
-        "valeur": "toute l'année (1er janvier – 31 décembre)"
+        "valeur": "toute l'année"
       },
       {
-        "libelle": "Arrivée / départ",
-        "valeur": "à partir de 12 h / avant 11 h, accès autonome par code"
+        "libelle": "Emplacement",
+        "valeur": "de 12 h le jour d'arrivée à 12 h le jour du départ (moteur officiel)"
       },
       {
         "libelle": "Réception (Camping Direct)",
-        "valeur": "basse saison 10 h–19 h ; arrivée tardive jusqu'à 23 h sur appel"
+        "valeur": "basse saison 10 h–19 h ; arrivée autonome par code"
       }
     ],
     "pratique": [
       {
         "libelle": "Tente de toit",
-        "valeur": "acceptée selon Pitchup, mais voitures interdites sur les emplacements selon le règlement officiel"
+        "valeur": "acceptée : « PIAZZOLE SOLO PER : CAMPER / CARAVAN / VAN / MEZZI CON TENDA DA TETTO. SONO VIETATE LE TENDE »"
       },
       {
         "libelle": "Services",
-        "valeur": "douches chaudes, WC, salle de bain PMR, lave-linge et sèche-linge, Wi-Fi, aire chiens, vidange camping-car"
+        "valeur": "douches chaudes gratuites, WC, salle de bain PMR, lave-linge et sèche-linge, Wi-Fi fibre, aire chiens, vidange camping-car gratuite"
       },
       {
         "libelle": "Électricité",
-        "valeur": "6 A, câble à prise industrielle non fourni"
+        "valeur": "6 A, 0,60 €/kWh, câble à prise industrielle non fourni"
       }
     ],
     "verification": {
@@ -11929,16 +12539,21 @@
         {
           "libelle": "Campio — saison 1er janv. – 31 déc.",
           "url": "https://campio.no/it/campsite/agricamping-la-pietra-e-lulivo"
+        },
+        {
+          "libelle": "Moteur de réservation officiel — conditions, prix 12–13 et 14–15 oct. 2026, chien, taxe",
+          "url": "https://booking.passepartout.cloud/booking?oidPortale=23238&lingua=it"
         }
       ],
-      "doutes": "Voiture à tente de toit : règlement officiel contre Pitchup, contradiction non levée. Prix d'octobre 2026 non obtenu (moteur de réservation en JavaScript, illisible sans navigateur). Supplément chien et taxe de séjour de Pietra Ligure non publiés."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "Via Moilastrini, sur les hauteurs de Pietra Ligure, 5 minutes de voiture de la côte. Accès et départ autonomes par code.",
     "reserver": {
       "obligatoire": true,
       "url": "https://booking.passepartout.cloud/booking?oidPortale=23238&lingua=it"
     },
-    "description": "Dix emplacements sur herbe plate avec eau et électricité (6 A, câble à prise industrielle à apporter), au milieu d'oliviers, à 1 km de la mer. Ouvert toute l'année selon Pitchup et Campio. Arrivée autonome : un code envoyé par e-mail ouvre la barrière et active l'eau et l'électricité ; journée de 12 h à 11 h. Le règlement officiel stipule : « È severamente vietata la sosta delle macchine nelle piazzole destinate ad ospitare roulotte o camper » (stationnement des voitures interdit sur les emplacements) et réserve le parking intérieur aux voitures tractant une caravane. Pitchup affiche pourtant « One Roof tent … allowed per pitch » : contradiction à lever par écrit avant de réserver. Chiens admis sur les emplacements et dans l'aire de détente, en laisse, carnet de vaccination exigé, jamais seuls. Prix affiché par Camping Direct : dès 186,20 €/semaine l'emplacement standard, soit 26,60 €/nuit (prix de base pour 3 adultes) ; un avis cite 2,50 €/jour par chien. Réservation uniquement via le moteur du site, prélèvement du solde le jour de l'arrivée ; acompte perdu si annulation à moins de 30 jours."
+    "description": "Dix emplacements sur herbe plate avec eau et électricité (6 A, câble à prise industrielle à apporter), au milieu d'oliviers, à 1 km de la mer. Ouvert toute l'année. Le moteur de réservation officiel pose la règle : « PIAZZOLE SOLO PER : CAMPER / CARAVAN / VAN / MEZZI CON TENDA DA TETTO. SONO VIETATE LE TENDE » — la voiture à tente de toit est admise, seules les tentes au sol sont refusées ; l'interdiction de garer une voiture sur l'emplacement, dans l'ancien règlement PDF, vise les voitures seules. Prix lus sur le moteur pour 2 adultes : Standard 45 € la nuit du 12 octobre 2026 (43 € le 14), XL 55 € (52,50 €), chien 2,50 €/jour, taxe 0,70 €/personne ; électricité 0,60 €/kWh et eau au compteur. Emplacement disponible de 12 h à 12 h ; arrivée autonome, un code envoyé par e-mail ouvre la barrière. Chiens en laisse, carnet de vaccination exigé, jamais seuls. Paiement intégral par carte à la réservation."
   },
   {
     "id": "camping-gamp-chiusa",
@@ -11949,24 +12564,24 @@
       11.57351667
     ],
     "commune": "Griesbruck 10, Chiusa / Klausen (BZ)",
-    "resume": "Repli ouest à Chiusa, ouvert et réservable en ligne à la mi-octobre 2026. Emplacement tente + voiture : 51 €/nuit pour 2 adultes, + taxe 4,80 € et chien (≈ 5 €).",
+    "resume": "Repli ouest à Chiusa, ouvert et réservable en ligne à la mi-octobre 2026. La voiture à tente de toit est admise dans le camping (Zeltplatz) : 51 €/nuit pour 2 adultes, + taxe 4,80 € et chien 4,50 €.",
     "prix": {
       "type": "payant",
-      "montant": 60.8,
-      "unite": "nuit, 2 adultes + chien + taxe de séjour (emplacement tente)",
+      "montant": 60.3,
+      "unite": "nuit, 2 adultes + chien + taxe de séjour (Zeltplatz)",
       "annee_tarif": 2026,
-      "detail": "Emplacement tente 51 €/nuit pour 2 adultes (moteur officiel, 13–16/13–17 oct. 2026 : 55,80 € taxe comprise) + taxe 2 × 2,40 € + chien ≈ 5 € (suedtirol.info, non confirmé par le camping) = 60,80 €/nuit.",
+      "detail": "Zeltplatz 51 €/nuit pour 2 adultes (moteur officiel, 13–16 oct. 2026 : 153 € les 3 nuits, 167,40 € avec la taxe) + taxe de séjour 2 × 2,40 € + option « Mein Hund ist dabei » 13,50 € les 3 nuits (4,50 €/nuit) = 60,30 €/nuit.",
       "grille": [
         {
-          "libelle": "Emplacement tente + voiture, 2 adultes",
+          "libelle": "Zeltplatz (tente ou voiture à tente de toit), 2 adultes",
           "valeur": "51 €/nuit"
         },
         {
-          "libelle": "Emplacement Comfort (caravane/camping-car), 2 adultes",
-          "valeur": "56 €/nuit"
+          "libelle": "Emplacement Komfort (caravane/camping-car uniquement)",
+          "valeur": "56 €/nuit (182,40 € les 3 nuits taxe comprise)"
         },
         {
-          "libelle": "Aire camping-car sans sanitaires",
+          "libelle": "Aire camping-car sans sanitaires (interdite aux voitures à tente de toit)",
           "valeur": "25 €/nuit"
         },
         {
@@ -11975,14 +12590,14 @@
         },
         {
           "libelle": "Chien",
-          "valeur": "payant sur le camping, ≈ 5 € (source tierce)"
+          "valeur": "4,50 €/nuit (13,50 € les 3 nuits, moteur officiel), 1 par emplacement"
         }
       ]
     },
     "chien": {
       "admis": true,
-      "supplement": 5,
-      "note": "1 chien max. par emplacement, en laisse, interdit sur la plage de la piscine ; payant sur le camping (montant non publié officiellement, 5 € selon suedtirol.info)."
+      "supplement": 4.5,
+      "note": "Moteur officiel : option « Mein Hund ist dabei » à 13,50 € pour 3 nuits et 1 emplacement (4,50 €/nuit) ; « Hunde sind im Campingplatz kostenpflichtig! ». 1 chien par emplacement, en laisse, interdit sur la plage de la piscine."
     },
     "ouverture": {
       "fin_saison": "2026-10-31",
@@ -12096,6 +12711,10 @@
     ],
     "pratique": [
       {
+        "libelle": "Tente de toit",
+        "valeur": "admise dans le camping : « Auto mit Dachzelt … dürfen nur im Campingplatz stehen » (réserver un Zeltplatz)"
+      },
+      {
         "libelle": "Douches",
         "valeur": "sanitaires accessibles (pas sur l'aire camping-car)"
       },
@@ -12113,7 +12732,7 @@
       },
       {
         "libelle": "Acompte",
-        "valeur": "immédiat par virement, non remboursé en cas d'annulation"
+        "valeur": "immédiat par virement, non remboursé en cas d'annulation ; séjour entier dû si annulation le jour d'arrivée"
       }
     ],
     "verification": {
@@ -12132,18 +12751,23 @@
           "url": "https://www.eurocampings.co.uk/italy/trentino-alto-adige/south-tyrol/klausen/ansitz-gamp-104817/"
         },
         {
-          "libelle": "suedtirol.info — chien 5 €",
-          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-enquiry.BA1AF339A1A311D3A0B800105A6F94EC.camping-gamp.chiusa-klausen"
+          "libelle": "Moteur officiel — fiches Zeltplatz / aire camping-car (« Auto mit Dachzelt »), option chien 13,50 €",
+          "url": "https://s004544.officialbookings.com/?skd-checkin=2026-10-13&skd-checkout=2026-10-16&skd-adult-room=2&skd-language=de"
+        },
+        {
+          "libelle": "Site officiel — camping et FAQ",
+          "url": "https://ansitzgamp.com/camping-suedtirol/"
         }
       ],
-      "doutes": "Tente de toit non mentionnée : l'emplacement tente est prévu pour « tente jusqu'à 3 places + une voiture ». Montant du chien non officiel. Pas de carte d'hôte trouvée."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "A22 sortie Chiusa, puis 1 km. Aucune restriction de hauteur signalée.",
     "reserver": {
       "obligatoire": false,
       "url": "https://s004544.officialbookings.com/room/Y"
     },
-    "description": "Camping familial de la résidence Ansitz Gamp, à 1 km de la sortie d'autoroute Chiusa, à 5 minutes à pied de la vieille ville et 2 minutes de la gare et des bus. Trois formules : emplacements Comfort (70–105 m², réservés aux caravanes et camping-cars), emplacements tente (tente jusqu'à 3 places + une voiture, séparés par des haies, sur herbe) et aire camping-car sur gravier sans douches ni toilettes (camping-cars uniquement). Pour une voiture à tente de toit, la catégorie pertinente est l'emplacement tente, mais la tente de toit n'y est pas citée. Moteur officiel : emplacement tente 51 €/nuit pour 2 adultes du 13 au 17 octobre 2026, taxe de séjour 2,40 €/personne/nuit en sus. Chien admis (1 par emplacement, en laisse, interdit sur la plage de la piscine), payant sur le camping : montant non publié par le camping, 5 € selon suedtirol.info. Sanitaires accessibles, lave-linge et sèche-linge, séchoir, minimarché, piscine chauffée, Wi-Fi gratuit, électricité et TV satellite sur les emplacements. Emplacement disponible dès 12h, arrivée jusqu'à 22h sur accord (prévenir si après 17h, sinon la place est libérée), départ avant 11h30."
+    "description": "Camping familial de la résidence Ansitz Gamp, à 1 km de la sortie d'autoroute Chiusa, à 5 minutes à pied de la vieille ville et 2 minutes de la gare et des bus. Trois formules : emplacements Komfort (70–105 m², réservés aux caravanes et camping-cars : « Zelt inkl. Auto oder Motorrad sind auf diesen Stellplätzen nicht erlaubt »), Zeltplätze (tente + une voiture, séparés par des haies, sur herbe, eau et 6 A, 2 personnes max. en ligne) et aire camping-car sur gravier sans douches ni toilettes. Le moteur officiel écrit pour cette aire : « Buchen Sie bitte nicht den Wohnmobilstellplatz, wenn Sie mit einem Wohnwagen, Auto mit Dachzelt, Pkw unter 4,40 Meter oder mit einem Zelt anreisen, da diese nur im Campingplatz stehen dürfen! » : la voiture à tente de toit va donc sur un Zeltplatz. Prix du 13 au 16 octobre 2026 : 153 € les 3 nuits pour 2 adultes, taxe 2,40 €/personne/nuit en sus, chien 13,50 € les 3 nuits. Chien admis (1 par emplacement, en laisse, interdit sur la plage de la piscine). Sanitaires, lave-linge et sèche-linge, minimarché, piscine chauffée, Wi-Fi gratuit. Emplacement disponible dès 12h, arrivée jusqu'à 22h sur accord (prévenir si après 17h, sinon la place est libérée), départ avant 11h30."
   },
   {
     "id": "camping-vahrner-see",
@@ -12206,10 +12830,6 @@
     "source": "https://camping-vahrner-see.com/en/camping-vahrner-see/rates-offers",
     "liens": [
       {
-        "libelle": "Camping Vahrner See — site officiel",
-        "url": "https://www.vahrnersee.com/"
-      },
-      {
         "libelle": "Fiche ADAC — saison, prix chien et accès",
         "url": "https://www.pincamp.de/campingplaetze/camping-zum-vahrner-see"
       },
@@ -12224,6 +12844,10 @@
       {
         "libelle": "Contact et accès",
         "url": "https://camping-vahrner-see.com/en/info-contact/contact-arrival"
+      },
+      {
+        "libelle": "Auberge — horaires",
+        "url": "https://camping-vahrner-see.com/landgasthaus/restaurant-bar"
       }
     ],
     "photos": [
@@ -12267,25 +12891,25 @@
       },
       {
         "libelle": "Arrivée",
-        "valeur": "sans réservation ; horaires de réception non publiés"
+        "valeur": "sans réservation (« Einfach anreisen! ») ; horaires de réception non publiés — l'auberge attenante est ouverte 9h–22h, sauf mercredi après-midi et jeudi"
       }
     ],
     "pratique": [
       {
         "libelle": "Douches",
-        "valeur": "sanitaires chauffés, eau chaude"
+        "valeur": "sanitaires chauffés, eau chaude (incluses)"
       },
       {
         "libelle": "Électricité",
-        "valeur": "non précisée par le site officiel"
+        "valeur": "incluse (ADAC : « Strom inklusive » ; suedtirol.info : « electricity line »)"
       },
       {
         "libelle": "Laverie",
-        "valeur": "non mentionnée"
+        "valeur": "lave-linge (suedtirol.info)"
       },
       {
         "libelle": "Restauration",
-        "valeur": "auberge attenante (Landgasthaus)"
+        "valeur": "auberge attenante : bar 9h–22h, cuisine 12h–14h et 18h–20h, fermée mercredi après-midi et jeudi"
       }
     ],
     "verification": {
@@ -12306,15 +12930,33 @@
         {
           "libelle": "Nominatim — point « Zum Vahrner See »",
           "url": "https://www.openstreetmap.org/?mlat=46.76117&mlon=11.63437#map=18/46.76117/11.63437"
+        },
+        {
+          "libelle": "Site officiel (DE) — tarifs 2026, « 1 Auto mit Dachzelt 13 € »",
+          "url": "https://camping-vahrner-see.com/camping-zum-see/preise-angebote"
+        },
+        {
+          "libelle": "Site officiel — auberge, horaires et jour de fermeture",
+          "url": "https://camping-vahrner-see.com/landgasthaus/restaurant-bar"
+        },
+        {
+          "libelle": "PiNCAMP (ADAC) — électricité incluse, chien 2 €",
+          "url": "https://www.pincamp.de/campingplaetze/camping-zum-vahrner-see"
         }
       ],
-      "doutes": "Date exacte de fermeture non écrite sur le site officiel (seulement « October » dans la grille). Électricité, laverie et horaires de réception non publiés. L'ancien site vahrnersee.com n'a pas pu être lu (HTTP 403 depuis ce poste)."
+      "doutes": "Horaires de réception non publiés ; l'auberge attenante, seul accueil visible, est fermée le mercredi après-midi et le jeudi.",
+      "a_demander": [
+        {
+          "question": "Sans réservation, jusqu'à quelle heure peut-on arriver pour s'installer, et comment s'enregistre-t-on le jeudi quand l'auberge est fermée ?",
+          "page": "https://camping-vahrner-see.com/en/info-contact/contact-arrival"
+        }
+      ]
     },
     "reserver": {
       "obligatoire": false,
       "url": "https://camping-vahrner-see.com/en/camping-vahrner-see/nature-camping"
     },
-    "description": "Camping de 70 emplacements libres (on choisit sa place) au bord du lac de Varna, au nord de Bressanone, à l'écart des routes, à côté d'une auberge avec terrasse, près de la sortie Vahrn Nord. Grille officielle 2026, identique d'avril à juin et en septembre–octobre : 12 € par personne, « 1 Car with roof tent 13,00 € », animal 2 €, taxe de séjour 2,80 €/personne/jour en sus ; 11 jours pour le prix de 10. Sanitaires chauffés à eau chaude, vidange eaux grises et noires à proximité, pain et produits de base à l'auberge. Réservation réservée aux groupes de 10 personnes et plus : « Otherwise just come by! ». Accès limité par deux petits passages inférieurs de 2,70 m de haut sur 2,65 m de large : sans problème pour une voiture de 1,95 m. Le site officiel ne publie ni l'électricité ni les horaires de réception."
+    "description": "Camping de 70 emplacements libres (on choisit sa place) au bord du lac de Varna, au nord de Bressanone, à l'écart des routes, à côté d'une auberge avec terrasse, près de la sortie Vahrn Nord. Grille officielle 2026, identique d'avril à juin et en septembre–octobre : 12 € par personne, « 1 Car with roof tent 13,00 € », animal 2 €, taxe de séjour 2,80 €/personne/jour en sus ; 11 jours pour le prix de 10. Sanitaires chauffés à eau chaude, vidange eaux grises et noires à proximité, pain et produits de base à l'auberge. Réservation réservée aux groupes de 10 personnes et plus : « Otherwise just come by! ». Accès limité par deux petits passages inférieurs de 2,70 m de haut sur 2,65 m de large : sans problème pour une voiture de 1,95 m. Électricité incluse selon l'ADAC, lave-linge selon suedtirol.info. Aucun horaire de réception publié : l'auberge attenante (bar 9h–22h) est fermée le mercredi après-midi et le jeudi."
   },
   {
     "id": "courses-eurospar-bressanone",
@@ -12379,7 +13021,7 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "surface, payant, 3 h max (OSM / park4night, non officiel)"
+        "valeur": "Parking municipal de surface « Zinggen », à côté du magasin : horodateur ou applis EasyPark / myCicero ; tarif municipal entre 1 et 2,50 €/h selon la commune ; limite de 3 h indiquée sur place selon park4night."
       }
     ],
     "verification": {
@@ -12394,21 +13036,26 @@
           "url": "https://www.despar.it/it/contatti/"
         },
         {
+          "libelle": "Commune de Brixen — gestion du stationnement (parking Zinggen, horodateurs, 1,00–2,50 €/h)",
+          "url": "https://www.gemeinde.brixen.bz.it/Dienste/P-Parkraumbewirtschaftung-der-Gemeinde-Brixen"
+        },
+        {
           "libelle": "OpenStreetMap — Eurospar",
           "url": "https://www.openstreetmap.org/node/1870088510"
         },
         {
-          "libelle": "park4night — parking Via Brennero 21",
+          "libelle": "park4night — parking Via Brennero 21 « paid parking for 3 hours »",
           "url": "https://park4night.com/en/place/392136"
         }
       ],
-      "doutes": "Conditions exactes du parking (payant, 3 h) non publiées par Despar."
+      "doutes": "",
+      "a_demander": []
     },
     "ouverture": {
       "a_reverifier": false,
       "note": "Ouvert tous les jours d'octobre 2026, dimanche 9h–19h30."
     },
-    "acces": "Via Brennero (SS12), nord de Bressanone. Parking de surface, pas de plafond.",
+    "acces": "Via Brennero (SS12), nord de Bressanone. Parking municipal de surface Zinggen, sans plafond de hauteur.",
     "description": "Eurospar au nord du centre de Bressanone, sur la route du Brenner. La fiche officielle donne 8h–19h30 du lundi au samedi et 9h–19h30 le dimanche, aucune ouverture ou fermeture exceptionnelle annoncée. La FAQ Despar (valable pour Despar, Eurospar, Interspar) : animaux admis seulement dans un sac ou une caisse de transport. Parking de surface payant à côté (durée limitée à 3 h selon OSM/park4night) ; pas de parking souterrain connu."
   },
   {
@@ -12804,28 +13451,33 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "extérieur et couvert ; hauteur du couvert non publiée"
+        "valeur": "Extérieur (« Parcheggio scoperto ») conseillé ; couvert de hauteur non publiée. Repli : parking couvert municipal Parkhaus Brixen, Via Dante 13, hauteur 2,20 m (1,90 m au niveau -2), 2,30 €/h de 7h à 21h."
       }
     ],
     "verification": {
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Conad — fiche officielle",
+          "libelle": "Conad — fiche officielle « Parcheggio scoperto », « Parcheggio coperto »",
           "url": "https://www.conad.it/ricerca-negozi/conad-via-dante-26-39042-bressanone--009867"
+        },
+        {
+          "libelle": "Commune de Brixen — Parkhaus Brixen, Via Dante 13, hauteur 2,20 m (1,90 m au -2), tarifs 2026",
+          "url": "https://www.gemeinde.brixen.bz.it/Dienste/P-Parkhaus-Brixen"
         },
         {
           "libelle": "OpenStreetMap — Conad Via Dante 26 (Su off)",
           "url": "https://www.openstreetmap.org/node/7077867123"
         }
       ],
-      "doutes": "Hauteur du parking couvert non publiée."
+      "doutes": "",
+      "a_demander": []
     },
     "ouverture": {
       "a_reverifier": false,
       "note": "Ouvert du lundi au samedi en octobre ; fermé le dimanche."
     },
-    "acces": "Via Dante, sud du centre de Bressanone. Parking extérieur (conseillé) ou couvert de hauteur inconnue.",
+    "acces": "Via Dante, sud du centre de Bressanone. Parking extérieur du magasin conseillé ; à défaut, Parkhaus Brixen (Via Dante 13, 2,20 m, éviter le niveau -2 à 1,90 m).",
     "description": "Conad du quartier sud de Bressanone. Fiche officielle : 7h30–19h30 en semaine, 8h–19h30 le samedi, pas d'horaire le dimanche : fermé. Parking extérieur et couvert annoncés ; hauteur du couvert non publiée : rester en extérieur avec 1,95 m. Aucune admission des animaux déclarée : se relayer. Le dimanche, l'Eurospar Via Brennero (9h–19h30) est l'alternative ouverte."
   },
   {
@@ -12838,19 +13490,19 @@
     ],
     "commune": "Hotel Restaurant Pontives, Pontives 36, 39046 Ortisei (adresse officielle), à 3 km du centre",
     "nuit_possible": false,
-    "resume": "Aire sur pré gérée par l'Hotel Pontives, à 3 km d'Ortisei. Refus des voitures à tente de toit confirmé par deux avis de juillet 2026 : pas de nuitée possible pour notre voiture.",
+    "resume": "Pré à camping-cars non officiel derrière l'Hotel Pontives, à 3 km d'Ortisei. Tentes de toit refusées (avis de juillet 2026) et l'office de tourisme déclare qu'il n'existe aucun camping en Val Gardena : pas de nuit ici.",
     "prix": {
       "type": "variable",
       "annee_tarif": 2026,
-      "detail": "Aucun tarif officiel. Avis 2026 : 35 €/nuit pour un camping-car avec 2 personnes, minimum 70 € même pour 1–2 nuits (17/09/2026). Voiture à tente de toit : 70 €/nuit réclamés en septembre 2025, puis refus en juillet 2026.",
+      "detail": "Aucun tarif publié par l'exploitant. Avis de septembre 2026 : 35 €/nuit avec ticket de bus ; minimum 70 € (deux nuits) signalé le 14 et le 17 septembre. Voiture à tente de toit : refusée (juillet 2026).",
       "grille": [
         {
-          "libelle": "Camping-car, 2 personnes (avis 2026)",
-          "valeur": "35 €/nuit"
+          "libelle": "Camping-car (avis 2026)",
+          "valeur": "35 €/nuit, ticket de bus compris"
         },
         {
           "libelle": "Minimum signalé (septembre 2026)",
-          "valeur": "70 €"
+          "valeur": "2 nuits, 70 €"
         },
         {
           "libelle": "Voiture à tente de toit",
@@ -12891,6 +13543,10 @@
       {
         "libelle": "Office de tourisme : règles du Val Gardena",
         "url": "https://www.valgardena.it/en/holidays-dolomites/arrival/with-the-caravan-or-camper/"
+      },
+      {
+        "libelle": "Hôtel Pontives — formulaire de demande",
+        "url": "https://www.pontives.com/en/request.asp"
       }
     ],
     "photos": [
@@ -12920,17 +13576,29 @@
     "horaires": [
       {
         "libelle": "Saison",
-        "valeur": "1er avril – 1er novembre (Park4Night, non confirmé par l'exploitant)"
+        "valeur": "1er avril – 1er novembre (park4night, non publié par l'exploitant)"
+      },
+      {
+        "libelle": "Arrivée",
+        "valeur": "avant 16 h pour espérer une place (avis septembre 2026), réservation téléphonique non tenue"
       }
     ],
     "pratique": [
       {
+        "libelle": "Places",
+        "valeur": "≈ 10 (park4night)"
+      },
+      {
         "libelle": "Électricité",
-        "valeur": "une borne centrale, rallonge nécessaire (avis juin 2026)"
+        "valeur": "une borne centrale, longue rallonge nécessaire"
       },
       {
         "libelle": "Toilettes",
-        "valeur": "celles de l'hôtel, aux heures d'ouverture ; douche absente ou incertaine selon avis"
+        "valeur": "celles du restaurant, aux heures d'ouverture"
+      },
+      {
+        "libelle": "Statut",
+        "valeur": "absent de l'office de tourisme, qui affirme qu'il n'y a aucun camping en Val Gardena"
       }
     ],
     "verification": {
@@ -12943,14 +13611,27 @@
         {
           "libelle": "Site de l'Hotel Pontives — aucune information sur l'aire",
           "url": "https://www.pontives.com/en/"
+        },
+        {
+          "libelle": "Park4Night #70563 — avis du 13 au 20 septembre 2026 : 35 €/nuit, minimum 2 nuits / 70 €, 10 places, saison 1er avril–1er novembre",
+          "url": "https://park4night.com/en/place/70563"
+        },
+        {
+          "libelle": "Office de tourisme Val Gardena — « there are NO campsites in Val Gardena », nuit en véhicule ou sous tente interdite",
+          "url": "https://www.valgardena.it/en/holidays-dolomites/arrival/with-the-caravan-or-camper/"
+        },
+        {
+          "libelle": "Hôtel Pontives — formulaire de demande (page contact)",
+          "url": "https://www.pontives.com/en/request.asp"
         }
       ],
-      "doutes": "Aucune source officielle sur l'aire : tarifs, saison et refus des tentes de toit reposent uniquement sur des avis. Le refus est néanmoins cohérent sur deux avis indépendants de juillet 2026. Pas de page contact dédiée sur pontives.com (404) : coordonnées en pied de la page d'accueil."
+      "doutes": "",
+      "a_demander": []
     },
     "reserver": {
       "obligatoire": false,
       "url": "https://www.pontives.com/en/"
     },
-    "description": "Pré au bord de la route du Val Gardena, exploité par l'Hotel Restaurant Pontives, avec eau, électricité (une borne centrale selon un avis de juin 2026) et arrêt de bus à environ 100 m vers Ortisei. Le refus des tentes de toit est confirmé : « Rooftop tent is not allowed for whatever reason » (30/07/2026) et « Vi kunne ikke komme ind fordi vi havde tag telt på bilen » (09/07/2026) ; en septembre 2025, deux voyageurs se sont vu réclamer 70 €/nuit pour une voiture à tente de toit sans électricité. Pour les camping-cars, les avis 2026 citent 35 €/nuit et, en septembre 2026, un minimum de 70 € même pour une ou deux nuits. Le site de l'hôtel ne présente pas l'aire (ni tarifs, ni saison). Park4Night indique une ouverture du 1er avril au 1er novembre. Un chien a été vu sur place en septembre 2026 ; l'accueil d'un chien de client n'est pas documenté. Le camping sauvage est interdit dans le Val Gardena."
+    "description": "Pré au bord de la route du Val Gardena, derrière l'Hotel Restaurant Pontives, avec eau, électricité (une borne centrale) et toilettes du restaurant ; arrêt de bus à environ 100 m vers Ortisei. Le site de l'hôtel ne mentionne pas l'aire, et l'office de tourisme du Val Gardena écrit qu'il n'existe aucun camping dans la vallée et que dormir dans son véhicule ou sous tente y est interdit. Tentes de toit refusées : « Rooftop tent is not allowed for whatever reason » (30/07/2026) et « Vi kunne ikke komme ind fordi vi havde tag telt på bilen » (09/07/2026). En septembre 2026, les avis citent 35 €/nuit avec ticket de bus, un minimum de deux nuits (70 €), des places prises avant 16 h et un accueil jugé hostile par plusieurs voyageurs. Aucune règle publiée pour les chiens des clients."
   }
 ]

@@ -1,6 +1,6 @@
 {
   "note": "Aucun péage n’est compté par défaut : chaque tronçon est une option à cocher dans le budget. Tarifs 2026 classe 1 (France) et classe A (Italie), lus dans les grilles et calculateurs officiels le 28/09/2026. Même prix dans les deux sens.",
-  "classe": "France : classe 1 jusqu’à 2 m de hauteur totale et 3,5 t ; les équipements de toit ne comptent pas dans la hauteur, la voiture à 1,95 m reste en classe 1. Italie : classe A pour 2 essieux et 1,30 m au plus à l’aplomb de l’essieu avant ; la tente de toit, en arrière de cet essieu, ne change pas la classe.",
+  "classe": "France : classe 1 jusqu’à 2 m de hauteur totale et 3,5 t ; les équipements de toit ne comptent pas dans la hauteur, la voiture à 1,95 m reste en classe 1. Italie : classe A pour 2 essieux et 1,30 m au plus mesuré à l’aplomb de l’essieu avant (« Classe A altezza inferiore o uguale a 1,3m (misurata all'asse anteriore) », Autostrade per l’Italia ; « SAGOMA - ovvero l'altezza del veicolo sulla perpendicolare dell'asse anteriore », Milano Serravalle ; même règle chez Autostrada del Brennero). Seule compte la hauteur au-dessus des roues avant (capot) : une tente de toit posée sur le toit, en arrière de cet essieu, ne change pas la classe. Elle passerait en classe B seulement si la tente dépassait vers l’avant jusqu’à l’aplomb des roues avant.",
   "sources_classe": [
     {
       "libelle": "ASFA, classification des véhicules",
@@ -9,6 +9,14 @@
     {
       "libelle": "Autostrade per l’Italia, classes de péage",
       "url": "https://www.autostrade.it/it/servizi-al-cliente/pedaggio/classi-di-pedaggio"
+    },
+    {
+      "libelle": "Milano Serravalle, classi pedaggio",
+      "url": "https://www.serravalle.it/index.php/pagine/load/classi-pedaggio"
+    },
+    {
+      "libelle": "Autostrada del Brennero, classe dei veicoli (sistema Assi-Sagoma)",
+      "url": "https://www.autobrennero.it/it/in-viaggio/pedaggio/costi-autostrada/classe-dei-veicoli-sistema-assi-sagoma%E2%80%9D-/"
     }
   ],
   "methode": "Heures gagnées = durée de l’itinéraire gratuit − durée par l’autoroute, moyenne de deux moteurs (Valhalla et OSRM, calculés sur le même tracé). Écart de carburant = km en plus de l’itinéraire gratuit × 6.1 L/100 km × prix du litre du pays (négatif si l’itinéraire gratuit est plus court). Net = péage − écart de carburant.",
@@ -119,7 +127,7 @@
       "sources": [
         {
           "libelle": "Grille ESCOTA 2026",
-          "url": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-Escota/Escota-tarifs-provisoire-2026.pdf"
+          "url": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-Escota/Escota-Guide-tarifaire-2026.pdf"
         },
         {
           "libelle": "Guide tarifaire ESCOTA 2026",
@@ -158,7 +166,7 @@
       "sources": [
         {
           "libelle": "Grille ESCOTA 2026",
-          "url": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-Escota/Escota-tarifs-provisoire-2026.pdf"
+          "url": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-Escota/Escota-Guide-tarifaire-2026.pdf"
         },
         {
           "libelle": "Mappy, Montpellier → Menton (détail par barrière)",
