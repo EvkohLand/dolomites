@@ -3480,8 +3480,65 @@
         "url": "https://booking.camping-olympia.com/?skd-language-code=en"
       }
     ],
-    "photos": [],
-    "source": "https://www.camping-olympia.com/en/good-to-know/"
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Dobbiaco.JPG/960px-Dobbiaco.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Dobbiaco",
+        "credit": "Luca Lorenzi (user:Llorenzi) (Uploaded first to Italian Wikipedia) — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Toblach_Dolomiten.jpg/960px-Toblach_Dolomiten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Dolomiten",
+        "credit": "X-Weinzar — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Dobbiaco_-_Gandelle.jpg/960px-Dobbiaco_-_Gandelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Dobbiaco Gandelle",
+        "credit": "Llorenzi — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Old_foundry_near_Dobbiaco-Toblach.JPG/960px-Old_foundry_near_Dobbiaco-Toblach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Old foundry near Dobbiaco Toblach",
+        "credit": "Llorenzi — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Grandhotel_Toblach_%28Dobbiaco%29.JPG/960px-Grandhotel_Toblach_%28Dobbiaco%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Grandhotel Toblach (Dobbiaco)",
+        "credit": "Renate007 — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Toblach-Dobbiaco%2C_Ji%C5%BEn%C3%AD_Tyrolsko%2C_It%C3%A1lie._N%C3%A1dra%C5%BE%C3%AD.jpg/960px-Toblach-Dobbiaco%2C_Ji%C5%BEn%C3%AD_Tyrolsko%2C_It%C3%A1lie._N%C3%A1dra%C5%BE%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Dobbiaco, Jižní Tyrolsko, Itálie. Nádraží",
+        "credit": "Palickap — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Dobbiaco_da_Candelle.jpg/960px-Dobbiaco_da_Candelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Dobbiaco da Candelle",
+        "credit": "Llorenzi — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Dobbiaco%2C_Toblach_%2Ccuore_mitteleuropeo_-_panoramio.jpg/960px-Dobbiaco%2C_Toblach_%2Ccuore_mitteleuropeo_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Dobbiaco, Toblach ,cuore mitteleuropeo panoramio",
+        "credit": "Walter Della Schiava — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Dobbiaco_%286072944951%29.jpg/960px-Dobbiaco_%286072944951%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Dobbiaco",
+        "credit": "Rino Porrovecchio from Palermo, Italy — Wikimedia Commons, CC BY-SA 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Duomo_di_Dobbiaco%2C_I.jpg/960px-Duomo_di_Dobbiaco%2C_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Duomo di Dobbiaco, I",
+        "credit": "Stefano Vigorelli — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Duomo%2C_Dobbiaco_I.jpg/960px-Duomo%2C_Dobbiaco_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Duomo, Dobbiaco I",
+        "credit": "Stefano Vigorelli — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "source": "https://www.camping-olympia.com/en/good-to-know/",
+    "recherche_photo": "Toblach Dobbiaco"
   },
   {
     "id": "camping-cortina",
@@ -3720,6 +3777,158 @@
       {
         "libelle": "Park4Night : autre parking de jour 4 Promeneda (distinct)",
         "url": "https://park4night.com/en/place/163505"
+      }
+    ],
+    "photos": [
+      {
+        "legende": "Urtijei 2008",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "aire-ortisei-1.jpg"
+      },
+      {
+        "legende": "Urtijëi from Bulacia",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "aire-ortisei-2.jpg"
+      },
+      {
+        "legende": "Urtijëi dal pas de Pinëi",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "aire-ortisei-3.jpg"
+      },
+      {
+        "legende": "Da Rusina ju a Urtijei",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "aire-ortisei-4.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Capela_da_Poz_a_Urtijei_pert_levasuredl.JPG/1280px-Capela_da_Poz_a_Urtijei_pert_levasuredl.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Capela da Poz a Urtijei pert levasuredl",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Dlieja_sacun_Urtij%C3%ABi_Santa_Dorotea.JPG/1280px-Dlieja_sacun_Urtij%C3%ABi_Santa_Dorotea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Dlieja sacun Urtijëi Santa Dorotea",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Pfarrkirche_Sankt_Ulrich_in_Gr%C3%B6den_nachts.jpg/1280px-Pfarrkirche_Sankt_Ulrich_in_Gr%C3%B6den_nachts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pfarrkirche Sankt Ulrich in Gröden nachts",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Urtij%C3%ABi_ududa_da_Bula_ju.jpg/1280px-Urtij%C3%ABi_ududa_da_Bula_ju.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi ududa da Bula ju",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Urtij%C3%ABi_Plajes_Saslonch.jpg/1280px-Urtij%C3%ABi_Plajes_Saslonch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi Plajes Saslonch",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ortisei_view_-_June_2016.jpg/1280px-Ortisei_view_-_June_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Ortisei view   June 2016",
+        "credit": "Mx. Granger — Wikimedia Commons, CC0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Gondelbahn_St_ulrich_Urtijei_Furnes_in_Gr%C3%B6den.jpg/960px-Gondelbahn_St_ulrich_Urtijei_Furnes_in_Gr%C3%B6den.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Gondelbahn St ulrich Urtijei Furnes in Gröden",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Trenker_family_grave_-_Urtij%C3%ABi_-_01.jpg/960px-Trenker_family_grave_-_Urtij%C3%ABi_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Trenker family grave Urtijëi 01",
+        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/St._Antony_-_Urtij%C3%ABi_-_14.JPG/960px-St._Antony_-_Urtij%C3%ABi_-_14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "St. Antony Urtijëi 14",
+        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Autere_juebia_dai_Andli_dan_la_dlieja_San_Antone_a_Urtij%C3%ABi.jpg/960px-Autere_juebia_dai_Andli_dan_la_dlieja_San_Antone_a_Urtij%C3%ABi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Autere juebia dai Andli dan la dlieja San Antone a Urtijëi",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Model_de_gips_dl_San_Paul_de_Ludvig_Moroder_Gherd%C3%ABina.jpg/960px-Model_de_gips_dl_San_Paul_de_Ludvig_Moroder_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Model de gips dl San Paul de Ludvig Moroder Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Model_de_ghips_angiul_1_bonam%C3%ABnter_de_Rudolf_Moroder_Gherd%C3%ABina.jpg/960px-Model_de_ghips_angiul_1_bonam%C3%ABnter_de_Rudolf_Moroder_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Model de ghips angiul 1 bonamënter de Rudolf Moroder Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/La_Bruscia_da_Nadel_cun_la_dlieja_de_Sant_Antone_a_Urtijei.jpg/960px-La_Bruscia_da_Nadel_cun_la_dlieja_de_Sant_Antone_a_Urtijei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "La Bruscia da Nadel cun la dlieja de Sant Antone a Urtijei",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Moroder_Wappen_Franz_Haider.jpg/960px-Moroder_Wappen_Franz_Haider.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Moroder Wappen Franz Haider",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Aussicht_auf_St._Ulrich_vom_Puflatschspitz_aus_2022-10-13.jpg/960px-Aussicht_auf_St._Ulrich_vom_Puflatschspitz_aus_2022-10-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Aussicht auf St. Ulrich vom Puflatschspitz aus",
+        "credit": "Strubbl — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Italy_Ortisei_panorama.JPG/960px-Italy_Ortisei_panorama.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Italy Ortisei panorama",
+        "credit": "Pufacz — Wikimedia Commons, Public domain"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Ortisei_paese.jpg/960px-Ortisei_paese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Ortisei paese",
+        "credit": "L3O — Wikimedia Commons, Public domain"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Urtij%C3%ABi_udu_da_Bulacia_te_Gherd%C3%ABina.jpg/960px-Urtij%C3%ABi_udu_da_Bulacia_te_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi udu da Bulacia te Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Busc_di_Salvans_s%C3%ABura_Urtij%C3%ABi_Gherd%C3%ABina.jpg/960px-Busc_di_Salvans_s%C3%ABura_Urtij%C3%ABi_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Busc di Salvans sëura Urtijëi Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Urtij%C3%ABi_udu_da_Ronc_via.jpg/960px-Urtij%C3%ABi_udu_da_Ronc_via.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi udu da Ronc via",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ortisei_-_panoramio.jpg/960px-Ortisei_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Ortisei panoramio",
+        "credit": "József Kovács — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Ortisei_-_panoramio_%283%29.jpg/960px-Ortisei_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Ortisei panoramio (3)",
+        "credit": "Gianni Bassini — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Urtij%C3%ABi_-_Seiser_Alm_aerial_lift_-_gondola.jpg/960px-Urtij%C3%ABi_-_Seiser_Alm_aerial_lift_-_gondola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi Seiser Alm aerial lift gondola",
+        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Urtij%C3%ABi_-_Furnes_aerial_lift_-_gondola.jpg/960px-Urtij%C3%ABi_-_Furnes_aerial_lift_-_gondola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi Furnes aerial lift gondola",
+        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Urtij%C3%ABi_-_Wooden_bridge.jpg/960px-Urtij%C3%ABi_-_Wooden_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Urtijëi Wooden bridge",
+        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ortisei_%28BZ%29_.jpg/960px-Ortisei_%28BZ%29_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Ortisei (BZ)",
+        "credit": "Luciobocchi — Wikimedia Commons, CC BY-SA 3.0"
       }
     ]
   },
@@ -5428,7 +5637,45 @@
         "url": "https://www.loewenhof.it/en/camping/conditions"
       }
     ],
-    "description": "Le camping inclut le Brixen Südtirol Guest Pass : transports publics régionaux, certains musées/abbaye, Acquarena (hors dimanche/jours fériés selon conditions) et, en 2026 pendant votre séjour, une montée + descente quotidienne sur certaines remontées Plose. Disponibilité de l'emplacement tente de toit et tarif exact restent à confirmer."
+    "description": "Le camping inclut le Brixen Südtirol Guest Pass : transports publics régionaux, certains musées/abbaye, Acquarena (hors dimanche/jours fériés selon conditions) et, en 2026 pendant votre séjour, une montée + descente quotidienne sur certaines remontées Plose. Disponibilité de l'emplacement tente de toit et tarif exact restent à confirmer.",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Kloster_Neustift_Suedansicht_01.JPG/960px-Kloster_Neustift_Suedansicht_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Neustift Suedansicht 01",
+        "credit": "Uoaei1 — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Pfarrkirche_Sankt_Georg_Vahrn_S%C3%BCdfassade.jpg/960px-Pfarrkirche_Sankt_Georg_Vahrn_S%C3%BCdfassade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pfarrkirche Sankt Georg Vahrn Südfassade",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Kloster_Neustift_bei_Brixen_Innenhof.jpg/960px-Kloster_Neustift_bei_Brixen_Innenhof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Neustift bei Brixen Innenhof",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Kloster_Neustift_bei_Brixen_Geb%C3%A4ude.jpg/960px-Kloster_Neustift_bei_Brixen_Geb%C3%A4ude.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Neustift bei Brixen Gebäude",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Kloster_Neustift_bei_Brixen_Geb%C3%A4ude_Fenster.jpg/960px-Kloster_Neustift_bei_Brixen_Geb%C3%A4ude_Fenster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Neustift bei Brixen Gebäude Fenster",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Vahrn_in_Tyrol_near_Brixen_MET_187514.jpg/960px-Vahrn_in_Tyrol_near_Brixen_MET_187514.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Vahrn in Tyrol near Brixen",
+        "credit": "William Stanley Haseltine — Wikimedia Commons, CC0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Brixen_-_Elvas_westl_-_Vahrn%2C_BZ_v_SO.jpg/960px-Brixen_-_Elvas_westl_-_Vahrn%2C_BZ_v_SO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Brixen Elvas westl Vahrn, BZ v SO",
+        "credit": "Flodur63 — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "recherche_photo": "Vahrn Brixen"
   },
   {
     "id": "camping-sass-dlacia",
@@ -5478,7 +5725,15 @@
         "libelle": "Pitchup — tente de toit et avis septembre 2026",
         "url": "https://www.pitchup.com/de/campsites/italy/trentino-alto-adige/bolzano/san_cassiano/camping_sass_dlacia/?facet=roof-tent&pitchtype=22704"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/San_Cassiano_Alta_Badia_Italy_Travel_Landscape_Photography_%28131834241%29.jpeg/960px-San_Cassiano_Alta_Badia_Italy_Travel_Landscape_Photography_%28131834241%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "San Cassiano Alta Badia Italy Travel Landscape Photography",
+        "credit": "Giuseppe Milo — Wikimedia Commons, CC BY 3.0"
+      }
+    ],
+    "recherche_photo": "San Cassiano Alta Badia"
   },
   {
     "id": "parking-col-raiser",
@@ -5504,7 +5759,85 @@
         "libelle": "Parking Col Raiser — Val Gardena",
         "url": "https://www.valgardena.it/en/addresses/detail/base/poi/selva-di-val-gardena/parking-col-raiser/90F07BDD272E416197A9AD912EA2F5A7/"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Panorama_dal_Col_Raiser_-_panoramio.jpg/960px-Panorama_dal_Col_Raiser_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Panorama dal Col Raiser panoramio",
+        "credit": "Francesco Zanardini — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Salendo_sul_Col_Raiser_%283166793334%29.jpg/960px-Salendo_sul_Col_Raiser_%283166793334%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Salendo sul Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Salendo_sul_Col_Raiser_%283165961881%29.jpg/960px-Salendo_sul_Col_Raiser_%283165961881%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Salendo sul Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Vista_dal_Col_Raiser_%283166799252%29.jpg/960px-Vista_dal_Col_Raiser_%283166799252%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Vista dal Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Vista_dal_Col_Raiser_%283165967697%29.jpg/960px-Vista_dal_Col_Raiser_%283165967697%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Vista dal Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Vista_dal_rifugio_Col_Raiser_%283166829122%29.jpg/960px-Vista_dal_rifugio_Col_Raiser_%283166829122%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Vista dal rifugio Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Vista_dal_rifugio_Col_Raiser_%283166821108%29.jpg/960px-Vista_dal_rifugio_Col_Raiser_%283166821108%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Vista dal rifugio Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Vista_dal_rifugio_Col_Raiser_%283166823098%29.jpg/960px-Vista_dal_rifugio_Col_Raiser_%283166823098%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Vista dal rifugio Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Vista_dal_rifugio_Col_Raiser_%283166824936%29.jpg/960px-Vista_dal_rifugio_Col_Raiser_%283166824936%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Vista dal rifugio Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Vista_dal_rifugio_Col_Raiser_%283165997359%29.jpg/960px-Vista_dal_rifugio_Col_Raiser_%283165997359%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Vista dal rifugio Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Pista_nera_dal_rifugio_Col_Raiser_%283166001789%29.jpg/960px-Pista_nera_dal_rifugio_Col_Raiser_%283166001789%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pista nera dal rifugio Col Raiser",
+        "credit": "Pietro Zanarini — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Ncisles_udu_dal_Col_Raiser_Gherd%C3%ABina.jpg/960px-Ncisles_udu_dal_Col_Raiser_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Ncisles udu dal Col Raiser Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ncisles_udu_dal_Col_Raiser_Sas_dla_Porta_Cansles_Duleda_Gherd%C3%ABina.jpg/960px-Ncisles_udu_dal_Col_Raiser_Sas_dla_Porta_Cansles_Duleda_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Ncisles udu dal Col Raiser Sas dla Porta Cansles Duleda Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Ncisles_y_Odles_uduidal_Col_Raiser_Gherd%C3%ABina.jpg/960px-Ncisles_y_Odles_uduidal_Col_Raiser_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Ncisles y Odles uduidal Col Raiser Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Col_Raiser_Mastl%C3%A9_Ncisles.jpeg/960px-Col_Raiser_Mastl%C3%A9_Ncisles.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Col Raiser Mastlé Ncisles",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      }
+    ],
+    "recherche_photo": "Col Raiser"
   },
   {
     "id": "parking-alpe-p1",
@@ -5547,7 +5880,35 @@
         "libelle": "Parkings P1/P2 — prix et accès officiels",
         "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Alpe_di_Siusi_CIMG3092.JPG/960px-Alpe_di_Siusi_CIMG3092.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Alpe di Siusi CIMG3092",
+        "credit": "Original uploader was Luiclemens at it.wikipedia — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Seiser_Alm_Plaza_-_Hotel.jpg/960px-Seiser_Alm_Plaza_-_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seiser Alm Plaza Hotel",
+        "credit": "Ladislav Luppa — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Seiser_Alm%2C_Compatsch_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "legende": "Seiser Alm, Compatsch panoramio",
+        "credit": "Frans-Banja Mulder — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Franziskuskirche_Seiser_Alm.jpg/960px-Franziskuskirche_Seiser_Alm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Franziskuskirche Seiser Alm",
+        "credit": "Ladislav Luppa — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Bergstadion_Seiser_Alm_-_panoramio.jpg/960px-Bergstadion_Seiser_Alm_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Bergstadion Seiser Alm panoramio",
+        "credit": "Andre, Schade — Wikimedia Commons, CC BY 3.0"
+      }
+    ],
+    "recherche_photo": "Compatsch Seiser Alm"
   },
   {
     "id": "parking-alpe-p2",
@@ -5586,7 +5947,35 @@
         "libelle": "P2 Compatsch — accès et tarifs",
         "url": "https://www.seiseralm.it/en/info-service/current-information/information-a-z/9AA771C79C64046677206620236F645F-p-parking-p2-compatsch.html"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Alpe_di_Siusi_CIMG3092.JPG/960px-Alpe_di_Siusi_CIMG3092.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Alpe di Siusi CIMG3092",
+        "credit": "Original uploader was Luiclemens at it.wikipedia — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Seiser_Alm_Plaza_-_Hotel.jpg/960px-Seiser_Alm_Plaza_-_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Seiser Alm Plaza Hotel",
+        "credit": "Ladislav Luppa — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Seiser_Alm%2C_Compatsch_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "legende": "Seiser Alm, Compatsch panoramio",
+        "credit": "Frans-Banja Mulder — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Franziskuskirche_Seiser_Alm.jpg/960px-Franziskuskirche_Seiser_Alm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Franziskuskirche Seiser Alm",
+        "credit": "Ladislav Luppa — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Bergstadion_Seiser_Alm_-_panoramio.jpg/960px-Bergstadion_Seiser_Alm_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Bergstadion Seiser Alm panoramio",
+        "credit": "Andre, Schade — Wikimedia Commons, CC BY 3.0"
+      }
+    ],
+    "recherche_photo": "Compatsch Seiser Alm"
   },
   {
     "id": "parking-bai-de-dones",
@@ -5616,7 +6005,85 @@
         "libelle": "Remontées 5 Torri — saison 2026",
         "url": "https://5torri.it/EN/p38-Lift-facilities-Summer"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Cinque_Torri_from_Passo_Falzarego.JPG/960px-Cinque_Torri_from_Passo_Falzarego.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cinque Torri from Passo Falzarego",
+        "credit": "Svíčková — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Cinque_Torri_dal_Nuvolau.jpg/960px-Cinque_Torri_dal_Nuvolau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cinque Torri dal Nuvolau",
+        "credit": "Pear Blossom — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Tofana_de_Rozes_Cinque_Torri.jpg/960px-Tofana_de_Rozes_Cinque_Torri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Tofana de Rozes Cinque Torri",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cinque_Torri_Formin_Croda_da_Lago_Nuvolau.jpg/960px-Cinque_Torri_Formin_Croda_da_Lago_Nuvolau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cinque Torri Formin Croda da Lago Nuvolau",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Cinque_Torri_02.jpg/960px-Cinque_Torri_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cinque Torri 02",
+        "credit": "Clemens Stockner — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Cinque_Torri_01.jpg/960px-Cinque_Torri_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cinque Torri 01",
+        "credit": "Clemens Stockner — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Veneto_Cinque_Torri_02.jpg/960px-Veneto_Cinque_Torri_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Veneto Cinque Torri 02",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Veneto_Cinque_Torri_03.jpg/960px-Veneto_Cinque_Torri_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Veneto Cinque Torri 03",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Veneto_Cinque_Torri_05.jpg/960px-Veneto_Cinque_Torri_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Veneto Cinque Torri 05",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Veneto_Cinque_Torri_06.jpg/960px-Veneto_Cinque_Torri_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Veneto Cinque Torri 06",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Veneto_Cinque_Torri_07.jpg/960px-Veneto_Cinque_Torri_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Veneto Cinque Torri 07",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Veneto_Cinque_Torri_09.jpg/960px-Veneto_Cinque_Torri_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Veneto Cinque Torri 09",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Veneto_Cinque_Torri_12.jpg/960px-Veneto_Cinque_Torri_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Veneto Cinque Torri 12",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Rifugio_Cinque_Torri_%282021%29.jpg/960px-Rifugio_Cinque_Torri_%282021%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Rifugio Cinque Torri (2021)",
+        "credit": "Robertk9410 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Cinque_Torri%2C_21_agosto_2023.jpg/960px-Cinque_Torri%2C_21_agosto_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cinque Torri, 21 agosto 2023",
+        "credit": "Er Tovaja — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "recherche_photo": "Cinque Torri"
   },
   {
     "id": "ferme-gletscher-hons",
@@ -5658,7 +6125,85 @@
         "libelle": "Office de tourisme — accueil chiens",
         "url": "https://www.odlesdolomites.com/en/accommodations/C87E93A37AAE756F4256E175636B7B34"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Villn%C3%B6%C3%9F_Johanniskapelle_mit_Geisler.jpg/960px-Villn%C3%B6%C3%9F_Johanniskapelle_mit_Geisler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Villnöß Johanniskapelle mit Geisler",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Santa_Maddalena_Alta_%28224221147%29.jpeg/960px-Santa_Maddalena_Alta_%28224221147%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Santa Maddalena Alta",
+        "credit": "Artem Kavalerov — Wikimedia Commons, CC0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Villnoess_St_Magdalena_1.JPG/960px-Villnoess_St_Magdalena_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Villnoess St Magdalena 1",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0 at"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Villnoess_St_Magdalena_2.JPG/960px-Villnoess_St_Magdalena_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Villnoess St Magdalena 2",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0 at"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Villnoess_St_Magdalena_3.jpg/960px-Villnoess_St_Magdalena_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Villnoess St Magdalena 3",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0 at"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Villnoess_St_Magdalena_4.JPG/960px-Villnoess_St_Magdalena_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Villnoess St Magdalena 4",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0 at"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/I11_268_St._Magdalena.jpg/960px-I11_268_St._Magdalena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "I11 268 St. Magdalena",
+        "credit": "Falk2 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/I11_267_St._Magdalena.jpg/960px-I11_267_St._Magdalena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "I11 267 St. Magdalena",
+        "credit": "Falk2 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/I11_269_Villn%C3%B6%C3%9Fer_Tal.jpg/960px-I11_269_Villn%C3%B6%C3%9Fer_Tal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "I11 269 Villnößer Tal",
+        "credit": "Falk2 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/I11_160_St._Magdalena.jpg/960px-I11_160_St._Magdalena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "I11 160 St. Magdalena",
+        "credit": "Falk2 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/I11_132_St._Magdalena.jpg/960px-I11_132_St._Magdalena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "I11 132 St. Magdalena",
+        "credit": "Falk2 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/ITA_%E2%80%93_Trentino-S%C3%BCdtirol_%E2%80%93_Provinz_Bozen%E2%80%93S%C3%BCdtirol_%E2%80%93_Bezirksgemeinschaft_Eisacktal_%E2%80%94_Gemeinde_Villn%C3%B6%C3%9F_%28Funes%29_%E2%80%94_St._Magdalena_%E2%80%94_LS_163_%28Ortstafel%29_2023-06-20_Mattes.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "ITA – Trentino Südtirol – Provinz Bozen–Südtirol – Bezirksgemeinschaft Eisacktal — Gemeind",
+        "credit": "User:Mateus2019 — Wikimedia Commons, CC BY 3.0 de"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ITA_%E2%80%93_Trentino-S%C3%BCdtirol_%E2%80%93_Provinz_Bozen%E2%80%93S%C3%BCdtirol_%E2%80%93_Bezirksgemeinschaft_Eisacktal_%E2%80%94_Gde._Villn%C3%B6%C3%9F_%E2%80%94_St._Magdalena_%E2%80%94_..._%28Haus_Schmiedm%C3%BCller%29_2023-06-24_Mattes.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "ITA – Trentino Südtirol – Provinz Bozen–Südtirol – Bezirksgemeinschaft Eisacktal — Gde. Vi",
+        "credit": "User:Mateus2019 — Wikimedia Commons, CC BY 3.0 de"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/ITA_%E2%80%93_Trentino-S%C3%BCdtirol_%E2%80%93_Provinz_Bozen%E2%80%93S%C3%BCdtirol_%E2%80%93_Bezirksgemeinschaft_Eisacktal_%E2%80%94_Gde._Villn%C3%B6%C3%9F_%E2%80%94_St._Magdalena_%E2%80%94_Kirchweg%2C_1_%28Suppe_mit_Bl%C3%BCtenbl%C3%A4ttern%29_2023-06-24_Mattes.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "ITA – Trentino Südtirol – Provinz Bozen–Südtirol – Bezirksgemeinschaft Eisacktal — Gde. Vi",
+        "credit": "User:Mateus2019 — Wikimedia Commons, CC BY 3.0 de"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/1_dolomites_santa_magdalena_2024_val_di_funes.jpg/960px-1_dolomites_santa_magdalena_2024_val_di_funes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "1 dolomites santa magdalena 2024 val di funes",
+        "credit": "Chensiyuan — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "recherche_photo": "Villnöß St. Magdalena"
   },
   {
     "id": "courses-conad-savone",
@@ -5713,7 +6258,85 @@
         "libelle": "Commune — stationnement 2026",
         "url": "https://dobbiaco.eu/it/Novita/Avvisi/Nuova_regolamentazione_per_i_parcheggi_a_pagamento_da_giugno_2026_in_poi"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Lago_di_Dobbiaco.jpg/960px-Lago_di_Dobbiaco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Dobbiaco",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Toblacher_See-3-CTH.jpg/960px-Toblacher_See-3-CTH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblacher See 3 CTH",
+        "credit": "CTHOE — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Toblacher_See-1-CTH.jpg/960px-Toblacher_See-1-CTH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblacher See 1 CTH",
+        "credit": "CTHOE — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Toblacher_See-4-CTH.jpg/960px-Toblacher_See-4-CTH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblacher See 4 CTH",
+        "credit": "CTHOE — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Toblach_Toblacher_See_02.jpg/960px-Toblach_Toblacher_See_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 02",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Toblach_Toblacher_See_01.jpg/960px-Toblach_Toblacher_See_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 01",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Toblach_Toblacher_See_03.jpg/960px-Toblach_Toblacher_See_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 03",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Toblach_Toblacher_See_04.jpg/960px-Toblach_Toblacher_See_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 04",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Toblach_Toblacher_See_10.jpg/960px-Toblach_Toblacher_See_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 10",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Toblach_Toblacher_See_14.jpg/960px-Toblach_Toblacher_See_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 14",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Toblach_Toblacher_See_15.jpg/960px-Toblach_Toblacher_See_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 15",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Toblach_Toblacher_See_12.jpg/960px-Toblach_Toblacher_See_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 12",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Toblach_Toblacher_See_18.jpg/960px-Toblach_Toblacher_See_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 18",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Toblach_Toblacher_See_19.jpg/960px-Toblach_Toblacher_See_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 19",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Toblach_Toblacher_See_20.jpg/960px-Toblach_Toblacher_See_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Toblach Toblacher See 20",
+        "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "recherche_photo": "Toblacher See"
   },
   {
     "id": "camping-tahiti-finale",
@@ -5761,7 +6384,65 @@
         "libelle": "Accès depuis A10",
         "url": "https://www.campingtahitifinaleligure.it/dove-siamo-campeggio-finale-ligure-savona"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Finale_Ligure-panorama.JPG/960px-Finale_Ligure-panorama.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Finale Ligure panorama",
+        "credit": "febs — Wikimedia Commons, CC BY 2.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Finale_Ligure-castelfranco.jpg/960px-Finale_Ligure-castelfranco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Finale Ligure castelfranco",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Finale_Ligure-panorama1.jpg/960px-Finale_Ligure-panorama1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Finale Ligure panorama1",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Finale_Ligure_Kerk.jpg/960px-Finale_Ligure_Kerk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Finale Ligure Kerk",
+        "credit": "Hans1967 — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Finale_Ligure_%2815%29.JPG/960px-Finale_Ligure_%2815%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Finale Ligure (15)",
+        "credit": "Rene1971 — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Finale_Ligure.JPG/960px-Finale_Ligure.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Finale Ligure",
+        "credit": "Mattia Cicale — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Finale_Ligure_SV_%28panorama_da_Capra_Zoppa_direzione_levante%29_-_panoramio.jpg/960px-Finale_Ligure_SV_%28panorama_da_Capra_Zoppa_direzione_levante%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Finale Ligure SV (panorama da Capra Zoppa direzione levante) panoramio",
+        "credit": "Stefano Mazzone — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Views_from_Finale_Ligure_15.jpg/960px-Views_from_Finale_Ligure_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Views from Finale Ligure 15",
+        "credit": "Nemo bis — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Views_from_Finale_Ligure_16.jpg/960px-Views_from_Finale_Ligure_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Views from Finale Ligure 16",
+        "credit": "Nemo bis — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Finale_Pia_%28241700945%29.jpeg/960px-Finale_Pia_%28241700945%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Finale Pia",
+        "credit": "Heike Kranacher — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Finale_Ligure_-_Spiaggia_di_Finale_Pia.JPG/960px-Finale_Ligure_-_Spiaggia_di_Finale_Pia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Finale Ligure Spiaggia di Finale Pia",
+        "credit": "Kranjo at Italian Wikipedia — Wikimedia Commons, Public domain"
+      }
+    ],
+    "recherche_photo": "Finale Ligure"
   },
   {
     "id": "courses-conad-varazze",
@@ -5831,7 +6512,70 @@
         "libelle": "Emplacements XL, saison 2026 et avis septembre 2026",
         "url": "https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Cogoleto-dalmare1.jpg/960px-Cogoleto-dalmare1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cogoleto dalmare1",
+        "credit": "User:Senet — Wikimedia Commons, Public domain"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Cogoleto-Brockedon.jpg/960px-Cogoleto-Brockedon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cogoleto Brockedon",
+        "credit": "William Brockedon — Wikimedia Commons, Public domain"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/CogoletoMattina5.JPG/960px-CogoletoMattina5.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "CogoletoMattina5",
+        "credit": "Senet at Italian Wikipedia — Wikimedia Commons, Public domain"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Cogoleto-panorama.JPG/960px-Cogoleto-panorama.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cogoleto panorama",
+        "credit": "Senet at Italian Wikipedia — Wikimedia Commons, Public domain"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Cogoleto-Arestra.JPG/960px-Cogoleto-Arestra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cogoleto Arestra",
+        "credit": "Senet — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Cogoleto-lungomare.JPG/960px-Cogoleto-lungomare.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cogoleto lungomare",
+        "credit": "Senet — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Cogoleto-via_centro_storico.jpg/960px-Cogoleto-via_centro_storico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cogoleto via centro storico",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Parco_del_Beigua_07.JPG/960px-Parco_del_Beigua_07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Parco del Beigua 07",
+        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Dai_monti_al_mare.JPG/960px-Dai_monti_al_mare.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Dai monti al mare",
+        "credit": "Manazen — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Cogoleto%2C_panorama_%2802%29.jpg/960px-Cogoleto%2C_panorama_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cogoleto, panorama (02)",
+        "credit": "Gianni Careddu — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cogoleto_Ligurien_Strandpromenade.jpg/960px-Cogoleto_Ligurien_Strandpromenade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Cogoleto Ligurien Strandpromenade",
+        "credit": "Evelyscher — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Spiaggia_di_Cogoleto.jpg/960px-Spiaggia_di_Cogoleto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Spiaggia di Cogoleto",
+        "credit": "Yanez67 — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "recherche_photo": "Cogoleto"
   },
   {
     "id": "ferme-pinzagen-van-moar",
@@ -5876,7 +6620,35 @@
         "libelle": "Nomady — même ferme, avis et horaires d'arrivée",
         "url": "https://nomady.camp/en/cabin/wiesenstellplatz-mit-aussicht-1749"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Brixen_Pfefferberg_Pinzagen_St._Ulrich_%2814307%29.JPG/960px-Brixen_Pfefferberg_Pinzagen_St._Ulrich_%2814307%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Brixen Pfefferberg Pinzagen St. Ulrich (14307)",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Pinzagen_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "legende": "Pinzagen panoramio",
+        "credit": "walter schatzer — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Linden_Pinzagen_Brixen.jpg/960px-Linden_Pinzagen_Brixen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Linden Pinzagen Brixen",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Sankt_Ulrich_Kirche_in_Pinzagen_Brixen.jpg/960px-Sankt_Ulrich_Kirche_in_Pinzagen_Brixen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Sankt Ulrich Kirche in Pinzagen Brixen",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Sankt_Ulrich_Kirche_in_Pinzagen_Brixen_S%C3%BCdansicht.jpg/960px-Sankt_Ulrich_Kirche_in_Pinzagen_Brixen_S%C3%BCdansicht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Sankt Ulrich Kirche in Pinzagen Brixen Südansicht",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      }
+    ],
+    "recherche_photo": "Pinzagen Brixen"
   },
   {
     "id": "agricamping-pietra-ulivo",
@@ -5910,7 +6682,80 @@
         "libelle": "Annonce Pitchup — filtre tente de toit",
         "url": "https://www.pitchup.com/en-ie/campsites/italy/liguria/savona/pietra-ligure/agricamping-la-pietra-e-lulivo/?facet=roof-tent"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/PietraLigureCastello.JPG/960px-PietraLigureCastello.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "PietraLigureCastello",
+        "credit": "Kaosrimo — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/PietraLigureLungoMare.JPG/960px-PietraLigureLungoMare.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "PietraLigureLungoMare",
+        "credit": "Marco Rimoldi, Kaosrimo — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Pietra_Ligure-panorama1.jpg/960px-Pietra_Ligure-panorama1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure panorama1",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Pietra_Ligure-panorama2.jpg/960px-Pietra_Ligure-panorama2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure panorama2",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Pietra_Ligure-panorama4.jpg/960px-Pietra_Ligure-panorama4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure panorama4",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pietra_Ligure_castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "legende": "Pietra Ligure castle",
+        "credit": "Rene1971 — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Pietra_Ligure_SV_%28panorama%29_-_panoramio.jpg/960px-Pietra_Ligure_SV_%28panorama%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure SV (panorama) panoramio",
+        "credit": "Stefano Mazzone — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pietra_Ligure_-_panoramio.jpg/960px-Pietra_Ligure_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure panoramio",
+        "credit": "Николай Максимович — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Pietra_Ligure_-_panoramio_%2810%29.jpg/960px-Pietra_Ligure_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure panoramio (10)",
+        "credit": "Николай Максимович — Wikimedia Commons, CC BY 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Pietra_Ligure_-_castello_di_Pietra_Ligure_-_202209132329.jpg/960px-Pietra_Ligure_-_castello_di_Pietra_Ligure_-_202209132329.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure castello di Pietra Ligure",
+        "credit": "Claloca — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Pietra_Ligure_-_castello_di_Pietra_Ligure_-_202209140005.jpeg/960px-Pietra_Ligure_-_castello_di_Pietra_Ligure_-_202209140005.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure castello di Pietra Ligure",
+        "credit": "Gmarell — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Pietra_Ligure_-_veduta_%281%29.jpg/960px-Pietra_Ligure_-_veduta_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure veduta (1)",
+        "credit": "W.D. Dreyer — Wikimedia Commons, CC0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Pietra_Ligure_-_veduta_%282%29.jpg/960px-Pietra_Ligure_-_veduta_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure veduta (2)",
+        "credit": "W.D. Dreyer — Wikimedia Commons, CC0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Pietra_Ligure_-_veduta_%283%29.jpg/960px-Pietra_Ligure_-_veduta_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Pietra Ligure veduta (3)",
+        "credit": "W.D. Dreyer — Wikimedia Commons, CC0"
+      }
+    ],
+    "recherche_photo": "Pietra Ligure"
   },
   {
     "id": "camping-gamp-chiusa",
@@ -5940,7 +6785,70 @@
         "libelle": "Gamp — site officiel",
         "url": "https://www.ansitzgamp.com/"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/03-S%C3%A4ben_02.jpg/960px-03-S%C3%A4ben_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "03 Säben 02",
+        "credit": "The original uploader was Papanugue at German Wikipedia. — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Convento_di_Sabiona_%28Chiusa%29_IT._Kloster_S%C3%A4ben_%28Klausen%29_DE.JPG/960px-Convento_di_Sabiona_%28Chiusa%29_IT._Kloster_S%C3%A4ben_%28Klausen%29_DE.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Convento di Sabiona (Chiusa) IT. Kloster Säben (Klausen) DE",
+        "credit": "Mmenendezb — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Klausen_Kloster_S%C3%A4ben_%2815429%2C15430%29.JPG/960px-Klausen_Kloster_S%C3%A4ben_%2815429%2C15430%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Klausen Kloster Säben (15429,15430)",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Klausen_Kloster_S%C3%A4ben_%2815429%2C15430%29_2.JPG/960px-Klausen_Kloster_S%C3%A4ben_%2815429%2C15430%29_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Klausen Kloster Säben (15429,15430) 2",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Klausen_-_Kloster_S%C3%A4ben.jpg/960px-Klausen_-_Kloster_S%C3%A4ben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Klausen Kloster Säben",
+        "credit": "Ladislav Luppa — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Kloster_S%C3%A4ben_2.jpg/960px-Kloster_S%C3%A4ben_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Säben 2",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0 de"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Kloster_S%C3%A4ben_3.jpg/960px-Kloster_S%C3%A4ben_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Säben 3",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0 de"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Kloster_S%C3%A4ben_4.jpg/960px-Kloster_S%C3%A4ben_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Säben 4",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0 de"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Kloster_S%C3%A4ben_5.jpg/960px-Kloster_S%C3%A4ben_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Säben 5",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0 de"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Kloster_S%C3%A4ben_von_Seebegg.jpg/960px-Kloster_S%C3%A4ben_von_Seebegg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Säben von Seebegg",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0 de"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Liebfrauenkirche_S%C3%A4ben_%C3%BCber_Klausen.jpg/960px-Liebfrauenkirche_S%C3%A4ben_%C3%BCber_Klausen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Liebfrauenkirche Säben über Klausen",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Kloster_S%C3%A4ben_-_panoramio.jpg/960px-Kloster_S%C3%A4ben_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Kloster Säben panoramio",
+        "credit": "holger mohaupt — Wikimedia Commons, CC BY-SA 3.0"
+      }
+    ],
+    "recherche_photo": "Klausen Säben"
   },
   {
     "id": "camping-vahrner-see",
@@ -5975,7 +6883,40 @@
         "libelle": "Fiche ADAC — saison, prix chien et accès",
         "url": "https://www.pincamp.de/campingplaetze/camping-zum-vahrner-see"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Lago_di_Varna_5.jpg/960px-Lago_di_Varna_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Varna 5",
+        "credit": "Llorenzi — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Vahrnersee.jpg/960px-Vahrnersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Vahrnersee",
+        "credit": "Zerohuman — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Lago_di_Varna_1.jpg/960px-Lago_di_Varna_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Varna 1",
+        "credit": "Llorenzi — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Lago_di_Varna_2.jpg/960px-Lago_di_Varna_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Varna 2",
+        "credit": "Llorenzi — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Lago_di_Varna_3.jpg/960px-Lago_di_Varna_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di Varna 3",
+        "credit": "Llorenzi — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Lago-di-varna.jpg/960px-Lago-di-varna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Lago di varna",
+        "credit": "Tobias Stenico — Wikimedia Commons, CC BY-SA 4.0"
+      }
+    ],
+    "recherche_photo": "Vahrner See"
   },
   {
     "id": "courses-eurospar-bressanone",
@@ -6170,6 +7111,29 @@
         "libelle": "Office de tourisme : règles du Val Gardena",
         "url": "https://www.valgardena.it/en/holidays-dolomites/arrival/with-the-caravan-or-camper/"
       }
-    ]
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Poststeig_Gr%C3%B6den_Kalte_L%C3%B6cher_in_Pontives.jpg/960px-Poststeig_Gr%C3%B6den_Kalte_L%C3%B6cher_in_Pontives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Poststeig Gröden Kalte Löcher in Pontives",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Poststeig_Gr%C3%B6den_Pontives.jpg/960px-Poststeig_Gr%C3%B6den_Pontives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Poststeig Gröden Pontives",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Poststeig_Gr%C3%B6den_Pontives_Kalte_L%C3%B6cher.jpg/960px-Poststeig_Gr%C3%B6den_Pontives_Kalte_L%C3%B6cher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Poststeig Gröden Pontives Kalte Löcher",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Musnata_a_puntives_Bulacia_Gherd%C3%ABina.jpg/960px-Musnata_a_puntives_Bulacia_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Musnata a puntives Bulacia Gherdëina",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
+      }
+    ],
+    "recherche_photo": "Pontives Gröden"
   }
 ]
