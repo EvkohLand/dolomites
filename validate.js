@@ -80,12 +80,14 @@ const meteo = lire('commun/meteo.json');
 const regles = lire('commun/reglementation.json');
 const vehicule = lire('commun/vehicule.json');
 const carburant = lire('commun/carburant.json');
+const randonnees = lire('commun/randonnees.json');
 
 for (const [rel, obj] of [
   ['scenarios.json', scenarios], ['commun/lieux.json', lieux],
   ['commun/categories.json', categories], ['commun/equipements.json', equipements],
   ['commun/meteo.json', meteo], ['commun/reglementation.json', regles],
   ['commun/vehicule.json', vehicule], ['commun/carburant.json', carburant],
+  ['commun/randonnees.json', randonnees],
 ]) {
   if (obj) chasserDonneesPerso(rel, obj, '');
 }
@@ -167,6 +169,64 @@ if (carburant) {
     if (carburant.defaut && !carburant.pays[carburant.defaut]) {
       err('commun/carburant.json', `pays par défaut « ${carburant.defaut} » absent de la liste`);
     }
+  }
+}
+
+/* ---------- Randonnées par zone ---------- */
+
+if (randonnees) {
+  if (!Array.isArray(randonnees.zones)) {
+    err('commun/randonnees.json', 'zones doit être un tableau');
+  } else {
+    const zonesRando = new Set();
+    randonnees.zones.forEach((z, zi) => {
+      const nomZone = z && z.id || `#${zi}`;
+      if (!z || typeof z !== 'object') {
+        err('commun/randonnees.json', `zone #${zi} : pas un objet`);
+        return;
+      }
+      if (!z.id) err('commun/randonnees.json', `zone #${zi} : id manquant`);
+      else if (zonesRando.has(z.id)) err('commun/randonnees.json', `zone en double : « ${z.id} »`);
+      else zonesRando.add(z.id);
+      if (!Array.isArray(z.zones_planning) || !z.zones_planning.length) {
+        err('commun/randonnees.json', `« ${nomZone} » : zones_planning vide`);
+      }
+      if (!z.difficulte_zone) warn('commun/randonnees.json', `« ${nomZone} » : difficulté de zone absente`);
+      if (!Array.isArray(z.risques_zone) || !z.risques_zone.length) {
+        warn('commun/randonnees.json', `« ${nomZone} » : risques de zone absents`);
+      }
+      if (!Array.isArray(z.randos) || !z.randos.length) {
+        err('commun/randonnees.json', `« ${nomZone} » : aucune randonnée`);
+        return;
+      }
+
+      const noms = new Set();
+      z.randos.forEach((r, ri) => {
+        const nom = r && r.nom || `#${ri}`;
+        if (!r || typeof r !== 'object') {
+          err('commun/randonnees.json', `« ${nomZone} » randonnée #${ri} : pas un objet`);
+          return;
+        }
+        if (!r.nom) err('commun/randonnees.json', `« ${nomZone} » randonnée #${ri} : nom manquant`);
+        else if (noms.has(r.nom)) err('commun/randonnees.json', `« ${nomZone} » : randonnée en double « ${r.nom} »`);
+        else noms.add(r.nom);
+        if (!r.duree) err('commun/randonnees.json', `« ${nomZone} / ${nom} » : durée manquante`);
+        if (!r.niveau) err('commun/randonnees.json', `« ${nomZone} / ${nom} » : niveau manquant`);
+        if (!r.risque) err('commun/randonnees.json', `« ${nomZone} / ${nom} » : risque manquant`);
+        if (!Array.isArray(r.plan) || !r.plan.length) {
+          err('commun/randonnees.json', `« ${nomZone} / ${nom} » : plan de randonnée manquant`);
+        }
+        if (!r.source || !/^https:\/\//.test(r.source)) {
+          err('commun/randonnees.json', `« ${nomZone} / ${nom} » : source HTTPS obligatoire`);
+        }
+        if (r.distance_km === null || r.distance_km === undefined) {
+          warn('commun/randonnees.json', `« ${nomZone} / ${nom} » : distance non publiée dans la fiche source`);
+        }
+        if (r.denivele_plus_m === null || r.denivele_plus_m === undefined) {
+          warn('commun/randonnees.json', `« ${nomZone} / ${nom} » : dénivelé positif non publié dans la fiche source`);
+        }
+      });
+    });
   }
 }
 
