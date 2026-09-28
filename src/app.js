@@ -2643,6 +2643,15 @@
 
   /* ---------- Événements ---------- */
 
+  /* Zoom de page bloqué sur mobile. Safari ignore « user-scalable=no » depuis iOS 10 :
+     on annule ses gestes de pincement, et tout mouvement à deux doigts hors de la carte. */
+  ['gesturestart', 'gesturechange', 'gestureend'].forEach(function (t) {
+    document.addEventListener(t, function (e) { e.preventDefault(); }, { passive: false });
+  });
+  document.addEventListener('touchmove', function (e) {
+    if (e.touches && e.touches.length > 1 && !(e.target.closest && e.target.closest('#carte'))) e.preventDefault();
+  }, { passive: false });
+
   document.getElementById('panneau-fermer').addEventListener('click', fermerPanneau);
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fermerPanneau(); });
   /* #lieu-<id> ouvre une fiche, #jour-<n> la vue d'une étape. */

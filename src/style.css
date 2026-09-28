@@ -854,7 +854,7 @@ table.grille td { font-variant-numeric: tabular-nums; }
 .etape-grille__cote { position: sticky; top: 0; }
 @media (max-width: 900px) {
   .etape-grille { grid-template-columns: 1fr; }
-  .etape-grille__cote { position: static; order: -1; }
+  .etape-grille__cote { position: static; }
 }
 .modale--etape .galerie--etape .photo img { height: clamp(150px, 22vh, 240px); }
 .meteo-etape__point { padding: 8px 0; border-bottom: 1px solid var(--trait); }
@@ -894,3 +894,45 @@ table.grille td { font-variant-numeric: tabular-nums; }
 .webcam__absente { display: inline-flex; align-items: center; height: 150px; width: 220px; padding: 12px; border: 1px dashed var(--trait); border-radius: var(--rayon); font-size: 13px; }
 .carbu__station .puces { margin-top: 6px; }
 .webcams figcaption { max-width: 260px; white-space: normal; }
+
+/* ---------- Mobile : pas de zoom de page ---------- */
+/* Le double-tap et le pincement ne zooment plus la page ; la carte garde son propre zoom. */
+html, body { touch-action: pan-x pan-y; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+button, a, summary, .etape, .programme__item, .puce { touch-action: manipulation; }
+#carte, #carte * { touch-action: none; }
+/* Safari zoome sur un champ dont le texte fait moins de 16 px : on reste à 16 px. */
+select, input, textarea { font-size: 16px; }
+
+/* Le choix du scénario ne doit jamais élargir la page : il se coupe. */
+.choix { min-width: 0; max-width: 100%; }
+.choix select { min-width: 0; width: 100%; text-overflow: ellipsis; }
+.tete__outils, .tete__bloc { min-width: 0; max-width: 100%; }
+html, body { overflow-x: hidden; }
+
+/* ---------- Téléphone : cartes d'étape compactes ---------- */
+@media (max-width: 640px) {
+  .tete { padding: 14px var(--gouttiere) 12px; gap: 10px; }
+  .tete__titre { font-size: 21px; }
+  .tete__sous { font-size: 13px; }
+  .choix__label { display: none; }
+  .bouton-dl { flex-direction: row; align-items: baseline; gap: 6px; padding: 7px 12px; }
+  .section { padding-block: 22px; }
+  .section__titre { font-size: 19px; margin-bottom: 12px; }
+  .bandeau-route { font-size: 13px; }
+  .etapes { grid-template-columns: 1fr; gap: 10px; }
+  .etape { flex-direction: row; align-items: stretch; min-height: 104px; }
+  .etape:hover { transform: none; }
+  .etape__photo { flex: 0 0 104px; aspect-ratio: auto; }
+  .etape__nb-photos { right: 4px; bottom: 4px; font-size: 10.5px; padding: 1px 6px; }
+  .etape__corps { padding: 10px 12px; gap: 2px; min-width: 0; }
+  .etape__titre { font-size: 15.5px; }
+  .etape__meta, .etape__nuit { font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .modale__tete { padding: 12px var(--gouttiere); }
+  .modale__titre { font-size: 19px; }
+  .modale--etape .modale__corps { padding-inline: var(--gouttiere); }
+  .galerie--etape .photo img, .modale--etape .galerie--etape .photo img { height: 132px; }
+  .programme__item { padding: 12px; min-height: 48px; }
+  .puce, .lien-ext { min-height: 40px; }
+  .paire .action { flex: 1 1 40%; min-height: 48px; }
+  #carte { height: 62vh; }
+}
