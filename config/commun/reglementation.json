@@ -60,10 +60,10 @@
     "id": "tre-cime-reservation",
     "titre": "Réservation obligatoire pour les Tre Cime",
     "portee": "Route à péage d'Auronzo",
-    "resume": "40 € par voiture, réservation en ligne obligatoire, à faire la veille.",
-    "detail": "Depuis 2025, l'accès à la route panoramique se réserve exclusivement en ligne sur le portail de la commune d'Auronzo. Le tarif est passé de 30 à 40 €. Sans réservation, l'accès est refusé au péage.",
+    "resume": "40 € par voiture selon le tarif 2026 actuellement publié ; réservation en ligne obligatoire. Il n'existe pas de règle générale imposant de réserver seulement la veille.",
+    "detail": "L'accès routier aux Tre Cime se réserve en ligne via le portail officiel. Le calendrier affiche les créneaux disponibles en temps réel. La plaque peut être indiquée lors de la réservation ou, si elle manque, complétée au plus tard à 23 h 59 la veille de l'accès. Fin octobre, l'ouverture de la route reste dépendante de la météo : vérifier l'état de la route avant de payer.",
     "gravite": "elevee",
-    "source": "https://www.dolomitireview.com/strada-per-le-tre-cime-di-lavaredo-pedaggio-orari-informazioni-pratiche/"
+    "source": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/"
   },
   {
     "id": "route-hiver",
