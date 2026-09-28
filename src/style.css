@@ -611,3 +611,85 @@ table.grille td { font-variant-numeric: tabular-nums; }
 @media (max-width: 1000px) {
   .vignette { width: 50px; height: 50px; }
 }
+
+
+/* ---------- Randonnées vérifiées par zone ---------- */
+.jour-randos {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--bordure, #ddd8cf);
+}
+.jour-randos__titre {
+  margin: 0 0 10px;
+  font-size: .92rem;
+  letter-spacing: .02em;
+}
+.zone-rando + .zone-rando { margin-top: 14px; }
+.zone-rando__head {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 7px;
+}
+.zone-rando__head strong {
+  text-transform: capitalize;
+  font-size: .9rem;
+}
+.zone-rando__head span {
+  font-size: .8rem;
+  line-height: 1.45;
+  color: var(--texte-secondaire, #68635d);
+}
+.zone-rando__risques {
+  margin: 0 0 9px;
+  font-size: .78rem;
+  line-height: 1.45;
+}
+.rando-card {
+  margin: 7px 0;
+  border: 1px solid var(--bordure, #ddd8cf);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--fond-carte, #fff);
+}
+.rando-card > summary {
+  display: grid;
+  gap: 3px;
+  cursor: pointer;
+  padding: 10px 12px;
+}
+.rando-card__nom {
+  font-weight: 650;
+  line-height: 1.3;
+}
+.rando-card__meta {
+  font-size: .76rem;
+  color: var(--texte-secondaire, #68635d);
+}
+.rando-grid {
+  display: grid;
+  grid-template-columns: minmax(105px, .7fr) minmax(0, 1.3fr);
+  margin: 0;
+  padding: 10px 12px;
+  border-top: 1px solid var(--bordure, #ddd8cf);
+  font-size: .8rem;
+}
+.rando-grid dt,
+.rando-grid dd {
+  margin: 0;
+  padding: 4px 0;
+}
+.rando-grid dt { font-weight: 650; }
+.rando-plan {
+  padding: 0 12px 10px;
+  font-size: .8rem;
+}
+.rando-plan ol {
+  margin: 6px 0 0 18px;
+  padding: 0;
+}
+.rando-plan li { margin: 3px 0; }
+.rando-source {
+  display: inline-block;
+  margin: 0 12px 12px;
+  font-size: .78rem;
+}
