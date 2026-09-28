@@ -7,7 +7,7 @@
       "type": "aller",
       "libelle": "Saint-Gély → courses à Varazze → Cogoleto",
       "de": "depart",
-      "vers": "camping-green-europa-cogoleto",
+      "vers": "camping-tahiti-finale",
       "par": [
         "courses-conad-varazze"
       ],
@@ -27,7 +27,7 @@
       "jour": 2,
       "type": "aller",
       "libelle": "Ligurie → Bressanone",
-      "de": "camping-green-europa-cogoleto",
+      "de": "camping-tahiti-finale",
       "vers": "camping-loewenhof",
       "par": [],
       "visites": [],
