@@ -800,7 +800,8 @@
         "legende": "Giro 2023 GIR40094 gee (52941145006)",
         "credit": "filip bossuyt from Kortrijk, Belgium — Wikimedia Commons, CC BY 2.0"
       }
-    ]
+    ],
+    "source": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-drei-zinnen-tre-cime-three-peaks-_569"
   },
   {
     "id": "lago-braies",
@@ -1652,7 +1653,7 @@
     ],
     "ouverture": {
       "a_reverifier": false,
-      "note": "Télésiège Bai de Dones fermé après le 11 octobre 2026 ; pour une visite les 15–16, prévoir montée et descente à pied, uniquement si sentier sec et Prince à l’aise."
+      "note": "Télésiège 5 Torri/Bai de Dones : saison 2026 du 06/06 au 11/10. Pour votre journée du 18/10, la visite n'est possible qu'à pied, sous réserve de sentier sec/non enneigé."
     },
     "photos": [
       {
@@ -1806,7 +1807,8 @@
         "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
       }
     ],
-    "acces_route": "parking-bai-de-dones"
+    "acces_route": "parking-bai-de-dones",
+    "source": "https://cortinadelicious.it/EN/p66-The-lifts-prices-and-timetables"
   },
   {
     "id": "adolf-munkel",
@@ -1828,10 +1830,10 @@
     },
     "prix": {
       "type": "payant",
-      "montant": 6,
-      "unite": "jour",
-      "annee_tarif": 2025,
-      "detail": "Parking Zannes / Zanser Alm."
+      "montant": 10,
+      "unite": "jour sur place",
+      "annee_tarif": 2026,
+      "detail": "Parking Zans : tarif journalier voiture 10 € indiqué dans le guide touristique 2026 ; réservation en ligne possible avec tarif distinct et quota limité."
     },
     "chien": {
       "admis": true,
@@ -2009,7 +2011,12 @@
         "credit": "Falk2 — Wikimedia Commons, CC BY-SA 4.0"
       }
     ],
-    "recherche_photo": "Geisler Odle Villnoss"
+    "recherche_photo": "Geisler Odle Villnoss",
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Parking Zans payant et capacité limitée. Réservation voiture possible en ligne ; sans réservation, accès selon feu/capacité à Ranui. État du sentier à contrôler le 12/10."
+    },
+    "source": "https://www.odlesdolomites.com/en/parking-reservation/"
   },
   {
     "id": "santa-maddalena",
@@ -2197,13 +2204,14 @@
     ],
     "commune": "Cortina d'Ampezzo (BL)",
     "altitude": 1925,
-    "resume": "Lac turquoise laiteux au pied du Sorapis, depuis le Passo Tre Croci. Sentier 215 par endroits étroit avec des câbles : à évaluer selon le chien.",
+    "resume": "Randonnée officielle depuis Passo Tre Croci par le sentier 215 : 10,5 km, environ 4 h, D+ 437 m / D− 434 m. Plusieurs passages exposés avec câbles et échelles métalliques.",
     "rando": {
-      "distance_km": 12,
-      "denivele_m": 500,
+      "distance_km": 10.5,
+      "denivele_m": 437,
       "duree_h": 4,
-      "difficulte": "moyen",
-      "boucle": false
+      "difficulte": "expert",
+      "boucle": true,
+      "depart_lieu": "passo-tre-croci"
     },
     "prix": {
       "type": "gratuit",
@@ -2227,12 +2235,13 @@
     ],
     "liens": [
       {
-        "libelle": "Description du sentier 215",
-        "url": "https://www.dolomiti.it/en/cortina/"
+        "libelle": "Itinéraire officiel Cortina",
+        "url": "https://cortina.dolomiti.org/fr/escursioni/au-lac-de-sorapis/"
       }
     ],
     "ouverture": {
-      "note": "Parking gratuit au Passo Tre Croci. En octobre, le lac est souvent presque à sec."
+      "a_reverifier": true,
+      "note": "Sentier de haute montagne sans garantie de praticabilité en octobre : renoncer en cas de neige, verglas ou humidité sur les passages équipés. Le niveau d'eau du lac varie naturellement ; ne pas prévoir la visite pour une couleur/niveau d'eau garanti."
     },
     "photos": [
       {
@@ -2386,7 +2395,8 @@
         "credit": "Petr1888 — Wikimedia Commons, CC BY-SA 4.0"
       }
     ],
-    "acces_route": "passo-tre-croci"
+    "acces_route": "passo-tre-croci",
+    "source": "https://cortina.dolomiti.org/fr/escursioni/au-lac-de-sorapis/"
   },
   {
     "id": "col-raiser",
@@ -2999,14 +3009,17 @@
     "resume": "Sommet-plateau arrondi et entièrement dégagé, vue à 360 degrés sur les Alpes. Deux musées au sommet, dont le Messner Museum Corones.",
     "prix": {
       "type": "payant",
-      "adulte_ar": 32,
-      "unite": "aller-retour",
-      "annee_tarif": 2025,
-      "detail": "Tarif indicatif, à revérifier pour 2026."
+      "adulte_ar": 36,
+      "chien": 6,
+      "unite": "2 adultes + chien A/R",
+      "annee_tarif": 2026,
+      "montant": 78,
+      "detail": "Kronplatz 2000 : 36 € A/R par adulte + 6 € chien, soit 78 € pour 2 adultes + Prince. Tarif 2026 officiel."
     },
     "ouverture": {
-      "a_reverifier": true,
-      "note": "RISQUE ÉLEVÉ DE FERMETURE : domaine surtout hivernal, saison ski du 29 novembre au 19 avril. Aucune remontée touristique confirmée en octobre. Vérifier sur kronplatz.com avant d'y aller."
+      "fin_saison": "2026-11-08",
+      "a_reverifier": false,
+      "note": "Kronplatz 2000 (Brunico/Riscone) : 16/05–08/11/2026, tous les jours 09:00–17:00. Olang 1+2 ferme le 11/10 ; Piz de Plaies ferme le 04/10."
     },
     "chien": {
       "admis": true
@@ -3186,7 +3199,9 @@
         "legende": "I07 883 Olanger Stausee",
         "credit": "Falk2 — Wikimedia Commons, CC BY-SA 4.0"
       }
-    ]
+    ],
+    "source": "https://www.kronplatz.com/operatingtime",
+    "description": "Option d'automne réellement ouverte pendant le séjour. Pour vos dates après le 11 octobre, utiliser Kronplatz 2000 depuis Brunico/Riscone ; ne pas compter sur Olang 1+2 ni Piz de Plaies."
   },
   {
     "id": "misurina",
@@ -3200,11 +3215,8 @@
     "altitude": 1754,
     "resume": "Lac au bord de la route, reflet du Sorapis, sur le chemin des Tre Cime. Tour du lac plat, court, sans effort.",
     "prix": {
-      "type": "payant",
-      "montant": 5,
-      "unite": "jour",
-      "annee_tarif": 2025,
-      "detail": "Parkings payants autour du lac."
+      "type": "variable",
+      "detail": "Parkings autour du lac : le précédent montant 2025 de 5 € n'est plus présenté comme tarif 2026 vérifié. Contrôler la signalisation sur place."
     },
     "chien": {
       "admis": true
@@ -3388,7 +3400,12 @@
         "legende": "3,205m Gruppo del Sorapiss Lago di Misurina Italy panoramio",
         "credit": "Hiroki Ogawa — Wikimedia Commons, CC BY 3.0"
       }
-    ]
+    ],
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Lac accessible en principe toute l'année ; stationnement et accès routiers à recontrôler selon météo et éventuelles mesures locales."
+    },
+    "source": "https://auronzo.info/en/"
   },
   {
     "id": "camping-olympia",
