@@ -272,6 +272,9 @@ if (randonnees) {
         if (!r.duree) err('commun/randonnees.json', `« ${nomZone} / ${nom} » : durée manquante`);
         if (!r.niveau) err('commun/randonnees.json', `« ${nomZone} / ${nom} » : niveau manquant`);
         if (!r.risque) err('commun/randonnees.json', `« ${nomZone} / ${nom} » : risque manquant`);
+        if (!r.vertige || !['aucun', 'léger', 'fort'].includes(r.vertige.niveau) || !r.vertige.passages) {
+          err('commun/randonnees.json', `« ${nomZone} / ${nom} » : vertige attendu {niveau: aucun|léger|fort, passages}`);
+        }
         if (!Array.isArray(r.plan) || !r.plan.length) {
           err('commun/randonnees.json', `« ${nomZone} / ${nom} » : plan de randonnée manquant`);
         }
@@ -359,6 +362,17 @@ if (scenarios && Array.isArray(scenarios.scenarios)) {
         (j.activites || []).forEach(a => {
           if (!a.lieu) err(ou2, `jour ${j.jour} : une activité sans lieu`);
           else if (!ids.has(a.lieu)) err(ou2, `jour ${j.jour} : lieu « ${a.lieu} » introuvable dans commun/lieux.json`);
+          else {
+            /* Consigne du séjour : aucune remontée mécanique ni passage vertigineux au programme ;
+               elles restent visibles en option dans les fiches. */
+            const l = lieux.find(x => x.id === a.lieu);
+            if (l.categorie === 'remontee' || (l.prix && l.prix.adulte_ar)) {
+              err(ou2, `jour ${j.jour} : « ${a.lieu} » est une remontée mécanique, interdite au programme (la laisser en option dans la fiche)`);
+            }
+            if (l.vertige && l.vertige.niveau === 'fort') {
+              err(ou2, `jour ${j.jour} : « ${a.lieu} » est classé vertige fort, interdit au programme`);
+            }
+          }
         });
       });
       if (reglages && reglages.sejour && reglages.sejour.jours && planning.length !== reglages.sejour.jours) {
@@ -380,6 +394,11 @@ if (scenarios && Array.isArray(scenarios.scenarios)) {
         (e.troncons_peage || []).forEach(id => {
           if (!troncons.has(id)) err(ou2, `étape « ${e.id} » : tronçon à péage « ${id} » absent de commun/peages.json`);
         });
+        if (e.autoroute !== undefined && typeof e.autoroute !== 'boolean') err(ou2, `étape « ${e.id} » : autoroute doit valoir true ou false`);
+        if (e.autoroute && !['aller', 'retour'].includes(e.type)) err(ou2, `étape « ${e.id} » : l'autoroute est réservée aux étapes de transit (aller, retour)`);
+        if (e.sans_autoroute_apres && !(e.par || []).includes(e.sans_autoroute_apres)) {
+          err(ou2, `étape « ${e.id} » : sans_autoroute_apres « ${e.sans_autoroute_apres} » doit être un des passages (par)`);
+        }
         if (e.peage_local && !(e.par || []).includes(e.peage_local)) {
           err(ou2, `étape « ${e.id} » : peage_local « ${e.peage_local} » doit être un des passages (par)`);
         }

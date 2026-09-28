@@ -21,11 +21,6 @@ const lire = p => JSON.parse(fs.readFileSync(p, 'utf8'));
    un détour absurde à la route. */
 const SANS_VOITURE = new Set(['remontee', 'plateau', 'rando']);
 
-const peagesConnus = {
-  'etape-aller-1': 77,
-  'etape-retour': 77,
-};
-
 (async () => {
   const scenarios = lire(path.join(CFG, 'scenarios.json'));
   const lieux = lire(path.join(CFG, 'commun', 'lieux.json'));
@@ -50,7 +45,10 @@ const peagesConnus = {
          parking, col ou départ de sentier réellement atteint en voiture.
          Exemple : Lago Sorapis -> Passo Tre Croci. */
       const visites = (j.activites || []).map(a => a.lieu).filter(Boolean);
+      /* Une visite faite à pied depuis la nuit (a_pied: true) ne déplace pas la voiture. */
+      const aPied = new Set((j.activites || []).filter(a => a.a_pied).map(a => a.lieu));
       const par = visites
+        .filter(id => !aPied.has(id))
         .map(id => {
           const l = parId.get(id);
           if (!l) return null;
@@ -91,8 +89,6 @@ const peagesConnus = {
         pays: j.pays || (j.jour === 1 ? 'FR' : 'IT'),
         note: j.titre || ''
       };
-      if (peagesConnus[id]) e.peages = peagesConnus[id];
-      else if (avant.peages) e.peages = avant.peages;
 
       /* Les données calculées restent disponibles jusqu'au prochain recalcul OSRM. */
       if (typeof avant.distance_km === 'number') e.distance_km = avant.distance_km;
@@ -101,6 +97,12 @@ const peagesConnus = {
       /* Champs éditoriaux manuels que le générateur ne doit jamais effacer. */
       ['axes', 'note_route', 'attention', 'alternative'].forEach(k => {
         if (avant[k] !== undefined) e[k] = avant[k];
+      });
+
+      /* Transit par l'autoroute (aller, retour) : déclaré dans le planning du jour.
+         Ses péages sont comptés au budget ; ailleurs, aucun péage. */
+      ['autoroute', 'sans_autoroute_apres', 'troncons_peage'].forEach(k => {
+        if (j[k] !== undefined) e[k] = j[k];
       });
 
       etapes.push(e);

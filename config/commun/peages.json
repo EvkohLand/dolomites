@@ -1,5 +1,5 @@
 {
-  "note": "Aucun péage n’est compté par défaut : chaque tronçon est une option à cocher dans le budget. Tarifs 2026 classe 1 (France) et classe A (Italie), lus dans les grilles et calculateurs officiels le 28/09/2026. Même prix dans les deux sens.",
+  "note": "Les péages de l’aller et du retour (étapes de transit marquées « autoroute » dans l’itinéraire) sont comptés d’office au budget : l’aller-retour se fait par l’autoroute pour ne pas passer 20 heures sur la route. Dans les Dolomites, aucun péage : un tronçon qui y serait listé resterait une option à cocher. Tarifs 2026 classe 1 (France) et classe A (Italie), lus dans les grilles et calculateurs officiels le 28/09/2026. Même prix dans les deux sens.",
   "classe": "France : classe 1 jusqu’à 2 m de hauteur totale et 3,5 t ; les équipements de toit ne comptent pas dans la hauteur, la voiture à 1,95 m reste en classe 1. Italie : classe A pour 2 essieux et 1,30 m au plus mesuré à l’aplomb de l’essieu avant (« Classe A altezza inferiore o uguale a 1,3m (misurata all'asse anteriore) », Autostrade per l’Italia ; « SAGOMA - ovvero l'altezza del veicolo sulla perpendicolare dell'asse anteriore », Milano Serravalle ; même règle chez Autostrada del Brennero). Seule compte la hauteur au-dessus des roues avant (capot) : une tente de toit posée sur le toit, en arrière de cet essieu, ne change pas la classe. Elle passerait en classe B seulement si la tente dépassait vers l’avant jusqu’à l’aplomb des roues avant.",
   "sources_classe": [
     {
@@ -352,6 +352,41 @@
           "url": "https://inviaggio.autobspd.it/pedaggi-e-pagamenti"
         }
       ]
+    },
+    {
+      "id": "it-a22-bolzano",
+      "libelle": "Peschiera del Garda → Bolzano Nord",
+      "pays": "IT",
+      "autoroutes": "A22",
+      "operateur": "Autostrada del Brennero",
+      "peage": "Verona Nord → Bolzano Nord (≈ 150 km), sortie pour le Lago di Carezza",
+      "prix": 11.2,
+      "km_autoroute": 150,
+      "prix_km": 0.075,
+      "duree_autoroute_h": 1.8,
+      "alternative": {
+        "libelle": "SS12 par Trente (estimation)",
+        "km": 160,
+        "duree_h": 3.5
+      },
+      "verdict": "vaut le coup",
+      "alerte": null,
+      "estimation": "Estimation : 150 km × 0,07592 €/km (tarif « montagne » classe A TTC 2026) ; même rapport prix/km que Verona Nord → Bressanone (14 € pour 187 km). Le calculateur officiel n’a pas pu être interrogé : prix exact à relire au péage.",
+      "sources": [
+        {
+          "libelle": "Autobrennero, tarifs kilométriques au 1er janvier 2026 (PDF)",
+          "url": "https://www.autobrennero.it/documenti/pedaggio/IT_tariffe%20A22_2026.pdf"
+        },
+        {
+          "libelle": "Autobrennero, calculateur du péage",
+          "url": "https://www.autobrennero.it/it/in-viaggio/pedaggio/costi-autostrada/"
+        }
+      ],
+      "heures_gagnees": 1.7,
+      "carburant_ecart": 1.16,
+      "net": 10.04,
+      "euros_par_heure": 6.6,
+      "net_par_heure": 5.9
     }
   ]
 }

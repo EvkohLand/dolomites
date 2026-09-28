@@ -80,8 +80,10 @@ la nuit alimente l'hébergement, les activités payantes la ligne activités.
 Le budget de base ne compte que l'indispensable : nuits, carburant, nourriture,
 marge, et les accès payants qu'une fiche de lieu déclare `"budget": "indispensable"`
 avec sa raison (`raison_budget`). Tout le reste est une **option**, affichée avec son
-prix et une case à cocher : chaque tronçon à péage (avec son verdict), chaque
-remontée ou activité payante, et toute ligne saisie marquée `"option": true`. Les
+prix et une case à cocher : chaque remontée ou activité payante, et toute ligne
+saisie marquée `"option": true`. Les péages de l'aller et du retour, faits par
+l'autoroute, sont comptés d'office. Aucune remontée mécanique ni randonnée classée
+vertige « fort » ne peut figurer au programme : `node validate.js` le refuse. Les
 cases cochées sont mémorisées dans le navigateur.
 
 `config/scenarios/<scénario>/budget.json` ne recopie aucun prix. Il contient des règles
@@ -108,7 +110,10 @@ communs à tous les scénarios : ils ne sont jamais dupliqués.
 
 ## L'itinéraire par la route
 
-Le tracé suit les vraies routes **sans péage**, calculé une fois et figé dans
+L'aller et le retour depuis Saint-Gély se font **par l'autoroute** (étapes marquées
+`"autoroute": true` dans le planning, avec leurs `troncons_peage` comptés au budget ;
+`"sans_autoroute_apres"` reprend les routes gratuites après une sortie). Dans les
+Dolomites, le tracé suit les vraies routes **sans péage**. Il est calculé une fois et figé dans
 `config/scenarios/<scénario>/trace.json`. Le calcul passe par Valhalla (serveur
 public FOSSGIS) : l'OSRM public ne sait pas exclure les péages. Une étape peut
 imposer des points de passage sans arrêt (`via_gps`), lister ses tronçons à péage
@@ -186,9 +191,14 @@ les terrains privés, l'accès des chiens aux magasins et la hauteur de 1,95 m d
 véhicule. Il distingue devis, estimations et disponibilités encore inconnues.
 
 La [comparaison des durées et des expéditions Vinted](docs/vinted-et-fenetres-octobre-2026.md)
-explique les dates choisies dans la fenêtre du 10 au 25 octobre. Le parcours de
-**huit jours, du 12 au 19 octobre**, est sélectionné par défaut ; aucune durée
-ne suppose une tolérance supplémentaire de 48 heures pour envoyer les colis.
+explique les dates choisies : toutes les durées partent le **vendredi 9 octobre à
+13 h**. Le parcours de **huit jours, du 9 au 16 octobre**, est sélectionné par
+défaut ; aucune durée ne suppose une tolérance supplémentaire de 48 heures pour
+envoyer les colis.
+
+Chaque randonnée de `config/commun/randonnees.json` porte un champ `vertige`
+(`aucun`, `léger`, `fort`) ; la vue du jour affiche un badge et replie à part
+les randonnées « fort », marquées déconseillées.
 
 Plusieurs prix et dates de fermeture 2026 sont désormais vérifiés, notamment le
 Lagazuoi et le camping Olympia ; les fiches encore incertaines portent

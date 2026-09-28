@@ -1,7 +1,13 @@
 #!/usr/bin/env node
-/* Calcule le VRAI tracé routier de chaque étape, SANS PÉAGE, et le fige dans
+/* Calcule le VRAI tracé routier de chaque étape et le fige dans
    config/scenarios/<id>/trace.json, pour que la carte suive les routes
    et que le tracé reste disponible hors ligne.
+
+   Dans les Dolomites, tout se fait SANS PÉAGE. Seules les étapes de transit
+   marquées `autoroute: true` (aller et retour depuis Saint-Gély) passent par
+   l'autoroute : leur distance et leur durée sont celles de l'autoroute, et leurs
+   péages sont comptés au budget. `sans_autoroute_apres: <lieu>` reprend le calcul
+   sans péage à partir de ce lieu (sortie d'autoroute avant une visite).
 
    Usage : node trace-route.js [id-du-scenario]
 
@@ -75,6 +81,27 @@ async function route(etapes, sansPeage, hauteur) {
   };
 }
 
+/* Étape de transit : autoroute jusqu'à `sans_autoroute_apres` (ou jusqu'au bout),
+   puis routes sans péage. Les passages imposés (via_gps) servent l'itinéraire gratuit :
+   on les ignore ici. */
+async function routeAutoroute(e, dep, arr, gps, hauteur) {
+  const arrets = [dep].concat((e.par || []).map(gps).filter(Boolean)).concat([arr]);
+  const coupe = e.sans_autoroute_apres ? 1 + (e.par || []).indexOf(e.sans_autoroute_apres) : arrets.length - 1;
+  if (coupe < 1) throw new Error(`sans_autoroute_apres « ${e.sans_autoroute_apres} » absent de par`);
+  const pts = g => g.map(x => ({ gps: x, type: 'break' }));
+  const morceaux = [await route(pts(arrets.slice(0, coupe + 1)), false, hauteur)];
+  if (coupe < arrets.length - 1) {
+    await pause(1200);
+    morceaux.push(await route(pts(arrets.slice(coupe)), true, hauteur));
+  }
+  return {
+    distance_km: morceaux.reduce((a, m) => a + m.distance_km, 0),
+    duree_h: Math.round(morceaux.reduce((a, m) => a + m.duree_h, 0) * 10) / 10,
+    autoroute: true,
+    points: [].concat(...morceaux.map(m => m.points))
+  };
+}
+
 (async () => {
   const scenarios = lire(path.join(CFG, 'scenarios.json'));
   const lieux = lire(path.join(CFG, 'commun', 'lieux.json'));
@@ -97,13 +124,29 @@ async function route(etapes, sansPeage, hauteur) {
 
     const trace = {
       genere_le: new Date().toISOString().slice(0, 10),
-      source: 'Valhalla (valhalla1.openstreetmap.de), péages exclus, hauteur ' + hauteur + ' m',
+      source: 'Valhalla (valhalla1.openstreetmap.de), péages exclus sauf étapes de transit par l’autoroute, hauteur ' + hauteur + ' m',
       etapes: {}
     };
 
     for (const e of itineraire.etapes) {
       const dep = gps(e.de), arr = gps(e.vers);
       if (!dep || !arr) { console.warn(`  ${e.id} : coordonnées manquantes, étape ignorée`); continue; }
+      if (e.autoroute) {
+        process.stdout.write(`  ${s.id} / ${e.id} (autoroute) … `);
+        try {
+          const r = await routeAutoroute(e, dep, arr, gps, hauteur);
+          trace.etapes[e.id] = r;
+          const ecart = e.distance_km ? ` (ancien ${e.distance_km} km)` : '';
+          e.distance_km = r.distance_km;
+          e.duree_h = r.duree_h;
+          delete e.avec_peages;
+          console.log(`${r.distance_km} km, ${r.duree_h} h par l'autoroute, ${r.points.length} points${ecart}`);
+        } catch (err) {
+          console.log(`échec — ${err.message}`);
+        }
+        await pause(1200);
+        continue;
+      }
       // via_gps = passage imposé au calcul, sans arrêt, parcouru avant les lieux visités (par).
       const pts = [{ gps: dep, type: 'break' }]
         .concat((e.via_gps || []).map(g => ({ gps: g, type: 'through' })))

@@ -755,6 +755,7 @@
         ['Dénivelé', l.rando.denivele_m ? l.rando.denivele_m + ' m' : null],
         ['Durée', l.rando.duree_h ? l.rando.duree_h + ' h' : null],
         ['Difficulté', l.rando.difficulte],
+        ['Vertige', l.vertige ? l.vertige.niveau + ' — ' + l.vertige.passages : null],
         ['Forme', l.rando.boucle === true ? 'Boucle' : (l.rando.boucle === false ? 'Aller-retour' : null)]
       ];
       lignes.forEach(function (x) {
@@ -990,6 +991,19 @@
     ].filter(Boolean).join(' · ');
   }
 
+  var VERTIGE = {
+    'aucun': { texte: 'Vertige : aucun', cls: 'badge--gratuit' },
+    'léger': { texte: 'Vertige : léger', cls: 'badge--alerte' },
+    'fort': { texte: 'Déconseillé (vertige)', cls: 'badge--danger' }
+  };
+
+  function badgeVertige(v) {
+    if (!v || !VERTIGE[v.niveau]) return null;
+    var b = el('span', 'badge badge--vertige ' + VERTIGE[v.niveau].cls, VERTIGE[v.niveau].texte);
+    if (v.passages) b.title = v.passages;
+    return b;
+  }
+
   function dessinerRandosJour(j, conteneur) {
     var groupes = randosPourJour(j);
     if (!groupes.length) return;
@@ -1011,12 +1025,16 @@
         zg.appendChild(rz);
       }
 
+      /* Vertige « fort » : repliées à part, marquées déconseillées. */
+      var fortes = null;
       (g.randos || []).forEach(function (r) {
-        var d = el('details', 'rando-card');
+        var d = el('details', 'rando-card' + (r.vertige && r.vertige.niveau === 'fort' ? ' rando-card--deconseillee' : ''));
         var sm = document.createElement('summary');
         sm.appendChild(el('span', 'rando-card__nom', r.nom));
         var resume = randoResume(r);
         if (resume) sm.appendChild(el('span', 'rando-card__meta', resume));
+        var bv = badgeVertige(r.vertige);
+        if (bv) sm.appendChild(bv);
         d.appendChild(sm);
 
         var grille = el('dl', 'rando-grid');
@@ -1034,6 +1052,7 @@
           ['Arrivée', r.arrivee],
           ['Retour au départ', r.retour_au_depart || r.retour_depart || r.retour],
           ['Risque', r.risque],
+          ['Vertige', r.vertige ? r.vertige.niveau + ' — ' + r.vertige.passages : null],
           ['Altitude min', r.altitude_min_m ? r.altitude_min_m + ' m' : null],
           ['Balisage', texteListe(r.balisage)],
           ['Parking', texteListe(r.parking)],
@@ -1076,8 +1095,18 @@
           src.rel = 'noopener noreferrer';
           d.appendChild(src);
         }
-        zg.appendChild(d);
+        if (r.vertige && r.vertige.niveau === 'fort') {
+          if (!fortes) {
+            fortes = el('details', 'volet volet--interne rando-fortes');
+            fortes.appendChild(el('summary', null, 'Déconseillées (vertige)'));
+          }
+          fortes.appendChild(d);
+        } else zg.appendChild(d);
       });
+      if (fortes) {
+        fortes.querySelector('summary').textContent = 'Déconseillées (vertige) : ' + (fortes.childNodes.length - 1);
+        zg.appendChild(fortes);
+      }
       sec.appendChild(zg);
     });
 
@@ -1326,9 +1355,10 @@
       tr.appendChild(el('span', 'jour__trajet-num', 'E' + r.ordre));
       var tc = el('span', 'jour__trajet-corps');
       tc.appendChild(el('span', 'jour__trajet-parcours', referencesEtape(r.etape).map(nomRef).join(' → ')));
-      var avecPeages = r.etape.avec_peages;
+      var avecPeages = r.etape.autoroute ? null : r.etape.avec_peages;
       tc.appendChild(el('span', 'jour__trajet-meta',
-        [r.meta.libelle, r.km ? r.km + ' km' : '', r.h ? dureeAffiche(r.h) + (avecPeages ? ' sans péage' : '') : '',
+        [r.meta.libelle, r.km ? r.km + ' km' : '',
+          r.h ? dureeAffiche(r.h) + (r.etape.autoroute ? ' de volant par l’autoroute, péages compris au budget' : (avecPeages ? ' sans péage' : '')) : '',
           avecPeages ? dureeAffiche(avecPeages.duree_h) + ' par l’autoroute' : '', 'voir sur la carte'].filter(Boolean).join(' · ')));
       var hors = visitesHorsRoute(r.etape);
       if (hors.length) tc.appendChild(el('span', 'jour__trajet-detour', 'Hors route voiture : ' + hors.map(nomRef).join(', ')));
@@ -2171,11 +2201,16 @@
           });
         });
       } else if (r.depuis === 'itineraire.peages') {
-        /* Chaque tronçon à péage est une option : prix du péage, moins le carburant que l'autoroute économise. */
+        /* Étape de transit par l'autoroute (aller, retour) : ses péages sont indispensables, comptés d'office.
+           Ailleurs, chaque tronçon à péage reste une option : prix du péage, moins le carburant que l'autoroute économise. */
         ((E.itineraire && E.itineraire.etapes) || []).forEach(function (e) {
           (e.troncons_peage || []).forEach(function (id, i) {
             var t = troncon(id);
             if (!t) { anomalies.push('Tronçon à péage inconnu : ' + id + ' (étape ' + e.id + ')'); return; }
+            if (e.autoroute) {
+              base.push({ jour: e.jour, poste: r.poste, libelle: 'Péage ' + t.libelle + ' (' + t.autoroutes + ')', montant: t.prix });
+              return;
+            }
             var lignes = [{ jour: e.jour, poste: r.poste, libelle: 'Péage ' + t.libelle, montant: t.prix }];
             if (t.carburant_ecart) lignes.push({ jour: e.jour, poste: 'carburant', libelle: 'Écart de carburant par l’autoroute, ' + t.libelle, montant: -t.carburant_ecart });
             option({
@@ -2195,7 +2230,7 @@
           var m = e.distance_km / 100 * conso * pl;
           if (m) base.push({
             jour: e.jour, poste: r.poste,
-            libelle: e.distance_km + ' km' + (e.troncons_peage && e.troncons_peage.length ? ' sans péage' : '') +
+            libelle: e.distance_km + ' km' + (e.autoroute ? ' par l’autoroute' : (e.troncons_peage && e.troncons_peage.length ? ' sans péage' : '')) +
               (e.pays ? ' (' + e.pays + ')' : '') + ' à ' + euros(pl) + '/L' +
               (live ? ', prix relevé sur le tracé le ' + dateHeure(live.releve).replace(/,?\s\d\d:\d\d$/, '') : ''),
             montant: m
@@ -2275,7 +2310,9 @@
       var dv = el('details', 'volet volet--interne options');
       dv.open = true;
       dv.appendChild(el('summary', null, 'Options payantes (' + r.options.length + ', ' + euros(somOpt) + ' si tout est coché)'));
-      if (E.peages && E.peages.seuils && E.peages.seuils.raison) dv.appendChild(el('p', 'jour__note', 'Verdict des péages : ' + E.peages.seuils.raison));
+      dv.appendChild(el('p', 'jour__note', 'Aucune option n’est au programme : remontées mécaniques, routes et parkings qui ont une alternative gratuite, visites payantes. Les péages de l’aller et du retour sont comptés dans la base.'));
+      var peagesEnOption = r.options.some(function (o) { return o.verdict; });
+      if (peagesEnOption && E.peages && E.peages.seuils && E.peages.seuils.raison) dv.appendChild(el('p', 'jour__note', 'Verdict des péages : ' + E.peages.seuils.raison));
       var jourCourant = null;
       r.options.forEach(function (o) {
         if (o.jour !== jourCourant) {
