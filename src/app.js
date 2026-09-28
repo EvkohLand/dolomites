@@ -1105,14 +1105,15 @@
         var sm = document.createElement('summary');
         sm.appendChild(el('span', 'decouverte-card__type', (x.type || 'idée').replace(/_/g, ' ')));
         sm.appendChild(el('span', 'decouverte-card__nom', x.nom || ''));
-        if (x.disponibilite) sm.appendChild(el('span', 'decouverte-card__dispo', x.disponibilite));
+        var dispo = (x.saison || x.horaires) && /^à vérifier/i.test(x.disponibilite || '') ? texteListe(x.saison) : x.disponibilite;
+        if (dispo) sm.appendChild(el('span', 'decouverte-card__dispo', dispo));
         d.appendChild(sm);
 
         if (x.resume) d.appendChild(el('p', 'decouverte-card__resume', x.resume));
         var grille = el('dl', 'decouverte-grid');
         [
-          ['Disponibilité', x.disponibilite],
-          ['Saison', x.saison],
+          ['Disponibilité', (x.saison || x.horaires) && /^à vérifier/i.test(x.disponibilite || '') ? null : x.disponibilite],
+          ['Saison', texteListe(x.saison)],
           ['Horaires', texteListe(x.horaires)],
           ['Prix', texteListe(x.prix)],
           ['Chien', x.chien && typeof x.chien === 'object' ? [x.chien.admis === false ? 'non admis' : 'admis', x.chien.conditions].filter(Boolean).join(' · ') : x.chien],
@@ -1131,6 +1132,7 @@
         var lx = el('div', 'puces');
         if (Array.isArray(x.gps)) lx.appendChild(lienExterne('Google Maps', 'https://www.google.com/maps/search/?api=1&query=' + x.gps[0] + ',' + x.gps[1]));
         if (x.site) lx.appendChild(lienExterne('Site officiel', x.site));
+        if (x.page_contact) lx.appendChild(lienExterne('Contact', x.page_contact));
         if (x.reservation && x.reservation.url) lx.appendChild(lienExterne('Réserver', x.reservation.url));
         if (lx.childNodes.length) d.appendChild(lx);
         if (x.source) {
