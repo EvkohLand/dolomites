@@ -58,16 +58,10 @@
       "montant": 70
     },
     {
-      "jour": 6,
-      "poste": "nourriture",
-      "libelle": "Ravitaillement de route",
-      "montant": 60
-    },
-    {
       "jour": null,
       "poste": "divers",
       "libelle": "Marge imprévu",
-      "montant": 200
+      "montant": 100
     }
   ],
   "objectif_par_jour": 95,

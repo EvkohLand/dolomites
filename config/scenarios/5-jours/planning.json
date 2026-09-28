@@ -1,0 +1,69 @@
+[
+  {
+    "date": "2026-10-14",
+    "jour": 1,
+    "titre": "Saint-Gély → Finale Ligure / Tahiti",
+    "zone": "Route / Ligurie",
+    "nuit": "camping-tahiti-finale",
+    "trajet": "etape-aller-1",
+    "activites": [],
+    "note": "Départ après les dernières expéditions. Première étape ≈ 5 h 20 de conduite hors pauses ; arrivée en soirée à confirmer. Tente de toit, Prince et hauteur 1,95 m à faire valider par écrit. Aucune nuit réservée."
+  },
+  {
+    "date": "2026-10-15",
+    "jour": 2,
+    "titre": "Ligurie → Bressanone",
+    "zone": "Route / Bressanone",
+    "nuit": "camping-loewenhof",
+    "trajet": "etape-aller-2",
+    "activites": [
+      {
+        "lieu": "courses-conad-savone",
+        "note": "Grand ravitaillement : accès animaux et chariots pour animaux déclarés, parking extérieur pour 1,95 m. Ouvert 08 h 30–20 h 30 selon fiche."
+      }
+    ],
+    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée. Tester Pinzagen si l’hôte confirme le pré, les dates, le chien et l’accès ; sinon Gamp / Vahrner See. Trajet ≈ 5–6 h hors courses."
+  },
+  {
+    "date": "2026-10-16",
+    "jour": 3,
+    "titre": "Seceda par le Col Raiser",
+    "zone": "Val Gardena",
+    "nuit": "camping-loewenhof",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "col-raiser",
+        "heure": "08:30",
+        "note": "Option ≈ 73 € à deux avec Prince, puis marche vers la crête ; dernière descente à vérifier."
+      }
+    ],
+    "note": "Si neige ou terrain glissant, choisir le téléphérique direct Ortisei–Seceda (≈ 155 € à trois) ou une promenade en vallée. Pas de double remontée au budget."
+  },
+  {
+    "date": "2026-10-17",
+    "jour": 4,
+    "titre": "Alpe di Siusi par P1 Spitzbühl",
+    "zone": "Alpe di Siusi",
+    "nuit": "camping-loewenhof",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "parking-alpe-p1",
+        "heure": "08:15",
+        "note": "15 € voiture ; réservation jusqu’à six jours avant, entrée avant 9 h."
+      }
+    ],
+    "note": "Balade avec Prince, puis retour à Bressanone. P2 à 30 € si nécessaire, nuit interdite sur les parkings du plateau."
+  },
+  {
+    "date": "2026-10-18",
+    "jour": 5,
+    "titre": "Retour à Saint-Gély-du-Fesc",
+    "zone": "Route",
+    "nuit": null,
+    "trajet": "etape-retour",
+    "activites": [],
+    "note": "Départ tôt : environ 10 à 12 h de conduite hors pauses selon la base de départ. Expéditions Vinted le prochain jour ouvré, après contrôle des échéances exactes dans l’application."
+  }
+]

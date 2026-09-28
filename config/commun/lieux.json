@@ -5541,7 +5541,7 @@
       "montant": 45,
       "unite": "nuit, hypothèse 2 adultes + chien",
       "annee_tarif": 2026,
-      "detail": "Budget provisoire 45 €/nuit ; emplacements annoncés à partir de 39 € pour deux personnes, taxes et chien en sus. Devis du 10–14 octobre demandé."
+      "detail": "Budget provisoire 45 €/nuit ; emplacements annoncés à partir de 39 € pour deux personnes, taxes et chien en sus. Nouveau devis demandé pour 13–16, 13–17, 15–18 ou 11–17 octobre."
     },
     "chien": {
       "admis": true,
@@ -5549,7 +5549,7 @@
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Disponibilité 10–14 octobre et acceptation explicite de la tente de toit attendues ; certaines catégories sont interdites aux tentes classiques."
+      "note": "Disponibilité aux nouvelles dates et acceptation explicite de la tente de toit attendues ; certaines catégories sont interdites aux tentes classiques."
     },
     "source": "https://www.loewenhof.it/en/camping/pitches",
     "niveau_prix": "€€",
@@ -5578,13 +5578,13 @@
     ],
     "commune": "San Cassiano (BZ)",
     "altitude": 1690,
-    "resume": "Base centrale pour Lagazuoi, Fanes et les cols. Des emplacements pour tente de toit et chien sont proposés par Pitchup ; disponibilité du 14 au 18 octobre et prix total encore attendus du camping.",
+    "resume": "Base centrale pour Lagazuoi, Fanes et les cols. Pitchup propose des emplacements pour tente de toit et chien ; nouveau devis demandé pour les nuits des 16–18, 17–18 ou 17–21 octobre.",
     "prix": {
       "type": "payant",
       "montant": 44,
       "unite": "nuit, estimation 2 adultes + chien + taxes",
       "annee_tarif": 2026,
-      "detail": "Devis reçu le 28 septembre : 140 € les 4 nuits pour deux adultes (35 €/nuit), plus taxe 2,30 €/adulte/nuit. Chien omis du devis (hypothèse 4 €/nuit en attendant confirmation) ; électricité facultative au compteur. Aucun emplacement réservé."
+      "detail": "Ancien devis valable uniquement du 14 au 18 : 140 € pour deux adultes, plus taxe 2,30 €/adulte/nuit, avant chien et courant. Les 44 €/nuit sont une estimation pour les nouveaux séjours, non un devis confirmé ; aucun emplacement réservé."
     },
     "chien": {
       "admis": true,
@@ -5592,7 +5592,7 @@
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Offre nominative reçue pour le 14–18 octobre 2026, non bloquée ; accueil du chien et configuration tente de toit sur emplacement précis à confirmer."
+      "note": "Ancienne offre nominative pour le 14–18, non bloquée ; disponibilité des nouvelles dates, accueil du chien et emplacement précis à confirmer."
     },
     "source": "https://campingsassdlacia.it/en/accommodations/useful-informations",
     "niveau_prix": "€€",
@@ -5862,7 +5862,7 @@
       8.35091
     ],
     "commune": "Via Varese 2, Finale Ligure (SV)",
-    "resume": "Nuit intermédiaire du 9 au 10 octobre pour le scénario via Finale. Un avis de mai 2026 relate une tente de toit avec chien. Disponibilité, arrivée en soirée et accès voiture de 1,95 m demandés ; aucune réservation.",
+    "resume": "Nuit intermédiaire du 12 au 13 ou du 14 au 15 octobre selon le scénario. Un avis de mai 2026 relate une tente de toit avec chien. Disponibilité, arrivée en soirée et accès voiture de 1,95 m demandés ; aucune réservation.",
     "prix": {
       "type": "payant",
       "montant": 50,
@@ -5872,11 +5872,11 @@
     },
     "chien": {
       "admis": true,
-      "note": "Chien 3 € au tarif publié ; un avis de mai 2026 confirme la tente de toit avec chien, place du 9/10 à confirmer."
+      "note": "Chien 3 € au tarif publié ; un avis de mai 2026 relate la tente de toit avec chien, place aux nouvelles dates à confirmer."
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Saison publiée couvrant le 9 octobre ; horaire limite arrivée tardive et disponibilité demandés par mail."
+      "note": "Saison publiée couvrant le 12 et le 14 octobre ; horaire limite d'arrivée et disponibilité demandés par mail."
     },
     "source": "https://www.campingtahitifinaleligure.it/listino-prezzi-campeggi-finale-ligure",
     "equipements": [
@@ -5910,7 +5910,7 @@
       8.575075
     ],
     "commune": "Via Piave 30, Varazze (SV)",
-    "resume": "Courses en fin de première étape avant Cogoleto. Fiche Conad : accès animaux, chariots adaptés et parking extérieur. Le vendredi, 15 h 30–19 h 30 ; demander si Prince peut utiliser un chariot. Parking uniquement pour les courses.",
+    "resume": "Courses en fin de première étape du samedi 10 avant Cogoleto. Fiche Conad : accès animaux, chariots adaptés et parking extérieur ; horaires du samedi annoncés 08 h 15–19 h 30. Demander si Prince peut utiliser un chariot. Parking uniquement pour les courses.",
     "prix": {
       "type": "variable",
       "unite": "courses"
@@ -5925,7 +5925,7 @@
     ],
     "liens": [
       {
-        "libelle": "Fiche magasin et horaires vendredi",
+        "libelle": "Fiche magasin et horaires samedi",
         "url": "https://www.conad.it/ricerca-negozi/conad-city-via-piave-30-17019-varazze--003238"
       }
     ]
@@ -5939,12 +5939,12 @@
       8.63462
     ],
     "commune": "Via della Pace 42, Cogoleto (GE)",
-    "resume": "Alternative économique pour le 9 au 10 octobre ; emplacement XL compatible tente de toit et voiture, chien payant. Suivre Via della Pace, éviter Via Ronco et Via Magetti selon la consigne d’accès publiée ; pente signalée par des avis. Arrivée et gabarit 1,95 m à confirmer, aucune réservation.",
+    "resume": "Étape économique du 10 au 11 octobre seulement ; emplacement XL compatible tente de toit et voiture, chien payant. Suivre Via della Pace, éviter Via Ronco et Via Magetti selon la consigne d’accès publiée ; pente signalée par des avis. Arrivée et gabarit 1,95 m à confirmer, aucune réservation.",
     "prix": {
       "type": "payant",
       "montant": 39,
       "unite": "nuit, simple hypothèse pour 2 adultes + chien",
-      "detail": "Pitchup affiche un prix d’appel à partir de 32 € pour deux sur emplacement XL plus 5 € par chien ; ce prix ne confirme pas celui du 9/10/2026. Hypothèse budgétaire 39 €, taxe locale et prix de la date inconnus. Électricité facultative 3 €/nuit, 2 A, selon l’annonce."
+      "detail": "Pitchup affiche un prix d’appel à partir de 32 € pour deux sur emplacement XL plus 5 € par chien ; ce prix ne confirme pas celui du 10/10/2026. Hypothèse budgétaire 39 €, taxe locale et prix de la date inconnus. Électricité facultative 3 €/nuit, 2 A, selon l’annonce."
     },
     "chien": {
       "admis": true,

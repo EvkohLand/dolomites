@@ -139,35 +139,6 @@
   {
     "date": "2026-10-19",
     "jour": 8,
-    "titre": "Braies et Prato Piazza",
-    "zone": "Braies",
-    "nuit": "camping-olympia",
-    "trajet": null,
-    "activites": [
-      {
-        "lieu": "lago-braies",
-        "heure": "08:00"
-      },
-      {
-        "lieu": "prato-piazza",
-        "heure": "11:30"
-      }
-    ],
-    "note": "Balade avec Prince et accès routier selon neige. Retour à Olympia."
-  },
-  {
-    "date": "2026-10-20",
-    "jour": 9,
-    "titre": "Journée météo / repos",
-    "zone": "Dobbiaco",
-    "nuit": "camping-olympia",
-    "trajet": null,
-    "activites": [],
-    "note": "Temps libre pour visite reportée si route et météo le permettent ; sinon balade courte avec Prince. Aucun billet conditionnel acheté à l’avance."
-  },
-  {
-    "date": "2026-10-21",
-    "jour": 10,
     "titre": "Retour à Saint-Gély-du-Fesc",
     "zone": "Route",
     "nuit": null,

@@ -1,31 +1,31 @@
 [
   {
-    "date": "2026-10-12",
+    "date": "2026-10-10",
     "jour": 1,
-    "titre": "Saint-Gély → Finale Ligure / Tahiti",
+    "titre": "Saint-Gély → courses à Varazze → Cogoleto",
     "zone": "Route / Ligurie",
-    "nuit": "camping-tahiti-finale",
+    "nuit": "camping-green-europa-cogoleto",
     "trajet": "etape-aller-1",
-    "activites": [],
-    "note": "Départ après les dernières expéditions. Première étape ≈ 5 h 20 de conduite hors pauses ; arrivée en soirée à confirmer. Tente de toit, Prince et hauteur 1,95 m à faire valider par écrit. Aucune nuit réservée."
+    "activites": [
+      {
+        "lieu": "courses-conad-varazze",
+        "note": "Samedi 08 h 15–19 h 30 ; accès chien déclaré, chariot adapté à vérifier."
+      }
+    ],
+    "note": "Départ samedi après la dernière expédition du vendredi. Suivre Via della Pace pour le camping, pas Via Ronco / Via Magetti. Saison annoncée jusqu’au 11 octobre seulement ; place, accès 1,95 m et prix daté à confirmer. Si refus, tenter Tahiti à Finale Ligure et faire les courses dimanche à Savone."
   },
   {
-    "date": "2026-10-13",
+    "date": "2026-10-11",
     "jour": 2,
     "titre": "Ligurie → Bressanone",
     "zone": "Route / Bressanone",
     "nuit": "camping-loewenhof",
     "trajet": "etape-aller-2",
-    "activites": [
-      {
-        "lieu": "courses-conad-savone",
-        "note": "Grand ravitaillement : accès animaux et chariots pour animaux déclarés, parking extérieur pour 1,95 m. Ouvert 08 h 30–20 h 30 selon fiche."
-      }
-    ],
-    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée. Tester Pinzagen si l’hôte confirme le pré, les dates, le chien et l’accès ; sinon Gamp / Vahrner See. Trajet ≈ 5–6 h hors courses."
+    "activites": [],
+    "note": "Base ouest Löwenhof, place tente de toit et Prince non confirmée ; Pinzagen prioritaire si réponse positive. Courses faites à Varazze la veille ; trajet ≈ 5 h."
   },
   {
-    "date": "2026-10-14",
+    "date": "2026-10-12",
     "jour": 3,
     "titre": "Val di Funes et les Odle",
     "zone": "Funes / Bressanone",
@@ -44,7 +44,7 @@
     "note": "Randonnée avec Prince selon état du sentier et énergie ; retour à la même base."
   },
   {
-    "date": "2026-10-15",
+    "date": "2026-10-13",
     "jour": 4,
     "titre": "Seceda par le Col Raiser",
     "zone": "Val Gardena",
@@ -60,7 +60,7 @@
     "note": "Si neige ou terrain glissant, choisir le téléphérique direct Ortisei–Seceda (≈ 155 € à trois) ou une promenade en vallée. Pas de double remontée au budget."
   },
   {
-    "date": "2026-10-16",
+    "date": "2026-10-14",
     "jour": 5,
     "titre": "Alpe di Siusi par P1 Spitzbühl",
     "zone": "Alpe di Siusi",
@@ -76,8 +76,28 @@
     "note": "Balade avec Prince, puis retour à Bressanone. P2 à 30 € si nécessaire, nuit interdite sur les parkings du plateau."
   },
   {
-    "date": "2026-10-17",
+    "date": "2026-10-15",
     "jour": 6,
+    "titre": "Journée météo / repos",
+    "zone": "Bressanone / Val Gardena",
+    "nuit": "camping-loewenhof",
+    "trajet": null,
+    "activites": [],
+    "note": "Temps libre pour visite reportée si route et météo le permettent ; sinon balade courte avec Prince. Aucun billet conditionnel acheté à l’avance."
+  },
+  {
+    "date": "2026-10-16",
+    "jour": 7,
+    "titre": "Journée météo / repos",
+    "zone": "Bressanone / Val Gardena",
+    "nuit": "camping-loewenhof",
+    "trajet": null,
+    "activites": [],
+    "note": "Temps libre pour visite reportée si route et météo le permettent ; sinon balade courte avec Prince. Aucun billet conditionnel acheté à l’avance."
+  },
+  {
+    "date": "2026-10-17",
+    "jour": 8,
     "titre": "Passo Gardena → Alta Badia → Lagazuoi",
     "zone": "Val Gardena / Alta Badia",
     "nuit": "camping-sass-dlacia",
@@ -105,7 +125,7 @@
   },
   {
     "date": "2026-10-18",
-    "jour": 7,
+    "jour": 9,
     "titre": "Cinque Torri à pied ou report de Lagazuoi",
     "zone": "Alta Badia / Falzarego",
     "nuit": "camping-sass-dlacia",
@@ -125,7 +145,7 @@
   },
   {
     "date": "2026-10-19",
-    "jour": 8,
+    "jour": 10,
     "titre": "Sass Pordoi depuis Alta Badia",
     "zone": "Alta Badia / Passo Pordoi",
     "nuit": "camping-sass-dlacia",
@@ -140,7 +160,7 @@
   },
   {
     "date": "2026-10-20",
-    "jour": 9,
+    "jour": 11,
     "titre": "Fanes depuis Pederü ou Passo Giau",
     "zone": "Alta Badia / Fanes",
     "nuit": "camping-sass-dlacia",
@@ -156,7 +176,7 @@
   },
   {
     "date": "2026-10-21",
-    "jour": 10,
+    "jour": 12,
     "titre": "Misurina / Tre Cime → Dobbiaco",
     "zone": "Tre Cime / Dobbiaco",
     "nuit": "camping-olympia",
@@ -184,7 +204,7 @@
   },
   {
     "date": "2026-10-22",
-    "jour": 11,
+    "jour": 13,
     "titre": "Braies et Prato Piazza",
     "zone": "Braies",
     "nuit": "camping-olympia",
@@ -203,7 +223,7 @@
   },
   {
     "date": "2026-10-23",
-    "jour": 12,
+    "jour": 14,
     "titre": "Lago di Dobbiaco et repos",
     "zone": "Dobbiaco",
     "nuit": "camping-olympia",
@@ -218,7 +238,7 @@
   },
   {
     "date": "2026-10-24",
-    "jour": 13,
+    "jour": 15,
     "titre": "Journée météo / repos",
     "zone": "Dobbiaco",
     "nuit": "camping-olympia",
@@ -228,7 +248,7 @@
   },
   {
     "date": "2026-10-25",
-    "jour": 14,
+    "jour": 16,
     "titre": "Retour à Saint-Gély-du-Fesc",
     "zone": "Route",
     "nuit": null,

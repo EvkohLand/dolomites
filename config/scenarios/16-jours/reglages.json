@@ -1,10 +1,10 @@
 {
-  "titre": "Dolomites — 11 jours, aller coupé",
-  "sous_titre": "Du 9 au 19 octobre, départ à midi et nuit intermédiaire en Ligurie",
+  "titre": "Dolomites — 16 jours",
+  "sous_titre": "16 jours — totalité de la fenêtre · voiture et tente de toit 1,95 m · Prince",
   "sejour": {
-    "debut": "2026-10-09",
-    "fin": "2026-10-19",
-    "jours": 11
+    "debut": "2026-10-10",
+    "fin": "2026-10-25",
+    "jours": 16
   },
   "depart": {
     "libelle": "Saint-Gély-du-Fesc",
@@ -16,7 +16,7 @@
   },
   "carte": {
     "centre": [
-      46,
+      46.0,
       9.5
     ],
     "zoom": 7,
@@ -29,8 +29,8 @@
     },
     "zone_valide": [
       [
-        42,
-        2
+        42.0,
+        2.0
       ],
       [
         48.5,

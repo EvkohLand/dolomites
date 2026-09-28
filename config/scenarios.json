@@ -1,68 +1,99 @@
 {
-  "defaut": "14-jours",
+  "defaut": "8-jours",
   "scenarios": [
     {
-      "id": "14-jours",
-      "libelle": "14 jours — séjour complet",
-      "resume": "Du 10 au 23 octobre. 4 nuits vers Bressanone, terrain privé Pinzagen à vérifier en priorité, 4 en Alta Badia, 5 à Dobbiaco ; emplacements tente de toit à confirmer. Visites regroupées par zone et journée météo.",
-      "jours": 14,
-      "dossier": "scenarios/14-jours",
-      "titre": "Dolomites — 14 jours",
-      "logique_route": "Bressanone / Funes / Val Gardena → Alta Badia / Falzarego / Fanes → Misurina / Tre Cime → Dobbiaco / Braies. Bases et visites soumises aux réponses des campings et à la météo.",
+      "id": "5-jours",
+      "libelle": "5 jours — Ouest express, boutique ouverte",
+      "resume": "Deux grandes balades au départ de Bressanone ; deux journées de route pour deux journées de visite. Boutique ouverte : envoyer tous les colis avant le départ mercredi. Dernières expéditions mercredi 14 avant le départ ; boutique ouverte tout le séjour. Retour dimanche 18, prochains envois lundi 19. Vérifier les échéances réelles des commandes.",
+      "jours": 5,
+      "dossier": "scenarios/5-jours",
+      "titre": "Dolomites — 5 jours",
+      "logique_route": "2026-10-14 → 2026-10-18. Deux grandes balades au départ de Bressanone ; deux journées de route pour deux journées de visite. Boutique ouverte : envoyer tous les colis avant le départ mercredi.",
       "bases": [
-        "Bressanone (Löwenhof, à confirmer)",
-        "San Cassiano (Sass Dlacia, à confirmer)",
-        "Dobbiaco (Olympia, à confirmer)"
+        "Finale Ligure — Tahiti (à confirmer)",
+        "Bressanone — Löwenhof ou Pinzagen (à confirmer)"
       ],
-      "etapes_route": 12
+      "etapes_route": 5
+    },
+    {
+      "id": "7-jours",
+      "libelle": "7 jours — Odle, Seceda, Alpe et Lagazuoi",
+      "resume": "Départ lundi après dépôt, étape ligure, quatre nuits près de Bressanone et une en Alta Badia ; Lagazuoi samedi 17 si ouvert. Mode vacances lundi 12 après les derniers dépôts → mercredi 14 matin ; retour dimanche 18, premier dépôt lundi 19.",
+      "jours": 7,
+      "dossier": "scenarios/7-jours",
+      "titre": "Dolomites — 7 jours",
+      "logique_route": "2026-10-12 → 2026-10-18. Départ lundi après dépôt, étape ligure, quatre nuits près de Bressanone et une en Alta Badia ; Lagazuoi samedi 17 si ouvert.",
+      "bases": [
+        "Finale Ligure — Tahiti (à confirmer)",
+        "Bressanone — Löwenhof ou Pinzagen (à confirmer)",
+        "San Cassiano — Sass Dlacia (à confirmer)"
+      ],
+      "etapes_route": 7
+    },
+    {
+      "id": "8-jours",
+      "libelle": "8 jours — compromis Vinted et Dolomites",
+      "resume": "Départ lundi après dépôt, environ trois jours de mode vacances ; Funes, Seceda, Alpe, Lagazuoi, puis Tre Cime si route ouverte. Nuit est courte, météo prioritaire. Mode vacances lundi 12 après les derniers dépôts → jeudi 15 matin ; retour lundi 19, premier dépôt mardi 20.",
+      "jours": 8,
+      "dossier": "scenarios/8-jours",
+      "titre": "Dolomites — 8 jours",
+      "logique_route": "2026-10-12 → 2026-10-19. Départ lundi après dépôt, environ trois jours de mode vacances ; Funes, Seceda, Alpe, Lagazuoi, puis Tre Cime si route ouverte. Nuit est courte, météo prioritaire.",
+      "bases": [
+        "Finale Ligure — Tahiti (à confirmer)",
+        "Bressanone — Löwenhof ou Pinzagen (à confirmer)",
+        "San Cassiano — Sass Dlacia (à confirmer)",
+        "Dobbiaco — Olympia (à confirmer)"
+      ],
+      "etapes_route": 8
     },
     {
       "id": "10-jours",
-      "libelle": "10 jours — version courte",
-      "resume": "Du 10 au 19 octobre. 4 nuits vers Bressanone, terrain privé Pinzagen à vérifier en priorité, 2 en Alta Badia, 3 à Dobbiaco ; Lagazuoi avant le 18 et Tre Cime selon route/météo.",
+      "libelle": "10 jours — trois bases et journée météo",
+      "resume": "Plus de marge à Dobbiaco et Braies ; repos ou repli météo le 20. Environ cinq jours sans nouvelles ventes Vinted. Mode vacances lundi 12 après les derniers dépôts → samedi 17 matin ; retour mercredi 21, premier dépôt jeudi 22.",
       "jours": 10,
       "dossier": "scenarios/10-jours",
       "titre": "Dolomites — 10 jours",
-      "logique_route": "Bressanone → Alta Badia et Falzarego → Misurina / Tre Cime → Dobbiaco / Braies. Emplacements et chien à confirmer.",
+      "logique_route": "2026-10-12 → 2026-10-21. Plus de marge à Dobbiaco et Braies ; repos ou repli météo le 20. Environ cinq jours sans nouvelles ventes Vinted.",
       "bases": [
-        "Bressanone",
-        "San Cassiano",
-        "Dobbiaco"
+        "Finale Ligure — Tahiti (à confirmer)",
+        "Bressanone — Löwenhof ou Pinzagen (à confirmer)",
+        "San Cassiano — Sass Dlacia (à confirmer)",
+        "Dobbiaco — Olympia (à confirmer)"
       ],
       "etapes_route": 9
     },
     {
-      "id": "11-jours-etape",
-      "libelle": "11 jours — aller coupé en deux",
-      "resume": "Du 9 au 19 octobre. Départ de Saint-Gély le 9 vers midi, environ 5 h de route jusqu'en Ligurie, puis environ 5 h le 10 pour rejoindre le Val Gardena. Retour le 19. Campings Bressanone, Alta Badia et Dobbiaco à confirmer ; Lagazuoi prioritaire avant le 18 octobre.",
-      "jours": 11,
-      "dossier": "scenarios/11-jours-etape",
-      "titre": "Dolomites — 11 jours, aller coupé",
-      "logique_route": "Camping Tahiti à Finale Ligure le 9 (disponibilité à confirmer) → Bressanone du 10 au 13 → Alta Badia les 14 et 15 → Dobbiaco du 16 au 18. Tre Cime selon accès et météo.",
+      "id": "14-jours",
+      "libelle": "14 jours — séjour ample jusqu’au 25",
+      "resume": "12–25 octobre, avec quatre nuits à l’ouest, quatre en Alta Badia et quatre à Dobbiaco ; Lagazuoi les 17/18 selon météo, est en fin de séjour. Mode vacances lundi 12 après les derniers dépôts → mercredi 21 matin ; retour dimanche 25, premier dépôt lundi 26.",
+      "jours": 14,
+      "dossier": "scenarios/14-jours",
+      "titre": "Dolomites — 14 jours",
+      "logique_route": "2026-10-12 → 2026-10-25. 12–25 octobre, avec quatre nuits à l’ouest, quatre en Alta Badia et quatre à Dobbiaco ; Lagazuoi les 17/18 selon météo, est en fin de séjour.",
       "bases": [
-        "Finale Ligure (Camping Tahiti, à confirmer)",
-        "Bressanone",
-        "San Cassiano",
-        "Dobbiaco"
+        "Finale Ligure — Tahiti (à confirmer)",
+        "Bressanone — Löwenhof ou Pinzagen (à confirmer)",
+        "San Cassiano — Sass Dlacia (à confirmer)",
+        "Dobbiaco — Olympia (à confirmer)"
       ],
-      "etapes_route": 10
+      "etapes_route": 13
     },
     {
-      "id": "11-jours-9-19",
-      "libelle": "11 jours — escale économique à Cogoleto",
-      "resume": "Du 9 au 19 octobre. Départ de Saint-Gély vers midi, courses à Varazze et nuit provisoire au Green Family Park Europa de Cogoleto. Environ 5 h 50 de conduite le 9 et 5 h le 10 pour Bressanone ; prendre Via della Pace pour le camping. Prix, arrivée après 20 h et accès de la tente de toit à confirmer.",
-      "jours": 11,
-      "dossier": "scenarios/11-jours-9-19",
-      "titre": "Dolomites — 11 jours (9 → 19 octobre)",
-      "logique_route": "Conad Varazze puis Green Family Park Europa à Cogoleto le 9 (disponibilité et heure d’arrivée à confirmer) → Bressanone du 10 au 13 → Alta Badia les 14 et 15 → Dobbiaco du 16 au 18.",
+      "id": "16-jours",
+      "libelle": "16 jours — totalité de la fenêtre",
+      "resume": "Du samedi 10 au dimanche 25, nuit ligure chez Green Family Park le 10 seulement si disponibilité confirmée ; six nuits ouest, quatre centre et quatre est. Mode vacances vendredi 9 après les derniers dépôts → mercredi 21 matin ; retour dimanche 25, premier dépôt lundi 26.",
+      "jours": 16,
+      "dossier": "scenarios/16-jours",
+      "titre": "Dolomites — 16 jours",
+      "logique_route": "2026-10-10 → 2026-10-25. Du samedi 10 au dimanche 25, nuit ligure chez Green Family Park le 10 seulement si disponibilité confirmée ; six nuits ouest, quatre centre et quatre est.",
       "bases": [
-        "Cogoleto (Green Family Park Europa, à confirmer)",
-        "Bressanone",
-        "San Cassiano",
-        "Dobbiaco"
+        "Cogoleto — Green Family Park (à confirmer)",
+        "Bressanone — Löwenhof ou Pinzagen (à confirmer)",
+        "San Cassiano — Sass Dlacia (à confirmer)",
+        "Dobbiaco — Olympia (à confirmer)"
       ],
-      "etapes_route": 10
+      "etapes_route": 13
     }
   ],
-  "note": "Ajouter un scénario : copier un dossier de scenarios/, adapter ses quatre fichiers (reglages, planning, itineraire, budget), ajouter une entrée ici. Les lieux, catégories, météo et règles restent communs : jamais dupliqués."
+  "note": "Les six variantes correspondent aux congés du 12–23 et aux week-ends 10–11 et 24–25 octobre. Les réouvertures Vinted sont calculées avec cinq jours ouvrés et une journée ouvrée de marge ; vérifier la date effective de chaque commande dans l’application."
 }

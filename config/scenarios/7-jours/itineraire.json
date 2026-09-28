@@ -1,28 +1,28 @@
 {
   "etapes": [
     {
-      "id": "etape-aller-ligurie",
+      "id": "etape-aller-1",
       "ordre": 1,
       "jour": 1,
       "type": "aller",
-      "libelle": "Saint-Gély-du-Fesc → Finale Ligure / Tahiti",
+      "libelle": "Saint-Gély → Finale Ligure / Tahiti",
       "de": "depart",
       "vers": "camping-tahiti-finale",
       "par": [],
       "visites": [],
       "visites_hors_route": [],
       "pays": "FR",
-      "note": "Saint-Gély-du-Fesc → Finale Ligure / Tahiti",
+      "note": "Saint-Gély → Finale Ligure / Tahiti",
       "peages": 77,
       "distance_km": 468,
       "duree_h": 5.3
     },
     {
-      "id": "etape-aller-dolomites",
+      "id": "etape-aller-2",
       "ordre": 2,
       "jour": 2,
       "type": "aller",
-      "libelle": "Arrivée à Bressanone / Löwenhof",
+      "libelle": "Ligurie → Bressanone",
       "de": "camping-tahiti-finale",
       "vers": "camping-loewenhof",
       "par": [
@@ -33,7 +33,7 @@
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Arrivée à Bressanone / Löwenhof",
+      "note": "Ligurie → Bressanone",
       "distance_km": 504,
       "duree_h": 5.6
     },
@@ -42,7 +42,7 @@
       "ordre": 3,
       "jour": 3,
       "type": "boucle",
-      "libelle": "Val di Funes",
+      "libelle": "Val di Funes et les Odle",
       "de": "camping-loewenhof",
       "vers": "camping-loewenhof",
       "par": [
@@ -56,7 +56,7 @@
         "adolf-munkel"
       ],
       "pays": "IT",
-      "note": "Val di Funes",
+      "note": "Val di Funes et les Odle",
       "distance_km": 44,
       "duree_h": 0.9
     },
@@ -65,7 +65,7 @@
       "ordre": 4,
       "jour": 4,
       "type": "boucle",
-      "libelle": "Seceda par le Col Raiser, si sec",
+      "libelle": "Seceda par le Col Raiser",
       "de": "camping-loewenhof",
       "vers": "camping-loewenhof",
       "par": [
@@ -78,7 +78,7 @@
         "col-raiser"
       ],
       "pays": "IT",
-      "note": "Seceda par le Col Raiser, si sec",
+      "note": "Seceda par le Col Raiser",
       "distance_km": 77,
       "duree_h": 1.5
     },
@@ -107,122 +107,45 @@
       "ordre": 6,
       "jour": 6,
       "type": "transfert",
-      "libelle": "Passo Gardena → Sass Dlacia",
+      "libelle": "Passo Gardena → Alta Badia → Lagazuoi",
       "de": "camping-loewenhof",
       "vers": "camping-sass-dlacia",
       "par": [
         "passo-gardena",
-        "corvara"
+        "corvara",
+        "passo-falzarego"
       ],
       "visites": [
         "passo-gardena",
-        "corvara"
-      ],
-      "visites_hors_route": [],
-      "pays": "IT",
-      "note": "Passo Gardena → Sass Dlacia",
-      "distance_km": 72,
-      "duree_h": 1.4
-    },
-    {
-      "id": "etape-j7",
-      "ordre": 7,
-      "jour": 7,
-      "type": "boucle",
-      "libelle": "Lagazuoi et Cinque Torri à pied",
-      "de": "camping-sass-dlacia",
-      "vers": "camping-sass-dlacia",
-      "par": [
+        "corvara",
         "passo-falzarego",
-        "parking-bai-de-dones"
-      ],
-      "visites": [
-        "passo-falzarego",
-        "lagazuoi",
-        "cinque-torri"
+        "lagazuoi"
       ],
       "visites_hors_route": [
-        "lagazuoi",
-        "cinque-torri"
+        "lagazuoi"
       ],
       "pays": "IT",
-      "note": "Lagazuoi et Cinque Torri à pied",
-      "distance_km": 26,
-      "duree_h": 0.5
-    },
-    {
-      "id": "etape-j8",
-      "ordre": 8,
-      "jour": 8,
-      "type": "transfert",
-      "libelle": "Misurina et Tre Cime → Dobbiaco",
-      "de": "camping-sass-dlacia",
-      "vers": "camping-olympia",
-      "par": [
-        "misurina",
-        "lago-antorno",
-        "route-tre-cime"
-      ],
-      "visites": [
-        "misurina",
-        "lago-antorno",
-        "route-tre-cime",
-        "rando-tre-cime"
-      ],
-      "visites_hors_route": [
-        "rando-tre-cime"
-      ],
-      "pays": "IT",
-      "note": "Misurina et Tre Cime → Dobbiaco",
-      "distance_km": 77,
-      "duree_h": 1.7
-    },
-    {
-      "id": "etape-j9",
-      "ordre": 9,
-      "jour": 9,
-      "type": "boucle",
-      "libelle": "Braies et Prato Piazza",
-      "de": "camping-olympia",
-      "vers": "camping-olympia",
-      "par": [
-        "lago-braies"
-      ],
-      "visites": [
-        "lago-braies",
-        "prato-piazza"
-      ],
-      "visites_hors_route": [
-        "prato-piazza"
-      ],
-      "pays": "IT",
-      "note": "Braies et Prato Piazza",
-      "distance_km": 29,
-      "duree_h": 0.5
+      "note": "Passo Gardena → Alta Badia → Lagazuoi",
+      "distance_km": 91,
+      "duree_h": 1.8
     },
     {
       "id": "etape-retour",
-      "ordre": 10,
-      "jour": 11,
+      "ordre": 7,
+      "jour": 7,
       "type": "retour",
-      "libelle": "Retour",
-      "de": "camping-olympia",
+      "libelle": "Retour à Saint-Gély-du-Fesc",
+      "de": "camping-sass-dlacia",
       "vers": "depart",
       "par": [],
       "visites": [],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Retour",
+      "note": "Retour à Saint-Gély-du-Fesc",
       "peages": 77,
-      "distance_km": 1013,
-      "duree_h": 11.3
+      "distance_km": 990,
+      "duree_h": 11.4
     }
   ],
-  "style_trace": {
-    "couleur": "#1c1b19",
-    "epaisseur": 3,
-    "opacite": 0.55,
-    "pointilles": "6 6"
-  },
   "note": "Étapes générées depuis le planning : une par journée avec déplacement, passant par les lieux accessibles en voiture. Les sommets de remontées, plateaux et randonnées en sont exclus — on ne les rejoint pas au volant. Relancer node trace-route.js après modification."
 }

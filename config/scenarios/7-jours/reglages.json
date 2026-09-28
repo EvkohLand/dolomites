@@ -1,10 +1,10 @@
 {
-  "titre": "Dolomites — 11 jours, étape à Cogoleto",
-  "sous_titre": "Du 9 au 19 octobre, halte économique à Cogoleto et courses à Varazze",
+  "titre": "Dolomites — 7 jours",
+  "sous_titre": "7 jours — Odle, Seceda, Alpe et Lagazuoi · voiture et tente de toit 1,95 m · Prince",
   "sejour": {
-    "debut": "2026-10-09",
-    "fin": "2026-10-19",
-    "jours": 11
+    "debut": "2026-10-12",
+    "fin": "2026-10-18",
+    "jours": 7
   },
   "depart": {
     "libelle": "Saint-Gély-du-Fesc",
@@ -16,10 +16,10 @@
   },
   "carte": {
     "centre": [
-      46.5,
-      11.9
+      46.0,
+      9.5
     ],
-    "zoom": 9,
+    "zoom": 7,
     "zoom_min": 5,
     "zoom_max": 17,
     "tuiles": {
@@ -29,8 +29,8 @@
     },
     "zone_valide": [
       [
-        42,
-        2
+        42.0,
+        2.0
       ],
       [
         48.5,

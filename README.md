@@ -95,7 +95,7 @@ Un scénario est une durée de séjour. Pour en créer un :
 cp -r config/scenarios/14-jours config/scenarios/7-jours
 ```
 
-Adapter les quatre fichiers du nouveau dossier, puis ajouter une entrée dans
+Adapter les cinq fichiers du nouveau dossier, puis ajouter une entrée dans
 `config/scenarios.json`. Les lieux, catégories, équipements, météo et règles restent
 communs à tous les scénarios : ils ne sont jamais dupliqués.
 
@@ -143,9 +143,14 @@ panneau repliable en bas de la page.
 ## Préparer le départ d'octobre 2026
 
 Le [comparatif des campings et des courses](docs/campings-et-ravitaillement-2026.md)
-croise les dates des quatre scénarios avec les tarifs publiés, les réponses reçues,
+croise les dates des six scénarios (5, 7, 8, 10, 14 et 16 jours) avec les tarifs publiés, les réponses reçues,
 les terrains privés, l'accès des chiens aux magasins et la hauteur de 1,95 m du
 véhicule. Il distingue devis, estimations et disponibilités encore inconnues.
+
+La [comparaison des durées et des expéditions Vinted](docs/vinted-et-fenetres-octobre-2026.md)
+explique les dates choisies dans la fenêtre du 10 au 25 octobre. Le parcours de
+**huit jours, du 12 au 19 octobre**, est sélectionné par défaut ; aucune durée
+ne suppose une tolérance supplémentaire de 48 heures pour envoyer les colis.
 
 Plusieurs prix et dates de fermeture 2026 sont désormais vérifiés, notamment le
 Lagazuoi et le camping Olympia ; les fiches encore incertaines portent

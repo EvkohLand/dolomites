@@ -1,9 +1,9 @@
 {
   "titre": "Dolomites — 10 jours",
-  "sous_titre": "10 jours en tente de toit, avec le chien",
+  "sous_titre": "10 jours — trois bases et journée météo · voiture et tente de toit 1,95 m · Prince",
   "sejour": {
-    "debut": "2026-10-10",
-    "fin": "2026-10-19",
+    "debut": "2026-10-12",
+    "fin": "2026-10-21",
     "jours": 10
   },
   "depart": {
@@ -16,10 +16,10 @@
   },
   "carte": {
     "centre": [
-      46.5,
-      11.9
+      46.0,
+      9.5
     ],
-    "zoom": 9,
+    "zoom": 7,
     "zoom_min": 5,
     "zoom_max": 17,
     "tuiles": {

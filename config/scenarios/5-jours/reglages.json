@@ -1,10 +1,10 @@
 {
-  "titre": "Dolomites — 14 jours",
-  "sous_titre": "14 jours — séjour ample jusqu’au 25 · voiture et tente de toit 1,95 m · Prince",
+  "titre": "Dolomites — 5 jours",
+  "sous_titre": "5 jours — Ouest express, boutique ouverte · voiture et tente de toit 1,95 m · Prince",
   "sejour": {
-    "debut": "2026-10-12",
-    "fin": "2026-10-25",
-    "jours": 14
+    "debut": "2026-10-14",
+    "fin": "2026-10-18",
+    "jours": 5
   },
   "depart": {
     "libelle": "Saint-Gély-du-Fesc",

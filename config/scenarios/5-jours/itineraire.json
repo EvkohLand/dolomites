@@ -1,0 +1,101 @@
+{
+  "etapes": [
+    {
+      "id": "etape-aller-1",
+      "ordre": 1,
+      "jour": 1,
+      "type": "aller",
+      "libelle": "Saint-Gély → Finale Ligure / Tahiti",
+      "de": "depart",
+      "vers": "camping-tahiti-finale",
+      "par": [],
+      "visites": [],
+      "visites_hors_route": [],
+      "pays": "FR",
+      "note": "Saint-Gély → Finale Ligure / Tahiti",
+      "peages": 77,
+      "distance_km": 468,
+      "duree_h": 5.3
+    },
+    {
+      "id": "etape-aller-2",
+      "ordre": 2,
+      "jour": 2,
+      "type": "aller",
+      "libelle": "Ligurie → Bressanone",
+      "de": "camping-tahiti-finale",
+      "vers": "camping-loewenhof",
+      "par": [
+        "courses-conad-savone"
+      ],
+      "visites": [
+        "courses-conad-savone"
+      ],
+      "visites_hors_route": [],
+      "pays": "IT",
+      "note": "Ligurie → Bressanone",
+      "distance_km": 504,
+      "duree_h": 5.6
+    },
+    {
+      "id": "etape-j3",
+      "ordre": 3,
+      "jour": 3,
+      "type": "boucle",
+      "libelle": "Seceda par le Col Raiser",
+      "de": "camping-loewenhof",
+      "vers": "camping-loewenhof",
+      "par": [
+        "parking-col-raiser"
+      ],
+      "visites": [
+        "col-raiser"
+      ],
+      "visites_hors_route": [
+        "col-raiser"
+      ],
+      "pays": "IT",
+      "note": "Seceda par le Col Raiser",
+      "distance_km": 77,
+      "duree_h": 1.5
+    },
+    {
+      "id": "etape-j4",
+      "ordre": 4,
+      "jour": 4,
+      "type": "boucle",
+      "libelle": "Alpe di Siusi par P1 Spitzbühl",
+      "de": "camping-loewenhof",
+      "vers": "camping-loewenhof",
+      "par": [
+        "parking-alpe-p1"
+      ],
+      "visites": [
+        "parking-alpe-p1"
+      ],
+      "visites_hors_route": [],
+      "pays": "IT",
+      "note": "Alpe di Siusi par P1 Spitzbühl",
+      "distance_km": 72,
+      "duree_h": 1.4
+    },
+    {
+      "id": "etape-retour",
+      "ordre": 5,
+      "jour": 5,
+      "type": "retour",
+      "libelle": "Retour à Saint-Gély-du-Fesc",
+      "de": "camping-loewenhof",
+      "vers": "depart",
+      "par": [],
+      "visites": [],
+      "visites_hors_route": [],
+      "pays": "IT",
+      "note": "Retour à Saint-Gély-du-Fesc",
+      "peages": 77,
+      "distance_km": 957,
+      "duree_h": 10.5
+    }
+  ],
+  "note": "Étapes générées depuis le planning : une par journée avec déplacement, passant par les lieux accessibles en voiture. Les sommets de remontées, plateaux et randonnées en sont exclus — on ne les rejoint pas au volant. Relancer node trace-route.js après modification."
+}

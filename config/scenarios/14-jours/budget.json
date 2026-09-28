@@ -52,28 +52,22 @@
   ],
   "saisi": [
     {
-      "jour": 1,
+      "jour": 2,
       "poste": "nourriture",
-      "libelle": "Courses de départ",
+      "libelle": "Courses de départ avec Prince",
       "montant": 70
     },
     {
-      "jour": 3,
+      "jour": 6,
       "poste": "nourriture",
-      "libelle": "Ravitaillement Haut-Adige",
+      "libelle": "Ravitaillement de route",
       "montant": 60
     },
     {
-      "jour": 8,
+      "jour": 10,
       "poste": "nourriture",
-      "libelle": "Ravitaillement Alta Badia",
+      "libelle": "Ravitaillement de route",
       "montant": 60
-    },
-    {
-      "jour": 11,
-      "poste": "nourriture",
-      "libelle": "Ravitaillement Dobbiaco",
-      "montant": 50
     },
     {
       "jour": null,
@@ -83,5 +77,5 @@
     }
   ],
   "objectif_par_jour": 95,
-  "note": "Hébergement = hypothèses provisoires pour deux adultes, tente de toit et chien ; attendre devis datés et ajouter les taxes, suppléments et parkings non connus. Aucun renouvellement Agricamper engagé. Les remontées du planning comptent le groupe quand le montant est renseigné."
+  "note": "Nuits = estimations pour deux adultes, Prince et voiture à tente de toit ; ni disponibilité ni réservation. L’électricité, les taxes inconnues et les suppléments non confirmés sont exclus. Les dates des anciens devis ne sont pas transposées. Aucun abonnement Agricamper renouvelé."
 }

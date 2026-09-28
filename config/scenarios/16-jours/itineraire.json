@@ -5,17 +5,21 @@
       "ordre": 1,
       "jour": 1,
       "type": "aller",
-      "libelle": "Saint-Gély → Finale Ligure / Tahiti",
+      "libelle": "Saint-Gély → courses à Varazze → Cogoleto",
       "de": "depart",
-      "vers": "camping-tahiti-finale",
-      "par": [],
-      "visites": [],
+      "vers": "camping-green-europa-cogoleto",
+      "par": [
+        "courses-conad-varazze"
+      ],
+      "visites": [
+        "courses-conad-varazze"
+      ],
       "visites_hors_route": [],
       "pays": "FR",
-      "note": "Saint-Gély → Finale Ligure / Tahiti",
+      "note": "Saint-Gély → courses à Varazze → Cogoleto",
       "peages": 77,
-      "distance_km": 468,
-      "duree_h": 5.3
+      "distance_km": 508,
+      "duree_h": 5.8
     },
     {
       "id": "etape-aller-2",
@@ -23,19 +27,15 @@
       "jour": 2,
       "type": "aller",
       "libelle": "Ligurie → Bressanone",
-      "de": "camping-tahiti-finale",
+      "de": "camping-green-europa-cogoleto",
       "vers": "camping-loewenhof",
-      "par": [
-        "courses-conad-savone"
-      ],
-      "visites": [
-        "courses-conad-savone"
-      ],
+      "par": [],
+      "visites": [],
       "visites_hors_route": [],
       "pays": "IT",
       "note": "Ligurie → Bressanone",
-      "distance_km": 504,
-      "duree_h": 5.6
+      "distance_km": 464,
+      "duree_h": 5
     },
     {
       "id": "etape-j3",
@@ -103,9 +103,9 @@
       "duree_h": 1.4
     },
     {
-      "id": "etape-j6",
+      "id": "etape-j8",
       "ordre": 6,
-      "jour": 6,
+      "jour": 8,
       "type": "transfert",
       "libelle": "Passo Gardena → Alta Badia → Lagazuoi",
       "de": "camping-loewenhof",
@@ -130,9 +130,9 @@
       "duree_h": 1.8
     },
     {
-      "id": "etape-j7",
+      "id": "etape-j9",
       "ordre": 7,
-      "jour": 7,
+      "jour": 9,
       "type": "boucle",
       "libelle": "Cinque Torri à pied ou report de Lagazuoi",
       "de": "camping-sass-dlacia",
@@ -154,9 +154,9 @@
       "duree_h": 0.5
     },
     {
-      "id": "etape-j8",
+      "id": "etape-j10",
       "ordre": 8,
-      "jour": 8,
+      "jour": 10,
       "type": "boucle",
       "libelle": "Sass Pordoi depuis Alta Badia",
       "de": "camping-sass-dlacia",
@@ -176,9 +176,9 @@
       "duree_h": 1.2
     },
     {
-      "id": "etape-j9",
+      "id": "etape-j11",
       "ordre": 9,
-      "jour": 9,
+      "jour": 11,
       "type": "boucle",
       "libelle": "Fanes depuis Pederü ou Passo Giau",
       "de": "camping-sass-dlacia",
@@ -198,9 +198,9 @@
       "duree_h": 1.7
     },
     {
-      "id": "etape-j10",
+      "id": "etape-j12",
       "ordre": 10,
-      "jour": 10,
+      "jour": 12,
       "type": "transfert",
       "libelle": "Misurina / Tre Cime → Dobbiaco",
       "de": "camping-sass-dlacia",
@@ -225,9 +225,9 @@
       "duree_h": 1.7
     },
     {
-      "id": "etape-j11",
+      "id": "etape-j13",
       "ordre": 11,
-      "jour": 11,
+      "jour": 13,
       "type": "boucle",
       "libelle": "Braies et Prato Piazza",
       "de": "camping-olympia",
@@ -248,9 +248,9 @@
       "duree_h": 0.5
     },
     {
-      "id": "etape-j12",
+      "id": "etape-j14",
       "ordre": 12,
-      "jour": 12,
+      "jour": 14,
       "type": "boucle",
       "libelle": "Lago di Dobbiaco et repos",
       "de": "camping-olympia",
@@ -272,7 +272,7 @@
     {
       "id": "etape-retour",
       "ordre": 13,
-      "jour": 14,
+      "jour": 16,
       "type": "retour",
       "libelle": "Retour à Saint-Gély-du-Fesc",
       "de": "camping-olympia",

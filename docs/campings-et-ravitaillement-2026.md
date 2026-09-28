@@ -1,80 +1,47 @@
-# Campings, terrains privés et courses — octobre 2026
+# Où dormir et se ravitailler — fenêtre du 10 au 25 octobre 2026
 
-État au 28 septembre 2026. Deux adultes, Prince et une voiture à tente de toit de
-**1,95 m fermée**. Nous sommes autonomes : un terrain autorisé suffit ; le courant
-est une option pour les journées où les panneaux solaires restent à l'ombre. Les
-montants « estimation » ne sont **pas** des disponibilités ni des réservations.
+État au 28 septembre 2026. Deux adultes, Prince, voiture à tente de toit **haute de 1,95 m fermée**. Nous sommes autonomes : une parcelle légalement utilisable suffit ; l'électricité est facultative. [Voir pourquoi le scénario du 12 au 19 est privilégié pour Vinted](vinted-et-fenetres-octobre-2026.md). Tous les prix ci-dessous sont provisoires **tant que le camping n'a pas confirmé les nouvelles dates** ; rien n'est réservé.
 
-## Choix par dates et zone
+## Six plans avec nuits et budgets approximatifs
 
-| Dates et zone | Piste concrète | Coût pour deux adultes et Prince | Décision / question encore utile |
+| Plan | Dates | Nuits dans l'ordre | Hébergement sur tarifs et hypothèses actuels | Contrainte principale |
+| --- | --- | --- | --- | --- |
+| **5 jours, express ouest** | 14–18/10 | Tahiti 14 ; Löwenhof 15–17 | **≈ 185 €**, hors taxes manquantes, courant et suppléments | Deux jours seulement sur place ; ≈ 20 h de voiture aller-retour. Vinted peut rester ouvert si toutes les ventes antérieures partent le 14. |
+| **7 jours, ouest + Lagazuoi** | 12–18/10 | Tahiti 12 ; Löwenhof 13–16 ; Sass 17 | **≈ 274 €**, provisoires | Une nuit seulement chez Sass à confirmer ; retour direct depuis l'Alta Badia le dimanche. |
+| **8 jours, recommandé** | 12–19/10 | Tahiti 12 ; Löwenhof 13–15 ; Sass 16–17 ; Olympia 18 | **≈ 323 €**, provisoires | Dernière nuit à Dobbiaco et route des Tre Cime conditionnelle ; ≈ 3 jours de mode vacances Vinted. |
+| **10 jours, marge météo** | 12–21/10 | Tahiti 12 ; Löwenhof 13–15 ; Sass 16–17 ; Olympia 18–20 | **≈ 423 €**, provisoires | Braies et journée de repli supplémentaires ; ≈ 5 jours de mode vacances. |
+| **14 jours, ample** | 12–25/10 | Tahiti 12 ; Löwenhof 13–16 ; Sass 17–20 ; Olympia 21–24 | **≈ 606 €**, provisoires | Lagazuoi à faire si possible le 17, dernier jour annoncé le 18 ; ≈ 9 jours de mode vacances. |
+| **16 jours, tous les congés** | 10–25/10 | Green Family Park 10 ; Löwenhof 11–16 ; Sass 17–20 ; Olympia 21–24 | **≈ 685 €**, provisoires | Green ferme selon son annonce après le 11, compatible **uniquement le 10** ; ≈ 12 jours de mode vacances. Tahiti en repli avec coût différent. |
+
+Les montants additionnent provisoirement **Tahiti 50 €, Green 39 €, Löwenhof 45 €/nuit, Sass 44 €/nuit et Olympia 50 €/nuit**. Ils ne comprennent ni carburant, péages, nourriture, billets, frais de plateforme, taxes non renseignées ni courant. Les budgets détaillés sont dans les six scénarios de la carte. Sur la base ouest, [Pinzagen](https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507) à **partir de 30 €/nuit** ferait baisser ces estimations de **15 € par nuit** à la place des 45 € retenus, avant frais et disponibilités ; +5 €/nuit si courant.
+
+## Camping et terrain privé : dates à vérifier
+
+| Base ou piste | Ce qui est établi | Dates qui ont été demandées maintenant | Ce qui bloque encore |
 | --- | --- | --- | --- |
-| 9 → 10 octobre, Ligurie, étape via Finale | [Camping Tahiti, Finale Ligure](https://www.campingtahitifinaleligure.it/listino-prezzi-campeggi-finale-ligure) | **≈ 49,40 €** la nuit : 45 € emplacement avec deux adultes, 3 € chien, 1,40 € taxes ; courant facultatif 4,50 € | Une personne a séjourné en mai 2026 avec tente de toit et chien ([avis](https://www.tripadvisor.it/Hotel_Review-g194761-d4764779-Reviews-Camping_Tahiti-Finale_Ligure_Italian_Riviera_Liguria.html)). Disponibilité, accueil en soirée et accès 1,95 m demandés par courriel le 28/09. Le terrain se trouve **avant** le Conad de Savone sur le trajet vers l'est. |
-| 9 → 10 octobre, Ligurie, variante moins chère | [Green Family Park Europa, Cogoleto](https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent) | Prix d'appel affiché **dès 32 € pour deux adultes + 5 € pour Prince** sur l'emplacement XL ; le tarif du 9/10/2026 et la taxe sont inconnus. **39 € provisoires** au budget, courant facultatif 3 € (2 A) | Saison annoncée jusqu'au 11/10 ; tente de toit et voiture admises sur l'emplacement XL, [avis de septembre 2026](https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent) sur une nuit en tente de toit. Accès raide signalé par des avis ; réception affichée 15–20 h. Demande envoyée à l'[adresse officielle](https://www.campingeuropaunita.com/) le 28/09 pour place, prix final, accès 1,95 m et arrivée 20–21 h. **Aucune confirmation de disponibilité**. |
-| 9 → 10 octobre, Ligurie, repli de ferme | [La Pietra e l'Ulivo, Pietra Ligure](https://www.lapietraelulivo-agricamping-pietraligure.com/) | Tarif complet inconnu ; courant au compteur selon [annonce](https://www.pitchup.com/en-ie/campsites/italy/liguria/savona/pietra-ligure/agricamping-la-pietra-e-lulivo/?facet=roof-tent) | L'annonce classe la tente de toit comme admissible, tandis que le site de la ferme décrit des places pour camping-cars et caravanes. Compatibilité **voiture** + tente, chien, dates, prix et arrivée tardive demandés directement le 28/09. Ne pas présumer de place. |
-| 10 → 14 octobre, Bressanone ouest | [Terrain privé à Pinzagen / Dorothea](https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507) | Dès **30 €/nuit**, soit 120 € pour quatre nuits, +5 €/nuit si courant ; éventuels frais de plateforme et taxes à vérifier | **Premier choix économique si disponible**. Une place de 25 m², tente de toit et animaux indiqués, entrée entre 12 h et 21 h, pas de douche. Note affichée 4,97/5 sur 30 avis lors de la recherche. Demander sur la plateforme le total exact pour deux, l'espace pour déployer la tente, la tenue du pré après pluie et la cohabitation de Prince avec les animaux de la ferme. Aucune adresse précise / réservation confirmée. |
-| 10 → 14 octobre, Bressanone ouest | [Löwenhof](https://www.loewenhof.it/en/camping/pitches) | **≈ 45 €/nuit** au budget, soit 180 € pour quatre nuits | Demande envoyée ; vérifier prix final avec chien, catégorie compatible avec tente de toit, électricité facultative, accès à 1,95 m. Base sûre géographiquement si le devis convient. |
-| 10 → 13 octobre, Val di Funes | [Ferme Zum Gletscher Hons](https://www.zumgletscherhons.com/) | **≈ 42 €/nuit**, taxes estimées, chien et courant à confirmer | Chien admis selon [office de tourisme](https://www.odlesdolomites.com/en/accommodations/C87E93A37AAE756F4256E175636B7B34). Demande envoyée pour trois nuits ; tente de toit à confirmer. Séjour max. trois nuits annoncé par annuaire : compléter éventuellement une nuit ailleurs, au prix d'un déplacement supplémentaire. Idéale pour les Odle, moins pour Val Gardena/Alpe di Siusi. |
-| 10 → 14 octobre, Alpe di Siusi | Camping Seiser Alm | **261 € pour quatre nuits** dans le devis reçu (241 € + 20 € taxes), électricité en plus | Sensiblement plus cher que Löwenhof estimé et Pinzagen affiché ; repli seulement si les places moins chères échouent. Aucun acompte versé. |
-| 14 → 18 octobre (14 jours) ou 14 → 16 octobre (10/11 jours), Alta Badia | [Sass Dlacia](https://campingsassdlacia.it/it/alloggi/piazzole) | Offre nominative **140 € pour quatre nuits, deux adultes** + **18,40 € de taxes** = 158,40 € **avant chien et courant**. Budget cartographique ≈ 44 €/nuit, supplément chien supposé **sans confirmation**. Pour deux nuits demander tarif propre aux dates. | Devis non réservé. Relance envoyée sur coût de Prince, accès 1,95 m et place pouvant garder l'auto sous la tente. Un [avis de septembre 2026](https://www.pitchup.com/de/campsites/italy/trentino-alto-adige/bolzano/san_cassiano/camping_sass_dlacia/?facet=roof-tent&pitchtype=22704) relate une mauvaise affectation d'emplacement à une tente de toit : demander une place appropriée par écrit. |
-| 16/18 → 19/23 octobre, Dobbiaco est | [Camping Olympia](https://www.camping-olympia.com/) | [Tarif 2026](https://listini.camping.it/germany/trentinoaltoadige/olympia/prezzi.pdf), 5/10–30/11 : place C 9 €, B 12 €, A 13 € + 2 × 14 € adulte + 6 € chien = **43/46/47 €/nuit**, taxe et courant en plus ([0,80 €/kWh annoncé](https://booking.camping-olympia.com/?skd-language-code=en)). Budget **50 €/nuit**. | Demande envoyée pour 18–23 ; adapter au 16–19 selon scénario. Confirmer la plus petite catégorie qui accepte une voiture à tente de toit, Prince et l'accès sous 1,95 m. GPS du camping sur le tarif : 46,73461 / 12,19410. |
+| [Camping Tahiti, Finale Ligure](https://www.campingtahitifinaleligure.it/listino-prezzi-campeggi-finale-ligure) | Tarif publié **≈ 49,40 €** pour 2 adultes + chien + taxes, courant facultatif +4,50 €. Un [avis de mai 2026](https://www.tripadvisor.it/Hotel_Review-g194761-d4764779-Reviews-Camping_Tahiti-Finale_Ligure_Italian_Riviera_Liguria.html) mentionne tente de toit et chien ; saison annoncée au-delà du 15/10. | **12–13** (plans 7/8/10/14 jours) ou **14–15** (plan 5 jours). Correction envoyée après la première demande erronée pour le 9. | Disponibilité pour **une** nuit, prix à cette date, heure d'arrivée et gabarit 1,95 m. |
+| [Green Family Park Europa, Cogoleto](https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent) | Saison 2026 annoncée jusqu'au **11 octobre** ; emplacement XL compatible tente de toit ; chiens +5 € ; [avis de septembre 2026](https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent) sur une nuit avec tente de toit. Tarif d'appel de l'annonce 32 € pour deux +5 € chien, **39 € uniquement provisionnés**, taxe et date inconnues. Courant 3 € pour 2 A. | **10–11**, pour le plan intégral ; correction envoyée. | Place exacte, prix du 10, arrivée avant 20 h, pente et hauteur 1,95 m. **Suivre Via della Pace**, éviter Via Ronco et Via Magetti selon la consigne du camping. Ne pas y programmer de nuit après le 11. |
+| [La Pietra e l'Ulivo, Pietra Ligure](https://www.lapietraelulivo-agricamping-pietraligure.com/) | Annonce [Pitchup](https://www.pitchup.com/en-ie/campsites/italy/liguria/savona/pietra-ligure/agricamping-la-pietra-e-lulivo/?facet=roof-tent) répertoriée en tente de toit ; le site officiel évoque surtout camper et caravane. | Repli **12–13** ou **14–15**, dates rectifiées par courriel. | Savoir si **la voiture** peut effectivement rester sous la tente, chien, prix complet et arrivée en soirée. |
+| [Terrain privé de Dorothea à Pinzagen](https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507) | Dès **30 €/nuit**, chien et tente de toit annoncés, courant facultatif +5 €, une seule place de 25 m² ; pas de douche, vaches et poules présentes, avis **4,97/5 (30)** au moment de la consultation. C'est la meilleure piste économique près de Bressanone. | **13–16**, 13–17, 15–18 ou 11–17 selon plan. | La messagerie de Campspace requiert l'accès à la plateforme ; **aucun contact ni disponibilité confirmés**. Demander tarif total à deux avec Prince, frais, largeur tente déployée, état du pré par pluie et distance avec les animaux. |
+| [Löwenhof, Bressanone](https://www.loewenhof.it/en/camping/pitches) | **45 €/nuit estimés** dans la carte, pas un devis pour les nouvelles dates. | **13–16**, 13–17, 15–18 ou 11–17 demandés par rectificatif. | Place pour auto/tente et chien, gabarit et coût tout compris ; courant à part. Replis [Gamp](https://www.ansitzgamp.com/) et [Vahrner See](https://www.vahrnersee.com/) relancés pour 13–16 / 13–17. |
+| [Zum Gletscher Hons, Val di Funes](https://www.zumgletscherhons.com/) | Ferme, chien signalé comme admis par [l'office](https://www.odlesdolomites.com/en/accommodations/C87E93A37AAE756F4256E175636B7B34), séjour de 3 nuits maximum évoqué dans un annuaire ; coût à préciser. | **13–16** (3 nuits), date corrigée par courriel. | Tente sur voiture, Prince, prix exact. Bonne base pour les Odle mais déplacement supplémentaire pour Seceda / Alpe. |
+| [Sass Dlacia, San Cassiano](https://campingsassdlacia.it/it/alloggi/piazzole) | **Ancien** devis nominatif pour **14–18** : 140 € pour deux +18,40 € taxes, **avant Prince et courant**. Il n'est pas transposable automatiquement. Un [avis de septembre 2026](https://www.pitchup.com/de/campsites/italy/trentino-alto-adige/bolzano/san_cassiano/camping_sass_dlacia/?facet=roof-tent&pitchtype=22704) rapporte une place mal adaptée à une tente de toit. | **17–18** (1 nuit), **16–18** (2) ou **17–21** (4), nouveau devis demandé. | Acceptation des séjours courts ; vraie place où garder la voiture sous la tente ; supplément Prince, impôts et courant. |
+| [Olympia, Dobbiaco](https://www.camping-olympia.com/) | [Tarif octobre 2026](https://listini.camping.it/germany/trentinoaltoadige/olympia/prezzi.pdf) : emplacement C 9 €, B 12 €, A 13 € + **28 € deux adultes +6 € Prince**, soit **43/46/47 €/nuit avant taxe et courant**. Le budget retient 50 €. | **18–19** (1 nuit), **18–21** (3) ou **21–25** (4), nouvelles dates demandées. | Catégorie accessible à l'auto/tente, disponibilité et devis total. Courant facultatif annoncé à 0,80 €/kWh dans le module de réservation. |
 
-**Ordre de choix** : Pinzagen si l'hôte confirme le 10–14 et l'emplacement adapté ;
-sinon Löwenhof. Sass Dlacia puis Olympia suivant les dates du scénario. Les quatre
-jours de Pinzagen coûteraient environ **40 à 60 € de moins** que l'estimation
-Löwenhof, selon l'usage du courant, avant taxes et frais de plateforme. Pour le
-scénario de 14 jours, l'hébergement du planning actuel représente **≈ 606 €**
-(180 + 176 + 250), sans la nuit ligure ; avec Pinzagen au tarif affiché, **≈ 546 €**
-sans courant, ou **≈ 566 €** avec quatre jours de courant. Les coûts manquants sont
-explicités ci-dessus, surtout Prince chez Sass et la taxe locale à Dobbiaco.
+**Anciens devis et pistes écartées :** la proposition Seiser Alm de **261 € pour 10–14 octobre** ne vaut pas pour les dates ci-dessus. Camping Colfosco annonce une fermeture le **4 octobre**. Le site [Park4Night du lac de Dobbiaco](https://park4night.com/fr/place/37770) est défavorable à la voiture avec tente sur le toit d'après les avis : configuration et prix à vérifier avant tout usage. Une épingle PlaceCamp / Park4Night n'autorise jamais à elle seule une nuit en tente de toit. Nous n'avons pas trouvé d'hôte **Agricamper** précisément situé et disponible à ces dates qui justifierait de renouveler l'abonnement. La plateforme n'a donc pas été renouvelée.
 
-**Pistes écartées ou conditionnelles** : Camping Colfosco a répondu qu'il ferme le
-4 octobre ; il ne convient pas au 14–18. Le [camping du Lago di Dobbiaco sur
-Park4Night](https://park4night.com/fr/place/37770) revient autour de 75,70 € avec
-deux adultes et chien selon un retour d'usager, et la voiture ne serait pas près de
-la tente : tarif et configuration défavorables. La ferme Odlina n'ouvre qu'en
-décembre. Les parkings de visite, même s'ils apparaissent sur Park4Night ou
-PlaceCamp, ne valent pas autorisation de déployer une tente de toit la nuit.
-Le forfait Agricamper **n'est pas renouvelé** : aucun hôte précisément situé,
-accessible aux dates, acceptant la tente de toit et Prince n'a été vérifié dans
-nos trois zones. Ne reconsidérer l'abonnement qu'avec une offre concrète qui
-compense son coût et sa limite habituelle d'une nuit par hôte.
+## Provisions avec Prince et la voiture de 1,95 m
 
-## Provisions sur la route avec Prince
+| Date selon parcours | Arrêt concret | Règle chien et accès |
+| --- | --- | --- |
+| **10 octobre**, plan de 16 jours | [Conad City, Via Piave 30, Varazze](https://www.conad.it/ricerca-negozi/conad-city-via-piave-30-17019-varazze--003238) | Samedi **08:15–19:30** selon fiche ; accès animaux, chariots adaptés et parking extérieur annoncés. Achat avant la nuit à Cogoleto ; petit magasin, gros achats possibles avant de quitter la France. |
+| **13 ou 15 octobre**, plans via Tahiti | [Conad Superstore, Via Stalingrado / Piazza Simone Weil 4r, Savone](https://www.conad.it/ricerca-negozi/conad-superstore-via-stalingrado-piazza-simone-weil-4r-17100-savona--008482) | **08:30–20:30** selon fiche, accès animaux + chariots pour animaux, parking **extérieur** à utiliser avec 1,95 m plutôt que le parking couvert. Étape insérée dans le trajet vers Bressanone. |
+| Ravitaillement ouest | [Eurospar Bressanone, Via Brennero 21/a](https://www.despar.it/it/punto-vendita-eurospar/93/bressanone/) | La [FAQ Despar](https://www.despar.it/it/contatti/) admet les chiens uniquement en **sac ou caisse**. Si impossible pour Prince : un adulte reste avec lui à l'extérieur. |
+| Transfert Alta Badia | [Despar Corvara, Strada Col Alt 10](https://www.despar.it/it/punto-vendita-despar/754/corvara/) ou [La Villa, Strada Boscdaplan 107](https://www.despar.it/it/punto-vendita-despar/21/la-villa/) | Même règle du sac / de la caisse, horaires à revérifier selon le jour. |
+| Base Dobbiaco | [Despar, St. Johannesstrasse 2](https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/) ou [Conad City, Piazza Parrocchia 1](https://www.conad.it/ricerca-negozi/conad-city-piazza-parrocchia-1-39034-dobbiaco--010691) | Despar : sac ou caisse ; le Conad City local **n'affiche aucune preuve d'admission des animaux** sur sa fiche. Faire les courses à deux à tour de rôle, sans laisser Prince seul dans la voiture. |
 
-| Moment | Magasin | Conditions chien et voiture | Solution pratique |
-| --- | --- | --- | --- |
-| 10 octobre, après Finale ou à l'aller direct | [Conad Superstore, Via Stalingrado / Piazza Simone Weil 4r, Savone](https://www.conad.it/ricerca-negozi/conad-superstore-via-stalingrado-piazza-simone-weil-4r-17100-savona--008482) | Fiche officielle : « accès animaux consenti », chariots animaux, parking **extérieur** ; samedi **08:30–20:30**. Vérifier si le chariot convient à Prince et éviter le parking couvert : véhicule 1,95 m. | Faire le gros plein avant Bressanone ; arrêt inséré dans les trois itinéraires qui passent par Savone le 10. Parking pour les courses seulement. |
-| 9 octobre en fin d'après-midi, variante Cogoleto | [Conad City, Via Piave 30, Varazze](https://www.conad.it/ricerca-negozi/conad-city-via-piave-30-17019-varazze--003238) | Fiche officielle : accès animaux, chariots animaux, parking extérieur ; vendredi **15:30–19:30**. Magasin plus petit qu'un Superstore ; possibilité de tout acheter avant le départ et de seulement compléter ici. | Stop inséré **avant** le camping de Cogoleto sur la variante économique. Départ vers midi + 5 h 50 de conduite jusqu'au camping via ce magasin : laisser du temps aux courses et aux bouchons pour arriver avant 20 h. **Accès camping par Via della Pace**, éviter Via Ronco et Via Magetti selon [la consigne publiée](https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent). Si retard, appeler le camping ; ne pas compter sur une entrée tardive sans réponse écrite. |
-| 12 octobre, Bressanone | [Eurospar, Via Brennero 21/a](https://www.despar.it/it/punto-vendita-eurospar/93/bressanone/) | La [FAQ Despar](https://www.despar.it/it/contatti/) impose **sac ou caisse de transport** pour les animaux dans tous les Despar/Eurospar/Interspar. Aucune admission en laisse vérifiée. | Courses à deux : un adulte avec Prince dehors et l'autre dedans si la caisse n'est pas adaptée. |
-| 14 octobre, transfert Alta Badia | Despar de [Corvara, Strada Col Alt 10](https://www.despar.it/it/punto-vendita-despar/754/corvara/) ou [La Villa, Strada Boscdaplan 107](https://www.despar.it/it/punto-vendita-despar/21/la-villa/) | Même règle du sac / de la caisse ; vérifier horaires du magasin choisi avant le col. | Acheter l'appoint avant d'arriver au camping de San Cassiano. |
-| 17/19 octobre, Dobbiaco | [Despar, St. Johannesstrasse 2](https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/) ou [Conad City, Piazza Parrocchia 1](https://www.conad.it/ricerca-negozi/conad-city-piazza-parrocchia-1-39034-dobbiaco--010691) | Despar : sac ou caisse ; dimanche fermé selon fiche consultée. La fiche de ce **Conad City** ne mentionne pas le service d'admission des animaux : statut chien inconnu. | Compléter samedi ou lundi, à tour de rôle si besoin ; ne jamais laisser Prince seul dans la voiture. |
+La mention **Coop** ne suffit pas pour garantir l'entrée de Prince : vérifier chaque magasin. Les parkings de courses et les parkings des sites sont uniquement des arrêts de jour.
 
-Le nom **Coop** seul ne confirme pas l'accès de Prince ; la règle dépend de
-l'enseigne et surtout du magasin. Les fiches des Conad de Bressanone et de
-Dobbiaco ne donnent pas la même preuve d'accueil des chiens que le Superstore de
-Savone et le Conad City de Varazze. Privilégier Savone pour les achats importants
-sur l'itinéraire direct ou via Finale ; Varazze sur l'itinéraire via Cogoleto.
+## Choix avant toute réservation
 
-## Décisions avant départ
-
-1. Réponses à réunir : disponibilité et emplacement exact Pinzagen (contact via
-   Campspace), nuits ligures Tahiti / La Pietra / Green Family Park, Löwenhof, Sass (chien et place
-   tente de toit), Olympia (catégorie C/B/A), ferme Funes.
-2. Choisir parmi les **quatre scénarios** de la carte : le long 10–23, le court
-   10–19, ou le trajet fractionné 9–19, avec **Tahiti / Conad Savone** ou
-   **Cogoleto / Conad Varazze**. Les deux haltes ligures sont provisoires et les
-   estimations sont dans les budgets. Si la confirmation d'arrivée manque pour
-   Cogoleto, préférer une étape confirmée par écrit.
-3. Réserver seulement après confirmation explicite du coût **deux adultes + chien
-   + voiture à tente de toit**, de la place accessible sous 1,95 m, des horaires
-   d'arrivée et, si utile, du coût du courant. La hauteur tente **ouverte** doit
-   avoir la place de se déployer sous les branches.
-
-Sources principales : [Campspace Pinzagen](https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507),
-[tarifs Camping Olympia](https://listini.camping.it/germany/trentinoaltoadige/olympia/prezzi.pdf),
-[Camping Tahiti](https://www.campingtahitifinaleligure.it/listino-prezzi-campeggi-finale-ligure),
-[Green Family Park Europa](https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent),
-[Conad Savone](https://www.conad.it/ricerca-negozi/conad-superstore-via-stalingrado-piazza-simone-weil-4r-17100-savona--008482),
-[Conad Varazze](https://www.conad.it/ricerca-negozi/conad-city-via-piave-30-17019-varazze--003238),
-[FAQ Despar](https://www.despar.it/it/contatti/).
+Priorité de décision : confirmation d'une nuit Tahiti **12–13**, puis terrain ouest **13–16**, Sass **16–18** et Olympia **18–19** pour le scénario de huit jours. Le plan de sept jours exige une nuit chez Sass le 17 ; le plan de cinq jours demande Tahiti le 14 et une base ouest le 15. Les devis **14–18** restent conservés comme historique, pas comme offre pour les scénarios retenus. Pour chaque place : obtenir par écrit le prix deux adultes + Prince + taxes, la voiture sous la tente ouverte, l'accès à **1,95 m**, l'heure limite et l'électricité **si besoin**. Aucun acompte, abonnement ou réservation n'a été engagé.

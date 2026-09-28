@@ -62,112 +62,50 @@
   {
     "date": "2026-10-16",
     "jour": 5,
-    "titre": "Alpe di Siusi → Alta Badia",
-    "zone": "Alpe di Siusi / Alta Badia",
-    "nuit": "camping-sass-dlacia",
+    "titre": "Alpe di Siusi par P1 Spitzbühl",
+    "zone": "Alpe di Siusi",
+    "nuit": "camping-loewenhof",
     "trajet": null,
     "activites": [
       {
         "lieu": "parking-alpe-p1",
         "heure": "08:15",
-        "note": "15 € la voiture ; réservation jusqu’à six jours avant, entrée avant 9 h."
-      },
-      {
-        "lieu": "passo-gardena",
-        "heure": "15:00"
-      },
-      {
-        "lieu": "corvara",
-        "heure": "16:00"
+        "note": "15 € voiture ; réservation jusqu’à six jours avant, entrée avant 9 h."
       }
     ],
-    "note": "Départ tôt de Bressanone, promenade sur l’Alpe puis transfert par le Passo Gardena. Réduire la marche si fatigue et vérifier l’accès du col. Arrivée Sass Dlacia, emplacement adapté à l’auto et Prince à confirmer."
+    "note": "Balade avec Prince, puis retour à Bressanone. P2 à 30 € si nécessaire, nuit interdite sur les parkings du plateau."
   },
   {
     "date": "2026-10-17",
     "jour": 6,
-    "titre": "Lagazuoi et Cinque Torri à pied",
-    "zone": "Alta Badia / Falzarego",
+    "titre": "Passo Gardena → Alta Badia → Lagazuoi",
+    "zone": "Val Gardena / Alta Badia",
     "nuit": "camping-sass-dlacia",
     "trajet": null,
     "activites": [
       {
+        "lieu": "passo-gardena",
+        "heure": "08:30"
+      },
+      {
+        "lieu": "corvara",
+        "heure": "10:00"
+      },
+      {
         "lieu": "passo-falzarego",
-        "heure": "09:00"
+        "heure": "11:00"
       },
       {
         "lieu": "lagazuoi",
-        "heure": "09:30",
-        "note": "Fermeture de la remontée annoncée le 18 octobre : vérifier le matin même."
-      },
-      {
-        "lieu": "cinque-torri",
-        "heure": "13:30",
-        "note": "Télésiège fermé après le 11/10 : uniquement à pied si sentier sec."
+        "heure": "11:30",
+        "note": "Tenter la cabine avant le dernier jour de saison annoncé au 18/10 ; vérifier météo et horaire."
       }
     ],
-    "note": "Ne pas tenter de tout faire si la marche aux Cinque Torri est trop longue ; Lagazuoi prioritaire et sentiers adaptés à Prince seulement."
+    "note": "Transfert ouest → Sass Dlacia ; halte à Corvara. Priorité au Lagazuoi si la fenêtre météo le permet."
   },
   {
     "date": "2026-10-18",
     "jour": 7,
-    "titre": "Misurina / Tre Cime → Dobbiaco",
-    "zone": "Tre Cime / Dobbiaco",
-    "nuit": "camping-olympia",
-    "trajet": null,
-    "activites": [
-      {
-        "lieu": "misurina",
-        "heure": "08:00"
-      },
-      {
-        "lieu": "lago-antorno",
-        "heure": "08:30"
-      },
-      {
-        "lieu": "route-tre-cime",
-        "heure": "09:00",
-        "note": "Route payante ≈ 40 €, réservation si ouverte ; neige et fermeture possibles."
-      },
-      {
-        "lieu": "rando-tre-cime",
-        "heure": "09:30"
-      }
-    ],
-    "note": "Si la route des Tre Cime est fermée ou enneigée, garder Misurina/Antorno et aller à Olympia ; ne payer la route qu’après confirmation de son ouverture."
-  },
-  {
-    "date": "2026-10-19",
-    "jour": 8,
-    "titre": "Braies et Prato Piazza",
-    "zone": "Braies",
-    "nuit": "camping-olympia",
-    "trajet": null,
-    "activites": [
-      {
-        "lieu": "lago-braies",
-        "heure": "08:00"
-      },
-      {
-        "lieu": "prato-piazza",
-        "heure": "11:30"
-      }
-    ],
-    "note": "Balade avec Prince et accès routier selon neige. Retour à Olympia."
-  },
-  {
-    "date": "2026-10-20",
-    "jour": 9,
-    "titre": "Journée météo / repos",
-    "zone": "Dobbiaco",
-    "nuit": "camping-olympia",
-    "trajet": null,
-    "activites": [],
-    "note": "Temps libre pour visite reportée si route et météo le permettent ; sinon balade courte avec Prince. Aucun billet conditionnel acheté à l’avance."
-  },
-  {
-    "date": "2026-10-21",
-    "jour": 10,
     "titre": "Retour à Saint-Gély-du-Fesc",
     "zone": "Route",
     "nuit": null,

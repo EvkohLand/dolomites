@@ -5,8 +5,25 @@
       "ordre": 1,
       "jour": 1,
       "type": "aller",
-      "libelle": "Arrivée à Bressanone / Löwenhof",
+      "libelle": "Saint-Gély → Finale Ligure / Tahiti",
       "de": "depart",
+      "vers": "camping-tahiti-finale",
+      "par": [],
+      "visites": [],
+      "visites_hors_route": [],
+      "pays": "FR",
+      "note": "Saint-Gély → Finale Ligure / Tahiti",
+      "peages": 77,
+      "distance_km": 468,
+      "duree_h": 5.3
+    },
+    {
+      "id": "etape-aller-2",
+      "ordre": 2,
+      "jour": 2,
+      "type": "aller",
+      "libelle": "Ligurie → Bressanone",
+      "de": "camping-tahiti-finale",
       "vers": "camping-loewenhof",
       "par": [
         "courses-conad-savone"
@@ -15,18 +32,17 @@
         "courses-conad-savone"
       ],
       "visites_hors_route": [],
-      "pays": "FR",
-      "note": "Arrivée à Bressanone / Löwenhof",
-      "peages": 77,
-      "distance_km": 963,
-      "duree_h": 10.6
+      "pays": "IT",
+      "note": "Ligurie → Bressanone",
+      "distance_km": 504,
+      "duree_h": 5.6
     },
     {
-      "id": "etape-j2",
-      "ordre": 2,
-      "jour": 2,
+      "id": "etape-j3",
+      "ordre": 3,
+      "jour": 3,
       "type": "boucle",
-      "libelle": "Val di Funes",
+      "libelle": "Val di Funes et les Odle",
       "de": "camping-loewenhof",
       "vers": "camping-loewenhof",
       "par": [
@@ -40,16 +56,16 @@
         "adolf-munkel"
       ],
       "pays": "IT",
-      "note": "Val di Funes",
+      "note": "Val di Funes et les Odle",
       "distance_km": 44,
       "duree_h": 0.9
     },
     {
-      "id": "etape-j3",
-      "ordre": 3,
-      "jour": 3,
+      "id": "etape-j4",
+      "ordre": 4,
+      "jour": 4,
       "type": "boucle",
-      "libelle": "Seceda par le Col Raiser, si sec",
+      "libelle": "Seceda par le Col Raiser",
       "de": "camping-loewenhof",
       "vers": "camping-loewenhof",
       "par": [
@@ -62,51 +78,33 @@
         "col-raiser"
       ],
       "pays": "IT",
-      "note": "Seceda par le Col Raiser, si sec",
+      "note": "Seceda par le Col Raiser",
       "distance_km": 77,
       "duree_h": 1.5
-    },
-    {
-      "id": "etape-j4",
-      "ordre": 4,
-      "jour": 4,
-      "type": "boucle",
-      "libelle": "Alpe di Siusi par P1 Spitzbühl",
-      "de": "camping-loewenhof",
-      "vers": "camping-loewenhof",
-      "par": [
-        "parking-alpe-p1"
-      ],
-      "visites": [
-        "parking-alpe-p1"
-      ],
-      "visites_hors_route": [],
-      "pays": "IT",
-      "note": "Alpe di Siusi par P1 Spitzbühl",
-      "distance_km": 72,
-      "duree_h": 1.4
     },
     {
       "id": "etape-j5",
       "ordre": 5,
       "jour": 5,
       "type": "transfert",
-      "libelle": "Passo Gardena → Sass Dlacia",
+      "libelle": "Alpe di Siusi → Alta Badia",
       "de": "camping-loewenhof",
       "vers": "camping-sass-dlacia",
       "par": [
+        "parking-alpe-p1",
         "passo-gardena",
         "corvara"
       ],
       "visites": [
+        "parking-alpe-p1",
         "passo-gardena",
         "corvara"
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Passo Gardena → Sass Dlacia",
-      "distance_km": 72,
-      "duree_h": 1.4
+      "note": "Alpe di Siusi → Alta Badia",
+      "distance_km": 96,
+      "duree_h": 2
     },
     {
       "id": "etape-j6",
@@ -139,7 +137,7 @@
       "ordre": 7,
       "jour": 7,
       "type": "transfert",
-      "libelle": "Misurina et Tre Cime → Dobbiaco",
+      "libelle": "Misurina / Tre Cime → Dobbiaco",
       "de": "camping-sass-dlacia",
       "vers": "camping-olympia",
       "par": [
@@ -157,7 +155,7 @@
         "rando-tre-cime"
       ],
       "pays": "IT",
-      "note": "Misurina et Tre Cime → Dobbiaco",
+      "note": "Misurina / Tre Cime → Dobbiaco",
       "distance_km": 77,
       "duree_h": 1.7
     },
@@ -189,24 +187,18 @@
       "ordre": 9,
       "jour": 10,
       "type": "retour",
-      "libelle": "Retour",
+      "libelle": "Retour à Saint-Gély-du-Fesc",
       "de": "camping-olympia",
       "vers": "depart",
       "par": [],
       "visites": [],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Retour",
+      "note": "Retour à Saint-Gély-du-Fesc",
       "peages": 77,
       "distance_km": 1013,
       "duree_h": 11.3
     }
   ],
-  "style_trace": {
-    "couleur": "#1c1b19",
-    "epaisseur": 3,
-    "opacite": 0.55,
-    "pointilles": "6 6"
-  },
   "note": "Étapes générées depuis le planning : une par journée avec déplacement, passant par les lieux accessibles en voiture. Les sommets de remontées, plateaux et randonnées en sont exclus — on ne les rejoint pas au volant. Relancer node trace-route.js après modification."
 }
