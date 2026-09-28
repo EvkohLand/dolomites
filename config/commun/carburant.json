@@ -1,30 +1,31 @@
 {
   "defaut": "IT",
-  "note": "Prix indicatifs à recaler avant le départ : le carburant bouge chaque semaine. Chaque étape d'itinéraire peut nommer son pays via le champ pays ; sans indication, le pays par défaut s'applique.",
+  "note": "Prix indicatifs au 28 septembre 2026, à recaler juste avant le départ : le carburant varie quotidiennement. Chaque étape peut nommer son pays ; sans indication, le pays par défaut s'applique.",
   "pays": {
     "FR": {
       "libelle": "France",
-      "gazole": 1.8,
-      "sp95": 1.85,
-      "note": "Ordre de grandeur hors autoroute en septembre 2026 ; les relevés divergent beaucoup d'une source à l'autre. Sur autoroute, 15 à 25 centimes de plus par litre.",
+      "gazole": 2.4,
+      "sp95": 2.03,
+      "note": "Ordre de grandeur national fin septembre 2026 d'après les données publiques de prix à la pompe agrégées. Forte dispersion selon station et autoroute.",
       "a_reverifier": true,
       "source": "https://www.prix-carburants.gouv.fr/"
     },
     "IT": {
       "libelle": "Italie",
-      "gazole": 2.266,
-      "sp95": 2.143,
-      "note": "Relevé mi-septembre 2026 en libre-service. Sur autoroute c'est plus cher : gazole 2,346 €/L, essence 2,236 €/L. Toujours choisir le « fai da te » plutôt que le « servito ».",
+      "gazole": 2.369,
+      "sp95": 2.152,
+      "note": "Moyenne nationale hors autoroute en libre-service fin septembre 2026. Autoroute : gazole autour de 2,42 €/L. Choisir le libre-service (« self / fai da te ») lorsque possible.",
       "a_reverifier": true,
       "source": "https://carburanti.mise.gov.it/"
     },
     "AT": {
       "libelle": "Autriche",
-      "gazole": 1.62,
-      "sp95": 1.68,
-      "note": "Souvent le moins cher des trois. Si l'itinéraire passe par le Brenner, faire le plein côté autrichien avant de redescendre.",
-      "a_reverifier": true
+      "gazole": 2.259,
+      "sp95": 1.956,
+      "note": "Moyenne nationale publiée le 28/09/2026. Le Tyrol peut être plus cher que la moyenne nationale ; vérifier le Spritpreisrechner avant un éventuel plein au Brenner.",
+      "a_reverifier": true,
+      "source": "https://www.e-control.at/spritpreisrechner"
     }
   },
-  "strategie": "Sur les relevés de septembre 2026, le carburant est NETTEMENT plus cher en Italie qu'en France (gazole 2,27 contre 1,80 €/L). Faire le plein en France avant la frontière, puis en libre-service en Italie. Prix à revérifier avec une application de prix à la pompe avant de partir : ces chiffres bougent chaque semaine."
+  "strategie": "Au 28/09/2026, le gazole moyen est proche entre France (~2,40 €/L) et Italie hors autoroute (~2,37 €/L), et un peu moins cher en moyenne en Autriche (~2,26 €/L). Ne plus partir du principe que l'Italie est nettement plus chère que la France. Comparer les stations sur le trajet et éviter surtout les stations autoroutières et le service assisté italien."
 }
