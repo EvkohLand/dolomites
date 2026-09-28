@@ -1245,8 +1245,10 @@
       tr.appendChild(el('span', 'jour__trajet-num', 'E' + r.ordre));
       var tc = el('span', 'jour__trajet-corps');
       tc.appendChild(el('span', 'jour__trajet-parcours', referencesEtape(r.etape).map(nomRef).join(' → ')));
+      var avecPeages = r.etape.avec_peages;
       tc.appendChild(el('span', 'jour__trajet-meta',
-        [r.meta.libelle, r.km ? r.km + ' km' : '', r.h ? dureeAffiche(r.h) : '', 'voir sur la carte'].filter(Boolean).join(' · ')));
+        [r.meta.libelle, r.km ? r.km + ' km' : '', r.h ? dureeAffiche(r.h) + (avecPeages ? ' sans péage' : '') : '',
+          avecPeages ? dureeAffiche(avecPeages.duree_h) + ' par l’autoroute' : '', 'voir sur la carte'].filter(Boolean).join(' · ')));
       var hors = visitesHorsRoute(r.etape);
       if (hors.length) tc.appendChild(el('span', 'jour__trajet-detour', 'Hors route voiture : ' + hors.map(nomRef).join(', ')));
       tr.appendChild(tc);
@@ -1455,17 +1457,35 @@
   }
 
   function dessinerBudgetEtape(j, conteneur) {
-    var b = calculerBudget();
-    if (!b) return;
-    var lignes = b.lignes.filter(function (x) { return x.jour === j.jour; });
-    if (!lignes.length) return;
-    var libPoste = {};
-    (b.postes || []).forEach(function (p) { libPoste[p.id] = p.libelle; });
-    var total = lignes.reduce(function (a, x) { return a + x.montant; }, 0);
     var d = el('div');
-    d.appendChild(tableauCle(lignes.map(function (x) {
-      return { libelle: (libPoste[x.poste] || x.poste) + ' — ' + x.libelle, valeur: euros(x.montant) };
-    }).concat([{ libelle: 'Total du jour', valeur: euros(total) }])));
+    function remplir() {
+      vide(d);
+      var b = calculerBudget();
+      if (!b) return;
+      var base = b.lignes.filter(function (x) { return x.jour === j.jour; });
+      var opts = b.options.filter(function (o) { return o.jour === j.jour; });
+      var libPoste = {};
+      (b.postes || []).forEach(function (p) { libPoste[p.id] = p.libelle; });
+      /* Base du jour : les lignes retenues moins celles des options cochées. */
+      var lignesOpt = [];
+      opts.forEach(function (o) { if (o.choisie) lignesOpt = lignesOpt.concat(o.lignes); });
+      base = base.filter(function (x) { return lignesOpt.indexOf(x) === -1; });
+      if (!base.length && !opts.length) return;
+      var totalBase = base.reduce(function (a, x) { return a + x.montant; }, 0);
+      var totalOpt = opts.reduce(function (a, o) { return a + (o.choisie ? o.montant : 0); }, 0);
+      d.appendChild(tableauCle(base.map(function (x) {
+        return { libelle: (libPoste[x.poste] || x.poste) + ' — ' + x.libelle, valeur: euros(x.montant) };
+      }).concat([{ libelle: 'Total de base du jour', valeur: euros(totalBase) }])));
+      if (opts.length) {
+        d.appendChild(el('p', 'options__jour', 'Options, non comptées sauf si cochées'));
+        opts.forEach(function (o) {
+          d.appendChild(ligneOption(o, true, function () { remplir(); dessinerBudget(); }));
+        });
+        d.appendChild(tableauCle([{ libelle: 'Total du jour avec les options cochées', valeur: euros(totalBase + totalOpt) }]));
+      }
+    }
+    remplir();
+    if (!d.firstChild) return;
     conteneur.appendChild(bloc('Budget du jour', d));
   }
 
@@ -1500,11 +1520,53 @@
     return base * (1 + sur / 100);
   }
 
+  /* ---------- Options : payant mais pas indispensable, non compté par défaut ---------- */
+
+  var CLE_OPTIONS = 'dolomites.options';
+
+  function chargerChoix() {
+    E.choix = {};
+    try {
+      var brut = localStorage.getItem(CLE_OPTIONS);
+      if (brut) E.choix = JSON.parse(brut) || {};
+    } catch (e) { E.choix = {}; }   // navigation privée ou valeur illisible : aucune option cochée
+  }
+
+  function basculerOption(cle, cochee) {
+    if (cochee) E.choix[cle] = true;
+    else delete E.choix[cle];
+    try { localStorage.setItem(CLE_OPTIONS, JSON.stringify(E.choix)); } catch (e) { /* le choix vaut pour la visite */ }
+  }
+
+  function troncon(id) {
+    return ((E.peages && E.peages.troncons) || []).find(function (t) { return t.id === id; }) || null;
+  }
+
+  function heuresLisibles(h) {
+    return dureeAffiche(h) || '0 min';
+  }
+
+  function detailPeage(t) {
+    var morceaux = [t.verdict];
+    if (typeof t.heures_gagnees === 'number') morceaux.push(heuresLisibles(t.heures_gagnees) + ' gagnées');
+    if (typeof t.net_par_heure === 'number') morceaux.push(euros(t.net_par_heure) + ' net par heure gagnée');
+    if (t.carburant_ecart) morceaux.push('net ' + euros(t.net) + ' avec l’écart de carburant');
+    return morceaux.join(' · ');
+  }
+
   function calculerBudget() {
     var b = E.budget;
     if (!b) return null;
     var postes = b.postes || [];
-    var lignes = [];   // { jour, poste, libelle, montant }
+    var base = [];      // { jour, poste, libelle, montant } toujours comptés
+    var options = [];   // { cle, jour, libelle, detail, verdict, montant, lignes: [...] }
+    var sc = E.scenarioId + '|';
+
+    function option(o) {
+      o.montant = o.lignes.reduce(function (a, x) { return a + x.montant; }, 0);
+      o.choisie = !!(E.choix && E.choix[o.cle]);
+      options.push(o);
+    }
 
     (b.calcule || []).forEach(function (r) {
       if (r.depuis === 'planning.nuit') {
@@ -1512,19 +1574,38 @@
           if (!j.nuit) return;
           var l = resoudre(j.nuit);
           var m = montantDe(l);
-          if (m) lignes.push({ jour: j.jour, poste: r.poste, libelle: l.nom, montant: m });
+          if (m) base.push({ jour: j.jour, poste: r.poste, libelle: l.nom, montant: m });
         });
       } else if (r.depuis === 'planning.activites') {
+        /* Une activité payante est une option, sauf si sa fiche la déclare indispensable. */
         (E.planning || []).forEach(function (j) {
           (j.activites || []).forEach(function (a) {
             var l = resoudre(a.lieu);
             var m = montantDe(l);
-            if (m) lignes.push({ jour: j.jour, poste: r.poste, libelle: l.nom, montant: m });
+            if (!m) return;
+            var ligne = { jour: j.jour, poste: r.poste, libelle: l.nom, montant: m };
+            if (l.prix && l.prix.budget === 'indispensable') { base.push(ligne); return; }
+            option({
+              cle: sc + 'activite|' + j.jour + '|' + l.id, jour: j.jour, libelle: l.nom,
+              detail: l.prix && l.prix.alternative_gratuite ? 'Sans payer : ' + l.prix.alternative_gratuite : '',
+              lignes: [ligne]
+            });
           });
         });
       } else if (r.depuis === 'itineraire.peages') {
+        /* Chaque tronçon à péage est une option : prix du péage, moins le carburant que l'autoroute économise. */
         ((E.itineraire && E.itineraire.etapes) || []).forEach(function (e) {
-          if (e.peages) lignes.push({ jour: e.jour, poste: r.poste, libelle: 'Péages étape ' + e.jour, montant: e.peages });
+          (e.troncons_peage || []).forEach(function (id, i) {
+            var t = troncon(id);
+            if (!t) { anomalies.push('Tronçon à péage inconnu : ' + id + ' (étape ' + e.id + ')'); return; }
+            var lignes = [{ jour: e.jour, poste: r.poste, libelle: 'Péage ' + t.libelle, montant: t.prix }];
+            if (t.carburant_ecart) lignes.push({ jour: e.jour, poste: 'carburant', libelle: 'Écart de carburant par l’autoroute, ' + t.libelle, montant: -t.carburant_ecart });
+            option({
+              cle: sc + 'peage|' + e.id + '|' + i + '|' + id, jour: e.jour,
+              libelle: 'Péage ' + t.libelle + ' (' + t.autoroutes + ') — ' + euros(t.prix) + ' au péage',
+              detail: detailPeage(t), verdict: t.verdict, alerte: t.alerte, lignes: lignes
+            });
+          });
         });
       } else if (r.depuis === 'itineraire.carburant') {
         var conso = consoReelle();
@@ -1532,25 +1613,56 @@
           if (!e.distance_km) return;
           var pl = prixLitre(e.pays);
           var m = e.distance_km / 100 * conso * pl;
-          if (m) lignes.push({
+          if (m) base.push({
             jour: e.jour, poste: r.poste,
-            libelle: e.distance_km + ' km' + (e.pays ? ' (' + e.pays + ')' : '') + ' à ' + euros(pl) + '/L',
+            libelle: e.distance_km + ' km' + (e.troncons_peage && e.troncons_peage.length ? ' sans péage' : '') +
+              (e.pays ? ' (' + e.pays + ')' : '') + ' à ' + euros(pl) + '/L',
             montant: m
           });
         });
       }
     });
 
-    (b.saisi || []).forEach(function (s) {
-      lignes.push({ jour: s.jour, poste: s.poste, libelle: s.libelle, montant: s.montant || 0 });
+    (b.saisi || []).forEach(function (s, i) {
+      var ligne = { jour: s.jour, poste: s.poste, libelle: s.libelle, montant: s.montant || 0 };
+      if (s.option) option({ cle: sc + 'saisi|' + i, jour: s.jour, libelle: s.libelle, detail: s.note || '', lignes: [ligne] });
+      else base.push(ligne);
     });
 
-    var total = lignes.reduce(function (a, x) { return a + x.montant; }, 0);
+    /* Options dans l'ordre des jours, les options hors jour à la fin. */
+    options.forEach(function (o, i) { o.rang = i; });
+    options.sort(function (a, b) {
+      var ja = typeof a.jour === 'number' ? a.jour : 999, jb = typeof b.jour === 'number' ? b.jour : 999;
+      return (ja - jb) || (a.rang - b.rang);
+    });
+
+    /* Lignes retenues : la base, plus les options cochées. */
+    var lignes = base.slice();
+    options.forEach(function (o) { if (o.choisie) lignes = lignes.concat(o.lignes); });
+
+    var somme = function (l) { return l.reduce(function (a, x) { return a + x.montant; }, 0); };
     var parPoste = {};
     postes.forEach(function (p) { parPoste[p.id] = 0; });
     lignes.forEach(function (x) { parPoste[x.poste] = (parPoste[x.poste] || 0) + x.montant; });
 
-    return { lignes: lignes, total: total, parPoste: parPoste, postes: postes };
+    return { lignes: lignes, base: somme(base), total: somme(lignes), options: options, parPoste: parPoste, postes: postes };
+  }
+
+  /* Case à cocher d'une option : libellé, verdict ou alternative gratuite, prix net. */
+  function ligneOption(o, avecAlerte, apres) {
+    var lab = el('label', 'option' + (o.verdict ? ' option--' + o.verdict.replace(/\s+/g, '-') : ''));
+    var cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = o.choisie;
+    cb.addEventListener('change', function () { basculerOption(o.cle, cb.checked); apres(); });
+    lab.appendChild(cb);
+    var corps = el('span', 'option__corps');
+    corps.appendChild(el('span', 'option__libelle', o.libelle));
+    if (o.detail) corps.appendChild(el('span', 'option__detail' + (o.verdict ? ' option__verdict' : ''), o.detail));
+    if (avecAlerte && o.alerte) corps.appendChild(el('span', 'option__detail', 'Sans péage : ' + o.alerte));
+    lab.appendChild(corps);
+    lab.appendChild(el('span', 'option__prix', (o.montant >= 0 ? '+ ' : '− ') + euros(Math.abs(o.montant))));
+    return lab;
   }
 
   function dessinerBudget() {
@@ -1560,12 +1672,13 @@
     if (!r) { zone.appendChild(el('p', 'jour__note', 'Budget indisponible.')); return; }
 
     var nbJours = (E.planning || []).length || 1;
+    var nbCochees = r.options.filter(function (o) { return o.choisie; }).length;
 
     var ch = el('div', 'chiffres');
     [
-      [euros(r.total), 'Total du séjour'],
+      [euros(r.base), 'Total de base, sans option'],
+      [euros(r.total), nbCochees ? 'Avec ' + nbCochees + (nbCochees > 1 ? ' options cochées' : ' option cochée') : 'Aucune option cochée'],
       [euros(r.total / nbJours), 'Par jour en moyenne'],
-      [String(nbJours), 'Jours'],
       [E.budget.objectif_par_jour ? euros(E.budget.objectif_par_jour) : '—', 'Objectif par jour']
     ].forEach(function (x) {
       var c = el('div', 'chiffre');
@@ -1574,6 +1687,25 @@
       ch.appendChild(c);
     });
     zone.appendChild(ch);
+
+    /* Options : péages, remontées, activités payantes. Non comptées tant qu'elles ne sont pas cochées. */
+    if (r.options.length) {
+      var somOpt = r.options.reduce(function (a, o) { return a + o.montant; }, 0);
+      var dv = el('details', 'volet volet--interne options');
+      dv.open = true;
+      dv.appendChild(el('summary', null, 'Options payantes (' + r.options.length + ', ' + euros(somOpt) + ' si tout est coché)'));
+      if (E.peages && E.peages.seuils && E.peages.seuils.raison) dv.appendChild(el('p', 'jour__note', 'Verdict des péages : ' + E.peages.seuils.raison));
+      var jourCourant = null;
+      r.options.forEach(function (o) {
+        if (o.jour !== jourCourant) {
+          jourCourant = o.jour;
+          var j = (E.planning || []).find(function (x) { return x.jour === o.jour; });
+          dv.appendChild(el('p', 'options__jour', o.jour ? 'J' + o.jour + (j && j.titre ? ' · ' + j.titre : '') : 'Hors jour'));
+        }
+        dv.appendChild(ligneOption(o, false, dessinerBudget));
+      });
+      zone.appendChild(dv);
+    }
 
     var max = Math.max.apply(null, r.postes.map(function (p) { return r.parPoste[p.id] || 0; }).concat([1]));
     var barres = el('div', 'barres');
@@ -1634,7 +1766,7 @@
 
     var tfoot = document.createElement('tfoot');
     var trf = document.createElement('tr');
-    trf.appendChild(el('td', null, 'Total'));
+    trf.appendChild(el('td', null, nbCochees ? 'Total, options cochées comprises' : 'Total de base'));
     r.postes.forEach(function (p) { trf.appendChild(el('td', null, euros(r.parPoste[p.id] || 0))); });
     trf.appendChild(el('td', null, euros(r.total)));
     tfoot.appendChild(trf);
@@ -1859,7 +1991,8 @@
       lire('commun/carburant.json'),
       lire('commun/randonnees.json'),
       lire('commun/decouvertes.json'),
-      lire('commun/pratique.json')
+      lire('commun/pratique.json'),
+      lire('commun/peages.json')
     ]).then(function (r) {
       E.scenarios = r[0] || { scenarios: [] };
       E.lieux = r[1] || [];
@@ -1871,6 +2004,8 @@
       E.randonnees = r[8] || { zones: [] };
       E.decouvertes = r[9] || { zones: [] };
       E.pratique = r[10] || {};
+      E.peages = r[11] || { troncons: [] };
+      chargerChoix();
 
       E.parId = indexer(E.lieux);
       E.categories = construireCategories(E.lieux, r[2] || {});

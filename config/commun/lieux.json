@@ -701,7 +701,8 @@
           "valeur": "gratuit toute la saison d'été 2026"
         }
       ],
-      "chien": 20.5
+      "chien": 20.5,
+      "alternative_gratuite": "Montée à pied depuis le Passo Falzarego, environ 650 m de dénivelé."
     },
     "ouverture": {
       "fin_saison": "2026-10-18",
@@ -938,7 +939,8 @@
           "libelle": "Dépassement des 12 h",
           "valeur": "paiement électronique à la barrière de sortie"
         }
-      ]
+      ],
+      "alternative_gratuite": "Montée à pied depuis le lac d’Antorno (places gratuites en bord de route) : 1 h 30 à 2 h selon l’office de tourisme ; départ exact à vérifier. Navette arrêtée le 4 octobre."
     },
     "reserver": {
       "obligatoire": true,
@@ -1428,7 +1430,9 @@
           "libelle": "Barque partagée 45 min",
           "valeur": "20 €/personne"
         }
-      ]
+      ],
+      "budget": "indispensable",
+      "raison_budget": "Journée consacrée au lac : aucun parking gratuit trouvé, le bus est payant ; le P2 est l’accès le moins cher à distance de marche raisonnable (800 m)."
     },
     "ouverture": {
       "a_reverifier": false,
@@ -1743,7 +1747,8 @@
           "libelle": "Bus 443",
           "valeur": "tarif südtirolmobil, espèces uniquement à bord"
         }
-      ]
+      ],
+      "alternative_gratuite": "Garder la journée au lac de Braies ; sinon parking P5 à 6 € et montée à pied."
     },
     "chien": {
       "admis": true,
@@ -2889,7 +2894,9 @@
           "libelle": "Nuit 21h–7h, tout véhicule",
           "valeur": "40 €"
         }
-      ]
+      ],
+      "budget": "indispensable",
+      "raison_budget": "Le sentier, objet de la journée, part du parking de Zans ; aucun stationnement gratuit trouvé au départ."
     },
     "chien": {
       "admis": true,
@@ -3808,7 +3815,8 @@
           "libelle": "Garage gare de départ",
           "valeur": "25 €/jour (année non indiquée)"
         }
-      ]
+      ],
+      "alternative_gratuite": "Montée à pied depuis Santa Cristina, environ 700 m de dénivelé, ou promenade en vallée."
     },
     "ouverture": {
       "fin_saison": "2026-11-01",
@@ -5023,7 +5031,8 @@
           "libelle": "Devant le Despar",
           "valeur": "gratuit, disque, 1 h max"
         }
-      ]
+      ],
+      "alternative_gratuite": "Stationnement gratuit 1 h au disque devant le Despar."
     },
     "chien": {
       "admis": true,
@@ -6642,7 +6651,8 @@
           "valeur": "environ 2 €/h en journée, 30 € la nuit"
         }
       ],
-      "chien": 0
+      "chien": 0,
+      "alternative_gratuite": "Rester au Passo Pordoi : la vue sur le Sella est gratuite."
     },
     "ouverture": {
       "fin_saison": "2026-11-01",
@@ -7210,7 +7220,8 @@
           "libelle": "Places en bord de route près de la barrière",
           "valeur": "gratuit (environ 15 places)"
         }
-      ]
+      ],
+      "alternative_gratuite": "Places gratuites en bord de route près de la barrière."
     },
     "chien": {
       "admis": true,
@@ -7425,7 +7436,8 @@
           "libelle": "Tour du lac à pied",
           "valeur": "gratuit"
         }
-      ]
+      ],
+      "alternative_gratuite": "Parking gratuit à la gare de Dobbiaco."
     },
     "chien": {
       "admis": true,
@@ -7726,7 +7738,8 @@
         }
       ],
       "montant": 8,
-      "unite": "2 h de parking au col"
+      "unite": "2 h de parking au col",
+      "alternative_gratuite": "Traverser le col sans stationner."
     },
     "chien": {
       "admis": true,
@@ -9365,7 +9378,9 @@
           "libelle": "Hors saison (nov.–déc.)",
           "valeur": "gratuit"
         }
-      ]
+      ],
+      "budget": "indispensable",
+      "raison_budget": "La route du plateau est fermée aux voitures en journée : le P1 est l’accès le moins cher ; la télécabine coûte plus cher et la montée à pied depuis Siusi fait environ 1 000 m de dénivelé."
     },
     "reserver": {
       "obligatoire": true,

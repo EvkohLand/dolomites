@@ -460,6 +460,16 @@ p + .liens { margin-top: 8px; }
 .barre__part { height: 100%; background: var(--c, var(--accent)); }
 .barre__val { text-align: right; font-variant-numeric: tabular-nums; }
 
+.options { margin-bottom: 18px; }
+.options__jour { margin: 12px 0 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .07em; color: var(--discret); font-weight: 600; }
+.option { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: start; padding: 7px 0; border-top: 1px solid var(--trait); font-size: 13.5px; cursor: pointer; }
+.option input { margin: 3px 0 0; accent-color: var(--accent); }
+.option__corps { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.option__detail { font-size: 12px; color: var(--discret); }
+.option__prix { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.option--vaut-le-coup .option__verdict { color: var(--accent); }
+.option--ne-vaut-pas-le-coup .option__verdict { color: #a2452c; }
+
 .tableau-enveloppe { overflow-x: auto; border: 1px solid var(--trait); border-radius: var(--rayon); background: var(--surface); }
 table.grille { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 620px; }
 table.grille th, table.grille td { padding: 9px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--trait); }
