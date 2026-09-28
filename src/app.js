@@ -998,6 +998,58 @@
     conteneur.appendChild(sec);
   }
 
+
+  function decouvertesPourJour(j) {
+    return ((((E.decouvertes || {}).zones) || []).filter(function (g) {
+      return Array.isArray(g.zones_planning) && g.zones_planning.indexOf(j.zone) !== -1;
+    }));
+  }
+
+  function dessinerDecouvertesJour(j, conteneur) {
+    var groupes = decouvertesPourJour(j);
+    if (!groupes.length) return;
+
+    var sec = el('section', 'jour-decouvertes');
+    sec.appendChild(el('h4', 'jour-decouvertes__titre', 'À faire, remontées & bonnes adresses'));
+
+    groupes.forEach(function (g) {
+      var zg = el('div', 'zone-decouverte');
+      (g.items || []).forEach(function (x) {
+        var d = el('details', 'decouverte-card');
+        var sm = document.createElement('summary');
+        sm.appendChild(el('span', 'decouverte-card__type', (x.type || 'idée').replace(/_/g, ' ')));
+        sm.appendChild(el('span', 'decouverte-card__nom', x.nom || ''));
+        if (x.disponibilite) sm.appendChild(el('span', 'decouverte-card__dispo', x.disponibilite));
+        d.appendChild(sm);
+
+        if (x.resume) d.appendChild(el('p', 'decouverte-card__resume', x.resume));
+        var grille = el('dl', 'decouverte-grid');
+        [
+          ['Disponibilité', x.disponibilite],
+          ['Prix', x.prix],
+          ['Chien', x.chien]
+        ].forEach(function (p) {
+          if (!p[1]) return;
+          grille.appendChild(el('dt', null, p[0]));
+          grille.appendChild(el('dd', null, String(p[1])));
+        });
+        if (grille.children.length) d.appendChild(grille);
+
+        if (x.source) {
+          var a = el('a', 'decouverte-source', 'Source / informations');
+          a.href = x.source;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          d.appendChild(a);
+        }
+        zg.appendChild(d);
+      });
+      sec.appendChild(zg);
+    });
+
+    conteneur.appendChild(sec);
+  }
+
   function dessinerPlanning() {
     var zone = document.getElementById('planning');
     vide(zone);
@@ -1078,6 +1130,7 @@
       }
 
       dessinerRandosJour(j, c);
+      dessinerDecouvertesJour(j, c);
 
       if (j.nuit) {
         var n = resoudre(j.nuit);
@@ -1455,7 +1508,8 @@
       lire('commun/reglementation.json'),
       lire('commun/vehicule.json'),
       lire('commun/carburant.json'),
-      lire('commun/randonnees.json')
+      lire('commun/randonnees.json'),
+      lire('commun/decouvertes.json')
     ]).then(function (r) {
       E.scenarios = r[0] || { scenarios: [] };
       E.lieux = r[1] || [];
@@ -1465,6 +1519,7 @@
       E.vehicule = r[6];
       E.carburant = r[7];
       E.randonnees = r[8] || { zones: [] };
+      E.decouvertes = r[9] || { zones: [] };
 
       E.parId = indexer(E.lieux);
       E.categories = construireCategories(E.lieux, r[2] || {});
