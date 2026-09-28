@@ -67,12 +67,26 @@
   },
   {
     "id": "route-hiver",
-    "titre": "Équipement hivernal et cols",
-    "portee": "Italie du Nord, routes de montagne",
-    "resume": "Pneus hiver ou chaînes obligatoires du 15 novembre au 15 avril — donc pas encore pendant le séjour.",
-    "detail": "L'obligation légale court du 15 novembre au 15 avril : elle ne s'applique pas du 10 au 23 octobre. Mais elle ne protège de rien en cas de neige précoce, et les provinces alpines peuvent l'avancer par arrêté local. Précédent réel : le 3 octobre 2024, le Passo Giau a fermé une nuit pour 15 à 40 cm de neige, rouvert le lendemain. Les cols dolomitiques n'ont pas de date de fermeture fixe : elle se décide au cas par cas selon la neige tombée. Chaînes à bord recommandées malgré tout.",
-    "gravite": "elevee",
-    "a_reverifier": true
+    "titre": "Pneus, chaînes et cols en octobre",
+    "portee": "Sud-Tyrol/Bolzano, Trentin et Belluno/Vénétie — routes de montagne du road-trip",
+    "resume": "Du 10 au 25 octobre, l'obligation saisonnière générale n'a normalement pas encore commencé, mais neige ou verglas peuvent rendre immédiatement obligatoire un équipement hivernal. Sans chaînes et sans pneus hiver confirmés : ne jamais engager un col enneigé ou verglacé.",
+    "detail": "Sud-Tyrol : avant même le 15 novembre, la Province applique une obligation dite « situationnelle » sur les routes provinciales et nationales : en présence de glace sur la chaussée, notamment sur les routes d'altitude et les cols, il faut un équipement hivernal homologué (pneus hiver marqués ou chaînes). Trentin : du 15 novembre au 15 avril, pneus hiver ou moyens antidérapants sont requis ; en cas de neige ou de glace, cette exigence s'applique sans limite de date et les chaînes doivent être montées lorsque nécessaires. Belluno/Vénétie : l'obligation saisonnière est généralement du 15 novembre au 15 avril sur les tronçons visés par ordonnance. Pour ce voyage, la règle de sécurité est plus stricte que la seule règle calendaire : vérifier météo et état des routes chaque matin ; si neige, verglas, pluie verglaçante, chaussée blanche, panneau d'obligation ou fermeture annoncée, renoncer au col et prendre un itinéraire de vallée. Les cols Gardena, Falzarego, Valparola, Pordoi et Giau ainsi que les accès élevés aux Tre Cime, Fanes et Prato Piazza sont considérés comme conditionnels à une chaussée sèche et dégagée. Vérifier sur les pneus 4 saisons les marquages réels M+S et, idéalement, 3PMSF ; ne pas supposer qu'un pneu « quatre saisons » est adapté à la neige sans lire son flanc.",
+    "gravite": "critique",
+    "a_reverifier": true,
+    "sources": [
+      {
+        "libelle": "Province autonome de Bolzano — obligation situationnelle avant le 15 novembre",
+        "url": "https://news.provincia.bz.it/it/news-archive/619891"
+      },
+      {
+        "libelle": "Province autonome de Trente — neige/glace : équipement requis sans limite de date",
+        "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/IN-VIGORE-LA-DISCIPLINA-DELLA-CIRCOLAZIONE-STRADALE-IN-PERIODO-INVERNALE"
+      },
+      {
+        "libelle": "Veneto Strade — obligation hivernale sur les routes concernées",
+        "url": "https://www.venetostrade.it/"
+      }
+    ]
   },
   {
     "id": "tente-toit-hauteur",
