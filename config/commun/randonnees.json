@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "note": "Bibliothèque strictement rattachée aux zones du planning. Données chiffrées reprises des sources indiquées ; métriques laissées nulles lorsqu'elles ne sont pas publiées. Les risques sont qualifiés pour un voyage en octobre et ne remplacent pas le contrôle météo/état du sentier le jour même. Les itinéraires signalés fermés par leur source restent visibles mais explicitement marqués fermés.",
+  "version": 5,
+  "note": "Bibliothèque strictement rattachée aux zones du planning. Audit contradictoire du 28/09/2026 : priorité aux sources officielles ; données chiffrées reprises des fiches sources, services saisonniers séparés de la praticabilité des sentiers, et statuts futurs non garantis. Les conditions neige/verglas et fermetures doivent être recontrôlées le jour J.",
   "zones": [
     {
       "id": "funes",
@@ -34,7 +34,8 @@
             "Dusleralm",
             "retour Zans"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi84a3ede0ebe349019877d7c478965a60.adolf-munkel-trail.s--maddalena-st--magdalena---funes-villnoess"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi84a3ede0ebe349019877d7c478965a60.adolf-munkel-trail.s--maddalena-st--magdalena---funes-villnoess",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Adolf Munkel Trail — traversée complète",
@@ -56,7 +57,8 @@
             "sentier 28",
             "descente vers Ranui"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi84a3ede0ebe349019877d7c478965a60.adolf-munkel-trail.s--maddalena-st--magdalena---funes-villnoess"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi84a3ede0ebe349019877d7c478965a60.adolf-munkel-trail.s--maddalena-st--magdalena---funes-villnoess",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Zans – Glatsch – Dusler – Zans",
@@ -78,7 +80,8 @@
             "sentier 36",
             "Zans"
           ],
-          "source": "https://www.odlesdolomites.com/en/activities/29319DA7138A50C7144DBBE5B33583D5"
+          "source": "https://www.odlesdolomites.com/en/activities/29319DA7138A50C7144DBBE5B33583D5",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Zans – Kaserill – Zendleser Kofel – retour",
@@ -103,7 +106,8 @@
             "Zans"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/D3C26167D5906647E33AD23EE9D079E7",
-          "statut_source": "Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10."
+          "statut_source": "Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Zans → Gampenalm — aller-retour",
@@ -126,7 +130,8 @@
             "retour par le même itinéraire"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/8E8F6062070B10CF0DCE441E1674BEDD",
-          "statut_source": "open · Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10."
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J · Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Zans → Kirchwiesl → Kaserillalm — boucle courte",
@@ -148,7 +153,8 @@
             "retour par 32/25 ou piste 33"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/1461D51D9A8B51C8840F695E55A31E22",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Brogles – Cisles – Forcella Pana / Forcella Mesdì",
@@ -173,7 +179,8 @@
             "Ranui"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/CFA99E5013117DC03362339B67E75B24",
-          "statut_source": "closed — Panascharte fermée"
+          "statut_source": "closed — Panascharte fermée",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Farmers Trail — St. Peter",
@@ -197,7 +204,8 @@
             "Sun Trail",
             "retour St. Peter"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi864f25df1ee37c36b9f2c5afdd82b1a8.farmers-trail.s--pietro-st--peter---funes-villnoess"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi864f25df1ee37c36b9f2c5afdd82b1a8.farmers-trail.s--pietro-st--peter---funes-villnoess",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Alpine pasture delight trail",
@@ -224,7 +232,8 @@
             "Zans"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/72AD0EAE5AF4CA327BFB8585BA41051C",
-          "statut_source": "open · Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10."
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J · Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Cascade de Flitz — boucle depuis Pitzack",
@@ -251,7 +260,8 @@
             "Pitzack"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/A652F2D14CFC3A538BC8AA38111E1C26",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Ranui → Brogles → Resciesa → St. Peter",
@@ -277,7 +287,8 @@
             "St. Peter / Pizack"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/58ABDD94503E08E842FE85A183EAA979",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Nature Trail Zans",
@@ -304,7 +315,8 @@
             "retour parking"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/17C55FC383BCAF2BEBB595BCEEBE0AB5",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "GEO Trail — mine de démonstration de Tiso",
@@ -329,7 +341,8 @@
             "retour"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/2DA0861BA28CA0BE817C26F09BA0BA0C",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         }
       ]
     },
@@ -364,7 +377,8 @@
             "montée progressive sous les Odle",
             "point de vue Seceda / Ridge Line"
           ],
-          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-col-raiser-mountain-station/810055439/"
+          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-col-raiser-mountain-station/810055439/",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Col Raiser (vallée) → Seceda par Troi de Frëines",
@@ -384,7 +398,8 @@
             "sentier 1A",
             "Seceda"
           ],
-          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-col-raiser-valley-station-troi-de-freeines/810055442/"
+          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-col-raiser-valley-station-troi-de-freeines/810055442/",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Resciesa – Col Raiser – Seceda",
@@ -405,7 +420,8 @@
             "terrasse UNESCO"
           ],
           "source": "https://www.valgardena.it/en/outdoor/base/outdoor/curona-de-gherdeeina-deluxe-stage-1-resciesa-col-raiser-seceda/811293484/",
-          "statut_source": "Itinéraire officiel, mais le funiculaire Resciesa ferme le 11/10/2026 : départ depuis la station haute non accessible par remontée pendant vos journées du 13–16/10."
+          "statut_source": "Itinéraire officiel, mais le funiculaire Resciesa ferme le 11/10/2026 : départ depuis la station haute non accessible par remontée pendant vos journées du 13–16/10.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Cristauta → Sëurasas → Seceda Ridge Line",
@@ -426,7 +442,8 @@
             "croix sommitale / panorama"
           ],
           "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-cristauta-seeurasas/810055443/",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Ortisei → Seceda Ridge Line à pied",
@@ -447,7 +464,8 @@
             "Seceda Ridge Line"
           ],
           "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-ortisei/810055445/",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Seceda via Brogles et Forcella Mesdì",
@@ -469,7 +487,8 @@
             "Mastlé / Seceda"
           ],
           "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-through-the-forcella-mezdi/810055437/",
-          "statut_source": "Itinéraire officiel, mais le funiculaire Resciesa ferme le 11/10/2026 : départ depuis la station haute non accessible par remontée pendant vos journées du 13–16/10."
+          "statut_source": "Itinéraire officiel, mais le funiculaire Resciesa ferme le 11/10/2026 : départ depuis la station haute non accessible par remontée pendant vos journées du 13–16/10.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Col Raiser vallée → Seceda via Rifugio Firenze",
@@ -489,7 +508,8 @@
             "Seceda Ridge Line"
           ],
           "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-from-s-cristina-via-col-raiser-valley-station-rifugio-firenze/808744765/",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         }
       ]
     },
@@ -524,7 +544,8 @@
           "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoide541bb3b1316706a3ecb8ffee889b29.spitzbuehl-tschapit-round-tour.alpe-di-siusi-seiseralm",
           "denivele_moins_m": 431,
           "altitude_max_m": 2018,
-          "statut_source": "Fiche officielle vérifiée ; départ à la station basse Spitzbühl. Télésiège Spitzbühl fermé en octobre mais la randonnée ne nécessite pas son utilisation."
+          "statut_source": "Fiche officielle vérifiée ; départ à la station basse Spitzbühl. Télésiège Spitzbühl fermé en octobre mais la randonnée ne nécessite pas son utilisation.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Compatsch – Schlernhaus – Tierser Alpl – Compatsch",
@@ -544,7 +565,8 @@
           "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi98b18bbf6fe68fa8e0b3c27c5444a5ce.compatsch---schlernhaus---tierser-alpl---compatsch.alpe-di-siusi-seiseralm",
           "denivele_moins_m": 1292,
           "altitude_max_m": 2563,
-          "statut_source": "Fiche officielle vérifiée ; itinéraire très long pour octobre malgré la difficulté officielle 'medium'."
+          "statut_source": "Fiche officielle vérifiée ; itinéraire très long pour octobre malgré la difficulté officielle 'medium'.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Compatsch → Piz → Saltria",
@@ -565,7 +587,8 @@
             "sentier 9",
             "Saltria"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi1e736121609b33a32ae9c18259f6a549.from-compatsch-to-piz-and-saltria.alpe-di-siusi-seiseralm"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi1e736121609b33a32ae9c18259f6a549.from-compatsch-to-piz-and-saltria.alpe-di-siusi-seiseralm",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Compatsch → Panorama → Spitzbühl → Compatsch",
@@ -587,7 +610,8 @@
             "sentier 10",
             "Compatsch"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi0ed51171605bf8ffc6a75a355cd91615.the-tschon-boulder-on-the-seiser-alm.alpe-di-siusi-seiseralm"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi0ed51171605bf8ffc6a75a355cd91615.the-tschon-boulder-on-the-seiser-alm.alpe-di-siusi-seiseralm",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Hans & Paula Steger Trail → Saltria",
@@ -608,7 +632,8 @@
             "vallée de Saltria",
             "Saltria"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi55d58e3813d89c8e78904cfb37673d85.hans-and-paula-steger-hiking-trail.alpe-di-siusi-seiseralm"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi55d58e3813d89c8e78904cfb37673d85.hans-and-paula-steger-hiking-trail.alpe-di-siusi-seiseralm",
+          "verifie_le": "2026-09-28"
         }
       ]
     },
@@ -643,7 +668,8 @@
             "retour station"
           ],
           "source": "https://cortina.dolomiti.org/fr/ete/quoi-faire/activites/trekking/avec-les-remontees/",
-          "denivele_moins_m": 58
+          "denivele_moins_m": 58,
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Lac de Lagazuoi — boucle",
@@ -662,7 +688,8 @@
             "retour"
           ],
           "source": "https://cortina.dolomiti.org/fr/ete/quoi-faire/activites/trekking/avec-les-remontees/",
-          "denivele_moins_m": 769
+          "denivele_moins_m": 769,
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Passo Valparola → Lagazuoi par Kaiserjäger",
@@ -680,7 +707,8 @@
             "ouvrages de guerre",
             "sommet Lagazuoi"
           ],
-          "source": "https://www.altabadia.org/en/bike/cycling-tours-dolomites/detail/oa/from-passo-valparola-to-the-lagacio-lagazuoi-peak-on-the-kaiserjaeger-trail"
+          "source": "https://www.altabadia.org/en/bike/cycling-tours-dolomites/detail/oa/from-passo-valparola-to-the-lagacio-lagazuoi-peak-on-the-kaiserjaeger-trail",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Ligne de front Lagazuoi → Forcella Travenanzes",
@@ -703,7 +731,8 @@
             "Forcella Travenanzes",
             "retour vers départ du téléphérique"
           ],
-          "source": "https://cortina.dolomiti.org/fr/escursioni/le-long-de-la-ligne-de-front-lagazuoi-et-forcella-travenanzes/"
+          "source": "https://cortina.dolomiti.org/fr/escursioni/le-long-de-la-ligne-de-front-lagazuoi-et-forcella-travenanzes/",
+          "verifie_le": "2026-09-28"
         }
       ]
     },
@@ -739,7 +768,8 @@
             "Rifugio Cinque Torri",
             "retour"
           ],
-          "source": "https://cortina.dolomiti.org/fr/escursioni/au-refuge-5-torri/"
+          "source": "https://cortina.dolomiti.org/fr/escursioni/au-refuge-5-torri/",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Tour des 5 Torri",
@@ -761,7 +791,8 @@
             "lac Bai de Dones",
             "parking"
           ],
-          "source": "https://cortina.dolomiti.org/fr/escursioni/tour-des-5-torri/"
+          "source": "https://cortina.dolomiti.org/fr/escursioni/tour-des-5-torri/",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Bai de Dones → Col Gallina → Lac des Anguane",
@@ -781,7 +812,8 @@
             "secteur du Lac des Anguane",
             "retour Bai de Dones"
           ],
-          "source": "https://cortina.dolomiti.org/fr/escursioni/au-refuge-col-gallina-et-au-lac-des-anguane/"
+          "source": "https://cortina.dolomiti.org/fr/escursioni/au-refuge-col-gallina-et-au-lac-des-anguane/",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Passo Giau → Cinque Torri → Averau → Nuvolau → Passo Giau",
@@ -804,7 +836,8 @@
             "Rifugio Nuvolau",
             "retour Passo Giau"
           ],
-          "source": "https://cortina.dolomiti.org/fr/escursioni/au-refuge-nuvolau/"
+          "source": "https://cortina.dolomiti.org/fr/escursioni/au-refuge-nuvolau/",
+          "verifie_le": "2026-09-28"
         }
       ]
     },
@@ -838,7 +871,8 @@
             "plateau du Sella",
             "Rifugio Boè"
           ],
-          "source": "https://www.fassa.com/en/accommodation/maria"
+          "source": "https://www.fassa.com/en/accommodation/maria",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Sass Pordoi → Piz Boè",
@@ -860,7 +894,8 @@
             "descente vers Passo Pordoi"
           ],
           "source": "https://www.fassa.com/en/routes-trails/pordoi-pass-sass-pordoi-forcella-pordoi-piz-boe-boe-refuge-forcella-pordoi-pordoi-pass",
-          "denivele_moins_m": 1008
+          "denivele_moins_m": 1008,
+          "verifie_le": "2026-09-28"
         }
       ]
     },
@@ -898,7 +933,8 @@
             "Gran Fanes"
           ],
           "source": "https://www.sanvigilio.com/en/activity/summer-hike-to-the-gran-fanes-pastures_211064?cmpscreen=1",
-          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Pederü → Capanna Alpina par Fanes",
@@ -922,7 +958,8 @@
             "Capanna Alpina"
           ],
           "source": "https://www.sanvigilio.com/en/activity/hike-from-peder-to-capanna-alpina_29879",
-          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Fanes → Monte Vallon Bianco — Peace Trail",
@@ -947,7 +984,8 @@
             "retour identique"
           ],
           "source": "https://www.sanvigilio.com/en/activity/peace-trail-fanes-monte-vallon-bianco_210944",
-          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Capanna Alpina → Fanes → Pederü",
@@ -973,7 +1011,8 @@
             "Pederü"
           ],
           "source": "https://www.altabadia.org/en/dolomites/hiking-alta-badia/detail/oa/hike-from-san-cassiano-to-the-fanes-plateau",
-          "statut_source": "itinéraire officiel · Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
+          "statut_source": "itinéraire officiel · Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Capanna Alpina → Forcela dl Lech → Lagazuoi Lake → Scotoni — boucle",
@@ -1001,7 +1040,8 @@
             "Sciaré"
           ],
           "source": "https://www.altabadia.org/en/tour/oadetail/oa/from-san-cassiano-sciare-across-the-forcela-dl-lech-notch-to-the-lech-de-lagacio-lake-and-the-uetia-scotoni-hut",
-          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges.",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Capanna Alpina → sommet Conturines",
@@ -1027,7 +1067,8 @@
             "sommet Conturines"
           ],
           "source": "https://www.altabadia.org/en/tour/detail/oa/ascent-of-mt-conturines",
-          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges.",
+          "verifie_le": "2026-09-28"
         }
       ]
     },
@@ -1062,7 +1103,8 @@
             "Langalm",
             "retour Auronzo"
           ],
-          "source": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-drei-zinnen-tre-cime-three-peaks-_569"
+          "source": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-drei-zinnen-tre-cime-three-peaks-_569",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Fischleintal → Sextner Stein / vue Tre Cime",
@@ -1082,7 +1124,8 @@
             "Sextner Stein",
             "retour"
           ],
-          "source": "https://www.dreizinnen.com/en/activity/hike-sextner-stein-three-peaks_433"
+          "source": "https://www.dreizinnen.com/en/activity/hike-sextner-stein-three-peaks_433",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Innerfeldtal → Rifugio Locatelli / Tre Cime",
@@ -1103,7 +1146,8 @@
             "Rifugio Locatelli"
           ],
           "source": "https://www.dreizinnen.com/en/activity/hike-val-campo-di-dentro-innerfeldtal-valley-three-peaks_624",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Innerfeldtal → Tre Cime → Fischleintal",
@@ -1129,7 +1173,8 @@
             "Fischleintal"
           ],
           "source": "https://www.dreizinnen.com/en/activity/hike-crossing-innerfeldtal-valley-fischleintal-valley_445",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Landro → Monte Piano",
@@ -1150,7 +1195,8 @@
             "Monte Piano / musée à ciel ouvert"
           ],
           "source": "https://www.dreizinnen.com/en/activity/summer-hiking-tour-view-of-the-three-peaks-landro-monte-piano_815",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         }
       ]
     },
@@ -1183,28 +1229,8 @@
             "variante A piste 37 ou variante B sentier 18 via Stolla Alm",
             "Prato Piazza"
           ],
-          "source": "https://www.prags.bz/de/plaetzwiese"
-        },
-        {
-          "nom": "Prato Piazza → Strudelkopf",
-          "distance_km": 8.7,
-          "duree": "2 h 44",
-          "denivele_plus_m": 359,
-          "denivele_moins_m": 359,
-          "niveau": "Intermédiaire",
-          "type": "Boucle / aller-retour",
-          "depart": "Parking Prato Piazza",
-          "altitude_max_m": 2306,
-          "risque": "Modéré à élevé si neige",
-          "plan": [
-            "Prato Piazza",
-            "Dürrensteinhütte / ouvrage historique",
-            "piste 34",
-            "Strudelkopfsattel",
-            "Strudelkopf",
-            "retour"
-          ],
-          "source": "https://www.outdooractive.com/fr/route/randonnee/pragser-dolomiten/de-la-plaetzwiese-au-strudelkopf/41690670/"
+          "source": "https://www.prags.bz/de/plaetzwiese",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Tour du Lago di Braies",
@@ -1224,7 +1250,8 @@
             "rive est",
             "retour rive nord"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/nature/lakes-and-natural-pools/pragser-wildsee-lake"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/nature/lakes-and-natural-pools/pragser-wildsee-lake",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Lago di Braies → Rossalm / Malga Cavallo",
@@ -1245,7 +1272,8 @@
             "sentier 4",
             "Rossalm / Malga Cavallo"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoia791ff40d860dd63b4030a40bacae3c0.summer-hiking-tour---lago-di-braies-pragser-wildsee-lake---malga-cavollo-hut.braies-di-dentro-innerprags"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoia791ff40d860dd63b4030a40bacae3c0.summer-hiking-tour---lago-di-braies-pragser-wildsee-lake---malga-cavollo-hut.braies-di-dentro-innerprags",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Lago di Braies → Cima dei Colli Alti / Hochalpenkopf",
@@ -1266,7 +1294,8 @@
             "sentier raide sur terrain accidenté",
             "Cima dei Colli Alti"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi874a1b79fea4b24de848d5ad30d7d5b2.summer-hiking---lago-di-braies-pragser-wildsee---mountain-cima-dei-colli-alti-hochalpenkopf.braies-di-fuori-ausserprags"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi874a1b79fea4b24de848d5ad30d7d5b2.summer-hiking---lago-di-braies-pragser-wildsee---mountain-cima-dei-colli-alti-hochalpenkopf.braies-di-fuori-ausserprags",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Prato Piazza → Monte Specie / Strudelkopf",
@@ -1287,7 +1316,9 @@
             "crête du Strudelkopf",
             "sommet Monte Specie"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi4fbb9fd8e8714152b685c23ab6b5d364.summer-hiking-tour---parking-space-prato-piazza-plaetzwiese---monte-specie-strudelkopf.braies-di-fuori-ausserprags"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi4fbb9fd8e8714152b685c23ab6b5d364.summer-hiking-tour---parking-space-prato-piazza-plaetzwiese---monte-specie-strudelkopf.braies-di-fuori-ausserprags",
+          "verifie_le": "2026-09-28",
+          "statut_source": "Source officielle Südtirol/office de Braies ; 4,1 km correspond à l'aller jusqu'au sommet, pas à un aller-retour."
         },
         {
           "nom": "Lago di Braies → Kühwiesenkopf / Monte Pra della Vacca",
@@ -1307,7 +1338,8 @@
             "montée finale",
             "Kühwiesenkopf"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi940c4163468c9c773ae8d7c650d15ee0.summer-hiking---lago-di-braies-pragser-wildsee---mountain-monte-pra-della-vacca-kuehwiesenkopf.braies-di-fuori-ausserprags"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi940c4163468c9c773ae8d7c650d15ee0.summer-hiking---lago-di-braies-pragser-wildsee---mountain-monte-pra-della-vacca-kuehwiesenkopf.braies-di-fuori-ausserprags",
+          "verifie_le": "2026-09-28"
         }
       ]
     },
@@ -1341,7 +1373,8 @@
             "11 stations nature",
             "retour parking"
           ],
-          "source": "https://www.dreizinnen.com/en/activity/round-track-of-the-lake-of-toblach_50098"
+          "source": "https://www.dreizinnen.com/en/activity/round-track-of-the-lake-of-toblach_50098",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Dobbiaco → lac + sentier nature → Dobbiaco",
@@ -1363,7 +1396,8 @@
             "sentier nature",
             "retour même axe"
           ],
-          "source": "https://www.dreizinnen.com/en/activity/theme-path-toblach-dobbiaco-toblach-dobbiaco-lake-nature-educational-trail-toblach-dobbiaco_553"
+          "source": "https://www.dreizinnen.com/en/activity/theme-path-toblach-dobbiaco-toblach-dobbiaco-lake-nature-educational-trail-toblach-dobbiaco_553",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Boucle des refuges de Bonner",
@@ -1383,7 +1417,8 @@
             "Bonner Hütte",
             "retour boucle"
           ],
-          "source": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-bonner-hut_50058"
+          "source": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-bonner-hut_50058",
+          "verifie_le": "2026-09-28"
         },
         {
           "nom": "Dobbiaco Alpine Ridgeway / Toblacher Höhenweg",
@@ -1413,7 +1448,8 @@
             "retour"
           ],
           "source": "https://www.dreizinnen.com/en/activity/dobbiaco-alpine-ridgeway-_543",
-          "statut_source": "open"
+          "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
+          "verifie_le": "2026-09-28"
         }
       ]
     }
