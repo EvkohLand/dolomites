@@ -939,6 +939,18 @@
     return String(val).replace('.', ',') + (suffixe || '');
   }
 
+  /* Chaîne, liste de chaînes ou liste de { libelle, valeur } → texte d'une ligne. */
+  function texteListe(v) {
+    if (v == null || v === '') return null;
+    if (!Array.isArray(v)) return typeof v === 'object' ? (v.libelle ? v.libelle + (v.valeur ? ' : ' + v.valeur : '') : null) : String(v);
+    var t = v.map(function (x) {
+      if (x == null) return '';
+      if (typeof x !== 'object') return String(x);
+      return [x.nom || x.libelle, x.valeur || x.statut || x.note].filter(Boolean).join(' : ');
+    }).filter(Boolean).join(' · ');
+    return t || null;
+  }
+
   function randoResume(r) {
     return [
       texteMetrique(r.distance_km, ' km'),
@@ -991,6 +1003,16 @@
           ['Type', r.type],
           ['Départ', r.depart],
           ['Risque', r.risque],
+          ['Altitude min', r.altitude_min_m ? r.altitude_min_m + ' m' : null],
+          ['Balisage', r.balisage],
+          ['Parking', r.parking ? [r.parking.nom, r.parking.prix, r.parking.horaires].filter(Boolean).join(' · ') : null],
+          ['Accès', r.acces_transport],
+          ['Chien', r.chien ? [r.chien.admis === false ? 'non admis' : 'admis', r.chien.laisse, r.chien.passages_delicats, r.chien.betail].filter(Boolean).join(' · ') : null],
+          ['Eau', texteListe(r.eau)],
+          ['Ravitaillement en octobre', texteListe(r.ravitaillement_octobre)],
+          ['État en octobre', r.statut_octobre],
+          ['Meilleur moment', r.meilleur_moment],
+          ['Points forts', texteListe(r.points_forts)],
           ['Statut source', r.statut_source]
         ].forEach(function (x) {
           if (!x[1]) return;
@@ -1007,6 +1029,14 @@
           bp.appendChild(ol);
           d.appendChild(bp);
         }
+
+        var lr = el('div', 'puces');
+        if (Array.isArray(r.depart_gps)) lr.appendChild(lienExterne('Départ sur Google Maps', 'https://www.google.com/maps/search/?api=1&query=' + r.depart_gps[0] + ',' + r.depart_gps[1]));
+        if (r.carte_url) lr.appendChild(lienExterne('Carte et tracé', r.carte_url));
+        if (r.gpx_url) lr.appendChild(lienExterne('Fichier GPX', r.gpx_url));
+        (r.sources || []).forEach(function (x) { if (x && x.url && x.url !== r.source) lr.appendChild(lienExterne(x.libelle || 'Source', x.url)); });
+        if (lr.childNodes.length) d.appendChild(lr);
+        if (r.doutes) d.appendChild(el('p', 'jour__note', 'Non publié : ' + r.doutes));
 
         if (r.source) {
           var src = el('a', 'rando-source', 'Source de l’itinéraire');
@@ -1051,8 +1081,15 @@
         var grille = el('dl', 'decouverte-grid');
         [
           ['Disponibilité', x.disponibilite],
-          ['Prix', x.prix],
-          ['Chien', x.chien]
+          ['Saison', x.saison],
+          ['Horaires', texteListe(x.horaires)],
+          ['Prix', texteListe(x.prix)],
+          ['Chien', x.chien && typeof x.chien === 'object' ? [x.chien.admis === false ? 'non admis' : 'admis', x.chien.conditions].filter(Boolean).join(' · ') : x.chien],
+          ['Durée', x.duree],
+          ['Réservation', x.reservation && typeof x.reservation === 'object' ? (x.reservation.obligatoire ? 'obligatoire' : 'non obligatoire') : x.reservation],
+          ['Adresse', x.adresse],
+          ['Accès et parking', x.acces],
+          ['Avec un chien en octobre', x.interet]
         ].forEach(function (p) {
           if (!p[1]) return;
           grille.appendChild(el('dt', null, p[0]));
@@ -1060,6 +1097,11 @@
         });
         if (grille.children.length) d.appendChild(grille);
 
+        var lx = el('div', 'puces');
+        if (Array.isArray(x.gps)) lx.appendChild(lienExterne('Google Maps', 'https://www.google.com/maps/search/?api=1&query=' + x.gps[0] + ',' + x.gps[1]));
+        if (x.site) lx.appendChild(lienExterne('Site officiel', x.site));
+        if (x.reservation && x.reservation.url) lx.appendChild(lienExterne('Réserver', x.reservation.url));
+        if (lx.childNodes.length) d.appendChild(lx);
         if (x.source) {
           var a = el('a', 'decouverte-source', 'Source / informations');
           a.href = x.source;
