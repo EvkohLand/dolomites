@@ -574,15 +574,15 @@
     ],
     "liens": [
       {
-        "libelle": "Réserver la route (commune d’Auronzo)",
+        "libelle": "Réserver la route — portail officiel",
         "url": "https://pass.auronzo.info/"
       },
       {
-        "libelle": "Infos péage et horaires",
-        "url": "https://www.alto-adige.com/informazioni-utili/strada-a-pedaggio-tre-cime"
+        "libelle": "Informations officielles Tre Cime",
+        "url": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/"
       }
     ],
-    "description": "Depuis 2025 l'accès se réserve exclusivement en ligne et le tarif est passé de 30 à 40 € par voiture. Le péage comprend le stationnement au Rifugio Auronzo, point de départ du tour. Arriver tôt : le parking est dimensionné et une fois plein, il faut attendre. La navette publique depuis Dobbiaco ne circule plus après le 12 octobre, mais elle ne nous concerne pas puisqu'on monte en voiture.",
+    "description": "Depuis 2025, l'accès se réserve en ligne sur le portail officiel. Le péage comprend le stationnement au Rifugio Auronzo, point de départ du tour. Fin octobre, l'ouverture de la route dépend de la météo et de l'état de la chaussée : ne réserver qu'après contrôle des conditions. Les transports publics sont saisonniers et doivent être vérifiés séparément pour la date du trajet.",
     "photos": [
       {
         "legende": "Rifugio Auronzo 1",
@@ -712,11 +712,11 @@
     ],
     "commune": "Auronzo di Cadore (BL)",
     "altitude": 2400,
-    "resume": "La boucle classique autour des trois sommets, depuis le Rifugio Auronzo par le Rifugio Locatelli. Sentier large, jamais exposé.",
+    "resume": "Boucle classique autour des Tre Cime depuis le Rifugio Auronzo. Itinéraire officiel donné pour 8,8 km, environ 4 h et 550 m de dénivelé positif.",
     "rando": {
-      "distance_km": 10,
-      "denivele_m": 400,
-      "duree_h": 3.5,
+      "distance_km": 8.8,
+      "denivele_m": 550,
+      "duree_h": 4,
       "difficulte": "facile",
       "boucle": true,
       "depart_lieu": "route-tre-cime"
@@ -745,8 +745,8 @@
     ],
     "liens": [
       {
-        "libelle": "Tracé et description",
-        "url": "https://www.dolomitireview.com/strada-per-le-tre-cime-di-lavaredo-pedaggio-orari-informazioni-pratiche/"
+        "libelle": "Tracé officiel 3 Zinnen Dolomites",
+        "url": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-drei-zinnen-tre-cime-three-peaks-_569"
       }
     ],
     "photos": [
@@ -817,11 +817,12 @@
       "type": "payant",
       "montant": 8,
       "unite": "jour",
-      "annee_tarif": 2025,
-      "detail": "Parking seul. À revérifier pour 2026."
+      "annee_tarif": null,
+      "detail": "Tarif de parking affiché historiquement à 8 € dans le site ; tarif exact 2026 à vérifier avant le départ."
     },
     "ouverture": {
-      "note": "En octobre, l'accès en voiture est libre : les restrictions de circulation ne s'appliquent que du 10 juillet au 10 septembre."
+      "a_reverifier": false,
+      "note": "Pour 2026, la réglementation estivale d'accès à la vallée s'applique du 1er juillet au 15 septembre, 9h00–16h00. Le 22 octobre, cette restriction saisonnière ne s'applique donc plus ; l'accès reste toutefois conditionné à l'état de la route et à la météo."
     },
     "chien": {
       "admis": true,
@@ -1028,8 +1029,8 @@
       "type": "payant",
       "montant": 6,
       "unite": "jour",
-      "annee_tarif": 2025,
-      "detail": "Parking. Route à accès réglementé en haute saison."
+      "annee_tarif": null,
+      "detail": "Ancien montant de référence 6 € ; tarif exact 2026 et conditions d'accès à vérifier avant le départ."
     },
     "chien": {
       "admis": true,
@@ -1208,7 +1209,12 @@
         "legende": "J40 080 Plätzwiese",
         "credit": "Falk2 — Wikimedia Commons, CC BY-SA 4.0"
       }
-    ]
+    ],
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Accès routier réglementé en saison : la documentation touristique officielle indique depuis Ponticello une limitation de juin à octobre, avec accès voiture soumis à quota/horaires et péage. Pour le 22 octobre 2026, vérifier la règle du jour et l'état de la route avant de monter."
+    },
+    "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi4fbb9fd8e8714152b685c23ab6b5d364.summer-hiking-tour---parking-space-prato-piazza-plaetzwiese---monte-specie-strudelkopf.braies-di-fuori-ausserprags"
   },
   {
     "id": "passo-giau",
