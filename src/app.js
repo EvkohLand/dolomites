@@ -1001,6 +1001,20 @@
   function dessinerPlanning() {
     var zone = document.getElementById('planning');
     vide(zone);
+
+    var hiver = el('aside', 'alerte-hiver');
+    hiver.appendChild(el('strong', null, 'Sécurité route — équipement hiver'));
+    hiver.appendChild(el('p', null, 'Voyage prévu en octobre : la période générale d’obligation hivernale commence habituellement le 15 novembre, mais neige, verglas ou pluie verglaçante peuvent rendre un équipement hivernal obligatoire avant cette date sur les routes de montagne. Véhicule déclaré sans chaînes et sans pneus hiver : ne pas engager un col enneigé/verglacé.'));
+    var hu = el('ul', null);
+    [
+      'Avant chaque journée avec col ou route d’altitude : vérifier météo + état officiel de la route le matin même.',
+      'Si neige, verglas, pluie verglaçante ou chaussée blanche : demi-tour / itinéraire de vallée ; ne pas “tenter” le passage.',
+      'Vérifier les marquages réels des 4 saisons : M+S pour la conformité italienne ; 3PMSF est le repère nettement préférable pour la performance sur neige.',
+      'Sans chaînes à bord, considérer Passo Gardena, Falzarego, Valparola, Pordoi, Giau et les accès élevés comme conditionnels à une chaussée sèche et dégagée.'
+    ].forEach(function (x) { hu.appendChild(el('li', null, x)); });
+    hiver.appendChild(hu);
+    zone.appendChild(hiver);
+
     (E.planning || []).forEach(function (j) {
       var c = el('div', 'jour');
       c.dataset.jour = j.jour;
