@@ -1,0 +1,349 @@
+{
+  "note": "Aucun péage n’est compté par défaut : chaque tronçon est une option à cocher dans le budget. Tarifs 2026 classe 1 (France) et classe A (Italie), lus dans les grilles et calculateurs officiels le 28/09/2026. Même prix dans les deux sens.",
+  "classe": "France : classe 1 jusqu’à 2 m de hauteur totale et 3,5 t ; les équipements de toit ne comptent pas dans la hauteur, la voiture à 1,95 m reste en classe 1. Italie : classe A pour 2 essieux et 1,30 m au plus à l’aplomb de l’essieu avant ; la tente de toit, en arrière de cet essieu, ne change pas la classe.",
+  "sources_classe": [
+    {
+      "libelle": "ASFA, classification des véhicules",
+      "url": "https://www.autoroutes.fr/fr/classification-des-vehicules.htm"
+    },
+    {
+      "libelle": "Autostrade per l’Italia, classes de péage",
+      "url": "https://www.autostrade.it/it/servizi-al-cliente/pedaggio/classi-di-pedaggio"
+    }
+  ],
+  "methode": "Heures gagnées = durée de l’itinéraire gratuit − durée par l’autoroute, moyenne de deux moteurs (Valhalla et OSRM, calculés sur le même tracé). Écart de carburant = km en plus de l’itinéraire gratuit × 6.1 L/100 km × prix du litre du pays (négatif si l’itinéraire gratuit est plus court). Net = péage − écart de carburant.",
+  "seuils": {
+    "vaut_le_coup": 10,
+    "limite": 15,
+    "raison": "Le budget vise 95 € par jour ; sur une dizaine d’heures utiles, une heure de séjour vaut donc environ 10 €. Un péage qui coûte au plus 10 € net par heure gagnée rachète du temps moins cher que ce qu’il vaut : il vaut le coup. Entre 10 et 15 € : limite. Au-delà de 15 € : ne vaut pas le coup."
+  },
+  "troncons": [
+    {
+      "id": "fr-a9-a54",
+      "libelle": "Montpellier-Est → Arles",
+      "pays": "FR",
+      "autoroutes": "A709, A9, A54",
+      "operateur": "ASF (VINCI Autoroutes)",
+      "peage": "Montpellier-Est (Vendargues) → barrière d’Arles",
+      "prix": 7.4,
+      "km_autoroute": 69,
+      "prix_km": 0.11,
+      "duree_autoroute_h": 0.82,
+      "alternative": {
+        "libelle": "N113 par Lunel et Nîmes",
+        "km": 64,
+        "duree_h": 1.38,
+        "duree_h_osrm": 1.14
+      },
+      "heures_gagnees": 0.46,
+      "carburant_ecart": -0.67,
+      "net": 8.07,
+      "euros_par_heure": 15.9,
+      "net_par_heure": 17.4,
+      "verdict": "ne vaut pas le coup",
+      "alerte": null,
+      "sources": [
+        {
+          "libelle": "Grille ASF classe 1, 2026",
+          "url": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/C1-TARIFS-WEB-2026-maille_maj062026.pdf"
+        },
+        {
+          "libelle": "Mappy, Montpellier → Menton (détail par barrière)",
+          "url": "https://fr.mappy.com/itineraire/34000-montpellier/06500-menton"
+        }
+      ]
+    },
+    {
+      "id": "fr-a54-a7",
+      "libelle": "Arles → Aix-en-Provence",
+      "pays": "FR",
+      "autoroutes": "A54, A7, A8",
+      "operateur": "ASF (VINCI Autoroutes)",
+      "peage": "Saint-Martin-de-Crau → barrière de Lançon (Coudoux → Aix compris)",
+      "prix": 5.2,
+      "km_autoroute": 83,
+      "prix_km": 0.06,
+      "duree_autoroute_h": 1.32,
+      "alternative": {
+        "libelle": "N113 puis N568, A55 et A51 gratuites par Marseille",
+        "km": 104,
+        "duree_h": 1.59,
+        "duree_h_osrm": 1.52
+      },
+      "heures_gagnees": 0.38,
+      "carburant_ecart": 3.02,
+      "net": 2.18,
+      "euros_par_heure": 13.7,
+      "net_par_heure": 5.7,
+      "verdict": "vaut le coup",
+      "alerte": "L’itinéraire gratuit passe par les voies rapides de Marseille : 20 km de plus, bouchons fréquents.",
+      "sources": [
+        {
+          "libelle": "Grille ASF classe 1, 2026",
+          "url": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/C1-TARIFS-WEB-2026-maille_maj062026.pdf"
+        },
+        {
+          "libelle": "VINCI Autoroutes, principales liaisons 2026",
+          "url": "https://www.vinci-autoroutes.com/static/b9b8279934080436ee3bba255c7835e2/vinci_autoroutes-tarifs-principales-liaisons-2026.pdf"
+        },
+        {
+          "libelle": "Mappy, Montpellier → Menton (détail par barrière)",
+          "url": "https://fr.mappy.com/itineraire/34000-montpellier/06500-menton"
+        }
+      ]
+    },
+    {
+      "id": "fr-a8-provence",
+      "libelle": "Aix-en-Provence → Nice",
+      "pays": "FR",
+      "autoroutes": "A8",
+      "operateur": "ESCOTA (VINCI Autoroutes)",
+      "peage": "La Barque → Le Capitou (17,70 €), Antibes (3,50 €), Saint-Isidore (1,50 €)",
+      "prix": 22.7,
+      "km_autoroute": 174,
+      "prix_km": 0.13,
+      "duree_autoroute_h": 2.07,
+      "alternative": {
+        "libelle": "N7 par Brignoles, Le Luc, Fréjus et l’Esterel",
+        "km": 188,
+        "duree_h": 4.84,
+        "duree_h_osrm": 3.88
+      },
+      "heures_gagnees": 2.33,
+      "carburant_ecart": 2.02,
+      "net": 20.68,
+      "euros_par_heure": 9.7,
+      "net_par_heure": 8.9,
+      "verdict": "vaut le coup",
+      "alerte": "Traversée de Cannes, Antibes et Nice sans voie rapide. Le calcul le plus rapide propose sinon la route Napoléon (N85) et la N202, cols vers 1 100 m : écartée.",
+      "sources": [
+        {
+          "libelle": "Grille ESCOTA 2026",
+          "url": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-Escota/Escota-tarifs-provisoire-2026.pdf"
+        },
+        {
+          "libelle": "Guide tarifaire ESCOTA 2026",
+          "url": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-Escota/Escota-Guide-tarifaire-2026.pdf"
+        },
+        {
+          "libelle": "Mappy, Montpellier → Menton (détail par barrière)",
+          "url": "https://fr.mappy.com/itineraire/34000-montpellier/06500-menton"
+        }
+      ]
+    },
+    {
+      "id": "fr-a8-riviera",
+      "libelle": "Nice → Menton",
+      "pays": "FR",
+      "autoroutes": "A8",
+      "operateur": "ESCOTA (VINCI Autoroutes)",
+      "peage": "barrière de La Turbie",
+      "prix": 3.4,
+      "km_autoroute": 37,
+      "prix_km": 0.09,
+      "duree_autoroute_h": 0.62,
+      "alternative": {
+        "libelle": "Moyenne corniche (D6007) au-dessus de Monaco",
+        "km": 39,
+        "duree_h": 1.2,
+        "duree_h_osrm": 1
+      },
+      "heures_gagnees": 0.51,
+      "carburant_ecart": 0.42,
+      "net": 2.98,
+      "euros_par_heure": 6.7,
+      "net_par_heure": 5.8,
+      "verdict": "vaut le coup",
+      "alerte": "Route de corniche en lacets au-dessus de Monaco.",
+      "sources": [
+        {
+          "libelle": "Grille ESCOTA 2026",
+          "url": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-Escota/Escota-tarifs-provisoire-2026.pdf"
+        },
+        {
+          "libelle": "Mappy, Montpellier → Menton (détail par barrière)",
+          "url": "https://fr.mappy.com/itineraire/34000-montpellier/06500-menton"
+        }
+      ]
+    },
+    {
+      "id": "it-a10-ponente",
+      "libelle": "Menton → Finale Ligure",
+      "pays": "IT",
+      "autoroutes": "A8 puis A10",
+      "operateur": "Concessioni del Tirreno",
+      "peage": "barrière frontière de Vintimille → Finale Ligure (96 km)",
+      "prix": 13.6,
+      "km_autoroute": 96,
+      "prix_km": 0.14,
+      "duree_autoroute_h": 1.48,
+      "alternative": {
+        "libelle": "Via Aurelia (SS1) le long de la côte",
+        "km": 104,
+        "duree_h": 2.89,
+        "duree_h_osrm": 2.58
+      },
+      "heures_gagnees": 1.29,
+      "carburant_ecart": -0.82,
+      "net": 14.42,
+      "euros_par_heure": 10.5,
+      "net_par_heure": 11.2,
+      "verdict": "limite",
+      "alerte": "L’Aurelia traverse toutes les villes de la Riviera (Sanremo, Imperia, Alassio) : feux, ronds-points, 30 à 50 km/h sur une grande partie.",
+      "sources": [
+        {
+          "libelle": "Concessioni del Tirreno, péage A10",
+          "url": "https://www.concessionideltirreno.it/info-pedaggio-a10/"
+        },
+        {
+          "libelle": "Autostrada Brescia-Padova, calculateur national",
+          "url": "https://inviaggio.autobspd.it/pedaggi-e-pagamenti"
+        }
+      ]
+    },
+    {
+      "id": "it-a10-savona",
+      "libelle": "Finale Ligure → Savone",
+      "pays": "IT",
+      "autoroutes": "A10",
+      "operateur": "Concessioni del Tirreno",
+      "peage": "Finale Ligure → Savona Vado (19 km)",
+      "prix": 2.5,
+      "km_autoroute": 19,
+      "prix_km": 0.13,
+      "duree_autoroute_h": 0.53,
+      "alternative": {
+        "libelle": "Via Aurelia (SS1) par Noli et Spotorno",
+        "km": 24,
+        "duree_h": 0.64,
+        "duree_h_osrm": 0.42
+      },
+      "heures_gagnees": 0.05,
+      "carburant_ecart": -0.52,
+      "net": 3.02,
+      "euros_par_heure": 45.5,
+      "net_par_heure": 54.9,
+      "verdict": "ne vaut pas le coup",
+      "alerte": null,
+      "sources": [
+        {
+          "libelle": "Concessioni del Tirreno, péage A10",
+          "url": "https://www.concessionideltirreno.it/info-pedaggio-a10/"
+        },
+        {
+          "libelle": "Autostrada Brescia-Padova, calculateur national",
+          "url": "https://inviaggio.autobspd.it/pedaggi-e-pagamenti"
+        }
+      ]
+    },
+    {
+      "id": "it-savona-piacenza",
+      "libelle": "Savone → Plaisance",
+      "pays": "IT",
+      "autoroutes": "A10, A26, A7, A21",
+      "operateur": "Autostrade per l’Italia puis ITP",
+      "peage": "Savona Vado → Piacenza Ovest (177 km)",
+      "prix": 15.8,
+      "km_autoroute": 177,
+      "prix_km": 0.09,
+      "duree_autoroute_h": 2.08,
+      "alternative": {
+        "libelle": "SS334 par Sassello, SS30 par Acqui Terme, puis SS10",
+        "km": 193,
+        "duree_h": 4.21,
+        "duree_h_osrm": 3.59
+      },
+      "heures_gagnees": 1.85,
+      "carburant_ecart": 1.97,
+      "net": 13.83,
+      "euros_par_heure": 8.5,
+      "net_par_heure": 7.5,
+      "verdict": "vaut le coup",
+      "alerte": "La SS334 franchit l’Apennin en lacets (col du Giovo, 516 m) : lente, vérifier la météo.",
+      "sources": [
+        {
+          "libelle": "ITP, péage A21 Turin–Plaisance",
+          "url": "https://www.itpspa.it/tronco-a21/info-pedaggio/"
+        },
+        {
+          "libelle": "Autostrada Brescia-Padova, calculateur national",
+          "url": "https://inviaggio.autobspd.it/pedaggi-e-pagamenti"
+        }
+      ]
+    },
+    {
+      "id": "it-a21-a4",
+      "libelle": "Plaisance → Peschiera del Garda",
+      "pays": "IT",
+      "autoroutes": "A21, A4",
+      "operateur": "Autovia Padana puis Brescia-Padova",
+      "peage": "Piacenza Ovest → Peschiera (127 km)",
+      "prix": 9.8,
+      "km_autoroute": 127,
+      "prix_km": 0.08,
+      "duree_autoroute_h": 1.49,
+      "alternative": {
+        "libelle": "SS10, SS343 et SS11 par Crémone et Brescia",
+        "km": 114,
+        "duree_h": 2.45,
+        "duree_h_osrm": 2.42
+      },
+      "heures_gagnees": 1,
+      "carburant_ecart": -1.65,
+      "net": 11.45,
+      "euros_par_heure": 9.8,
+      "net_par_heure": 11.5,
+      "verdict": "limite",
+      "alerte": "Plaine du Pô : nationales chargées de poids lourds, traversées de bourgs.",
+      "sources": [
+        {
+          "libelle": "ITP, péage A21 Turin–Plaisance",
+          "url": "https://www.itpspa.it/tronco-a21/info-pedaggio/"
+        },
+        {
+          "libelle": "Autovia Padana, péage A21 Plaisance–Brescia",
+          "url": "https://www.autoviapadana.it/info-pedaggio/"
+        },
+        {
+          "libelle": "Autostrada Brescia-Padova, calculateur national",
+          "url": "https://inviaggio.autobspd.it/pedaggi-e-pagamenti"
+        }
+      ]
+    },
+    {
+      "id": "it-a22",
+      "libelle": "Peschiera del Garda → Bressanone",
+      "pays": "IT",
+      "autoroutes": "A22",
+      "operateur": "Autostrada del Brennero",
+      "peage": "Verona Nord → Bressanone (187 km) ; au retour, Bressanone → Affi 13,00 €",
+      "prix": 14,
+      "km_autoroute": 187,
+      "prix_km": 0.07,
+      "duree_autoroute_h": 2.24,
+      "alternative": {
+        "libelle": "SS12 par Trente et Bolzano",
+        "km": 198,
+        "duree_h": 4.31,
+        "duree_h_osrm": 3.51
+      },
+      "heures_gagnees": 1.73,
+      "carburant_ecart": 0.64,
+      "net": 13.36,
+      "euros_par_heure": 8.1,
+      "net_par_heure": 7.7,
+      "verdict": "vaut le coup",
+      "alerte": "La SS12 traverse Trente et Bolzano (zones à circulation restreinte à éviter en centre-ville).",
+      "sources": [
+        {
+          "libelle": "Autobrennero, coût du péage",
+          "url": "https://www.autobrennero.it/it/in-viaggio/pedaggio/costi-autostrada/"
+        },
+        {
+          "libelle": "Autostrada Brescia-Padova, calculateur national",
+          "url": "https://inviaggio.autobspd.it/pedaggi-e-pagamenti"
+        }
+      ]
+    }
+  ]
+}

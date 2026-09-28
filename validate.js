@@ -83,6 +83,7 @@ const carburant = lire('commun/carburant.json');
 const randonnees = lire('commun/randonnees.json');
 const decouvertes = lire('commun/decouvertes.json');
 const pratique = lire('commun/pratique.json');
+const peages = lire('commun/peages.json');
 
 for (const [rel, obj] of [
   ['scenarios.json', scenarios], ['commun/lieux.json', lieux],
@@ -92,6 +93,7 @@ for (const [rel, obj] of [
   ['commun/randonnees.json', randonnees],
   ['commun/decouvertes.json', decouvertes],
   ['commun/pratique.json', pratique],
+  ['commun/peages.json', peages],
 ]) {
   if (obj) chasserDonneesPerso(rel, obj, '');
 }
@@ -117,6 +119,12 @@ if (Array.isArray(lieux)) {
     }
     if (l.prix && !['gratuit', 'payant', 'inclus', 'variable'].includes(l.prix.type)) {
       err(ou, `« ${nom} » : prix.type vaut « ${l.prix.type} », attendu gratuit, payant, inclus ou variable`);
+    }
+    if (l.prix && l.prix.budget && l.prix.budget !== 'indispensable') {
+      err(ou, `« ${nom} » : prix.budget vaut « ${l.prix.budget} », seule valeur admise : indispensable (sinon l'activité est une option)`);
+    }
+    if (l.prix && l.prix.budget === 'indispensable' && !l.prix.raison_budget) {
+      err(ou, `« ${nom} » : un accès payant déclaré indispensable doit donner sa raison (prix.raison_budget)`);
     }
     if (l.niveau_prix && !/^€{1,4}$/.test(l.niveau_prix)) {
       err(ou, `« ${nom} » : niveau_prix vaut « ${l.niveau_prix} », attendu € à €€€€`);
@@ -197,6 +205,28 @@ if (carburant) {
       err('commun/carburant.json', `pays par défaut « ${carburant.defaut} » absent de la liste`);
     }
   }
+}
+
+/* ---------- Péages : chaque tronçon est une option du budget ---------- */
+
+const troncons = new Set();
+if (peages) {
+  const ou = 'commun/peages.json';
+  const verdicts = ['vaut le coup', 'limite', 'ne vaut pas le coup'];
+  if (!Array.isArray(peages.troncons)) err(ou, 'troncons doit être un tableau');
+  else peages.troncons.forEach((t, i) => {
+    const nom = t && t.id || `#${i}`;
+    if (!t.id) err(ou, `tronçon #${i} : id manquant`);
+    else if (troncons.has(t.id)) err(ou, `tronçon en double : « ${t.id} »`);
+    else troncons.add(t.id);
+    for (const champ of ['prix', 'heures_gagnees', 'carburant_ecart', 'net']) {
+      if (typeof t[champ] !== 'number' || isNaN(t[champ])) err(ou, `« ${nom} » : ${champ} doit être un nombre`);
+    }
+    if (!verdicts.includes(t.verdict)) err(ou, `« ${nom} » : verdict « ${t.verdict} » inconnu (attendu : ${verdicts.join(', ')})`);
+    if (!Array.isArray(t.sources) || !t.sources.length || t.sources.some(x => !x || !/^https:\/\//.test(x.url || ''))) {
+      err(ou, `« ${nom} » : au moins une source HTTPS obligatoire`);
+    }
+  });
 }
 
 /* ---------- Randonnées par zone ---------- */
@@ -344,6 +374,15 @@ if (scenarios && Array.isArray(scenarios.scenarios)) {
         }
         (e.par || []).forEach(v => {
           if (!ids.has(v)) err(ou2, `étape « ${e.id} » : passage « ${v} » introuvable`);
+        });
+        (e.troncons_peage || []).forEach(id => {
+          if (!troncons.has(id)) err(ou2, `étape « ${e.id} » : tronçon à péage « ${id} » absent de commun/peages.json`);
+        });
+        if (e.peage_local && !(e.par || []).includes(e.peage_local)) {
+          err(ou2, `étape « ${e.id} » : peage_local « ${e.peage_local} » doit être un des passages (par)`);
+        }
+        (e.via_gps || []).forEach((g, k) => {
+          if (!Array.isArray(g) || g.length !== 2 || g.some(n => typeof n !== 'number')) err(ou2, `étape « ${e.id} » : via_gps #${k} invalide (attendu [latitude, longitude])`);
         });
         if (e.pays && carburant && carburant.pays && !carburant.pays[e.pays]) {
           err(ou2, `étape « ${e.id} » : pays « ${e.pays} » absent de commun/carburant.json`);
