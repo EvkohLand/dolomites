@@ -693,3 +693,17 @@ table.grille td { font-variant-numeric: tabular-nums; }
   margin: 0 12px 12px;
   font-size: .78rem;
 }
+
+
+/* Sécurité routière automnale / équipement hiver */
+.alerte-hiver {
+  margin: 0 0 1.25rem;
+  padding: 1rem 1.1rem;
+  border: 2px solid #c94820;
+  border-radius: 12px;
+  background: rgba(201, 72, 32, 0.08);
+}
+.alerte-hiver strong { display: block; margin-bottom: .45rem; }
+.alerte-hiver p { margin: 0 0 .55rem; }
+.alerte-hiver ul { margin: 0; padding-left: 1.2rem; }
+.alerte-hiver li + li { margin-top: .3rem; }
