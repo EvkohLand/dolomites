@@ -43,8 +43,9 @@
           "nom": "Plose — télécabine depuis Bressanone",
           "disponibilite": "23/05–01/11/2026 ; 09:00–17:00 du 07/09 au 01/11",
           "chien": "Chiens : 5 € / jour",
-          "resume": "Alternative météo/activité depuis Bressanone : montée vers 2 000 m, panorama et départ de promenades.",
-          "source": "https://www.plose.org/en/summer-plose/opening-hours-prices.html"
+          "resume": "Très bon repli depuis Bressanone. Si vous séjournez au Löwenhof, le Guest Pass camping inclut en 2026 une montée + descente quotidienne sur certaines remontées Plose pendant votre période.",
+          "source": "https://www.loewenhof.it/en/camping/conditions",
+          "prix": "Incluse : 1 montée + descente/jour avec le Brixen Südtirol Guest Pass si hébergement au Löwenhof ; sinon tarif public de la remontée."
         },
         {
           "type": "activite",
@@ -96,6 +97,14 @@
           "disponibilite": "Piscine couverte ; horaires à vérifier",
           "resume": "Piscine intérieure avec bassin sportif, bassin ludique, rapides et eau salée : solution de vraie mauvaise météo.",
           "source": "https://www.brixen.org/en/my-holiday/brixen-as-a-holiday-destination/brixen-suedtirol-guest-pass"
+        },
+        {
+          "type": "bon-plan",
+          "nom": "Brixen Südtirol Guest Pass — avantages depuis Löwenhof",
+          "disponibilite": "Inclus pour les hôtes du camping Löwenhof ; valable pendant le séjour selon conditions 2026",
+          "prix": "Inclus dans l'hébergement",
+          "resume": "Transports publics régionaux gratuits, certains musées/Abbaye de Novacella, Acquarena hors dimanche/jours fériés, et une montée + descente quotidienne sur certaines remontées Plose pendant votre période.",
+          "source": "https://www.loewenhof.it/en/camping/conditions"
         }
       ]
     },
