@@ -53,5 +53,34 @@
       "libelle": "ARPAV — Dolomiti Meteo (Belluno/Vénétie)",
       "url": "https://www.arpa.veneto.it/dati-ambientali/bollettini/meteo/dolomiti"
     }
-  ]
+  ],
+  "normales_reference": {
+    "lieu": "Cortina d’Ampezzo",
+    "altitude": 1224,
+    "gradient_c_par_100m": 0.6,
+    "zone": {
+      "lat_min": 46.2,
+      "lat_max": 47.1,
+      "lng_min": 10.8,
+      "lng_max": 12.8
+    },
+    "decades": [
+      {
+        "jusqu_au": 10,
+        "max": 12.4,
+        "min": 4.6
+      },
+      {
+        "jusqu_au": 20,
+        "max": 11.1,
+        "min": 2.9
+      },
+      {
+        "jusqu_au": 31,
+        "max": 9.8,
+        "min": 1.5
+      }
+    ],
+    "note": "Normales d’octobre de Cortina, corrigées de 0,6 °C par 100 m de dénivelé. Valable seulement dans les Dolomites."
+  }
 }

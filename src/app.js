@@ -616,6 +616,7 @@
     var l = E.parId.get(id);
     if (!l) return;
     var retour = opts && opts.retour;
+    document.getElementById('panneau').classList.remove('modale--etape');
     var c = cat(l.categorie);
     var p = document.getElementById('panneau');
     var corps = document.getElementById('panneau-corps');
@@ -1225,6 +1226,16 @@
 
     if (j.note) corps.appendChild(el('p', 'modale__desc', j.note));
 
+    var grille = el('div', 'etape-grille');
+    var principal = el('div', 'etape-grille__principal');
+    var cote = el('div', 'etape-grille__cote');
+    grille.appendChild(principal);
+    grille.appendChild(cote);
+    corps.appendChild(grille);
+
+    dessinerMeteoEtape(j, cote);
+    dessinerBudgetEtape(j, cote);
+
     /* Route */
     var r = routeDuJour(j);
     if (r) {
@@ -1244,7 +1255,7 @@
         focusEtape(r.etape);
         document.getElementById('section-carte').scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
-      corps.appendChild(bloc('Route', tr));
+      cote.appendChild(bloc('Route', tr));
     }
 
     /* Programme : chaque visite ouvre sa fiche complète. */
@@ -1264,7 +1275,7 @@
         b.addEventListener('click', function () { if (l) ouvrirPanneau(l.id, { retour: j.jour }); });
         ul.appendChild(b);
       });
-      corps.appendChild(bloc('Programme', ul));
+      principal.appendChild(bloc('Programme', ul));
     }
 
     /* Nuit, puis les solutions de repli du même secteur. */
@@ -1296,7 +1307,7 @@
         });
         dn.appendChild(ra);
       }
-      corps.appendChild(bloc('Nuit', dn));
+      principal.appendChild(bloc('Nuit', dn));
 
       /* Courses : magasins listés à moins de 25 km de la nuit. */
       var courses = [];
@@ -1314,7 +1325,7 @@
           b.addEventListener('click', function () { ouvrirPanneau(l.id, { retour: j.jour }); });
           dc.appendChild(b);
         });
-        corps.appendChild(bloc('Courses à proximité', dc));
+        principal.appendChild(bloc('Courses à proximité', dc));
       }
     }
 
@@ -1324,15 +1335,17 @@
       var dr = el('details', 'volet volet--interne');
       dr.appendChild(el('summary', null, 'Autres randonnées dans la zone (' + nbRandos + ')'));
       dessinerRandosJour(j, dr);
-      corps.appendChild(dr);
+      principal.appendChild(dr);
     }
     var nbDec = decouvertesPourJour(j).reduce(function (s, g) { return s + (g.items || []).length; }, 0);
     if (nbDec) {
       var dd = el('details', 'volet volet--interne');
       dd.appendChild(el('summary', null, 'À faire, remontées et bonnes adresses (' + nbDec + ')'));
       dessinerDecouvertesJour(j, dd);
-      corps.appendChild(dd);
+      principal.appendChild(dd);
     }
+
+    dessinerReglesEtape(j, cote);
 
     /* Navigation entre les jours sans refermer. */
     var nav = el('div', 'paire');
@@ -1342,11 +1355,131 @@
     if (suiv) { var bs = el('button', 'action action--fort', 'Jour ' + suiv.jour + ' →'); bs.type = 'button'; bs.addEventListener('click', function () { ouvrirEtape(suiv.jour); }); nav.appendChild(bs); }
     corps.appendChild(nav);
 
+    p.classList.add('modale--etape');
     p.hidden = false;
     document.body.style.overflow = 'hidden';
     if (location.hash !== '#jour-' + j.jour) history.pushState({ jour: j.jour }, '', '#jour-' + j.jour);
     document.getElementById('panneau-fermer').focus();
     corps.scrollTop = 0;
+  }
+
+  /* ---------- Météo, budget et règles d'une étape ---------- */
+
+  var CODES_METEO = {
+    0: 'Ciel clair', 1: 'Plutôt clair', 2: 'Partiellement nuageux', 3: 'Couvert', 45: 'Brouillard', 48: 'Brouillard givrant',
+    51: 'Bruine faible', 53: 'Bruine', 55: 'Bruine forte', 61: 'Pluie faible', 63: 'Pluie', 65: 'Pluie forte',
+    66: 'Pluie verglaçante', 67: 'Pluie verglaçante forte', 71: 'Neige faible', 73: 'Neige', 75: 'Neige forte', 77: 'Grains de neige',
+    80: 'Averses faibles', 81: 'Averses', 82: 'Averses violentes', 85: 'Averses de neige', 86: 'Fortes averses de neige',
+    95: 'Orage', 96: 'Orage avec grêle', 99: 'Orage avec forte grêle'
+  };
+  var cacheMeteo = {};
+
+  /* Points météo du jour : la nuit, plus le lieu le plus haut s'il dépasse la nuit de 300 m. */
+  function pointsMeteo(j) {
+    var lieux = lieuxDuJour(j).filter(function (l) { return Array.isArray(l.gps); });
+    var nuit = j.nuit ? E.parId.get(j.nuit) : null;
+    var haut = lieux.slice().sort(function (a, b) { return (b.altitude || 0) - (a.altitude || 0); })[0];
+    var pts = [];
+    if (nuit && Array.isArray(nuit.gps)) pts.push({ lieu: nuit, role: 'Nuit' });
+    if (haut && (!nuit || (haut.altitude || 0) > (nuit.altitude || 0) + 300)) pts.push({ lieu: haut, role: 'Point haut' });
+    if (!pts.length && lieux.length) pts.push({ lieu: lieux[0], role: 'Étape' });
+    return pts;
+  }
+
+  function dansZone(l, z) {
+    return !!(z && l && Array.isArray(l.gps) && l.gps[0] >= z.lat_min && l.gps[0] <= z.lat_max && l.gps[1] >= z.lng_min && l.gps[1] <= z.lng_max);
+  }
+
+  /* Normale d'octobre de la station de référence, ramenée à l'altitude du lieu. */
+  function normale(l, date) {
+    var n = (E.meteo || {}).normales_reference;
+    if (!n || !date || !l.altitude || !dansZone(l, n.zone) || date.slice(5, 7) !== '10') return null;
+    var jour = Number(date.slice(8, 10));
+    var dec = (n.decades || []).find(function (x) { return jour <= x.jusqu_au; });
+    if (!dec) return null;
+    var delta = (l.altitude - n.altitude) / 100 * (n.gradient_c_par_100m || 0.6);
+    return Math.round(dec.min - delta) + ' / ' + Math.round(dec.max - delta) + ' °C';
+  }
+
+  function prevision(l, date) {
+    var cle = l.id + '|' + date;
+    if (!cacheMeteo[cle]) {
+      var u = 'https://api.open-meteo.com/v1/forecast?latitude=' + l.gps[0] + '&longitude=' + l.gps[1] +
+        (l.altitude ? '&elevation=' + l.altitude : '') +
+        '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,snowfall_sum,wind_speed_10m_max' +
+        '&timezone=Europe%2FRome&start_date=' + date + '&end_date=' + date;
+      cacheMeteo[cle] = fetch(u).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function (d) { return d.daily; });
+      cacheMeteo[cle].catch(function () { delete cacheMeteo[cle]; });
+    }
+    return cacheMeteo[cle];
+  }
+
+  function dessinerMeteoEtape(j, conteneur) {
+    var m = E.meteo || {};
+    var d = el('div', 'meteo-etape');
+    var pts = pointsMeteo(j);
+    pts.forEach(function (pt) {
+      var ligne = el('div', 'meteo-etape__point');
+      ligne.appendChild(el('p', 'meteo-etape__lieu', pt.role + ' · ' + pt.lieu.nom + (pt.lieu.altitude ? ' (' + pt.lieu.altitude + ' m)' : '')));
+      var val = el('p', 'meteo-etape__val', 'Prévision en cours de chargement…');
+      ligne.appendChild(val);
+      d.appendChild(ligne);
+      var nm = normale(pt.lieu, j.date);
+      if (nm) ligne.appendChild(el('p', 'jour__note', 'Normale de saison estimée à ' + (pt.lieu.altitude || '?') + ' m : ' + nm));
+      if (!j.date || !window.fetch) { val.textContent = 'Prévision indisponible hors ligne.'; return; }
+      prevision(pt.lieu, j.date).then(function (x) {
+        if (!x || !x.time || !x.time.length || x.temperature_2m_max[0] == null) throw new Error('vide');
+        var t = [
+          CODES_METEO[x.weather_code[0]] || 'Temps variable',
+          Math.round(x.temperature_2m_min[0]) + ' / ' + Math.round(x.temperature_2m_max[0]) + ' °C',
+          'pluie ' + x.precipitation_sum[0] + ' mm' + (x.precipitation_probability_max[0] != null ? ' (' + x.precipitation_probability_max[0] + ' %)' : ''),
+          x.snowfall_sum[0] ? 'neige ' + x.snowfall_sum[0] + ' cm' : null,
+          'vent ' + Math.round(x.wind_speed_10m_max[0]) + ' km/h'
+        ].filter(Boolean).join(' · ');
+        val.textContent = t;
+        val.classList.add('meteo-etape__val--ok');
+      }).catch(function () {
+        val.textContent = 'Pas encore de prévision pour cette date (au-delà de 16 jours ou hors ligne).';
+      });
+    });
+    d.appendChild(el('p', 'jour__note', 'Prévision Open-Meteo à l’altitude du lieu, actualisée à chaque ouverture ; fiable à 3–5 jours seulement.'));
+    var enDolomites = pts.some(function (pt) { return dansZone(pt.lieu, (m.normales_reference || {}).zone); });
+    if (enDolomites) {
+      if (pts.some(function (pt) { return (pt.lieu.altitude || 0) >= 1800; }) && m.note_altitude) d.appendChild(el('p', 'jour__note', m.note_altitude));
+      var liens = el('div', 'puces');
+      (m.sources || []).forEach(function (s) { if (s && s.url) liens.appendChild(lienExterne(s.libelle, s.url)); });
+      if (liens.childNodes.length) d.appendChild(liens);
+    }
+    conteneur.appendChild(bloc('Météo du jour', d));
+  }
+
+  function dessinerBudgetEtape(j, conteneur) {
+    var b = calculerBudget();
+    if (!b) return;
+    var lignes = b.lignes.filter(function (x) { return x.jour === j.jour; });
+    if (!lignes.length) return;
+    var libPoste = {};
+    (b.postes || []).forEach(function (p) { libPoste[p.id] = p.libelle; });
+    var total = lignes.reduce(function (a, x) { return a + x.montant; }, 0);
+    var d = el('div');
+    d.appendChild(tableauCle(lignes.map(function (x) {
+      return { libelle: (libPoste[x.poste] || x.poste) + ' — ' + x.libelle, valeur: euros(x.montant) };
+    }).concat([{ libelle: 'Total du jour', valeur: euros(total) }])));
+    conteneur.appendChild(bloc('Budget du jour', d));
+  }
+
+  function dessinerReglesEtape(j, conteneur) {
+    var ids = [];
+    lieuxDuJour(j).forEach(function (l) { if (l.reglement && ids.indexOf(l.reglement) === -1) ids.push(l.reglement); });
+    var regles = ids.map(function (id) { return (E.regles || []).find(function (r) { return r.id === id; }); }).filter(Boolean);
+    if (!regles.length) return;
+    var d = el('div');
+    regles.forEach(function (r) {
+      d.appendChild(el('p', 'regle-etape__titre', r.titre));
+      if (r.resume) d.appendChild(el('p', 'jour__note', r.resume));
+    });
+    conteneur.appendChild(bloc('Règles qui s’appliquent', d));
   }
 
   /* ---------- Budget ---------- */

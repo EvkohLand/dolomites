@@ -836,3 +836,20 @@ table.grille td { font-variant-numeric: tabular-nums; }
 .volet[open] > summary::after { content: "−"; }
 .volet > :not(summary) { padding: 0 16px 16px; }
 .volet--interne { margin-top: 14px; background: var(--fond); }
+
+/* ---------- Vue d'une étape : pleine largeur, deux colonnes ---------- */
+
+.modale--etape .modale__corps { max-width: none; padding-inline: clamp(16px, 3vw, 40px); }
+.etape-grille { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(300px, 1fr); gap: 0 36px; align-items: start; }
+.etape-grille__cote { position: sticky; top: 0; }
+@media (max-width: 900px) {
+  .etape-grille { grid-template-columns: 1fr; }
+  .etape-grille__cote { position: static; order: -1; }
+}
+.modale--etape .galerie--etape .photo img { height: clamp(150px, 22vh, 240px); }
+.meteo-etape__point { padding: 8px 0; border-bottom: 1px solid var(--trait); }
+.meteo-etape__lieu { margin: 0; font-size: 13px; color: var(--discret); }
+.meteo-etape__val { margin: 2px 0 0; font-size: 14px; }
+.meteo-etape__val--ok { font-weight: 600; }
+.puces .lien-ext { padding: 6px 11px; font-size: 13px; }
+.regle-etape__titre { margin: 8px 0 2px; font-weight: 600; font-size: 14px; }
