@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "note": "Bibliothèque strictement rattachée aux zones du planning. Données chiffrées reprises des sources indiquées ; métriques laissées nulles lorsqu'elles ne sont pas publiées. Les risques sont qualifiés pour un voyage en octobre et ne remplacent pas le contrôle météo/état du sentier le jour même. Les itinéraires signalés fermés par leur source restent visibles mais explicitement marqués fermés.",
   "zones": [
     {
@@ -102,7 +102,8 @@
             "sentiers 33/35/6",
             "Zans"
           ],
-          "source": "https://www.odlesdolomites.com/en/activities/D3C26167D5906647E33AD23EE9D079E7"
+          "source": "https://www.odlesdolomites.com/en/activities/D3C26167D5906647E33AD23EE9D079E7",
+          "statut_source": "Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10."
         },
         {
           "nom": "Zans → Gampenalm — aller-retour",
@@ -125,7 +126,7 @@
             "retour par le même itinéraire"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/8E8F6062070B10CF0DCE441E1674BEDD",
-          "statut_source": "open"
+          "statut_source": "open · Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10."
         },
         {
           "nom": "Zans → Kirchwiesl → Kaserillalm — boucle courte",
@@ -223,7 +224,7 @@
             "Zans"
           ],
           "source": "https://www.odlesdolomites.com/en/activities/72AD0EAE5AF4CA327BFB8585BA41051C",
-          "statut_source": "open"
+          "statut_source": "open · Gampenalm ferme le 30/09/2026 : sentier possible, mais aucun service à la Gampenalm le 12/10."
         },
         {
           "nom": "Cascade de Flitz — boucle depuis Pitzack",
@@ -403,7 +404,8 @@
             "montée vers Seceda",
             "terrasse UNESCO"
           ],
-          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/curona-de-gherdeeina-deluxe-stage-1-resciesa-col-raiser-seceda/811293484/"
+          "source": "https://www.valgardena.it/en/outdoor/base/outdoor/curona-de-gherdeeina-deluxe-stage-1-resciesa-col-raiser-seceda/811293484/",
+          "statut_source": "Itinéraire officiel, mais le funiculaire Resciesa ferme le 11/10/2026 : départ depuis la station haute non accessible par remontée pendant vos journées du 13–16/10."
         },
         {
           "nom": "Cristauta → Sëurasas → Seceda Ridge Line",
@@ -467,7 +469,7 @@
             "Mastlé / Seceda"
           ],
           "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-through-the-forcella-mezdi/810055437/",
-          "statut_source": "open, passage à contrôler"
+          "statut_source": "Itinéraire officiel, mais le funiculaire Resciesa ferme le 11/10/2026 : départ depuis la station haute non accessible par remontée pendant vos journées du 13–16/10."
         },
         {
           "nom": "Col Raiser vallée → Seceda via Rifugio Firenze",
@@ -507,7 +509,7 @@
       "randos": [
         {
           "nom": "Spitzbühl – Tschapit — boucle",
-          "distance_km": null,
+          "distance_km": 9.1,
           "duree": "2 h 47",
           "denivele_plus_m": 431,
           "niveau": "Intermédiaire",
@@ -519,11 +521,14 @@
             "Tschapit",
             "retour vers le plateau"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/regions/dolomites-region-seiser-alm/hiking-trails.p3"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoide541bb3b1316706a3ecb8ffee889b29.spitzbuehl-tschapit-round-tour.alpe-di-siusi-seiseralm",
+          "denivele_moins_m": 431,
+          "altitude_max_m": 2018,
+          "statut_source": "Fiche officielle vérifiée ; départ à la station basse Spitzbühl. Télésiège Spitzbühl fermé en octobre mais la randonnée ne nécessite pas son utilisation."
         },
         {
           "nom": "Compatsch – Schlernhaus – Tierser Alpl – Compatsch",
-          "distance_km": null,
+          "distance_km": 21.9,
           "duree": "7 h 04",
           "denivele_plus_m": 1292,
           "niveau": "Intermédiaire (très exigeant physiquement)",
@@ -536,7 +541,10 @@
             "Tierser Alpl",
             "retour Compatsch"
           ],
-          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/regions/dolomites-region-seiser-alm/hiking-trails.page4"
+          "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi98b18bbf6fe68fa8e0b3c27c5444a5ce.compatsch---schlernhaus---tierser-alpl---compatsch.alpe-di-siusi-seiseralm",
+          "denivele_moins_m": 1292,
+          "altitude_max_m": 2563,
+          "statut_source": "Fiche officielle vérifiée ; itinéraire très long pour octobre malgré la difficulté officielle 'medium'."
         },
         {
           "nom": "Compatsch → Piz → Saltria",
@@ -889,7 +897,8 @@
             "Limosee",
             "Gran Fanes"
           ],
-          "source": "https://www.sanvigilio.com/en/activity/summer-hike-to-the-gran-fanes-pastures_211064?cmpscreen=1"
+          "source": "https://www.sanvigilio.com/en/activity/summer-hike-to-the-gran-fanes-pastures_211064?cmpscreen=1",
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
         },
         {
           "nom": "Pederü → Capanna Alpina par Fanes",
@@ -912,7 +921,8 @@
             "Col de Locia",
             "Capanna Alpina"
           ],
-          "source": "https://www.sanvigilio.com/en/activity/hike-from-peder-to-capanna-alpina_29879"
+          "source": "https://www.sanvigilio.com/en/activity/hike-from-peder-to-capanna-alpina_29879",
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
         },
         {
           "nom": "Fanes → Monte Vallon Bianco — Peace Trail",
@@ -936,7 +946,8 @@
             "sommet Monte Vallon Bianco",
             "retour identique"
           ],
-          "source": "https://www.sanvigilio.com/en/activity/peace-trail-fanes-monte-vallon-bianco_210944"
+          "source": "https://www.sanvigilio.com/en/activity/peace-trail-fanes-monte-vallon-bianco_210944",
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
         },
         {
           "nom": "Capanna Alpina → Fanes → Pederü",
@@ -962,7 +973,7 @@
             "Pederü"
           ],
           "source": "https://www.altabadia.org/en/dolomites/hiking-alta-badia/detail/oa/hike-from-san-cassiano-to-the-fanes-plateau",
-          "statut_source": "itinéraire officiel"
+          "statut_source": "itinéraire officiel · Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
         },
         {
           "nom": "Capanna Alpina → Forcela dl Lech → Lagazuoi Lake → Scotoni — boucle",
@@ -989,7 +1000,8 @@
             "Armentarola",
             "Sciaré"
           ],
-          "source": "https://www.altabadia.org/en/tour/oadetail/oa/from-san-cassiano-sciare-across-the-forcela-dl-lech-notch-to-the-lech-de-lagacio-lake-and-the-uetia-scotoni-hut"
+          "source": "https://www.altabadia.org/en/tour/oadetail/oa/from-san-cassiano-sciare-across-the-forcela-dl-lech-notch-to-the-lech-de-lagacio-lake-and-the-uetia-scotoni-hut",
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
         },
         {
           "nom": "Capanna Alpina → sommet Conturines",
@@ -1014,7 +1026,8 @@
             "passages câblés",
             "sommet Conturines"
           ],
-          "source": "https://www.altabadia.org/en/tour/detail/oa/ascent-of-mt-conturines"
+          "source": "https://www.altabadia.org/en/tour/detail/oa/ascent-of-mt-conturines",
+          "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges."
         }
       ]
     },
