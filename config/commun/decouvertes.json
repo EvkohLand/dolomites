@@ -41,24 +41,26 @@
         {
           "type": "remontee",
           "nom": "Plose — télécabine depuis Bressanone",
-          "disponibilite": "23 mai–1 novembre 2026 ; 09:00–17:00 du 7 septembre au 1er novembre",
-          "chien": "Admis, 5 € / jour selon l'exploitant",
+          "disponibilite": "23/05–01/11/2026 ; 09:00–17:00 du 07/09 au 01/11",
+          "chien": "Chiens : 5 € / jour",
           "resume": "Alternative météo/activité depuis Bressanone : montée vers 2 000 m, panorama et départ de promenades.",
           "source": "https://www.plose.org/en/summer-plose/opening-hours-prices.html"
         },
         {
           "type": "activite",
           "nom": "Plosebob",
-          "disponibilite": "23 mai–1 novembre 2026 ; 09:45–16:30 à partir du 7 septembre, pause 12:15–13:00 après le 5 octobre",
+          "disponibilite": "05/10–01/11/2026 : 09:45–12:15 et 13:00–16:30",
           "resume": "Luge sur rails à la station haute de la Plose ; peut fermer en cas de pluie, neige, brouillard ou orage.",
-          "source": "https://www.plose.org/en/summer-plose/opening-hours-prices.html"
+          "source": "https://www.plose.org/en/plosebob-summer/",
+          "prix": "10 € à partir de 12 ans ; 8 € de 4 à 11 ans"
         },
         {
           "type": "activite",
           "nom": "Plose Looping — « Eye of the Dolomites »",
-          "disponibilite": "5 octobre–1 novembre 2026 : 09:15–12:30 et 13:00–16:45",
+          "disponibilite": "05/10–01/11/2026 : 09:15–12:30 et 13:00–16:45",
           "resume": "Attraction 360° à la station haute ; activité courte à combiner avec la Plose.",
-          "source": "https://www.plose.org/en/summer-plose/adrenaline-plose/looping.html"
+          "source": "https://www.plose.org/en/summer-plose/adrenaline-plose/looping.html",
+          "prix": "Gratuit pour les passagers de la télécabine Plose ; sinon 8 €"
         },
         {
           "type": "visite",
@@ -128,23 +130,30 @@
         {
           "type": "gastronomie",
           "nom": "Almhotel Col Raiser",
-          "disponibilite": "Été + hiver selon le guide Val Gardena ; vérifier le jour même",
-          "resume": "Refuge/restaurant à 2 106 m entre Sassolungo et Seceda, directement utile avec la remontée Col Raiser.",
-          "source": "https://www.valgardena.it/en/holiday_guide/30/"
+          "disponibilite": "FERMÉ à votre journée Seceda du 13 octobre : ouverture estivale jusqu'au 12/10/2026",
+          "resume": "Ne pas compter dessus le 13 octobre. La remontée Col Raiser reste ouverte, mais cet hôtel-restaurant ferme la veille.",
+          "source": "https://www.valgardena.it/en/addresses/detail-gastronomy/base/company/s-cristina-val-gardena/almhotel-col-raiser/C0DF8B3F76D911D18F2900A02427D15E/"
         },
         {
           "type": "gastronomie",
           "nom": "Baita Sofie / Sofie Hütte",
-          "disponibilite": "Horaires saisonniers à confirmer",
-          "resume": "Adresse de montagne très connue sur Seceda ; utile pour déjeuner pendant la journée Seceda.",
-          "source": "https://www.valgardena.it/en/holiday_guide/"
+          "disponibilite": "OUVERT à vos dates : 01/10–02/11/2026, 08:00–18:00",
+          "resume": "Bonne adresse réellement ouverte sur Seceda pendant votre journée du 13 octobre.",
+          "source": "https://www.valgardena.it/en/addresses/detail-gastronomy/base/company/s-cristina-val-gardena/sofie-hut/4A2F88D6EE774DCA8C555BD58D7C100E/"
         },
         {
           "type": "gastronomie",
           "nom": "Chalet Resciesa",
-          "disponibilite": "À vérifier ; la restauration est décrite comme été + hiver",
-          "resume": "Cuisine sud-tyrolienne et ambiance de refuge sur Resciesa ; à retenir surtout si l'itinéraire de la journée change.",
-          "source": "https://www.valgardena.it/en/holiday_guide/30/"
+          "disponibilite": "FERMÉ à vos dates Val Gardena : restaurant ouvert seulement jusqu'au 11/10/2026",
+          "resume": "À ne pas retenir pour les journées du 13–16 octobre ; le funiculaire Resciesa est lui aussi fermé après le 11 octobre.",
+          "source": "https://www.valgardena.it/en/addresses/detail-gastronomy/base/company/ortisei-val-gardena/chalet-resciesa/80B4027606C0506AB8D9B6935448A46F/"
+        },
+        {
+          "type": "gastronomie",
+          "nom": "Seceda Bergstation / Restaurant Seceda",
+          "disponibilite": "OUVERT : 22/05–02/11/2026, 08:30–17:00",
+          "resume": "Adresse directement à la station haute de Seceda, vérifiée ouverte le 13 octobre.",
+          "source": "https://www.valgardena.it/en/addresses/detail-gastronomy/base/company/s-cristina-val-gardena/seceda-bergstation-hut/C7D034BFB84911D2AFB8006008816738/"
         }
       ]
     },
@@ -158,9 +167,9 @@
         {
           "type": "remontee",
           "nom": "Ortisei → Alpe di Siusi",
-          "disponibilite": "1 mai–2 novembre 2026 ; 08:30–18:00 jusqu'au 16 octobre puis 08:30–17:00",
+          "disponibilite": "01/05–02/11/2026 ; 08:30–18:00 jusqu'au 16/10 puis 08:30–17:00",
           "resume": "Remontée encore ouverte pendant le séjour et alternative au stationnement sur le plateau.",
-          "source": "https://www.seiseralm.it/en/active/winter/ropeway-systems-in-winter.html"
+          "source": "https://www.valgardena.it/en/summer-holidays-dolomites/lifts/"
         },
         {
           "type": "remontee",
@@ -304,9 +313,9 @@
         {
           "type": "experience",
           "nom": "Plateau de Fanes et refuges Fanes/Lavarella",
-          "disponibilite": "Accès à pied ; ouverture des refuges à vérifier fin octobre",
-          "resume": "Même sans faire la grande traversée, monter depuis Pederü jusqu'au plateau permet une excursion plus courte modulable.",
-          "source": "https://www.sanvigilio.com/en/activity/summer-hike-to-the-gran-fanes-pastures_211064?cmpscreen=1"
+          "disponibilite": "RANDONNÉE POSSIBLE selon terrain, mais REFUGES FERMÉS le 20/10 : Fanes ferme le 04/10, Lavarella le 11/10",
+          "resume": "Le plateau reste accessible à pied si les conditions sont sûres, mais il faut partir en autonomie complète : aucune restauration ni refuge Fanes/Lavarella à compter dans le plan.",
+          "source": "https://www.sanvigilio.com/en/info/mountain-hut-fanes_4419"
         },
         {
           "type": "gastronomie",
