@@ -707,13 +707,13 @@
     "ouverture": {
       "fin_saison": "2026-10-18",
       "a_reverifier": false,
-      "note": "Saison estivale 2026 confirmée : 6 juin–18 octobre ; 09:00, dernière montée 16:40, dernière descente 17:00. Prévu le 17/10, report possible au 18/10 seulement."
+      "note": "Saison été 2026 : 6 juin–18 octobre ; 9h00, dernière montée 16h40, dernière descente 17h00. Prévu le 17/10, report possible au 18/10 seulement. Rifugio Lagazuoi (sommet) fermé depuis le 4 octobre."
     },
     "chien": {
       "admis": true,
-      "note": "Admis en cabine ; laisse et muselière selon la taille et le règlement du transporteur."
+      "note": "Admis en cabine, laisse et muselière obligatoires pour les grands chiens ; billet chien 20,50 € A/R. Petits chiens portés (50×30 cm) gratuits, également en laisse et muselés."
     },
-    "source": "https://lagazuoi.it/EN/Info-Prezzi-e-info-utili-page20-Funivia-del-Lagazuoi-Estate-2025",
+    "source": "https://lagazuoi.it/EN/Information-Prices-and-useful-information-page20-Lagazuoi-cable-car",
     "etiquettes": [
       "vue",
       "ferme tot",
@@ -828,7 +828,7 @@
     "horaires": [
       {
         "libelle": "Saison été 2026",
-        "valeur": "30 mai (grille tarifaire) / 6 juin (page info) – 18 octobre 2026"
+        "valeur": "6 juin – 18 octobre 2026"
       },
       {
         "libelle": "Horaires",
@@ -842,11 +842,11 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "Parking du téléphérique au Passo Falzarego, gratuit pour la saison d'été 2026"
+        "valeur": "Parking du téléphérique au Passo Falzarego, gratuit toute la saison d'été 2026, donc jusqu'au 18 octobre inclus"
       },
       {
         "libelle": "Restauration au sommet",
-        "valeur": "Rifugio Lagazuoi fermé après le 4 octobre 2026 : rien pendant le séjour"
+        "valeur": "Rifugio Lagazuoi fermé après le 4 octobre 2026 : rien pendant le séjour, prévoir eau et pique-nique"
       },
       {
         "libelle": "Galeries",
@@ -883,9 +883,18 @@
         {
           "libelle": "Volpi del Vajolet (juillet 2026)",
           "url": "https://www.volpidelvajolet.it/2026/07/rifugio-lagazuoi-come-arrivare-orari-e.html"
+        },
+        {
+          "libelle": "Site officiel — parking gratuit « per tutta la stagione estiva 2026 » (IT)",
+          "url": "https://lagazuoi.it/IT/Info-Prezzi-e-info-utili-page105-Parcheggio-alla-Funivia-del-Lagazuoi"
+        },
+        {
+          "libelle": "Cortina Delicious — parking du Falzarego payant selon la période",
+          "url": "https://cortinadelicious.it/IT/news32-Informazioni-sui-parcheggi-tra-passo-Giau-e-passo-Falzarego"
         }
       ],
-      "doutes": "Date d'ouverture incohérente sur le site officiel (30 mai dans le PDF, 6 juin sur la page), sans effet sur le séjour ; la fin au 18 octobre est concordante sur les trois sources. La phrase du refuge « fino al 04 ottobre » vise bar et restaurant, lecture la plus probable. Altitude de la gare amont : le PDF indique 2782 m, le refuge 2752 m. Le parking est dit gratuit « pour la saison d'été 2026 », sans précision au-delà du 18 octobre."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "Par la SR48 ou par la route de l'Alta Badia via le Passo Valparola. Route de col sans péage ni limitation de hauteur connue ; le téléphérique part du parking du col.",
     "reserver": {
@@ -2169,24 +2178,20 @@
     ],
     "liens": [
       {
-        "libelle": "État des cols en temps réel",
-        "url": "https://www.dolomiti.it/en/"
+        "libelle": "État des routes (Veneto Strade)",
+        "url": "https://www.venetostrade.it/"
       },
       {
-        "libelle": "Hôtel-restaurant Passo Giau — été",
-        "url": "https://www.passogiau.it/estate/"
+        "libelle": "Hôtel-restaurant Passo Giau",
+        "url": "https://www.passogiau.it/"
       },
       {
         "libelle": "Rifugio Fedare",
         "url": "https://5torri.it/EN/s25-Fedare-Refuge"
       },
       {
-        "libelle": "Parkings entre Giau et Falzarego",
-        "url": "https://cortinadelicious.it/EN/news32-Where-to-park-between-the-Giau-and-Falzarego-passes"
-      },
-      {
-        "libelle": "État des routes (Veneto Strade)",
-        "url": "https://www.venetostrade.it/"
+        "libelle": "Parkings gratuits entre Giau et Falzarego",
+        "url": "https://cortinadelicious.it/IT/news32-Informazioni-sui-parcheggi-tra-passo-Giau-e-passo-Falzarego"
       }
     ],
     "photos": [
@@ -2355,15 +2360,19 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "Gratuit, au bord de la route et sur les aires du col ; se remplit en été, calme en octobre"
+        "valeur": "Gratuit et non gardé le long de la SP638 et sur les aires du col (liste Cortina Delicious)"
       },
       {
         "libelle": "Restauration",
-        "valeur": "Hôtel-restaurant Passo Giau au col : saison d'été « jusqu'à mi-octobre » ; Rifugio Fedare ouvert toute l'année (fermé le vendredi hors saison)"
+        "valeur": "Hôtel-restaurant Passo Giau au col, « ouvert été et hiver », date de fermeture d'automne non publiée ; Rifugio Fedare (versant Selva) ouvert toute l'année, fermé le vendredi hors saison"
       },
       {
         "libelle": "Nuit sur place",
         "valeur": "Stationnement de nuit interdit aux camping-cars devant le restaurant (avis park4night)"
+      },
+      {
+        "libelle": "État de la route",
+        "valeur": "Veneto Strade, InfoViabilità province de Belluno"
       }
     ],
     "verification": {
@@ -2388,12 +2397,34 @@
         {
           "libelle": "Hôtel Passo Giau — saison",
           "url": "https://www.passogiau.it/estate/"
+        },
+        {
+          "libelle": "Cortina Delicious — parkings gratuits dont la SP638 du Passo Giau",
+          "url": "https://cortinadelicious.it/IT/news32-Informazioni-sui-parcheggi-tra-passo-Giau-e-passo-Falzarego"
+        },
+        {
+          "libelle": "Veneto Strade — InfoViabilità (province de Belluno)",
+          "url": "https://www.venetostrade.it/"
+        },
+        {
+          "libelle": "Arabba Fodom Turismo — Veneto Strade pour Giau, Falzarego, Pordoi",
+          "url": "https://www.arabba.it/en/info-events/infrastructure-useful-information/traffic-mountain-passes/80-0.html"
+        },
+        {
+          "libelle": "Hôtel Passo Giau — « Siamo aperti estate e inverno »",
+          "url": "https://www.passogiau.it/benvenuti-passo-giau/"
+        },
+        {
+          "libelle": "5torri.it — Rifugio Fedare ouvert toute l'année",
+          "url": "https://5torri.it/EN/s25-Fedare-Refuge"
         }
       ],
-      "doutes": "Gratuité du stationnement confirmée par des sources communautaires uniquement (aucune page officielle de la commune). Date exacte de fermeture 2026 de l'hôtel-restaurant du col non publiée. Le lien « État des cols » de la fiche (dolomiti.it) est un portail touristique, pas un état routier : remplacé par Veneto Strade, non vérifié en profondeur."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "Depuis Cortina : SR48 vers Pocol puis SP638. Depuis le sud : Selva di Cadore / Colle Santa Lucia. Route étroite et en lacets, pas de péage.",
-    "description": "Le Passo di Giau (2236 m) est traversé par la SP638, qui relie Pocol (au-dessus de Cortina) à Selva di Cadore et Colle Santa Lucia. Vue immédiate sur le Ra Gusela, le Nuvolau, les Cinque Torri, la Tofana et la Marmolada. Stationnement gratuit au bord de la route et sur les aires du col ; aucune source ne signale de parking payant. Au col, l'hôtel-restaurant Passo Giau indique que les refuges du secteur ouvrent « de début juin à mi-octobre » ; le télésiège Fedare a fermé le 15 septembre 2026 et le Rifugio Fedare (2000 m, versant Selva) est annoncé ouvert toute l'année, fermé le vendredi en basse saison. Le col n'a pas de date de fermeture fixe : le 3 octobre 2024 il a fermé une nuit pour 15 à 40 cm de neige."
+    "description": "Le Passo di Giau (2236 m) est traversé par la SP638, qui relie Pocol (au-dessus de Cortina) à Selva di Cadore et Colle Santa Lucia. Vue immédiate sur le Ra Gusela, le Nuvolau, les Cinque Torri, la Tofana et la Marmolada. Stationnement gratuit et non gardé le long de la SP638, confirmé par le consortium Cortina Delicious ; ni péage ni accès limité en 2026 hors fermeture ponctuelle (Maratona dles Dolomites, 5 juillet). Au col, l'hôtel-restaurant Passo Giau se dit ouvert été et hiver sans dates d'automne ; le Rifugio Fedare (2000 m, versant Selva) est ouvert toute l'année, fermé le vendredi en basse saison. Le col n'a pas de date de fermeture fixe : le 3 octobre 2024 il a fermé une nuit pour 15 à 40 cm de neige. Col hors des itinéraires prévus : détour facultatif depuis Pocol.",
+    "source": "https://nominatim.openstreetmap.org/search?q=Passo+di+Giau&format=json"
   },
   {
     "id": "passo-falzarego",
@@ -2444,6 +2475,14 @@
       {
         "libelle": "Où se garer entre Giau et Falzarego",
         "url": "https://cortinadelicious.it/EN/news32-Where-to-park-between-the-Giau-and-Falzarego-passes"
+      },
+      {
+        "libelle": "État des routes (Veneto Strade)",
+        "url": "https://www.venetostrade.it/"
+      },
+      {
+        "libelle": "Rifugio Col Gallina",
+        "url": "https://www.rifugiocolgallina.com/"
       }
     ],
     "photos": [
@@ -2608,11 +2647,19 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "Parking du téléphérique du Lagazuoi, gratuit l'été 2026"
+        "valeur": "Parking du téléphérique du Lagazuoi, gratuit toute la saison d'été 2026 (jusqu'au 18 octobre)"
       },
       {
         "libelle": "Autres parkings gratuits proches",
-        "valeur": "Col Gallina, Bai de Dones, Cianzopè (gratuits, non gardés)"
+        "valeur": "Col Gallina, Bai de Dones, Cianzopè, Valparola (gratuits, non gardés)"
+      },
+      {
+        "libelle": "Restauration",
+        "valeur": "Rien de confirmé ouvert à la mi-octobre : Rifugio Lagazuoi fermé depuis le 4/10, Col Gallina fermé à la réservation jusqu'au 29/10. Pique-nique."
+      },
+      {
+        "libelle": "État de la route",
+        "valeur": "Veneto Strade (InfoViabilità, province de Belluno)"
       }
     ],
     "verification": {
@@ -2629,15 +2676,43 @@
         {
           "libelle": "OpenStreetMap — Passo Falzarego, ele 2105",
           "url": "https://nominatim.openstreetmap.org/search?q=Passo+di+Falzarego&format=json"
+        },
+        {
+          "libelle": "Site officiel Lagazuoi — parking gratuit saison été 2026 (IT)",
+          "url": "https://lagazuoi.it/IT/Info-Prezzi-e-info-utili-page105-Parcheggio-alla-Funivia-del-Lagazuoi"
+        },
+        {
+          "libelle": "Rifugio Lagazuoi — bar et restaurant jusqu'au 4 octobre",
+          "url": "https://rifugiolagazuoi.com/"
+        },
+        {
+          "libelle": "Rifugio Col Gallina — moteur de réservation (chambres fermées 28/09–29/10)",
+          "url": "https://rifugiocolgallina.bukly.com/"
+        },
+        {
+          "libelle": "Veneto Strade — InfoViabilità",
+          "url": "https://www.venetostrade.it/"
+        },
+        {
+          "libelle": "Arabba Fodom Turismo — état des cols",
+          "url": "https://www.arabba.it/en/info-events/infrastructure-useful-information/traffic-mountain-passes/80-0.html"
         }
       ],
-      "doutes": "Ouverture des bars/restaurants du col en octobre 2026 non publiée. Tarif du parking après le 18 octobre non publié."
+      "doutes": "Ouverture du bar-restaurant du Rifugio Col Gallina en journée à la mi-octobre non publiée (les chambres sont fermées).",
+      "a_demander": [
+        {
+          "question": "Le bar-restaurant du Rifugio Col Gallina est-il ouvert en journée le samedi 17 et le dimanche 18 octobre 2026, ou tout le refuge est-il fermé jusqu'à fin octobre ?",
+          "page": "https://www.rifugiocolgallina.com/contatti-rifugio-col-gallina/"
+        }
+      ]
     },
     "acces": "SR48 depuis Cortina ; depuis l'ouest par Arabba – Andraz ; depuis l'Alta Badia par le Passo Valparola. Pas de péage.",
-    "description": "Le Passo Falzarego (2105 m) relie Cortina d'Ampezzo (SR48) à Andraz/Arabba et, via le Passo Valparola, à l'Alta Badia. Au col : parking du téléphérique du Lagazuoi, vue sur le Lagazuoi, les Tofane, le Sass de Stria et les Cinque Torri, vestiges de la Grande Guerre (musée en plein air Lagazuoi – 5 Torri, accès libre). Le parking du téléphérique est annoncé gratuit pour toute la saison d'été 2026 ; en temps normal il peut être payant selon la période. Les bars et boutiques du col n'ont pas de dates d'ouverture d'octobre publiées. Le col n'a pas de date de fermeture fixe : il peut fermer temporairement après une chute de neige.",
+    "description": "Le Passo Falzarego (2105 m) relie Cortina d'Ampezzo (SR48) à Andraz/Arabba et, via le Passo Valparola, à l'Alta Badia. Au col : parking du téléphérique du Lagazuoi, vue sur le Lagazuoi, les Tofane, le Sass de Stria et les Cinque Torri, vestiges de la Grande Guerre (musée en plein air Lagazuoi – 5 Torri, accès libre). Le parking du téléphérique est gratuit toute la saison d'été 2026 (jusqu'au 18 octobre) ; hors saison il peut être payant. En octobre, la restauration est incertaine : le Rifugio Lagazuoi au sommet ferme le 4 octobre et le Rifugio Col Gallina, 1 km plus bas, affiche toutes ses chambres fermées du 28 septembre au 29 octobre sur son moteur de réservation. Prévoir le pique-nique. Le col peut fermer temporairement après une chute de neige.",
     "ouverture": {
-      "note": "Col accessible pendant tout le séjour sauf neige ; téléphérique ouvert jusqu'au 18 octobre."
-    }
+      "a_reverifier": false,
+      "note": "Col accessible pendant tout le séjour sauf neige ; téléphérique ouvert jusqu'au 18 octobre, parking gratuit jusqu'à cette date."
+    },
+    "source": "https://lagazuoi.it/EN/Information-Prices-and-useful-information-page105-Parking-lot-at-the-Lagazuoi-cable-car"
   },
   {
     "id": "cinque-torri",
@@ -2655,7 +2730,8 @@
       "denivele_m": 150,
       "duree_h": 1.5,
       "difficulte": "facile",
-      "boucle": true
+      "boucle": true,
+      "note": "Boucle du musée en plein air depuis le Rifugio Cinque Torri (2137 m), point haut au Rifugio Scoiattoli (2255 m). Depuis Bai de Dones (1889 m) à pied : 370 m de dénivelé selon le musée officiel, compter une demi-journée."
     },
     "prix": {
       "type": "gratuit",
@@ -2733,7 +2809,7 @@
     ],
     "ouverture": {
       "a_reverifier": false,
-      "note": "Télésiège 5 Torri/Bai de Dones : saison 2026 du 06/06 au 11/10. Pour votre journée du 18/10, la visite n'est possible qu'à pied, sous réserve de sentier sec/non enneigé."
+      "note": "Télésiège 5 Torri fermé depuis le 11/10/2026 et refuges fermés depuis fin septembre. Visite les 17 ou 18/10 à pied ou par la route de Cianzopè (ouverte en octobre), sous réserve de neige : consulter Veneto Strade et la webcam la veille."
     },
     "photos": [
       {
@@ -2888,7 +2964,7 @@
       }
     ],
     "acces_route": "parking-bai-de-dones",
-    "source": "https://cortinadelicious.it/EN/p66-The-lifts-prices-and-timetables",
+    "source": "https://5torri.it/EN/p38-Lift-facilities-Summer",
     "adresse": "Località 5 Torri, 32043 Cortina d'Ampezzo (BL)",
     "horaires": [
       {
@@ -2911,7 +2987,7 @@
       },
       {
         "libelle": "Restauration",
-        "valeur": "Rifugi Cinque Torri et Scoiattoli : saison d'été seulement, a priori fermés"
+        "valeur": "Rien d'ouvert : Rifugi Cinque Torri et Scoiattoli fermés depuis fin septembre (réservation Scoiattoli fermée en octobre). Pique-nique et eau."
       },
       {
         "libelle": "Musée en plein air",
@@ -2948,12 +3024,37 @@
         {
           "libelle": "OpenStreetMap — Rifugio Cinque Torri, ele 2137",
           "url": "https://nominatim.openstreetmap.org/search?q=Rifugio+Cinque+Torri&format=json"
+        },
+        {
+          "libelle": "Rifugio 5 Torri — « Metà Giugno - Fine Settembre »",
+          "url": "https://rifugio5torri.it/home.html"
+        },
+        {
+          "libelle": "Rifugio Scoiattoli — saison d'été « da metà giugno a fine settembre »",
+          "url": "https://www.rifugioscoiattoli.it/post/il-rifugio-1.html"
+        },
+        {
+          "libelle": "Rifugio Scoiattoli — moteur de réservation (aucune date en octobre)",
+          "url": "https://www.rifugioscoiattoli.it/booking/"
+        },
+        {
+          "libelle": "5torri.it — Rifugio Scoiattoli « from July to September »",
+          "url": "https://5torri.it/EN/s24-Scoiattoli-Refuge"
+        },
+        {
+          "libelle": "Musée de la Grande Guerre — itinéraire 5 Torri, dénivelé 370 m depuis Bai de Dones",
+          "url": "https://www.cortinamuseoguerra.it/sentieri-storici/5-torri/"
+        },
+        {
+          "libelle": "Corriere delle Alpi — nouveau télésiège freiné par les Regole (10/05/2026)",
+          "url": "https://www.corrierealpi.it/cronaca/cortina-seggiovia-5-torri-lavori-freno-regole-kw7x3w84"
         }
       ],
-      "doutes": "Dates de fermeture 2026 des refuges Scoiattoli et Cinque Torri non publiées (fiche officielle : « mi-juin à fin septembre »). La route peut être fermée après une chute de neige précoce. Distance et dénivelé de la boucle (4 km, 150 m) non recoupés par une source officielle. Un projet de nouveau télésiège (travaux prévus mai–octobre 2026) est bloqué par un contentieux ; aucune source ne signale de chantier gênant l'accès."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "SR48 Cortina → Passo Falzarego ; à Cianzopè (environ 46.519, 12.071) prendre la route asphaltée qui monte au Rifugio Cinque Torri (terminus, parking gratuit). Route étroite de montagne, pas de restriction de hauteur publiée. Alternative : parking gratuit de Bai de Dones (46.5187, 12.0387) puis sentier 425 (environ 1h30, +400 m).",
-    "description": "Les Cinque Torri, au-dessus de la SR48 entre Cortina et le Passo Falzarego, forment un musée en plein air de la Grande Guerre (tranchées, postes d'artillerie, panneaux en trois langues, accès libre et gratuit). Le télésiège Cinque Torri (Bai de Dones 1889 m → Rifugio Scoiattoli 2255 m) fonctionne du 6 juin au 11 octobre 2026 : il sera fermé le 16 octobre, jour prévu. Solution : la route asphaltée de Cianzopè (sur la SR48) au Rifugio Cinque Torri (2137 m), fermée à la circulation du 6 juin au 20 septembre 2026 seulement, donc ouverte en octobre ; parking gratuit non gardé en haut. Le tour des tours part de là. À pied sans la route : sentier 425 depuis Bai de Dones, environ 1h30 et 400 m de dénivelé. Le Rifugio Cinque Torri n'ouvre que l'été (mi-juin à fin septembre) : prévoir de quoi manger.",
+    "description": "Les Cinque Torri, au-dessus de la SR48 entre Cortina et le Passo Falzarego, forment un musée en plein air de la Grande Guerre (tranchées, postes d'artillerie, panneaux en trois langues, accès libre et gratuit). Le télésiège Cinque Torri (Bai de Dones 1889 m → Rifugio Scoiattoli 2255 m) a fonctionné du 6 juin au 11 octobre 2026 : il est fermé les 17 et 18 octobre, jours prévus. Solution : la route asphaltée de Cianzopè (sur la SR48) au Rifugio Cinque Torri (2137 m), fermée à la circulation l'été seulement, donc ouverte en octobre ; parking gratuit non gardé en haut. Le tour des tours part de là (environ 4 km, 150 m de dénivelé). À pied sans la route : sentier 425 depuis Bai de Dones, 370 m de dénivelé selon le musée. Les refuges Cinque Torri et Scoiattoli n'ouvrent l'été que de mi-juin à fin septembre : rien à manger sur place, prévoir le pique-nique. Après une chute de neige, la route et les sentiers peuvent être impraticables : vérifier la webcam la veille.",
     "reserver": {
       "obligatoire": false
     }
@@ -4218,11 +4319,12 @@
       "type": "gratuit",
       "montant": 0,
       "annee_tarif": 2026,
-      "detail": "Accès à pied gratuit. Parking de la gare aval du télésiège à Planac payant (tarif non trouvé)."
+      "detail": "Accès à pied gratuit. Parking gratuit à 250 m de la gare aval (Strada Planac, 46.53769, 11.88625) ; le parking de la gare aval est payant (5 €/jour selon OpenStreetMap, non publié par l'exploitant).",
+      "alternative_gratuite": "Parking gratuit Strada Planac à 250 m de la gare aval."
     },
     "ouverture": {
       "a_reverifier": false,
-      "note": "Plateau accessible à pied le 15 octobre, mais remontées fermées depuis le 4 octobre et refuge fermé depuis le 27 septembre 2026. Aucun ravitaillement en haut."
+      "note": "Plateau accessible à pied le 15 octobre, mais remontées fermées depuis le 4 octobre et toutes les cabanes fermées (Pralongià et Piz Arlara le 27 septembre, Bioch le 4 octobre, La Marmotta sans ouverture d'été). Aucun ravitaillement en haut."
     },
     "chien": {
       "admis": true,
@@ -4236,8 +4338,6 @@
     ],
     "niveau_prix": "€€",
     "equipements": [
-      "refuge",
-      "restaurant",
       "plat",
       "vue",
       "chien"
@@ -4266,6 +4366,14 @@
       {
         "libelle": "Carte",
         "url": "https://www.openstreetmap.org/?mlat=46.53361&mlon=11.91656#map=14/46.535/11.905"
+      },
+      {
+        "libelle": "Refuges Alta Badia — dates d'ouverture",
+        "url": "https://www.alta-badia.org/en/leisure-activities/mountains-and-hiking/mountain-huts-in-the-alta-badia/"
+      },
+      {
+        "libelle": "Parking gratuit Strada Planac (park4night)",
+        "url": "https://park4night.com/fr/place/683350"
       }
     ],
     "photos": [
@@ -4429,24 +4537,28 @@
       {
         "libelle": "Refuge Pralongià 2026",
         "valeur": "13 juin – 27 septembre 2026 : FERMÉ pendant le séjour"
+      },
+      {
+        "libelle": "Cabanes du plateau 2026",
+        "valeur": "Piz Arlara 30 mai – 27 sept., Bioch 13 juin – 4 oct., La Marmotta hiver seulement : toutes FERMÉES pendant le séjour"
       }
     ],
     "pratique": [
       {
         "libelle": "Parking de départ",
-        "valeur": "près de la gare aval Pralongià, Planac (46.5367, 11.8888), payant d'après OpenStreetMap, tarif inconnu"
+        "valeur": "gratuit Strada Planac (46.53769, 11.88625), à 250 m de la gare aval ; parking de la gare aval payant (≈ 5 €/jour d'après OpenStreetMap)"
       },
       {
         "libelle": "Durée",
         "valeur": "≈ 1 h 30 montée depuis Planac, ≈ 2 h depuis le col de Campolongo (refuge)"
       },
       {
-        "libelle": "Ravitaillement",
-        "valeur": "aucun en haut en octobre : faire les courses à Corvara"
-      },
-      {
         "libelle": "Boucle longue",
         "valeur": "Col Alto → Piz Arlara → Pralongià → Corvara : 13,7 km, 631 m D+, 4 h, facile (office de tourisme), départ normalement en télécabine Col Alto, fermée en octobre"
+      },
+      {
+        "libelle": "Ravitaillement",
+        "valeur": "aucun en haut en octobre (toutes les cabanes fermées) : faire les courses à Corvara"
       }
     ],
     "verification": {
@@ -4463,15 +4575,37 @@
         {
           "libelle": "OpenStreetMap — télésiège Pralongià et parking",
           "url": "https://www.openstreetmap.org/#map=15/46.5355/11.897"
+        },
+        {
+          "libelle": "Alta Badia — cabanes et refuges, dates d'ouverture été 2026",
+          "url": "https://www.alta-badia.org/en/leisure-activities/mountains-and-hiking/mountain-huts-in-the-alta-badia/"
+        },
+        {
+          "libelle": "OpenStreetMap — parking de la gare aval Pralongià « charge=5 EUR/day »",
+          "url": "https://www.openstreetmap.org/way/356038223"
+        },
+        {
+          "libelle": "OpenStreetMap — parking gratuit à 250 m (fee=no)",
+          "url": "https://www.openstreetmap.org/way/227190637"
+        },
+        {
+          "libelle": "park4night 683350 — parking gratuit Strada Planac, avis 29/08/2026",
+          "url": "https://park4night.com/fr/place/683350"
+        },
+        {
+          "libelle": "Refuge Pralongià — parking de Planac « paid area » (accès hiver)",
+          "url": "https://www.pralongia.it/en/directions/how-to-get-here-in-winter"
         }
       ],
-      "doutes": "Ouverture en octobre des autres cabanes (Piz Arlara, Bioch, La Marmotta) non vérifiée. Tarif du parking de Planac inconnu. Dénivelé depuis Planac calculé sur modèle de terrain (≈ 1 715 → 2 157 m), le refuge annonce des chiffres partiels."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "Depuis Corvara : route du col de Campolongo (SS244) puis Strada Planac jusqu'à la gare aval du télésiège Pralongià (≈ 3 km). Ou jusqu'au col de Campolongo (≈ 5 km) pour le départ par le sentier 3.",
-    "description": "Toutes les remontées de l'Alta Badia ferment le 4 octobre 2026 (télésiège Pralongià, télécabines Boè, Col Alto, Piz Sorega, Piz La Ila) : le 15 octobre il faut monter à pied. Le refuge Pralongià (2 157 m) ferme le 27 septembre 2026, les autres cabanes du plateau sont probablement fermées aussi (non vérifié une à une) : emporter eau et pique-nique. Meilleur accès à pied depuis la gare aval du télésiège Pralongià à Planac/Corvara (≈ 1 715 m, parking payant à côté) : sentier forestier jusqu'à la gare amont (~1 h) puis sentier 23 jusqu'au refuge (~30 min), soit ≈ 450 m de dénivelé d'après les altitudes. Autre départ : col de Campolongo (Passo Campolongo, 1 875 m, parking au col), sentier 3 puis piste forestière, ≈ 2 h et 300 m de dénivelé selon le refuge. Chemins larges et roulants, alpages : chien en laisse (bétail possible jusqu'à la désalpe). Le point GPS est désormais le départ à pied (parking de Planac) ; le refuge est en 46.53361, 11.91656.",
+    "description": "Toutes les remontées de l'Alta Badia ferment le 4 octobre 2026 (télésiège Pralongià, télécabines Boè, Col Alto, Piz Sorega, Piz La Ila) : le 15 octobre il faut monter à pied. Le refuge Pralongià (2 157 m) ferme le 27 septembre 2026, les autres cabanes du plateau sont fermées aussi (Piz Arlara le 27 septembre, Bioch le 4 octobre, La Marmotta n'ouvre qu'en hiver) : emporter eau et pique-nique. Meilleur accès à pied depuis la gare aval du télésiège Pralongià à Planac/Corvara (≈ 1 715 m ; parking payant à la gare, parking gratuit Strada Planac à 250 m) : sentier forestier jusqu'à la gare amont (~1 h) puis sentier 23 jusqu'au refuge (~30 min), soit ≈ 450 m de dénivelé d'après les altitudes. Autre départ : col de Campolongo (Passo Campolongo, 1 875 m, parking au col), sentier 3 puis piste forestière, ≈ 2 h et 300 m de dénivelé selon le refuge. Chemins larges et roulants, alpages : chien en laisse (bétail possible jusqu'à la désalpe). Le point GPS est désormais le départ à pied (parking de Planac) ; le refuge est en 46.53361, 11.91656.",
     "reserver": {
       "obligatoire": false
-    }
+    },
+    "source": "https://www.alta-badia.org/en/leisure-activities/mountains-and-hiking/lift-facilities-in-summer/"
   },
   {
     "id": "alpe-fanes",
@@ -4486,30 +4620,36 @@
     "resume": "Haut plateau karstique au cœur du parc Fanes-Sennes. Vaste, silencieux, très peu de monde en octobre. Accès long depuis Pederü.",
     "prix": {
       "type": "variable",
-      "unite": "journée (route + parking de Pederü)",
-      "detail": "Le plateau et les sentiers sont gratuits. La route San Vigilio–Pederü est à péage l'été seulement (gratuite de 16h à 7h30) ; hors saison, seul le parking est payant. Aucun tarif 2026 officiel trouvé : dernières valeurs connues 12 € voiture (péage, 2021), 13 € péage + parking (office de tourisme, année non précisée), 5 €/jour de parking hors saison (avis 2024).",
+      "unite": "voiture, journée de parking à Pederü (octobre 2026)",
+      "detail": "Plateau et sentiers gratuits. Péage de la route San Vigilio–Pederü du 20 juin au 13 septembre 2026 seulement (13 € voiture, 7h30–16h, délibération communale 153/2026). Pendant le séjour, pas de péage : seul le parking de Pederü est payant, 1 €/h puis 5 € la journée au-delà de 5 heures.",
       "grille": [
         {
-          "libelle": "Péage d'été voiture (2021)",
-          "valeur": "12 €"
-        },
-        {
-          "libelle": "Péage + parking (office de tourisme, année non précisée)",
+          "libelle": "Péage voiture 20 juin – 13 sept. 2026, 7h30–16h (parking du jour compris)",
           "valeur": "13 €"
         },
         {
-          "libelle": "Parking hors saison, voiture (avis 2024)",
-          "valeur": "5 €/jour, valable jusqu'à minuit"
+          "libelle": "Péage camping-car (même période)",
+          "valeur": "23 €"
         },
         {
-          "libelle": "Parking hors saison, camping-car (avis 2024)",
-          "valeur": "7,50 €/jour"
+          "libelle": "Péage moto (même période)",
+          "valeur": "7,50 €"
+        },
+        {
+          "libelle": "Parking Pederü hors péage, voiture",
+          "valeur": "1 €/h ; 5 € au-delà de 5 h (tarif journée)"
+        },
+        {
+          "libelle": "Parking Pederü hors péage, camping-car",
+          "valeur": "1,50 €/h ; 7,50 € au-delà de 5 h"
         },
         {
           "libelle": "Bus 462",
           "valeur": "tarif südtirolmobil"
         }
-      ]
+      ],
+      "montant": 5,
+      "annee_tarif": 2026
     },
     "ouverture": {
       "a_reverifier": false,
@@ -4565,6 +4705,10 @@
       {
         "libelle": "Webcam refuge Fanes",
         "url": "https://www.rifugiofanes.com/webcam"
+      },
+      {
+        "libelle": "Péage et parking de Pederü 2026 — délibération communale 153/2026 (PDF)",
+        "url": "https://data.gvcc.net/AlboPretorioOnline/DownloadDocument/beschluesse/document/MjEwNDcvYjg5MWIxMmQtZmJmZi00NTliLTliNWUtNTQ2Mjk0OTE0ZGI0LzE3OTA2MDg5ODQ.zvU04L-gGDruGZGouqRkEPiwQz4_JRMUvGU3ocjdBm4"
       }
     ],
     "photos": [
@@ -4728,7 +4872,7 @@
       },
       {
         "libelle": "Refuge Lavarella, été 2026",
-        "valeur": "24 mai – 5 octobre (site du refuge) ; l'office de tourisme indique jusqu'au 11 octobre"
+        "valeur": "24 mai – 5 octobre (site du refuge) ; fermé pendant le séjour"
       },
       {
         "libelle": "Auberge-refuge Pederü, été 2026",
@@ -4741,6 +4885,10 @@
       {
         "libelle": "Bus 462 Pederü → San Vigilio, à partir du 12 oct. 2026",
         "valeur": "tous les jours 10h00 et 16h00 ; week-end aussi 9h00 et 17h00"
+      },
+      {
+        "libelle": "Péage route de Pederü 2026",
+        "valeur": "20 juin – 13 septembre, 7h30–16h (terminé pendant le séjour)"
       }
     ],
     "pratique": [
@@ -4787,15 +4935,29 @@
         {
           "libelle": "park4night — parking Pederü, avis 2024–2025",
           "url": "https://park4night.com/en/place/298264"
+        },
+        {
+          "libelle": "Commune de Marebbe — délibération 153/2026 : péage 20/06–13/09/2026, 7h30–16h, 13 € voiture ; parking Pederü 1 €/h, 5 € au-delà de 5 h",
+          "url": "https://data.gvcc.net/AlboPretorioOnline/DownloadDocument/beschluesse/document/MjEwNDcvYjg5MWIxMmQtZmJmZi00NTliLTliNWUtNTQ2Mjk0OTE0ZGI0LzE3OTA2MDg5ODQ.zvU04L-gGDruGZGouqRkEPiwQz4_JRMUvGU3ocjdBm4"
+        },
+        {
+          "libelle": "Commune de Marebbe — délibération 61/2025 : parking de Pederü payant toute l'année (délibération 372/2023), exemptions",
+          "url": "https://data.gvcc.net/AlboPretorioOnline/DownloadDocument/beschluesse/document/MjEwNDcvNDIzQzE2MzMtODhCQy1FMDY4LUUwNjAtMUJBQ0MzMjIyREQyLzE3OTA2MDg5ODQ.HurR3leAO2YMPmQSyMC8LqTT4VU13ECc6T_fkWPOkMI"
+        },
+        {
+          "libelle": "Commune de Marebbe — archive de l'albo pretorio (délibérations 2024–2026)",
+          "url": "https://data.gvcc.net/AlboPretorioOnline/?gemeinde=047&lang=IT&sektion=ARCH"
         }
       ],
-      "doutes": "Tarif 2026 du péage et du parking de Pederü introuvable (seulement 2021 et avis 2024) ; date exacte de fin du péage d'été inconnue. Fermeture de Lavarella : 5 ou 11 octobre selon la source, sans effet puisque le séjour commence le 10. Le parking de nuit à Pederü semble contrôlé (avis 2025), pas de règlement officiel trouvé."
+      "doutes": "",
+      "a_demander": []
     },
-    "acces": "Depuis la SS49 Val Pusteria, sortie San Lorenzo/Longega vers la Val Badia, puis San Vigilio di Marebbe, puis route étroite du val dai Tamersc (12 km) jusqu'au parking de Pederü. Péage d'été seulement ; contrôles de police de nuit signalés (stationnement nocturne, amendes jusqu'à 300 €, avis août 2025). Ensuite à pied : piste de jeep ~6 km / 500 m D+ vers les refuges.",
+    "acces": "Depuis la SS49 Val Pusteria, sortie San Lorenzo/Longega vers la Val Badia, puis San Vigilio di Marebbe, puis route étroite du val dai Tamersc (12 km) jusqu'au parking de Pederü. Péage du 20 juin au 13 septembre 2026 seulement (7h30–16h) ; en octobre, route libre et parking payant 5 € la journée ; contrôles de police de nuit signalés (stationnement nocturne, amendes jusqu'à 300 €, avis août 2025). Ensuite à pied : piste de jeep ~6 km / 500 m D+ vers les refuges.",
     "description": "Le point de départ est le parking de Pederü, au bout de la route du val dai Tamersc, à 12 km de San Vigilio di Marebbe. De là, une piste de jeep empierrée monte en lacets raides puis s'adoucit jusqu'au plateau de Fanes (refuges Lavarella 2050 m et Fanes 2060 m) : environ 6 km et 500 m de dénivelé, 2 h de montée. En octobre 2026, tout est fermé là-haut : refuge Fanes fermé du 5 octobre au 25 décembre 2026, refuge Lavarella fermé à partir du 5 octobre (site du refuge) ou du 11 octobre (office de tourisme). Le transport en jeep depuis Pederü est un service d'été réservé aux clients qui dorment au refuge : il n'existe pas en octobre. Il faut donc prévoir eau et repas pour la journée. L'auberge de Pederü elle-même ferme le 11 octobre 2026 : seuls les 10 et 11 octobre sont couverts. Le bus 462 San Vigilio–Pederü circule toute l'année (horaire d'hiver à partir du 12 octobre : départs quotidiens de San Vigilio à 9h40 et 15h40, plus 8h40 et 16h40 le week-end). Chien en laisse dans le parc ; le refuge Lavarella n'accepte pas les animaux, le refuge Fanes les accepte (tous deux fermés pendant le séjour). Premières neiges possibles sur le plateau à partir de mi-octobre.",
     "reserver": {
       "obligatoire": false
-    }
+    },
+    "source": "https://www.sanvigilio.com/en/info/mountain-hut-fanes_4419"
   },
   {
     "id": "kronplatz",
@@ -4815,7 +4977,7 @@
       "unite": "2 adultes + chien A/R",
       "annee_tarif": 2026,
       "montant": 78,
-      "detail": "Kronplatz 2000 : 36 € A/R par adulte + 6 € chien, soit 78 € pour 2 adultes + Prince. Tarif 2026 officiel.",
+      "detail": "Kronplatz 2000 : 36 € A/R par adulte + 6 € chien, soit 78 € pour 2 adultes + Prince. Tarif 2026 officiel. Musées en option (chien interdit dans les deux) : LUMEN 17 €, combiné A/R + LUMEN + MMM 53 € par adulte.",
       "grille": [
         {
           "libelle": "Adulte aller-retour",
@@ -4836,6 +4998,18 @@
         {
           "libelle": "MMM Corones, adulte",
           "valeur": "14 €"
+        },
+        {
+          "libelle": "LUMEN, adulte",
+          "valeur": "17 €"
+        },
+        {
+          "libelle": "Billet combiné Kronplatz 2000 A/R + LUMEN + MMM Corones, adulte",
+          "valeur": "53 €"
+        },
+        {
+          "libelle": "Billet combiné LUMEN + MMM Corones, adulte",
+          "valeur": "22 €"
         }
       ]
     },
@@ -4846,7 +5020,7 @@
     },
     "chien": {
       "admis": true,
-      "note": "Chien admis dans la télécabine (6 €). Interdit dans toute l'enceinte du MMM Corones. Les conditions de transport des animaux sont fixées par chaque remontée : laisse et muselière à prévoir (règle non publiée pour Kronplatz 2000)."
+      "note": "Chien admis dans la télécabine (6 €). Interdit au MMM Corones et au LUMEN. Les conditions de transport des animaux sont fixées par chaque remontée ; muselière non précisée pour Kronplatz 2000 : laisse et muselière à prévoir."
     },
     "etiquettes": [
       "plateau",
@@ -5070,13 +5244,13 @@
       },
       {
         "libelle": "LUMEN",
-        "valeur": "horaires des remontées (dates 2026 non publiées)"
+        "valeur": "tous les jours 10h–16h (dernière entrée 15h30), sur la période d'ouverture de Kronplatz 2000 (jusqu'au 8 novembre 2026)"
       }
     ],
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "Gare aval Kronplatz 2000, Riscone (46.77195, 11.94103 selon OpenStreetMap), gratuit l'été selon une source non officielle"
+        "valeur": "Gare aval Kronplatz 2000, Riscone (46.77195, 11.94103). Barrière de hauteur 2,40 m signalée (voiture avec tente de toit 1,95 m : passe). Tarif voiture non publié : gratuit selon des avis de l'hiver 2026, 15 € payés en camping-car en octobre 2025."
       },
       {
         "libelle": "Au sommet",
@@ -5109,11 +5283,33 @@
         {
           "libelle": "Nominatim/OpenStreetMap + EU-DEM — gare aval et altitude",
           "url": "https://www.openstreetmap.org/#map=17/46.77195/11.94103"
+        },
+        {
+          "libelle": "lumenmuseum.it — « 10:00–16:00 », « Adults 17 € », « Pets are not allowed », « Corresponding to the opening hours of the ropeways »",
+          "url": "https://www.lumenmuseum.it/plan-your-visit"
+        },
+        {
+          "libelle": "kronplatz.com — conditions de vente été : « For the transport of … animals … the terms and conditions are determined by the individual lift system facility »",
+          "url": "https://www.kronplatz.com/en/the-kronplatz/tickets-prices/terms-of-sale-summer"
+        },
+        {
+          "libelle": "park4night — parking téléphérique Riscone : barrière 2,40 m, « gratuit » (fév. 2026), « 15 € » camping-car (oct. 2025)",
+          "url": "https://park4night.com/en/place/569483"
         }
       ],
-      "doutes": "Règle chien exacte dans la télécabine (muselière ?) non publiée. Tarif et dates 2026 du LUMEN non publiés (« horaires des remontées »). Gratuité du parking de Riscone non confirmée par une source officielle. Fermeture technique ou météo toujours possible en fin de saison."
+      "doutes": "Obligation de muselière dans la télécabine Kronplatz 2000 non publiée. Tarif du parking de la gare aval de Riscone pour une voiture en octobre non publié (avis contradictoires).",
+      "a_demander": [
+        {
+          "question": "Pour la télécabine Kronplatz 2000 le 12–19 octobre 2026, un chien de taille moyenne tenu en laisse doit-il porter une muselière ?",
+          "page": "https://www.kronplatz.com/en/planning-booking/contact"
+        },
+        {
+          "question": "Le parking de la gare aval Kronplatz 2000 à Riscone est-il payant pour une voiture en octobre 2026, et à quel tarif journée ?",
+          "page": "https://www.kronplatz.com/en/planning-booking/contact"
+        }
+      ]
     },
-    "acces": "SS49 Val Pusteria jusqu'à Brunico, puis direction Riscone/Reischach, via Funivia jusqu'à la gare aval de Kronplatz 2000. Grand parking à la gare aval, dit gratuit l'été (source non officielle). Pas de restriction ni de hauteur signalée.",
+    "acces": "SS49 Val Pusteria jusqu'à Brunico, puis direction Riscone/Reischach, via Funivia jusqu'à la gare aval de Kronplatz 2000. Parking à la gare aval ; entrer par la route du bas. Barrière de hauteur 2,40 m signalée, sans effet pour une voiture avec tente de toit (1,95 m).",
     "reserver": {
       "obligatoire": false,
       "url": "https://www.kronplatz.com/en/the-kronplatz/tickets-prices/prices-summer"
@@ -6806,13 +7002,13 @@
     "commune": "Passo Pordoi (TN)",
     "altitude": 2950,
     "resume": "Téléphérique depuis le Passo Pordoi jusqu'au « toit des Dolomites » : un plateau rocheux à 2950 m, accessible sans marcher.",
-    "description": "Le téléphérique monte en quatre minutes du col à 2950 m. En haut, un plateau lunaire de rochers plats avec vue sur la Marmolada et tout le massif du Sella. Confirmé ouvert pendant tout le séjour, ce qui en fait l'alternative au Lagazuoi si celui-ci a fermé.",
+    "description": "Le téléphérique monte en quatre minutes du col à 2950 m. En haut, un plateau lunaire de rochers plats avec vue sur la Marmolada et tout le massif du Sella. Ouvert pendant tout le séjour (jusqu'au 1er novembre), ce qui en fait l'alternative au Lagazuoi. Le Rifugio Maria, au sommet, reste ouvert tant que le téléphérique tourne. Chien gratuit, mais muselière obligatoire dans la cabine.",
     "prix": {
       "type": "payant",
       "adulte_ar": 32,
       "unite": "2 adultes + chien A/R",
       "annee_tarif": 2026,
-      "detail": "2 × 32 € A/R ; le chien voyage gratuitement (office de tourisme du Val di Fassa).",
+      "detail": "2 × 32 € A/R ; le chien voyage gratuitement (office de tourisme du Val di Fassa : « I cani viaggiano gratis »).",
       "montant": 64,
       "grille": [
         {
@@ -6840,8 +7036,8 @@
           "valeur": "47 € adulte / 28 € junior"
         },
         {
-          "libelle": "Parking Passo Pordoi (source communautaire)",
-          "valeur": "environ 2 €/h en journée, 30 € la nuit"
+          "libelle": "Parking Passo Pordoi",
+          "valeur": "payant au pied du téléphérique (≈ 2–2,50 €/h, avis 2026) ; gratuit : 5 places au-dessus de la gare aval"
         }
       ],
       "chien": 0,
@@ -6850,11 +7046,11 @@
     "ouverture": {
       "fin_saison": "2026-11-01",
       "a_reverifier": false,
-      "note": "Horaires 2026 confirmés : 9h-17h jusqu'au 18 octobre, puis 9h-16h30 jusqu'au 1er novembre. Ouvert tout le séjour."
+      "note": "Téléphérique : 9h-17h jusqu'au 18 octobre, 9h-16h30 du 19 octobre au 1er novembre. Rifugio Maria ouvert au sommet (saison d'été de mai à octobre, lié au téléphérique ; Top Wine au refuge les 16-17 octobre)."
     },
     "chien": {
       "admis": true,
-      "note": "Laisse obligatoire. Tarif chien non publié."
+      "note": "Laisse ET muselière obligatoires dans les remontées du Val di Fassa ; transport gratuit au Sass Pordoi. Rifugio Maria : chiens admis."
     },
     "niveau_prix": "€€€",
     "equipements": [
@@ -6883,8 +7079,8 @@
         "url": "https://www.sasspordoi.it/en/"
       },
       {
-        "libelle": "Parking du Passo Pordoi (park4night)",
-        "url": "https://park4night.com/fr/place/14668"
+        "libelle": "Parking gratuit au-dessus du téléphérique (park4night)",
+        "url": "https://park4night.com/fr/place/718856"
       }
     ],
     "source": "https://www.sasspordoi.it/en/info-times-and-prices/",
@@ -7060,20 +7256,28 @@
       {
         "libelle": "Horaires du 19 octobre au 1er novembre",
         "valeur": "9h00 – 16h30"
+      },
+      {
+        "libelle": "Rifugio Maria (sommet)",
+        "valeur": "ouvert pendant le séjour, 9h–17h, cuisine 11h30–14h30"
       }
     ],
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "Parking payant au pied du téléphérique, environ 100 places, barrières automatiques ; environ 2 €/h de jour, 30 € la nuit (avis park4night, septembre 2026)"
+        "valeur": "parking payant du col au pied du téléphérique (≈ 100 places, barrière, ≈ 2–2,50 €/h selon les avis 2026, pas de tarif officiel). Gratuit : 5 places au-dessus de la gare aval (46.48821, 11.81509), et terre-plein en descente vers Arabba (46.48697, 11.81387)"
       },
       {
         "libelle": "Restauration au sommet",
-        "valeur": "Rifugio Maria, 9h–17h, cuisine 11h30–14h30 (dates d'automne non publiées)"
+        "valeur": "Rifugio Maria, 9h–17h, cuisine 11h30–14h30, ouvert pendant le séjour"
+      },
+      {
+        "libelle": "Chien",
+        "valeur": "muselière obligatoire dans la cabine (en prévoir une ; la caisse en garde en dépannage selon des témoignages)"
       },
       {
         "libelle": "Événement",
-        "valeur": "« Top Wine » au Sass Pordoi les 16 et 17 octobre 2026"
+        "valeur": "« Top Wine » au Sass Pordoi les 16 et 17 octobre 2026 : affluence possible"
       }
     ],
     "verification": {
@@ -7098,9 +7302,35 @@
         {
           "libelle": "OpenStreetMap — gare aval Sass Pordoi",
           "url": "https://nominatim.openstreetmap.org/search?q=Sass+Pordoi&format=json"
+        },
+        {
+          "libelle": "APT Val di Fassa — Rifugio Maria « ESTATE: da maggio a ottobre »",
+          "url": "https://www.fassa.com/it/dove-dormire/maria"
+        },
+        {
+          "libelle": "SIT Canazei (exploitant) — Rifugio Maria « open 9 months a year »",
+          "url": "https://www.sitcanazei.it/rifugio-maria-canazei/"
+        },
+        {
+          "libelle": "Sass Pordoi — Top Wine au sommet, 16 et 17/10/2026",
+          "url": "https://www.sasspordoi.it/en/"
+        },
+        {
+          "libelle": "park4night 718856 — 5 places gratuites au-dessus du téléphérique, avis 13 et 15/09/2026",
+          "url": "https://park4night.com/fr/place/718856"
+        },
+        {
+          "libelle": "park4night 637424 — terre-plein gratuit en descente vers Arabba, avis 7–10/09/2026",
+          "url": "https://park4night.com/fr/place/637424"
         }
       ],
-      "doutes": "Tarif du parking non publié par l'exploitant (source communautaire seulement). Dates de fermeture d'automne du Rifugio Maria non publiées. Obligation de muselière non précisée par l'exploitant."
+      "doutes": "Le tarif du parking payant du col n'est publié par aucun exploitant ; deux parkings gratuits à moins de 300 m le rendent sans enjeu.",
+      "a_demander": [
+        {
+          "question": "Quel est le tarif 2026 du parking de la gare aval du téléphérique (heure, journée, nuit) à la mi-octobre ?",
+          "page": "https://www.sasspordoi.it/en/"
+        }
+      ]
     },
     "acces": "SS48 : depuis Canazei ou depuis Arabba. Pas de péage, pas de restriction de hauteur connue au parking.",
     "reserver": {
@@ -7991,7 +8221,7 @@
     "prix": {
       "type": "payant",
       "annee_tarif": 2026,
-      "detail": "Col gratuit ; parking du col payant : 4 €/h les trois premières heures, 2 €/h ensuite, 20 € la journée (tarif été). Application du tarif été mi-octobre non confirmée.",
+      "detail": "Col gratuit ; parking du col (exploitant privé, 60 places) payant : 4 €/h les trois premières heures, 2 €/h ensuite, 20 € la journée (tarif été) ; 2,50 €/24 h (tarif hiver). La période de chaque tarif n'est publiée nulle part : le montant retient le tarif été, le plus cher.",
       "grille": [
         {
           "libelle": "Parking été, 1re à 3e heure",
@@ -8020,18 +8250,16 @@
     },
     "niveau_prix": "€",
     "equipements": [
-      "parking-gratuit",
       "vue",
       "acces-voiture",
-      "restaurant",
-      "chien"
+      "chien",
+      "parking"
     ],
     "ouverture": {
-      "note": "Ouvert en octobre sauf chute de neige. Fermeture ponctuelle possible après une neige précoce."
+      "note": "Route ouverte en octobre sauf chute de neige. Refuges du col fermés : Jimmi depuis le 27 septembre, Frara sans aucune chambre réservable du 29 septembre au 28 octobre. Aucune restauration au col."
     },
     "recherche_photo": "Passo Gardena Groednerjoch",
     "etiquettes": [
-      "gratuit",
       "sans marche",
       "col",
       "bascule vers l'est"
@@ -8202,11 +8430,11 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "60 places, 46.5497, 11.8086, payant (voir grille)"
+        "valeur": "60 places, 46.5497, 11.8086, payant (voir grille), exploitant privé"
       },
       {
         "libelle": "Restauration",
-        "valeur": "refuges Frara et Jimmi au col : ouverture mi-octobre non confirmée"
+        "valeur": "aucune à la mi-octobre : refuge Jimmi fermé depuis le 27 septembre, hôtel Frara sans réservation possible ; pique-nique"
       }
     ],
     "verification": {
@@ -8223,12 +8451,42 @@
         {
           "libelle": "val-gardena.net — test uniquement « virtuel »",
           "url": "https://www.val-gardena.net/en/questions-and-answers.asp?id=1652"
+        },
+        {
+          "libelle": "Val Gardena — parking du col : « inverno: 24h/24h 2,50€ estate: 1–3 ore: €4,00/ora dalla 4ª ora: €2,00/ora tariffa giornaliera: €20,00 »",
+          "url": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/selva-di-val-gardena/parcheggio-passo-gardena/762900D4E3B8455490E0140737E94844/"
+        },
+        {
+          "libelle": "Dolomiti Superski — même grille été/hiver, sans période",
+          "url": "https://www.dolomitisuperski.com/en/experiences/services/dolomites-a-z/Val-Gardena/Parcheggio-Passo-Gardena"
+        },
+        {
+          "libelle": "OpenStreetMap — parking du col, 55 places, exploitant privé « Parkplatz Grödnerjoch »",
+          "url": "https://www.openstreetmap.org/node/11671751120"
+        },
+        {
+          "libelle": "Alta Badia — cabanes et refuges, dates d'ouverture été 2026",
+          "url": "https://www.alta-badia.org/en/leisure-activities/mountains-and-hiking/mountain-huts-in-the-alta-badia/"
+        },
+        {
+          "libelle": "Alpin Hotel Frara — moteur de réservation : aucune chambre du 29/09 au 28/10/2026",
+          "url": "https://booking.slope.it/78b281dd-328f-4aa6-878e-e67fa4a72c50"
+        },
+        {
+          "libelle": "Rifugio Jimmi — site officiel (horaires 9 h–17 h, sans dates)",
+          "url": "http://www.jimmihuette.it/it/"
         }
       ],
-      "doutes": "Tarif été ou hiver appliqué à la mi-octobre : non précisé. Ouverture des refuges Frara et Jimmi en octobre 2026 non confirmée."
+      "doutes": "La période d'application du tarif été ou hiver du parking du col n'est publiée par aucune source ; le tarif été (le plus cher) est retenu.",
+      "a_demander": [
+        {
+          "question": "Mi-octobre 2026 (entre la fin de l'été et l'ouverture du ski le 4 décembre), le parking du col applique-t-il le tarif été (4 €/h) ou hiver (2,50 €/24 h) ?",
+          "page": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/selva-di-val-gardena/parcheggio-passo-gardena/762900D4E3B8455490E0140737E94844/"
+        }
+      ]
     },
     "acces": "Depuis Selva di Val Gardena (≈ 10 km) ou Corvara (≈ 10 km) par la SS243. Pas de péage.",
-    "description": "Col routier à 2 121 m sur la SS243. En 2026 aucune restriction de circulation : le projet de zone à trafic limité (réservation de 150 places par jour, transit réservé aux résidents) n'est qu'en test numérique à partir de septembre 2026, sans barrière ni amende ; une mise en place réelle est envisagée à partir de l'été 2027. Parking officiel au col : 60 places, ouvert toute l'année, 4 €/h les 3 premières heures, 2 €/h ensuite, 20 € la journée en tarif été, 2,50 €/24 h en tarif hiver (période d'application du tarif été en octobre non précisée). Petite balade possible avec le chien vers le refuge Jimmi (2 220 m) au pied du Cir. Fermeture ponctuelle possible après une chute de neige précoce en octobre.",
+    "description": "Col routier à 2 121 m sur la SS243. En 2026 aucune restriction de circulation : le projet de zone à trafic limité (réservation de 150 places par jour, transit réservé aux résidents) n'est qu'en test numérique à partir de septembre 2026, sans barrière ni amende ; une mise en place réelle est envisagée à partir de l'été 2027. Parking officiel au col : 60 places, ouvert toute l'année, 4 €/h les 3 premières heures, 2 €/h ensuite, 20 € la journée en tarif été, 2,50 €/24 h en tarif hiver (période d'application du tarif été en octobre non précisée). Petite balade possible avec le chien vers le refuge Jimmi (2 220 m) au pied du Cir, fermé depuis le 27 septembre ; l'hôtel-restaurant Frara n'a aucune chambre réservable du 29 septembre au 28 octobre : pas de restauration au col. Fermeture ponctuelle possible après une chute de neige précoce en octobre.",
     "liens": [
       {
         "libelle": "Parking Passo Gardena (office de tourisme)",
@@ -8245,8 +8503,13 @@
       {
         "libelle": "Carte",
         "url": "https://www.openstreetmap.org/?mlat=46.5497&mlon=11.8086#map=15/46.5497/11.8086"
+      },
+      {
+        "libelle": "Refuges Alta Badia — dates d'ouverture",
+        "url": "https://www.alta-badia.org/en/leisure-activities/mountains-and-hiking/mountain-huts-in-the-alta-badia/"
       }
-    ]
+    ],
+    "source": "https://www.valgardena.it/en/addresses/detail/base/poi/selva-di-val-gardena/parking-passo-gardena/762900D4E3B8455490E0140737E94844/"
   },
   {
     "id": "corvara",
@@ -8258,10 +8521,31 @@
     ],
     "commune": "Corvara in Badia (BZ)",
     "altitude": 1568,
-    "resume": "Village au cœur de l'Alta Badia, carrefour des cols. Ravitaillement et point de départ vers Pralongià.",
+    "resume": "Village au cœur de l'Alta Badia, carrefour des cols. Ravitaillement au Conad City (7 j/7) et point de départ vers Pralongià. Parkings du centre 0,50 €/15 min, 8 € max, stationnement interdit de minuit à 8h.",
     "prix": {
-      "type": "gratuit",
-      "montant": 0
+      "type": "payant",
+      "montant": 8,
+      "unite": "stationnement, journée (max. 12 h)",
+      "annee_tarif": 2026,
+      "detail": "Parkings communaux payants de 8h à 20h : 0,50 €/15 min, plafond 8 € (P2, P3, P4–P10 cabine Boè sur 12 h ; P11 place du marché sur 9 h) ou 4 € les 2 h (P1, P12). Gratuit de 20h à minuit ; stationnement interdit de minuit à 8h.",
+      "grille": [
+        {
+          "libelle": "P2 place de la mairie, P3 église neuve, P4–P10 cabine Boè",
+          "valeur": "0,50 €/15 min, max 8 €/12 h"
+        },
+        {
+          "libelle": "P11 place du marché",
+          "valeur": "0,50 €/15 min, max 8 €/9 h"
+        },
+        {
+          "libelle": "P1 église ancienne, P12 Sport Kostner",
+          "valeur": "0,50 €/15 min, max 4 €/2 h"
+        },
+        {
+          "libelle": "Camping-car (P4–P10)",
+          "valeur": "0,75 €/15 min, max 12 €/12 h"
+        }
+      ]
     },
     "chien": {
       "admis": true,
@@ -8436,8 +8720,20 @@
     "adresse": "Office de tourisme : Str. Col Alt 36, 39033 Corvara in Badia",
     "horaires": [
       {
-        "libelle": "Supermarchés (règle Alta Badia)",
-        "valeur": "8h–12h et 15h–19h"
+        "libelle": "Conad City, Strada Col Alt 97",
+        "valeur": "lun–sam 8h–19h, dim 9h–19h (fiche officielle)"
+      },
+      {
+        "libelle": "Despar Colfosco, Str. Col Pradat 37",
+        "valeur": "lun–sam 7h–12h et 15h–19h, dim 7h–12h et 16h–19h (fiche officielle)"
+      },
+      {
+        "libelle": "Despar Strada Col Alt 10",
+        "valeur": "affiché fermé toute la semaine (fiche officielle)"
+      },
+      {
+        "libelle": "Parkings communaux",
+        "valeur": "payants 8h–20h, interdits 0h–8h"
       },
       {
         "libelle": "Office de tourisme",
@@ -8446,12 +8742,12 @@
     ],
     "pratique": [
       {
-        "libelle": "Supermarché Spar",
-        "valeur": "46.5522, 11.8727 (OSM)"
+        "libelle": "Supermarché Conad City",
+        "valeur": "Strada Col Alt 97, parking extérieur, 46.5470, 11.8754"
       },
       {
-        "libelle": "Supermarché Conad",
-        "valeur": "Strada Col Alt 97, 46.5470, 11.8754 (OSM)"
+        "libelle": "Supermarché Despar Colfosco",
+        "valeur": "Str. Col Pradat 37, Colfosco"
       },
       {
         "libelle": "Carburant",
@@ -8460,6 +8756,10 @@
       {
         "libelle": "Eau potable",
         "valeur": "fontaines au centre, ex. 46.5472, 11.8773 (OSM)"
+      },
+      {
+        "libelle": "Stationnement",
+        "valeur": "horodateurs, 8 € max la journée ; pas de nuit sur les parkings communaux"
       }
     ],
     "verification": {
@@ -8476,12 +8776,41 @@
         {
           "libelle": "OpenStreetMap Overpass — supermarchés, fontaines, carburant",
           "url": "https://www.openstreetmap.org/#map=16/46.5496/11.8740"
+        },
+        {
+          "libelle": "Conad — fiche officielle Conad City Corvara (horaires hebdomadaires)",
+          "url": "https://www.conad.it/ricerca-negozi/conad-city-strada-col-alt-97-39033-corvara-in-badia--006705"
+        },
+        {
+          "libelle": "Despar — Corvara Strada Col Alt 10, affiché fermé",
+          "url": "https://www.despar.it/it/punto-vendita-despar/754/corvara/"
+        },
+        {
+          "libelle": "Despar — Colfosco, Str. Col Pradat 37",
+          "url": "https://www.despar.it/it/punto-vendita-despar/1012/corvara/"
+        },
+        {
+          "libelle": "Alta Badia — parking P2 place de la mairie (tarifs, interdiction 0h–8h)",
+          "url": "https://www.altabadia.org/it/poi/cosa-fare-in-alta-badia/dettaglio/poi/parcheggio-piazzale-comune-corvara"
+        },
+        {
+          "libelle": "Alta Badia — parkings cabine Boè P4–P10",
+          "url": "https://www.altabadia.org/it/poi/cosa-fare-in-alta-badia/dettaglio/poi/parcheggi-ovovia-boe"
+        },
+        {
+          "libelle": "Alta Badia — parking P1 église ancienne",
+          "url": "https://www.altabadia.org/it/poi/cosa-fare-in-alta-badia/dettaglio/poi/parcheggio-chiesa-vecchia-corvara"
+        },
+        {
+          "libelle": "Alta Badia — parking P11 place du marché",
+          "url": "https://www.altabadia.org/it/poi/cosa-fare-in-alta-badia/dettaglio/poi/parcheggio-piazza-mercato-corvara"
         }
       ],
-      "doutes": "Horaires d'octobre des supermarchés issus d'OpenStreetMap, non confirmés par les enseignes. Tarifs de stationnement non trouvés."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "Depuis le Val Gardena par le col Gardena (SS243), libre en 2026 (seule une simulation numérique de zone à trafic limité démarre en septembre 2026, sans barrière). Vers Cortina : col de Valparola ou col de Campolongo puis col de Falzarego.",
-    "description": "Le 15 octobre 2026, Corvara est en intersaison : remontées fermées depuis le 4 octobre, beaucoup d'hôtels et restaurants fermés entre les saisons (non vérifié établissement par établissement). Les services de base restent : deux supermarchés d'après OpenStreetMap (Spar Zingerle, horaires lun–sam 8h30–13h et 15h–19h, dim 9h–12h30 et 15h–19h ; Conad, Strada Col Alt 97, lun–sam 8h30–12h et 15h30–19h, fermé le dimanche), station-service Q8 24h/24 en sortie ouest du village, plusieurs fontaines d'eau potable au centre. Règle générale en Alta Badia (office de tourisme) : supermarchés 8h–12h et 15h–19h, donc arriver avant midi ou après 15h. Le 15 octobre 2026 est un jeudi : pas de souci de fermeture dominicale. Stationnement : nombreux parkings payants au centre, l'un indiqué 8h–20h.",
+    "description": "Le 15 octobre 2026, Corvara est en intersaison : remontées fermées depuis le 4 octobre, beaucoup d'hôtels et restaurants fermés entre les saisons (non vérifié établissement par établissement). Ravitaillement : Conad City, Strada Col Alt 97, ouvert du lundi au samedi 8h–19h et le dimanche 9h–19h sans coupure (fiche officielle Conad) ; Despar de Colfosco à 2 km, 7h–12h et 15h–19h. Le Despar Strada Col Alt 10 (ex-Spar Zingerle d'OpenStreetMap) est affiché fermé toute la semaine. Station-service Q8 24h/24 en sortie ouest du village, plusieurs fontaines d'eau potable au centre. Stationnement : parkings communaux à horodateur payants de 8h à 20h, 0,50 € le quart d'heure, plafond 8 € la journée (4 € les 2 h sur P1 et P12) ; stationnement interdit de minuit à 8h, donc pas de nuit dans la voiture en ville.",
     "liens": [
       {
         "libelle": "Office de tourisme de Corvara",
@@ -8496,13 +8825,27 @@
         "url": "https://www.altabadia.org/en/info-service/shops-and-services/alta-badia-shopping"
       },
       {
+        "libelle": "Conad City Corvara — horaires",
+        "url": "https://www.conad.it/ricerca-negozi/conad-city-strada-col-alt-97-39033-corvara-in-badia--006705"
+      },
+      {
+        "libelle": "Parkings Alta Badia — liste officielle",
+        "url": "https://www.altabadia.org/it/alta-badia-come-arrivare-e-spostarsi/parcheggi"
+      },
+      {
+        "libelle": "Parking place de la mairie (P2) — tarifs",
+        "url": "https://www.altabadia.org/it/poi/cosa-fare-in-alta-badia/dettaglio/poi/parcheggio-piazzale-comune-corvara"
+      },
+      {
         "libelle": "Carte",
         "url": "https://www.openstreetmap.org/#map=16/46.5496/11.8740"
       }
     ],
     "ouverture": {
-      "note": "Village accessible toute l'année ; en octobre, commerces de base ouverts, beaucoup d'établissements touristiques fermés (intersaison)."
-    }
+      "a_reverifier": false,
+      "note": "Village accessible toute l'année ; en octobre, Conad City ouvert 7 j/7, beaucoup d'établissements touristiques fermés (intersaison)."
+    },
+    "source": "https://www.altabadia.org/en/poi/what-to-do-in-alta-badia/detail/poi/infopoint-tourist-office-corvara"
   },
   {
     "id": "passo-tre-croci",
@@ -8664,33 +9007,33 @@
     ],
     "commune": "San Vigilio di Marebbe (BZ)",
     "altitude": 1548,
-    "resume": "Fin de la route du val de Rudo, à 12 km de San Vigilio, départ vers Fanes et Sennes. Péage l'été seulement (12–13 € la voiture, stationnement compris) ; hors saison, stationnement payant 5 € la journée. Bus 462 en horaire d'hiver dès le 12 octobre 2026 : deux montées par jour en semaine.",
+    "resume": "Fin de la route du val de Rudo, à 12 km de San Vigilio, départ vers Fanes et Sennes. Péage 2026 du 20 juin au 13 septembre seulement : en octobre, route libre et parking payant 1 €/h, 5 € la journée. Auberge fermée du 11 octobre au 26 décembre 2026. Bus 462 en horaire d'hiver dès le 12 octobre.",
     "prix": {
       "type": "variable",
-      "montant": 13,
-      "unite": "voiture, journée, péage et stationnement compris (tarif d'été, plafond)",
-      "annee_tarif": 2021,
-      "detail": "Été : 12 € (2021) à 13 € la voiture, stationnement compris. Hors saison du péage : 5 € la journée de stationnement (avis 2024). Lequel des deux s'applique en octobre 2026 n'est pas publié.",
+      "montant": 5,
+      "unite": "voiture, journée de stationnement à Pederü (octobre 2026, hors période de péage)",
+      "annee_tarif": 2026,
+      "detail": "Délibération communale 153/2026 : péage du 20/06 au 13/09/2026, de 7h30 à 16h, 13 € la voiture parking compris. En dehors de cette période, pas de péage mais le parking de Pederü reste payant : 1 €/h, 5 € au-delà de 5 heures (tarif journée, délibération 372/2023 reprise en 2026). Le 20 octobre : 5 € pour la journée.",
       "grille": [
         {
-          "libelle": "Péage voiture (été)",
-          "valeur": "12–13 €"
+          "libelle": "Péage voiture 20 juin – 13 sept. 2026, 7h30–16h (parking du jour compris)",
+          "valeur": "13 €"
         },
         {
-          "libelle": "Péage moto (été)",
-          "valeur": "4 €"
+          "libelle": "Péage camping-car (même période)",
+          "valeur": "23 €"
         },
         {
-          "libelle": "Péage camping-car (été)",
-          "valeur": "24 €"
+          "libelle": "Péage moto (même période)",
+          "valeur": "7,50 €"
         },
         {
-          "libelle": "Stationnement hors péage, voiture",
-          "valeur": "5 €/jour"
+          "libelle": "Parking Pederü hors péage, voiture",
+          "valeur": "1 €/h ; 5 € au-delà de 5 h (tarif journée)"
         },
         {
-          "libelle": "Stationnement hors péage, camping-car",
-          "valeur": "7,50 €/jour"
+          "libelle": "Parking Pederü hors péage, camping-car",
+          "valeur": "1,50 €/h ; 7,50 € au-delà de 5 h"
         }
       ]
     },
@@ -8711,13 +9054,21 @@
       "parking",
       "tracé voiture"
     ],
-    "source": "https://www.suedtirolmobil.info/fileadmin/pdf/2026/462_20251214.pdf",
+    "source": "https://data.gvcc.net/AlboPretorioOnline/DownloadDocument/beschluesse/document/MjEwNDcvYjg5MWIxMmQtZmJmZi00NTliLTliNWUtNTQ2Mjk0OTE0ZGI0LzE3OTA2MDg5ODQ.zvU04L-gGDruGZGouqRkEPiwQz4_JRMUvGU3ocjdBm4",
     "photos": [],
     "adresse": "Pederü, 39030 San Vigilio di Marebbe (BZ)",
     "horaires": [
       {
-        "libelle": "Péage",
-        "valeur": "été seulement ; gratuit de 16 h à 7 h 30 (avis 2024) ; date de fin 2026 non publiée"
+        "libelle": "Péage 2026",
+        "valeur": "20 juin – 13 septembre, tous les jours 7h30–16h (terminé pendant le séjour)"
+      },
+      {
+        "libelle": "Parking de Pederü",
+        "valeur": "payant toute l'année (horodateurs) ; ticket journée valable jusqu'à minuit (avis 2024)"
+      },
+      {
+        "libelle": "Auberge Pederü",
+        "valeur": "ouverte 23 mai – 11 octobre 2026 ; fermée 11 octobre – 26 décembre 2026"
       },
       {
         "libelle": "Bus 462 dès le 12 oct. 2026 — montée",
@@ -8731,11 +9082,11 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "parking terminal d'environ 80 places, payant"
+        "valeur": "parking terminal d'environ 80 places, payant : 1 €/h, 5 € la journée ; stationnement de jour seulement (contrôles de nuit signalés)"
       },
       {
         "libelle": "Auberge Pederü",
-        "valeur": "restaurant et chambres, animaux refusés dans les chambres ; saison 2026 non publiée"
+        "valeur": "fermée pendant le séjour (11 octobre – 26 décembre 2026) : ni repas ni toilettes sur place"
       },
       {
         "libelle": "Bus",
@@ -8746,45 +9097,62 @@
       "date": "2026-09-28",
       "sources": [
         {
+          "libelle": "Commune de Marebbe — délibération 153/2026 : péage 20/06–13/09/2026, 7h30–16h, 13 € voiture ; parking Pederü 1 €/h, 5 € au-delà de 5 h",
+          "url": "https://data.gvcc.net/AlboPretorioOnline/DownloadDocument/beschluesse/document/MjEwNDcvYjg5MWIxMmQtZmJmZi00NTliLTliNWUtNTQ2Mjk0OTE0ZGI0LzE3OTA2MDg5ODQ.zvU04L-gGDruGZGouqRkEPiwQz4_JRMUvGU3ocjdBm4"
+        },
+        {
+          "libelle": "Commune de Marebbe — délibération 61/2025 : parking de Pederü payant toute l'année (délibération 372/2023), exemptions",
+          "url": "https://data.gvcc.net/AlboPretorioOnline/DownloadDocument/beschluesse/document/MjEwNDcvNDIzQzE2MzMtODhCQy1FMDY4LUUwNjAtMUJBQ0MzMjIyREQyLzE3OTA2MDg5ODQ.HurR3leAO2YMPmQSyMC8LqTT4VU13ECc6T_fkWPOkMI"
+        },
+        {
+          "libelle": "Commune de Marebbe — archive de l'albo pretorio (délibérations 2024–2026)",
+          "url": "https://data.gvcc.net/AlboPretorioOnline/?gemeinde=047&lang=IT&sektion=ARCH"
+        },
+        {
+          "libelle": "sanvigilio.com — auberge Pederü « Chiuso: 11.10.2026 - 26.12.2026 »",
+          "url": "https://www.sanvigilio.com/it/info/rifugio-albergo-peder_4481"
+        },
+        {
           "libelle": "Südtirolmobil — horaires 462 été et hiver 2026",
           "url": "https://www.suedtirolmobil.info/fileadmin/pdf/2026/462_20251214.pdf"
         },
         {
-          "libelle": "Auberge Pederü — animaux refusés",
-          "url": "https://www.pederue.it/en"
-        },
-        {
-          "libelle": "Kreiter — péage 12 € (août 2021)",
-          "url": "https://www.kreiter.info/familie/docs/paesse/rifugio-pederue.htm"
-        },
-        {
-          "libelle": "Elimeli — 12 €/jour stationnement compris",
-          "url": "https://www.elimeli.it/appunti-di-viaggio/italia/trentino-alto-adige/rifugio-pederu/"
-        },
-        {
-          "libelle": "park4night — 5 €/jour hors péage, gratuit 16 h–7 h 30",
+          "libelle": "park4night — Pederü : « Im Winter keine Mautgebühr… PKW 5 € Tagesticket, endet um Mitternacht » (fév. 2024), contrôles de nuit (août 2025)",
           "url": "https://park4night.com/en/place/298264"
+        },
+        {
+          "libelle": "Auberge Pederü — animaux refusés",
+          "url": "https://www.pederue.it/it"
+        },
+        {
+          "libelle": "TripAdvisor — « si paga un pedaggio di € 13,00 comprensivo di parcheggio »",
+          "url": "https://www.tripadvisor.it/Hotel_Review-g5971121-d1862313-Reviews-Albergo_e_Rifugio_Pederu-San_Vigilio_Marebbe_Province_of_South_Tyrol_Trentino_Alto_Ad.html"
         }
       ],
-      "doutes": "Aucune source officielle (commune de Marebbe, office de tourisme) ne publie les tarifs ni la période du péage 2026 : montants tirés de blogs et d'avis (2021–2024). Saison 2026 de l'auberge Pederü non publiée."
+      "doutes": "",
+      "a_demander": []
     },
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Route ouverte en octobre. Tarif applicable en octobre 2026 (péage d'été ou stationnement d'hiver) non publié : compter 13 € au plus. Bus 462 en service réduit (horaire d'hiver) à partir du 12 octobre."
+      "a_reverifier": false,
+      "note": "Route ouverte et sans péage en octobre (péage 2026 terminé le 13 septembre). Parking payant 5 € la journée. Auberge fermée à partir du 11 octobre. Bus 462 en service réduit (horaire d'hiver) à partir du 12 octobre."
     },
-    "acces": "Depuis San Vigilio di Marebbe, route du val de Rudo sur 12 km jusqu'au parking terminal. Barrière de péage l'été, 5 km après le village. Route interdite au-delà de Pederü (anciennes routes militaires fermées aux véhicules).",
+    "acces": "Depuis San Vigilio di Marebbe, route du val de Rudo sur 12 km jusqu'au parking terminal. Point de péage à Ciamaor, actif du 20 juin au 13 septembre 2026 de 7h30 à 16h seulement. Route interdite au-delà de Pederü (anciennes routes militaires fermées aux véhicules).",
     "reserver": {
       "obligatoire": false
     },
-    "description": "Pederü est le terminus de la route à péage qui remonte le val de Rudo depuis San Vigilio ; le péage est encaissé à une barrière 5 km après le village, seulement l'été, et comprend le stationnement au bout (80 places sur OpenStreetMap). Tarifs les plus récents trouvés : 12 € (article de blog non daté ; 12 € en 2021) à 13 € la voiture, 4 € la moto, 24 € le camping-car ; route gratuite de 16 h à 7 h 30 (avis juin 2024). Hors saison, pas de péage mais stationnement payant : 5 € le ticket journée pour une voiture, 7,50 € pour un camping-car (avis février 2024). Aucune date officielle de fin du péage n'a été trouvée pour 2026. L'auberge Pederü (Berggasthaus) refuse les animaux dans ses chambres ; ses clients ne paient pas le péage. Bus 462 San Vigilio – Pederü : horaire d'été jusqu'au 11 octobre 2026, horaire d'hiver du 12 octobre au 12 décembre 2026. En hiver, montée depuis San Vigilio centre à 9 h 40 et 15 h 40 chaque jour, plus 8 h 40 et 16 h 40 le samedi, le dimanche et les jours fériés ; descente depuis Pederü à 10 h et 16 h chaque jour, plus 9 h et 17 h le samedi, le dimanche et les jours fériés.",
+    "description": "Pederü est le terminus de la route qui remonte le val de Rudo depuis San Vigilio. La commune de Marebbe fixe chaque année le péage d'accès au parc naturel Fanes-Sennes-Braies : en 2026, du 20 juin au 13 septembre, tous les jours de 7h30 à 16h, 13 € la voiture (parking du jour compris), 23 € le camping-car, 7,50 € la moto (délibération 153/2026). Hors de cette période, pas de péage, mais le parking de Pederü (environ 80 places) reste payant à l'horodateur : 1 € l'heure, 5 € au-delà de 5 heures pour une voiture, 7,50 € pour un camping-car ; le ticket journée court jusqu'à minuit (avis février 2024). Stationnement de jour seulement : la police municipale contrôle la route la nuit (amendes jusqu'à 300 €, avis août 2025). L'auberge Pederü est fermée du 11 octobre au 26 décembre 2026 et refuse les animaux dans ses chambres. Bus 462 San Vigilio – Pederü : horaire d'été jusqu'au 11 octobre 2026, horaire d'hiver du 12 octobre au 12 décembre 2026 ; montée depuis San Vigilio centre à 9 h 40 et 15 h 40 chaque jour, plus 8 h 40 et 16 h 40 le samedi, le dimanche et les jours fériés ; descente depuis Pederü à 10 h et 16 h chaque jour, plus 9 h et 17 h le samedi, le dimanche et les jours fériés.",
     "liens": [
+      {
+        "libelle": "Péage et parking 2026 — délibération communale 153/2026 (PDF)",
+        "url": "https://data.gvcc.net/AlboPretorioOnline/DownloadDocument/beschluesse/document/MjEwNDcvYjg5MWIxMmQtZmJmZi00NTliLTliNWUtNTQ2Mjk0OTE0ZGI0LzE3OTA2MDg5ODQ.zvU04L-gGDruGZGouqRkEPiwQz4_JRMUvGU3ocjdBm4"
+      },
       {
         "libelle": "Bus 462 — horaires 2026 (PDF officiel)",
         "url": "https://www.suedtirolmobil.info/fileadmin/pdf/2026/462_20251214.pdf"
       },
       {
-        "libelle": "Auberge Pederü",
-        "url": "https://www.pederue.it/en"
+        "libelle": "Auberge Pederü — dates d'ouverture",
+        "url": "https://www.sanvigilio.com/it/info/rifugio-albergo-peder_4481"
       },
       {
         "libelle": "Office de tourisme de San Vigilio",
@@ -8806,21 +9174,25 @@
     ],
     "commune": "Canazei / Arabba",
     "altitude": 2239,
-    "resume": "Col routier à 2 239 m, gare basse du téléphérique du Sass Pordoi (32 € aller-retour, ouvert jusqu'au 1er novembre 2026). Parking payant au col : environ 2–2,50 €/h le jour, 10–12 € la journée, 20–22 € la nuit (avis 2026).",
+    "resume": "Col routier à 2 239 m, gare basse du téléphérique du Sass Pordoi (32 € aller-retour, ouvert jusqu'au 1er novembre 2026). Parking payant du téléphérique, mais deux parkings gratuits à moins de 300 m. Hôtels du col fermés à la mi-octobre.",
     "prix": {
-      "type": "payant",
-      "montant": 12,
-      "unite": "voiture, journée (plafond 7 h–21 h)",
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "voiture, stationnement gratuit",
       "annee_tarif": 2026,
-      "detail": "Avis park4night été 2026 : 2 €/h plafonné à 10 € (juillet), 12 € la journée (juillet), 2,50 €/h (août) ; nuit 20–22 €. Fiche park4night : 30 €/nuit. Aucun tarif publié par l'exploitant.",
+      "detail": "Stationnement gratuit possible : 5 places au-dessus de la gare aval et terre-plein en descente vers Arabba (avis septembre 2026). Parking payant du téléphérique : ≈ 2–2,50 €/h, plafond 10–12 € le jour, nuit 20–30 € selon les avis ; aucun tarif publié par l'exploitant.",
       "grille": [
         {
-          "libelle": "Parking, jour",
-          "valeur": "2–2,50 €/h, plafond 10–12 €"
+          "libelle": "Places gratuites au-dessus de la gare aval et vers Arabba (2 à 5 selon les avis)",
+          "valeur": "0 €"
         },
         {
-          "libelle": "Parking, nuit 21 h–7 h",
-          "valeur": "20–22 € (30 € selon la fiche)"
+          "libelle": "Parking du téléphérique, jour",
+          "valeur": "≈ 2–2,50 €/h, plafond 10–12 € (avis 2026)"
+        },
+        {
+          "libelle": "Parking du téléphérique, nuit 21 h–7 h",
+          "valeur": "20–30 € (avis)"
         },
         {
           "libelle": "Téléphérique adulte aller-retour",
@@ -8830,7 +9202,8 @@
           "libelle": "Téléphérique adulte aller simple",
           "valeur": "18 €"
         }
-      ]
+      ],
+      "alternative_gratuite": "Parking gratuit au-dessus de la gare aval (46.48821, 11.81509) ou terre-plein à 300 m (46.48697, 11.81387)."
     },
     "chien": {
       "admis": true,
@@ -9010,26 +9383,30 @@
         "valeur": "14 mai – 1er novembre, 9 h–17 h ; 16 h 30 dès le 19 octobre"
       },
       {
-        "libelle": "Parking",
+        "libelle": "Parking du téléphérique",
         "valeur": "jour 7 h–21 h, nuit 21 h–7 h (niveau inférieur)"
       },
       {
         "libelle": "Refuge Maria (sommet)",
-        "valeur": "jusqu'au 1er novembre 2026"
+        "valeur": "ouvert pendant le séjour, 9 h–17 h"
+      },
+      {
+        "libelle": "Hôtels Col di Lana et Savoia",
+        "valeur": "fermés : aucune chambre réservable dès le 7 octobre (Savoia) et le 14 octobre (Col di Lana)"
       }
     ],
     "pratique": [
       {
-        "libelle": "Parking",
-        "valeur": "≈ 100 places à barrière, payant, sans eau ni toilettes"
+        "libelle": "Parking payant",
+        "valeur": "≈ 100 places à barrière, propriété du téléphérique, sans eau ni toilettes"
       },
       {
         "libelle": "Parking gratuit",
-        "valeur": "terre-plein ≈ 6 véhicules à 500 m"
+        "valeur": "5 places au-dessus de la gare aval (46.48821, 11.81509) ; terre-plein ≈ 10 places en descente vers Arabba (46.48697, 11.81387)"
       },
       {
-        "libelle": "Restauration au col",
-        "valeur": "hôtels Col di Lana et Savoia ; ouverture en octobre non confirmée"
+        "libelle": "Restauration",
+        "valeur": "au col : hôtels fermés à la mi-octobre, prévoir un pique-nique ; au sommet : Rifugio Maria ouvert"
       }
     ],
     "verification": {
@@ -9050,20 +9427,50 @@
         {
           "libelle": "OpenStreetMap — col 2 239 m, parkings payants",
           "url": "https://www.openstreetmap.org/?mlat=46.48777&mlon=11.81106#map=17/46.48777/11.81106"
+        },
+        {
+          "libelle": "park4night 14668 — parking payant du col, avis 24/09/2026 « Überteuert »",
+          "url": "https://park4night.com/fr/place/14668"
+        },
+        {
+          "libelle": "park4night 718856 — 5 places gratuites au-dessus du téléphérique, avis 13 et 15/09/2026",
+          "url": "https://park4night.com/fr/place/718856"
+        },
+        {
+          "libelle": "park4night 637424 — terre-plein gratuit en descente vers Arabba, avis 7–10/09/2026",
+          "url": "https://park4night.com/fr/place/637424"
+        },
+        {
+          "libelle": "Hôtel Col di Lana — moteur de réservation, 14–15/10/2026 : « Non disponibile » sur toutes les chambres",
+          "url": "https://hospitality-guest.teamsystem.cloud/booking-engine/hotel-col-di-lana"
+        },
+        {
+          "libelle": "Hôtel Savoia — moteur de réservation : chambres disponibles jusqu'au 6/10, toutes indisponibles dès le 7/10/2026",
+          "url": "https://booking.ericsoft.com/BookingEngine/Book?idh=E4714838DBC65B43"
+        },
+        {
+          "libelle": "APT Val di Fassa — Rifugio Maria « ESTATE: da maggio a ottobre »",
+          "url": "https://www.fassa.com/it/dove-dormire/maria"
         }
       ],
-      "doutes": "Tarif du parking tiré d'avis d'utilisateurs, aucun tarif officiel ; valeurs divergentes (nuit 20, 22 ou 30 €). Ouverture en octobre des hôtels et commerces du col non publiée."
+      "doutes": "Le tarif du parking payant du téléphérique n'est publié nulle part (avis divergents) ; sans enjeu grâce aux parkings gratuits voisins.",
+      "a_demander": [
+        {
+          "question": "Quel est le tarif 2026 du parking de la gare aval du téléphérique (heure, journée, nuit) à la mi-octobre ?",
+          "page": "https://www.sasspordoi.it/en/"
+        }
+      ]
     },
     "ouverture": {
       "fin_saison": "2026-11-01",
       "a_reverifier": false,
-      "note": "Col, parking, téléphérique et refuge Maria ouverts pendant le séjour ; hôtels du col : date de fermeture non publiée."
+      "note": "Col, parkings, téléphérique et refuge Maria ouverts pendant le séjour ; hôtels-restaurants du col fermés (réservation impossible à partir du 7 octobre pour le Savoia, le 14 octobre pour le Col di Lana)."
     },
     "acces": "SS48 depuis Canazei (≈ 12 km) ou SR48 depuis Arabba (≈ 9 km). Pas de restriction de hauteur connue ; barrière à l'entrée du parking.",
     "reserver": {
       "obligatoire": false
     },
-    "description": "Le col relie la vallée de Fassa (Canazei) à Arabba. Le parking du col appartient à la société du téléphérique : deux niveaux à barrière, environ 100 places, payants toute l'année. Tarifs cités dans les avis de l'été 2026 : 2 €/h (2,50 €/h selon un avis d'août), plafond 10–12 € de 7 h à 21 h ; nuit de 21 h à 7 h à 20–22 €, autorisée seulement au niveau inférieur ; la fiche park4night affiche 30 €/nuit. Un petit terre-plein gratuit à environ 500 m accueille environ 6 véhicules. Téléphérique du Sass Pordoi : 32 € aller-retour, du 14 mai au 1er novembre 2026, 9 h–17 h, fermeture à 16 h 30 dès le 19 octobre. Au sommet, le refuge Maria est ouvert jusqu'au 1er novembre. Le refuge Forcella Pordoi ferme le 30 septembre. Au col, l'hôtel Col di Lana (restaurant ouvert aux non-résidents, chiens admis) et l'hôtel Savoia (restaurant-pizzeria) ne publient pas leur date de fermeture d'automne.",
+    "description": "Le col relie la vallée de Fassa (Canazei) à Arabba. Le grand parking du col appartient à la société du téléphérique : deux niveaux à barrière, environ 100 places, payants toute l'année (avis 2026 : 2 à 2,50 €/h, plafond 10 à 12 € le jour ; nuit 20 à 30 € au niveau inférieur ; aucun tarif publié). Stationnement gratuit : 5 places juste au-dessus de la gare aval, utilisées en septembre 2026 pour prendre le téléphérique, et un grand terre-plein au début de la descente vers Arabba. Téléphérique du Sass Pordoi : 32 € aller-retour, du 14 mai au 1er novembre 2026, 9 h–17 h, fermeture à 16 h 30 dès le 19 octobre. Au sommet, le refuge Maria reste ouvert. Les hôtels du col (Col di Lana, Savoia) n'acceptent plus de réservation à la mi-octobre : compter sur le refuge Maria ou un pique-nique.",
     "liens": [
       {
         "libelle": "Téléphérique du Sass Pordoi — horaires et prix",
@@ -9080,6 +9487,14 @@
       {
         "libelle": "Hôtel Savoia",
         "url": "https://www.savoiahotel.net/"
+      },
+      {
+        "libelle": "park4night — parking gratuit au-dessus du téléphérique",
+        "url": "https://park4night.com/fr/place/718856"
+      },
+      {
+        "libelle": "park4night — terre-plein gratuit",
+        "url": "https://park4night.com/fr/place/637424"
       }
     ]
   },
@@ -9286,13 +9701,13 @@
     ],
     "commune": "San Cassiano (BZ)",
     "altitude": 1690,
-    "resume": "Ouvert toute la saison d'automne, places libres du 16 au 21 octobre 2026. Emplacement « Rolling Home » (voiture + tente) : 35 €/nuit pour 2 adultes, + chien 4 €, taxe 4,60 €, électricité au compteur.",
+    "resume": "Ouvert pendant tout le séjour, plus de 220 emplacements « Rolling Home » libres. 35 €/nuit pour 2 adultes (moteur officiel, 16–21 oct. 2026) + chien 4 € + taxe 4,60 € = 43,60 €/nuit, électricité en sus (1,10 €/kWh). Arriver entre 15h et 18h30.",
     "prix": {
       "type": "payant",
       "montant": 43.6,
       "unite": "nuit, 2 adultes + chien + taxe de séjour, hors électricité",
       "annee_tarif": 2026,
-      "detail": "Rolling Home 35 €/nuit pour 2 adultes (moteur officiel, 16–21 oct. 2026 : 175 € les 5 nuits) + chien 4 €/jour + taxe de séjour 2 × 2,30 € = 43,60 €/nuit ; électricité au compteur en sus (tarif du kWh non publié).",
+      "detail": "Moteur officiel interrogé le 28/09/2026 (Rolling Home, 2 adultes) : 35 € pour 17→18 oct., 70 € pour 16→18 oct., 140 € pour 17→21 oct., soit 35 €/nuit (24 € emplacement avec 1 personne + 11 € 2e adulte). S'ajoutent le chien 4 €/jour et la taxe de séjour 2 × 2,30 € : 43,60 €/nuit. Selon le planning : 43,60 € (7 jours, 1 nuit), 87,20 € (8 et 10 jours, 2 nuits), 174,40 € (14 et 16 jours, 4 nuits), électricité au compteur en sus.",
       "grille": [
         {
           "libelle": "Rolling Home, 1 personne",
@@ -9303,8 +9718,8 @@
           "valeur": "11 €/nuit"
         },
         {
-          "libelle": "Alpine Tent (tente ≤ 6 m², voiture hors emplacement), 2 adultes",
-          "valeur": "29 €/nuit"
+          "libelle": "Alpine Tent (tente ≤ 6 m², voiture à 100 m), 2 adultes",
+          "valeur": "29 €/nuit — ne convient pas à une tente de toit"
         },
         {
           "libelle": "Chien sur emplacement",
@@ -9312,23 +9727,27 @@
         },
         {
           "libelle": "Taxe de séjour",
-          "valeur": "2,30 €/personne/jour (dès 14 ans)"
+          "valeur": "2,30 €/personne/nuit (dès 14 ans)"
         },
         {
           "libelle": "Électricité",
-          "valeur": "au compteur, 16 A max"
+          "valeur": "1,10 €/kWh au compteur (Pitchup), 16 A max"
+        },
+        {
+          "libelle": "Véhicule déclaré « A car and a tent up to 6 m² »",
+          "valeur": "0 €"
         }
       ]
     },
     "chien": {
       "admis": true,
       "supplement": 4,
-      "note": "4 €/jour sur emplacement (8 € en chambre/cabane). Laisse obligatoire ; interdits au minimarket, au spa et aux sanitaires ; besoins hors du camping ou ramassage. Max. 2 chiens par emplacement (Pitchup)."
+      "note": "4 €/jour sur emplacement (option du moteur officiel « Price in the pitch or Ütia for the pet 4€ per day »). Pas de limite de poids pour les campeurs (limite 10 kg seulement en cabane). Laisse obligatoire ; interdits au minimarket, au spa et aux sanitaires ; carnet de santé sur demande ; déclarer l'animal à l'arrivée."
     },
     "ouverture": {
       "fin_saison": "2027-03-29",
       "a_reverifier": false,
-      "note": "Ouvert pendant le séjour : le moteur officiel affiche 221 à 224 emplacements Rolling Home libres pour 16–18, 17–18, 17–21 et 16–21 octobre 2026 (vérifié le 28/09). Rien n'est réservé."
+      "note": "Ouvert pendant le séjour : le moteur officiel affiche 221 à 224 emplacements Rolling Home libres pour 16–18, 17–18 et 17–21 octobre 2026 (vérifié le 28/09). Rien n'est réservé."
     },
     "source": "https://campingsassdlacia.it/en/booking?roomId=33105",
     "niveau_prix": "€€",
@@ -9341,28 +9760,24 @@
     ],
     "liens": [
       {
-        "libelle": "Camping Sass Dlacia — emplacements",
-        "url": "https://campingsassdlacia.it/it/alloggi/piazzole"
-      },
-      {
-        "libelle": "Conditions et taxe de séjour",
-        "url": "https://campingsassdlacia.it/en/accommodations/useful-informations"
-      },
-      {
-        "libelle": "Pitchup — tente de toit et avis septembre 2026",
-        "url": "https://www.pitchup.com/de/campsites/italy/trentino-alto-adige/bolzano/san_cassiano/camping_sass_dlacia/?facet=roof-tent&pitchtype=22704"
-      },
-      {
         "libelle": "Réservation Rolling Home",
         "url": "https://campingsassdlacia.it/en/booking?roomId=33105"
       },
       {
-        "libelle": "Demande / contact",
-        "url": "https://campingsassdlacia.it/en/request"
+        "libelle": "Conditions, arrivées, taxe de séjour",
+        "url": "https://campingsassdlacia.it/en/accommodations/useful-informations"
       },
       {
-        "libelle": "Pitchup — tente de toit",
+        "libelle": "Camping Sass Dlacia — emplacements",
+        "url": "https://campingsassdlacia.it/it/alloggi/piazzole"
+      },
+      {
+        "libelle": "Pitchup — tente de toit, kWh, horaires",
         "url": "https://www.pitchup.com/campsites/italy/trentino-alto-adige/bolzano/san_cassiano/camping_sass_dlacia/"
+      },
+      {
+        "libelle": "Demande / contact",
+        "url": "https://campingsassdlacia.it/en/request"
       }
     ],
     "photos": [
@@ -9377,15 +9792,23 @@
     "horaires": [
       {
         "libelle": "Saison 2026",
-        "valeur": "ouvert en octobre (arrivées et départs possibles tous les jours d'octobre au moteur officiel) ; Pitchup : 22 mai 2026 – 29 mars 2027"
+        "valeur": "22 mai 2026 – 29 mars 2027 (Pitchup) ; arrivées possibles tous les jours d'octobre au moteur officiel"
       },
       {
         "libelle": "Arrivée emplacement",
-        "valeur": "10h–22h (été) / 15h–21h (hiver) ; réception inoccupée après 18h30 selon Pitchup"
+        "valeur": "15h–18h30 conseillé : 15h–21h (régime affiché par Pitchup, identique à l'« hiver » officiel ; 10h–22h en été) et réception inoccupée après 18h30"
+      },
+      {
+        "libelle": "Après 22h",
+        "valeur": "stationner devant la réception, entrée le lendemain, enregistrement avant 10h"
       },
       {
         "libelle": "Départ",
-        "valeur": "avant 10h"
+        "valeur": "avant 10h ; régler la note la veille avant 20h (hiver) ou 21h (été)"
+      },
+      {
+        "libelle": "Minimarket",
+        "valeur": "7h30–21h, « peut varier selon la saison »"
       },
       {
         "libelle": "Silence",
@@ -9393,6 +9816,14 @@
       }
     ],
     "pratique": [
+      {
+        "libelle": "Emplacement à réserver",
+        "valeur": "« Rolling Home » (gravier) : « one tent with one car » ; choisir l'option véhicule « A car and a tent up to 6 m² » (0 €)"
+      },
+      {
+        "libelle": "Tente de toit",
+        "valeur": "acceptée (catégorie « Roof tent » sur Pitchup) ; la signaler à la réservation pour obtenir un emplacement dont on peut sortir sans déplacer les voisins"
+      },
       {
         "libelle": "Douches",
         "valeur": "sanitaires inclus, deux blocs"
@@ -9403,11 +9834,11 @@
       },
       {
         "libelle": "Électricité",
-        "valeur": "prise CEE sur chaque emplacement, au compteur"
+        "valeur": "prise CEE + rallonge 20 m, 1,10 €/kWh payé au départ"
       },
       {
         "libelle": "Acompte",
-        "valeur": "30 % ; annulation sans frais à plus de 30 jours, sinon acompte perdu"
+        "valeur": "30 % par carte ; annulation sans frais à plus de 30 jours, sinon acompte perdu"
       },
       {
         "libelle": "Transports",
@@ -9418,26 +9849,43 @@
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Moteur officiel (Booking Südtirol, propriété 11980) — prix et disponibilités oct. 2026",
+          "libelle": "Moteur officiel (Booking Südtirol, propriété 11980) — offres 16–18, 17–18, 17–21 oct. 2026, options chien et véhicule",
           "url": "https://campingsassdlacia.it/en/booking?roomId=33105"
         },
         {
-          "libelle": "Site officiel — conditions générales, taxe 2,30 €, arrivées",
+          "libelle": "API du moteur officiel — offres 17–21 oct. 2026 (2 adultes)",
+          "url": "https://api.widgets.bookingsuedtirol.com/v6/properties/11980/offers?from=2026-10-17&to=2026-10-21&guests=[[18,18]]&sourceId=98"
+        },
+        {
+          "libelle": "Site officiel — conditions, horaires d'arrivée été/hiver, taxe 2,30 €",
           "url": "https://campingsassdlacia.it/en/accommodations/useful-informations"
         },
         {
-          "libelle": "Pitchup — tente de toit, chien, saison 2026",
+          "libelle": "Site officiel — services (électricité au compteur, minimarket 7h30–21h)",
+          "url": "https://campingsassdlacia.it/en/services"
+        },
+        {
+          "libelle": "Site officiel — Early Bird automne (18 oct.–3 déc. 2026, 30 jours d'avance)",
+          "url": "https://campingsassdlacia.it/de/urlaubsangebote/early-bird-herbst"
+        },
+        {
+          "libelle": "Pitchup — tente de toit, 1,10 €/kWh, arrivée 15h–21h, réception jusqu'à 18h30",
           "url": "https://www.pitchup.com/campsites/italy/trentino-alto-adige/bolzano/san_cassiano/camping_sass_dlacia/"
+        },
+        {
+          "libelle": "Pitchup — filtre « roof tent »",
+          "url": "https://www.pitchup.com/campsites/italy/trentino-alto-adige/bolzano/san_cassiano/camping_sass_dlacia/?facet=roof-tent"
         }
       ],
-      "doutes": "Tente de toit : acceptée selon Pitchup (type d'hébergement « roof tent ») et implicitement par l'officiel (« tent with one car » en Rolling Home), sans mention mot pour mot sur le site officiel. Prix du kWh non publié. Horaires « hiver » ou « été » en octobre non précisés. Altitude non vérifiée (retirée)."
+      "doutes": "",
+      "a_demander": []
     },
-    "acces": "Str. Sciarè 11, depuis San Cassiano (route du col de Valparola / Falzarego). Pas de restriction de hauteur signalée. Barrière fermée 22h–8h (et 13h–15h en haute saison) ; arrivée après 22h : stationner devant la réception.",
+    "acces": "Str. Sciarè 11, 3 km au sud-est de San Cassiano (route du col de Valparola / Falzarego). Pas de restriction de hauteur signalée. Barrière fermée 22h–8h (et 13h–15h en haute saison) ; arrivée après 22h : stationner devant la réception.",
     "reserver": {
       "obligatoire": false,
       "url": "https://campingsassdlacia.it/en/booking?roomId=33105"
     },
-    "description": "Grand camping d'Alta Badia (plus de 200 emplacements Rolling Home) à côté de San Cassiano, base pour Lagazuoi, Fanes et les cols. L'emplacement « Rolling Home » (gravier, 20–60 m²) accepte « one tent with one car » ; Pitchup référence explicitement l'hébergement « roof tent » (une tente de toit par emplacement). L'emplacement « Alpine Tent » (6 m², voiture garée hors de l'emplacement) ne convient pas à une tente de toit. Tarifs réels du moteur officiel pour 2 adultes : 35 €/nuit en Rolling Home (24 € emplacement avec 1 personne + 11 € 2e adulte), identique pour 17–18, 16–18, 17–21 et 16–21 octobre. S'ajoutent la taxe de séjour 2,30 €/personne/jour, le chien 4 €/jour sur emplacement, et l'électricité facturée au compteur (prise CEE + rallonge 20 m conseillée). Chiens en laisse, interdits au minimarket, au spa et dans les sanitaires ; carnet de santé à présenter sur demande. Laverie à jetons, sanitaires, Wi-Fi, camper service, restaurant/pizzeria, spa payant. Arrivée sur emplacement 10h–22h en été, 15h–21h en hiver ; après la fermeture, stationnement devant la réception et entrée le lendemain. Pitchup signale une réception inoccupée après 18h30 : prévenir en cas d'arrivée tardive."
+    "description": "Grand camping d'Alta Badia (plus de 200 emplacements Rolling Home) à 3 km de San Cassiano, à 1 690 m, base pour Lagazuoi, Fanes et les cols. L'emplacement « Rolling Home » (gravier) accepte « one tent with one car » ; le moteur officiel demande de déclarer le véhicule (option « A car and a tent up to 6 m² », gratuite) et Pitchup classe l'emplacement en « Roof tent ». Un avis Pitchup de 2026 signale une tente de toit coincée sur un emplacement enclavé, le camping s'en est excusé : mentionner la tente de toit à la réservation. Tarifs du moteur officiel (28/09/2026) : 35 €/nuit pour 2 adultes, identiques du 16 au 21 octobre ; + chien 4 €/jour + taxe de séjour 2,30 €/personne/nuit ; électricité au compteur à 1,10 €/kWh (prise CEE + rallonge 20 m). La remise « Early Bird automne » (15 %, dès le 18 octobre) exige une réservation 30 jours à l'avance : plus accessible. Arrivée conseillée entre 15h et 18h30 (réception inoccupée ensuite, accès fermé après 21h–22h). Chiens en laisse, interdits au minimarket, au spa et dans les sanitaires. Laverie à jetons, minimarket 7h30–21h, restaurant/pizzeria, spa payant."
   },
   {
     "id": "parking-col-raiser",
@@ -9977,6 +10425,14 @@
       {
         "libelle": "Baita Bai de Dones — accès et parking",
         "url": "https://5torri.it/EN/s23-Baita-Bai-De-Dones"
+      },
+      {
+        "libelle": "Parkings gratuits entre Giau et Falzarego",
+        "url": "https://cortinadelicious.it/IT/news32-Informazioni-sui-parcheggi-tra-passo-Giau-e-passo-Falzarego"
+      },
+      {
+        "libelle": "Webcam 5 Torri",
+        "url": "https://5torri.it/EN/p34-Webcam"
       }
     ],
     "photos": [
@@ -10074,8 +10530,12 @@
         "valeur": "aucune"
       },
       {
+        "libelle": "Toilettes",
+        "valeur": "WC public au départ du télésiège (musée de la Grande Guerre)"
+      },
+      {
         "libelle": "Baita Bai de Dones",
-        "valeur": "ouverte de juin à septembre et en hiver : probablement fermée mi-octobre"
+        "valeur": "Ouverte de juin à septembre et en hiver : fermée mi-octobre"
       }
     ],
     "verification": {
@@ -10096,9 +10556,18 @@
         {
           "libelle": "Earthtrekkers — montée à pied depuis Bai de Dones",
           "url": "https://www.earthtrekkers.com/cinque-torri-hike-dolomites/"
+        },
+        {
+          "libelle": "Cortina Delicious — « Parcheggio Bai de Dones », gratuit non gardé",
+          "url": "https://cortinadelicious.it/IT/news32-Informazioni-sui-parcheggi-tra-passo-Giau-e-passo-Falzarego"
+        },
+        {
+          "libelle": "Musée de la Grande Guerre — « ampio parcheggio e un wc pubblico »",
+          "url": "https://www.cortinamuseoguerra.it/sentieri-storici/5-torri/"
         }
       ],
-      "doutes": "État du sentier et enneigement mi-octobre à contrôler la veille. Gratuité confirmée par l'exploitant sans date de mise à jour."
+      "doutes": "",
+      "a_demander": []
     },
     "chien": {
       "admis": true,
@@ -11977,6 +12446,10 @@
       {
         "libelle": "Despar — FAQ animaux",
         "url": "https://www.despar.it/it/contatti/"
+      },
+      {
+        "libelle": "Conad City Corvara — alternative",
+        "url": "https://www.conad.it/ricerca-negozi/conad-city-strada-col-alt-97-39033-corvara-in-badia--006705"
       }
     ],
     "adresse": "Strada Boscdaplan 107, 39036 La Villa",
@@ -12034,16 +12507,21 @@
         {
           "libelle": "OpenStreetMap — Despar Strada Boscdaplan 107",
           "url": "https://www.openstreetmap.org/node/331278869"
+        },
+        {
+          "libelle": "Conad City Corvara — horaires officiels",
+          "url": "https://www.conad.it/ricerca-negozi/conad-city-strada-col-alt-97-39033-corvara-in-badia--006705"
         }
       ],
-      "doutes": "OSM indique 8h30–19h30 tous les jours : la fiche officielle (8h en semaine) fait foi."
+      "doutes": "",
+      "a_demander": []
     },
     "ouverture": {
       "a_reverifier": false,
       "note": "Ouvert tous les jours d'octobre 2026 selon la fiche officielle."
     },
     "acces": "Strada Boscdaplan (SS244), La Villa. Parking client de surface, pas de plafond.",
-    "description": "Supermarché Despar de La Villa, sur la route principale de l'Alta Badia. Fiche officielle : 8h–19h30 du lundi au samedi, 8h30–19h30 le dimanche, aucune fermeture exceptionnelle annoncée. Parking client gratuit en surface (OSM). Chien : règle Despar, sac ou caisse uniquement. Alternative : Despar de Colfosco (Str. Col Pradat 37), 7h–12h et 15h–19h, dimanche 7h–12h et 16h–19h ; le Despar Strada Col Alt 10 de Corvara est affiché fermé toute la semaine."
+    "description": "Supermarché Despar de La Villa, sur la route principale de l'Alta Badia. Fiche officielle (28/09/2026) : 8h–19h30 du lundi au samedi, 8h30–19h30 le dimanche, aucune fermeture exceptionnelle annoncée. Parking client gratuit en surface (OSM). Chien : règle Despar, sac ou caisse uniquement. Alternatives : Despar de Colfosco (Str. Col Pradat 37), 7h–12h et 15h–19h, dimanche 7h–12h et 16h–19h ; Conad City de Corvara (Strada Col Alt 97), 8h–19h du lundi au samedi, 9h–19h le dimanche. Le Despar Strada Col Alt 10 de Corvara est affiché fermé toute la semaine."
   },
   {
     "id": "courses-despar-dobbiaco",
