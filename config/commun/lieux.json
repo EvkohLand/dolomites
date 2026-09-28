@@ -218,24 +218,24 @@
     "resume": "Le plus grand plateau d'altitude d'Europe, 56 km2 de prairies vallonnées face au Sassolungo. Terrain plat, sentiers larges : la journée idéale avec le chien, sans dénivelé.",
     "prix": {
       "type": "payant",
-      "montant": 60,
       "adulte_ar": 30,
-      "unite": "2 adultes A/R en télécabine",
+      "chien": 6,
+      "unite": "2 adultes + chien A/R",
       "annee_tarif": 2026,
-      "detail": "Alternative si accès routier ou P1 indisponible ; 30 € aller-retour par adulte. Vérifier transport du chien."
+      "montant": 66,
+      "detail": "Cabinovia Alpe di Siusi : 30 € A/R par adulte + 6 € A/R pour Prince, soit 66 € à trois. Parking extérieur de la station basse gratuit selon l'exploitant."
     },
     "ouverture": {
       "fin_saison": "2026-11-02",
       "a_reverifier": false,
-      "note": "Saison 2026 : jusqu'au 2 novembre. Ouvert tout le séjour."
+      "note": "Cabinovia Alpe di Siusi : saison été 2026 du 22 mai au 2 novembre ; en octobre, 08:00–18:00."
     },
     "chien": {
       "admis": true,
-      "supplement": 0,
-      "note": "Gratuit en cabine, mais laisse ET muselière obligatoires au départ de Compaccio."
+      "note": "Admis ; laisse et muselière obligatoires dans les stations et cabines. Billet chien 3 € aller / 6 € A/R en 2026."
     },
     "acces": "Par voiture seulement avant 9h avec réservation de parking P1 (15 €) ou P2 (30 €) ; retour possible dans la journée. Sinon télécabine depuis Siusi.",
-    "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
+    "source": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html",
     "etiquettes": [
       "plateau",
       "chien gratuit",
@@ -1027,10 +1027,10 @@
     "resume": "Vaste plateau d'alpage au pied de la Croda Rossa, dans le parc Fanes-Sennes-Braies. Chemins plats, très large, idéal pour marcher longtemps sans dénivelé.",
     "prix": {
       "type": "payant",
-      "montant": 6,
-      "unite": "jour",
-      "annee_tarif": null,
-      "detail": "Ancien montant de référence 6 € ; tarif exact 2026 et conditions d'accès à vérifier avant le départ."
+      "montant": 10,
+      "unite": "voiture avant 15 h",
+      "annee_tarif": 2026,
+      "detail": "Du 16/09 au 08/11/2026 : 10 € par voiture ; 7 € à partir de 15 h. Quota maximal 100 voitures. Moto 8 €, puis 6 € après 15 h."
     },
     "chien": {
       "admis": true,
@@ -1211,10 +1211,10 @@
       }
     ],
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Accès routier réglementé en saison : la documentation touristique officielle indique depuis Ponticello une limitation de juin à octobre, avec accès voiture soumis à quota/horaires et péage. Pour le 22 octobre 2026, vérifier la règle du jour et l'état de la route avant de monter."
+      "a_reverifier": false,
+      "note": "Le 22/10/2026 : montée en voiture autorisée jusqu'à 10:00 et à partir de 15:00, dans la limite de 100 voitures ; descente possible à tout moment. Route payante du 06/06 au 08/11. Bus et camping-cars interdits toute l'année sur cette route."
     },
-    "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi4fbb9fd8e8714152b685c23ab6b5d364.summer-hiking-tour---parking-space-prato-piazza-plaetzwiese---monte-specie-strudelkopf.braies-di-fuori-ausserprags"
+    "source": "https://www.prags.bz/it/plaetzwiese"
   },
   {
     "id": "passo-giau",
@@ -3406,12 +3406,11 @@
       "montant": 50,
       "unite": "nuit, estimation 2 adultes + chien + taxe",
       "annee_tarif": 2026,
-      "detail": "Tarif officiel 5 oct.–30 nov. : emplacement C 9 €, B 12 €, A 13 € + 2 adultes ×14 € + chien 6 €, soit 43–47 €/nuit avant taxe locale et électricité à 0,80 €/kWh selon le moteur de réservation officiel. Hypothèse budget 50 €, catégorie de place pour tente de toit à confirmer."
+      "detail": "Budget 50 €/nuit conservé. Le site officiel confirme que les tarifs d'emplacement sont basés sur 2 personnes ; taxe locale 2,70 €/adulte/nuit ; animaux facturés entre 3,50 € et 8 €/jour ; électricité selon catégorie/consommation. Vérifier le prix exact des 21–25/10 dans le moteur de réservation."
     },
     "chien": {
       "admis": true,
-      "supplement": 6,
-      "note": "Chien 6 €/nuit au tarif 2026 ; place adaptée à la voiture et au chien à confirmer."
+      "note": "Animaux bienvenus au camping ; tarif officiel actuel entre 3,50 € et 8 €/jour. Le précédent montant fixe de 6 € n'est donc pas présenté comme garanti."
     },
     "services": [
       "douches chaudes",
@@ -3467,7 +3466,7 @@
       }
     ],
     "photos": [],
-    "source": "https://listini.camping.it/germany/trentinoaltoadige/olympia/prezzi.pdf"
+    "source": "https://www.camping-olympia.com/en/good-to-know/"
   },
   {
     "id": "camping-cortina",
@@ -5665,7 +5664,7 @@
       "montant": 15,
       "unite": "voiture / jour",
       "annee_tarif": 2026,
-      "detail": "P1 Spitzbühl, 15 € par voiture en saison. Réservation en ligne jusqu’à 6 jours avant la visite ; sans réservation, pas d’accès."
+      "detail": "P1 Spitzbühl : 15 € par voiture/jour en 2026. Réservation payée en ligne ; pas d'annulation/remboursement après achat."
     },
     "reserver": {
       "obligatoire": true,
@@ -5673,7 +5672,7 @@
     },
     "ouverture": {
       "a_reverifier": false,
-      "note": "Accès en voiture avant 9 h ; arriver avant 9 h, malgré le créneau de contrôle 9 h 30. Sortie en journée autorisée, stationnement de nuit interdit."
+      "note": "Réservation en ligne obligatoire depuis le 29/06/2026. La réservation devient possible 6 jours avant la date et peut encore être faite le jour même avant l'accès si des places restent. Route fermée à la montée au trafic privé de 09:00 à 17:00 ; arriver avant 09:00. Entrée du parking avec réservation admise au plus tard à 09:30 selon la FAQ, mais ne pas compter sur cette tolérance routière. Stationnement interdit 23:00–05:00."
     },
     "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
     "chien": {
@@ -5708,7 +5707,7 @@
       "montant": 30,
       "unite": "voiture / jour",
       "annee_tarif": 2026,
-      "detail": "P2 Compatsch, 30 € par voiture. Réservation en ligne préalable, dans les 6 jours avant la date souhaitée."
+      "detail": "P2 Compatsch : 30 € par voiture/jour en 2026. Réservation payée en ligne ; pas d'annulation/remboursement après achat."
     },
     "reserver": {
       "obligatoire": true,
@@ -5716,7 +5715,7 @@
     },
     "ouverture": {
       "a_reverifier": false,
-      "note": "Arriver avant 9 h en voiture ; sortie en journée autorisée. Pas de nuit sur ce parking."
+      "note": "Réservation en ligne obligatoire depuis le 29/06/2026. La réservation devient possible 6 jours avant la date et peut encore être faite le jour même avant l'accès si des places restent. Route fermée à la montée au trafic privé de 09:00 à 17:00 ; arriver avant 09:00. QR code requis. Stationnement interdit 23:00–05:00."
     },
     "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
     "niveau_prix": "€€",
