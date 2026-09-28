@@ -3513,7 +3513,9 @@
           "libelle": "Tourniquet San Giovanni in Ranui (privé)",
           "valeur": "≈ 4 €/personne en pièces (non publié par le propriétaire)"
         }
-      ]
+      ],
+      "budget": "indispensable",
+      "raison_budget": "Val di Funes est imposé au programme et aucun stationnement gratuit n'existe à Santa Maddalena (règlement communal 2026, payant 24 h/24) : parking Filler, 10 €/jour, le moins cher près du point de vue."
     },
     "chien": {
       "admis": true,
@@ -6522,6 +6524,10 @@
         {
           "libelle": "Garage couvert de la télécabine (240 places, repli)",
           "valeur": "15 €/jour selon OpenStreetMap, non confirmé par l'exploitant"
+        },
+        {
+          "libelle": "Parking Fever, Streda Tresval (centre)",
+          "valeur": "gratuit 90 min avec disque — fiche « parking-ortisei-gratuit »"
         }
       ]
     },
@@ -11719,7 +11725,7 @@
     "ouverture": {
       "fin_saison": "2026-11-21",
       "a_reverifier": true,
-      "note": "Ouvert aux nuits du 10, 12 et 14 octobre 2026 : fermeture annuelle seulement « DAL 24/11/2025 AL 10/03/2026 » et basse saison jusqu'au 21/11. Disponibilité et acceptation de la tente de toit à obtenir par le formulaire."
+      "note": "Ouvert le vendredi 9 octobre 2026 : la grille officielle 2026 court jusqu'au 22/11 (période 05/09–08/11) et Eurocampings indique une ouverture du 15 mars au 20 novembre. Arrivée « à partir de 15 h » (site officiel) ; aucune heure de fermeture de la réception publiée (site officiel, Eurocampings, Camping.info, Campercontact) : prévenir par e-mail d'une arrivée vers 19 h 30 et obtenir la confirmation écrite, avec la tente de toit et le chien."
     },
     "horaires": [
       {
@@ -11736,7 +11742,7 @@
       },
       {
         "libelle": "Réception / arrivée tardive",
-        "valeur": "horaires non publiés"
+        "valeur": "horaires de réception non publiés : arrivée prévue vers 19 h 30 à annoncer par e-mail (info@ sur le site officiel) ; check-in officiel « à partir de 15 h »"
       }
     ],
     "acces": "A10 sortie Finale Ligure, direction Finalmarina puis Aurelia vers Savona ; au bout d'1,5 km, à gauche vers Calvisio (via Drione), le long du torrent Sciusa, pont de pierre puis pont de fer, à droite sur 300 m, passer au-dessus de la voie ferrée puis à gauche via Varese. Allées internes raides et étroites (avis). Pas de limite de hauteur signalée.",
@@ -11889,6 +11895,14 @@
         {
           "libelle": "camping.info — avis clients",
           "url": "https://www.camping.info/de/campingplatz/campeggio-tahiti/bewertungen"
+        },
+        {
+          "libelle": "Camping Tahiti, tarifs 2026 — périodes jusqu'au 22/11, « CHECK-IN: a partire dalle ore 15:00, CHECK-OUT: entro le ore 10:00 »",
+          "url": "https://www.campingtahitifinaleligure.it/listino-prezzi-campeggi-finale-ligure"
+        },
+        {
+          "libelle": "Eurocampings (ACSI) — ouvert du 15 mars au 20 novembre, chiens admis ; horaires de réception non indiqués",
+          "url": "https://www.eurocampings.co.uk/italy/liguria/savona/finale-ligure/camping-tahiti-104677/"
         }
       ],
       "doutes": "Acceptation de la tente de toit et tarif appliqué (« tente + voiture » ou van) non publiés ; horaires de réception et arrivée tardive non publiés ; disponibilité aux dates uniquement sur demande.",
@@ -12852,7 +12866,7 @@
     "ouverture": {
       "fin_saison": "2026-10-31",
       "a_reverifier": false,
-      "note": "Ouvert en octobre 2026 (tarif octobre publié). Pas de réservation individuelle : place non garantie. Aucune nuit de ce camping dans les plannings : c'est un repli."
+      "note": "Ouvert du 1er avril au 31 octobre 2026 (colonne « septembre & octobre » de la grille officielle ; camping.info et Sentres : avril–octobre) : ouvert du samedi 10 au jeudi 15 octobre. Pas de réservation individuelle (« Einfach anreisen! », réservation réservée aux groupes de 10+) : place non garantie, mais 70 emplacements en basse saison. Base ouest des plannings."
     },
     "acces": "Autoroute sortie Vahrn Nord, SS12 vers Bressanone ; au 1er rond-point (≈ 300 m) 1re sortie puis tout de suite à gauche, deux passages inférieurs successifs, encore 100 m. Gabarit maximal 2,70 m de haut × 2,65 m de large. Bus 310 (Bressanone–Vipiteno), arrêt zone artisanale Forch.",
     "source": "https://camping-vahrner-see.com/en/camping-vahrner-see/rates-offers",
@@ -12919,7 +12933,11 @@
       },
       {
         "libelle": "Arrivée",
-        "valeur": "sans réservation (« Einfach anreisen! ») ; horaires de réception non publiés — l'auberge attenante est ouverte 9h–22h, sauf mercredi après-midi et jeudi"
+        "valeur": "sans réservation ; pas d'horaire de réception publié : s'annoncer à l'auberge attenante, bar ouvert tous les jours 9 h–22 h sauf mercredi après-midi et jeudi (arrivée du samedi 10 vers 16–17 h : ouvert)"
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "deux petits passages souterrains, gabarit actuel 2,70 m de haut × 2,65 m de large : la voiture à 1,95 m passe"
       }
     ],
     "pratique": [
@@ -12970,6 +12988,18 @@
         {
           "libelle": "PiNCAMP (ADAC) — électricité incluse, chien 2 €",
           "url": "https://www.pincamp.de/campingplaetze/camping-zum-vahrner-see"
+        },
+        {
+          "libelle": "Camping Vahrner See — tarifs 2026 « September & Oktober » : « 1 Auto mit Dachzelt 13 € », « 1 Haustier 2 € », taxe 2,80 €/pers. ; gabarit 2,70 × 2,65 m",
+          "url": "https://camping-vahrner-see.com/camping-zum-see/naturcamping"
+        },
+        {
+          "libelle": "Landgasthaus Vahrner See — bar 9 h–22 h, fermé mercredi après-midi et jeudi",
+          "url": "https://camping-vahrner-see.com/landgasthaus"
+        },
+        {
+          "libelle": "Camping.info — ouvert du 01.04 au 31.10, chiens admis",
+          "url": "https://www.camping.info/de/campingplatz/camping-vahrner-see"
         }
       ],
       "doutes": "Horaires de réception non publiés ; l'auberge attenante, seul accueil visible, est fermée le mercredi après-midi et le jeudi.",
@@ -16504,6 +16534,562 @@
         }
       ],
       "doutes": ""
+    }
+  },
+  {
+    "id": "lago-carezza",
+    "nom": "Lago di Carezza / Karersee",
+    "categorie": "lac",
+    "gps": [
+      46.4118,
+      11.5755
+    ],
+    "commune": "Nova Levante / Welschnofen (BZ)",
+    "altitude": 1520,
+    "resume": "Petit lac vert-bleu sous le Latemar, dans la forêt du Val d'Ega. Tour du lac de 1,2 km, plat et aménagé, en 20 à 30 min ; parking P1 au bord du lac, relié par un passage souterrain.",
+    "description": "Monument naturel protégé : on en fait le tour derrière une clôture, sans descendre au bord de l'eau. Le niveau et la taille du lac varient fortement selon la saison et la météo ; en automne il peut être bas. Le P1 (270 places, barrière, ouvert toute l'année, 24 h/24) est relié au lac par un passage souterrain de 2 min et au centre visiteurs (toilettes, 9 h–17 h). Les parkings Simhild (5 min) et Paolina (20 min) sont moins chers mais on y rejoint le lac par le sentier 6 et une passerelle suspendue. Étape idéale en arrivant par Bolzano Nord, avant de rejoindre la base ouest.",
+    "prix": {
+      "type": "payant",
+      "montant": 5,
+      "unite": "voiture, jusqu'à 1 h (P1 Karersee)",
+      "annee_tarif": 2026,
+      "detail": "Grille officielle de la commune de Welschnofen, valable dès le 01.06.2026. P1 Karersee : 5 € la 1re heure, 8 € jusqu'à 2 h, 13 € jusqu'à 6 h. Le tour du lac (≈ 20–30 min) tient dans l'heure. Simhild : 3 €/h mais accès par une passerelle suspendue. Paolina : 2 €/h ; la grille 2026 précise « côté Paolina gratuit en journée », alors que l'office du Val d'Ega présente les trois parkings comme payants : gratuité non garantie.",
+      "grille": [
+        {
+          "libelle": "P1 Karersee, voiture (passage souterrain, 2 min)",
+          "valeur": "5 € ≤ 1 h ; 8 € 1–2 h ; 13 € 2–6 h ; 18 € 6–12 h ; 30 € 12–24 h"
+        },
+        {
+          "libelle": "P2 Simhild (ex-Schönblickweg), voiture, 5 min par passerelle suspendue",
+          "valeur": "3 € ≤ 1 h ; 8 € ≤ 6 h (6 h–21 h) ; 16 € la journée"
+        },
+        {
+          "libelle": "P3 Paolina, voiture, 20 min par le sentier 6 et la passerelle",
+          "valeur": "2 € ≤ 1 h ; 6 € ≤ 6 h ; 12 € ≤ 12 h ; « côté Paolina gratuit en journée » (grille 2026)"
+        },
+        {
+          "libelle": "Camping-car P1",
+          "valeur": "19 € ≤ 3 h"
+        },
+        {
+          "libelle": "Centre visiteurs et toilettes",
+          "valeur": "gratuit, 9 h–17 h"
+        }
+      ],
+      "budget": "indispensable",
+      "raison_budget": "Lieu imposé au programme ; les trois parkings sont payants selon l'office du Val d'Ega. Le P1 est le seul relié au lac sans passerelle suspendue (vertige) : 5 € pour le tour du lac en moins d'une heure."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Parking et tour du lac accessibles toute l'année (office du Val d'Ega). Le sentier peut être verglacé ou enneigé : chaussures fermées. Aucune réservation possible ni nécessaire."
+    },
+    "horaires": [
+      {
+        "libelle": "Tour du lac",
+        "valeur": "accès libre toute l'année"
+      },
+      {
+        "libelle": "Parking P1",
+        "valeur": "24 h/24, toute l'année, barrière et caisse automatique (carte, pièces, billets) ; 15 min pour sortir après paiement"
+      },
+      {
+        "libelle": "Centre visiteurs (toilettes)",
+        "valeur": "tous les jours 9 h–17 h"
+      }
+    ],
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire (règle générale du Haut-Adige sur les sentiers) ; rester derrière la clôture de protection."
+    },
+    "rando": {
+      "distance_km": 1.2,
+      "denivele_m": 20,
+      "duree_h": 0.4,
+      "difficulte": "facile",
+      "boucle": true
+    },
+    "vertige": {
+      "niveau": "aucun",
+      "passages": "Tour du lac plat et sans obstacle, déclaré sans barrière architecturale ; accès depuis le P1 par un passage souterrain. Seul l'accès depuis les parkings Simhild et Paolina franchit une passerelle suspendue : l'éviter."
+    },
+    "acces": "Sans autoroute : de Bolzano, SS241 du Val d'Ega (Eggental) par Birchabruck, puis Welschnofen et Karersee, ≈ 30 km, 40 min. Depuis l'A22 (fin de la partie autoroute) : sortie Bolzano Nord, rond-point puis SS241. Vers Bressanone ensuite : redescendre à Bolzano puis SS12 par Chiusa.",
+    "adresse": "Parkplatz Karersee, Karerseestraße, 39056 Nova Levante / Welschnofen",
+    "pratique": [
+      {
+        "libelle": "Parking conseillé",
+        "valeur": "P1 Karersee, 5 € la 1re heure : passage souterrain, pas de passerelle"
+      },
+      {
+        "libelle": "Durée",
+        "valeur": "tour court 20–30 min ; grand tour forestier 3,8 km, 1 h"
+      },
+      {
+        "libelle": "Nuit",
+        "valeur": "pas de nuit sur les parkings (tarif de nuit à Paolina, autorisation à demander)"
+      },
+      {
+        "libelle": "Bus",
+        "valeur": "lignes 180, 184, 186, 187 depuis Bolzano"
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Office du Val d'Ega — le lac",
+        "url": "https://eggental.com/de/dolomiten_natur/karer-see"
+      },
+      {
+        "libelle": "Office du Val d'Ega — accès en voiture et parkings",
+        "url": "https://eggental.com/de/dolomiten_natur/karer-see/erreichbarkeit-karer-see/mit-dem-pkw"
+      },
+      {
+        "libelle": "Grille des parkings Carezza été 2026 (PDF)",
+        "url": "https://carezza.it/Carezza/Sommer/2026/PDFs/Preislisten_Parkplaetze_DE_IT%20extern.pdf"
+      }
+    ],
+    "equipements": [
+      "parking",
+      "toilettes",
+      "chien",
+      "plat",
+      "vue",
+      "acces-voiture",
+      "24h"
+    ],
+    "etiquettes": [
+      "incontournable",
+      "plat",
+      "court"
+    ],
+    "niveau_prix": "€",
+    "photos": [],
+    "recherche_photo": "Karersee Lago di Carezza Latemar",
+    "source": "https://eggental.com/de/infos/p1-parkplatz-karer-see_48312",
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Commune de Welschnofen — parkings payants, P1 Karersee 5/8/13/18/30 € (page du 28.08.2026)",
+          "url": "https://www.comune.novalevante.bz.it/de/Dienste/Mobilitaet_und_Verkehr/Gebuehrenpflichtige_Parkplaetze_-_paid_parking_spaces"
+        },
+        {
+          "libelle": "Office du Val d'Ega — fiche P1 : 270 places, 24 h/24, toute l'année, GPS 46.4118, 11.5755",
+          "url": "https://eggental.com/de/infos/p1-parkplatz-karer-see_48312"
+        },
+        {
+          "libelle": "Office du Val d'Ega — P2 Simhild 3 €/h, P3 Paolina 2 €/h, 5 et 20 min par le sentier 6 et la passerelle ; itinéraire SS241",
+          "url": "https://eggental.com/de/dolomiten_natur/karer-see/erreichbarkeit-karer-see/mit-dem-pkw"
+        },
+        {
+          "libelle": "Carezza — grille des parkings été 2026 (valable dès le 01.06.2026)",
+          "url": "https://carezza.it/Carezza/Sommer/2026/PDFs/Preislisten_Parkplaetze_DE_IT%20extern.pdf"
+        },
+        {
+          "libelle": "Office du Val d'Ega — lac, tour sans barrière, centre visiteurs 9 h–17 h",
+          "url": "https://eggental.com/de/dolomiten_natur/karer-see"
+        },
+        {
+          "libelle": "Südtirolerland — tour du lac 1,2 km en ≈ 20 min",
+          "url": "https://www.suedtirolerland.it/de/highlights/natur-und-landschaft/seen-in-suedtirol/karer-see/"
+        },
+        {
+          "libelle": "Suedtirol.com — P2 et P3, passerelle suspendue",
+          "url": "https://www.suedtirol.com/nuetzliche-informationen/anfahrt-karersee"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lago-anterselva",
+    "nom": "Lago di Anterselva / Antholzer See",
+    "categorie": "lac",
+    "gps": [
+      46.8844,
+      12.1536
+    ],
+    "gps_approximatif": true,
+    "commune": "Rasun-Anterselva / Rasen-Antholz (BZ)",
+    "altitude": 1642,
+    "resume": "Troisième lac du Haut-Adige, au fond du val d'Anterselva, face au stade de biathlon. Sentier nature de 4 km autour du lac, presque plat, en 1 h à 1 h 15. Parking unique payant : 10 € la journée, 5 € à partir de 14 h.",
+    "description": "Le parking du centre de biathlon est le seul au bord du lac, à une minute de l'eau ; la route continue vers le col de Stalle (Staller Sattel), sans autre parking officiel. Le tour du lac suit un sentier nature (panneaux, tubes d'écoute) en léger relief au-dessus de la rive, sans passage délicat. Étape naturelle entre la base ouest et Dobbiaco : le val se prend à Rasun, sur la SS49 du Val Pusteria.",
+    "prix": {
+      "type": "payant",
+      "montant": 5,
+      "unite": "voiture, ticket à partir de 14 h (10 € la journée avant)",
+      "annee_tarif": 2026,
+      "detail": "Tarif officiel du 1er juin au 1er novembre 2026 au parking du centre de biathlon : voiture 10 € la journée, 5 € à partir de 14 h. Ticket en ligne 10,60 € valable seulement en entrant avant 8 h 30. Nuit interdite. Un blog signale un parking gratuit plus loin, avant la montée du col de Stalle, mais l'office de la vallée et deux guides indiquent que le parking du biathlon est la seule et dernière possibilité : non retenu.",
+      "grille": [
+        {
+          "libelle": "Voiture, journée",
+          "valeur": "10 €"
+        },
+        {
+          "libelle": "Voiture, à partir de 14 h",
+          "valeur": "5 €"
+        },
+        {
+          "libelle": "Ticket en ligne (entrée avant 8 h 30)",
+          "valeur": "10,60 €"
+        },
+        {
+          "libelle": "Camping-car, journée / dès 14 h",
+          "valeur": "15 € / 7,50 €"
+        },
+        {
+          "libelle": "Nuit",
+          "valeur": "interdite"
+        }
+      ],
+      "budget": "indispensable",
+      "raison_budget": "Lieu imposé au programme ; seul parking au lac selon l'office de la vallée. Arriver après 14 h ramène le ticket à 5 €."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Tarifs de parking valables du 1er juin au 1er novembre 2026 : le parking fonctionne pendant tout le séjour. Tour du lac libre toute l'année ; neige possible en fin d'octobre."
+    },
+    "horaires": [
+      {
+        "libelle": "Tour du lac",
+        "valeur": "accès libre toute l'année"
+      },
+      {
+        "libelle": "Parking du biathlon",
+        "valeur": "journée ; tarif réduit à partir de 14 h ; stationnement de nuit interdit"
+      },
+      {
+        "libelle": "Route du col de Stalle (au-delà du lac)",
+        "valeur": "circulation alternée, sans intérêt pour la visite"
+      }
+    ],
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire en permanence dans le val (office du val d'Anterselva) ; nombreuses rives accessibles pour boire."
+    },
+    "rando": {
+      "distance_km": 4,
+      "denivele_m": 60,
+      "duree_h": 1.2,
+      "difficulte": "facile",
+      "boucle": true
+    },
+    "vertige": {
+      "niveau": "aucun",
+      "passages": "Sentier nature large autour du lac, montées et descentes légères un peu au-dessus de la rive, sans vide ni passage équipé."
+    },
+    "acces": "Sans autoroute : SS49 du Val Pusteria jusqu'à Rasun (Rasen), puis route du val d'Anterselva vers le nord, ≈ 20 km jusqu'au lac. Depuis Bressanone ≈ 1 h 30 ; depuis Dobbiaco ≈ 45 min.",
+    "adresse": "Parking Biathlon, Antholz Obertal / Anterselva di Sopra, 39030 Rasun-Anterselva",
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "centre de biathlon, 10 € la journée, 5 € dès 14 h"
+      },
+      {
+        "libelle": "Durée",
+        "valeur": "tour du lac 4 km, 1 h à 1 h 15"
+      },
+      {
+        "libelle": "Nuit",
+        "valeur": "interdite sur le parking"
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Office du val d'Anterselva — tarifs du parking 2026",
+        "url": "https://www.antholzertal.com/landingpages-de/lake/de-antholzer-see/parkplatzgebuehren"
+      },
+      {
+        "libelle": "Pustertal — sentier nature du lac (4 km, 1 h 10)",
+        "url": "https://www.pustertal.org/de/freizeit-aktiv/berge-wandern/wandern-am-kronplatz-und-umgebung/naturlehrpfad-antholzer-see/"
+      },
+      {
+        "libelle": "Office du val d'Anterselva — en route avec un chien",
+        "url": "https://www.antholzertal.com/de/aktivitaeten/wandern/unterwegs-mit-hund"
+      }
+    ],
+    "equipements": [
+      "parking",
+      "chien",
+      "vue",
+      "acces-voiture",
+      "plat"
+    ],
+    "etiquettes": [
+      "plat",
+      "lac",
+      "sur la route de Dobbiaco"
+    ],
+    "niveau_prix": "€",
+    "photos": [],
+    "recherche_photo": "Antholzer See Lago di Anterselva",
+    "source": "https://www.antholzertal.com/landingpages-de/lake/de-antholzer-see/parkplatzgebuehren",
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Office du val d'Anterselva — tarifs 01.06–01.11.2026 : 10 € la journée, 5 € dès 14 h ; « seule et dernière possibilité de stationner au lac »",
+          "url": "https://www.antholzertal.com/landingpages-de/lake/de-antholzer-see/parkplatzgebuehren"
+        },
+        {
+          "libelle": "Bergportal — seule possibilité de stationner, aucun autre parking vers le col de Stalle",
+          "url": "https://bergportal.com/antholzer-see"
+        },
+        {
+          "libelle": "VIVOSüdtirol — parking unique et payant au biathlon, 1 min du lac",
+          "url": "https://www.vivosuedtirol.com/seen/antholzer-see/"
+        },
+        {
+          "libelle": "Pustertal — sentier nature : 4,0 km, 1 h 10, 1 635–1 681 m",
+          "url": "https://www.pustertal.org/de/freizeit-aktiv/berge-wandern/wandern-am-kronplatz-und-umgebung/naturlehrpfad-antholzer-see/"
+        },
+        {
+          "libelle": "Südtirol Kompakt — tour en une bonne heure ; parking gratuit signalé avant la montée du col (non confirmé)",
+          "url": "https://www.suedtirol-kompakt.com/antholzer-see-der-drittgroesste-bergsee-suedtirols/"
+        },
+        {
+          "libelle": "OpenStreetMap/Nominatim — lac 46.8857, 12.1660",
+          "url": "https://www.openstreetmap.org/search?query=Antholzer%20See"
+        },
+        {
+          "libelle": "OpenStreetMap/Nominatim — South Tyrol Arena (centre de biathlon, parking) 46.8844, 12.1536",
+          "url": "https://www.openstreetmap.org/search?query=South%20Tyrol%20Arena%20Antholz"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cinema-odle",
+    "nom": "Cinéma des Odle (Geislerkino) — Rifugio delle Odle / Geisleralm",
+    "categorie": "vue",
+    "gps": [
+      46.621,
+      11.7495
+    ],
+    "commune": "Funes / Villnöss (BZ)",
+    "altitude": 1996,
+    "acces_route": "adolf-munkel",
+    "resume": "Chaises longues en bois alignées sur la butte derrière le refuge Geisleralm, face aux parois nord des Odle : le « cinéma des Odle ». Accès à pied seulement, 1 h 40 depuis le parking de Zans (10 €) par l'Adolf-Munkel-Weg.",
+    "description": "Ce n'est pas le « cinéma de montagne » de la maison du parc Puez-Odle à Santa Maddalena (salle de projection) : c'est un belvédère en plein air, des transats en bois posés sur la colline derrière le refuge Geisleralm (Rifugio delle Odle, 1 996 m), face à la Furchetta, au Sass Rigais et aux tours de la Fermeda. Le refuge l'appelle « Bergkino pur ». On y monte depuis le parking de Zans par le chemin 6 vers Tschantschenon, puis l'Adolf-Munkel-Weg (35) et l'embranchement 36A (15 min). Il ne se rejoint pas à pied depuis Santa Maddalena dans une visite raisonnable (Zans est 5 km plus haut dans la vallée).",
+    "prix": {
+      "type": "payant",
+      "montant": 10,
+      "unite": "voiture / jour (parking de Zans)",
+      "annee_tarif": 2026,
+      "detail": "Belvédère gratuit. Seul le parking de Zans, départ du sentier, est payant : 10 € la journée sur place, 12 € réservé en ligne (déjà relevé sur la fiche de l'Adolf-Munkel-Weg). Le même ticket couvre la boucle de l'Adolf-Munkel-Weg.",
+      "grille": [
+        {
+          "libelle": "Chaises du belvédère",
+          "valeur": "gratuit"
+        },
+        {
+          "libelle": "Parking de Zans, voiture, journée",
+          "valeur": "10 € sur place ; 12 € réservé en ligne"
+        }
+      ],
+      "budget": "indispensable",
+      "raison_budget": "Lieu imposé au programme ; le seul départ raisonnable est le parking payant de Zans, sans stationnement gratuit trouvé. Même ticket que l'Adolf-Munkel-Weg : ne pas le compter deux fois le même jour."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Les chaises sont en plein air, accessibles tant que le sentier est praticable (neige possible fin octobre). Le refuge Geisleralm est ouvert du 14 mai au 8 novembre, fermé le lundi : dimanche 11 octobre ouvert, lundi 12 fermé (chaises accessibles quand même, sans boisson ni toilettes)."
+    },
+    "horaires": [
+      {
+        "libelle": "Belvédère (chaises)",
+        "valeur": "accès libre, tous les jours, hors neige"
+      },
+      {
+        "libelle": "Refuge Geisleralm",
+        "valeur": "14 mai – 8 novembre ; fermé le lundi (ouvert samedi 10 et dimanche 11 oct., fermé lundi 12)"
+      },
+      {
+        "libelle": "Parking de Zans",
+        "valeur": "tarif jour 7 h–21 h"
+      }
+    ],
+    "chien": {
+      "admis": true,
+      "note": "Laisse obligatoire : parc naturel Puez-Odle."
+    },
+    "rando": {
+      "distance_km": 9,
+      "denivele_m": 400,
+      "duree_h": 3.3,
+      "difficulte": "moyen",
+      "boucle": true
+    },
+    "vertige": {
+      "niveau": "aucun",
+      "passages": "Sentier forestier et d'alpage large et balisé (6, 35, 36A), sans câble, échelle ni vide ; les chaises sont sur une butte herbeuse."
+    },
+    "acces": "Sans autoroute : de Bressanone, SS12 vers Chiusa puis route du Val di Funes (SP27) par Santa Maddalena et Ranui jusqu'au parking de Zans (≈ 35 km, 50 min). À pied : chemin 6 vers Tschantschenon, Adolf-Munkel-Weg (35), embranchement 36A, 1 h 40.",
+    "adresse": "Geisleralm / Rifugio delle Odle, 39040 Funes / Villnöß (départ : parking Zans, Alm 1)",
+    "pratique": [
+      {
+        "libelle": "Départ",
+        "valeur": "parking de Zans (10 €), 46.6357, 11.7657"
+      },
+      {
+        "libelle": "Marche",
+        "valeur": "1 h 40 à la montée ; boucle complète par la Dusler Alm ≈ 9 km, 3 h 15"
+      },
+      {
+        "libelle": "Refuge",
+        "valeur": "fermé le lundi ; boissons et toilettes seulement quand il est ouvert"
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Geisleralm — randonnées (itinéraire depuis Zans, 1 h 40)",
+        "url": "https://www.geisleralm.com/de/sommer/wanderungen.html"
+      },
+      {
+        "libelle": "Geisleralm — site du refuge (saison, jour de fermeture)",
+        "url": "https://www.geisleralm.com/"
+      },
+      {
+        "libelle": "Réservation du parking de Zans",
+        "url": "https://www.odlesdolomites.com/en/parking-reservation/"
+      }
+    ],
+    "equipements": [
+      "vue",
+      "refuge",
+      "restaurant",
+      "chien"
+    ],
+    "etiquettes": [
+      "belvédère",
+      "à pied",
+      "photo"
+    ],
+    "niveau_prix": "€",
+    "photos": [],
+    "recherche_photo": "Geisleralm Geislerkino Odle",
+    "source": "https://www.geisleralm.com/",
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Geisleralm (site du refuge) — « Bergkino pur! », image geislerkino ; saison 14 mai – 8 novembre, fermé le lundi",
+          "url": "https://www.geisleralm.com/"
+        },
+        {
+          "libelle": "Geisleralm — depuis le parking de Zans par les chemins 6, 35, 36A : 1 h 40",
+          "url": "https://www.geisleralm.com/de/sommer/wanderungen.html"
+        },
+        {
+          "libelle": "Throne & Vine — « Cinema delle Odle, also called the Geislerkino » : chaises longues en bois sur la butte derrière le refuge ; ≤ 2 h depuis Zans",
+          "url": "https://throneandvine.com/geisler-alm-adolf-munkel-trail/"
+        },
+        {
+          "libelle": "Love Your Italy — Cinema delle Odle au Rifugio delle Odle, départ parking Malga Zannes, sentiers 36, 35, 6",
+          "url": "https://loveyouritaly.com/cinema-delle-odle-adol-munkel-trail/"
+        },
+        {
+          "libelle": "OpenStreetMap/Nominatim — Geisleralm / Rifugio delle Odle 46.6210, 11.7495",
+          "url": "https://www.openstreetmap.org/search?query=Geisleralm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "parking-ortisei-gratuit",
+    "nom": "Parking Fever — Ortisei, 90 min gratuites",
+    "categorie": "parking",
+    "gps": [
+      46.5715,
+      11.6773
+    ],
+    "commune": "Ortisei / St. Ulrich (BZ)",
+    "resume": "Parking du centre d'Ortisei, gratuit 90 minutes avec disque de stationnement, ouvert toute l'année. Suffisant pour un tour du centre ; au-delà, parking Setil ou garage Central, 2 à 2,50 €/h.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "voiture, 90 min avec disque",
+      "annee_tarif": 2026,
+      "detail": "Gratuit 90 minutes avec disque horaire (office de tourisme du Val Gardena). Pour une visite plus longue : Setil 2 €/h, garage Central 2,50 €/h (max. 20 €/jour).",
+      "grille": [
+        {
+          "libelle": "Fever, voiture",
+          "valeur": "gratuit 90 min, disque horaire"
+        },
+        {
+          "libelle": "Setil (à côté de la télécabine)",
+          "valeur": "2 €/h"
+        },
+        {
+          "libelle": "Garage Central",
+          "valeur": "2,50 €/h, max. 20 €/jour"
+        }
+      ]
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert toute l'année. Nombre de places non publié : places rares en journée."
+    },
+    "horaires": [
+      {
+        "libelle": "Parking",
+        "valeur": "toute l'année ; 90 min maximum avec disque"
+      }
+    ],
+    "chien": {
+      "admis": true,
+      "note": "Laisse en ville."
+    },
+    "acces": "Sans autoroute : SS242 du Val Gardena depuis Ponte Gardena, ou par Castelrotto et Siusi depuis l'Alpe di Siusi. Streda Tresval, au centre.",
+    "adresse": "Streda Tresval, 39046 Ortisei / St. Ulrich",
+    "pratique": [
+      {
+        "libelle": "Disque",
+        "valeur": "disque de stationnement à placer derrière le pare-brise (en vente dans les tabacs)"
+      },
+      {
+        "libelle": "Nuit",
+        "valeur": "interdit de dormir dans le véhicule dans tout le Val Gardena"
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Val Gardena — parking Fever",
+        "url": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/ortisei-val-gardena/parcheggio-fever/487E70EA9D74488B9983888ACCD29762/"
+      },
+      {
+        "libelle": "Val Gardena — parkings publics",
+        "url": "https://www.valgardena.it/it/parcheggi-pubblici/"
+      }
+    ],
+    "equipements": [
+      "parking",
+      "parking-gratuit",
+      "acces-voiture"
+    ],
+    "etiquettes": [
+      "gratuit",
+      "court"
+    ],
+    "niveau_prix": "€",
+    "photos": [],
+    "source": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/ortisei-val-gardena/parcheggio-fever/487E70EA9D74488B9983888ACCD29762/",
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Office du Val Gardena (valgardena.it) — Fever, Streda Tresval, gratuit 90 min avec disque, ouvert toute l'année, 46.5715, 11.6773",
+          "url": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/ortisei-val-gardena/parcheggio-fever/487E70EA9D74488B9983888ACCD29762/"
+        },
+        {
+          "libelle": "Val-Gardena.com — même fiche : 90 min gratuites avec disque",
+          "url": "https://www.val-gardena.com/it/indirizzi/dettaglio/base/poi/ortisei-val-gardena/parcheggio-fever/487E70EA9D74488B9983888ACCD29762/"
+        },
+        {
+          "libelle": "Office du Val Gardena — garage Central 2,50 €/h, max. 20 €/jour",
+          "url": "https://www.valgardena.it/de/adressen-groeden/detail/base/poi/st-ulrich-groeden/parkgarage-central/F5AC5C2EEBEC4D0C95F1F0F966CBFAE6/"
+        },
+        {
+          "libelle": "Val-Gardena.com — parking Setil 2 €/h",
+          "url": "https://www.val-gardena.com/de/adressen/detail/base/poi/st-ulrich-groeden/parkplatz-setil/86A378B5EE944362B156724D663E9113/"
+        }
+      ]
     }
   }
 ]

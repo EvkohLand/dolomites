@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "note": "Bibliothèque strictement rattachée aux zones du planning. Audit contradictoire du 28/09/2026 : priorité aux sources officielles ; données chiffrées reprises des fiches sources, services saisonniers séparés de la praticabilité des sentiers, et statuts futurs non garantis. Les conditions neige/verglas et fermetures doivent être recontrôlées le jour J.",
+  "version": 8,
+  "note": "Bibliothèque strictement rattachée aux zones du planning. Audit contradictoire du 28/09/2026 : priorité aux sources officielles ; données chiffrées reprises des fiches sources, services saisonniers séparés de la praticabilité des sentiers, et statuts futurs non garantis. Les conditions neige/verglas et fermetures doivent être recontrôlées le jour J. Champ vertige (ajouté le 28/09/2026) : niveau « aucun » (chemin, piste, alpage, tour de lac), « léger » (balcon large, sommet ou bord de falaise sans protection, descente raide sans vide) ou « fort » (câbles, échelles, vire, crête exposée, pont suspendu, couloir raide de pierrier) ; seules les randonnées « aucun » et « léger » sont programmées.",
   "zones": [
     {
       "id": "funes",
@@ -28,6 +28,10 @@
           "depart": "Parking Zans (Zanser Alm), 1 680 m",
           "altitude_max_m": 2053,
           "risque": "Faible à modéré : verglas à l'ombre, brouillard ; pas de passage technique.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking Zans",
             "sentier 6 vers Tschantschenon jusqu'au pont",
@@ -167,6 +171,10 @@
           "depart": "Parking Zans (Zanser Alm), 1 680 m",
           "altitude_max_m": 2045,
           "risque": "Modéré : longueur, descente raide, retour dépendant du bus ou de 3 km de route à pied.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Descente raide et longue du sentier 28 vers Ranui, glissante si humide, mais sans vide."
+          },
           "plan": [
             "Parking Zans",
             "sentier 6 vers Tschantschenon jusqu'au pont",
@@ -178,7 +186,7 @@
           ],
           "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi84a3ede0ebe349019877d7c478965a60.adolf-munkel-trail.s--maddalena-st--magdalena---funes-villnoess",
           "verifie_le": "2026-09-28",
-          "duree_h": 4.0,
+          "duree_h": 4,
           "altitude_min_m": 1379,
           "depart_gps": [
             46.6357,
@@ -312,6 +320,10 @@
           "depart": "Parking Zans (Zanser Alm), 1 680 m",
           "altitude_max_m": 1935,
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking Zans",
             "piste 36 en montée continue",
@@ -439,6 +451,10 @@
           "depart": "Parking Zans (Zanser Alm), 1 680 m",
           "altitude_max_m": 2422,
           "risque": "Élevé en octobre si neige ou verglas (prés raides, falaise nord-ouest) ; aucun refuge ouvert.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Croix sommitale du Zendleser Kofel au bord de la falaise nord-ouest ; descente sur prés raides."
+          },
           "plan": [
             "Parking Zans",
             "sentier 25 le long du Kaserillbach",
@@ -583,6 +599,10 @@
           "depart": "Parking Zans (Zanser Alm), 1 680 m",
           "altitude_max_m": 2072,
           "risque": "Faible à modéré (verglas possible sur la piste).",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking Zans",
             "Zanser Schwaige",
@@ -705,6 +725,10 @@
           "depart": "Parking Zans (Zanser Alm), derrière le chalet « Info Treffpunkt Zans »",
           "altitude_max_m": 1923,
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking Zans",
             "sentier 25 le long du Kaserillbach",
@@ -828,6 +852,10 @@
           "depart": "Ranui / Santa Maddalena (parking de Ranui, payant)",
           "altitude_max_m": 2597,
           "risque": "Très élevé : passage fermé, deux cols raides, 1 546 m de dénivelé, inadapté au chien.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Forcella Pana en éboulis avec cordes et marches de bois ; Forcella Mesdì extrêmement raide."
+          },
           "plan": [
             "Ranui",
             "sentier 28 vers Broglesalm",
@@ -955,6 +983,10 @@
           "depart": "St. Peter / San Pietro, virage en épingle sous le Töglhof (au-dessus du centre du village)",
           "altitude_max_m": 1605,
           "risque": "Faible ; verglas possible sur les pavés après gel.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "St. Peter, épingle sous le Töglhof (1 150 m)",
             "sentier 11 pavé jusqu'au Gsoihof",
@@ -1063,6 +1095,10 @@
           "depart": "Parking Zans (1 680 m), fond du Val di Funes",
           "altitude_max_m": 2303,
           "risque": "Élevé en octobre : 5 h 30, 905 m, point haut 2 303 m, ombre et gel sur la partie Munkel, trois refuges sur le parcours fermés (Gampenalm dès le 30/09, Kaserill et Schlüterhütte dès le 12/10) : le concept « tour gourmand des refuges » ne tient plus.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking Zans",
             "sentier 6 → Zanser Schwaige",
@@ -1243,6 +1279,10 @@
           "depart": "Caserne des pompiers de Pitzack (1 065 m), sous St. Peter",
           "altitude_max_m": 1249,
           "risque": "Modéré ; dernière descente raide sécurisée par corde, glissante mouillée.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Dernière descente vers la cascade, raide et équipée d'une corde : s'arrêter en haut."
+          },
           "plan": [
             "Caserne des pompiers de Pitzack",
             "franchir le pont, route calme vers Flitz (35 min, bancs)",
@@ -1348,6 +1388,10 @@
           "depart": "Ranui / St. Magdalena (1 350 m)",
           "altitude_max_m": 2283,
           "risque": "Élevé ; 6 h, 1 167 m de montée et 1 402 m de descente, aucun refuge ouvert garanti, jours courts.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Longues descentes raides depuis la Resciesa, sur sentier sans vide marqué."
+          },
           "plan": [
             "Ranui",
             "vallée de Brogles en suivant le ruisseau, rive droite",
@@ -1488,6 +1532,10 @@
           "depart": "Parking Zans (1 680 m)",
           "altitude_max_m": 1742,
           "risque": "Faible ; verglas possible après gel.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking Zans",
             "Treffpunkt Zans",
@@ -1604,6 +1652,10 @@
           "depart": "Tiso / Teis, place à la fontaine derrière le musée des minéraux",
           "altitude_max_m": 1046,
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Sentier étroit à flanc vers le belvédère et la mine, sans vide important."
+          },
           "plan": [
             "Place à la fontaine derrière le musée des minéraux",
             "église",
@@ -1713,6 +1765,10 @@
           "depart": "Parking Zans (1 680 m)",
           "altitude_max_m": 2420,
           "risque": "Modéré à élevé en octobre : 770 m, point haut 2 420 m, aucun refuge ouvert à partir du 12 oct. sauf au parking.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Flanc du Sobutsch et crête ventée vers le Kreuzjoch, sentier large sans passage aérien."
+          },
           "plan": [
             "Parking Zans",
             "sentier 25 derrière le Treffpunkt Zans, le long du Kaserillbach",
@@ -1855,7 +1911,7 @@
           "nom": "Boucle de St. Magdalena — église et Sonnseitenweg",
           "distance_km": 3.21,
           "duree": "0 h 58",
-          "duree_h": 1.0,
+          "duree_h": 1,
           "denivele_plus_m": 134,
           "denivele_moins_m": 134,
           "altitude_min_m": 1233,
@@ -1910,6 +1966,10 @@
             "variante : chapelle San Giovanni in Ranui à 2,5 km en amont (tourniquet privé ≈ 4 €/personne, montant non publié par le propriétaire)"
           ],
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Place centrale de St. Magdalena",
             "chemin vers le Fallerhof",
@@ -2015,6 +2075,10 @@
             "facile, idéal avec le chien"
           ],
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "St. Peter, épingle sous le Töglhof",
             "Sonnenweg à plat par le calvaire (1 193 m)",
@@ -2088,6 +2152,10 @@
           "depart": "Gare haute de la télécabine Col Raiser (2 106 m)",
           "altitude_max_m": 2517,
           "risque": "Modéré : altitude 2 500 m, vent sur la crête, dernière télécabine de descente à 16h30.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Croix du Seceda au bord de la grande falaise nord : ne pas s'approcher du bord."
+          },
           "plan": [
             "Gare haute Col Raiser (2 106 m)",
             "route forestière n° 2 vers Seceda",
@@ -2236,6 +2304,10 @@
           "depart": "Gare basse de la télécabine Col Raiser (1 546 m)",
           "altitude_max_m": 2517,
           "risque": "Modéré à élevé : 1 000 m de dénivelé, altitude 2 500 m, jours courts en octobre.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Arrivée au Seceda au bord de la falaise nord ; montée sur alpage sans vide."
+          },
           "plan": [
             "Gare basse Col Raiser",
             "sentier 4B Troi de Frëines",
@@ -2376,6 +2448,10 @@
           "depart": "Gare haute du funiculaire Resciesa (2 093 m selon la fiche)",
           "altitude_max_m": 2597,
           "risque": "Élevé : brèche raide, 14 km, dépendance à deux remontées dont une fermée aux dates.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Montée raide en lacets à la Forcella Mesdì, pied sûr exigé."
+          },
           "plan": [
             "Gare haute Resciesa",
             "sentier 35 vers la selle de Brogles et le refuge Brogles (1 h 30)",
@@ -2538,6 +2614,10 @@
           "depart": "Parking Cristauta (1 750 m, entre Runcaudië et Praplan, au-dessus de S. Cristina)",
           "altitude_max_m": 2511,
           "risque": "Modéré à élevé : 860 m de montée, crête ventée.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Arrivée au Seceda au bord de la falaise nord ; alpages sans vide avant."
+          },
           "plan": [
             "Parking Cristauta",
             "sentier 4",
@@ -2670,6 +2750,10 @@
           "depart": "Gare basse de la télécabine Seceda, Ortisei",
           "altitude_max_m": 2511,
           "risque": "Élevé par l'effort (1 260 m) et la durée en jours courts.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Arrivée au Seceda au bord de la falaise nord ; montée longue sans passage aérien."
+          },
           "plan": [
             "Gare basse Seceda, Ortisei",
             "sentier 9 dans le Val d'Anna",
@@ -2803,6 +2887,10 @@
           "depart": "Gare haute du funiculaire Resciesa",
           "altitude_max_m": 2596,
           "risque": "Très élevé en octobre.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Forcella Mesdì : montée raide exigeant pied sûr et absence de vertige."
+          },
           "plan": [
             "Gare haute Resciesa",
             "sentier 35 vers la selle et le refuge Brogles",
@@ -2814,7 +2902,7 @@
           "source": "https://www.valgardena.it/en/outdoor/base/outdoor/seceda-ridge-line-through-the-forcella-mezdi/810055437/",
           "statut_source": "Itinéraire officiel, mais le funiculaire Resciesa ferme le 11/10/2026 : départ depuis la station haute non accessible par remontée pendant vos journées du 13–16/10.",
           "verifie_le": "2026-09-28",
-          "duree_h": 6.0,
+          "duree_h": 6,
           "altitude_min_m": 1879,
           "depart_gps": [
             46.597836,
@@ -2938,6 +3026,10 @@
           "depart": "Gare basse Col Raiser",
           "altitude_max_m": 2510,
           "risque": "Modéré à élevé : 980 m de montée.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Arrivée au Seceda au bord de la falaise nord ; reste du parcours sans vide."
+          },
           "plan": [
             "Gare basse Col Raiser",
             "sentier 1 jusqu'au Rifugio Firenze / Regensburger Hütte (fermé en octobre)",
@@ -3150,6 +3242,10 @@
             "se combine avec l'aller à Seceda (fiche Col Raiser → Seceda) ; la descente Seceda → Mastlé → Col Raiser par le sentier 1 est décrite dans la fiche officielle Curona (variante facile, 1 h)"
           ],
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Gare haute Col Raiser",
             "chemin forestier jusqu'au belvédère UNESCO Mastlé (2 200 m)",
@@ -3197,7 +3293,7 @@
           "nom": "Vallunga / Langental, Selva : promenade en fond de vallée (repli si remontées fermées ou mauvais temps en altitude)",
           "distance_km": 7.5,
           "duree": "2 h (aller-retour)",
-          "duree_h": 2.0,
+          "duree_h": 2,
           "denivele_plus_m": 201,
           "denivele_moins_m": 201,
           "altitude_min_m": 1618,
@@ -3260,6 +3356,10 @@
             "praticable par tous les temps"
           ],
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Entrée du Vallunga (parking)",
             "sentier 14 jusqu'à la chapelle Saint-Sylvestre",
@@ -3326,6 +3426,10 @@
           "type": "boucle",
           "depart": "Parking P1 Spitzbühl (gare aval du télésiège Spitzbühl), sous Compatsch",
           "risque": "Faible à modéré : quasiment tous les refuges du tracé ferment le 11 octobre, emporter de quoi manger et boire.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "P1 Spitzbühl",
             "montée au refuge Spitzbühl (fermé)",
@@ -3470,6 +3574,10 @@
           "type": "boucle",
           "depart": "Compatsch (gare amont de la télécabine)",
           "risque": "Élevé en octobre : 7 h de marche, 1 300 m de dénivelé, jours courts, Schlernhaus fermé.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Descente raide vers le Tierser Alpl puis passage des Rosszähne, câbles possibles."
+          },
           "plan": [
             "Compatsch",
             "vers l'hôtel Panorama (≈ 1 km)",
@@ -3604,6 +3712,10 @@
           "depart": "Office de tourisme de Compatsch",
           "altitude_max_m": 1926,
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Compatsch (office de tourisme)",
             "sentier 30a jusqu'avant l'hôtel Ritsch",
@@ -3725,7 +3837,7 @@
         },
         {
           "nom": "Boucle du rocher Tschon Stoan : Compatsch – Panorama – Spitzbühl",
-          "distance_km": 8.0,
+          "distance_km": 8,
           "duree": "2 h 10",
           "denivele_plus_m": 194,
           "denivele_moins_m": 194,
@@ -3737,6 +3849,10 @@
           "depart": "Compatsch",
           "altitude_max_m": 2018,
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Compatsch",
             "rocher Tschon Stoan",
@@ -3864,6 +3980,10 @@
           "depart": "Compatsch, église Saint-François (gare amont de la télécabine)",
           "altitude_max_m": 1957,
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Compatsch, église Saint-François",
             "sentier 30 par les prairies, traversée de la route, hôtel Steger-Dellai",
@@ -4076,6 +4196,10 @@
             "refuges ouverts en octobre (Arnika, Dibaita)"
           ],
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Belvédère Engelrast et bancs des Sorcières au bord du plateau du Puflatsch, falaise en contrebas."
+          },
           "plan": [
             "Compatsch",
             "montée raide à gauche vers le Puflatsch (sentier 14)",
@@ -4185,6 +4309,10 @@
           "depart": "Gare d'arrivée du téléphérique Lagazuoi / Rifugio Lagazuoi (2 732–2 752 m)",
           "altitude_max_m": 2778,
           "risque": "faible hors neige ; froid et vent à 2 778 m",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Sentier large sans garde-corps jusqu'à la croix du Piccolo Lagazuoi, à 2 778 m."
+          },
           "plan": [
             "Passo Falzarego, téléphérique",
             "gare d'arrivée, traverser la terrasse du Rifugio Lagazuoi",
@@ -4317,6 +4445,10 @@
           "depart": "Rifugio Lagazuoi (gare d'arrivée du téléphérique, depuis le Passo Falzarego)",
           "altitude_max_m": 2752,
           "risque": "moyen : 760 m de remontée, retour contraint par la dernière cabine de 17h00, neige possible aux cols",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Descente de 400 m sur pierrier et vallon rocheux (sentier 20), sans câble."
+          },
           "plan": [
             "Téléphérique Falzarego → Rifugio Lagazuoi",
             "sentier 401 jusqu'à la Forcella Lagazuoi (2 572 m)",
@@ -4462,6 +4594,10 @@
           "type": "traversée",
           "depart": "Passo Valparola, parking du musée Forte Tre Sassi (2 168 m)",
           "risque": "élevé : via ferrata, exposition, galerie obscure en descente",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Via ferrata des Kaiserjäger : câbles, pont suspendu au-dessus d'une brèche, vire exposée."
+          },
           "plan": [
             "Passo Valparola, Forte Tre Sassi",
             "tranchées Vonbank",
@@ -4607,6 +4743,10 @@
           "depart": "Gare d'arrivée du téléphérique Lagazuoi (montée en cabine depuis le Passo Falzarego)",
           "altitude_max_m": 2778,
           "risque": "faible à modéré : descente de 680 m sur pierrier",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Passo Falzarego, téléphérique (aller simple)",
             "Lagazuoi EXPO (gratuit), croix du Piccolo Lagazuoi et retour",
@@ -4810,6 +4950,10 @@
             "croix du Piccolo Lagazuoi à 2 778 m"
           ],
           "risque": "modéré : 660 m de dénivelé à haute altitude, neige ou verglas possibles en octobre",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Sentiers rocheux 402/401 en altitude ; ne pas prendre les embranchements vers les vires et galeries."
+          },
           "plan": [
             "Parking du téléphérique, Passo Falzarego (2 105 m)",
             "sentier 402 jusqu'à la Forcella Travenanzes (2 507 m)",
@@ -4859,7 +5003,7 @@
         {
           "nom": "Passo Valparola → tranchées du Sas de Stria, sans les échelles (aller-retour court avec chien)",
           "duree": "≈ 1 h aller-retour jusqu'au plateau rocheux (30 min de montée selon Cortina)",
-          "duree_h": 1.0,
+          "duree_h": 1,
           "altitude_min_m": 2168,
           "niveau": {
             "officiel": "« Medium » pour le sommet (Cortina) ; « relativement facile » (Alta Badia) ; la partie jusqu'au plateau n'a pas de cotation propre",
@@ -4918,6 +5062,10 @@
             "très court, gratuit, parking au départ"
           ],
           "risque": "faible jusqu'au plateau ; élevé au-delà avec un chien (échelles)",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Tranchées jusqu'au plateau rocheux ; au-delà, échelles et galeries interdites : demi-tour au plateau."
+          },
           "plan": [
             "Parking du Forte Tre Sassi (Passo Valparola)",
             "montée entre buissons et rhododendrons",
@@ -4987,6 +5135,10 @@
           "depart": "Parking du télésiège 5 Torri / Baita Bai de Dones (SS48)",
           "altitude_max_m": 2137,
           "risque": "faible",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking Bai de Dones",
             "sentier 424 à gauche de la Baita, lac de Bai de Dones",
@@ -5107,6 +5259,10 @@
           "depart": "Rifugio Scoiattoli (arrivée du télésiège)",
           "altitude_max_m": 2255,
           "risque": "modéré en octobre (verglas dans les tranchées)",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Tranchées avec marches et passerelles en bois autour des tours."
+          },
           "plan": [
             "Rifugio Scoiattoli (2 255 m)",
             "musée : tranchées et postes restaurés",
@@ -5234,6 +5390,10 @@
           "depart": "Parking Bai de Dones",
           "altitude_max_m": 2054,
           "risque": "faible",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking Bai de Dones",
             "sentier 424 à droite du refuge, vers l'ouest (~1 h)",
@@ -5342,6 +5502,10 @@
           "depart": "Passo Giau (parking du col)",
           "altitude_max_m": 2575,
           "risque": "modéré, élevé si neige ou verglas sur la crête du Nuvolau",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Crête rocheuse du sentier 439 vers le Nuvolau, raide, mains parfois utiles."
+          },
           "plan": [
             "Passo Giau",
             "sentier 443 vers Rifugio Cinque Torri",
@@ -5570,6 +5734,10 @@
             "deux refuges historiques (fermés) et lac de Bai de Dones"
           ],
           "risque": "faible à modéré (verglas)",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Tranchées avec marches et passerelles en bois autour des tours."
+          },
           "plan": [
             "Parking Bai de Dones",
             "lac de Bai de Dones (sentier 424)",
@@ -5676,6 +5844,10 @@
             "gratuit"
           ],
           "risque": "faible",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Passo Falzarego ou Rifugio Col Gallina",
             "sentier 419 vers Forcella Averau (~1 h)",
@@ -5733,6 +5905,10 @@
           "depart": "Station haute du téléphérique Sass Pordoi (2 950 m)",
           "altitude_max_m": 2950,
           "risque": "Élevé en octobre : altitude, neige/verglas possibles, orientation sur plateau par brouillard, refuges fermés, dépendance au téléphérique pour redescendre.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Descente courte et raide sur terrain rocheux entre la station du Sass Pordoi et la Forcella Pordoi, à 2 900 m."
+          },
           "plan": [
             "Station haute Sass Pordoi (2 950 m)",
             "sentier 627A, descente raide vers la Forcella Pordoi (2 829 m, refuge fermé)",
@@ -5838,6 +6014,10 @@
           "depart": "Passo Pordoi, montée en téléphérique jusqu'au Sass Pordoi (2 950 m)",
           "altitude_max_m": 3150,
           "risque": "Très élevé en conditions automnales : câbles et rochers possiblement verglacés, pierrier raide à la descente, brouillard, aucun abri ouvert.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Rochers, vires et passages câblés du 638 ; descente câblée ; couloir de pierrier raide."
+          },
           "plan": [
             "Passo Pordoi",
             "téléphérique vers Sass Pordoi",
@@ -6003,6 +6183,10 @@
             "Compatible avec Prince"
           ],
           "risque": "Faible à modéré : terrain facile ; attention au verglas matinal et au vent sur la crête.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Sentier large en balcon (Viel del Pan) au-dessus de la vallée de Fassa, face à la Marmolada."
+          },
           "plan": [
             "Passo Pordoi (2 239 m)",
             "sentier 601 en montée vers le balcon (≈ 2 380 m)",
@@ -6100,6 +6284,10 @@
             "Combinable avec l'aller-retour Forcella → Rifugio Boè (+ 4,3 km A/R)"
           ],
           "risque": "Élevé : pierrier raide, chutes de pierres, neige/verglas en octobre.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Couloir de pierrier raide et instable sur 600 m de dénivelé sous la Forcella Pordoi."
+          },
           "plan": [
             "Passo Pordoi (2 239 m)",
             "sentier 627 dans le couloir",
@@ -6164,6 +6352,10 @@
           "depart": "Pederü",
           "altitude_max_m": 2171,
           "risque": "Modéré : longueur aller-retour, verglas dans les lacets, aucun abri ouvert.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Pederü",
             "sentier 7 (lacets de l'ancienne route militaire)",
@@ -6178,7 +6370,7 @@
           "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges.",
           "verifie_le": "2026-09-28",
           "distance_aller_retour_km": 15.4,
-          "duree_h": 3.0,
+          "duree_h": 3,
           "duree_aller_retour_h": 5.5,
           "altitude_min_m": 1543,
           "depart_gps": [
@@ -6274,6 +6466,10 @@
           "depart": "Pederü",
           "altitude_max_m": 2171,
           "risque": "Modéré à élevé : correspondance de bus serrée, aucun refuge ouvert, descente raide du Col de Locia.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Descente raide et caillouteuse sous le Col de Locia (sentier 11), sans câble."
+          },
           "plan": [
             "Pederü",
             "sentier 7",
@@ -6405,6 +6601,10 @@
           "depart": "Alpe di Fanes (Rifugio Fanes, 2 060 m)",
           "altitude_max_m": 2677,
           "risque": "Élevé à très élevé en octobre.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Sentier exposé dans la partie haute et petit pont suspendu vers le Vallon Bianco."
+          },
           "plan": [
             "Pederü",
             "sentier 7",
@@ -6420,8 +6620,8 @@
           "source": "https://www.sanvigilio.com/en/activity/peace-trail-fanes-monte-vallon-bianco_210944",
           "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges.",
           "verifie_le": "2026-09-28",
-          "duree_h": 6.0,
-          "duree_depuis_pederu_h": 9.0,
+          "duree_h": 6,
+          "duree_depuis_pederu_h": 9,
           "altitude_min_m": 2061,
           "depart_gps": [
             46.6121,
@@ -6430,7 +6630,7 @@
           "variante_depuis_pederu": {
             "distance_km": 24.6,
             "denivele_plus_m": 1440,
-            "duree_h": 9.0,
+            "duree_h": 9,
             "calcul": "fiche officielle + 2 × Pederü–Fanes (5,3 km, +520 m net, trace GPX officielle)"
           },
           "parking": {
@@ -6516,6 +6716,10 @@
           "depart": "Capanna Alpina, San Cassiano",
           "altitude_max_m": 2171,
           "risque": "Modéré à élevé : horaire de bus contraignant, aucun refuge ouvert.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Montée raide au Col de Locia et courte section raide avant les refuges, sans câble."
+          },
           "plan": [
             "Capanna Alpina",
             "sentier 11",
@@ -6646,6 +6850,10 @@
           "depart": "Parking Sciaré, San Cassiano",
           "altitude_max_m": 2475,
           "risque": "Élevé en octobre : descente raide, altitude 2 475 m, aucun refuge ouvert.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Descente raide sur éboulis de la Forcela dl Lech vers le lac, sans câble."
+          },
           "plan": [
             "Sciaré",
             "Capanna Alpina",
@@ -6745,6 +6953,10 @@
           "depart": "Texte officiel : Capanna Alpina ; trace GPX officielle : La Crusc / Santa Croce (46.6142, 11.9368, 2 021 m)",
           "altitude_max_m": 3064,
           "risque": "Très élevé.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Crête finale des Conturines équipée de câbles, terrain d'escalade."
+          },
           "plan": [
             "Capanna Alpina",
             "sentier 11",
@@ -6761,7 +6973,7 @@
           "source": "https://www.altabadia.org/en/tour/detail/oa/ascent-of-mt-conturines",
           "statut_source": "Le 20/10/2026, Rifugio Fanes (fermé après 04/10) et Lavarella (fermé après 11/10) sont hors saison : randonnée en autonomie, sans compter sur ces refuges.",
           "verifie_le": "2026-09-28",
-          "duree_h": 8.0,
+          "duree_h": 8,
           "altitude_min_m": 1390,
           "depart_gps": [
             46.614221,
@@ -6885,6 +7097,10 @@
             "plus court et plus sûr que Fanes"
           ],
           "risque": "Faible à modéré : lacets raides mais larges au départ.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Pederü",
             "sentier 7 (lacets de l'ancienne route militaire)",
@@ -6926,7 +7142,7 @@
           "nom": "Pederü → Sas dla Para",
           "distance_km": 5.4,
           "duree": "2 h 58 à la montée",
-          "duree_h": 3.0,
+          "duree_h": 3,
           "denivele_plus_m": 926,
           "denivele_moins_m": 16,
           "altitude_min_m": 1543,
@@ -6981,6 +7197,10 @@
             "passage par le refuge ouvert"
           ],
           "risque": "Modéré : dénivelé.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Sommet rocheux du Sas dla Para avec pentes raides autour ; sentier sans câble."
+          },
           "plan": [
             "Pederü",
             "sentier 7",
@@ -7036,6 +7256,10 @@
           "type": "boucle",
           "depart": "Rifugio Auronzo (parkings P1–P4, fin de la route à péage)",
           "risque": "Faible à modéré ; élevé si neige/verglas sur le versant nord. Aucun abri ouvert hors Rifugio Auronzo.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Chemin large en balcon sous les parois et pierrier stabilisé sous la Forcella Lavaredo ; aucun câble."
+          },
           "plan": [
             "Rifugio Auronzo (2 320 m)",
             "sentier 101 vers le Rifugio Lavaredo (2 344 m, fermé)",
@@ -7048,7 +7272,7 @@
           ],
           "source": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-drei-zinnen-tre-cime-three-peaks-_569",
           "verifie_le": "2026-09-28",
-          "duree_h": 4.0,
+          "duree_h": 4,
           "denivele_moins_m": 550,
           "altitude_min_m": 2169,
           "altitude_max_m": 2451,
@@ -7203,6 +7427,10 @@
           "depart": "Parking Fischleinboden (Val Fiscalina / Fischleintal, Sexten)",
           "altitude_max_m": 2543,
           "risque": "Élevé en octobre : longueur, 1 070 m de D+, altitude 2 543 m, aucun refuge ouvert en altitude.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Marches rocheuses et pierrier dans la montée finale du Sextner Stein, sans câble."
+          },
           "plan": [
             "Parking Fischleinboden (1 454 m)",
             "chemin plat vers la Talschlusshütte (1 548 m)",
@@ -7300,6 +7528,10 @@
           "depart": "Parking à l'entrée de l'Innerfeldtal (entre Innichen et Sexten)",
           "altitude_max_m": 2466,
           "risque": "Élevé en octobre : aller-retour ≈ 25 km et +1 300 m sans navette ni refuge ouvert.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Montée raide en lacets et traversée de pierriers sous le Toblinger Knoten, sans câble."
+          },
           "plan": [
             "Parking d'entrée Innerfeldtal (≈ 1 300 m)",
             "piste 105 le long de la vallée",
@@ -7402,6 +7634,10 @@
           "depart": "Entrée de l'Innerfeldtal (arrêt de bus « Abzw. Innerfeldtal »)",
           "altitude_max_m": 2464,
           "risque": "Très élevé : longueur, horaire serré, aucun abri ouvert en altitude.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Lacets raides et pierriers sous le Gwengalpenjoch, sans câble."
+          },
           "plan": [
             "Entrée Innerfeldtal",
             "Dreischusterhütte (1 626 m, fermée)",
@@ -7510,6 +7746,10 @@
           "depart": "Belvédère Tre Cime / Drei-Zinnen-Blick (Val di Landro, SS51)",
           "altitude_max_m": 2324,
           "risque": "Élevé : 1 000 m de D+, passage exposé sur le 111, galeries et tranchées au sommet.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Fin du sentier 111 « un peu exposée » ; galeries et tranchées aux bords non protégés au sommet."
+          },
           "plan": [
             "Drei-Zinnen-Blick / Landro (1 403 m)",
             "sentier 102 vers l'est dans le Rienztal",
@@ -7641,6 +7881,10 @@
             "Route SS51 ouverte toute l'année"
           ],
           "risque": "Élevé : ≈ 1 000 m de D+, aucun refuge ouvert.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Montée raide en lacets avec marches rocheuses sous le Rienzboden, sans câble."
+          },
           "plan": [
             "Drei-Zinnen-Blick (1 403 m)",
             "sentier 102 vers l'est dans le Rienztal",
@@ -7677,7 +7921,7 @@
         {
           "nom": "Moos → Fischleintal → Talschlusshütte (Val Fiscalina)",
           "pourquoi": "Seule rando facile de la zone avec un refuge encore ouvert mi-octobre et un bus toute l'année : repli de mauvais temps ou jour de neige en altitude.",
-          "distance_km": 10.0,
+          "distance_km": 10,
           "duree": "2 h 35 (aller-retour)",
           "duree_h": 2.6,
           "denivele_plus_m": 197,
@@ -7730,6 +7974,10 @@
             "Refuge ouvert en intersaison"
           ],
           "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Moos, église (1 346 m)",
             "Heideckstraße, aire de jeux « Mooser Waldile », pont",
@@ -7788,6 +8036,10 @@
           "type": "aller-retour (ou boucle : montée par la piste 37, descente par le sentier 18 et la Stolla Alm ≈ 9,5 km)",
           "depart": "Brückele / Ponticello, parking P5",
           "risque": "Faible à modéré : longueur modeste, seul le gel du matin compte.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking P5 Brückele",
             "piste 37 (ou route jusqu'au 3e virage puis sentier 18 le long du Stolla Bach)",
@@ -7899,6 +8151,10 @@
           "depart": "Hôtel Lago di Braies, rive nord",
           "altitude_max_m": 1528,
           "risque": "Faible ; prudence sur les marches gelées.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Escaliers en bois et marches rocheuses sur la rive est, rien d'exposé."
+          },
           "plan": [
             "Rive nord / hôtel",
             "rive ouest (sentier 1)",
@@ -7908,7 +8164,7 @@
           ],
           "source": "https://www.suedtirol.info/en/en/experiences-and-events/nature/lakes-and-natural-pools/pragser-wildsee-lake",
           "verifie_le": "2026-09-28",
-          "duree_h": 1.0,
+          "duree_h": 1,
           "altitude_min_m": 1491,
           "depart_gps": [
             46.69877,
@@ -7984,6 +8240,10 @@
           "depart": "Rive ouest du Lago di Braies",
           "altitude_max_m": 2285,
           "risque": "Modéré à élevé : +850 m, sections raides, verglas possible dans le vallon ombragé.",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Sentier raide et caillouteux vers la Rossalm, sans câble ni vide marqué."
+          },
           "plan": [
             "Rive ouest du lac",
             "extrémité sud-est du lac",
@@ -8082,6 +8342,10 @@
           "depart": "Parking du Lago di Braies, direction Riedlhof",
           "altitude_max_m": 2535,
           "risque": "Élevé : +1 200 m, terrain raide et accidenté, aucune aide en route en octobre.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Terrain raide, rocheux et accidenté au-dessus de la Pragser Furkel, blocs et pierrier."
+          },
           "plan": [
             "Parking du lac",
             "piste vers Riedlhof (20)",
@@ -8180,6 +8444,10 @@
           "depart": "Parking Prato Piazza",
           "altitude_max_m": 2305,
           "risque": "Faible à modéré (vent, froid sur la crête).",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking Prato Piazza",
             "Berggasthaus Plätzwiese",
@@ -8288,6 +8556,10 @@
           "depart": "Parking du Lago di Braies",
           "altitude_max_m": 2131,
           "risque": "Modéré.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking du lac",
             "piste vers le Riedlhof (20)",
@@ -8368,7 +8640,7 @@
         },
         {
           "distance_km": 4.5,
-          "distance_aller_retour_km": 9.0,
+          "distance_aller_retour_km": 9,
           "duree": "2 h 43 à la montée selon les données de la fiche, 4 h selon son texte ; aller-retour ≈ 5 h à 6 h 30",
           "duree_h": 5.5,
           "denivele_plus_m": 869,
@@ -8427,6 +8699,10 @@
           "meilleur_moment": "Journée sèche après plusieurs jours sans neige ; monter avant 10 h.",
           "points_forts": "Le plus haut belvédère accessible à pied de la zone (2 833 m sur la fiche) : panorama complet sur les Dolomites de Sesto, d'Ampezzo et de Braies.",
           "risque": "Élevé : passage câblé, pierrier, altitude > 2 800 m.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Courte section câblée entre l'antécime et le sommet du Picco di Vallandro, après un pierrier."
+          },
           "plan": [
             "Parking Prato Piazza",
             "Berggasthaus Plätzwiese, à gauche",
@@ -8537,6 +8813,10 @@
           "meilleur_moment": "Après plusieurs jours secs et doux ; départ à l'aube.",
           "points_forts": "Première étape de l'Alta Via 1 ; vue sur Tre Cime depuis le Törl, puis Pelmo, Tofane et Fanes au refuge.",
           "risque": "Élevé : +950 m, cirque nord verglacé possible, refuge fermé ; très élevé pour la variante sommet.",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Cirque de l'Ofen très raide vers le Rifugio Biella ; câbles et rochers au sommet."
+          },
           "plan": [
             "Hôtel Lago di Braies",
             "rive ouest (1)",
@@ -8606,6 +8886,10 @@
           "depart": "Parking du lac, rive est (côté hôtel Baur) ou rive nord-ouest (côté restaurant du lac)",
           "altitude_max_m": 1262,
           "risque": "Faible",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Parking est (hôtel Baur) ou ouest (restaurant du lac)",
             "tour dans le sens horaire",
@@ -8699,6 +8983,10 @@
           "depart": "Office de tourisme de Dobbiaco (Dobbiaco Nuova)",
           "altitude_max_m": 1264,
           "risque": "Faible",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Office de tourisme",
             "trottoir vers le sud",
@@ -8786,6 +9074,10 @@
           "depart": "Schnegger Säge, fond du Silvestertal au-dessus de Wahlen/San Silvestro",
           "altitude_max_m": 2345,
           "risque": "Modéré à élevé en octobre : 1 084 m de montée, sommet à 2 345 m sans refuge ouvert, neige possible",
+          "vertige": {
+            "niveau": "léger",
+            "passages": "Sentier étroit en descente sous le Pfanntörl, sans câble."
+          },
           "plan": [
             "Schnegger Säge",
             "sentier 1 en forêt",
@@ -8916,6 +9208,10 @@
           "depart": "Après Wahlen/San Silvestro, carrefour Kandellen – Frondeigen – Silvestertal",
           "altitude_max_m": 2662,
           "risque": "Très élevé en octobre : longueur, altitude, refuges fermés, jour court",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Crête frontalière T3 aux pentes herbeuses raides vers le Golfen."
+          },
           "plan": [
             "Carrefour Kandellen–Frondeigen–Silvestertal",
             "sentier 24 (route puis forêt)",
@@ -8936,7 +9232,7 @@
           "source": "https://www.dreizinnen.com/en/activity/dobbiaco-alpine-ridgeway-_543",
           "statut_source": "Ouvert au contrôle du 28/09/2026 — état à recontrôler le jour J",
           "verifie_le": "2026-09-28",
-          "duree_h": 9.0,
+          "duree_h": 9,
           "altitude_min_m": 1393,
           "depart_gps": [
             46.756287,
@@ -9024,7 +9320,7 @@
           "distance_km": 8.9,
           "distance_aller_retour_km": 17,
           "duree": "3 h 30 à la montée ; environ 6 h aller-retour (tourenfex)",
-          "duree_h": 6.0,
+          "duree_h": 6,
           "denivele_plus_m": 1160,
           "denivele_moins_m": 32,
           "denivele_moins_retour_m": 1160,
@@ -9079,6 +9375,10 @@
             "se combine avec le tour du lac"
           ],
           "risque": "Élevé : 1 160 m de montée raide, passage câblé exposé",
+          "vertige": {
+            "niveau": "fort",
+            "passages": "Pierrier très raide puis deux passages exposés en flanc sud, dont un câblé près du sommet."
+          },
           "plan": [
             "Parking du lac",
             "rive ouest",
@@ -9176,6 +9476,10 @@
             "facile, versant ensoleillé"
           ],
           "risque": "Faible",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide."
+          },
           "plan": [
             "Schnegger Säge",
             "sentier 1 en forêt",
