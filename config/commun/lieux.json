@@ -4037,7 +4037,7 @@
       },
       {
         "libelle": "Restauration",
-        "valeur": "Almhotel Col Raiser à l'arrivée ; refuges sur le plateau"
+        "valeur": "Almhotel Col Raiser à l’arrivée fermé à partir du 13/10/2026 (saison d’été jusqu’au 12/10) ; restaurant de la station haute de Seceda ouvert jusqu’au 2/11"
       }
     ],
     "verification": {
@@ -4058,6 +4058,10 @@
         {
           "libelle": "OpenStreetMap/Nominatim — gare de départ 46.5749, 11.7410 ; arrivée 46.5848, 11.7453",
           "url": "https://www.openstreetmap.org/search?query=Col%20Raiser"
+        },
+        {
+          "libelle": "Val Gardena — Almhotel Col Raiser, été 2026 : 06/06–12/10",
+          "url": "https://www.valgardena.it/en/addresses/detail-gastronomy/base/company/s-cristina-val-gardena/almhotel-col-raiser/C0DF8B3F76D911D18F2900A02427D15E/"
         }
       ],
       "doutes": "Prix du parking : source hôtelière sans année ; aucune source officielle 2026. Heure de la dernière montée non publiée. Hauteur du garage non publiée : avec la tente de toit, viser le parking extérieur. Le GPS donné est la gare de départ (point utile en voiture)."
@@ -9249,7 +9253,29 @@
       "montant": 49.4,
       "unite": "nuit estimée pour 2 adultes + chien",
       "annee_tarif": 2026,
-      "detail": "Du 20/03 au 08/11/2026 : grande piazzola minimum 45 € incluant équipement + 2 personnes ; chien 3 € ; taxe de séjour 0,70 € par adulte pour les 5 premières nuits = 49,40 € avant électricité facultative 4,50 €."
+      "detail": "49,40 € = 45 € + 3 € chien + 2 × 0,70 € de taxe, sans électricité, si la voiture avec tente de toit entre dans le barème « grand emplacement ». Classement du véhicule et facturation d’une seule nuit à confirmer.",
+      "grille": [
+        {
+          "libelle": "Grand emplacement + 2 personnes (20/03–08/11)",
+          "valeur": "45 €"
+        },
+        {
+          "libelle": "Chien",
+          "valeur": "3 €"
+        },
+        {
+          "libelle": "Taxe de séjour",
+          "valeur": "0,70 € par adulte et par nuit (5 premières nuits)"
+        },
+        {
+          "libelle": "Électricité 6 A (facultative)",
+          "valeur": "4,50 €/jour, soit 53,90 € la nuit"
+        },
+        {
+          "libelle": "Acompte",
+          "valeur": "30 % dans les 15 jours après confirmation"
+        }
+      ]
     },
     "chien": {
       "admis": true,
@@ -9257,8 +9283,19 @@
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Tarif/saison 2026 officiels couvrent le 10/10. Disponibilité réelle, heure d'arrivée et acceptation explicite de la tente de toit à confirmer avant paiement."
+      "note": "La grille officielle 2026 place les 12 et 14 octobre dans la période du 20/03 au 08/11 : barème connu, disponibilité non. Place pour une seule nuit, voiture de 1,95 m avec tente de toit, Prince et heure limite d’arrivée à confirmer par écrit avant tout paiement."
     },
+    "horaires": [
+      {
+        "libelle": "Arrivée",
+        "valeur": "à partir de 15 h ; heure limite d’arrivée tardive non publiée"
+      },
+      {
+        "libelle": "Départ",
+        "valeur": "avant 10 h"
+      }
+    ],
+    "acces": "Sortie A10 Finale Ligure, direction Finalmarina, puis Via Aurelia à gauche vers Savona/Genova sur 1,5 km ; à gauche à l’embranchement de Calvisio (Via Drione), longer le torrent Sciusa en franchissant le pont de pierre puis le pont de fer, à droite sur 300 m, puis Via Varese à gauche après le pont ferroviaire. Hauteur libre sous ce pont non publiée : à vérifier pour 1,95 m.",
     "source": "https://www.campingtahitifinaleligure.it/en/price-list-camping-finale-ligure",
     "equipements": [
       "electricite",
@@ -9279,6 +9316,10 @@
       {
         "libelle": "Accès depuis A10",
         "url": "https://www.campingtahitifinaleligure.it/dove-siamo-campeggio-finale-ligure-savona"
+      },
+      {
+        "libelle": "Formulaire de demande de réservation",
+        "url": "https://www.campingtahitifinaleligure.it/prenotazioni-campeggio-finale-ligure-savona"
       }
     ],
     "photos": [
