@@ -648,7 +648,7 @@
     var sous = [];
     if (l.commune) sous.push(l.commune);
     if (l.altitude) sous.push(l.altitude + ' m');
-    if (Array.isArray(l.gps)) sous.push(l.gps[0].toFixed(4) + ', ' + l.gps[1].toFixed(4));
+    if (Array.isArray(l.gps)) sous.push((l.gps_approximatif ? 'Position indicative : ' : '') + l.gps[0].toFixed(4) + ', ' + l.gps[1].toFixed(4));
     document.getElementById('panneau-lieu').textContent = sous.join(' · ');
 
     vide(corps);
@@ -661,6 +661,7 @@
       badges.appendChild(bp);
     }
     if (l.niveau_prix) badges.appendChild(el('span', 'badge badge--niveau', l.niveau_prix));
+    if (l.nuit_possible === false) badges.appendChild(el('span', 'badge badge--alerte', 'Ne pas y dormir avec notre tente de toit'));
     if (l.chien && l.chien.admis) {
       var t = 'Chien admis';
       if (l.chien.supplement) t = 'Chien +' + euros(l.chien.supplement);
@@ -838,7 +839,7 @@
     }
 
     /* Actions */
-    if (Array.isArray(l.gps)) {
+    if (Array.isArray(l.gps) && !l.gps_approximatif) {
       var paire = el('div', 'paire');
       var coord = l.gps[0] + ',' + l.gps[1];
 
@@ -1048,6 +1049,62 @@
     });
 
     conteneur.appendChild(sec);
+  }
+
+  function dessinerPratique() {
+    var zone = document.getElementById('pratique');
+    if (!zone) return;
+    vide(zone);
+    var d = E.pratique || {};
+    if (d.introduction) zone.appendChild(el('p', 'pratique__intro', d.introduction));
+
+    var nuits = (E.planning || []).filter(function (j) { return j.nuit; });
+    var liste = el('div', 'pratique__nuits');
+    liste.appendChild(el('h3', 'pratique__titre', 'Nuits de ce scénario'));
+    nuits.forEach(function (j) {
+      var lieu = E.parId.get(j.nuit);
+      if (!lieu) return;
+      var b = el('button', 'pratique__nuit', dateCourte(j.date) + ' · ' + lieu.nom);
+      b.type = 'button';
+      b.addEventListener('click', function () { ouvrirPanneau(lieu.id); });
+      liste.appendChild(b);
+    });
+    zone.appendChild(liste);
+
+    if (d.alerte_courses) zone.appendChild(el('p', 'pratique__alerte', d.alerte_courses));
+
+    function groupes(titre, groupesListe, type) {
+      var sec = el('div', 'pratique__partie');
+      sec.appendChild(el('h3', 'pratique__titre', titre));
+      (groupesListe || []).forEach(function (g) {
+        var bloc = el('div', 'pratique__groupe');
+        bloc.appendChild(el('h4', 'pratique__sous-titre', g.titre));
+        if (g.note) bloc.appendChild(el('p', 'pratique__note', g.note));
+        var cartes = el('div', 'pratique__grille');
+        (g.lieux || []).forEach(function (id) {
+          var l = E.parId.get(id);
+          if (!l) { anomalies.push('Lieu pratique introuvable : ' + id); return; }
+          var b = el('button', 'pratique__carte');
+          b.type = 'button';
+          b.appendChild(el('strong', null, l.nom));
+          b.appendChild(el('span', 'pratique__carte-detail', l.resume || 'Voir les informations et les sources.'));
+          if (type === 'nuit') {
+            var n = nuits.filter(function (j) { return j.nuit === id; }).length;
+            b.appendChild(el('span', 'pratique__carte-statut', l.nuit_possible === false ? 'Écarté pour la nuit' : (n ? n + ' nuit' + (n > 1 ? 's' : '') + ' dans ce scénario' : 'Piste à confirmer')));
+          }
+          b.addEventListener('click', function () { ouvrirPanneau(id); });
+          cartes.appendChild(b);
+        });
+        bloc.appendChild(cartes);
+        sec.appendChild(bloc);
+      });
+      zone.appendChild(sec);
+    }
+
+    groupes('Campings, fermes et terrains privés', d.groupes_hebergement, 'nuit');
+    groupes('Courses par étape', d.groupes_courses, 'courses');
+    if (d.conseil_nuit) zone.appendChild(el('p', 'pratique__note', d.conseil_nuit));
+    if (d.conseil_chien) zone.appendChild(el('p', 'pratique__note', d.conseil_chien));
   }
 
   function dessinerPlanning() {
@@ -1484,6 +1541,7 @@
     dessinerMarqueurs();
     dessinerTrace();
     dessinerListe();
+    dessinerPratique();
     dessinerPlanning();
     dessinerBudget();
     dessinerMeteo();
@@ -1509,7 +1567,8 @@
       lire('commun/vehicule.json'),
       lire('commun/carburant.json'),
       lire('commun/randonnees.json'),
-      lire('commun/decouvertes.json')
+      lire('commun/decouvertes.json'),
+      lire('commun/pratique.json')
     ]).then(function (r) {
       E.scenarios = r[0] || { scenarios: [] };
       E.lieux = r[1] || [];
@@ -1520,6 +1579,7 @@
       E.carburant = r[7];
       E.randonnees = r[8] || { zones: [] };
       E.decouvertes = r[9] || { zones: [] };
+      E.pratique = r[10] || {};
 
       E.parId = indexer(E.lieux);
       E.categories = construireCategories(E.lieux, r[2] || {});

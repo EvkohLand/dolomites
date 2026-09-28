@@ -10,15 +10,15 @@ permissions:
   pages: write
   id-token: write
 
-# Une seule publication à la fois ; on ne coupe pas celle qui est en cours.
+# Groupe distinct des anciens jobs bloqués sur le runner privé indisponible.
 concurrency:
-  group: pages
+  group: pages-hosted
   cancel-in-progress: false
 
 jobs:
   construire:
     name: Valider et construire
-    runs-on: [self-hosted, vega]  # own runner (only push/dispatch triggers: no fork code runs here)
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
@@ -43,7 +43,7 @@ jobs:
   publier:
     name: Publier sur GitHub Pages
     needs: construire
-    runs-on: [self-hosted, vega]  # own runner (only push/dispatch triggers: no fork code runs here)
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deploiement.outputs.page_url }}

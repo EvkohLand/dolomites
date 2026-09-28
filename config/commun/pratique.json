@@ -1,0 +1,84 @@
+{
+  "introduction": "Autonomes avec tente de toit : une parcelle autorisée suffit. Voiture haute de 1,95 m tente fermée ; courant facultatif en cas de journées entières de balade. Aucun terrain ni tarif d'octobre n'est réservé ou confirmé pour toutes les nuits.",
+  "alerte_courses": "Au 28 septembre, le Despar de Corvara affiche fermé sept jours sur sept. Le Despar de Dobbiaco ferme le dimanche : pour une arrivée le dimanche 18, acheter avant, par exemple à La Villa lors du transfert vers San Cassiano. Revérifier les horaires avant de partir.",
+  "groupes_hebergement": [
+    {
+      "titre": "Étape ligure",
+      "note": "Une nuit sur le trajet. Green Family Park n'est annoncé ouvert que jusqu'au 11 octobre et convient donc seulement à la nuit du 10.",
+      "lieux": [
+        "camping-tahiti-finale",
+        "camping-green-europa-cogoleto",
+        "agricamping-pietra-ulivo"
+      ]
+    },
+    {
+      "titre": "Ouest — Bressanone et Val di Funes",
+      "note": "Comparer en priorité le pré privé de Pinzagen avec Löwenhof ; vérifier la largeur de la tente ouverte, le sol après pluie et l'accord pour Prince. Gamp, Vahrner See et la ferme de Funes sont des replis à confirmer.",
+      "lieux": [
+        "ferme-pinzagen-van-moar",
+        "camping-loewenhof",
+        "ferme-gletscher-hons",
+        "camping-gamp-chiusa",
+        "camping-vahrner-see"
+      ]
+    },
+    {
+      "titre": "Centre — Alta Badia",
+      "note": "Le devis Sass Dlacia pour le 14–18 n'établit ni disponibilité ni prix pour les autres dates : demander l'emplacement exact avec la voiture sous la tente.",
+      "lieux": [
+        "camping-sass-dlacia"
+      ]
+    },
+    {
+      "titre": "Est — Dobbiaco et Cortina",
+      "note": "Olympia publie des tarifs d'octobre, mais la catégorie compatible voiture + tente reste à confirmer ; Cortina est une piste sans ouverture confirmée.",
+      "lieux": [
+        "camping-olympia",
+        "camping-cortina"
+      ]
+    },
+    {
+      "titre": "Ortisei — écarter ces deux options pour dormir",
+      "note": "Le parking Setil a une adresse, un tarif et des horaires de stationnement, mais le camping et la nuit en véhicule sont interdits en Val Gardena. Pontives est une aire gérée par un hôtel : deux avis de juillet 2026 rapportent un refus explicite des tentes de toit. Le plan ne prévoit aucune nuit dans ces deux lieux.",
+      "lieux": [
+        "aire-ortisei",
+        "aire-pontives"
+      ]
+    }
+  ],
+  "groupes_courses": [
+    {
+      "titre": "Ligurie — courses en route",
+      "note": "Ces deux fiches Conad annoncent l'accès des animaux et des chariots adaptés. Parking extérieur pour éviter un portique sous 1,95 m ; Prince doit rester accompagné.",
+      "lieux": [
+        "courses-conad-varazze",
+        "courses-conad-savone"
+      ]
+    },
+    {
+      "titre": "Bressanone — provisions ouest",
+      "note": "Eurospar ouvre aussi le dimanche selon sa fiche. Politique Despar : chien en sac ou en caisse uniquement ; faire les achats à tour de rôle si Prince ne peut pas y entrer. Conad Via Dante ouvre plus tôt en semaine et mentionne un parking extérieur, mais aucune preuve d’accès avec chien.",
+      "lieux": [
+        "courses-eurospar-bressanone",
+        "courses-conad-bressanone"
+      ]
+    },
+    {
+      "titre": "Alta Badia — avant le transfert est",
+      "note": "La Villa est affiché ouvert le dimanche ; Corvara est affiché fermé toute la semaine au 28 septembre. Faire les provisions avant l'arrivée à Dobbiaco le dimanche 18.",
+      "lieux": [
+        "courses-despar-la-villa"
+      ]
+    },
+    {
+      "titre": "Dobbiaco — base est",
+      "note": "Despar ferme le dimanche et interrompt le service à midi les autres jours. Conad City affiche lundi–samedi 08 h–19 h, sans preuve d'admission des chiens ni horaire du dimanche.",
+      "lieux": [
+        "courses-despar-dobbiaco",
+        "courses-conad-dobbiaco"
+      ]
+    }
+  ],
+  "conseil_nuit": "Une épingle Park4Night, PlaceCamp ou Agricamper n'autorise pas l'ouverture d'une tente de toit : obtenir l'accord du propriétaire ou un camping autorisé. Le parking Setil sert uniquement aux visites de jour ; l’aire Pontives refuse les voitures avec tente de toit d’après deux avis de 2026. Aucun hôte Agricamper confirmé sur cet itinéraire ne justifie à ce jour de renouveler l'abonnement. Les épingles privées marquées indicatives ne doivent jamais servir à naviguer jusqu'à un terrain.",
+  "conseil_chien": "Coop, Despar et Conad n'ont pas de règle universelle assurant l'accès de Prince : suivre la fiche du magasin précis. Ne pas laisser le chien seul dans la voiture pendant les courses."
+}

@@ -484,6 +484,22 @@ table.grille td { font-variant-numeric: tabular-nums; }
 
 /* ---------- Règles ---------- */
 
+.pratique__intro, .pratique__alerte { max-width: 900px; line-height: 1.5; }
+.pratique__alerte { padding: 12px 14px; border: 1px solid #ead4ae; border-radius: var(--rayon); background: #fdf4e3; }
+.pratique__partie { margin-top: 30px; }
+.pratique__titre { margin: 0 0 12px; font-size: 18px; }
+.pratique__sous-titre { margin: 0 0 4px; font-size: 16px; }
+.pratique__note { color: var(--discret); font-size: 13px; line-height: 1.5; max-width: 940px; margin: 5px 0 12px; }
+.pratique__groupe { margin-top: 18px; }
+.pratique__grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.pratique__carte { display: flex; flex-direction: column; gap: 7px; text-align: left; padding: 14px; border: 1px solid var(--trait); border-radius: var(--rayon); background: var(--surface); color: var(--texte); font: inherit; cursor: pointer; }
+.pratique__carte:hover, .pratique__carte:focus-visible, .pratique__nuit:hover, .pratique__nuit:focus-visible { border-color: var(--accent); }
+.pratique__carte-detail { color: var(--discret); font-size: 12px; line-height: 1.45; }
+.pratique__carte-statut { margin-top: auto; color: var(--accent); font-size: 12px; font-weight: 600; }
+.pratique__nuits { display: flex; flex-wrap: wrap; gap: 7px; margin: 20px 0; }
+.pratique__nuits .pratique__titre { flex-basis: 100%; }
+.pratique__nuit { border: 1px solid var(--trait); border-radius: var(--rayon); padding: 8px 10px; background: var(--surface); color: var(--texte); font: inherit; font-size: 12px; cursor: pointer; }
+
 .regles { display: flex; flex-direction: column; gap: 10px; }
 .regle { padding: 15px 16px; border: 1px solid var(--trait); border-left-width: 3px; border-radius: var(--rayon); background: var(--surface); }
 .regle--elevee { border-left-color: #b4603a; }

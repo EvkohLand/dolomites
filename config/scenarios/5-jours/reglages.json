@@ -52,6 +52,10 @@
       "libelle": "Carte"
     },
     {
+      "id": "pratique",
+      "libelle": "Pratique"
+    },
+    {
       "id": "planning",
       "libelle": "Planning"
     },

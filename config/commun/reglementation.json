@@ -23,6 +23,29 @@
     ]
   },
   {
+    "id": "nuit-val-gardena",
+    "titre": "Ortisei / Val Gardena : stationnement de jour, nuit ailleurs",
+    "portee": "Ortisei, Santa Cristina, Selva di Val Gardena",
+    "resume": "L’office de tourisme du Val Gardena interdit les nuits dans les véhicules et le campement, y compris sur un parking ou terrain privé non autorisé.",
+    "detail": "Le parking Setil est ouvert à la circulation 24 h/24, mais ne constitue pas une aire de camping. Pontives est une aire de camping-cars exploitée par l’hôtel à l’entrée de la vallée ; deux avis Park4Night de juillet 2026 relatent un refus des tentes de toit. Prévoir une vraie nuit au camping ou sur terrain expressément autorisé hors de cette vallée, et visiter Ortisei de jour.",
+    "gravite": "elevee",
+    "a_reverifier": true,
+    "sources": [
+      {
+        "libelle": "Office de tourisme Val Gardena",
+        "url": "https://www.valgardena.it/en/holidays-dolomites/arrival/with-the-caravan-or-camper/"
+      },
+      {
+        "libelle": "Parking Setil — adresse et tarif",
+        "url": "https://www.val-gardena.com/en/addresses/detail/base/poi/ortisei-val-gardena/parking-setil/86A378B5EE944362B156724D663E9113/"
+      },
+      {
+        "libelle": "Pontives — avis sur tente de toit",
+        "url": "https://park4night.com/en/place/70563"
+      }
+    ]
+  },
+  {
     "id": "chien-alpage",
     "titre": "Chien en alpage et chiens de troupeau",
     "portee": "Tous les sentiers d'altitude, jusqu'à la descente des troupeaux",
@@ -93,8 +116,8 @@
     "id": "tente-toit-hauteur",
     "titre": "Hauteur du véhicule avec la tente de toit",
     "portee": "Parkings couverts, tunnels, péages",
-    "resume": "Mesurer la hauteur réelle une fois la tente montée et la noter.",
-    "detail": "Une voiture équipée d'une tente de toit dépasse souvent 2 m, ce qui interdit la plupart des parkings souterrains et impose de vérifier les portiques. La surconsommation est réelle : compter 10 à 20 % de carburant en plus, d'où les 9,5 L/100 km retenus au budget. Rouler à 110 km/h plutôt qu'à 130 réduit nettement la consommation et le bruit.",
+    "resume": "Voiture et tente de toit fermée : 1,95 m selon la mesure des voyageurs ; vérifier la marge réelle sous chaque portique.",
+    "detail": "La hauteur de 1,95 m concerne la tente fermée. Une marge de seulement 5 cm sous un portique de 2 m demande de vérifier sur place le gabarit réel, y compris les accessoires ; la hauteur tente ouverte concerne l'emplacement. Le budget utilise 7,6 L/100 km (base 6,2 majorée de 22 %).",
     "gravite": "moyenne"
   },
   {
@@ -130,7 +153,7 @@
     "titre": "Péages, hauteur réelle et tente de toit",
     "portee": "Autoroutes françaises et italiennes",
     "resume": "En France, une tente/coffre/charge sur le toit ne change pas à elle seule la classe tarifaire du véhicule, mais il faut éviter les voies avec gabarit 2 m si la hauteur physique dépasse 2 m. En Italie, la classe d'un véhicule à 2 essieux dépend de la hauteur mesurée à l'axe avant, pas de la hauteur totale de la tente de toit.",
-    "detail": "France : les chargements et accessoires de toit ne sont pas pris en compte pour déterminer la classe ; une Superb restant un véhicule léger de classe 1 ne devient donc pas automatiquement classe 2 à cause d'une tente de toit. En revanche, si la hauteur physique de l'ensemble dépasse 2 m, ne pas emprunter une voie signalée avec gabarit 2 m : utiliser une voie mixte ou télépéage sans gabarit. Italie : pour un véhicule à deux essieux, la classification A/B utilise la hauteur mesurée à la verticale de l'essieu avant (seuil 1,30 m), et non la hauteur totale du toit. Mesurer malgré tout la hauteur totale réelle pour les parkings, portiques et ouvrages bas.",
+    "detail": "France : les chargements et accessoires de toit ne sont pas pris en compte pour déterminer la classe ; une Superb restant un véhicule léger de classe 1 ne devient donc pas automatiquement classe 2 à cause d'une tente de toit. Pour le véhicule annoncé à 1,95 m tente fermée, la marge physique sous un portique de 2 m n'est que de 5 cm : mesurer à nouveau le véhicule chargé et choisir une voie sans gabarit en cas de doute. Italie : pour un véhicule à deux essieux, la classification A/B utilise la hauteur mesurée à la verticale de l'essieu avant (seuil 1,30 m), et non la hauteur totale du toit. Mesurer malgré tout la hauteur totale réelle pour les parkings, portiques et ouvrages bas.",
     "gravite": "moyenne",
     "sources": [
       {

@@ -86,8 +86,8 @@
   "supermarche": {
     "libelle": "Courses / supermarché",
     "couleur": "#739c63",
-    "icone": "epicerie",
+    "icone": "panier",
     "ordre": 13,
-    "actif": false
+    "actif": true
   }
 }

@@ -3671,205 +3671,44 @@
   },
   {
     "id": "aire-ortisei",
-    "nom": "Aire camping-car d'Ortisei",
-    "categorie": "aire",
+    "nom": "Parking Setil — Ortisei, visite de jour",
+    "categorie": "parking",
     "gps": [
-      46.5747,
-      11.6725
+      46.572765,
+      11.670324
     ],
-    "commune": "Ortisei / St. Ulrich (BZ)",
-    "altitude": 1236,
-    "resume": "Stationnement référencé par park4night ; autorisation d’ouvrir une tente de toit et de dormir sur place non vérifiée. Simple piste, aucune nuit programmée.",
+    "commune": "Streda Setil, 39046 Ortisei / Urtijëi (BZ)",
+    "nuit_possible": false,
+    "resume": "Parking public extérieur à proximité de la télécabine de l’Alpe di Siusi. Adresse et GPS officiels, accès 24 h/24 toute l’année ; voiture 2 €/h, camping-car 3 €/h selon la fiche locale. Stationnement de visite uniquement : l’office du tourisme interdit de passer la nuit dans un véhicule ou sous tente en Val Gardena. Cette fiche remplace l’ancienne « aire camping-car » de 25 €/nuit non identifiée.",
     "prix": {
       "type": "payant",
-      "montant": 25,
-      "unite": "nuit",
-      "annee_tarif": 2025,
-      "detail": "Ancien montant indicatif ; nuit en tente de toit non confirmée. Ne pas considérer cette aire comme un camping réservé."
+      "montant": 2,
+      "unite": "heure, voiture (tarif publié, à revérifier sur place)",
+      "detail": "Fiche locale : voiture 2 €/h, camping-car 3 €/h, bus 45 €/jour. Aucun tarif de nuitée camping, ni forfait sur plusieurs jours. Les 25 €/nuit affichés auparavant n’avaient pas de source pour ce lieu."
     },
-    "services": [
-      "eau",
-      "vidange"
-    ],
-    "eau": true,
     "ouverture": {
-      "a_reverifier": true
+      "note": "Accès au stationnement indiqué 00:00–24:00, ouvert toute l’année. Cela ne permet pas d’y camper ni de dormir dans le véhicule : interdiction de nuitée rappelée par l’office de tourisme du Val Gardena."
     },
-    "sources": [
-      "park4night"
-    ],
-    "lien_p4n": "https://park4night.com/fr/search?q=Ortisei",
-    "etiquettes": [
-      "a verifier",
-      "proche remontees"
-    ],
-    "niveau_prix": "€€",
+    "acces": "À l’air libre, Streda Setil près du départ de la télécabine Alpe di Siusi. Portique ou hauteur libre d’accès non documenté : vérifier sur place pour la voiture de 1,95 m. Ni borne électrique, ni eau, ni vidange vérifiées pour ce parking ; ne pas lui attribuer les équipements d’une aire de camping-car.",
+    "reglement": "nuit-val-gardena",
+    "source": "https://www.val-gardena.com/en/addresses/detail/base/poi/ortisei-val-gardena/parking-setil/86A378B5EE944362B156724D663E9113/",
     "equipements": [
-      "eau",
-      "vidange",
-      "chien",
-      "parking",
-      "poubelles"
+      "parking"
     ],
     "liens": [
       {
-        "libelle": "Chercher sur park4night",
-        "url": "https://park4night.com/fr/search?q=Ortisei"
+        "libelle": "Fiche Parking Setil : adresse, GPS, prix, ouverture",
+        "url": "https://www.val-gardena.com/en/addresses/detail/base/poi/ortisei-val-gardena/parking-setil/86A378B5EE944362B156724D663E9113/"
+      },
+      {
+        "libelle": "Office de tourisme : nuits en véhicule / tente interdites",
+        "url": "https://www.valgardena.it/en/holidays-dolomites/arrival/with-the-caravan-or-camper/"
+      },
+      {
+        "libelle": "Park4Night : autre parking de jour 4 Promeneda (distinct)",
+        "url": "https://park4night.com/en/place/163505"
       }
-    ],
-    "photos": [
-      {
-        "legende": "Urtijei 2008",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
-        "fichier": "aire-ortisei-1.jpg"
-      },
-      {
-        "legende": "Urtijëi from Bulacia",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
-        "fichier": "aire-ortisei-2.jpg"
-      },
-      {
-        "legende": "Urtijëi dal pas de Pinëi",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
-        "fichier": "aire-ortisei-3.jpg"
-      },
-      {
-        "legende": "Da Rusina ju a Urtijei",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
-        "fichier": "aire-ortisei-4.jpg"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Capela_da_Poz_a_Urtijei_pert_levasuredl.JPG/1280px-Capela_da_Poz_a_Urtijei_pert_levasuredl.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Capela da Poz a Urtijei pert levasuredl",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Dlieja_sacun_Urtij%C3%ABi_Santa_Dorotea.JPG/1280px-Dlieja_sacun_Urtij%C3%ABi_Santa_Dorotea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Dlieja sacun Urtijëi Santa Dorotea",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Pfarrkirche_Sankt_Ulrich_in_Gr%C3%B6den_nachts.jpg/1280px-Pfarrkirche_Sankt_Ulrich_in_Gr%C3%B6den_nachts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Pfarrkirche Sankt Ulrich in Gröden nachts",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Urtij%C3%ABi_ududa_da_Bula_ju.jpg/1280px-Urtij%C3%ABi_ududa_da_Bula_ju.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Urtijëi ududa da Bula ju",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Urtij%C3%ABi_Plajes_Saslonch.jpg/1280px-Urtij%C3%ABi_Plajes_Saslonch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Urtijëi Plajes Saslonch",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ortisei_view_-_June_2016.jpg/1280px-Ortisei_view_-_June_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Ortisei view   June 2016",
-        "credit": "Mx. Granger — Wikimedia Commons, CC0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Gondelbahn_St_ulrich_Urtijei_Furnes_in_Gr%C3%B6den.jpg/960px-Gondelbahn_St_ulrich_Urtijei_Furnes_in_Gr%C3%B6den.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Gondelbahn St ulrich Urtijei Furnes in Gröden",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Trenker_family_grave_-_Urtij%C3%ABi_-_01.jpg/960px-Trenker_family_grave_-_Urtij%C3%ABi_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Trenker family grave Urtijëi 01",
-        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/St._Antony_-_Urtij%C3%ABi_-_14.JPG/960px-St._Antony_-_Urtij%C3%ABi_-_14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "St. Antony Urtijëi 14",
-        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Autere_juebia_dai_Andli_dan_la_dlieja_San_Antone_a_Urtij%C3%ABi.jpg/960px-Autere_juebia_dai_Andli_dan_la_dlieja_San_Antone_a_Urtij%C3%ABi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Autere juebia dai Andli dan la dlieja San Antone a Urtijëi",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Model_de_gips_dl_San_Paul_de_Ludvig_Moroder_Gherd%C3%ABina.jpg/960px-Model_de_gips_dl_San_Paul_de_Ludvig_Moroder_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Model de gips dl San Paul de Ludvig Moroder Gherdëina",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Model_de_ghips_angiul_1_bonam%C3%ABnter_de_Rudolf_Moroder_Gherd%C3%ABina.jpg/960px-Model_de_ghips_angiul_1_bonam%C3%ABnter_de_Rudolf_Moroder_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Model de ghips angiul 1 bonamënter de Rudolf Moroder Gherdëina",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/La_Bruscia_da_Nadel_cun_la_dlieja_de_Sant_Antone_a_Urtijei.jpg/960px-La_Bruscia_da_Nadel_cun_la_dlieja_de_Sant_Antone_a_Urtijei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "La Bruscia da Nadel cun la dlieja de Sant Antone a Urtijei",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Moroder_Wappen_Franz_Haider.jpg/960px-Moroder_Wappen_Franz_Haider.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Moroder Wappen Franz Haider",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Aussicht_auf_St._Ulrich_vom_Puflatschspitz_aus_2022-10-13.jpg/960px-Aussicht_auf_St._Ulrich_vom_Puflatschspitz_aus_2022-10-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Aussicht auf St. Ulrich vom Puflatschspitz aus",
-        "credit": "Strubbl — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Italy_Ortisei_panorama.JPG/960px-Italy_Ortisei_panorama.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Italy Ortisei panorama",
-        "credit": "Pufacz — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Ortisei_paese.jpg/960px-Ortisei_paese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Ortisei paese",
-        "credit": "L3O — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Urtij%C3%ABi_udu_da_Bulacia_te_Gherd%C3%ABina.jpg/960px-Urtij%C3%ABi_udu_da_Bulacia_te_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Urtijëi udu da Bulacia te Gherdëina",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Busc_di_Salvans_s%C3%ABura_Urtij%C3%ABi_Gherd%C3%ABina.jpg/960px-Busc_di_Salvans_s%C3%ABura_Urtij%C3%ABi_Gherd%C3%ABina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Busc di Salvans sëura Urtijëi Gherdëina",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Urtij%C3%ABi_udu_da_Ronc_via.jpg/960px-Urtij%C3%ABi_udu_da_Ronc_via.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Urtijëi udu da Ronc via",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ortisei_-_panoramio.jpg/960px-Ortisei_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Ortisei panoramio",
-        "credit": "József Kovács — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Ortisei_-_panoramio_%283%29.jpg/960px-Ortisei_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Ortisei panoramio (3)",
-        "credit": "Gianni Bassini — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Urtij%C3%ABi_-_Seiser_Alm_aerial_lift_-_gondola.jpg/960px-Urtij%C3%ABi_-_Seiser_Alm_aerial_lift_-_gondola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Urtijëi Seiser Alm aerial lift gondola",
-        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Urtij%C3%ABi_-_Furnes_aerial_lift_-_gondola.jpg/960px-Urtij%C3%ABi_-_Furnes_aerial_lift_-_gondola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Urtijëi Furnes aerial lift gondola",
-        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Urtij%C3%ABi_-_Wooden_bridge.jpg/960px-Urtij%C3%ABi_-_Wooden_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Urtijëi Wooden bridge",
-        "credit": "H. Zell — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ortisei_%28BZ%29_.jpg/960px-Ortisei_%28BZ%29_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Ortisei (BZ)",
-        "credit": "Luciobocchi — Wikimedia Commons, CC BY-SA 3.0"
-      }
-    ],
-    "recherche_photo": "Ortisei"
+    ]
   },
   {
     "id": "station-brennero",
@@ -5770,7 +5609,7 @@
       11.72015
     ],
     "commune": "Santa Maddalena / Funes (BZ)",
-    "resume": "Ferme avec emplacements, chien admis, électricité ; tente de toit à confirmer directement. Base idéale pour les Odle, moins pratique pour les deux autres journées à Val Gardena. Séjour limité à trois nuits selon l’annuaire, devis demandé pour le 10–13 octobre.",
+    "resume": "Ferme avec emplacements, chien admis, électricité ; tente de toit à confirmer directement. Base idéale pour les Odle, moins pratique pour les deux autres journées à Val Gardena. Séjour limité à trois nuits selon l’annuaire, devis demandé pour le 13–16 octobre.",
     "prix": {
       "type": "payant",
       "montant": 42,
@@ -5784,7 +5623,7 @@
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Réponse à la demande 10–13 octobre attendue ; accueil d’une voiture avec tente de toit non confirmé."
+      "note": "Réponse à la demande 13–16 octobre attendue ; accueil d’une voiture avec tente de toit non confirmé."
     },
     "source": "https://www.zumgletscherhons.com/",
     "niveau_prix": "€€",
@@ -5975,6 +5814,341 @@
       {
         "libelle": "Emplacements XL, saison 2026 et avis septembre 2026",
         "url": "https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent"
+      }
+    ]
+  },
+  {
+    "id": "ferme-pinzagen-van-moar",
+    "nom": "Van Moar — pré privé de Pinzagen",
+    "categorie": "agricamper",
+    "gps": [
+      46.70682,
+      11.63914
+    ],
+    "gps_approximatif": true,
+    "commune": "Pinzagen / Pinzago près de Bressanone (position du hameau, terrain privé non localisé)",
+    "resume": "Terrain privé à la ferme, chien et tente de toit annoncés sur Campspace ; dès 30 €/nuit, courant facultatif +5 € selon cette annonce. Une seule place : prix complet, dates et emprise tente ouverte à confirmer. Épingle du hameau seulement, ne pas s'y rendre sans instructions de l'hôte.",
+    "prix": {
+      "type": "payant",
+      "montant": 30,
+      "unite": "nuit, prix d'appel Campspace avant frais, chien et taxes à vérifier",
+      "annee_tarif": 2026,
+      "detail": "Tarif d'appel 30 €/nuit selon Campspace, électricité annoncée +5 €/nuit ; coût à deux avec chien, frais de plateforme et disponibilité non confirmés. Nomady est une autre annonce du même hôte : devis et conditions potentiellement différents."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chien annoncé bienvenu ; les hôtes ont eux-mêmes chien, chat, volailles et bovins. Conditions précises de cohabitation avec Prince à demander."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Séjours demandés / à demander : 13–16, 13–17, 15–18 ou 11–17 octobre selon scénario. Nomady indique arrivée au plus tard 22 h, mais confirmer pour la date choisie."
+    },
+    "acces": "Coordonnées indicatives du hameau, jamais l'entrée du terrain privé. Sol en herbe : confirmer praticabilité après pluie et largeur de la tente ouverte ; exiger les indications de l'hôte avant de partir. Plateformes contradictoires sur la douche : demander directement.",
+    "source": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507",
+    "niveau_prix": "€",
+    "equipements": [
+      "electricite",
+      "chien",
+      "toilettes"
+    ],
+    "liens": [
+      {
+        "libelle": "Campspace — tente de toit, chien et prix d'appel",
+        "url": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507"
+      },
+      {
+        "libelle": "Nomady — même ferme, avis et horaires d'arrivée",
+        "url": "https://nomady.camp/en/cabin/wiesenstellplatz-mit-aussicht-1749"
+      }
+    ]
+  },
+  {
+    "id": "agricamping-pietra-ulivo",
+    "nom": "La Pietra e l’Ulivo — agricamping",
+    "categorie": "agricamper",
+    "gps": [
+      44.14807223,
+      8.27046714
+    ],
+    "commune": "Via Moilastrini 61, Pietra Ligure (SV)",
+    "resume": "Repli ligure pour la nuit d'étape du 12 ou du 14. Annonce Pitchup filtrée tente de toit ; site officiel centré sur camper/caravane : voiture gardée sous tente, Prince, ouverture et tarif à confirmer.",
+    "prix": {
+      "type": "variable",
+      "detail": "Demander prix pour 2 adultes + chien, voiture à tente de toit et électricité si utile ; aucun devis pour octobre 2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Accueil de Prince à confirmer directement."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Disponibilité pour 12–13 ou 14–15 octobre demandée, sans confirmation."
+    },
+    "source": "https://www.lapietraelulivo-agricamping-pietraligure.com/",
+    "liens": [
+      {
+        "libelle": "Agricamping — site officiel",
+        "url": "https://www.lapietraelulivo-agricamping-pietraligure.com/"
+      },
+      {
+        "libelle": "Annonce Pitchup — filtre tente de toit",
+        "url": "https://www.pitchup.com/en-ie/campsites/italy/liguria/savona/pietra-ligure/agricamping-la-pietra-e-lulivo/?facet=roof-tent"
+      }
+    ]
+  },
+  {
+    "id": "camping-gamp-chiusa",
+    "nom": "Camping Gamp — Chiusa",
+    "categorie": "camping",
+    "gps": [
+      46.64125,
+      11.57351667
+    ],
+    "commune": "Griesbruck 10, Chiusa / Klausen (BZ)",
+    "resume": "Repli sur l'axe ouest vers Val di Funes et Bressanone ; chien, voiture à tente de toit, ouverture mi-octobre, disponibilité 13–16 / 13–17 et prix total en attente.",
+    "prix": {
+      "type": "variable",
+      "detail": "Aucun tarif de séjour confirmé pour deux adultes + Prince."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Demander explicitement admission et tarif de Prince."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Question envoyée pour les dates de la base ouest ; pas de place bloquée."
+    },
+    "source": "https://www.ansitzgamp.com/",
+    "liens": [
+      {
+        "libelle": "Gamp — site officiel",
+        "url": "https://www.ansitzgamp.com/"
+      }
+    ]
+  },
+  {
+    "id": "camping-vahrner-see",
+    "nom": "Camping Vahrner See — Varna",
+    "categorie": "camping",
+    "gps": [
+      46.76148,
+      11.63452
+    ],
+    "commune": "Varna / Vahrn (BZ)",
+    "resume": "Repli au nord de Bressanone. Saison annoncée jusqu'au 31 octobre, mais informations contradictoires sur les chiens : ne pas retenir sans réponse écrite. Passage ferroviaire annoncé hauteur 3,10 m, largeur environ 2,65–2,70 m ; véhicule fermé 1,95 m.",
+    "prix": {
+      "type": "variable",
+      "detail": "Prix total deux adultes + Prince à obtenir ; une fiche ADAC affiche 2 € pour chien mais la FAQ du camping dit aussi que les animaux ne sont pas admis."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Contradiction entre fiche ADAC (chiens admis) et FAQ officielle (animaux refusés) : confirmation écrite indispensable."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Saison affichée avril–31 octobre dans une fiche ; vérifier dates et disponibilité du séjour."
+    },
+    "acces": "Vérifier le gabarit réel : passage sous voie ferrée annoncé à 3,10 m de haut et 2,65 à 2,70 m de large. Mesurer aussi la largeur de la voiture avec rétroviseurs.",
+    "source": "https://www.vahrnersee.com/",
+    "liens": [
+      {
+        "libelle": "Camping Vahrner See — site officiel",
+        "url": "https://www.vahrnersee.com/"
+      },
+      {
+        "libelle": "Fiche ADAC — saison, prix chien et accès",
+        "url": "https://www.pincamp.de/campingplaetze/camping-zum-vahrner-see"
+      }
+    ]
+  },
+  {
+    "id": "courses-eurospar-bressanone",
+    "nom": "Eurospar Bressanone — courses ouest",
+    "categorie": "supermarche",
+    "gps": [
+      46.72292,
+      11.65445
+    ],
+    "commune": "Via Brennero 21/a, Bressanone (BZ)",
+    "resume": "Grandes courses pour plusieurs nuits à l'ouest : lundi–samedi 08 h–19 h 30, dimanche 09 h–19 h 30 selon magasin. Despar : chien uniquement en sac/caisse, sinon achat à tour de rôle. Vérifier hauteur du parking sur place.",
+    "prix": {
+      "type": "variable",
+      "unite": "courses"
+    },
+    "chien": {
+      "admis": null,
+      "note": "Politique Despar : uniquement dans un sac ou une caisse ; si Prince n'y tient pas, un adulte attend dehors avec lui."
+    },
+    "source": "https://www.despar.it/it/punto-vendita-eurospar/93/bressanone/",
+    "liens": [
+      {
+        "libelle": "Eurospar — horaires",
+        "url": "https://www.despar.it/it/punto-vendita-eurospar/93/bressanone/"
+      },
+      {
+        "libelle": "Despar — FAQ animaux",
+        "url": "https://www.despar.it/it/contatti/"
+      }
+    ]
+  },
+  {
+    "id": "courses-despar-la-villa",
+    "nom": "Despar La Villa — provisions Alta Badia",
+    "categorie": "supermarche",
+    "gps": [
+      46.587057,
+      11.9055128
+    ],
+    "commune": "Strada Boscdaplan 107, La Villa (BZ)",
+    "resume": "Arrêt possible sur le trajet vers San Cassiano : lundi–samedi 08 h–19 h 30, dimanche 08 h 30–19 h 30 selon magasin. Corvara est actuellement indiqué fermé sept jours sur sept : prévoir ici plutôt. Chien en sac/caisse uniquement.",
+    "prix": {
+      "type": "variable",
+      "unite": "courses"
+    },
+    "chien": {
+      "admis": null,
+      "note": "Despar : sac ou caisse requis ; un adulte peut attendre dehors avec Prince."
+    },
+    "source": "https://www.despar.it/it/punto-vendita-despar/21/la-villa/",
+    "liens": [
+      {
+        "libelle": "Despar La Villa — horaires",
+        "url": "https://www.despar.it/it/punto-vendita-despar/21/la-villa/"
+      },
+      {
+        "libelle": "Despar Corvara — vérifier réouverture avant tout détour",
+        "url": "https://www.despar.it/it/punto-vendita-despar/754/corvara/"
+      }
+    ]
+  },
+  {
+    "id": "courses-despar-dobbiaco",
+    "nom": "Despar Dobbiaco — courses base est",
+    "categorie": "supermarche",
+    "gps": [
+      46.73355,
+      12.22312
+    ],
+    "commune": "St. Johannesstrasse 2, Dobbiaco (BZ)",
+    "resume": "Lundi–samedi 08 h 30–12 h 30 et 15 h 30–19 h 30, dimanche fermé selon magasin. Pour l'arrivée du dimanche 18, acheter avant ; chien en sac/caisse ou courses à tour de rôle.",
+    "prix": {
+      "type": "variable",
+      "unite": "courses"
+    },
+    "chien": {
+      "admis": null,
+      "note": "Despar : uniquement en sac ou caisse ; vérifier les modalités sur place."
+    },
+    "source": "https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/",
+    "liens": [
+      {
+        "libelle": "Despar Dobbiaco — horaires",
+        "url": "https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/"
+      }
+    ]
+  },
+  {
+    "id": "courses-conad-dobbiaco",
+    "nom": "Conad City Dobbiaco — repli courses",
+    "categorie": "supermarche",
+    "gps": [
+      46.735375,
+      12.222278
+    ],
+    "gps_approximatif": true,
+    "commune": "Piazza Parrocchia 1, Dobbiaco (BZ) — épingle indicative du centre",
+    "resume": "Magasin du centre ouvert lundi–samedi 08 h–19 h selon la fiche ; dimanche non indiqué. Fiche sans preuve d'entrée des chiens : courses à tour de rôle. L'épingle correspond au centre de Dobbiaco, consulter l'adresse officielle pour l'itinéraire.",
+    "prix": {
+      "type": "variable",
+      "unite": "courses"
+    },
+    "chien": {
+      "admis": null,
+      "note": "Aucune admission des chiens indiquée sur la fiche Conad de ce magasin."
+    },
+    "source": "https://www.conad.it/ricerca-negozi/conad-city-piazza-parrocchia-1-39034-dobbiaco--010691",
+    "liens": [
+      {
+        "libelle": "Conad — adresse, services et horaires",
+        "url": "https://www.conad.it/ricerca-negozi/conad-city-piazza-parrocchia-1-39034-dobbiaco--010691"
+      }
+    ]
+  },
+  {
+    "id": "courses-conad-bressanone",
+    "nom": "Conad Via Dante — Bressanone",
+    "categorie": "supermarche",
+    "gps": [
+      46.721,
+      11.648
+    ],
+    "gps_approximatif": true,
+    "commune": "Via Dante 26, Bressanone (BZ), épingle de rue indicative",
+    "resume": "Alternative au Eurospar : lundi–vendredi 07 h 30–19 h 30, samedi 08 h–19 h 30 selon fiche ; parking extérieur mentionné, accès des chiens non confirmé. Naviguer vers l’adresse officielle, pas vers l’épingle indicative.",
+    "prix": {
+      "type": "variable",
+      "unite": "courses"
+    },
+    "chien": {
+      "admis": null,
+      "note": "La fiche Conad ne mentionne pas l’admission des chiens : se relayer pour les courses."
+    },
+    "source": "https://www.conad.it/ricerca-negozi/conad-via-dante-26-39042-bressanone--009867",
+    "liens": [
+      {
+        "libelle": "Conad Bressanone — adresse et horaires",
+        "url": "https://www.conad.it/ricerca-negozi/conad-via-dante-26-39042-bressanone--009867"
+      }
+    ]
+  },
+  {
+    "id": "aire-pontives",
+    "nom": "Pontives — aire de camping-cars, tente de toit refusée",
+    "categorie": "aire",
+    "gps": [
+      46.58616,
+      11.6339
+    ],
+    "commune": "Hotel Restaurant Pontives, Pontives 36, 39046 Ortisei (adresse officielle), à 3 km du centre",
+    "nuit_possible": false,
+    "resume": "Véritable aire gérée par l’hôtel, sur pré au bord de la route, avec eau, courant et arrêt de bus. Mais deux avis Park4Night de juillet 2026 relatent un refus explicite de voitures avec tente de toit. Ne pas retenir comme nuitée pour notre voiture sans accord écrit contraire.",
+    "prix": {
+      "type": "variable",
+      "detail": "Annuaire CamperOnLine affiche encore 25 €/nuit, mais de nombreux avis 2026 indiquent 35 €/nuit pour 2 personnes en camping-car. Minimum de deux nuits ou 70 € même pour une seule nuit signalés en septembre 2026 ; 70 €/nuit ont été demandés pour une voiture avec tente de toit selon deux avis de septembre 2025. Aucun devis valable pour une tente de toit en octobre 2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Un annuaire coche « animaux admis » pour l’aire camping-car, mais accueil de Prince avec voiture et tente non confirmé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Park4Night annonce 1er avril–1er novembre ; l’hôtel affiche une activité saisonnière. Horaires d’arrivée/de départ et disponibilité en octobre non publiés pour l’aire. Avis septembre 2026 : aire complète vers 16–17 h et réservation téléphonique non garantie."
+    },
+    "acces": "Adresse de l’exploitant : Pontives 36 ; Park4Night indique 33 Pontives pour le même point. GPS du pré fourni par CamperOnLine. Arrêt de bus à environ 100 m pour Ortisei ; pré parfois humide ou incliné, bruit de route. Électricité à une seule borne centrale selon avis de juin 2026, rallonge nécessaire selon emplacement. Toilettes de l’hôtel selon ses heures d’ouverture ; douche absente ou disponibilité contradictoire dans les avis. Ne pas se présenter sans confirmation expresse tente de toit + chien + prix + durée minimale.",
+    "source": "https://www.pontives.com/en/",
+    "equipements": [
+      "electricite",
+      "eau",
+      "vidange",
+      "toilettes",
+      "restaurant"
+    ],
+    "liens": [
+      {
+        "libelle": "Hôtel Pontives : exploitant, coordonnées et contact",
+        "url": "https://www.pontives.com/en/"
+      },
+      {
+        "libelle": "Park4Night Pontives #70563 : tarifs et refus tentes de toit",
+        "url": "https://park4night.com/en/place/70563"
+      },
+      {
+        "libelle": "CamperOnLine : adresse, équipements et avis juin 2026",
+        "url": "https://www.camperonline.it/sosta-camper/aree-di-sosta/italia/trentino-alto-adige/gasthof-pontives/23185"
+      },
+      {
+        "libelle": "Office de tourisme : règles du Val Gardena",
+        "url": "https://www.valgardena.it/en/holidays-dolomites/arrival/with-the-caravan-or-camper/"
       }
     ]
   }

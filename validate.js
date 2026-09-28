@@ -82,6 +82,7 @@ const vehicule = lire('commun/vehicule.json');
 const carburant = lire('commun/carburant.json');
 const randonnees = lire('commun/randonnees.json');
 const decouvertes = lire('commun/decouvertes.json');
+const pratique = lire('commun/pratique.json');
 
 for (const [rel, obj] of [
   ['scenarios.json', scenarios], ['commun/lieux.json', lieux],
@@ -90,6 +91,7 @@ for (const [rel, obj] of [
   ['commun/vehicule.json', vehicule], ['commun/carburant.json', carburant],
   ['commun/randonnees.json', randonnees],
   ['commun/decouvertes.json', decouvertes],
+  ['commun/pratique.json', pratique],
 ]) {
   if (obj) chasserDonneesPerso(rel, obj, '');
 }
@@ -152,6 +154,29 @@ if (Array.isArray(lieux) && categories) {
   const utilisees = new Set(lieux.map(l => l && l.categorie).filter(Boolean));
   for (const c of utilisees) {
     if (!declarees.has(c)) warn('commun/categories.json', `catégorie « ${c} » utilisée mais non déclarée : elle s'affichera en gris`);
+  }
+}
+
+/* Les listes visibles dans la section pratique doivent être cohérentes avec la carte.
+   Tous les magasins et toutes les nuits programmées doivent y apparaître. */
+const pratiques = new Set();
+if (pratique && Array.isArray(lieux)) {
+  const parId = new Map(lieux.map(l => [l.id, l]));
+  for (const [cle, attendue] of [['groupes_hebergement', ['camping', 'agricamper', 'aire', 'parking']], ['groupes_courses', ['supermarche']]]) {
+    if (!Array.isArray(pratique[cle])) { err('commun/pratique.json', `${cle} : liste absente`); continue; }
+    for (const g of pratique[cle]) {
+      if (!g.titre || !Array.isArray(g.lieux)) { err('commun/pratique.json', `groupe ${cle} incomplet`); continue; }
+      for (const id of g.lieux) {
+        const l = parId.get(id);
+        if (!l) err('commun/pratique.json', `« ${id} » : lieu inexistant`);
+        else if (!attendue.includes(l.categorie)) err('commun/pratique.json', `« ${id} » : catégorie inattendue pour ${cle}`);
+        if (pratiques.has(id)) err('commun/pratique.json', `« ${id} » apparaît dans deux groupes`);
+        pratiques.add(id);
+      }
+    }
+  }
+  for (const l of lieux.filter(l => l.categorie === 'supermarche')) {
+    if (!pratiques.has(l.id)) err('commun/pratique.json', `magasin « ${l.id} » absent de la section pratique`);
   }
 }
 
@@ -298,6 +323,7 @@ if (scenarios && Array.isArray(scenarios.scenarios)) {
         else jours.add(j.jour);
         if (!/^\d{4}-\d{2}-\d{2}$/.test(j.date || '')) err(ou2, `jour ${j.jour} : date attendue au format AAAA-MM-JJ`);
         if (j.nuit && !ids.has(j.nuit)) err(ou2, `jour ${j.jour} : lieu de nuit « ${j.nuit} » introuvable`);
+        if (j.nuit && pratique && !pratiques.has(j.nuit)) err(ou2, `jour ${j.jour} : nuit « ${j.nuit} » absente de la section pratique`);
         (j.activites || []).forEach(a => {
           if (!a.lieu) err(ou2, `jour ${j.jour} : une activité sans lieu`);
           else if (!ids.has(a.lieu)) err(ou2, `jour ${j.jour} : lieu « ${a.lieu} » introuvable dans commun/lieux.json`);
