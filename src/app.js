@@ -1392,30 +1392,14 @@
       }
       principal.appendChild(bloc('Nuit', dn));
 
-      /* Courses : magasins listés à moins de 25 km de la nuit. */
-      var courses = [];
-      (pr.groupes_courses || []).forEach(function (g) {
-        (g.lieux || []).forEach(function (id) {
-          var l = E.parId.get(id);
-          if (l && courses.indexOf(l) === -1 && distanceKm(l.gps, n.gps) < 25) courses.push(l);
-        });
-      });
-      if (courses.length) {
-        var dc = el('div', 'puces');
-        courses.forEach(function (l) {
-          var b = el('button', 'puce', l.nom);
-          b.type = 'button';
-          b.addEventListener('click', function () { ouvrirPanneau(l.id, { retour: j.jour }); });
-          dc.appendChild(b);
-        });
-        principal.appendChild(bloc('Courses à proximité', dc));
-      }
     }
 
     /* Données en direct : routes, carburant, webcams. Absentes hors ligne : bloc masqué ou message. */
     dessinerRoutesEtape(j, principal);
     dessinerCarburantEtape(j, principal);
     dessinerWebcamsEtape(j, principal);
+
+    dessinerRavitaillementEtape(j, principal);
 
     /* Randonnées et adresses de la zone : repliées, pour ne pas noyer la journée. */
     var nbRandos = randosPourJour(j).reduce(function (s, g) { return s + (g.randos || []).length; }, 0);
@@ -1449,6 +1433,45 @@
     if (location.hash !== '#jour-' + j.jour) history.pushState({ jour: j.jour }, '', '#jour-' + j.jour);
     document.getElementById('panneau-fermer').focus();
     corps.scrollTop = 0;
+  }
+
+  /* Plan de ravitaillement du jour (config/commun/ravitaillement.json) : conseil,
+     magasins avec l'horaire du jour et l'accueil du chien, pleins conseillés, eau, laverie.
+     Sans plan pour ce jour, repli sur les magasins à moins de 25 km de la nuit. */
+  function dessinerRavitaillementEtape(j, conteneur) {
+    var plan = E.ravitaillement && E.ravitaillement.scenarios && (E.ravitaillement.scenarios[E.scenarioId] || {})[String(j.jour)];
+    var d = el('div', 'ravito');
+    function bouton(ref) {
+      var l = E.parId.get(ref.lieu);
+      if (!l) return null;
+      var b = el('button', 'programme__item');
+      b.type = 'button';
+      var t = el('span', 'programme__corps');
+      var chien = l.chien && l.chien.admis === true ? ' · chien admis' : (l.chien && l.chien.admis === false ? ' · sans chien' : '');
+      t.appendChild(el('span', 'jour__lieu', l.nom));
+      t.appendChild(el('span', 'programme__prix', (ref.note || l.resume || '') + chien));
+      b.appendChild(t);
+      b.addEventListener('click', function () { ouvrirPanneau(l.id, { retour: j.jour }); });
+      return b;
+    }
+    if (plan) {
+      if (plan.conseil) d.appendChild(el('p', null, plan.conseil));
+      var mg = (plan.magasins || []).map(bouton).filter(Boolean);
+      if (mg.length) { d.appendChild(el('p', 'regle-etape__titre', 'Magasins')); mg.forEach(function (b) { d.appendChild(b); }); }
+      var stt = (plan.stations || []).map(bouton).filter(Boolean);
+      if (stt.length) { d.appendChild(el('p', 'regle-etape__titre', 'Pleins conseillés')); stt.forEach(function (b) { d.appendChild(b); }); }
+      var autres = [];
+      (plan.eau || []).forEach(function (x) { autres.push({ libelle: 'Eau potable', valeur: [x.nom, x.adresse, x.note].filter(Boolean).join(' · ') }); });
+      (plan.laverie || []).forEach(function (x) { autres.push({ libelle: 'Laverie', valeur: [x.nom, x.adresse, texteListe(x.horaires), x.prix, x.note].filter(Boolean).join(' · ') }); });
+      if (plan.douche) autres.push({ libelle: 'Douche', valeur: plan.douche });
+      if (autres.length) d.appendChild(tableauCle(autres));
+    } else if (j.nuit) {
+      var n = resoudre(j.nuit);
+      (E.lieux || []).filter(function (l) { return l.categorie === 'courses' && distanceKm(l.gps, n.gps) < 25; }).forEach(function (l) {
+        var b = bouton({ lieu: l.id }); if (b) d.appendChild(b);
+      });
+    }
+    if (d.childNodes.length) conteneur.appendChild(bloc('Ravitaillement', d));
   }
 
   /* ---------- Météo, budget et règles d'une étape ---------- */
@@ -2557,7 +2580,8 @@
       lire('commun/peages.json'),
       lireOptionnel('commun/carburant-live.json'),
       lireOptionnel('commun/routes-live.json'),
-      lireOptionnel('commun/webcams.json')
+      lireOptionnel('commun/webcams.json'),
+      lireOptionnel('commun/ravitaillement.json')
     ]).then(function (r) {
       E.scenarios = r[0] || { scenarios: [] };
       E.lieux = r[1] || [];
@@ -2573,6 +2597,7 @@
       E.carbuLive = r[12];
       E.routesLive = r[13];
       E.webcams = r[14];
+      E.ravitaillement = r[15];
       E.prixFranceDirect = {};
       chargerChoix();
 

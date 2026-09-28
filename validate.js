@@ -82,6 +82,7 @@ const vehicule = lire('commun/vehicule.json');
 const carburant = lire('commun/carburant.json');
 const randonnees = lire('commun/randonnees.json');
 const decouvertes = lire('commun/decouvertes.json');
+const ravitaillement = fs.existsSync(path.join(__dirname, 'config/commun/ravitaillement.json')) ? lire('commun/ravitaillement.json') : null;
 const pratique = lire('commun/pratique.json');
 const peages = lire('commun/peages.json');
 
@@ -92,6 +93,7 @@ for (const [rel, obj] of [
   ['commun/vehicule.json', vehicule], ['commun/carburant.json', carburant],
   ['commun/randonnees.json', randonnees],
   ['commun/decouvertes.json', decouvertes],
+  ['commun/ravitaillement.json', ravitaillement],
   ['commun/pratique.json', pratique],
   ['commun/peages.json', peages],
 ]) {

@@ -13661,5 +13661,2849 @@
       "url": "https://www.pontives.com/en/"
     },
     "description": "Pré au bord de la route du Val Gardena, derrière l'Hotel Restaurant Pontives, avec eau, électricité (une borne centrale) et toilettes du restaurant ; arrêt de bus à environ 100 m vers Ortisei. Le site de l'hôtel ne mentionne pas l'aire, et l'office de tourisme du Val Gardena écrit qu'il n'existe aucun camping dans la vallée et que dormir dans son véhicule ou sous tente y est interdit. Tentes de toit refusées : « Rooftop tent is not allowed for whatever reason » (30/07/2026) et « Vi kunne ikke komme ind fordi vi havde tag telt på bilen » (09/07/2026). En septembre 2026, les avis citent 35 €/nuit avec ticket de bus, un minimum de deux nuits (70 €), des places prises avant 16 h et un accueil jugé hostile par plusieurs voyageurs. Aucune règle publiée pour les chiens des clients."
+  },
+  {
+    "id": "courses-conad-loano",
+    "nom": "Conad Via Aurelia 88 — Loano",
+    "categorie": "courses",
+    "gps": [
+      44.134383,
+      8.262582
+    ],
+    "commune": "17025 Loano (SV)",
+    "adresse": "Via Aurelia 88, 17025 Loano (SV)",
+    "resume": "Chiens admis (fiche officielle). Dimanche : 9h00–20h00.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "9h00–20h00"
+      }
+    ],
+    "chien": {
+      "admis": true,
+      "note": "« Accesso animali consentito » et « Carrelli per animali » sur la fiche officielle du magasin. Les chariots Conad visent les petits chiens : pour Prince (20–25 kg) en laisse, demander à l'accueil en entrant ; Conad ne publie aucune limite de taille."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Parking extérieur déclaré (« Parcheggio scoperto ») : pas de plafond, 1,95 m sans souci. Gratuité non publiée."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "Sur l'Aurelia (SS1), à ≈ 8 km à l'ouest du camping Tahiti ; sur la route du jour 1 avant Finale et du retour."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Conad — fiche officielle",
+        "url": "https://www.conad.it/ricerca-negozi/conad-via-aurelia-88-17025-loano--010309"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle (horaires, « Accesso animali consentito », « Carrelli per animali », parking extérieur)",
+          "url": "https://www.conad.it/ricerca-negozi/conad-via-aurelia-88-17025-loano--010309"
+        },
+        {
+          "libelle": "OpenStreetMap — supermarché Conad, Via Aurelia, Loano (même emplacement)",
+          "url": "https://www.openstreetmap.org/way/202169317"
+        },
+        {
+          "libelle": "Dissapore — Conad : chariots pour chiens pensés pour les petits chiens",
+          "url": "https://www.dissapore.com/notizie/conad-cani-nei-carrelli/"
+        }
+      ],
+      "doutes": "OSM numérote ce magasin « Via Aurelia 408 » alors que Conad publie « Via Aurelia 88 » avec ces coordonnées ; l'autre Conad City (fiche Conad « Via Aurelia 408 ») est à 44,1220 / 8,2516. La position Conad fait foi. Gratuité du parking non publiée. Horaires d'octobre non distingués sur la fiche (horaires courants au 28/09/2026)."
+    }
+  },
+  {
+    "id": "courses-conad-city-loano",
+    "nom": "Conad City Via Aurelia 408 — Loano",
+    "categorie": "courses",
+    "gps": [
+      44.122,
+      8.251615
+    ],
+    "commune": "17025 Loano (SV)",
+    "adresse": "Via Aurelia 408, 17025 Loano (SV)",
+    "resume": "Chiens admis (fiche officielle). Dimanche : 8h00–13h00 et 16h30–20h00.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "8h00–13h00 et 16h30–20h00"
+      }
+    ],
+    "chien": {
+      "admis": true,
+      "note": "« Accesso animali consentito » et « Carrelli per animali » sur la fiche officielle ; même réserve de taille que les autres Conad."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Aucun parking déclaré sur la fiche Conad : stationnement de rue sur l'Aurelia."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "Aurelia, sortie ouest de Loano, ≈ 10 km du camping Tahiti."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Conad — fiche officielle",
+        "url": "https://www.conad.it/ricerca-negozi/conad-city-via-aurelia-408-17025-loano--001238"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle Conad City Via Aurelia 408",
+          "url": "https://www.conad.it/ricerca-negozi/conad-city-via-aurelia-408-17025-loano--001238"
+        },
+        {
+          "libelle": "OpenStreetMap — Conad Via Aurelia, Loano",
+          "url": "https://www.openstreetmap.org/way/202169317"
+        }
+      ],
+      "doutes": "Pas de parking déclaré ; préférer le Conad Via Aurelia 88."
+    }
+  },
+  {
+    "id": "courses-coop-finale",
+    "nom": "Coop Finale Ligure",
+    "categorie": "courses",
+    "gps": [
+      44.17143,
+      8.33471
+    ],
+    "commune": "17024 Finale Ligure (SV)",
+    "adresse": "Via Dante Alighieri 7, 17024 Finale Ligure (SV)",
+    "resume": "Chien non admis : courses à tour de rôle. Dimanche : 8h00–21h00.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "8h00–21h00"
+      }
+    ],
+    "chien": {
+      "admis": false,
+      "note": "Coop Liguria n'admet que les chiens de petite taille, dans les chariots à caisse intégrée (depuis juillet 2023) : Prince (20–25 kg) n'entre pas."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Non vérifié."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "1,3 km du camping Tahiti."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Gazzetta della Spezia (01/07/2023) — fiche officielle",
+        "url": "https://gazzettadellaspezia.com/cronaca/item/144963-coop-liguria-adesso-e-possibile-fare-la-spesa-insieme-al-proprio-animale"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Gazzetta della Spezia (01/07/2023) — Coop Liguria : accès aux chiens de petite taille",
+          "url": "https://gazzettadellaspezia.com/cronaca/item/144963-coop-liguria-adesso-e-possibile-fare-la-spesa-insieme-al-proprio-animale"
+        },
+        {
+          "libelle": "Coop Liguria (Facebook, 06/07/2023) — chariots avec caisse intégrée dans tous les magasins",
+          "url": "https://www.facebook.com/CoopLiguria/posts/663172385850430/"
+        },
+        {
+          "libelle": "OpenStreetMap — Coop Via Dante Alighieri 7 (Mo-Su 08:00-21:00)",
+          "url": "https://www.openstreetmap.org/way/202596894"
+        }
+      ],
+      "doutes": "Horaires seulement relevés sur OSM (une source) : à confirmer sur coop.it. Parking non vérifié."
+    }
+  },
+  {
+    "id": "courses-conad-acqui",
+    "nom": "Conad Via Romita 90 — Acqui Terme",
+    "categorie": "courses",
+    "gps": [
+      44.668508,
+      8.470918
+    ],
+    "commune": "15011 Acqui Terme (AL)",
+    "adresse": "Via Giuseppe Romita 90, 15011 Acqui Terme (AL)",
+    "resume": "Chiens admis (fiche officielle). Dimanche : 8h30–13h00 et 16h00–20h00.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "8h30–13h00 et 16h00–20h00"
+      }
+    ],
+    "chien": {
+      "admis": true,
+      "note": "« Accesso animali consentito » + « Carrelli per animali » sur la fiche officielle. Même réserve : chariots pensés pour petits chiens, demander à l'accueil pour Prince en laisse."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Extérieur et couvert déclarés ; hauteur du couvert non publiée : rester en extérieur."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "Sur la route du jour 2 (km ≈ 60 depuis Finale) et du retour ; station Eni à 2,19 € Via Circonvallazione 15 à Acqui."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Conad — fiche officielle",
+        "url": "https://www.conad.it/ricerca-negozi/conad-via-romita-90-15011-acqui-terme--009131"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle Via Romita 90 (services, horaires)",
+          "url": "https://www.conad.it/ricerca-negozi/conad-via-romita-90-15011-acqui-terme--009131"
+        },
+        {
+          "libelle": "OpenStreetMap — Conad Via Giuseppe Romita 90 (Su 09:00-13:00,16:00-20:00)",
+          "url": "https://www.openstreetmap.org/way/372459478"
+        },
+        {
+          "libelle": "Dissapore — Conad : chariots pour chiens pensés pour les petits chiens",
+          "url": "https://www.dissapore.com/notizie/conad-cani-nei-carrelli/"
+        }
+      ],
+      "doutes": "Dimanche : Conad publie 8h30–13h00, OSM 9h00–13h00 ; la fiche Conad fait foi (source exploitant, relue le 28/09/2026)."
+    }
+  },
+  {
+    "id": "courses-lidl-varna",
+    "nom": "Lidl Varna / Vahrn",
+    "categorie": "courses",
+    "gps": [
+      46.73251,
+      11.64942
+    ],
+    "commune": "39040 Varna (BZ)",
+    "adresse": "Via Brennero 35, 39040 Varna (BZ)",
+    "resume": "Chien non admis : courses à tour de rôle. Dimanche : 8h00–20h00.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–21h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "8h00–20h00"
+      }
+    ],
+    "chien": {
+      "admis": false,
+      "note": "Lidl Italia interdit les chiens sauf chiens guides : un adulte reste dehors avec Prince."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Parking du magasin déclaré (« Parcheggio »), extérieur."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "300 m du camping Löwenhof : le moins cher et le plus tardif de la base ouest, ouvert le dimanche."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Lidl Italia — fiche officielle",
+        "url": "https://www.lidl.it/s/it-IT/ricerca-negozio/varna-bz/via-brennero-35/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Lidl Italia — fiche officielle Via Brennero 35 (horaires semaine du 29/09 au 04/10/2026)",
+          "url": "https://www.lidl.it/s/it-IT/ricerca-negozio/varna-bz/via-brennero-35/"
+        },
+        {
+          "libelle": "OpenStreetMap — Lidl Varna (Mo-Sa 08:00-21:00; Su 08:00-20:00)",
+          "url": "https://www.openstreetmap.org/node/1929305059"
+        },
+        {
+          "libelle": "Cagliari Live Magazine (16/09/2025) — Lidl Italia maintient l'interdiction des chiens sauf chiens guides",
+          "url": "https://www.cagliarilivemagazine.it/lidl-vieta-i-cani-nei-supermercati-norme-ue-alternative-e-paradossi"
+        }
+      ],
+      "doutes": "Horaires d'octobre pas encore publiés (la fiche montre la semaine en cours)."
+    }
+  },
+  {
+    "id": "courses-conad-city-varna",
+    "nom": "Conad City Varna / Vahrn",
+    "categorie": "courses",
+    "gps": [
+      46.7286075,
+      11.65162
+    ],
+    "commune": "39040 Varna (BZ)",
+    "adresse": "Via Brennero 11, 39040 Varna (BZ)",
+    "resume": "Chien non admis : courses à tour de rôle. Dimanche : 10h00–18h00.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–19h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "10h00–18h00"
+      }
+    ],
+    "chien": {
+      "admis": false,
+      "note": "Aucune admission des animaux déclarée sur la fiche (contrairement aux Conad de Ligurie)."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Extérieur (« Parcheggio scoperto »)."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "700 m du camping Löwenhof."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Conad — fiche officielle",
+        "url": "https://www.conad.it/ricerca-negozi/conad-city-via-brennero-11-39040-varna--009544"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle Via Brennero 11",
+          "url": "https://www.conad.it/ricerca-negozi/conad-city-via-brennero-11-39040-varna--009544"
+        },
+        {
+          "libelle": "OpenStreetMap — Conad City Via Brennero 11 (Su 10:00-18:00)",
+          "url": "https://www.openstreetmap.org/node/5284468309"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "courses-conad-city-corvara",
+    "nom": "Conad City Corvara",
+    "categorie": "courses",
+    "gps": [
+      46.54708,
+      11.875808
+    ],
+    "commune": "39033 Corvara in Badia (BZ)",
+    "adresse": "Strada Col Alt 97, 39033 Corvara in Badia (BZ)",
+    "resume": "Chien non admis : courses à tour de rôle. Dimanche : 9h00–19h00.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–19h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "9h00–19h00"
+      }
+    ],
+    "chien": {
+      "admis": false,
+      "note": "Aucune admission des animaux déclarée."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Extérieur (« Parcheggio scoperto »)."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "Sur la route du Passo Gardena → Alta Badia, ≈ 8 km du camping Sass Dlacia."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Conad — fiche officielle",
+        "url": "https://www.conad.it/ricerca-negozi/conad-city-strada-col-alt-97-39033-corvara-in-badia--006705"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle Strada Col Alt 97",
+          "url": "https://www.conad.it/ricerca-negozi/conad-city-strada-col-alt-97-39033-corvara-in-badia--006705"
+        },
+        {
+          "libelle": "OpenStreetMap — Conad Strada Col Alt 97",
+          "url": "https://www.openstreetmap.org/node/1623822128"
+        }
+      ],
+      "doutes": "OSM indique une coupure de midi et le dimanche fermé ; la fiche Conad (continu, dimanche 9h–19h) fait foi mais les horaires d'intersaison peuvent changer : vérifier la veille."
+    }
+  },
+  {
+    "id": "courses-conad-city-cortina",
+    "nom": "Conad City Cortina d'Ampezzo",
+    "categorie": "courses",
+    "gps": [
+      46.5369,
+      12.1405
+    ],
+    "commune": "32043 Cortina d'Ampezzo (BL)",
+    "adresse": "Via Barone Franchetti 1, 32043 Cortina d'Ampezzo (BL)",
+    "resume": "Chien non admis : courses à tour de rôle. Dimanche : 8h00–20h00.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h00–20h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "8h00–20h00"
+      }
+    ],
+    "chien": {
+      "admis": false,
+      "note": "Aucune admission des animaux déclarée."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Extérieur déclaré (« Parcheggio scoperto »)."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "Sur la route Alta Badia → Misurina → Dobbiaco ; seul grand magasin de l'itinéraire ouvert le dimanche 18/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Conad — fiche officielle",
+        "url": "https://www.conad.it/ricerca-negozi/conad-city-via-barone-franchetti-1-32043-cortina-dampezzo--010378"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Conad — fiche officielle Via Barone Franchetti 1 (7 j/7 8h–20h)",
+          "url": "https://www.conad.it/ricerca-negozi/conad-city-via-barone-franchetti-1-32043-cortina-dampezzo--010378"
+        },
+        {
+          "libelle": "OpenStreetMap / Nominatim — Conad city, Via Carlo Franchetti 1",
+          "url": "https://www.openstreetmap.org/node/289485917"
+        }
+      ],
+      "doutes": "Gratuité du parking non publiée (centre de Cortina souvent payant)."
+    }
+  },
+  {
+    "id": "courses-coop-cortina",
+    "nom": "La Cooperativa di Cortina",
+    "categorie": "courses",
+    "gps": [
+      46.536796,
+      12.138567
+    ],
+    "commune": "32043 Cortina d'Ampezzo (BL)",
+    "adresse": "Corso Italia 40, 32043 Cortina d'Ampezzo (BL)",
+    "resume": "Chiens admis (fiche officielle). Dimanche : fermé.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h30–19h30 (supermarché, continu)"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h30–19h30 (supermarché, continu)"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h30–19h30 (supermarché, continu)"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h30–19h30 (supermarché, continu)"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h30–19h30 (supermarché, continu)"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h30–19h30 (supermarché, continu)"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé"
+      }
+    ],
+    "chien": {
+      "admis": true,
+      "note": "Politique officielle : chiens « ben accetti » dans le grand magasin, mais seulement les petits dans le supermarché (chariots dédiés). Prince peut entrer dans les étages non alimentaires, pas au rayon alimentaire."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Non publié ; centre piéton de Cortina."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "Sur la route du transfert vers Dobbiaco (Cortina)."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Cooperativa di Cortina — fiche officielle",
+        "url": "https://www.coopcortina.com/it/info-header/cooperativa-di-cortina-orari/22-0.html"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Cooperativa di Cortina — horaires officiels (supermarché 8h30–19h30, dimanche et fériés fermé)",
+          "url": "https://www.coopcortina.com/it/info-header/cooperativa-di-cortina-orari/22-0.html"
+        },
+        {
+          "libelle": "Cooperativa di Cortina — « A Cortina in punta di zampe » (13/08/2022) : chiens bienvenus, petits chiens seulement au supermarché",
+          "url": "https://www.coopcortina.com/it/news-offerte/a-cortina-in-punta-di-zampe/25-2356.html"
+        }
+      ],
+      "doutes": "Page chien de 2022 : politique à reconfirmer sur place. Dimanche fermé."
+    }
+  },
+  {
+    "id": "courses-eurospin-dobbiaco",
+    "nom": "Eurospin Dobbiaco",
+    "categorie": "courses",
+    "gps": [
+      46.73401,
+      12.22317
+    ],
+    "commune": "39034 Dobbiaco",
+    "adresse": "Viale San Giovanni 2A, 39034 Dobbiaco",
+    "resume": "Chien non admis : courses à tour de rôle. Dimanche : fermé.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h30–19h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h30–19h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h30–19h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h30–19h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h30–19h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h30–19h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé"
+      }
+    ],
+    "chien": {
+      "admis": false,
+      "note": "Eurospin tolère au mieux les chiens en sac de transport, selon le magasin : pas pour Prince."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Parking du magasin (gratuit selon la fiche Despar Dobbiaco du dépôt, non revérifié)."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "2,2 km du camping Olympia ; discount le moins cher de la base est."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Eurospin — fiche officielle",
+        "url": "https://www.eurospin.it/punti-vendita/dobbiaco-viale-s-giovanni/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Eurospin — fiche Dobbiaco (8h30–19h, dimanche fermé)",
+          "url": "https://www.eurospin.it/punti-vendita/dobbiaco-viale-s-giovanni/"
+        },
+        {
+          "libelle": "OpenStreetMap — EuroSpin Dobbiaco (Mo-Sa 08:30-19:00)",
+          "url": "https://www.openstreetmap.org/node/1822887863"
+        },
+        {
+          "libelle": "Corriere Roma (27/03/2023) — Eurospin : feu vert dans de nombreux magasins pour les chiens en sac de transport",
+          "url": "https://roma.corriere.it/notizie/cronaca/23_marzo_27/cani-nei-supermercati-il-ministero-della-salute-approva-purche-sia-garantita-la-sicurezza-dei-cibi-beeeff85-3bbf-4d73-8de7-4dd292636xlk.shtml"
+        }
+      ],
+      "doutes": "Fiche Eurospin non relue aujourd'hui (source reprise du dépôt)."
+    }
+  },
+  {
+    "id": "courses-leclerc-le-luc",
+    "nom": "E.Leclerc Le Luc",
+    "categorie": "courses",
+    "gps": [
+      43.38143,
+      6.30265
+    ],
+    "commune": "quartier La Retrache, 83340 Le Luc",
+    "adresse": "Route de Toulon, quartier La Retrache, 83340 Le Luc",
+    "resume": "Chien non admis : courses à tour de rôle. Dimanche : fermé.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h30–20h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h30–20h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h30–20h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h30–20h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h30–20h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h30–20h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé"
+      }
+    ],
+    "chien": {
+      "admis": false,
+      "note": "Refusé. Règlement intérieur Carrefour : « les animaux, à l'exception des chiens guides [...], ne sont pas admis » ; même règle d'hygiène chez Leclerc, Intermarché, Lidl (magasins alimentaires). Seuls les chiens guides ou d'assistance (carte mobilité inclusion) sont admis de droit. Un adulte reste dehors avec Prince."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Grand parking extérieur de centre commercial (gratuit, pas de portique signalé)."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "À 2 km de la RN7 au Luc, à côté des stations TotalEnergies du Luc / Cannet-des-Maures (2,25 €)."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "E.Leclerc — fiche officielle",
+        "url": "https://www.e.leclerc/mag/e-leclerc-le-luc"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "E.Leclerc — page officielle Le Luc (dimanche fermé)",
+          "url": "https://www.e.leclerc/mag/e-leclerc-le-luc"
+        },
+        {
+          "libelle": "OpenStreetMap — E. Leclerc Route de Toulon (indique Su 08:30-13:00)",
+          "url": "https://www.openstreetmap.org/way/176352361"
+        },
+        {
+          "libelle": "Wamiz — règlement intérieur Carrefour : animaux non admis sauf chiens guides",
+          "url": "https://wamiz.com/chiens/conseils/179791/est-ce-que-je-peux-aller-faire-mes-courses-a-carrefour-avec-mon-chien"
+        },
+        {
+          "libelle": "Service-public.gouv.fr — seuls les chiens guides/d'assistance sont admis de droit",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35787"
+        },
+        {
+          "libelle": "Fidello (06/11/2025) — chiens interdits dans les supermarchés et hypermarchés pour raisons sanitaires",
+          "url": "https://fidello.fr/magasins-chiens-autorises-france/"
+        }
+      ],
+      "doutes": "Dimanche : OSM dit ouvert le matin, la page Leclerc dit fermé ; la page Leclerc fait foi. Parking : absence de portique non vérifiée sur place."
+    }
+  },
+  {
+    "id": "courses-intermarche-arles",
+    "nom": "Intermarché Super Arles Trinquetaille",
+    "categorie": "courses",
+    "gps": [
+      43.68112,
+      4.62182
+    ],
+    "commune": "quartier Trinquetaille, 13200 Arles",
+    "adresse": "1 rue de la Verrerie, quartier Trinquetaille, 13200 Arles",
+    "resume": "Chien non admis : courses à tour de rôle. Dimanche : 8h30–12h30.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "8h30–19h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "8h30–19h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "8h30–19h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "8h30–19h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "8h30–19h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "8h30–19h30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "8h30–12h30"
+      }
+    ],
+    "chien": {
+      "admis": false,
+      "note": "Refusé. Règlement intérieur Carrefour : « les animaux, à l'exception des chiens guides [...], ne sont pas admis » ; même règle d'hygiène chez Leclerc, Intermarché, Lidl (magasins alimentaires). Seuls les chiens guides ou d'assistance (carte mobilité inclusion) sont admis de droit. Un adulte reste dehors avec Prince."
+    },
+    "pratique": [
+      {
+        "libelle": "Parking",
+        "valeur": "Parking extérieur du magasin."
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "Sortie de la RN113 à Arles, ≈ km 75 du jour 1."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Intermarché — fiche officielle",
+        "url": "https://www.intermarche.com/magasins/12419/arles-13200/infos-pratiques"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Intermarché — fiche officielle Arles (page non lisible en automatique)",
+          "url": "https://www.intermarche.com/magasins/12419/arles-13200/infos-pratiques"
+        },
+        {
+          "libelle": "PagesJaunes — Intermarché Super Arles, samedi 8h30–19h30, dimanche 8h30–12h30",
+          "url": "https://www.pagesjaunes.fr/pros/06152705"
+        },
+        {
+          "libelle": "OpenStreetMap — Intermarché Rue de la Verrerie 1 (Mo-Sa 08:30-19:30; Su 08:30-12:30)",
+          "url": "https://www.openstreetmap.org/way/102099210"
+        },
+        {
+          "libelle": "Wamiz — règlement intérieur Carrefour : animaux non admis sauf chiens guides",
+          "url": "https://wamiz.com/chiens/conseils/179791/est-ce-que-je-peux-aller-faire-mes-courses-a-carrefour-avec-mon-chien"
+        },
+        {
+          "libelle": "Service-public.gouv.fr — seuls les chiens guides/d'assistance sont admis de droit",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35787"
+        },
+        {
+          "libelle": "Fidello (06/11/2025) — chiens interdits dans les supermarchés et hypermarchés pour raisons sanitaires",
+          "url": "https://fidello.fr/magasins-chiens-autorises-france/"
+        }
+      ],
+      "doutes": "Page officielle non lue (JavaScript) : horaires tirés de PagesJaunes et OSM, concordants."
+    }
+  },
+  {
+    "id": "carburant-eni-finale",
+    "nom": "Eni Finale Ligure — Via Mazzini 13",
+    "categorie": "carburant",
+    "gps": [
+      44.16878,
+      8.3415
+    ],
+    "commune": "Finale Ligure (SV)",
+    "adresse": "VIA MAZZINI 13 - 17024 FINALE LIGURE (SV)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 42278). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "07:30–12:30 et 15:00–19:00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "07:30–12:30 et 15:00–19:00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "07:30–12:30 et 15:00–19:00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "07:30–12:30 et 15:00–19:00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "07:30–12:30 et 15:00–19:00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "07:30–12:30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé (personnel)"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "42278",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/42278"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "1 km du camping Tahiti. Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/42278"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/42278"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-savona-stalingrado",
+    "nom": "Eni Savona — Via Stalingrado 11",
+    "categorie": "carburant",
+    "gps": [
+      44.3001,
+      8.465
+    ],
+    "commune": "Savona (SV)",
+    "adresse": "Via Stalingrado 11 - 17100 SAVONA (SV)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 58482). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "non communiqué au MIMIT"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "58482",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/58482"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "À côté du Conad Superstore de Savone (courses avec chien) : plein + courses au même arrêt. Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/58482"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/58482"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-acqui",
+    "nom": "Eni Acqui Terme — Via Circonvallazione 15",
+    "categorie": "carburant",
+    "gps": [
+      44.66902,
+      8.48122
+    ],
+    "commune": "Acqui Terme (AL)",
+    "adresse": "VIA CIRCONVALLAZIONE 15 - 15011 ACQUI TERME (AL)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 39621). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "07:30–12:30 et 14:30–19:00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "07:30–12:30 et 14:30–19:00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "07:30–12:30 et 14:30–19:00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "07:30–12:30 et 14:30–19:00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "07:30–12:30 et 14:30–19:00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "07:30–12:30 et 14:30–19:00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé (personnel)"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "39621",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/39621"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/39621"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/39621"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-spinetta",
+    "nom": "Eni Spinetta Marengo (Alessandria) — SS10 Via Genova 26",
+    "categorie": "carburant",
+    "gps": [
+      44.8961,
+      8.66629
+    ],
+    "commune": "Alessandria (AL)",
+    "adresse": "VIA GENOVA 26 SS 10 - loc SPINETTA MARENGO - 15122 ALESSANDRIA (AL)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 51468). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Horaires",
+        "valeur": "non communiqués au MIMIT"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "51468",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/51468"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/51468"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/51468"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-pompebianche-salo",
+    "nom": "Pompe Bianche Salò — Piazza S. Bernardino 10",
+    "categorie": "carburant",
+    "gps": [
+      45.60537,
+      10.52043
+    ],
+    "commune": "Salò (BS)",
+    "adresse": "Piazza S. Bernardino 10 - 25087 SALÒ (BS)",
+    "resume": "Gazole 2,055 € relevé le 2026-09-25 (idImpianto MIMIT 59908). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "non communiqué au MIMIT"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "59908",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/59908"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Prix déclaré le plus bas de l'itinéraire, sans marque."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/59908"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/59908"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": "2,055 € déclaré le 25/09 et non remis à jour depuis ; écart de 13 centimes avec toutes les stations voisines : possible erreur de saisie. Relire le prix la veille."
+    }
+  },
+  {
+    "id": "carburant-eni-trento-maccani",
+    "nom": "Eni Trento — Via Maccani 46",
+    "categorie": "carburant",
+    "gps": [
+      46.08239,
+      11.11548
+    ],
+    "commune": "Trento (TN)",
+    "adresse": "VIA MACCANI 46 - 38121 TRENTO (TN)",
+    "resume": "Gazole 2,112 € relevé le 2026-09-24 (idImpianto MIMIT 36393). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "non communiqué au MIMIT"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "36393",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/36393"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/36393"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/36393"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": "Dernier prix déclaré le 24/09 (2,112 €) ; sous plafond Eni de toute façon."
+    }
+  },
+  {
+    "id": "carburant-eni-dro",
+    "nom": "Eni Dro — Località Lago 10",
+    "categorie": "carburant",
+    "gps": [
+      45.98273,
+      10.92545
+    ],
+    "commune": "Dro (TN)",
+    "adresse": "LAGO 10 - 38074 DRO (TN)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 60681). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "07:30–12:30 et 14:30–18:30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "07:30–12:30 et 14:30–18:30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "07:30–12:30 et 14:30–18:30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "07:30–12:30 et 14:30–18:30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "07:30–12:30 et 14:30–18:30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "07:30–12:30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé (personnel)"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "60681",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/60681"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/60681"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/60681"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-chiusa",
+    "nom": "Eni Chiusa / Klausen — Piazza Frages 5",
+    "categorie": "carburant",
+    "gps": [
+      46.63771,
+      11.56111
+    ],
+    "commune": "Chiusa (BZ)",
+    "adresse": "PIAZZA FRAGES 5 - 39043 CHIUSA (BZ)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 38788). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "non communiqué au MIMIT"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "38788",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/38788"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Porte du Val Gardena et de l'Alpe di Siusi, sur la route des jours Col Raiser / Alpe / transfert. Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/38788"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/38788"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-bressanone",
+    "nom": "Eni Bressanone — Via Peter Mayr 16",
+    "categorie": "carburant",
+    "gps": [
+      46.7203,
+      11.65522
+    ],
+    "commune": "Bressanone (BZ)",
+    "adresse": "via Peter Mayr 16 - 39042 BRESSANONE (BZ)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 52234). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "06:00–20:00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "06:00–20:00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "06:00–20:00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "06:00–20:00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "06:00–20:00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "06:00–13:30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé (personnel)"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "52234",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/52234"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "1,7 km du camping Löwenhof. Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/52234"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/52234"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-bressanone-lahner",
+    "nom": "Eni Bressanone sud — Via Lahner 39",
+    "categorie": "carburant",
+    "gps": [
+      46.68708,
+      11.63114
+    ],
+    "commune": "Bressanone (BZ)",
+    "adresse": "Via Lahner 39 - 39042 BRESSANONE (BZ)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 53567). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "07:00–12:30 et 13:30–19:00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "07:00–12:30 et 13:30–19:00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "07:00–12:30 et 13:30–19:00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "07:00–12:30 et 13:30–19:00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "07:00–12:30 et 13:30–19:00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "08:00–12:30 et 13:30–17:00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé (personnel)"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "53567",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/53567"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/53567"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/53567"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-santa-cristina",
+    "nom": "Eni Santa Cristina Valgardena — SS242 km 14",
+    "categorie": "carburant",
+    "gps": [
+      46.56792,
+      11.68537
+    ],
+    "commune": "Ortisei (BZ)",
+    "adresse": "Statale 242 di Val Gardena e Passo Sella, Km. 14, dir. CHIUSA - - 39046 ORTISEI (BZ)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 27752). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Horaires",
+        "valeur": "non communiqués au MIMIT"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "27752",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/27752"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/27752"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/27752"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-badia",
+    "nom": "Eni Badia / Pedraces — Strada Colz",
+    "categorie": "carburant",
+    "gps": [
+      46.5879,
+      11.90316
+    ],
+    "commune": "Badia (BZ)",
+    "adresse": "Strada Colz - 39036 BADIA (BZ)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 56736). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "08:00–12:00 et 14:30–18:00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "fermé (personnel)"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "08:00–12:00 et 14:30–18:00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "08:00–12:00 et 14:30–18:00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "08:00–12:00 et 14:30–18:00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "08:00–12:00 et 14:30–18:00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "08:00–12:00 et 14:30–18:00"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "56736",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/56736"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Seule station à 2,19 € de l'Alta Badia (6 km du camping). Personnel absent le mardi. Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/56736"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/56736"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-cortina",
+    "nom": "Eni Cortina d'Ampezzo — Corso Italia 199",
+    "categorie": "carburant",
+    "gps": [
+      46.54081,
+      12.13515
+    ],
+    "commune": "Cortina D'Ampezzo (BL)",
+    "adresse": "CORSO ITALIA  199 70 - CORTINA D'AMPEZZO (BL)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 57857). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Horaires",
+        "valeur": "non communiqués au MIMIT"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "57857",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/57857"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/57857"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/57857"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-dobbiaco",
+    "nom": "Eni Dobbiaco — SS49 km 59",
+    "categorie": "carburant",
+    "gps": [
+      46.72887,
+      12.21876
+    ],
+    "commune": "Dobbiaco (BZ)",
+    "adresse": "49 della Pusteria, Km. 59, EST - - 39034 DOBBIACO (BZ)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 35533). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "07:30–12:30 et 14:30–19:30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "07:30–12:30 et 14:30–19:30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "07:30–12:30 et 14:30–19:30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "07:30–12:30 et 14:30–19:30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "07:30–12:30 et 14:30–19:30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "07:30–12:30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé (personnel)"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "35533",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/35533"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "2 km du camping Olympia. Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/35533"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/35533"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-eni-taggia",
+    "nom": "Eni Taggia — Via Aurelia 10",
+    "categorie": "carburant",
+    "gps": [
+      43.83533,
+      7.85399
+    ],
+    "commune": "Taggia (IM)",
+    "adresse": "AURELIA 10 - 18018 TAGGIA (IM)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 7368). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "non communiqué au MIMIT"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "non communiqué au MIMIT"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "7368",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/7368"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Enilive applique depuis le 28/09/2026 un plafond de 2,19 €/L sur le gazole (self et servi) pour 30 jours, prolongeable ; il sera relevé si les taxes remontent après le 5/10."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/7368"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/7368"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-ip-sanremo",
+    "nom": "IP Sanremo — Corso Matuzia",
+    "categorie": "carburant",
+    "gps": [
+      43.81002,
+      7.75864
+    ],
+    "commune": "Sanremo (IM)",
+    "adresse": "Corso Matuzia - 18038 SANREMO (IM)",
+    "resume": "Gazole 2,190 € relevé le 2026-09-28 (idImpianto MIMIT 10121). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Horaires",
+        "valeur": "non communiqués au MIMIT"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "10121",
+      "pays": "IT",
+      "libre_service_24h": "non déclaré : horaires ci-dessus = présence du gérant ; beaucoup de stations italiennes gardent un automate « self pre-pay » hors horaires, non garanti"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/10121"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "IP a suivi Eni le 28/09 sans plafond officiel publié."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/10121"
+      },
+      {
+        "libelle": "Prix des carburants — Italie",
+        "url": "https://carburanti.mise.gov.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "MIMIT Osservaprezzi — fiche impianto (prix et horaires), 28/09/2026",
+          "url": "https://carburanti.mise.gov.it/ospzApi/registry/servicearea/10121"
+        },
+        {
+          "libelle": "MIMIT — anagrafica_impianti_attivi.csv (extraction du 27/09/2026)",
+          "url": "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+        },
+        {
+          "libelle": "Il Fatto Quotidiano (25/09/2026) — plafond Eni 2,19 € gazole dès le 28/09, 30 jours prolongeables",
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/prezzi-carburanti-eni-price-cap-notizie/8518126/"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-total-arles",
+    "nom": "TotalEnergies Arles — Relais du pont Van Gogh",
+    "categorie": "carburant",
+    "gps": [
+      43.671,
+      4.622
+    ],
+    "commune": "Arles",
+    "adresse": "N°1 AV BACHAGA SAID BOUALEM, 13200 ARLES",
+    "resume": "Gazole 2,250 € relevé le 2026-09-28 (identifiant prix-carburants 13200015). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "06h00–21h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "06h00–21h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "06h00–21h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "06h00–21h00"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "06h00–21h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "07h00–21h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "07h00–21h00"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "13200015",
+      "pays": "FR",
+      "libre_service_24h": "non déclaré"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=13200015"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Plafond TotalEnergies 2,25 €/L gazole rétabli le 22/07/2026 dans toutes ses stations de métropole ; aucune date de fin publiée. Hors autoroute, sortie RN113 Arles."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=13200015"
+      },
+      {
+        "libelle": "Prix des carburants — France",
+        "url": "https://www.prix-carburants.gouv.fr/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Flux instantané prix-carburants (roulez-eco / data.economie.gouv.fr), 28/09/2026",
+          "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=13200015"
+        },
+        {
+          "libelle": "OpenStreetMap — marque TotalEnergies liée par ref:FR:prix-carburants",
+          "url": "https://www.openstreetmap.org/"
+        },
+        {
+          "libelle": "La Dépêche (22/07/2026) — TotalEnergies rétablit le plafond 2,25 € gazole",
+          "url": "https://www.ladepeche.fr/2026/07/22/prix-des-carburants-essence-a-199-eur-gazole-a-225-eur-totalenergies-retablit-le-plafonnement-dans-toutes-ses-stations-service-13479463.php"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-total-cannet-des-maures",
+    "nom": "TotalEnergies Access Le Cannet-des-Maures — RN7",
+    "categorie": "carburant",
+    "gps": [
+      43.395,
+      6.333
+    ],
+    "commune": "Le Cannet-Des-Maures",
+    "adresse": "Quartier Les Taurelles - RN7, 83340 Le Cannet-des-Maures",
+    "resume": "Gazole 2,250 € relevé le 2026-09-28 (identifiant prix-carburants 83340011). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "non renseigné"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "83340011",
+      "pays": "FR",
+      "libre_service_24h": "oui (automate carte 24h/24 déclaré)"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=83340011"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Plafond TotalEnergies 2,25 €/L gazole rétabli le 22/07/2026 dans toutes ses stations de métropole ; aucune date de fin publiée. Automate 24h/24."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=83340011"
+      },
+      {
+        "libelle": "Prix des carburants — France",
+        "url": "https://www.prix-carburants.gouv.fr/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Flux instantané prix-carburants (roulez-eco / data.economie.gouv.fr), 28/09/2026",
+          "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=83340011"
+        },
+        {
+          "libelle": "OpenStreetMap — marque TotalEnergies liée par ref:FR:prix-carburants",
+          "url": "https://www.openstreetmap.org/"
+        },
+        {
+          "libelle": "La Dépêche (22/07/2026) — TotalEnergies rétablit le plafond 2,25 € gazole",
+          "url": "https://www.ladepeche.fr/2026/07/22/prix-des-carburants-essence-a-199-eur-gazole-a-225-eur-totalenergies-retablit-le-plafonnement-dans-toutes-ses-stations-service-13479463.php"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-total-le-luc",
+    "nom": "TotalEnergies Access Le Luc — RN7 Les Liébauds",
+    "categorie": "carburant",
+    "gps": [
+      43.393,
+      6.321
+    ],
+    "commune": "Le Luc",
+    "adresse": "RN7 - LE LUC LES LIEBAUDS, 83340 LE LUC",
+    "resume": "Gazole 2,250 € relevé le 2026-09-28 (identifiant prix-carburants 83340010). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "non renseigné"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "non renseigné"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "83340010",
+      "pays": "FR",
+      "libre_service_24h": "oui (automate carte 24h/24 déclaré)"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=83340010"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Plafond TotalEnergies 2,25 €/L gazole rétabli le 22/07/2026 dans toutes ses stations de métropole ; aucune date de fin publiée. Automate 24h/24, à 2 km du Leclerc du Luc."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=83340010"
+      },
+      {
+        "libelle": "Prix des carburants — France",
+        "url": "https://www.prix-carburants.gouv.fr/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Flux instantané prix-carburants (roulez-eco / data.economie.gouv.fr), 28/09/2026",
+          "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=83340010"
+        },
+        {
+          "libelle": "OpenStreetMap — marque TotalEnergies liée par ref:FR:prix-carburants",
+          "url": "https://www.openstreetmap.org/"
+        },
+        {
+          "libelle": "La Dépêche (22/07/2026) — TotalEnergies rétablit le plafond 2,25 € gazole",
+          "url": "https://www.ladepeche.fr/2026/07/22/prix-des-carburants-essence-a-199-eur-gazole-a-225-eur-totalenergies-retablit-le-plafonnement-dans-toutes-ses-stations-service-13479463.php"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-total-saint-maximin",
+    "nom": "TotalEnergies Access Saint-Maximin — RN7 route de Nice",
+    "categorie": "carburant",
+    "gps": [
+      43.447,
+      5.863
+    ],
+    "commune": "Saint-Maximin-La-Sainte-Baume",
+    "adresse": "RN.7 ROUTE DE NICE, 83470 Saint-Maximin-la-Sainte-Baume",
+    "resume": "Gazole 2,250 € relevé le 2026-09-28 (identifiant prix-carburants 83470006). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "06h00–12h00, 12h00–21h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "06h00–12h00, 12h00–21h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "06h00–12h00, 12h00–21h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "06h00–12h00, 12h00–21h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "06h00–12h00, 12h00–21h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "06h30–12h00, 12h00–21h30"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "06h30–12h00, 12h00–21h30"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "83470006",
+      "pays": "FR",
+      "libre_service_24h": "oui (automate carte 24h/24 déclaré)"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=83470006"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Plafond TotalEnergies 2,25 €/L gazole rétabli le 22/07/2026 dans toutes ses stations de métropole ; aucune date de fin publiée. Automate 24h/24."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=83470006"
+      },
+      {
+        "libelle": "Prix des carburants — France",
+        "url": "https://www.prix-carburants.gouv.fr/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Flux instantané prix-carburants (roulez-eco / data.economie.gouv.fr), 28/09/2026",
+          "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=83470006"
+        },
+        {
+          "libelle": "OpenStreetMap — marque TotalEnergies liée par ref:FR:prix-carburants",
+          "url": "https://www.openstreetmap.org/"
+        },
+        {
+          "libelle": "La Dépêche (22/07/2026) — TotalEnergies rétablit le plafond 2,25 € gazole",
+          "url": "https://www.ladepeche.fr/2026/07/22/prix-des-carburants-essence-a-199-eur-gazole-a-225-eur-totalenergies-retablit-le-plafonnement-dans-toutes-ses-stations-service-13479463.php"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-total-roquebrune",
+    "nom": "TotalEnergies Access Roquebrune-Cap-Martin — RD6007",
+    "categorie": "carburant",
+    "gps": [
+      43.764,
+      7.481
+    ],
+    "commune": "Roquebrune-Cap-Martin",
+    "adresse": "175 AVENUE PASTEUR - RD 6007, 06190 Roquebrune-Cap-Martin",
+    "resume": "Gazole 2,250 € relevé le 2026-09-28 (identifiant prix-carburants 6190008). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "07h00–20h00"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "07h00–20h00"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "07h00–20h00"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "07h00–20h20"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "07h00–20h00"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "07h00–20h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "07h00–20h00"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "6190008",
+      "pays": "FR",
+      "libre_service_24h": "non déclaré"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=6190008"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Plafond TotalEnergies 2,25 €/L gazole rétabli le 22/07/2026 dans toutes ses stations de métropole ; aucune date de fin publiée. Dernière station française avant Menton."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=6190008"
+      },
+      {
+        "libelle": "Prix des carburants — France",
+        "url": "https://www.prix-carburants.gouv.fr/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Flux instantané prix-carburants (roulez-eco / data.economie.gouv.fr), 28/09/2026",
+          "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=6190008"
+        },
+        {
+          "libelle": "OpenStreetMap — marque TotalEnergies liée par ref:FR:prix-carburants",
+          "url": "https://www.openstreetmap.org/"
+        },
+        {
+          "libelle": "La Dépêche (22/07/2026) — TotalEnergies rétablit le plafond 2,25 € gazole",
+          "url": "https://www.ladepeche.fr/2026/07/22/prix-des-carburants-essence-a-199-eur-gazole-a-225-eur-totalenergies-retablit-le-plafonnement-dans-toutes-ses-stations-service-13479463.php"
+        }
+      ],
+      "doutes": ""
+    }
+  },
+  {
+    "id": "carburant-total-fourques",
+    "nom": "TotalEnergies Fourques — RN113",
+    "categorie": "carburant",
+    "gps": [
+      43.691,
+      4.605
+    ],
+    "commune": "Fourques",
+    "adresse": "RN 113, 30300 FOURQUES",
+    "resume": "Gazole 2,250 € relevé le 2026-09-28 (identifiant prix-carburants 30300006). Hors autoroute.",
+    "horaires": [
+      {
+        "libelle": "Lundi",
+        "valeur": "06h30–19h30"
+      },
+      {
+        "libelle": "Mardi",
+        "valeur": "06h30–19h30"
+      },
+      {
+        "libelle": "Mercredi",
+        "valeur": "06h30–19h30"
+      },
+      {
+        "libelle": "Jeudi",
+        "valeur": "06h30–19h30"
+      },
+      {
+        "libelle": "Vendredi",
+        "valeur": "06h30–19h30"
+      },
+      {
+        "libelle": "Samedi",
+        "valeur": "08h00–19h00"
+      },
+      {
+        "libelle": "Dimanche",
+        "valeur": "fermé"
+      }
+    ],
+    "chien": {
+      "admis": null,
+      "note": "Sans objet : station-service, Prince reste dans la voiture."
+    },
+    "carburant": {
+      "gazole": true,
+      "id_officiel": "30300006",
+      "pays": "FR",
+      "libre_service_24h": "oui (automate carte 24h/24 déclaré)"
+    },
+    "pratique": [
+      {
+        "libelle": "Prix en direct",
+        "valeur": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=30300006"
+      },
+      {
+        "libelle": "Note",
+        "valeur": "Plafond TotalEnergies 2,25 €/L gazole rétabli le 22/07/2026 dans toutes ses stations de métropole ; aucune date de fin publiée. Automate 24h/24 ; dimanche fermé côté boutique."
+      }
+    ],
+    "liens": [
+      {
+        "libelle": "Prix en direct (source officielle)",
+        "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=30300006"
+      },
+      {
+        "libelle": "Prix des carburants — France",
+        "url": "https://www.prix-carburants.gouv.fr/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "libelle": "Flux instantané prix-carburants (roulez-eco / data.economie.gouv.fr), 28/09/2026",
+          "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?where=id=30300006"
+        },
+        {
+          "libelle": "OpenStreetMap — marque TotalEnergies liée par ref:FR:prix-carburants",
+          "url": "https://www.openstreetmap.org/"
+        },
+        {
+          "libelle": "La Dépêche (22/07/2026) — TotalEnergies rétablit le plafond 2,25 € gazole",
+          "url": "https://www.ladepeche.fr/2026/07/22/prix-des-carburants-essence-a-199-eur-gazole-a-225-eur-totalenergies-retablit-le-plafonnement-dans-toutes-ses-stations-service-13479463.php"
+        }
+      ],
+      "doutes": ""
+    }
   }
 ]
