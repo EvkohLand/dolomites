@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-09-28T16:51Z",
+  "genere_le": "2026-09-28T23:12Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-09-28T18:13"
+      "maj": "2026-09-28T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -330,6 +330,20 @@
     },
     {
       "source": "bz",
+      "id": "3143501",
+      "route": "Comune di Nova Ponente",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "La S.C. via Centro e via Principale dalla Piazza Gibitz fino al ristorante Adler e della via Castello Thurn dalla Piazza Principale fino alla casa culturale a Nova Ponente e fino al parcheggio n. 4 (farmacia) é CHIUSA dalle ore 14:00 alle ore 17:30 in occasione della manifestazione \"21. Eggentaler_Herbst-Classic”.",
+      "debut": "2026-10-10",
+      "fin": "2026-10-10",
+      "gps": [
+        46.41293,
+        11.43014
+      ]
+    },
+    {
+      "source": "bz",
       "id": "587708",
       "route": "LS/SP 29 — Passo Erbe",
       "niveau": "gene",
@@ -354,6 +368,34 @@
       "gps": [
         46.5534,
         11.97704
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "588108",
+      "route": "LS/SP 44 — Passo Stalle",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Collegamento tra la Valle Anterselva e la Valle Defereggen (km 18,680 - km 23,460) aperto ININTERROTTAMENTE a senso unico alternato (dall’Italia verso l’Austria sempre 15 minuti dopo ogni mezz’ora e dall’Austria verso l’Italia sempre 15 minuti dopo l’ora piena). Divieto di transito per autobus, veicoli di peso superiore a 3,5 t, veicoli con rimorchio e veicoli di altezza superiore a 3 m.",
+      "debut": "2026-05-13",
+      "fin": "",
+      "gps": [
+        46.88264,
+        12.16401
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "587908",
+      "route": "LS/SP 65 — Passo Nigra",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra S. Cipriano ed il Passo Costalunga (km 15,000 - km 29,660) divieto di transito per veicoli di lunghezza superiore a 12 m, autobus esclusi.",
+      "debut": "2011-10-17",
+      "fin": "",
+      "gps": [
+        46.45494,
+        11.58535
       ]
     },
     {
@@ -396,6 +438,34 @@
       "gps": [
         46.26151,
         11.27079
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3016412",
+      "route": "LS/SP13 — S. Paolo - Riva di sotto",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra S. Paolo e Riva di Sotto (km 1,500 - km 3,170) a tratti senso unico alternato per lavori di messa in sicurezza (anche nel fine settimana).",
+      "debut": "2025-10-13",
+      "fin": "2026-09-30",
+      "gps": [
+        46.48174,
+        11.26307
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3112912",
+      "route": "LS/SP132 — Prato Isarco - Nova Levante",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Nova Levante e San Valentino in Campo (km 17,070 - km 17,290) senso unico alternato per lavori di raddrizzamento e allargamento (anche nel fine settimana).",
+      "debut": "2026-08-18",
+      "fin": "2026-09-30",
+      "gps": [
+        46.42919,
+        11.49347
       ]
     },
     {
@@ -452,6 +522,20 @@
       "gps": [
         46.35003,
         11.26349
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3145012",
+      "route": "LS/SP14 — Caldaro - Roverè della Luna",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Pianizza di Sotto (km 1,000 - km 2,000) senso unico alternato per lavori di asfaltatura (anche nel fine settimana).",
+      "debut": "2026-09-21",
+      "fin": "2026-09-30",
+      "gps": [
+        46.42829,
+        11.25296
       ]
     },
     {
@@ -680,34 +764,6 @@
     },
     {
       "source": "bz",
-      "id": "3144412",
-      "route": "LS/SP43 — Passo Furcia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Nei pressi del Passo Furcia (km 11,300 - km 11,780) senso unico alternato dalle ore 07:00 alle ore 18:00 per la posa di tubazioni.",
-      "debut": "2026-09-15",
-      "fin": "2026-10-02",
-      "gps": [
-        46.72311,
-        11.96925
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "587608",
-      "route": "LS/SP43 — Passo Furcia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Da S. Vigilio fino al passo (km 11,810 - km 19,900) divieto di transito per veicoli di lunghezza superiore a 12 m.",
-      "debut": "2026-09-07",
-      "fin": "",
-      "gps": [
-        46.7231,
-        11.96435
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3149012",
       "route": "LS/SP62Racc — Laimburg Racc.",
       "niveau": "gene",
@@ -732,6 +788,20 @@
       "gps": [
         46.57261,
         11.57835
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3012501",
+      "route": "LS/SP65 — Tires",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A San Cipriano (km 14,700 - km 15,500) CHIUSURA al traffico dalle ore 13:00 alle ore 14:00 per transumanza.",
+      "debut": "2026-10-04",
+      "fin": "2026-10-04",
+      "gps": [
+        46.4716,
+        11.5568
       ]
     },
     {
@@ -778,6 +848,20 @@
     },
     {
       "source": "bz",
+      "id": "3139912",
+      "route": "LS/SP72 — Aldino - Nova Ponente",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Nova Ponente (km 18,500 - km 19,600) senso unico alternato per la posa di cavi in fibra ottica (giorni feriali).",
+      "debut": "2026-09-15",
+      "fin": "2026-10-03",
+      "gps": [
+        46.40381,
+        11.45083
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2744412",
       "route": "LS/SP73 — Renon",
       "niveau": "gene",
@@ -806,16 +890,30 @@
     },
     {
       "source": "bz",
-      "id": "3148012",
-      "route": "LS/SP79 — S. Lugano - Anterivo",
+      "id": "3014212",
+      "route": "LS/SP76 — Obereggen",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "A San Lugano (km 0,100 - km 0,600) senso unico alternato e chiusure temporanee fino a 15 minuti per lavori di taglio alberi (anche nel fine settimana).",
-      "debut": "2026-09-25",
-      "fin": "2026-10-16",
+      "texte": "A Obereggen (km 6,005) senso unico alternato per posa di una nuova linea di alta tensione.",
+      "debut": "2026-09-24",
+      "fin": "2026-12-04",
       "gps": [
-        46.30721,
-        11.39849
+        46.39628,
+        11.52585
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3063812",
+      "route": "LS/SP76 — Obereggen",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Obereggen (km 4,300 - km 5,800) CHIUSURA al traffico per posa di una nuova linea ad alta tensione (giorni feriali). Deviazione attraverso la SS. 620 Passo Lavazé.",
+      "debut": "2026-10-05",
+      "fin": "2026-12-04",
+      "gps": [
+        46.39628,
+        11.52585
       ]
     },
     {
@@ -858,34 +956,6 @@
       "gps": [
         46.51884,
         12.0093
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "587208",
-      "route": "SS 48 — Passo Pordoi",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra il passo Pordoi ed Arabba (km 76,280 - km 84,900) divieto di transito per veicoli di lunghezza superiore a 12 m, ogni anno dal 15.11. al 30.04.",
-      "debut": "2024-03-28",
-      "fin": "",
-      "gps": [
-        46.48752,
-        11.8123
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2817901",
-      "route": "SS.38 — Superstrada MEBO",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione Merano all'uscita di Appiano rallentamenti e code dopo un incidente.",
-      "debut": "2026-09-28",
-      "fin": "",
-      "gps": [
-        46.49045,
-        11.28615
       ]
     },
     {
@@ -1016,6 +1086,20 @@
     },
     {
       "source": "bz",
+      "id": "586001",
+      "route": "SS241 — di Val d'Ega e Passo Costalunga",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Nova Levante (km 15,700 - km 16,100) chiusure temporanee fino a 15 minuti dalle ore 07:30 alle ore 17:00 per lavori forestali.",
+      "debut": "2026-10-12",
+      "fin": "2026-10-14",
+      "gps": [
+        46.42566,
+        11.51792
+      ]
+    },
+    {
+      "source": "bz",
       "id": "609508",
       "route": "SS241 — di Val d'Ega e Passo Costalunga",
       "niveau": "info",
@@ -1128,6 +1212,34 @@
     },
     {
       "source": "bz",
+      "id": "2983312",
+      "route": "SS42 — Passo Mendola",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Ganda (km 234,150 - Km 234,300) senso unico alternato per la urbanizzazione nella zona produttiva Ganda 4 (anche nei fine settimana e festività).",
+      "debut": "2026-08-17",
+      "fin": "2026-09-30",
+      "gps": [
+        46.44117,
+        11.25344
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3148312",
+      "route": "SS42 — Passo Mendola",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Nei pressi di Ganda (km 234,500) senso unico alternato a causa di lavori (anche nel fine settimana).",
+      "debut": "2026-09-28",
+      "fin": "2026-10-10",
+      "gps": [
+        46.44186,
+        11.25638
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2880201",
       "route": "SS49 — della Pusteria",
       "niveau": "fermeture",
@@ -1222,6 +1334,34 @@
       "gps": [
         46.79051,
         11.95922
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2751812",
+      "route": "SS620 — del Passo di Lavazè",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Novale (km 1,800 - km 1,950)) senso unico alternato per lavori di risanamento ponte.",
+      "debut": "2026-09-29",
+      "fin": "2026-09-30",
+      "gps": [
+        46.41383,
+        11.48697
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3142312",
+      "route": "SS620 — del Passo di Lavazè",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Novale (km 6,050 - km 6,150) senso unico alternato per il risanamento del ponte (anche nel fine settimana).",
+      "debut": "2026-09-28",
+      "fin": "2026-10-19",
+      "gps": [
+        46.38458,
+        11.49692
       ]
     }
   ],
