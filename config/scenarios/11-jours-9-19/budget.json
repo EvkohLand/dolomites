@@ -54,7 +54,7 @@
     {
       "jour": 1,
       "poste": "nourriture",
-      "libelle": "Courses de départ",
+      "libelle": "Courses du départ à Varazze",
       "montant": 70
     },
     {
@@ -66,14 +66,8 @@
     {
       "jour": 9,
       "poste": "nourriture",
-      "libelle": "Ravitaillement Cortina",
+      "libelle": "Ravitaillement Alta Badia",
       "montant": 60
-    },
-    {
-      "jour": null,
-      "poste": "divers",
-      "libelle": "Abonnement Agricamper Italia",
-      "montant": 34.9
     },
     {
       "jour": null,
@@ -82,5 +76,6 @@
       "montant": 200
     }
   ],
-  "objectif_par_jour": 95
+  "objectif_par_jour": 95,
+  "note": "Hébergement = hypothèses provisoires pour deux adultes, tente de toit et chien ; attendre devis datés et ajouter les taxes, suppléments et parkings non connus. Aucun renouvellement Agricamper engagé. Les remontées du planning comptent le groupe quand le montant est renseigné."
 }

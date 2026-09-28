@@ -5,17 +5,21 @@
       "ordre": 1,
       "jour": 1,
       "type": "aller",
-      "libelle": "Saint-Gély-du-Fesc → Val Gardena",
+      "libelle": "Saint-Gély-du-Fesc → Bressanone",
       "de": "depart",
-      "vers": "aire-ortisei",
-      "par": [],
-      "visites": [],
+      "vers": "camping-loewenhof",
+      "par": [
+        "courses-conad-savone"
+      ],
+      "visites": [
+        "courses-conad-savone"
+      ],
       "visites_hors_route": [],
       "pays": "FR",
-      "note": "Saint-Gély-du-Fesc → Val Gardena",
+      "note": "Saint-Gély-du-Fesc → Bressanone",
       "peages": 77,
-      "distance_km": 949,
-      "duree_h": 10.5
+      "distance_km": 963,
+      "duree_h": 10.6
     },
     {
       "id": "etape-j2",
@@ -23,8 +27,8 @@
       "jour": 2,
       "type": "boucle",
       "libelle": "Val di Funes",
-      "de": "aire-ortisei",
-      "vers": "aire-ortisei",
+      "de": "camping-loewenhof",
+      "vers": "camping-loewenhof",
       "par": [
         "santa-maddalena"
       ],
@@ -37,46 +41,106 @@
       ],
       "pays": "IT",
       "note": "Val di Funes",
-      "distance_km": 67,
-      "duree_h": 1.3
+      "distance_km": 44,
+      "duree_h": 0.9
+    },
+    {
+      "id": "etape-j3",
+      "ordre": 3,
+      "jour": 3,
+      "type": "boucle",
+      "libelle": "Seceda par le Col Raiser, si sentiers secs",
+      "de": "camping-loewenhof",
+      "vers": "camping-loewenhof",
+      "par": [
+        "parking-col-raiser"
+      ],
+      "visites": [
+        "col-raiser"
+      ],
+      "visites_hors_route": [
+        "col-raiser"
+      ],
+      "pays": "IT",
+      "note": "Seceda par le Col Raiser, si sentiers secs",
+      "distance_km": 77,
+      "duree_h": 1.5
+    },
+    {
+      "id": "etape-j4",
+      "ordre": 4,
+      "jour": 4,
+      "type": "boucle",
+      "libelle": "Alpe di Siusi par le P1 Spitzbühl",
+      "de": "camping-loewenhof",
+      "vers": "camping-loewenhof",
+      "par": [
+        "parking-alpe-p1"
+      ],
+      "visites": [
+        "parking-alpe-p1"
+      ],
+      "visites_hors_route": [],
+      "pays": "IT",
+      "note": "Alpe di Siusi par le P1 Spitzbühl",
+      "distance_km": 72,
+      "duree_h": 1.4
     },
     {
       "id": "etape-j5",
-      "ordre": 3,
+      "ordre": 5,
       "jour": 5,
       "type": "transfert",
-      "libelle": "Col Raiser et Alta Badia",
-      "de": "aire-ortisei",
-      "vers": "camping-cortina",
+      "libelle": "Passo Gardena → Alta Badia",
+      "de": "camping-loewenhof",
+      "vers": "camping-sass-dlacia",
       "par": [
         "passo-gardena",
         "corvara"
       ],
       "visites": [
-        "col-raiser",
         "passo-gardena",
-        "corvara",
-        "pralongia"
+        "corvara"
       ],
-      "visites_hors_route": [
-        "col-raiser",
-        "pralongia"
-      ],
+      "visites_hors_route": [],
       "pays": "IT",
-      "note": "Col Raiser et Alta Badia",
-      "distance_km": 74,
-      "duree_h": 1.6
+      "note": "Passo Gardena → Alta Badia",
+      "distance_km": 72,
+      "duree_h": 1.4
     },
     {
       "id": "etape-j6",
-      "ordre": 4,
+      "ordre": 6,
       "jour": 6,
       "type": "boucle",
-      "libelle": "Falzarego et Lagazuoi",
-      "de": "camping-cortina",
-      "vers": "camping-cortina",
+      "libelle": "Sass Pordoi depuis Alta Badia",
+      "de": "camping-sass-dlacia",
+      "vers": "camping-sass-dlacia",
       "par": [
-        "passo-falzarego"
+        "passo-pordoi"
+      ],
+      "visites": [
+        "sass-pordoi"
+      ],
+      "visites_hors_route": [
+        "sass-pordoi"
+      ],
+      "pays": "IT",
+      "note": "Sass Pordoi depuis Alta Badia",
+      "distance_km": 62,
+      "duree_h": 1.2
+    },
+    {
+      "id": "etape-j7",
+      "ordre": 7,
+      "jour": 7,
+      "type": "boucle",
+      "libelle": "Falzarego, Lagazuoi et Cinque Torri à pied",
+      "de": "camping-sass-dlacia",
+      "vers": "camping-sass-dlacia",
+      "par": [
+        "passo-falzarego",
+        "parking-bai-de-dones"
       ],
       "visites": [
         "passo-falzarego",
@@ -88,82 +152,62 @@
         "cinque-torri"
       ],
       "pays": "IT",
-      "note": "Falzarego et Lagazuoi",
-      "distance_km": 52,
-      "duree_h": 1.2
-    },
-    {
-      "id": "etape-j7",
-      "ordre": 5,
-      "jour": 7,
-      "type": "boucle",
-      "libelle": "Passo Giau et repos",
-      "de": "camping-cortina",
-      "vers": "camping-cortina",
-      "par": [
-        "passo-giau"
-      ],
-      "visites": [
-        "passo-giau"
-      ],
-      "visites_hors_route": [],
-      "pays": "IT",
-      "note": "Passo Giau et repos",
-      "distance_km": 54,
-      "duree_h": 1.3
+      "note": "Falzarego, Lagazuoi et Cinque Torri à pied",
+      "distance_km": 26,
+      "duree_h": 0.5
     },
     {
       "id": "etape-j8",
-      "ordre": 6,
+      "ordre": 8,
       "jour": 8,
       "type": "boucle",
-      "libelle": "Lago di Sorapis",
-      "de": "camping-cortina",
-      "vers": "camping-cortina",
+      "libelle": "Fanes depuis Pederü ou Passo Giau",
+      "de": "camping-sass-dlacia",
+      "vers": "camping-sass-dlacia",
       "par": [
-        "passo-tre-croci"
+        "pederu"
       ],
       "visites": [
-        "lago-sorapis"
+        "alpe-fanes"
       ],
       "visites_hors_route": [
-        "lago-sorapis"
+        "alpe-fanes"
       ],
       "pays": "IT",
-      "note": "Lago di Sorapis",
-      "distance_km": 41,
-      "duree_h": 1
+      "note": "Fanes depuis Pederü ou Passo Giau",
+      "distance_km": 83,
+      "duree_h": 1.7
     },
     {
       "id": "etape-j9",
-      "ordre": 7,
+      "ordre": 9,
       "jour": 9,
       "type": "transfert",
-      "libelle": "Tre Cime di Lavaredo",
-      "de": "camping-cortina",
+      "libelle": "Misurina, Tre Cime si ouvertes → Dobbiaco",
+      "de": "camping-sass-dlacia",
       "vers": "camping-olympia",
       "par": [
-        "route-tre-cime",
+        "misurina",
         "lago-antorno",
-        "misurina"
+        "route-tre-cime"
       ],
       "visites": [
-        "route-tre-cime",
-        "rando-tre-cime",
+        "misurina",
         "lago-antorno",
-        "misurina"
+        "route-tre-cime",
+        "rando-tre-cime"
       ],
       "visites_hors_route": [
         "rando-tre-cime"
       ],
       "pays": "IT",
-      "note": "Tre Cime di Lavaredo",
-      "distance_km": 51,
-      "duree_h": 1.4
+      "note": "Misurina, Tre Cime si ouvertes → Dobbiaco",
+      "distance_km": 77,
+      "duree_h": 1.7
     },
     {
       "id": "etape-j10",
-      "ordre": 8,
+      "ordre": 10,
       "jour": 10,
       "type": "boucle",
       "libelle": "Braies et Prato Piazza",
@@ -181,56 +225,34 @@
       ],
       "pays": "IT",
       "note": "Braies et Prato Piazza",
-      "distance_km": 31,
-      "duree_h": 0.6
+      "distance_km": 29,
+      "duree_h": 0.5
     },
     {
       "id": "etape-j11",
-      "ordre": 9,
+      "ordre": 11,
       "jour": 11,
       "type": "boucle",
-      "libelle": "Alpe di Fanes",
+      "libelle": "Lago di Dobbiaco et repos",
       "de": "camping-olympia",
       "vers": "camping-olympia",
       "par": [
-        "pederu"
+        "parking-lago-dobbiaco"
       ],
       "visites": [
-        "alpe-fanes"
+        "lago-dobbiaco"
       ],
       "visites_hors_route": [
-        "alpe-fanes"
+        "lago-dobbiaco"
       ],
       "pays": "IT",
-      "note": "Alpe di Fanes",
-      "distance_km": 97,
-      "duree_h": 1.8
-    },
-    {
-      "id": "etape-j12",
-      "ordre": 10,
-      "jour": 12,
-      "type": "boucle",
-      "libelle": "Sass Pordoi ou journée libre",
-      "de": "camping-olympia",
-      "vers": "camping-olympia",
-      "par": [
-        "passo-pordoi"
-      ],
-      "visites": [
-        "sass-pordoi"
-      ],
-      "visites_hors_route": [
-        "sass-pordoi"
-      ],
-      "pays": "IT",
-      "note": "Sass Pordoi ou journée libre",
-      "distance_km": 156,
-      "duree_h": 2.5
+      "note": "Lago di Dobbiaco et repos",
+      "distance_km": 11,
+      "duree_h": 0.2
     },
     {
       "id": "etape-retour",
-      "ordre": 11,
+      "ordre": 12,
       "jour": 14,
       "type": "retour",
       "libelle": "Retour",
@@ -242,8 +264,8 @@
       "pays": "IT",
       "note": "Retour",
       "peages": 77,
-      "distance_km": 1014,
-      "duree_h": 11.4
+      "distance_km": 1013,
+      "duree_h": 11.3
     }
   ],
   "style_trace": {

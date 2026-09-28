@@ -140,9 +140,14 @@ et la page en ligne reste celle d'avant.
 Les anomalies non bloquantes (référence cassée, tracé manquant) apparaissent dans un
 panneau repliable en bas de la page.
 
-## Ce qui reste à revérifier avant de partir
+## Préparer le départ d'octobre 2026
 
-Les tarifs et dates de fermeture sont ceux de la saison 2025 : les calendriers 2026 ne
-sont pas tous publiés. Les fiches concernées portent `"a_reverifier": true` et
-affichent une pastille orange. À reprendre une par une avant le départ — en particulier
-la fermeture du téléphérique du Lagazuoi, qui tombe pendant le séjour.
+Le [comparatif des campings et des courses](docs/campings-et-ravitaillement-2026.md)
+croise les dates des quatre scénarios avec les tarifs publiés, les réponses reçues,
+les terrains privés, l'accès des chiens aux magasins et la hauteur de 1,95 m du
+véhicule. Il distingue devis, estimations et disponibilités encore inconnues.
+
+Plusieurs prix et dates de fermeture 2026 sont désormais vérifiés, notamment le
+Lagazuoi et le camping Olympia ; les fiches encore incertaines portent
+`"a_reverifier": true`. Recontrôler avant de partir les conditions météo, l'accès
+aux cols et le camping de chaque nuit. Aucune place n'est présumée réservée.

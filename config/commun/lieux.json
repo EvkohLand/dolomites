@@ -14,9 +14,10 @@
       "type": "payant",
       "adulte_ar": 74,
       "chien": 7,
-      "unite": "aller-retour",
+      "unite": "2 adultes + chien A/R",
       "annee_tarif": 2026,
-      "detail": "Aller-retour complet Ortisei–Furnes–Seceda. Le chien paie 7 €. Tarif officiel 2026."
+      "detail": "2 × 74 € + 7 € chien, départ Ortisei. Option de confort si la marche depuis Col Raiser est trop longue ou impraticable.",
+      "montant": 155
     },
     "ouverture": {
       "fin_saison": "2026-11-02",
@@ -217,11 +218,11 @@
     "resume": "Le plus grand plateau d'altitude d'Europe, 56 km2 de prairies vallonnées face au Sassolungo. Terrain plat, sentiers larges : la journée idéale avec le chien, sans dénivelé.",
     "prix": {
       "type": "payant",
-      "adulte_ar": 26,
-      "chien": 0,
-      "unite": "aller-retour",
-      "annee_tarif": 2025,
-      "detail": "Télécabine depuis Siusi/Seis. Le chien ne paie pas."
+      "montant": 60,
+      "adulte_ar": 30,
+      "unite": "2 adultes A/R en télécabine",
+      "annee_tarif": 2026,
+      "detail": "Alternative si accès routier ou P1 indisponible ; 30 € aller-retour par adulte. Vérifier transport du chien."
     },
     "ouverture": {
       "fin_saison": "2026-11-02",
@@ -233,8 +234,8 @@
       "supplement": 0,
       "note": "Gratuit en cabine, mais laisse ET muselière obligatoires au départ de Compaccio."
     },
-    "acces": "Route fermée aux voitures en journée : monter en télécabine depuis Siusi.",
-    "source": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html",
+    "acces": "Par voiture seulement avant 9h avec réservation de parking P1 (15 €) ou P2 (30 €) ; retour possible dans la journée. Sinon télécabine depuis Siusi.",
+    "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
     "etiquettes": [
       "plateau",
       "chien gratuit",
@@ -260,7 +261,7 @@
         "url": "https://www.seiseralm.it/en/"
       }
     ],
-    "description": "56 km2 de prairies vallonnées à 1800-2000 m, fermées au trafic en journée. Les sentiers sont de larges chemins carrossables, sans aucun passage exposé : c'est la journée la plus simple du séjour avec un chien, et la seule où l'on peut marcher six heures sans jamais grimper. Refuges espacés de vingt minutes. Muselière exigée à l'embarquement, même si le transport est gratuit.",
+    "description": "Prairies et larges sentiers avec Prince. Option économique P1 Spitzbühl : 30 minutes de montée à pied jusqu’à Compatsch, puis balade sur le plateau. P2 coûte 30 €. Aucune nuit en véhicule ou tente sur le plateau.",
     "photos": [
       {
         "legende": "Alberi AlpediSiusi",
@@ -428,20 +429,21 @@
     "prix": {
       "type": "payant",
       "adulte_ar": 26,
-      "unite": "aller-retour",
-      "annee_tarif": 2025,
-      "detail": "Tarif indicatif, à revérifier pour 2026."
+      "unite": "2 adultes A/R, chien en sus éventuel",
+      "annee_tarif": 2026,
+      "detail": "Provision de 52 € pour deux adultes ; vérifier le tarif exact de basse saison 2026 et le chien avant achat.",
+      "montant": 52
     },
     "ouverture": {
-      "fin_saison": "2026-10-19",
-      "a_reverifier": true,
-      "note": "ATTENTION : saison 2025 close le 19 octobre. À faire en premiere semaine du sejour."
+      "fin_saison": "2026-10-18",
+      "a_reverifier": false,
+      "note": "6 juin – 18 octobre 2026 ; programmé le 15 ou 16 octobre, sous réserve de météo et de fonctionnement du jour."
     },
     "chien": {
       "admis": true,
-      "note": "Laisse obligatoire en cabine."
+      "note": "Admis en cabine ; laisse et muselière selon la taille et le règlement du transporteur."
     },
-    "source": "https://lagazuoi.it/IT/Info-Prezzi-e-info-utili-page140-Funivia-del-Lagazuoi-Estate-2025",
+    "source": "https://lagazuoi.it/EN/Info-Prezzi-e-info-utili-page20-Funivia-del-Lagazuoi-Estate-2025",
     "etiquettes": [
       "vue",
       "ferme tot",
@@ -457,15 +459,15 @@
     ],
     "liens": [
       {
-        "libelle": "Funivia Lagazuoi — tarifs",
-        "url": "https://lagazuoi.it/IT/Info-Prezzi-e-info-utili-page140-Funivia-del-Lagazuoi-Estate-2025"
+        "libelle": "Funivia Lagazuoi — saison 2026",
+        "url": "https://lagazuoi.it/EN/Info-Prezzi-e-info-utili-page20-Funivia-del-Lagazuoi-Estate-2025"
       },
       {
         "libelle": "Rifugio Lagazuoi",
         "url": "https://rifugiolagazuoi.com/"
       }
     ],
-    "description": "Le téléphérique part directement du Passo Falzarego et monte à 2752 m en quelques minutes. Au sommet, le refuge, une terrasse panoramique et le réseau de galeries creusées pendant la Grande Guerre, visitables librement. C'est le lieu le plus contraint du séjour : sa saison s'est terminée le 19 octobre en 2025.",
+    "description": "Téléphérique depuis le Passo Falzarego, vue à 360°. Dernier jour annoncé pour 2026 : 18 octobre. La terrasse peut rester accessible quand le refuge est fermé ; prévoir eau et pique-nique, et consulter la météo avant de partir.",
     "photos": [
       {
         "legende": "LagazuioFalzarego",
@@ -549,13 +551,13 @@
     },
     "reserver": {
       "obligatoire": true,
-      "url": "https://www.auronzo.info"
+      "url": "https://pass.auronzo.info/"
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Tarifs 2026 confirmés. ATTENTION : aucune date de fermeture d'automne publiée — vérifier sur auronzo.info que la route est ouverte du 10 au 23 octobre."
+      "note": "Réservation en ligne obligatoire : 40 € la voiture. Accès fin octobre conditionné à ouverture effective de la route et à la météo ; ne payer qu’après vérification."
     },
-    "source": "https://www.dolomitireview.com/strada-per-le-tre-cime-di-lavaredo-pedaggio-orari-informazioni-pratiche/",
+    "source": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/",
     "etiquettes": [
       "cher",
       "reservation",
@@ -572,8 +574,8 @@
     ],
     "liens": [
       {
-        "libelle": "Réserver l'accès (obligatoire)",
-        "url": "https://www.auronzo.info"
+        "libelle": "Réserver la route (commune d’Auronzo)",
+        "url": "https://pass.auronzo.info/"
       },
       {
         "libelle": "Infos péage et horaires",
@@ -1636,11 +1638,15 @@
       {
         "libelle": "Musée en plein air de la Grande Guerre",
         "url": "https://www.cortinamuseiguerra.it/"
+      },
+      {
+        "libelle": "Dates du télésiège 5 Torri 2026",
+        "url": "https://5torri.it/EN/p38-Lift-facilities-Summer"
       }
     ],
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Sentier libre toute l'année. Le Rifugio Scoiattoli ferme début octobre : prévoir de quoi manger."
+      "a_reverifier": false,
+      "note": "Télésiège Bai de Dones fermé après le 11 octobre 2026 ; pour une visite les 15–16, prévoir montée et descente à pied, uniquement si sentier sec et Prince à l’aise."
     },
     "photos": [
       {
@@ -1793,7 +1799,8 @@
         "legende": "Veneto Cinque Torri Umgebung 01",
         "credit": "Zairon — Wikimedia Commons, CC BY-SA 4.0"
       }
-    ]
+    ],
+    "acces_route": "parking-bai-de-dones"
   },
   {
     "id": "adolf-munkel",
@@ -2380,22 +2387,25 @@
     "nom": "Col Raiser",
     "categorie": "plateau",
     "gps": [
-      46.5833,
-      11.7
+      46.585,
+      11.7453
     ],
     "commune": "Santa Cristina Val Gardena (BZ)",
     "altitude": 2106,
-    "resume": "Plateau herbeux sous les Odle, accessible par télécabine depuis Santa Cristina. Alternative moins fréquentée à Seceda, avec les mêmes parois en face.",
+    "resume": "Télécabine depuis Santa Cristina : accès moins coûteux à la crête de Seceda par environ 1 h 30 de marche depuis la gare haute, aller simple.",
     "prix": {
       "type": "payant",
-      "adulte_ar": 28,
-      "unite": "aller-retour",
-      "annee_tarif": 2025,
-      "detail": "Tarif indicatif, à revérifier pour 2026."
+      "montant": 73,
+      "adulte_ar": 34,
+      "chien": 5,
+      "unite": "2 adultes + chien A/R",
+      "annee_tarif": 2026,
+      "detail": "2 × 34 € + 5 € pour Prince. Parking de la gare basse payant en sus, montant à vérifier."
     },
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Dates de fermeture d'automne 2026 non publiées."
+      "fin_saison": "2026-11-01",
+      "a_reverifier": false,
+      "note": "12 octobre – 1er novembre 2026 : 8h30–16h30. Vérifier météo et dernière descente le matin."
     },
     "chien": {
       "admis": true,
@@ -2415,8 +2425,12 @@
     ],
     "liens": [
       {
-        "libelle": "Remontées Val Gardena",
-        "url": "https://www.valgardena.it/en/"
+        "libelle": "Col Raiser — tarifs et horaires officiels",
+        "url": "https://www.colraiser.it/en/info.asp"
+      },
+      {
+        "libelle": "FAQ — marche vers Seceda",
+        "url": "https://www.colraiser.it/en/faq.asp"
       }
     ],
     "photos": [
@@ -2570,7 +2584,9 @@
         "legende": "Lilium martagon 3 RF",
         "credit": "Robert Flogaus-Faust — Wikimedia Commons, CC BY 4.0"
       }
-    ]
+    ],
+    "source": "https://www.colraiser.it/en/info.asp",
+    "acces_route": "parking-col-raiser"
   },
   {
     "id": "pralongia",
@@ -3373,23 +3389,23 @@
     "nom": "Camping Olympia",
     "categorie": "camping",
     "gps": [
-      46.7297,
-      12.2178
+      46.73461,
+      12.1941
     ],
     "commune": "Dobbiaco / Toblach (BZ)",
     "altitude": 1250,
-    "resume": "Grand camping ouvert à l'année, sanitaires chauffés, laverie. Base arrière idéale pour les Tre Cime et Braies.",
+    "resume": "Base est vers Braies et Misurina. Tarifs publiés pour octobre 2026, accueil du chien indiqué ; emplacement catégorie C (le moins cher) et voiture à tente de toit à confirmer.",
     "prix": {
       "type": "payant",
-      "montant": 38,
-      "unite": "nuit",
-      "annee_tarif": 2025,
-      "detail": "Estimation basse saison : 2 adultes, voiture avec tente de toit, chien. À confirmer."
+      "montant": 50,
+      "unite": "nuit, estimation 2 adultes + chien + taxe",
+      "annee_tarif": 2026,
+      "detail": "Tarif officiel 5 oct.–30 nov. : emplacement C 9 €, B 12 €, A 13 € + 2 adultes ×14 € + chien 6 €, soit 43–47 €/nuit avant taxe locale et électricité à 0,80 €/kWh selon le moteur de réservation officiel. Hypothèse budget 50 €, catégorie de place pour tente de toit à confirmer."
     },
     "chien": {
       "admis": true,
-      "supplement": 5,
-      "note": "Supplément par nuit, laisse obligatoire sur le terrain."
+      "supplement": 6,
+      "note": "Chien 6 €/nuit au tarif 2026 ; place adaptée à la voiture et au chien à confirmer."
     },
     "services": [
       "douches chaudes",
@@ -3434,164 +3450,22 @@
       {
         "libelle": "Camping Olympia — site officiel",
         "url": "https://www.camping-olympia.com"
+      },
+      {
+        "libelle": "Tarifs officiels 2026 et coordonnées du camping",
+        "url": "https://listini.camping.it/germany/trentinoaltoadige/olympia/prezzi.pdf"
+      },
+      {
+        "libelle": "Types de places et prix électricité (réservation officielle)",
+        "url": "https://booking.camping-olympia.com/?skd-language-code=en"
       }
     ],
-    "photos": [
-      {
-        "legende": "Umbau Tivoli Neu",
-        "credit": "Lukas Mall — Wikimedia Commons, Public domain",
-        "fichier": "camping-olympia-1.jpg"
-      },
-      {
-        "legende": "Spain vs Sweden, Euro 2008 01",
-        "credit": "Nicholas B from London — Wikimedia Commons, CC BY-SA 2.0",
-        "fichier": "camping-olympia-2.jpg"
-      },
-      {
-        "legende": "Tivolineu",
-        "credit": "Riedl Florian at de.wikipedia) — Wikimedia Commons, Public domain",
-        "fichier": "camping-olympia-3.jpg"
-      },
-      {
-        "legende": "12 06 05 aut rom freundschaftsspiel 008",
-        "credit": "Ralf Roletschek (talk) - Infos über Fahrräder auf fahrradmonteur.de — Wikimedia Commons, CC BY-SA 3.0",
-        "fichier": "camping-olympia-4.jpg"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/12-06-05-aut-rom-freundschaftsspiel-009.jpg/1280px-12-06-05-aut-rom-freundschaftsspiel-009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "12 06 05 aut rom freundschaftsspiel 009",
-        "credit": "Ralf Roletschek (talk) - Infos über Fahrräder auf fahrradmonteur.de — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/12-06-05-aut-rom-freundschaftsspiel-490.jpg/1280px-12-06-05-aut-rom-freundschaftsspiel-490.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "12 06 05 aut rom freundschaftsspiel 490",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/12-06-05-aut-rom-freundschaftsspiel-491.jpg/1280px-12-06-05-aut-rom-freundschaftsspiel-491.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "12 06 05 aut rom freundschaftsspiel 491",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/12-06-05-aut-rom-freundschaftsspiel-492.jpg/1280px-12-06-05-aut-rom-freundschaftsspiel-492.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "12 06 05 aut rom freundschaftsspiel 492",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/12-06-05-aut-rom-freundschaftsspiel-493.jpg/1280px-12-06-05-aut-rom-freundschaftsspiel-493.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "12 06 05 aut rom freundschaftsspiel 493",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9986.jpg/1280px-2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "2014 05 30 Austria   Iceland football match, pre game 9986",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/FS_741.273.jpg/960px-FS_741.273.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "FS 741.273",
-        "credit": "AUTORE SCONOSCIUTO — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9987.jpg/960px-2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9987.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Austria Iceland football match, pre game 9987",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9990.jpg/960px-2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9990.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Austria Iceland football match, pre game 9990",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9991.jpg/960px-2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9991.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Austria Iceland football match, pre game 9991",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9993.jpg/960px-2014-05-30_Austria_-_Iceland_football_match%2C_pre-game_9993.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Austria Iceland football match, pre game 9993",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Unidentified_logging_camp_near_Olympia%2C_Washington%2C_1897_%28INDOCC_514%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Unidentified logging camp near Olympia, Washington, 1897",
-        "credit": "Unknown authorUnknown author — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Olympia_Norrid-Mortensen_-_Pr%C3%A9sentation_TCFIA_2024.jpg/960px-Olympia_Norrid-Mortensen_-_Pr%C3%A9sentation_TCFIA_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Olympia Norrid Mortensen Présentation TCFIA 2024",
-        "credit": "Kakoula10 — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Skrivmskin_Olympia.jpg/960px-Skrivmskin_Olympia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Skrivmskin Olympia",
-        "credit": "TheSwordfish — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Religious_Affairs_Minister_Md_Faridul_Haque_Khan_inaugurates_free_medical_camp_at_Olympia_High_School_ground_for_Bishwa_Ijtema_attendees_Gazipur_2024-02-01_%28PID-0010997%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Religious Affairs Minister Md Faridul Haque Khan inaugurates free medical camp at Olympia ",
-        "credit": "Press Information Department — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Joint_Effort%2C_Soldiers_teach_Marines_to_become_jumpmasters_150311-M-TA826-001.jpg/960px-Joint_Effort%2C_Soldiers_teach_Marines_to_become_jumpmasters_150311-M-TA826-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Joint Effort, Soldiers teach Marines to become jumpmasters 150311 M TA826 001",
-        "credit": "Cpl. Kirstin Merrimarahajara — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/MND-B%27s_commander_honors_Taji_troopers_DVIDS62206.jpg/960px-MND-B%27s_commander_honors_Taji_troopers_DVIDS62206.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "MND B's commander honors Taji troopers DVIDS62206",
-        "credit": "Sgt. Shejal Pulivarti — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/2002197_Arnold_Schwarzenegger_visited_the_Camp_Pendleton_Base_Theater_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "2002197 Arnold Schwarzenegger visited the Camp Pendleton Base Theater 2015",
-        "credit": "Marine Corps Base Camp Pendleton — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Central_portion_of_panorama_of_Tatoosh_Range_viewed_from_Camp_of_the_Clouds%2C_Mount_Rainier%2C_August_1%2C_1895_%28WAITE_34%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Central portion of panorama of Tatoosh Range viewed from Camp of the Clouds, Mount Rainier",
-        "credit": "Alvin H. Waite — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Left-hand_portion_of_panorama_of_Tattoosh_Range_viewed_from_Camp_of_the_Clouds%2C_Mount_Rainier%2C_August_1%2C_1895_%28WAITE_72%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Left hand portion of panorama of Tattoosh Range viewed from Camp of the Clouds, Mount Rain",
-        "credit": "Alvin H. Waite — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Washington_state_military_leadership_1892.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Washington state military leadership 1892",
-        "credit": "State of Washington — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Techem_Messtechnik_GmbH_in_Innsbruck.jpg/960px-Techem_Messtechnik_GmbH_in_Innsbruck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Techem Messtechnik GmbH in Innsbruck",
-        "credit": "Alexander Sarlay — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Eagle_Saloon%2C_Renton%2C_Washington%2C_ca_1900_%28MOHAI_7027%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Eagle Saloon, Renton, Washington, ca. 1900",
-        "credit": "Unknown authorUnknown author — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Aerial_view_of_Camp_Harmony%2C_Puyallup%2C_Washington%2C_April_14%2C_1942_%28cropped%29.jpg/960px-Aerial_view_of_Camp_Harmony%2C_Puyallup%2C_Washington%2C_April_14%2C_1942_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Washington Olympia through Raymond",
-        "credit": "Unknown authorUnknown author or not provided — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logging_camp%2C_Mutual_Lumber_Company%2C_Bucoda%2C_ca_1930_%28KINSEY_399%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Logging camp, Mutual Lumber Company, Bucoda, ca. 1930",
-        "credit": "Clark Kinsey — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Railroad_logging_camp%2C_Turvey_Brothers_Logging_Company%2C_ca_1930_%28KINSEY_710%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Railroad logging camp, Turvey Brothers Logging Company, ca. 1930",
-        "credit": "Clark Kinsey — Wikimedia Commons, Public domain"
-      }
-    ]
+    "photos": [],
+    "source": "https://listini.camping.it/germany/trentinoaltoadige/olympia/prezzi.pdf"
   },
   {
     "id": "camping-cortina",
-    "nom": "Camping Olympia Cortina / Dolomiti",
+    "nom": "Camping Cortina (à confirmer)",
     "categorie": "camping",
     "gps": [
       46.5936,
@@ -3599,13 +3473,13 @@
     ],
     "commune": "Cortina d'Ampezzo (BL)",
     "altitude": 1300,
-    "resume": "Camping proche de Cortina, utile comme base pour Falzarego, Cinque Torri et Sorapis.",
+    "resume": "Camping Cortina distinct de Camping Olympia Cortina. Disponibilité en octobre et acceptation de la tente de toit encore en attente de réponse.",
     "prix": {
       "type": "payant",
       "montant": 35,
       "unite": "nuit",
       "annee_tarif": 2025,
-      "detail": "Estimation basse saison. Ouverture d'automne À CONFIRMER : beaucoup de campings de Cortina ferment fin septembre."
+      "detail": "Estimation 2025 sans confirmation pour octobre 2026 ; ne pas utiliser comme base de nuit avant réponse du camping."
     },
     "chien": {
       "admis": true,
@@ -3618,7 +3492,7 @@
     "eau": true,
     "ouverture": {
       "a_reverifier": true,
-      "note": "Ouverture en octobre à confirmer par téléphone avant de partir."
+      "note": "Dates 2026 à confirmer ; Camping Olympia Cortina est un autre établissement et annonce la fermeture en octobre–novembre."
     },
     "sources": [
       "camping"
@@ -3637,8 +3511,8 @@
     ],
     "liens": [
       {
-        "libelle": "Campings de Cortina",
-        "url": "https://www.dolomiti.org/en/cortina/"
+        "libelle": "Camping Cortina — site officiel",
+        "url": "https://www.campingcortina.it/"
       }
     ],
     "photos": [
@@ -3800,13 +3674,13 @@
     ],
     "commune": "Ortisei / St. Ulrich (BZ)",
     "altitude": 1236,
-    "resume": "Aire de stationnement en bord de village, à pied du départ des remontées de Seceda.",
+    "resume": "Stationnement référencé par park4night ; autorisation d’ouvrir une tente de toit et de dormir sur place non vérifiée. Simple piste, aucune nuit programmée.",
     "prix": {
       "type": "payant",
       "montant": 25,
       "unite": "nuit",
       "annee_tarif": 2025,
-      "detail": "Tarif et ouverture À VÉRIFIER sur place ou via park4night."
+      "detail": "Ancien montant indicatif ; nuit en tente de toit non confirmée. Ne pas considérer cette aire comme un camping réservé."
     },
     "services": [
       "eau",
@@ -3991,193 +3865,6 @@
       }
     ],
     "recherche_photo": "Ortisei"
-  },
-  {
-    "id": "agricamper-alto-adige",
-    "nom": "Agricamper Italia — fermes du Haut-Adige",
-    "categorie": "agricamper",
-    "gps": [
-      46.6,
-      11.75
-    ],
-    "commune": "Haut-Adige (BZ) — plusieurs fermes",
-    "resume": "Réseau de fermes, domaines viticoles et brasseries offrant 24 h de stationnement gratuit aux adhérents. Point indicatif : les adresses exactes se consultent dans l'application après adhésion.",
-    "prix": {
-      "type": "payant",
-      "montant": 34.9,
-      "unite": "abonnement annuel",
-      "annee_tarif": 2025,
-      "detail": "34,90 €/an pour l'accès à plus de 250 structures en Italie. Les nuits sont ensuite gratuites (24 h)."
-    },
-    "chien": {
-      "admis": true,
-      "note": "Filtre « animaux admis » disponible dans l'application."
-    },
-    "ouverture": {
-      "a_reverifier": true,
-      "note": "Ouverture de chaque ferme variable en octobre : vérifier dans l'application."
-    },
-    "reserver": {
-      "obligatoire": true,
-      "url": "https://www.agricamper.com"
-    },
-    "sources": [
-      "agricamper"
-    ],
-    "etiquettes": [
-      "gratuit apres abonnement",
-      "a verifier"
-    ],
-    "niveau_prix": "€",
-    "equipements": [
-      "calme",
-      "chien",
-      "ouvert-annee",
-      "reservation"
-    ],
-    "liens": [
-      {
-        "libelle": "Agricamper Italia — adhésion",
-        "url": "https://www.agricamper.com"
-      },
-      {
-        "libelle": "Comment ça marche",
-        "url": "https://www.agricamper.com/en/"
-      }
-    ],
-    "photos": [
-      {
-        "legende": "Vernatsch vineyard in Tirolo, Trentino Alto Adige Italy",
-        "credit": "southtyrolean — Wikimedia Commons, CC BY 2.0",
-        "fichier": "agricamper-alto-adige-1.jpg"
-      },
-      {
-        "legende": "Hoila Cider from Zingerle, Bolzano, South Tyrol 0561 S6",
-        "credit": "Hubertl — Wikimedia Commons, CC BY-SA 4.0",
-        "fichier": "agricamper-alto-adige-2.jpg"
-      },
-      {
-        "legende": "Hoila Cider from Zingerle, Bolzano, South Tyrol 0633",
-        "credit": "Hubertl — Wikimedia Commons, CC BY-SA 4.0",
-        "fichier": "agricamper-alto-adige-3.jpg"
-      },
-      {
-        "legende": "Hoila Cider from Zingerle, Bolzano, South Tyrol 0679",
-        "credit": "Hubertl — Wikimedia Commons, CC BY-SA 4.0",
-        "fichier": "agricamper-alto-adige-4.jpg"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Alto_Adige_Voy_Map.png/1280px-Alto_Adige_Voy_Map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Alto Adige Voy Map",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/10_Sprinklers_in_vineyard_-_Trentino-Alto_Adige%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "10 Sprinklers in vineyard   Trentino Alto Adige, Italy",
-        "credit": "Marek Ślusarczyk (Tupungato) Photo gallery — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/St_Nikolaus_Mittelberg_South_Tyrol_Rainbow.jpg/1280px-St_Nikolaus_Mittelberg_South_Tyrol_Rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "St Nikolaus Mittelberg South Tyrol Rainbow",
-        "credit": "C-M — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Frea_pass_Sella_group_Pisciadu_Dolomites_South_Tyrol.jpg/1280px-Frea_pass_Sella_group_Pisciadu_Dolomites_South_Tyrol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Frea pass Sella group Pisciadu Dolomites South Tyrol",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Lago_di_Braies_South_Tyrol_3.jpg/1280px-Lago_di_Braies_South_Tyrol_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Lago di Braies South Tyrol 3",
-        "credit": "kallerna — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Lago_di_Braies_South_Tyrol_7.jpg/1280px-Lago_di_Braies_South_Tyrol_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Lago di Braies South Tyrol 7",
-        "credit": "kallerna — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Lago_di_Braies_South_Tyrol_9.jpg/960px-Lago_di_Braies_South_Tyrol_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Lago di Braies South Tyrol 9",
-        "credit": "kallerna — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Lago_di_Carezza_and_Latemar%2C_Carezza%2C_Trentino-Alto_Adige%2C_Italy%2C_2025_October.jpg/960px-Lago_di_Carezza_and_Latemar%2C_Carezza%2C_Trentino-Alto_Adige%2C_Italy%2C_2025_October.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Lago di Carezza and Latemar, Carezza, Trentino Alto Adige, Italy, 2025 October",
-        "credit": "Ximonic (Simo Räsänen) — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Cima_di_Vezzana_and_Cimon_della_Pala%2C_San_Martino_di_Castrozza%2C_Trentino-Alto_Adige%2C_Italy%2C_2025_October.jpg/960px-Cima_di_Vezzana_and_Cimon_della_Pala%2C_San_Martino_di_Castrozza%2C_Trentino-Alto_Adige%2C_Italy%2C_2025_October.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Cima di Vezzana and Cimon della Pala, San Martino di Castrozza, Trentino Alto Adige, Italy",
-        "credit": "Ximonic (Simo Räsänen) — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Valle_della_Rienza_and_Tre_Cime_di_Lavaredo_from_Alpe_Specie%2C_Val_Pusteria%2C_Trentino-Alto_Adige%2C_Italy%2C_2025_October.jpg/960px-Valle_della_Rienza_and_Tre_Cime_di_Lavaredo_from_Alpe_Specie%2C_Val_Pusteria%2C_Trentino-Alto_Adige%2C_Italy%2C_2025_October.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Valle della Rienza and Tre Cime di Lavaredo from Alpe Specie, Val Pusteria, Trentino Alto ",
-        "credit": "Ximonic (Simo Räsänen) — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Cristallo_group_from_Prato_Piazza%2C_Val_Pusteria%2C_Trentino-Alto_Adige%2C_Italy%2C_2025_October.jpg/960px-Cristallo_group_from_Prato_Piazza%2C_Val_Pusteria%2C_Trentino-Alto_Adige%2C_Italy%2C_2025_October.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Cristallo group from Prato Piazza, Val Pusteria, Trentino Alto Adige, Italy, 2025 October",
-        "credit": "Ximonic (Simo Räsänen) — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Wikimedia_vert_trentino-alto_adige_white.png/960px-Wikimedia_vert_trentino-alto_adige_white.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Wikimedia vert trentino alto adige white",
-        "credit": "Wikimedia Italia — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/South_Tyrol_wooden_footbridge.JPG/960px-South_Tyrol_wooden_footbridge.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "South Tyrol wooden footbridge",
-        "credit": "Benreis — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Trentino-Alto_Adige_travel_regions_map_EN.png/960px-Trentino-Alto_Adige_travel_regions_map_EN.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Trentino Alto Adige travel regions map EN",
-        "credit": "Shaundd — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Partition_Plans_for_South_Tyrol_1945-1946.png/960px-Partition_Plans_for_South_Tyrol_1945-1946.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Partition Plans for South Tyrol",
-        "credit": "Mullerkingdom — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mountain_creek_on_Nova_Levante-Lake_Carezza_Trail%2C_South_Tyrol_01.jpg/960px-Mountain_creek_on_Nova_Levante-Lake_Carezza_Trail%2C_South_Tyrol_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Mountain creek on Nova Levante Lake Carezza Trail, South Tyrol 01",
-        "credit": "Marco Ober — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Lago_di_Braies_South_Tyrol_5.jpg/960px-Lago_di_Braies_South_Tyrol_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Lago di Braies South Tyrol 5",
-        "credit": "kallerna — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Lago_di_Braies_South_Tyrol_6.jpg/960px-Lago_di_Braies_South_Tyrol_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Lago di Braies South Tyrol 6",
-        "credit": "kallerna — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Wikimedia_vert_trentino-alto_adige_verde.png/960px-Wikimedia_vert_trentino-alto_adige_verde.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Wikimedia vert trentino alto adige verde",
-        "credit": "Wikimedia Italia — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Wikimedia_vert_trentino-alto_adige_s%C3%BCdtirol_verde.png/960px-Wikimedia_vert_trentino-alto_adige_s%C3%BCdtirol_verde.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Wikimedia vert trentino alto adige südtirol verde",
-        "credit": "Simona Cannataro (WMIT) — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Wikimedia_vert_trentino-alto_adige_s%C3%BCdtirol_bianco.png/960px-Wikimedia_vert_trentino-alto_adige_s%C3%BCdtirol_bianco.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Wikimedia vert trentino alto adige südtirol bianco",
-        "credit": "Simona Cannataro (WMIT) — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/05_Alto_Adige.jpg/960px-05_Alto_Adige.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "05 Alto Adige",
-        "credit": "Marco Zulberti — Wikimedia Commons, CC BY-SA 4.0"
-      }
-    ],
-    "recherche_photo": "Alto Adige vineyard"
   },
   {
     "id": "station-brennero",
@@ -4477,126 +4164,6 @@
     "recherche_photo": "Vallee du Rhone paysage"
   },
   {
-    "id": "etape-savone",
-    "nom": "Étape de route — Savone / Vado Ligure",
-    "categorie": "etape-route",
-    "gps": [
-      44.27341,
-      8.42271
-    ],
-    "commune": "Vado Ligure / Savone (Italie)",
-    "resume": "Halte intermédiaire du scénario 9–19 octobre, placée autour de la moitié du trajet Saint-Gély-du-Fesc → Val Gardena.",
-    "prix": {
-      "type": "variable",
-      "detail": "Aire, camping ou halte Park4Night à choisir selon l'heure d'arrivée."
-    },
-    "sources": [
-      "itineraire"
-    ],
-    "etiquettes": [
-      "etape mi-chemin",
-      "a preciser"
-    ],
-    "niveau_prix": "€",
-    "equipements": [
-      "calme",
-      "chien"
-    ],
-    "recherche_photo": "Savona Liguria landscape",
-    "photos": [
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Murialdo-chiesa_san_Lorenzo1.jpg/960px-Murialdo-chiesa_san_Lorenzo1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Murialdo chiesa san Lorenzo1",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Murialdo-chiesa_san_Lorenzo6.jpg/960px-Murialdo-chiesa_san_Lorenzo6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Murialdo chiesa san Lorenzo6",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_III%C2%B0_-_Albisola_Superiore_-Savona.tif/lossy-page1-960px-Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_III%C2%B0_-_Albisola_Superiore_-Savona.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Villa Romana, i resti nella luce di un tramonto settembrino foto III° Albisola Superiore S",
-        "credit": "Karloskarate — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_I%C2%B0_-_Albisola_Superiore_-Savona.tif/lossy-page1-960px-Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_I%C2%B0_-_Albisola_Superiore_-Savona.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Villa Romana, i resti nella luce di un tramonto settembrino foto I° Albisola Superiore Sav",
-        "credit": "Karloskarate — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_II%C2%B0_-_Albisola_Superiore_-Savona.tif/lossy-page1-960px-Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_II%C2%B0_-_Albisola_Superiore_-Savona.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Villa Romana, i resti nella luce di un tramonto settembrino foto II° Albisola Superiore Sa",
-        "credit": "Karloskarate — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_in_BN_%C2%B0_-_Albisola_Superiore_-Savona.tif/lossy-page1-960px-Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_in_BN_%C2%B0_-_Albisola_Superiore_-Savona.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Villa Romana, i resti nella luce di un tramonto settembrino foto in BN ° Albisola Superior",
-        "credit": "Karloskarate — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_IV%C2%B0_-_Albisola_Superiore_-Savona.tif/lossy-page1-960px-Villa_Romana%2C_i_resti_nella_luce_di_un_tramonto_settembrino-_foto_IV%C2%B0_-_Albisola_Superiore_-Savona.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Villa Romana, i resti nella luce di un tramonto settembrino foto IV° Albisola Superiore Sa",
-        "credit": "Karloskarate — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%22Il_moderno..._che_utilizza_ancora_l%27antico%21_%22_Transito_attraverso_il_terzo_ponte_romano_di_Quiliano-Savona.tif/lossy-page1-960px-%22Il_moderno..._che_utilizza_ancora_l%27antico%21_%22_Transito_attraverso_il_terzo_ponte_romano_di_Quiliano-Savona.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "\"Il moderno... che utilizza ancora l'antico! \" Transito attraverso il terzo ponte romano d",
-        "credit": "Karloskarate — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Il_Terzo_ponte_Romano_di_Quiliano_-Savona.tif/lossy-page1-960px-Il_Terzo_ponte_Romano_di_Quiliano_-Savona.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Il Terzo ponte Romano di Quiliano Savona",
-        "credit": "Karloskarate — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Savona_%28260099911%29.jpeg/960px-Savona_%28260099911%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Savona",
-        "credit": "Roberta Salamone — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Waves_%28260100467%29.jpeg/960px-Waves_%28260100467%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Waves",
-        "credit": "Roberta Salamone — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Tramonto_A_Savona_%28260101359%29.jpeg/960px-Tramonto_A_Savona_%28260101359%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Tramonto A Savona",
-        "credit": "Roberta Salamone — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Sanremo_-_Manuel_Wielandt_%281913%29.jpg/960px-Sanremo_-_Manuel_Wielandt_%281913%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Sanremo Manuel Wielandt (1913)",
-        "credit": "Manuel Wielandt — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Sanremo_-_Manuel_Wielandt_%281913%29_-_back.jpg/960px-Sanremo_-_Manuel_Wielandt_%281913%29_-_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Sanremo Manuel Wielandt (1913) back",
-        "credit": "Manuel Wielandt — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Manifattura_siccardi%2C_catino%2C_liguria_xviii_secolo.jpg/960px-Manifattura_siccardi%2C_catino%2C_liguria_xviii_secolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Manifattura siccardi, catino, liguria xviii secolo",
-        "credit": "Sailko — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Manifattura_siccardi%2C_crespina%2C_liguria_xviii_secolo.jpg/960px-Manifattura_siccardi%2C_crespina%2C_liguria_xviii_secolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Manifattura siccardi, crespina, liguria xviii secolo",
-        "credit": "Sailko — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Savona_o_liguria%2C_alzata_in_blu%2C_xviii_sec.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Savona o liguria, alzata in blu, xviii sec",
-        "credit": "Francesco Bini — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Savona_o_liguria%2C_crespina_in_bruno_e_giallo%2C_1710_ca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Savona o liguria, crespina in bruno e giallo, 1710 ca",
-        "credit": "Francesco Bini — Wikimedia Commons, CC BY-SA 4.0"
-      }
-    ]
-  },
-  {
     "id": "sass-pordoi",
     "nom": "Sass Pordoi",
     "categorie": "remontee",
@@ -4611,9 +4178,10 @@
     "prix": {
       "type": "payant",
       "adulte_ar": 32,
-      "unite": "aller-retour",
+      "unite": "2 adultes A/R, chien en sus éventuel",
       "annee_tarif": 2026,
-      "detail": "Aller-retour adulte. Tarif chien non publié : prévoir de quoi payer un supplément."
+      "detail": "2 × 32 € ; tarif chien et conditions météo à contrôler.",
+      "montant": 64
     },
     "ouverture": {
       "fin_saison": "2026-11-01",
@@ -5307,7 +4875,8 @@
         "legende": "Lago di Dobbiaco (8)",
         "credit": "Samuel Boatto — Wikimedia Commons, CC BY-SA 4.0"
       }
-    ]
+    ],
+    "acces_route": "parking-lago-dobbiaco"
   },
   {
     "id": "passo-gardena",
@@ -5958,190 +5527,449 @@
     ]
   },
   {
-    "id": "etape-route-ligurie",
-    "nom": "Étape de route — Finale Ligure",
-    "categorie": "etape-route",
+    "id": "camping-loewenhof",
+    "nom": "Camping Löwenhof — Bressanone",
+    "categorie": "camping",
     "gps": [
-      44.1738,
-      8.3547
+      46.73444,
+      11.64722
     ],
-    "commune": "Finale Ligure (Ligurie, Italie)",
-    "resume": "Coupure de l'aller au voisinage de la moitié du trajet : environ 5 h depuis Saint-Gély-du-Fesc et environ 5 h jusqu'au Val Gardena.",
+    "commune": "Varna / Bressanone (BZ)",
+    "resume": "Base ouest pour Funes, Seceda et Alpe di Siusi. Emplacements et sanitaires ; tente de toit sur voiture et tarif complet encore à confirmer par écrit.",
     "prix": {
-      "type": "variable",
-      "detail": "Aire, camping ou stationnement adapté à choisir selon l'heure d'arrivée."
+      "type": "payant",
+      "montant": 45,
+      "unite": "nuit, hypothèse 2 adultes + chien",
+      "annee_tarif": 2026,
+      "detail": "Budget provisoire 45 €/nuit ; emplacements annoncés à partir de 39 € pour deux personnes, taxes et chien en sus. Devis du 10–14 octobre demandé."
     },
-    "sources": [
-      "itineraire-google-maps",
-      "calcul-trace"
-    ],
-    "lien_p4n": "https://park4night.com/",
-    "etiquettes": [
-      "étape aller",
-      "à préciser"
-    ],
-    "niveau_prix": "€",
+    "chien": {
+      "admis": true,
+      "note": "Accueil et tarif pour Prince à confirmer pour ces dates."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Disponibilité 10–14 octobre et acceptation explicite de la tente de toit attendues ; certaines catégories sont interdites aux tentes classiques."
+    },
+    "source": "https://www.loewenhof.it/en/camping/pitches",
+    "niveau_prix": "€€",
     "equipements": [
-      "calme",
+      "douches",
+      "toilettes",
+      "eau",
+      "electricite",
+      "chien",
+      "laverie"
+    ],
+    "liens": [
+      {
+        "libelle": "Camping Löwenhof — emplacements",
+        "url": "https://www.loewenhof.it/en/camping/pitches"
+      }
+    ]
+  },
+  {
+    "id": "camping-sass-dlacia",
+    "nom": "Camping Sass Dlacia — Alta Badia",
+    "categorie": "camping",
+    "gps": [
+      46.5541,
+      11.96999
+    ],
+    "commune": "San Cassiano (BZ)",
+    "altitude": 1690,
+    "resume": "Base centrale pour Lagazuoi, Fanes et les cols. Des emplacements pour tente de toit et chien sont proposés par Pitchup ; disponibilité du 14 au 18 octobre et prix total encore attendus du camping.",
+    "prix": {
+      "type": "payant",
+      "montant": 44,
+      "unite": "nuit, estimation 2 adultes + chien + taxes",
+      "annee_tarif": 2026,
+      "detail": "Devis reçu le 28 septembre : 140 € les 4 nuits pour deux adultes (35 €/nuit), plus taxe 2,30 €/adulte/nuit. Chien omis du devis (hypothèse 4 €/nuit en attendant confirmation) ; électricité facultative au compteur. Aucun emplacement réservé."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chien admis sur les emplacements (pas de limite de poids selon annonce Pitchup) ; montant exact et disponibilité à confirmer."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Offre nominative reçue pour le 14–18 octobre 2026, non bloquée ; accueil du chien et configuration tente de toit sur emplacement précis à confirmer."
+    },
+    "source": "https://campingsassdlacia.it/en/accommodations/useful-informations",
+    "niveau_prix": "€€",
+    "equipements": [
+      "douches",
+      "toilettes",
+      "eau",
+      "electricite",
       "chien"
     ],
     "liens": [
       {
-        "libelle": "Chercher une halte sur park4night",
-        "url": "https://park4night.com/"
+        "libelle": "Camping Sass Dlacia — emplacements",
+        "url": "https://campingsassdlacia.it/it/alloggi/piazzole"
+      },
+      {
+        "libelle": "Conditions et taxe de séjour",
+        "url": "https://campingsassdlacia.it/en/accommodations/useful-informations"
+      },
+      {
+        "libelle": "Pitchup — tente de toit et avis septembre 2026",
+        "url": "https://www.pitchup.com/de/campsites/italy/trentino-alto-adige/bolzano/san_cassiano/camping_sass_dlacia/?facet=roof-tent&pitchtype=22704"
       }
+    ]
+  },
+  {
+    "id": "parking-col-raiser",
+    "nom": "Parking gare basse du Col Raiser",
+    "categorie": "parking",
+    "gps": [
+      46.56508,
+      11.73651
     ],
-    "recherche_photo": "Finale Ligure Ligurie",
-    "photos": [
+    "commune": "Santa Cristina Val Gardena (BZ)",
+    "resume": "Point de départ routier de la télécabine Col Raiser ; stationnement payant.",
+    "prix": {
+      "type": "variable",
+      "detail": "Parking payant ; prix actuel à vérifier. À ajouter au budget avant départ."
+    },
+    "source": "https://www.valgardena.it/en/addresses/detail/base/poi/selva-di-val-gardena/parking-col-raiser/90F07BDD272E416197A9AD912EA2F5A7/",
+    "equipements": [
+      "parking",
+      "acces-voiture"
+    ],
+    "liens": [
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-facciata.jpg/960px-Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-facciata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Calice al Cornoviglio chiesa nostra signora di loreto facciata",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+        "libelle": "Parking Col Raiser — Val Gardena",
+        "url": "https://www.valgardena.it/en/addresses/detail/base/poi/selva-di-val-gardena/parking-col-raiser/90F07BDD272E416197A9AD912EA2F5A7/"
+      }
+    ]
+  },
+  {
+    "id": "parking-alpe-p1",
+    "nom": "P1 Spitzbühl — Alpe di Siusi",
+    "categorie": "parking",
+    "gps": [
+      46.538,
+      11.6051
+    ],
+    "commune": "Alpe di Siusi (BZ)",
+    "resume": "Parking de jour à 15 € pour la voiture. Compter environ 30 minutes de montée à pied pour Compatsch, plus le retour.",
+    "prix": {
+      "type": "payant",
+      "montant": 15,
+      "unite": "voiture / jour",
+      "annee_tarif": 2026,
+      "detail": "P1 Spitzbühl, 15 € par voiture en saison. Réservation en ligne jusqu’à 6 jours avant la visite ; sans réservation, pas d’accès."
+    },
+    "reserver": {
+      "obligatoire": true,
+      "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Accès en voiture avant 9 h ; arriver avant 9 h, malgré le créneau de contrôle 9 h 30. Sortie en journée autorisée, stationnement de nuit interdit."
+    },
+    "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
+    "chien": {
+      "admis": true,
+      "note": "Marche de liaison d’environ 30 minutes jusqu’à Compatsch, à adapter à Prince."
+    },
+    "niveau_prix": "€",
+    "equipements": [
+      "parking",
+      "acces-voiture",
+      "reservation"
+    ],
+    "liens": [
+      {
+        "libelle": "Parkings P1/P2 — prix et accès officiels",
+        "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
+      }
+    ]
+  },
+  {
+    "id": "parking-alpe-p2",
+    "nom": "P2 Compatsch — Alpe di Siusi",
+    "categorie": "parking",
+    "gps": [
+      46.5399,
+      11.617
+    ],
+    "commune": "Alpe di Siusi (BZ)",
+    "resume": "Parking de jour à Compatsch, proche du plateau ; alternative sans la marche de liaison du P1.",
+    "prix": {
+      "type": "payant",
+      "montant": 30,
+      "unite": "voiture / jour",
+      "annee_tarif": 2026,
+      "detail": "P2 Compatsch, 30 € par voiture. Réservation en ligne préalable, dans les 6 jours avant la date souhaitée."
+    },
+    "reserver": {
+      "obligatoire": true,
+      "url": "https://www.seiseralm.it/en/info-service/mobility/parking.html"
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Arriver avant 9 h en voiture ; sortie en journée autorisée. Pas de nuit sur ce parking."
+    },
+    "source": "https://www.seiseralm.it/en/info-service/mobility/parking.html",
+    "niveau_prix": "€€",
+    "equipements": [
+      "parking",
+      "acces-voiture",
+      "reservation"
+    ],
+    "liens": [
+      {
+        "libelle": "P2 Compatsch — accès et tarifs",
+        "url": "https://www.seiseralm.it/en/info-service/current-information/information-a-z/9AA771C79C64046677206620236F645F-p-parking-p2-compatsch.html"
+      }
+    ]
+  },
+  {
+    "id": "parking-bai-de-dones",
+    "nom": "Bai de Dones — départ 5 Torri à pied",
+    "categorie": "parking",
+    "gps": [
+      46.5189,
+      12.0379
+    ],
+    "commune": "Passo Falzarego (BL)",
+    "resume": "Départ à pied pour les Cinque Torri après fermeture du télésiège le 11 octobre ; vérifier sentier et enneigement.",
+    "prix": {
+      "type": "variable",
+      "detail": "Conditions et éventuel stationnement à vérifier sur place."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Parking de jour uniquement ; sentier conditionné par météo et enneigement."
+    },
+    "source": "https://5torri.it/EN/p38-Lift-facilities-Summer",
+    "equipements": [
+      "parking",
+      "acces-voiture"
+    ],
+    "liens": [
+      {
+        "libelle": "Remontées 5 Torri — saison 2026",
+        "url": "https://5torri.it/EN/p38-Lift-facilities-Summer"
+      }
+    ]
+  },
+  {
+    "id": "ferme-gletscher-hons",
+    "nom": "Ferme Zum Gletscher Hons — Val di Funes",
+    "categorie": "agricamper",
+    "gps": [
+      46.64225,
+      11.72015
+    ],
+    "commune": "Santa Maddalena / Funes (BZ)",
+    "resume": "Ferme avec emplacements, chien admis, électricité ; tente de toit à confirmer directement. Base idéale pour les Odle, moins pratique pour les deux autres journées à Val Gardena. Séjour limité à trois nuits selon l’annuaire, devis demandé pour le 10–13 octobre.",
+    "prix": {
+      "type": "payant",
+      "montant": 42,
+      "unite": "nuit, estimation 2 adultes avec taxe",
+      "annee_tarif": 2026,
+      "detail": "Annuaire : 37 € emplacement + environ 5 € de taxes pour deux adultes ; vérifier chien, tente de toit et devis exact."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chien admis selon office de tourisme ; supplément éventuel demandé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Réponse à la demande 10–13 octobre attendue ; accueil d’une voiture avec tente de toit non confirmé."
+    },
+    "source": "https://www.zumgletscherhons.com/",
+    "niveau_prix": "€€",
+    "equipements": [
+      "electricite",
+      "chien"
+    ],
+    "liens": [
+      {
+        "libelle": "Ferme — site officiel",
+        "url": "https://www.zumgletscherhons.com/"
       },
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-navata.jpg/960px-Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-navata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Calice al Cornoviglio chiesa nostra signora di loreto navata",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+        "libelle": "Office de tourisme — accueil chiens",
+        "url": "https://www.odlesdolomites.com/en/accommodations/C87E93A37AAE756F4256E175636B7B34"
+      }
+    ]
+  },
+  {
+    "id": "courses-conad-savone",
+    "nom": "Conad Superstore Savone — courses avec chien",
+    "categorie": "supermarche",
+    "gps": [
+      44.30055,
+      8.46509
+    ],
+    "commune": "Via Stalingrado / Piazza Simone Weil 4r, Savone",
+    "resume": "Courses de départ sur l’axe ligure : accès animaux et chariots pour animaux indiqués sur la fiche officielle. Parking extérieur à privilégier avec la voiture haute de 1,95 m ; vérifier sur place la taille admise dans les chariots. Ce parking n’est pas une nuitée.",
+    "prix": {
+      "type": "variable",
+      "unite": "courses"
+    },
+    "chien": {
+      "admis": true,
+      "note": "Accès animaux et chariots pour animaux déclarés par ce magasin ; demander à l’accueil le mode d’installation adapté à Prince."
+    },
+    "source": "https://www.conad.it/ricerca-negozi/conad-superstore-via-stalingrado-piazza-simone-weil-4r-17100-savona--008482",
+    "equipements": [
+      "chien"
+    ],
+    "liens": [
+      {
+        "libelle": "Conad — magasin et horaires",
+        "url": "https://www.conad.it/ricerca-negozi/conad-superstore-via-stalingrado-piazza-simone-weil-4r-17100-savona--008482"
+      }
+    ]
+  },
+  {
+    "id": "parking-lago-dobbiaco",
+    "nom": "Parking de jour — Lago di Dobbiaco",
+    "categorie": "parking",
+    "gps": [
+      46.70491,
+      12.22025
+    ],
+    "commune": "Dobbiaco (BZ)",
+    "resume": "Parking de visite pour le tour du lac. Stationnement payant selon la commune depuis juin 2026 ; prix et signalisation à lire sur place. Aucun bivouac nocturne.",
+    "prix": {
+      "type": "variable",
+      "unite": "stationnement de jour"
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Tarifs 2026 et accès à contrôler sur les panneaux."
+    },
+    "source": "https://dobbiaco.eu/it/Novita/Avvisi/Nuova_regolamentazione_per_i_parcheggi_a_pagamento_da_giugno_2026_in_poi",
+    "liens": [
+      {
+        "libelle": "Commune — stationnement 2026",
+        "url": "https://dobbiaco.eu/it/Novita/Avvisi/Nuova_regolamentazione_per_i_parcheggi_a_pagamento_da_giugno_2026_in_poi"
+      }
+    ]
+  },
+  {
+    "id": "camping-tahiti-finale",
+    "nom": "Camping Tahiti — Finale Ligure",
+    "categorie": "camping",
+    "gps": [
+      44.17575,
+      8.35091
+    ],
+    "commune": "Via Varese 2, Finale Ligure (SV)",
+    "resume": "Nuit intermédiaire du 9 au 10 octobre pour le scénario via Finale. Un avis de mai 2026 relate une tente de toit avec chien. Disponibilité, arrivée en soirée et accès voiture de 1,95 m demandés ; aucune réservation.",
+    "prix": {
+      "type": "payant",
+      "montant": 50,
+      "unite": "nuit, estimation 2 adultes + chien + taxe",
+      "annee_tarif": 2026,
+      "detail": "Barème publié du 20 mars au 8 novembre : 45 € grand emplacement avec deux adultes, chien 3 €, taxe 0,70 € par adulte = 49,40 €. Électricité facultative 4,50 € ; prix et affectation précis à confirmer."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chien 3 € au tarif publié ; un avis de mai 2026 confirme la tente de toit avec chien, place du 9/10 à confirmer."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Saison publiée couvrant le 9 octobre ; horaire limite arrivée tardive et disponibilité demandés par mail."
+    },
+    "source": "https://www.campingtahitifinaleligure.it/listino-prezzi-campeggi-finale-ligure",
+    "equipements": [
+      "electricite",
+      "chien",
+      "toilettes",
+      "douches"
+    ],
+    "niveau_prix": "€€",
+    "liens": [
+      {
+        "libelle": "Tarifs 2026, saison et chien",
+        "url": "https://www.campingtahitifinaleligure.it/listino-prezzi-campeggi-finale-ligure"
       },
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-dipinto1.jpg/960px-Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-dipinto1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Calice al Cornoviglio chiesa nostra signora di loreto dipinto1",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+        "libelle": "Avis tente de toit et chien (mai 2026)",
+        "url": "https://www.tripadvisor.it/Hotel_Review-g194761-d4764779-Reviews-Camping_Tahiti-Finale_Ligure_Italian_Riviera_Liguria.html"
       },
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-dipinto2.jpg/960px-Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-dipinto2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Calice al Cornoviglio chiesa nostra signora di loreto dipinto2",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
+        "libelle": "Accès depuis A10",
+        "url": "https://www.campingtahitifinaleligure.it/dove-siamo-campeggio-finale-ligure-savona"
+      }
+    ]
+  },
+  {
+    "id": "courses-conad-varazze",
+    "nom": "Conad City Varazze — courses avec chien",
+    "categorie": "supermarche",
+    "gps": [
+      44.36421,
+      8.575075
+    ],
+    "commune": "Via Piave 30, Varazze (SV)",
+    "resume": "Courses en fin de première étape avant Cogoleto. Fiche Conad : accès animaux, chariots adaptés et parking extérieur. Le vendredi, 15 h 30–19 h 30 ; demander si Prince peut utiliser un chariot. Parking uniquement pour les courses.",
+    "prix": {
+      "type": "variable",
+      "unite": "courses"
+    },
+    "chien": {
+      "admis": true,
+      "note": "Accès animaux et chariots animaux annoncés sur la fiche du magasin ; modalités selon taille de Prince à vérifier."
+    },
+    "source": "https://www.conad.it/ricerca-negozi/conad-city-via-piave-30-17019-varazze--003238",
+    "equipements": [
+      "chien"
+    ],
+    "liens": [
+      {
+        "libelle": "Fiche magasin et horaires vendredi",
+        "url": "https://www.conad.it/ricerca-negozi/conad-city-via-piave-30-17019-varazze--003238"
+      }
+    ]
+  },
+  {
+    "id": "camping-green-europa-cogoleto",
+    "nom": "Green Family Park Europa — Cogoleto",
+    "categorie": "camping",
+    "gps": [
+      44.39667,
+      8.63462
+    ],
+    "commune": "Via della Pace 42, Cogoleto (GE)",
+    "resume": "Alternative économique pour le 9 au 10 octobre ; emplacement XL compatible tente de toit et voiture, chien payant. Suivre Via della Pace, éviter Via Ronco et Via Magetti selon la consigne d’accès publiée ; pente signalée par des avis. Arrivée et gabarit 1,95 m à confirmer, aucune réservation.",
+    "prix": {
+      "type": "payant",
+      "montant": 39,
+      "unite": "nuit, simple hypothèse pour 2 adultes + chien",
+      "detail": "Pitchup affiche un prix d’appel à partir de 32 € pour deux sur emplacement XL plus 5 € par chien ; ce prix ne confirme pas celui du 9/10/2026. Hypothèse budgétaire 39 €, taxe locale et prix de la date inconnus. Électricité facultative 3 €/nuit, 2 A, selon l’annonce."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chiens admis, supplément affiché 5 €/nuit sur Pitchup ; laisse et surveillance requises."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert jusqu'au 11 octobre 2026 selon Pitchup ; horaire affiché d'arrivée 15–20 h, arrivée 20–21 h demandée par mail le 28/09."
+    },
+    "source": "https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent",
+    "equipements": [
+      "electricite",
+      "chien",
+      "toilettes",
+      "douches"
+    ],
+    "niveau_prix": "€",
+    "liens": [
+      {
+        "libelle": "Site officiel et contact",
+        "url": "https://www.campingeuropaunita.com/"
       },
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-statua.jpg/960px-Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-statua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Calice al Cornoviglio chiesa nostra signora di loreto statua",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-altare_maggiore.jpg/960px-Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-altare_maggiore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Calice al Cornoviglio chiesa nostra signora di loreto altare maggiore",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-dipinto3.jpg/960px-Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-dipinto3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Calice al Cornoviglio chiesa nostra signora di loreto dipinto3",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-crocifisso.jpg/960px-Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-crocifisso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Calice al Cornoviglio chiesa nostra signora di loreto crocifisso",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-dipinto4.jpg/960px-Calice_al_Cornoviglio-chiesa_nostra_signora_di_loreto-dipinto4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Calice al Cornoviglio chiesa nostra signora di loreto dipinto4",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Finale_Ligure-chiesa_dei_cinque_campanili_di_Perti.jpg/960px-Finale_Ligure-chiesa_dei_cinque_campanili_di_Perti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Finale Ligure chiesa dei cinque campanili di Perti",
-        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/5Campaniles.jpg/960px-5Campaniles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "5Campaniles",
-        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Perti_%28Finale_Ligure%29-chiesa_dei_Cinque_Campanili.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "legende": "Perti (Finale Ligure) chiesa dei Cinque Campanili",
-        "credit": "Antonello Piccone at Italian Wikipedia — Wikimedia Commons, CC BY-SA 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Chiesa_di_Nostra_Signora_di_Loreto_a_Perti_vista_da_Piazza_Milite_Ignoto_-_Finalborgo.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_a_Perti_vista_da_Piazza_Milite_Ignoto_-_Finalborgo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto a Perti vista da Piazza Milite Ignoto Finalborgo",
-        "credit": "Capricornis crispus — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mamoiada%2C_nostra_signora_di_loreto_01.jpg/960px-Mamoiada%2C_nostra_signora_di_loreto_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Mamoiada, nostra signora di loreto 01",
-        "credit": "Sailko — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Chiesa_di_ns_di_Loreto%2C_Eingang_P1293879b.jpg/960px-Chiesa_di_ns_di_Loreto%2C_Eingang_P1293879b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di ns di Loreto, Eingang P1293879b",
-        "credit": "Schoschi — Wikimedia Commons, CC BY 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Santuario_di_Nostra_Signora_di_Loreto.jpg/960px-Santuario_di_Nostra_Signora_di_Loreto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Santuario di Nostra Signora di Loreto",
-        "credit": "Al*from*Lig — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_03.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto (Nizza Monferrato) 03",
-        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_05.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto (Nizza Monferrato) 05",
-        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_11.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto (Nizza Monferrato) 11",
-        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Cappella_di_Nostra_Signora_di_Loreto%2C_Ronco_S._%28GE%29.jpg/960px-Cappella_di_Nostra_Signora_di_Loreto%2C_Ronco_S._%28GE%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Cappella di Nostra Signora di Loreto, Ronco S. (GE)",
-        "credit": "Paolocarminati81 — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Chiesa_Nostra_Signora_di_Loreto_-_Alessandria.jpg/960px-Chiesa_Nostra_Signora_di_Loreto_-_Alessandria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa Nostra Signora di Loreto Alessandria",
-        "credit": "Original uploader was Tony Frisina at it.wikipedia — Wikimedia Commons, Public domain"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Chiesa_dei_cinque_campanili%2C_Finale_Ligure_-_panoramio.jpg/960px-Chiesa_dei_cinque_campanili%2C_Finale_Ligure_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa dei cinque campanili, Finale Ligure panoramio",
-        "credit": "Fabio Poggi — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Chiesa_dei_cinque_campanili%2C_Finale_Ligure_-_panoramio_%281%29.jpg/960px-Chiesa_dei_cinque_campanili%2C_Finale_Ligure_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa dei cinque campanili, Finale Ligure panoramio (1)",
-        "credit": "Fabio Poggi — Wikimedia Commons, CC BY 3.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Finale-Ligurie-Drone-8_%2826762131563%29.jpg/960px-Finale-Ligurie-Drone-8_%2826762131563%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Finale Ligurie Drone 8",
-        "credit": "CucombreLibre from New York, NY, USA — Wikimedia Commons, CC BY 2.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_01.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto (Nizza Monferrato) 01",
-        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_02.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto (Nizza Monferrato) 02",
-        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_04.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto (Nizza Monferrato) 04",
-        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_06.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto (Nizza Monferrato) 06",
-        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_07.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto (Nizza Monferrato) 07",
-        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 4.0"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_08.jpg/960px-Chiesa_di_Nostra_Signora_di_Loreto_%28Nizza_Monferrato%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "legende": "Chiesa di Nostra Signora di Loreto (Nizza Monferrato) 08",
-        "credit": "Superchilum — Wikimedia Commons, CC BY-SA 4.0"
+        "libelle": "Emplacements XL, saison 2026 et avis septembre 2026",
+        "url": "https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/?facet=roof-tent"
       }
     ]
   }

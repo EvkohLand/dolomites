@@ -2,29 +2,34 @@
   {
     "date": "2026-10-09",
     "jour": 1,
-    "titre": "Saint-Gély-du-Fesc → Savone / Vado Ligure",
+    "titre": "Saint-Gély-du-Fesc → Varazze → Cogoleto",
     "zone": "Route / Ligurie",
-    "nuit": "etape-savone",
+    "nuit": "camping-green-europa-cogoleto",
     "trajet": "etape-aller-1",
-    "activites": [],
-    "note": "Départ vers 12 h. Environ 5 h de conduite pour couper le trajet en deux et dormir vers Savone / Vado Ligure."
+    "activites": [
+      {
+        "lieu": "courses-conad-varazze",
+        "note": "Courses et ravitaillement avec Prince avant Cogoleto ; vendredi fermeture à 19 h 30. Si bouchons, reporter les courses et confirmer une arrivée au camping avant 20 h."
+      }
+    ],
+    "note": "Départ vers midi, environ 5 h 50 de conduite OSRM via Varazze. Camping Green Family Park Europa : hypothèse ≈ 39 € pour deux et Prince, à confirmer selon la date ; arrivée affichée 15–20 h, accès en pente et arrivée 20–21 h vérifiés par demande écrite, aucune réservation. Conad City Varazze avant la nuit ; route et courses peuvent allonger l'heure réelle. Pour le dernier kilomètre, suivre Via della Pace et éviter Via Ronco / Via Magetti selon la consigne du camping."
   },
   {
     "date": "2026-10-10",
     "jour": 2,
-    "titre": "Savone / Vado Ligure → Val Gardena",
-    "zone": "Route / Val Gardena",
-    "nuit": "aire-ortisei",
+    "titre": "Cogoleto → Bressanone / Löwenhof",
+    "zone": "Route / Bressanone",
+    "nuit": "camping-loewenhof",
     "trajet": "etape-aller-2",
     "activites": [],
-    "note": "Deuxième moitié du trajet. Arrivée dans les Dolomites dans l'après-midi, puis installation et préparation pour la nuit."
+    "note": "Depuis Cogoleto, environ 5 h de conduite OSRM pour la base ouest du 10 au 14. Les courses principales sont prévues la veille au Conad City Varazze ; si manquées, achat d'appoint en alternance à Bressanone pendant qu'un adulte garde Prince. Emplacement tente de toit et chien à confirmer chez Löwenhof, replis Gamp ou Vahrner See."
   },
   {
     "date": "2026-10-11",
     "jour": 3,
     "titre": "Val di Funes",
     "zone": "Val Gardena / Funes",
-    "nuit": "aire-ortisei",
+    "nuit": "camping-loewenhof",
     "trajet": null,
     "activites": [
       {
@@ -37,76 +42,65 @@
         "heure": "11:00"
       }
     ],
-    "note": "Journée douce pour reprendre la marche : forêt puis alpages sous les Odle."
+    "note": "Funes depuis la base Bressanone : visite et marche adaptées à Prince, retour au même camping."
   },
   {
     "date": "2026-10-12",
     "jour": 4,
-    "titre": "Seceda",
+    "titre": "Seceda par le Col Raiser, si sec",
     "zone": "Val Gardena",
-    "nuit": "aire-ortisei",
-    "trajet": null,
-    "activites": [
-      {
-        "lieu": "seceda",
-        "heure": "09:00",
-        "note": "Monter tôt : la crête est à contre-jour l'après-midi."
-      }
-    ],
-    "note": "L'image des Dolomites. Plateau en haut, marche facile avec le chien."
-  },
-  {
-    "date": "2026-10-13",
-    "jour": 5,
-    "titre": "Alpe di Siusi",
-    "zone": "Val Gardena",
-    "nuit": "aire-ortisei",
-    "trajet": null,
-    "activites": [
-      {
-        "lieu": "alpe-di-siusi",
-        "heure": "09:00",
-        "note": "Chien gratuit en cabine, mais muselière obligatoire au départ de Compaccio."
-      }
-    ],
-    "note": "Le plus grand plateau d'altitude d'Europe. Journée entière sans dénivelé, la meilleure pour le chien."
-  },
-  {
-    "date": "2026-10-14",
-    "jour": 6,
-    "titre": "Col Raiser et Alta Badia",
-    "zone": "Alta Badia",
-    "nuit": "camping-cortina",
+    "nuit": "camping-loewenhof",
     "trajet": null,
     "activites": [
       {
         "lieu": "col-raiser",
-        "heure": "08:30"
-      },
+        "heure": "08:30",
+        "note": "73 € à deux avec Prince, puis environ 1 h 30 de marche jusqu’à Seceda, aller simple ; descente avant 16 h 30."
+      }
+    ],
+    "note": "Télécabine directe Ortisei–Seceda si neige ou fatigue (155 € pour deux et Prince), ou vallée en cas de mauvais temps. Éviter de compter les deux remontées. Si ravitaillement nécessaire : Eurospar Bressanone, Via Brennero 21/a ; Prince admis uniquement dans un sac ou une caisse de transport selon la règle Despar."
+  },
+  {
+    "date": "2026-10-13",
+    "jour": 5,
+    "titre": "Alpe di Siusi par P1 Spitzbühl",
+    "zone": "Val Gardena",
+    "nuit": "camping-loewenhof",
+    "trajet": null,
+    "activites": [
+      {
+        "lieu": "parking-alpe-p1",
+        "heure": "08:15",
+        "note": "15 € par voiture, réservation en ligne jusqu’à six jours avant, arrivée avant 9 h ; 30 min à pied jusqu’à Compatsch."
+      }
+    ],
+    "note": "Balade sur le plateau ; P2 Compatsch 30 € en option pour moins marcher. Stationnement de nuit interdit."
+  },
+  {
+    "date": "2026-10-14",
+    "jour": 6,
+    "titre": "Passo Gardena → Sass Dlacia",
+    "zone": "Val Gardena / Alta Badia",
+    "nuit": "camping-sass-dlacia",
+    "trajet": null,
+    "activites": [
       {
         "lieu": "passo-gardena",
-        "heure": "11:30",
-        "note": "La bascule vers l'est : col au pied du Sella."
+        "heure": "10:30"
       },
       {
         "lieu": "corvara",
-        "heure": "12:30",
-        "note": "Ravitaillement avant Cortina."
-      },
-      {
-        "lieu": "pralongia",
-        "heure": "14:00",
-        "note": "Si les remontées de l'Alta Badia sont encore ouvertes, sinon à pied."
+        "heure": "12:00"
       }
     ],
-    "note": "Progression logique d'ouest en est : Col Raiser d'abord, puis Passo Gardena, Corvara et Alta Badia avant de dormir côté Cortina."
+    "note": "Transfert à la base Alta Badia par le col et Corvara. Sass Pordoi éventuellement si ciel clair et assez de temps, mais aucun détour obligatoire. Courses d’appoint à Corvara (Despar, Strada Col Alt 10) ou La Villa (Strada Boscdaplan 107) ; entrée de Prince seulement en sac ou caisse de transport selon Despar."
   },
   {
     "date": "2026-10-15",
     "jour": 7,
-    "titre": "Falzarego et Lagazuoi",
-    "zone": "Cortina",
-    "nuit": "camping-cortina",
+    "titre": "Lagazuoi et Cinque Torri à pied",
+    "zone": "Alta Badia / Falzarego",
+    "nuit": "camping-sass-dlacia",
     "trajet": null,
     "activites": [
       {
@@ -116,43 +110,43 @@
       {
         "lieu": "lagazuoi",
         "heure": "09:30",
-        "note": "PRIORITÉ : ferme le 19 octobre. Ne pas repousser."
+        "note": "Fermeture annoncée le 18 octobre 2026 : prioritaire pendant la base centrale."
       },
       {
         "lieu": "cinque-torri",
-        "heure": "14:00"
+        "heure": "13:30",
+        "note": "Télésiège fermé le 11 octobre ; visite à pied seulement si terrain sec et Prince à l’aise."
       }
     ],
-    "note": "Le jour à ne pas manquer : le téléphérique du Lagazuoi a fermé le 19 octobre en 2025. S'il est déjà fermé, replier sur le Sass Pordoi, confirmé ouvert jusqu'au 1er novembre."
+    "note": "Ne pas prévoir le télésiège des Cinque Torri ; si fatigue, garder le Lagazuoi et reporter/abandonner la marche."
   },
   {
     "date": "2026-10-16",
     "jour": 8,
-    "titre": "Tre Cime di Lavaredo",
-    "zone": "Tre Cime",
+    "titre": "Misurina et Tre Cime → Dobbiaco",
+    "zone": "Tre Cime / Dobbiaco",
     "nuit": "camping-olympia",
     "trajet": null,
     "activites": [
       {
-        "lieu": "route-tre-cime",
-        "heure": "08:00",
-        "note": "Réserver en ligne la veille. 40 € la voiture."
-      },
-      {
-        "lieu": "rando-tre-cime",
-        "heure": "09:00"
+        "lieu": "misurina",
+        "heure": "08:00"
       },
       {
         "lieu": "lago-antorno",
-        "heure": "15:00",
-        "note": "Juste avant le péage, reflet des Tre Cime."
+        "heure": "08:30"
       },
       {
-        "lieu": "misurina",
-        "heure": "15:30"
+        "lieu": "route-tre-cime",
+        "heure": "09:00",
+        "note": "40 € et réservation en ligne obligatoire ; route d’automne et météo à vérifier."
+      },
+      {
+        "lieu": "rando-tre-cime",
+        "heure": "09:30"
       }
     ],
-    "note": "Montée au Rifugio Auronzo, randonnée, puis descente sans aller-retour inutile : Lago d'Antorno avant Misurina, puis continuation vers la base de nuit."
+    "note": "Visiter sur le transfert vers Olympia si la route est ouverte ; sinon Misurina/Antorno et garder le 18 comme repli météo."
   },
   {
     "date": "2026-10-17",
@@ -172,7 +166,7 @@
         "heure": "11:30"
       }
     ],
-    "note": "Le lac au lever du jour, puis le plateau au-dessus. Deux lieux, peu de route."
+    "note": "Braies puis Prato Piazza si accès routier et sentiers dégagés ; nuit à Olympia."
   },
   {
     "date": "2026-10-18",
@@ -182,7 +176,7 @@
     "nuit": "camping-olympia",
     "trajet": null,
     "activites": [],
-    "note": "Journée libre pour récupérer, rattraper une visite décalée par la météo ou profiter d'un dernier secteur."
+    "note": "Réserve météo pour Tre Cime si le 16 était impossible ; ne réserver la route qu’après confirmation de son ouverture. Sinon repos avec Prince autour de Dobbiaco. Pour compléter les provisions à Dobbiaco, Despar St. Johannesstr. 2, fermé le dimanche : reporter au lundi 19, sac ou caisse obligatoire pour Prince."
   },
   {
     "date": "2026-10-19",
