@@ -42,10 +42,11 @@
     "id": "chien-remontees",
     "titre": "Chien dans les remontées mécaniques",
     "portee": "Télécabines et téléphériques des Dolomites",
-    "resume": "Généralement admis. Sur l'Alpe di Siusi le chien ne paie pas, mais la muselière est obligatoire.",
-    "detail": "Chaque société a sa règle : certaines font payer un demi-tarif, d'autres rien. Emporter systématiquement laisse ET muselière, car une muselière manquante peut faire refuser l'embarquement. Vérifié pour l'Alpe di Siusi : transport gratuit, laisse et muselière exigées au départ de Compaccio.",
+    "resume": "Chiens généralement admis, mais règles et tarifs varient selon l'exploitant. Sur la Cabinovia Alpe di Siusi : laisse + muselière obligatoires et billet chien 6 € A/R en été 2026.",
+    "detail": "Ne jamais supposer la gratuité. Cabinovia Alpe di Siusi : chien 3 € aller / 6 € A/R en été 2026, laisse et muselière obligatoires dans les stations et cabines. Col Raiser : 5 € pour le chien. Lagazuoi : chien admis ; laisse et muselière, avec billet spécifique pour les chiens dépassant le format gratuit prévu par l'exploitant. Emporter systématiquement laisse ET muselière.",
     "gravite": "moyenne",
-    "source": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html"
+    "source": "https://www.seiseralm.it/en/info-service/mobility/seiser-alm-aerial-cableway-summer.html",
+    "a_reverifier": false
   },
   {
     "id": "chien-papiers",
@@ -126,11 +127,20 @@
   },
   {
     "id": "peage-hauteur",
-    "titre": "Péages et hauteur avec la tente de toit",
+    "titre": "Péages, hauteur réelle et tente de toit",
     "portee": "Autoroutes françaises et italiennes",
-    "resume": "Au-delà de 2 m, éviter les voies de télépéage automatique : prendre une voie avec péagiste.",
-    "detail": "La classification au péage se fait sur la hauteur du véhicule, et une tente de toit fait couramment franchir les 2 m — une simple galerie ajoute déjà 15 à 20 cm. Les portiques automatiques peuvent alors surclasser le véhicule. Mesurer la hauteur réelle une fois la tente montée, la noter, et privilégier les voies avec péagiste au moindre doute.",
+    "resume": "En France, une tente/coffre/charge sur le toit ne change pas à elle seule la classe tarifaire du véhicule, mais il faut éviter les voies avec gabarit 2 m si la hauteur physique dépasse 2 m. En Italie, la classe d'un véhicule à 2 essieux dépend de la hauteur mesurée à l'axe avant, pas de la hauteur totale de la tente de toit.",
+    "detail": "France : les chargements et accessoires de toit ne sont pas pris en compte pour déterminer la classe ; une Superb restant un véhicule léger de classe 1 ne devient donc pas automatiquement classe 2 à cause d'une tente de toit. En revanche, si la hauteur physique de l'ensemble dépasse 2 m, ne pas emprunter une voie signalée avec gabarit 2 m : utiliser une voie mixte ou télépéage sans gabarit. Italie : pour un véhicule à deux essieux, la classification A/B utilise la hauteur mesurée à la verticale de l'essieu avant (seuil 1,30 m), et non la hauteur totale du toit. Mesurer malgré tout la hauteur totale réelle pour les parkings, portiques et ouvrages bas.",
     "gravite": "moyenne",
-    "source": "https://www.bipandgo.com/actualites/peage-coffre-toit"
+    "sources": [
+      {
+        "libelle": "APRR AREA — chargements sur le toit et classe de péage",
+        "url": "https://voyage.aprr.fr/aide-contact/peage/mon-passage-au-peage/jai-un-chargement-sur-le-toit-est-ce-que-cela-modifie-le"
+      },
+      {
+        "libelle": "Autostrade per l'Italia — classes de péage",
+        "url": "https://www.autostrade.it/en/servizi-al-cliente/pedaggio/classi-di-pedaggio"
+      }
+    ]
   }
 ]
