@@ -74,6 +74,12 @@
       "poste": "nourriture",
       "libelle": "Complément pique-niques et repas au camping (objectif ≈ 20 €/jour à deux, croquettes comprises)",
       "montant": 30
+    },
+    {
+      "jour": 7,
+      "poste": "nuit",
+      "libelle": "Camping Olympia : 2 nuits minimum en ligne, une nuit payée en plus (74 € les 2 nuits en emplacement C)",
+      "montant": 24
     }
   ],
   "objectif_par_jour": 95,

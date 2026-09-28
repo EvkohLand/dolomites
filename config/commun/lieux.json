@@ -1511,7 +1511,7 @@
       "url": "https://auronzo.info/parcheggio-tre-cime-di-lavaredo/"
     },
     "ouverture": {
-      "note": "Sentier praticable le 19 octobre sauf neige, mais sans ravitaillement : Locatelli fermé le 27/09/2026, Lavaredo le 11/10/2026. La date « fin_saison » vise le Rifugio Locatelli, point de pause habituel."
+      "note": "Sentier praticable le 18 octobre (scénario 8 jours ; le 19 dans le 14 jours) sauf neige, mais sans ravitaillement : Locatelli fermé le 27/09/2026, Lavaredo le 11/10/2026. La date « fin_saison » vise le Rifugio Locatelli, point de pause habituel."
     }
   },
   {
@@ -5877,8 +5877,8 @@
     ],
     "eau": true,
     "ouverture": {
-      "a_reverifier": false,
-      "note": "Ouvert toute l'année ; le moteur officiel propose des emplacements libres du 18 au 25 octobre 2026.",
+      "a_reverifier": true,
+      "note": "Ouvert toute l'année. ATTENTION : le moteur de réservation officiel refuse une nuit isolée (« 1 Nächte Anfrage leider nicht verfügbar ») du 17 au 21 octobre et propose 2 nuits minimum (18→20 : 74 € en emplacement C). Pour une seule nuit : demander une exception par la page contact, ou dormir au camping du lac de Dobbiaco.",
       "fin_saison": "2026-12-31"
     },
     "reserver": {
@@ -6027,6 +6027,10 @@
     ],
     "pratique": [
       {
+        "libelle": "Séjour minimum",
+        "valeur": "2 nuits en ligne à ces dates ; nuit isolée refusée (test du 28/09/2026)"
+      },
+      {
         "libelle": "Emplacements",
         "valeur": "200 × ~90 m² (A/B) + emplacements tente C de ~30 m² (zone 600), tous avec prise 16 A et TV"
       },
@@ -6092,11 +6096,27 @@
         {
           "question": "Une voiture avec tente de toit (2 adultes, 1 chien) peut-elle occuper un emplacement C « Zeltplatz » zone 600, ou faut-il réserver un emplacement B ?",
           "page": "https://www.camping-olympia.com/anfrage/"
+        },
+        {
+          "question": "Acceptez-vous une seule nuit, du 18 au 19 octobre 2026, pour une voiture avec tente de toit, 2 adultes et un chien ?",
+          "page": "https://www.camping-olympia.com/en/contact"
         }
       ]
     },
     "acces": "A22 sortie Bressanone/Brixen – Val Pusteria, puis SS49 sur ~53 km jusqu'à Toblach ; depuis Cortina, SS51 (~33 km). Le camping est à l'ouest de Toblach, hameau Nove Case / Neunhäusern.",
-    "description": "Camping familial (famille Klettenhammer) à 1 170 m, entre Villabassa et Dobbiaco, ouvert toute l'année : environ 200 emplacements de ~90 m² (catégories A et B) et des emplacements tente de ~30 m² (catégorie C, zone 600), tous avec prise 16 A et TV. Le moteur de réservation officiel, interrogé le 28/09/2026, propose des places libres du 18 au 21 et du 21 au 25 octobre 2026 : 37 €/nuit pour 2 adultes sur l'emplacement C, 40 € en B, 41 € en A. Ce prix correspond exactement à la grille 2026 du camping (période 05.10–30.11 : emplacement C 9 €, adulte 14 €). S'ajoutent sur place le chien (6 €/nuit) et la taxe de séjour (2,70 €/adulte/nuit), soit 48,40 €/nuit au total, plus l'électricité au compteur (0,80 €/kWh) si l'on se branche. Arrhes en ligne : une nuit. Arrivée 15h–23h, départ avant 12h. Douche pour chiens ; chiens interdits dans les lodges et appartements. Piscine couverte et saunas payants, supermarché, restaurant-pizzeria, laverie, Wi-Fi gratuit. Tente de toit : ni autorisée ni refusée explicitement ; la signaler dans le champ commentaire de la réservation."
+    "description": "Camping familial (famille Klettenhammer) à 1 170 m, entre Villabassa et Dobbiaco, ouvert toute l'année : environ 200 emplacements de ~90 m² (catégories A et B) et des emplacements tente de ~30 m² (catégorie C, zone 600), tous avec prise 16 A et TV. Le moteur de réservation officiel, interrogé le 28/09/2026, propose des places libres du 18 au 21 et du 21 au 25 octobre 2026 : 37 €/nuit pour 2 adultes sur l'emplacement C, 40 € en B, 41 € en A. Ce prix correspond exactement à la grille 2026 du camping (période 05.10–30.11 : emplacement C 9 €, adulte 14 €). S'ajoutent sur place le chien (6 €/nuit) et la taxe de séjour (2,70 €/adulte/nuit), soit 48,40 €/nuit au total, plus l'électricité au compteur (0,80 €/kWh) si l'on se branche. Arrhes en ligne : une nuit. Arrivée 15h–23h, départ avant 12h. Douche pour chiens ; chiens interdits dans les lodges et appartements. Piscine couverte et saunas payants, supermarché, restaurant-pizzeria, laverie, Wi-Fi gratuit. Tente de toit : ni autorisée ni refusée explicitement ; la signaler dans le champ commentaire de la réservation.",
+    "alternatives": [
+      {
+        "nom": "Camping Toblacher See (lac de Dobbiaco)",
+        "gps": [
+          46.7067,
+          12.2177
+        ],
+        "adresse": "Lago di Dobbiaco / Toblacher See 3, 39034 Dobbiaco (BZ)",
+        "note": "Repli pour une nuit isolée. À 30 km au nord de Cortina par la SS51. Ouvert toute l'année ; basse saison du 12 au 29 octobre 2026. Emplacement Standard+ (voiture + tente ou caravane) 42,50 € pour 2 personnes, chien 7 €, écotaxe 2,50 €/emplacement, taxe de séjour 2,70 €/pers. ≈ 57 €/nuit. Route d'accès fermée de 12h à 15h : arrivée 15h–19h. Chiens interdits sur la prairie à tentes, donc prendre un emplacement numéroté.",
+        "url": "https://www.toblachersee.com/en/prices-camping/"
+      }
+    ]
   },
   {
     "id": "camping-cortina",
