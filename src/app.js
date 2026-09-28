@@ -851,7 +851,17 @@
       var v = l.verification;
       var dv = el('div');
       if (v.date) dv.appendChild(el('p', 'jour__note', 'Données recoupées le ' + dateCourte(v.date) + (v.sources && v.sources.length ? ' sur ' + v.sources.length + ' source' + (v.sources.length > 1 ? 's' : '') + '.' : '.')));
-      if (v.doutes) dv.appendChild(el('p', null, 'Reste incertain : ' + v.doutes));
+      if (v.doutes) dv.appendChild(el('p', null, 'Non publié à ce jour : ' + v.doutes));
+      if (Array.isArray(v.a_demander) && v.a_demander.length) {
+        var dq = el('div', 'a-demander');
+        dq.appendChild(el('p', 'jour__note', 'À demander avant de partir :'));
+        v.a_demander.forEach(function (q) {
+          var ligne = el('p', null, q.question + ' ');
+          if (q.page) { var a = el('a', null, 'Contacter'); a.href = q.page; a.target = '_blank'; a.rel = 'noopener noreferrer'; ligne.appendChild(a); }
+          dq.appendChild(ligne);
+        });
+        dv.appendChild(dq);
+      }
       if (v.sources && v.sources.length) {
         var ds = el('div', 'liens');
         v.sources.forEach(function (s) { if (s && s.url) ds.appendChild(lienExterne(s.libelle || s.url, s.url)); });

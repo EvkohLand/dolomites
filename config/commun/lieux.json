@@ -940,7 +940,7 @@
           "valeur": "paiement électronique à la barrière de sortie"
         }
       ],
-      "alternative_gratuite": "Montée à pied depuis le lac d’Antorno (places gratuites en bord de route) : 1 h 30 à 2 h selon l’office de tourisme ; départ exact à vérifier. Navette arrêtée le 4 octobre."
+      "alternative_gratuite": "À pied depuis la barrière (15 places gratuites juste avant, 46.5994, 12.2700) : sentier « avvicinamento 101 », 3,3 km, +470 m, 1 h 15 – 1 h 30 selon le CAI ; depuis le parking du lac d'Antorno, 4,4 km et 1 h 30 – 1 h 45. Navette arrêtée le 4 octobre."
     },
     "reserver": {
       "obligatoire": true,
@@ -948,9 +948,9 @@
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Réservation en ligne obligatoire : 40 € la voiture. Accès fin octobre conditionné à ouverture effective de la route et à la météo ; ne payer qu’après vérification."
+      "note": "Date de fermeture 2026 non publiée : la commune ferme la route par ordonnance selon la neige (fermeture temporaire dès le 3 octobre 2024, fermeture saisonnière le 10 novembre 2025). Si la route est fermée par ordonnance, la réservation est remboursée ou reportée : réserver n'engage donc pas à perte. Consulter les webcams la veille."
     },
-    "source": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/",
+    "source": "https://auronzo.info/parcheggio-tre-cime-di-lavaredo/",
     "etiquettes": [
       "cher",
       "reservation",
@@ -999,7 +999,7 @@
         "url": "https://rifugioauronzo.it/en/contacts/"
       }
     ],
-    "description": "Depuis 2025, l'accès se réserve en ligne sur le portail officiel. Le péage comprend le stationnement au Rifugio Auronzo, point de départ du tour. Fin octobre, l'ouverture de la route dépend de la météo et de l'état de la chaussée : ne réserver qu'après contrôle des conditions. Les transports publics sont saisonniers et doivent être vérifiés séparément pour la date du trajet.",
+    "description": "Depuis 2025, l'accès se réserve en ligne sur le portail officiel (compte client obligatoire). Le péage comprend le stationnement au Rifugio Auronzo, point de départ du tour. En octobre, la commune peut fermer la route du jour au lendemain par ordonnance en cas de neige ; la réservation est alors remboursée ou reportée. Alternative gratuite : se garer aux 15 places gratuites juste avant la barrière et monter à pied par le sentier « avvicinamento 101 » (Sentier balisé rouge-blanc sans numéro, dit « avvicinamento 101 » (montée vers le sentier 101) : départ au poteau « Misurina Casello », 46.59882, 12.26974, 1851 m, à côté de la barrière de péage. Piste (tronc commun avec le sentier 119) sur 1,2 km, puis à gauche un sentier dans le Val Longères par Ciadìn et Col de le Bisse jusqu'au Rifugio Auronzo : 3,3 km, +470 m, cotation CAI E (randonneur), 1 h 15 – 1 h 30 à la montée selon le CAI, 1 h à la descente. Depuis le parking du lac d'Antorno, ajouter 1,1 km plat par la via Monte Piana (15 min).) Le sentier franchit plusieurs ruisseaux à gué dans le Val Longères : glissants s'il gèle. En cas de neige, suivre la route fermée, plus longue mais sans difficulté.",
     "photos": [
       {
         "legende": "Rifugio Auronzo 1",
@@ -1122,19 +1122,19 @@
     "horaires": [
       {
         "libelle": "Saison 2026",
-        "valeur": "ouverte depuis le 23 mai 2026 ; fermeture « fin octobre en général », selon la neige — date 2026 non publiée"
+        "valeur": "ouverte depuis le 23 mai 2026 ; fermeture « généralement fin octobre », fixée par ordonnance selon la neige — date 2026 non publiée"
       },
       {
-        "libelle": "Précédent",
-        "valeur": "fermeture le 10 novembre 2025 ; début novembre 2024"
+        "libelle": "Précédents",
+        "valeur": "fermée pour neige le 3 octobre 2024 (temporaire) ; fermeture saisonnière le 10 novembre 2025"
       },
       {
         "libelle": "Accès",
-        "valeur": "par créneaux horaires réservés en ligne ; créneaux de nuit ouverts en pleine saison (horaire réduit seulement jusqu'au 28 mai)"
+        "valeur": "créneau choisi à la réservation, billet valable 12 h ; créneaux d'octobre visibles seulement dans le compte client du portail"
       },
       {
-        "libelle": "Validité",
-        "valeur": "12 h à partir de l'heure réservée ; se termine à la sortie du véhicule"
+        "libelle": "Fermeture par ordonnance",
+        "valeur": "e-mail d'avertissement ; nouvelle réservation ou remboursement"
       },
       {
         "libelle": "Service client réservation",
@@ -1151,12 +1151,20 @@
         "valeur": "P1–P4 au Rifugio Auronzo, inclus dans le péage ; quota journalier (700 voitures annoncé par la presse)"
       },
       {
+        "libelle": "Montée à pied sans péage",
+        "valeur": "poteau « Misurina Casello » 46.59882, 12.26974 (1851 m) → Rifugio Auronzo : 3,3 km, +470 m, 1 h 15 – 1 h 30, cotation E ; chien en laisse ; plusieurs gués de ruisseau dans le Val Longères"
+      },
+      {
+        "libelle": "Si neige",
+        "valeur": "monter par la route fermée à la circulation (6 km, +450 m, environ 2 h)"
+      },
+      {
         "libelle": "Restauration / toilettes",
         "valeur": "Rifugio Auronzo, ouvert jusqu'à fin octobre 2026 météo permettant"
       },
       {
         "libelle": "Nuit",
-        "valeur": "camping interdit sur les parkings (100 à 500 € d'amende)"
+        "valeur": "camping interdit sur les parkings (100 à 500 € d'amende) ; nuit dans le véhicule tolérée, deux créneaux de 12 h à réserver"
       }
     ],
     "verification": {
@@ -1197,9 +1205,47 @@
         {
           "libelle": "OpenStreetMap — parkings P1–P4 du Rifugio Auronzo et barrière de péage",
           "url": "https://www.openstreetmap.org/#map=16/46.6060/12.2800"
+        },
+        {
+          "libelle": "Portail de réservation pass.auronzo.info — calendrier accessible seulement après création de compte",
+          "url": "https://pass.auronzo.info/Frontoffice"
+        },
+        {
+          "libelle": "Corriere delle Alpi — route fermée par ordonnance pour neige le 3 octobre 2024",
+          "url": "https://www.corrierealpi.it/cronaca/neve-in-quota-chiusa-la-strada-delle-tre-cime-nesrd1z6"
+        },
+        {
+          "libelle": "Il Gazzettino — fermeture saisonnière de la route, novembre 2025",
+          "url": "https://www.ilgazzettino.it/nordest/belluno/tre_cime_strada_chiusa_blocco_auronzo-9184036.html"
+        },
+        {
+          "libelle": "CAI Prenotarifugi — Rifugio Auronzo, accès à pied (depuis le péage de Misurina-Antorno, 1h15–1h30)",
+          "url": "https://www.prenotarifugi.cai.it/en/detail/?id=5818"
+        },
+        {
+          "libelle": "OpenStreetMap, relevé CAI — sentier « Misurina Casello – Rifugio Auronzo » (relation 7406119 : 3,3 km, +470 m, cotation E)",
+          "url": "https://www.openstreetmap.org/relation/7406119"
+        },
+        {
+          "libelle": "OpenStreetMap — poteau indicateur « Misurina Casello », 1851 m : « Rif. Auronzo (Avvicinamento 101) »",
+          "url": "https://www.openstreetmap.org/node/2430343015"
+        },
+        {
+          "libelle": "Spunti di viaggio — du lac d'Antorno au Rifugio Auronzo (CAI 101, ~5 km, +467 m, 1h30–2h)",
+          "url": "https://www.spuntidiviaggio.it/dal-lago-antorno-alle-tre-cime-di-lavaredo-trekking-al-rifugio-auronzo/"
+        },
+        {
+          "libelle": "Dolomiti Review — montée d'hiver par la route fermée depuis le lac d'Antorno (+450 m, ~2 h)",
+          "url": "https://www.dolomitireview.com/escursioni/tre-cime-di-lavaredo-in-inverno-al-rifugio-auronzo-dal-lago-di-antorno/"
         }
       ],
-      "doutes": "Date de fermeture 2026 non publiée (dépend de la neige). Le site alto-adige.com affiche « 2026 : 31 mai – 11 octobre » : ce sont les dates de la navette 444, pas de la route. Horaires des créneaux en octobre non visibles sans ouvrir le calendrier de réservation."
+      "doutes": "Date de fermeture 2026 non publiée : décidée par ordonnance selon la neige. Horaires des créneaux d'octobre visibles seulement après création d'un compte sur le portail.",
+      "a_demander": [
+        {
+          "question": "La route des Tre Cime sera-t-elle ouverte aux voitures du 12 au 19 octobre 2026, et quels sont les créneaux d'accès proposés ces jours-là ?",
+          "page": "https://auronzo.info/parcheggio-tre-cime-di-lavaredo/"
+        }
+      ]
     },
     "acces": "Depuis Dobbiaco par la SS51 puis la SR48 jusqu'à Misurina, ou depuis Cortina par le col Tre Croci. À Misurina, prendre la via Monte Piana vers le lac d'Antorno ; barrière environ 700 m après le lac (46.59985, 12.26997), puis 7 km de route goudronnée jusqu'à 2320 m. Pas de limite de hauteur publiée sur la route. Plaque lisible obligatoire."
   },
@@ -1229,7 +1275,7 @@
     },
     "chien": {
       "admis": true,
-      "note": "Laisse obligatoire, zone de pâturage."
+      "note": "Laisse obligatoire dans le parc naturel des Tre Cime (règle officielle des parcs du Tyrol du Sud : « Hund an die Leine ») ; alpages."
     },
     "reglement": "chien-alpage",
     "etiquettes": [
@@ -1318,7 +1364,7 @@
         "credit": "filip bossuyt from Kortrijk, Belgium — Wikimedia Commons, CC BY 2.0"
       }
     ],
-    "source": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-drei-zinnen-tre-cime-three-peaks-_569",
+    "source": "https://auronzo.info/news/chiusura-rifugi-auronzo-e-misurina-estate/",
     "adresse": "Départ : Rifugio Auronzo, Forcella Longeres, 32041 Auronzo di Cadore (BL)",
     "horaires": [
       {
@@ -1334,6 +1380,10 @@
       {
         "libelle": "Parking",
         "valeur": "P1–P4 au Rifugio Auronzo, inclus dans le péage"
+      },
+      {
+        "libelle": "Montée sans péage",
+        "valeur": "poteau « Misurina Casello » 46.59882, 12.26974 → Rifugio Auronzo : 3,3 km, +470 m, 1 h 15 – 1 h 30, cotation E"
       },
       {
         "libelle": "Toilettes / repas",
@@ -1366,12 +1416,33 @@
         {
           "libelle": "OpenStreetMap / Nominatim — Rifugio Auronzo 46.6122, 12.2961, 2333 m",
           "url": "https://www.openstreetmap.org/?mlat=46.6122&mlon=12.2961#map=15/46.6122/12.2961"
+        },
+        {
+          "libelle": "3 Zinnen Dolomites (office de tourisme) — tour des Tre Cime : 8,8 km, 4 h, +550/−550 m, point bas 2169 m, point haut 2451 m",
+          "url": "https://www.dreizinnen.com/en/activity/summer-walk-around-the-drei-zinnen-tre-cime-three-peaks-_569"
+        },
+        {
+          "libelle": "Province de Bolzano — règles de conduite dans les parcs naturels : « 8. Hund an die Leine »",
+          "url": "https://naturparks.provinz.bz.it/de/verhaltensregeln-im-naturpark"
+        },
+        {
+          "libelle": "CAI Prenotarifugi — Rifugio Auronzo, accès à pied (depuis le péage de Misurina-Antorno, 1h15–1h30)",
+          "url": "https://www.prenotarifugi.cai.it/en/detail/?id=5818"
+        },
+        {
+          "libelle": "OpenStreetMap, relevé CAI — sentier « Misurina Casello – Rifugio Auronzo » (relation 7406119 : 3,3 km, +470 m, cotation E)",
+          "url": "https://www.openstreetmap.org/relation/7406119"
+        },
+        {
+          "libelle": "OpenStreetMap — poteau indicateur « Misurina Casello », 1851 m : « Rif. Auronzo (Avvicinamento 101) »",
+          "url": "https://www.openstreetmap.org/node/2430343015"
         }
       ],
-      "doutes": "Dénivelé selon les sources : 250 m à 400 m (dolomitireview : +400 m). Aucun règlement spécifique du parc naturel sur les chiens trouvé ; la règle citée est la règle générale du Tyrol du Sud. Enneigement au 19 octobre imprévisible."
+      "doutes": "",
+      "a_demander": []
     },
-    "acces": "Voiture jusqu'au parking du Rifugio Auronzo par la route à péage depuis le lac d'Antorno (réservation obligatoire). Alternative sans péage : à pied depuis le lac d'Antorno, le lac de Landro ou le val Fiscalina (beaucoup plus long).",
-    "description": "Boucle classique dans le sens antihoraire : sentier 101 du Rifugio Auronzo au Rifugio Lavaredo et à la Forcella Lavaredo, puis Rifugio Locatelli (point haut vers 2450 m), retour par le sentier 105 via la Malga Langalm et la Forcella Col di Mezzo. Sentier large et bien balisé, classé facile à moyen. En octobre 2026 : Rifugio Locatelli et Malga Langalm fermés depuis le 27 septembre, Rifugio Lavaredo fermé le 11 octobre ; seul le Rifugio Auronzo reste ouvert jusqu'à fin octobre, météo permettant. Emporter eau et repas. Au-dessus de 2300 m, neige ou verglas possibles sur le versant nord (côté Locatelli–Langalm) dès mi-octobre ; journées courtes. Chien : la boucle traverse le parc naturel des Tre Cime (côté Tyrol du Sud) et des alpages ; laisse obligatoire en Tyrol du Sud dans les lieux publics, muselière à avoir sur soi.",
+    "acces": "Voiture jusqu'au parking du Rifugio Auronzo par la route à péage (réservation obligatoire, 40 €). Sans péage : sentier « avvicinamento 101 » depuis le poteau « Misurina Casello » (46.59882, 12.26974, à côté de la barrière ; 15 places gratuites juste avant) : 3,3 km, +470 m, 1 h 15 – 1 h 30 selon le CAI. La journée complète passe alors à environ 15,4 km, +1 020 m, 6 h 30 – 7 h de marche.",
+    "description": "Boucle classique dans le sens antihoraire : sentier 101 du Rifugio Auronzo au Rifugio Lavaredo et à la Forcella Lavaredo, puis Rifugio Locatelli (point haut 2451 m), retour par le sentier 105 via la Malga Langalm et la Forcella Col di Mezzo. 8,8 km, +550 m cumulés selon l'office de tourisme (le point bas du tour est à 2169 m : les 400 m d'autres guides ne comptent qu'une montée). Sentier large et bien balisé, classé facile. En octobre 2026 : Rifugio Locatelli et Malga Langalm fermés depuis le 27 septembre, Rifugio Lavaredo fermé le 11 octobre ; seul le Rifugio Auronzo reste ouvert jusqu'à fin octobre, météo permettant. Emporter eau et repas. Au-dessus de 2300 m, neige ou verglas possibles sur le versant nord (côté Locatelli–Langalm) dès mi-octobre ; journées courtes : avec la montée à pied depuis Antorno, partir avant 9 h. Chien : laisse obligatoire dans le parc naturel des Tre Cime (règle officielle de la Province de Bolzano) et en alpage.",
     "reserver": {
       "obligatoire": true,
       "url": "https://auronzo.info/parcheggio-tre-cime-di-lavaredo/"
@@ -1396,7 +1467,7 @@
       "montant": 10,
       "unite": "jour (P2, 800 m du lac)",
       "annee_tarif": 2026,
-      "detail": "Grille de l'office de tourisme, 09/2026 : P1 7 € (5,5 km), P2 10 €/jour (800 m), P3 20 €/jour (300 m), P4 15 €/3 h ou 30 €/24 h (100 m). Maxima indicatifs.",
+      "detail": "Grille de l'office de tourisme du val di Braies, état 09/2026 (PDF du 16/09/2026) : P1 max. 7 € (5,5 km), P2 max. 10 €/jour ou 7 €/3 h (800 m), P3 max. 20 €/jour (300 m), P4 max. 15 €/3 h ou 30 €/24 h (100 m). Ce sont des maxima ; la FAQ officielle renvoie au prix affiché sur place. Des usagers de septembre 2026 citent 13 € pour un ticket 24 h au P2 (le ticket « jour » expire à minuit) et 30 € au P3/P4 pour la nuit. Aucune réservation ni péage d'accès en octobre.",
       "grille": [
         {
           "libelle": "P1 voiture (5,5 km du lac)",
@@ -1404,7 +1475,7 @@
         },
         {
           "libelle": "P2 voiture (800 m)",
-          "valeur": "max. 7 €/3 h ; max. 10 €/jour"
+          "valeur": "max. 7 €/3 h ; max. 10 €/jour (ticket 24 h : 13 € selon usagers 09/2026)"
         },
         {
           "libelle": "P3 voiture (300 m)",
@@ -1419,8 +1490,8 @@
           "valeur": "20 €/3 h ; 45 €/24 h (P1 : max. 15 €)"
         },
         {
-          "libelle": "Billet combiné haute saison 2026 (non applicable en octobre)",
-          "valeur": "44 € (transit + place garantie + bon 22 €)"
+          "libelle": "Toilettes",
+          "valeur": "gratuites au P2 ; payantes (0,50 €) près du P4"
         },
         {
           "libelle": "Barque privée 45 min (max 5 pers., chien admis)",
@@ -1436,7 +1507,7 @@
     },
     "ouverture": {
       "a_reverifier": false,
-      "note": "Pour 2026, la réglementation estivale d'accès à la vallée s'applique du 1er juillet au 15 septembre, 9h00–16h00. Le 22 octobre, cette restriction saisonnière ne s'applique donc plus ; l'accès reste toutefois conditionné à l'état de la route et à la météo."
+      "note": "Réglementation d'accès 2026 : 1er juillet – 15 septembre, 9h–16h ; « saison prolongée » avec réservation facultative du P1 du 16 au 30 septembre. En octobre, aucune réservation ni restriction : la route reste ouverte jusqu'à ce que les parkings soient pleins. Hôtel, Emma's Bistro et Chalet du lac ouverts jusqu'au 1er novembre 2026."
     },
     "chien": {
       "admis": true,
@@ -1449,7 +1520,7 @@
       "difficulte": "facile",
       "boucle": true
     },
-    "source": "https://www.lagodibraies.com/en/parking-p155.html",
+    "source": "https://www.prags.bz/en",
     "etiquettes": [
       "incontournable",
       "plat",
@@ -1647,11 +1718,19 @@
     "horaires": [
       {
         "libelle": "Accès au lac",
-        "valeur": "Libre toute l'année, 24h/24"
+        "valeur": "Libre et gratuit toute l'année, 24h/24 ; parkings payants"
       },
       {
         "libelle": "Accès réglementé 2026 (réservation obligatoire)",
         "valeur": "1er juillet – 15 septembre 2026, 9h–16h (terminé pendant le séjour)"
+      },
+      {
+        "libelle": "Hôtel Lago di Braies, saison d'été 2026",
+        "valeur": "1er mai – 1er novembre 2026"
+      },
+      {
+        "libelle": "Emma's Bistro (au bord du lac)",
+        "valeur": "bar 9h–17h ; self-service 11h30–15h"
       },
       {
         "libelle": "Barques La Palafitta, saison 2026",
@@ -1661,7 +1740,11 @@
     "pratique": [
       {
         "libelle": "Parking conseillé",
-        "valeur": "P4 (100 m, 30 €/24 h max) ou P2 (800 m, 10 €/jour max) — GPS P4 46.70039, 12.0847 ; P2 46.7054, 12.08669 (OpenStreetMap)"
+        "valeur": "P2 (800 m, max. 10 €/jour, toilettes gratuites, bornes électriques) ou P4 (100 m, max. 30 €/24 h) — GPS P4 46.70039, 12.0847 ; P2 46.7054, 12.08669 (OpenStreetMap)"
+      },
+      {
+        "libelle": "Hauteur",
+        "valeur": "P3 limité à 2,4–2,5 m selon les usagers (barrière et caisse automatique depuis septembre 2026) : la voiture à 1,95 m passe partout"
       },
       {
         "libelle": "Réservation",
@@ -1669,19 +1752,39 @@
       },
       {
         "libelle": "Bus",
-        "valeur": "Ligne 442 Dobbiaco–Villabassa–Lago di Braies"
+        "valeur": "Ligne 442 Dobbiaco–Villabassa–Lago di Braies, toutes les 30 min, billet en espèces au chauffeur ; chien muselé, billet payant"
       }
     ],
     "verification": {
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "prags.bz — régulation 2026 (1/7–15/9, 9h–16h), pas de restriction ensuite",
+          "libelle": "prags.bz — FAQ 2026 : pas de réglementation en dehors du 1/7–15/9, prix affichés sur place",
           "url": "https://www.prags.bz/en"
         },
         {
           "libelle": "Office du tourisme Pragser Tal — tarifs parkings, état 09/2026",
           "url": "https://www.prags.bz/bus%20time%20tables/25%20tv%20prags%20A4%20parkgeb%C3%BChren.pdf"
+        },
+        {
+          "libelle": "pragsparking.com — « Starting from September 16, 2026, no reservation will be required »",
+          "url": "https://www.pragsparking.com/en"
+        },
+        {
+          "libelle": "Hôtel Lago di Braies — saison d'été 01.05.2026 – 01.11.2026",
+          "url": "https://www.lagodibraies.com/en/"
+        },
+        {
+          "libelle": "Emma's Bistro — horaires",
+          "url": "https://www.lagodibraies.com/it/culinarium/emmas-bistro-p80.html"
+        },
+        {
+          "libelle": "park4night — P3, hauteur max 2,4 m, avis 09/2026",
+          "url": "https://park4night.com/fr/place/87549"
+        },
+        {
+          "libelle": "park4night — P2, ticket 24 h 13 €, avis 09/2026",
+          "url": "https://park4night.com/fr/place/18179"
         },
         {
           "libelle": "myprags-dolomites — réservation 2026",
@@ -1696,10 +1799,11 @@
           "url": "https://www.openstreetmap.org/#map=16/46.7010/12.0860"
         }
       ],
-      "doutes": "Les prix officiels sont des maxima indicatifs ; le prix réellement affiché en octobre peut être plus bas. Limite de hauteur de P3 (2,5 m) non confirmée par une source officielle. Ouverture de l'hôtel/restaurant du lac en octobre non vérifiée."
+      "doutes": "",
+      "a_demander": []
     },
-    "acces": "SS49 Val Pusteria, sortie Braies (entre Villabassa et Monguelfo), puis route du val di Braies (~10 km) jusqu'au lac. Pas de péage, pas de restriction en octobre. Tente de toit (~2,05 m) : P3 serait limité à 2,5 m (source non officielle), P2 et P4 à ciel ouvert.",
-    "description": "Le lac se rejoint en voiture par le val di Braies depuis la SS49 (Val Pusteria, entre Villabassa et Monguelfo). Quatre parkings payants : P1 à 5,5 km du lac (sans limite de hauteur), P2 à 800 m, P3 à 300 m (hauteur max 2,5 m selon un guide non officiel), P4 à 100 m, à côté de l'hôtel. Hors de la période régulée (1er juillet – 15 septembre 2026, 9h–16h), il n'y a ni réservation ni contrôle d'accès : en octobre on se gare directement, paiement sur place. La grille officielle éditée par l'office de tourisme en 09/2026 donne des prix « maximum, indicatifs, variables selon saison et heure ». Le sentier du tour du lac fait environ 3,7 km et ~100 m de dénivelé cumulé (1h30–2h), avec une partie en escaliers/sentier sur la rive sud-est ; chien accepté en laisse. La location de barques (La Palafitta) est ouverte jusqu'au 30 octobre 2026, 10h–16h30 à partir du 28 septembre ; le chien n'est accepté que sur la formule barque privée. Fin octobre, le niveau du lac est bas.",
+    "acces": "SS49 Val Pusteria, sortie Braies (entre Villabassa et Monguelfo), puis route du val di Braies (~10 km) jusqu'au lac. Pas de péage, pas de restriction en octobre. Voiture à tente de toit (1,95 m) : sous toutes les limites de hauteur (P3 : 2,4–2,5 m) ; P2 et P4 à ciel ouvert.",
+    "description": "Le lac se rejoint en voiture par le val di Braies depuis la SS49 (Val Pusteria, entre Villabassa et Monguelfo). Quatre parkings payants : P1 à 5,5 km du lac, P2 à 800 m (toilettes gratuites), P3 à 300 m (hauteur limitée à 2,4–2,5 m, barrière automatique), P4 à 100 m, à côté de l'hôtel. Hors de la période régulée (1er juillet – 15 septembre 2026, 9h–16h) et de la saison prolongée (16–30 septembre), il n'y a ni réservation ni contrôle d'accès : en octobre on se gare directement, paiement sur place. La grille officielle éditée par l'office de tourisme en 09/2026 donne des prix maximum indicatifs ; l'accès au lac lui-même est gratuit. Le sentier du tour du lac fait environ 3,7 km et ~100 m de dénivelé cumulé (1h30–2h), chemin forestier large côté droit, sentier avec marches côté gauche ; chien accepté en laisse. L'hôtel Lago di Braies, Emma's Bistro (9h–17h) et le Chalet restent ouverts jusqu'au 1er novembre 2026. La location de barques (La Palafitta) est ouverte jusqu'au 30 octobre 2026, 10h–16h30 ; le chien n'est accepté que sur la formule barque privée. Fin octobre, le niveau du lac est bas.",
     "reserver": {
       "obligatoire": false,
       "url": "https://www.prags.bz/en"
@@ -1954,9 +2058,9 @@
     ],
     "ouverture": {
       "a_reverifier": false,
-      "note": "Le 22/10/2026 : montée en voiture autorisée jusqu'à 10:00 et à partir de 15:00, dans la limite de 100 voitures ; descente possible à tout moment. Route payante du 06/06 au 08/11. Bus et camping-cars interdits toute l'année sur cette route."
+      "note": "Du 16/09 au 08/11/2026 : montée en voiture jusqu'à 10h et à partir de 15h, 100 voitures au maximum ; descente libre. Les dates de visite prévues (lundi 19 ou jeudi 22 octobre) tombent en semaine et hors du jour de fermeture du refuge Vallandro (vendredi). Si le quota est atteint : parking P5 Ponticello (6 €) et bus 443. Camping-cars et bus privés interdits toute l'année."
     },
-    "source": "https://www.prags.bz/it/plaetzwiese",
+    "source": "https://www.prags.bz/en/plaetzwiese",
     "adresse": "Strada Prato Piazza / Plätzwiesenstraße, 39030 Braies (BZ) — départ de la route au parking P5 Ponticello/Brückele",
     "horaires": [
       {
@@ -1977,28 +2081,28 @@
       },
       {
         "libelle": "Refuge Vallandro (Dürrensteinhütte)",
-        "valeur": "Été : mi-mai à début novembre (dates 2026 exactes non publiées)"
+        "valeur": "Été : mi-mai à début novembre (fin selon la météo) ; fermé le vendredi hors juillet–août"
       }
     ],
     "pratique": [
       {
         "libelle": "Parking du plateau",
-        "valeur": "46.6567, 12.17514 (OpenStreetMap), inclus dans l'accès, places limitées"
+        "valeur": "46.6567, 12.17514 (OpenStreetMap), accessible à toute heure, payant (inclus dans le péage)"
       },
       {
         "libelle": "Parking de repli",
-        "valeur": "P5 Ponticello/Brückele, 6 €/jour, départ du bus 443"
+        "valeur": "P5 Ponticello/Brückele, 6 €/jour, départ du bus 443 (billet en espèces, chien muselé et payant)"
       },
       {
         "libelle": "Refuge",
-        "valeur": "Dürrensteinhütte / Rifugio Vallandro (46.6420, 12.1958), ~30 min du parking"
+        "valeur": "Dürrensteinhütte / Rifugio Vallandro (46.6420, 12.1958), ~30 min du parking ; fermé le vendredi ; chien interdit à l'intérieur"
       }
     ],
     "verification": {
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "prags.bz — accès Prato Piazza 2026, péages, P5, bus 443",
+          "libelle": "prags.bz — FAQ Prato Piazza 2026 : péage, créneaux, 100 voitures, P5, bus 443",
           "url": "https://www.prags.bz/en/plaetzwiese"
         },
         {
@@ -2006,7 +2110,7 @@
           "url": "https://www.suedtirol.com/nuetzliche-informationen/anfahrt-plaetzwiese"
         },
         {
-          "libelle": "vallandro.it — saisons et règle chien",
+          "libelle": "vallandro.it — saisons, jour de fermeture (vendredi), règle chien",
           "url": "https://www.vallandro.it/en/"
         },
         {
@@ -2018,10 +2122,11 @@
           "url": "https://www.openstreetmap.org/#map=16/46.6567/12.1751"
         }
       ],
-      "doutes": "Dates exactes de fermeture 2026 du refuge Vallandro non publiées (« début novembre », variable selon la météo). Le plafond de 100 véhicules/jour peut fermer la montée un beau week-end."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "SS49 Val Pusteria → val di Braies → parking P5 Ponticello/Brückele (46.6774, 12.1489) → route à péage 6 km jusqu'au plateau (avant 10h ou après 15h). Pas d'accès voiture depuis Carbonin (sentier 37 seulement). Camping-cars et bus privés interdits toute l'année.",
-    "description": "La seule route carrossable part du parking P5 Ponticello/Brückele (1496 m) dans le val di Braies et monte 6 km jusqu'au plateau. Du 16 septembre au 8 novembre 2026, on ne peut monter en voiture que jusqu'à 10h ou à partir de 15h, avec 100 véhicules au maximum par jour ; la descente est libre à toute heure. Entre 10h et 15h, il faut laisser la voiture à Ponticello (6 €/jour) et prendre le bus 443 (jusqu'au 8 novembre 2026, paiement en espèces uniquement, chien muselé à bord) ou monter à pied. Depuis Carbonin (val di Landro, côté Dobbiaco–Cortina), il n'y a pas de route ouverte aux voitures : c'est un accès randonnée par le sentier 37 (~600 m de dénivelé). Sur le plateau : chemins d'alpage larges, fort de Prato Piazza, balade classique vers le refuge Vallandro (Dürrensteinhütte, 2040 m). Les camping-cars sont interdits sur cette route toute l'année ; une voiture avec tente de toit reste une voiture. Chien en laisse (parc naturel Fanes-Senes-Braies, alpage). Attention : chiens interdits à l'intérieur du refuge Vallandro et à l'hôtel Hohe Gaisl.",
+    "description": "La seule route carrossable part du parking P5 Ponticello/Brückele (1496 m) dans le val di Braies et monte 6 km jusqu'au plateau. Du 16 septembre au 8 novembre 2026, on ne peut monter en voiture que jusqu'à 10h ou à partir de 15h, avec 100 véhicules au maximum par jour ; la descente est libre à toute heure. Péage : 10 € par voiture, 7 € à partir de 15h. Entre 10h et 15h, il faut laisser la voiture à Ponticello (6 €/jour) et prendre le bus 443 (jusqu'au 8 novembre 2026, paiement en espèces uniquement, chien muselé et payant) ou monter à pied. Depuis Carbonin (val di Landro, côté Dobbiaco–Cortina), il n'y a pas de route ouverte aux voitures : c'est un accès randonnée par le sentier 37 (~600 m de dénivelé). Sur le plateau : chemins d'alpage larges, fort de Prato Piazza, balade classique vers le refuge Vallandro (Dürrensteinhütte, 2040 m), ouvert jusqu'à début novembre et fermé le vendredi hors juillet–août. Les camping-cars sont interdits sur cette route toute l'année ; une voiture avec tente de toit reste une voiture. Chien en laisse (parc naturel Fanes-Senes-Braies, alpage). Chiens interdits à l'intérieur du refuge Vallandro et à l'hôtel Hohe Gaisl.",
     "reserver": {
       "obligatoire": false,
       "url": "https://www.prags.bz/en/plaetzwiese"
@@ -3485,11 +3590,11 @@
     "prix": {
       "type": "gratuit",
       "montant": 0,
-      "detail": "Sentier libre, parking au Passo Tre Croci souvent saturé."
+      "detail": "Sentier libre. Parking du Passo Tre Croci gratuit, sans réservation (≈ 20 places + bord de route)."
     },
     "chien": {
       "admis": true,
-      "note": "Harnais plutôt que collier : le sentier 215 comporte des passages exposés et des escaliers métalliques. À évaluer selon le chien."
+      "note": "Admis en laisse sur le sentier 215 et au lac, interdit à l'intérieur du refuge. Harnais plutôt que collier : passages exposés, câbles et escaliers métalliques ; un petit chien doit parfois être porté."
     },
     "etiquettes": [
       "lac",
@@ -3534,6 +3639,10 @@
       {
         "libelle": "Carte",
         "url": "https://www.openstreetmap.org/?mlat=46.557&mlon=12.2019#map=14/46.54/12.21"
+      },
+      {
+        "libelle": "Guide 2026 : parking et chiens (lagodimisurina.com)",
+        "url": "https://lagodimisurina.com/en/lake-sorapis-hike/"
       }
     ],
     "ouverture": {
@@ -3693,7 +3802,7 @@
       }
     ],
     "acces_route": "passo-tre-croci",
-    "source": "https://cortina.dolomiti.org/fr/escursioni/au-lac-de-sorapis/",
+    "source": "https://rifugiovandelli.it/en/",
     "adresse": "Départ : Passo Tre Croci, SR48, 32043 Cortina d'Ampezzo",
     "horaires": [
       {
@@ -3708,7 +3817,7 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "gratuit au col, ~20 places sur le parking en gravier + bord de route ; repli Rio Gere"
+        "valeur": "gratuit au col, sans réservation : ≈ 20 places sur le parking en gravier + bord de route ; repli Rio Gere"
       },
       {
         "libelle": "Lac (GPS)",
@@ -3753,9 +3862,22 @@
         {
           "libelle": "OpenStreetMap Nominatim — col, lac, refuge",
           "url": "https://www.openstreetmap.org/#map=14/46.54/12.21"
+        },
+        {
+          "libelle": "lagodimisurina.com — « no booking system: the car park is free, unsurfaced, with about twenty spaces » ; « Dogs are allowed on a lead » (août 2026)",
+          "url": "https://lagodimisurina.com/en/lake-sorapis-hike/"
+        },
+        {
+          "libelle": "Roads and Rivers — parkings du col « free » (mis à jour juillet 2026)",
+          "url": "https://roads-and-rivers.com/en/lake-sorapis/"
+        },
+        {
+          "libelle": "Dogwelcome — trek avec chien au Sorapis, chiens interdits à l'intérieur du refuge",
+          "url": "https://www.dogwelcome.it/itinerari-passeggiate-gite-cane/italia/veneto/belluno/trekking-con-il-cane-al-lago-di-sorapiss"
         }
       ],
-      "doutes": "Aucune source officielle de la commune de Cortina sur le stationnement 2026 (gratuit selon plusieurs guides). Un résultat de recherche prétendait les chiens interdits : aucune source primaire ne le confirme, les sources spécialisées chien disent le contraire."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "Depuis Cortina : SR48 vers Misurina, ≈ 8 km jusqu'au Passo Tre Croci. Pas de péage.",
     "description": "Départ au Passo Tre Croci (1 809 m). Sentier 215 jusqu'au refuge Vandelli et au lac : 11,6 km aller-retour, ≈ 460 m de dénivelé cumulé, 3 à 5 h, 1 h 45 à 2 h 30 à l'aller selon le refuge. Le sentier comporte des vires exposées, des escaliers métalliques et des câbles : chien habitué à la montagne seulement, tenu en laisse courte sur harnais (pas au collier) dans les passages exposés ; alternative plus douce pour le chien, le sentier 217 depuis Federavecchia (≈ 1 h 30, seul accès d'hiver). Chiens admis sur le sentier et au lac, interdits à l'intérieur du refuge. Baignade interdite (ordonnance de 2019, amende jusqu'à 500 €). Le refuge Vandelli est ouvert du 20 juin au 20 septembre 2026 : fermé le 18 octobre, ses WC publics étaient déjà fermés depuis le 13 juillet 2026 faute d'eau. Aucun point d'eau ni WC en route : tout emporter. Sentiers 241 et 242 (ferrata Berti) fermés par ordonnance, sans effet sur le 215. En octobre le lac peut être bas et le sentier verglacé à l'ombre après une nuit froide.",
@@ -5013,7 +5135,7 @@
       "montant": 14,
       "unite": "jour",
       "annee_tarif": 2026,
-      "detail": "Parkings municipaux de Misurina : 2 €/h ou 14 €/jour, 8 h – 20 h, du 15 mai au 31 octobre. Aire camping-car via Reane : 3 €/h ou 20 €/jour, 24 h/24. Barème de la commune non daté, repris comme officiel en 2026 par lagodimisurina.com.",
+      "detail": "Parkings municipaux de Misurina (deux parkings du bord du lac, via Guide Alpine, Loita) : 2 €/h ou 14 €/jour, 8 h – 20 h, jours fériés compris, du 15 mai au 31 octobre ; paiement au parcmètre ou par l'application MooneyGo (+10 %). Aire camping-car : 3 €/h ou 20 €/jour, 24 h/24. Barème de la délibération communale, identique dans l'application de paiement en 2026.",
       "grille": [
         {
           "libelle": "Voiture, à l'heure",
@@ -5234,7 +5356,7 @@
       "a_reverifier": false,
       "note": "Lac accessible en principe toute l'année ; stationnement et accès routiers à recontrôler selon météo et éventuelles mesures locales."
     },
-    "source": "https://auronzo.info/en/",
+    "source": "https://auronzo-di-cadore-api.municipiumapp.it/system/attachments/attachment/attachment/7/5/4/0/3/Parcheggi_Tariffe.pdf",
     "adresse": "Misurina, 32041 Auronzo di Cadore (BL)",
     "horaires": [
       {
@@ -5249,7 +5371,7 @@
     "pratique": [
       {
         "libelle": "Parking principal",
-        "valeur": "bord du lac, 46.5839, 12.2538 — payant ; hauteur max 2 m selon OpenStreetMap"
+        "valeur": "bord du lac, 46.5839, 12.2538 — payant ; portique 2 m (OpenStreetMap) : 5 cm de marge avec la tente de toit à 1,95 m, l'éviter"
       },
       {
         "libelle": "Places en bord de rue",
@@ -5258,6 +5380,10 @@
       {
         "libelle": "Gratuit",
         "valeur": "devant le Despar, disque 1 h"
+      },
+      {
+        "libelle": "Paiement",
+        "valeur": "parcmètre ou application MooneyGo (ex-myCicero), zones MA1–MA5"
       },
       {
         "libelle": "Tour du lac",
@@ -5282,12 +5408,34 @@
         {
           "libelle": "OpenStreetMap — parkings de Misurina (maxheight=2)",
           "url": "https://www.openstreetmap.org/?mlat=46.5839&mlon=12.2538#map=17/46.5839/12.2538"
+        },
+        {
+          "libelle": "Commune d'Auronzo — délibération des tarifs de stationnement (PDF, avril 2024) : zones payantes de Misurina",
+          "url": "https://auronzo-di-cadore-api.municipiumapp.it/s3/406/allegati/tariffe-servizi-a-domanda-individuale.pdf"
+        },
+        {
+          "libelle": "myCicero / MooneyGo — zones de stationnement payant d'Auronzo et Misurina (MA1–MA5, 15/05–31/10)",
+          "url": "https://www.mycicero.it/z/auronzocadore/"
+        },
+        {
+          "libelle": "lagodimisurina.com — parkings de Misurina, mis à jour septembre 2026",
+          "url": "https://lagodimisurina.com/parcheggio-lago-di-misurina/"
+        },
+        {
+          "libelle": "OpenStreetMap — portiques de hauteur 2 m (nœuds 11175559600, 11175559601) sur les parkings du bord du lac",
+          "url": "https://www.openstreetmap.org/node/11175559600"
         }
       ],
-      "doutes": "Le PDF de tarifs de la commune n'est pas daté ; aucun barème explicitement « 2026 » publié par la commune. La limite de 2 m vient uniquement d'OpenStreetMap, non confirmée sur place."
+      "doutes": "Portique de 2 m relevé sur OpenStreetMap uniquement ; hauteur réelle non publiée par la commune.",
+      "a_demander": [
+        {
+          "question": "Les parkings payants du bord du lac de Misurina ont-ils un portique de hauteur, et de combien exactement ?",
+          "page": "https://www.comune.auronzo.bl.it/it/page/parcheggi-comunali"
+        }
+      ]
     },
     "acces": "SR48 : depuis Cortina par le col Tre Croci, ou depuis Dobbiaco par la SS51 puis Carbonin (Schluderbach). Route ouverte toute l'année.",
-    "description": "Tour du lac plat et goudronné ou stabilisé, environ 2,5 km en 30 à 45 min, praticable en poussette et avec un chien en laisse. Du 15 mai au 31 octobre, tous les parkings publics de Misurina sont payants de 8 h à 20 h (2 €/h ou 14 €/jour) : c'est le cas pendant tout le séjour. Seule exception : les places devant le supermarché Despar, gratuites avec disque, 1 h maximum. Le parking du télésiège Col de Varda est réservé à ses clients (télésiège fermé depuis le 20 septembre 2026). Attention à la hauteur : OpenStreetMap indique une hauteur maximale de 2 m sur deux parkings payants du bord du lac, incompatible avec une voiture à tente de toit de 2,05 m ; préférer les places en bord de rue. En octobre, hôtels et commerces sont en partie fermés.",
+    "description": "Tour du lac plat et goudronné ou stabilisé, environ 2,5 km en 30 à 45 min, praticable en poussette et avec un chien en laisse. Du 15 mai au 31 octobre, les parkings municipaux de Misurina sont payants de 8 h à 20 h, jours fériés compris (2 €/h ou 14 €/jour) : c'est le cas pendant tout le séjour. Seule exception : les places devant le supermarché Despar, gratuites avec disque, 1 h maximum. Le parking du télésiège Col de Varda est réservé à ses clients (télésiège fermé depuis le 20 septembre 2026). Hauteur : deux portiques de 2 m sont relevés sur les parkings du bord du lac ; avec la tente de toit (1,95 m), la marge est de 5 cm : préférer les places en bord de rue. En octobre, hôtels et commerces sont en partie fermés.",
     "reserver": {
       "obligatoire": false
     }
@@ -5301,48 +5449,52 @@
       12.1941
     ],
     "commune": "Dobbiaco / Toblach (BZ)",
-    "altitude": 1243,
-    "resume": "Base est vers Braies et Misurina. Tarifs publiés pour octobre 2026, accueil du chien indiqué ; emplacement catégorie C (le moins cher) et voiture à tente de toit à confirmer.",
+    "altitude": 1170,
+    "resume": "Base est vers Braies et Misurina, ouverte toute l'année. En octobre 2026 : 48,40 €/nuit pour 2 adultes, le chien et la taxe de séjour sur l'emplacement le moins cher (C, 30 m²), prix lu dans le moteur de réservation officiel.",
     "prix": {
       "type": "payant",
-      "montant": 50,
-      "unite": "nuit, estimation 2 adultes + chien + taxe",
+      "montant": 48.4,
+      "unite": "nuit, 2 adultes + chien + taxe de séjour (emplacement C, sans électricité)",
       "annee_tarif": 2026,
-      "detail": "Budget 50 €/nuit conservé. Le site officiel confirme que les tarifs d'emplacement sont basés sur 2 personnes ; taxe locale 2,70 €/adulte/nuit ; animaux facturés entre 3,50 € et 8 €/jour ; électricité selon catégorie/consommation. Vérifier le prix exact des 21–25/10 dans le moteur de réservation.",
+      "detail": "Moteur de réservation officiel, 28/09/2026 : emplacement C zone 600 pour 2 adultes = 111 € les 3 nuits (18→21/10) et 148 € les 4 nuits (21→25/10), soit 37 €/nuit (= 9 € emplacement + 2 × 14 € adultes, grille 2026 période 05.10–30.11). S'ajoutent sur place : chien 6 €/nuit (grille 2026) et taxe de séjour 2,70 €/adulte/nuit (affichée par le moteur : 21,60 € pour 4 nuits). Électricité 0,80 €/kWh au compteur si branchée. Arrhes demandées en ligne : 37 €.",
       "grille": [
         {
-          "libelle": "Emplacement C zone 600 (30 m²), 2 adultes",
-          "valeur": "37 €/nuit (148 € les 4 nuits)"
+          "libelle": "Emplacement C zone 600 (Zeltplatz 30 m²), 2 adultes",
+          "valeur": "37 €/nuit (111 € 18→21/10 ; 148 € 21→25/10)"
         },
         {
-          "libelle": "Emplacement B zones 100/300/400, 2 adultes",
-          "valeur": "40 €/nuit (160 €)"
+          "libelle": "Emplacement B zones 100/300/400/500 (90 m²), 2 adultes",
+          "valeur": "40 €/nuit (120 € les 3 nuits)"
         },
         {
-          "libelle": "Emplacement B zone 500 / A zone 1-20, 2 adultes",
-          "valeur": "41 €/nuit (164 €)"
+          "libelle": "Emplacement A zones 1-20 / 200 (90 m², eau l'été seulement), 2 adultes",
+          "valeur": "41 €/nuit (123 € les 3 nuits)"
         },
         {
-          "libelle": "Taxe de séjour (dès 14 ans)",
+          "libelle": "Chien, période 05.10–30.11.2026",
+          "valeur": "6 €/nuit"
+        },
+        {
+          "libelle": "Taxe de séjour (dès 14 ans), payée sur place",
           "valeur": "2,70 €/personne/nuit"
-        },
-        {
-          "libelle": "Chien",
-          "valeur": "3,50 à 8 €/jour selon saison"
         },
         {
           "libelle": "Électricité",
           "valeur": "0,80 €/kWh"
         },
         {
-          "libelle": "Arrhes",
-          "valeur": "25 % à la réservation"
+          "libelle": "Arrhes en ligne",
+          "valeur": "1 nuit (37 € pour l'emplacement C)"
+        },
+        {
+          "libelle": "Assurance annulation facultative (Hotelstorno Plus)",
+          "valeur": "12 €"
         }
       ]
     },
     "chien": {
       "admis": true,
-      "note": "Animaux bienvenus au camping ; tarif officiel actuel entre 3,50 € et 8 €/jour. Le précédent montant fixe de 6 € n'est donc pas présenté comme garanti."
+      "note": "6 €/nuit en octobre (grille 2026, période 05.10–30.11), payé sur place : le moteur de réservation ne le facture pas en ligne. Douche pour chiens sur le camping ; chiens interdits dans les lodges et appartements."
     },
     "services": [
       "douches chaudes",
@@ -5353,12 +5505,13 @@
     ],
     "eau": true,
     "ouverture": {
-      "note": "Ouvert toute l'année.",
+      "a_reverifier": false,
+      "note": "Ouvert toute l'année ; le moteur officiel propose des emplacements libres du 18 au 25 octobre 2026.",
       "fin_saison": "2026-12-31"
     },
     "reserver": {
       "obligatoire": false,
-      "url": "https://www.camping-olympia.com"
+      "url": "https://booking.camping-olympia.com/?checkin=2026-10-21&checkout=2026-10-25&adult_room1=2&skd-total-rooms=1&skd-language-code=de"
     },
     "sources": [
       "camping"
@@ -5387,31 +5540,27 @@
     "liens": [
       {
         "libelle": "Camping Olympia — site officiel",
-        "url": "https://www.camping-olympia.com"
-      },
-      {
-        "libelle": "Tarifs officiels 2026 et coordonnées du camping",
-        "url": "https://listini.camping.it/germany/trentinoaltoadige/olympia/prezzi.pdf"
-      },
-      {
-        "libelle": "Types de places et prix électricité (réservation officielle)",
-        "url": "https://booking.camping-olympia.com/?skd-language-code=en"
-      },
-      {
-        "libelle": "Site officiel",
         "url": "https://www.camping-olympia.com/"
       },
       {
-        "libelle": "Emplacements",
+        "libelle": "Grille des prix 2026 (PDF transmis par le camping à camping.it)",
+        "url": "https://listini.camping.it/germany/trentinoaltoadige/olympia/prezzi.pdf"
+      },
+      {
+        "libelle": "Réserver 18→21 oct. 2026 (scénario 10 jours)",
+        "url": "https://booking.camping-olympia.com/?checkin=2026-10-18&checkout=2026-10-21&adult_room1=2&skd-total-rooms=1&skd-language-code=de"
+      },
+      {
+        "libelle": "Réserver 21→25 oct. 2026 (scénarios 14 et 16 jours)",
+        "url": "https://booking.camping-olympia.com/?checkin=2026-10-21&checkout=2026-10-25&adult_room1=2&skd-total-rooms=1&skd-language-code=de"
+      },
+      {
+        "libelle": "Emplacements et plan",
         "url": "https://www.camping-olympia.com/campingplatz-dolomiten/"
       },
       {
-        "libelle": "Infos pratiques (taxe, chiens, électricité, annulation)",
+        "libelle": "Infos pratiques (taxe, chiens, électricité, arrivée)",
         "url": "https://www.camping-olympia.com/gut-zu-wissen/"
-      },
-      {
-        "libelle": "Réservation 19–23 oct. 2026",
-        "url": "https://booking.camping-olympia.com/?checkin=2026-10-19&checkout=2026-10-23&adult_room1=2&skd-total-rooms=1&skd-language-code=de"
       },
       {
         "libelle": "Accès",
@@ -5487,13 +5636,13 @@
         "credit": "Stefano Vigorelli — Wikimedia Commons, CC BY-SA 4.0"
       }
     ],
-    "source": "https://www.camping-olympia.com/en/good-to-know/",
+    "source": "https://booking.camping-olympia.com/?checkin=2026-10-18&checkout=2026-10-21&adult_room1=2&skd-total-rooms=1&skd-language-code=de",
     "recherche_photo": "Toblach Dobbiaco",
     "adresse": "Camping 1, 39034 Toblach / Dobbiaco (BZ), Italie",
     "horaires": [
       {
         "libelle": "Saison 2026",
-        "valeur": "Ouvert toute l'année (réservation en ligne ouverte pour le 19–23 octobre 2026)"
+        "valeur": "Ouvert toute l'année ; tarif basse saison du 5 octobre au 30 novembre 2026"
       },
       {
         "libelle": "Arrivée",
@@ -5507,7 +5656,11 @@
     "pratique": [
       {
         "libelle": "Emplacements",
-        "valeur": "~200 × 90 m² + petits emplacements 30 m², prise 16 A"
+        "valeur": "200 × ~90 m² (A/B) + emplacements tente C de ~30 m² (zone 600), tous avec prise 16 A et TV"
+      },
+      {
+        "libelle": "Tente de toit",
+        "valeur": "Non mentionnée par le camping : l'indiquer dans « Bemerkungen » à la réservation (le formulaire demande aussi la longueur du véhicule)"
       },
       {
         "libelle": "Sanitaires",
@@ -5515,7 +5668,7 @@
       },
       {
         "libelle": "Services",
-        "valeur": "Supermarché, restaurant-pizzeria, laverie payante, Wi-Fi gratuit, piscine couverte et sauna payants"
+        "valeur": "Supermarché, restaurant-pizzeria, laverie payante, Wi-Fi gratuit, piscine couverte et sauna payants (piscine 3 h : 10 €/adulte)"
       },
       {
         "libelle": "Bus",
@@ -5526,30 +5679,52 @@
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Moteur de réservation officiel, requête 19→23/10/2026, 2 adultes",
-          "url": "https://booking.camping-olympia.com/?checkin=2026-10-19&checkout=2026-10-23&adult_room1=2&skd-total-rooms=1&skd-language-code=de"
+          "libelle": "Moteur de réservation officiel (Seekda), 18→21/10/2026, 2 adultes : emplacement C 111 €",
+          "url": "https://booking.camping-olympia.com/?checkin=2026-10-18&checkout=2026-10-21&adult_room1=2&skd-total-rooms=1&skd-language-code=de"
         },
         {
-          "libelle": "Site officiel — Gut zu wissen (taxe 2,70 €, chiens 3,50–8 €, 0,80 €/kWh)",
+          "libelle": "Moteur de réservation officiel, 21→25/10/2026, 2 adultes : emplacement C 148 €, taxe 21,60 € sur place",
+          "url": "https://booking.camping-olympia.com/?checkin=2026-10-21&checkout=2026-10-25&adult_room1=2&skd-total-rooms=1&skd-language-code=de"
+        },
+        {
+          "libelle": "Grille des prix 2026 du camping (camping.it) — période 05.10–30.11 : C 9 €, adulte 14 €, chien 6 €",
+          "url": "https://listini.camping.it/germany/trentinoaltoadige/olympia/prezzi.pdf"
+        },
+        {
+          "libelle": "Site officiel — Gut zu wissen (taxe 2,70 €, chiens 3,50–8 €/jour, 0,80 €/kWh, arrivée/départ)",
           "url": "https://www.camping-olympia.com/gut-zu-wissen/"
         },
         {
-          "libelle": "PiNCAMP (ADAC) — fiche, altitude 1 243 m",
-          "url": "https://www.pincamp.com/campings/camping-olympia-toblach"
+          "libelle": "Site officiel — Campingplatz & Stellplätze (catégorie C = Zeltplatz ~30 m²)",
+          "url": "https://www.camping-olympia.com/campingplatz-dolomiten/"
         },
         {
-          "libelle": "camping.info — ouvert du 1er janvier au 31 décembre",
+          "libelle": "EU-DEM 25 m (OpenTopoData) — 1 174 m aux coordonnées du camping",
+          "url": "https://api.opentopodata.org/v1/eudem25m?locations=46.73461,12.1941"
+        },
+        {
+          "libelle": "camping.info — ouvert toute l'année, 1 170 m",
           "url": "https://www.camping.info/en/campsite/camping-olympia"
         },
         {
-          "libelle": "OpenStreetMap / Nominatim — Camping Olympia",
+          "libelle": "PiNCAMP (ADAC) — fiche (1 243 m = altitude du village)",
+          "url": "https://www.pincamp.com/campings/camping-olympia-toblach"
+        },
+        {
+          "libelle": "OpenStreetMap — Camping Olympia",
           "url": "https://www.openstreetmap.org/way/217488588"
         }
       ],
-      "doutes": "Supplément chien d'octobre non publié (fourchette officielle 3,50–8 €). Tentes de toit non mentionnées : aucun refus trouvé, mais à signaler à la réservation. Altitude : 1 243 m selon ADAC, 1 170 m selon camping.info."
+      "doutes": "Accueil d'une voiture à tente de toit sur un emplacement C (tente, 30 m²) plutôt que B (+3 €/nuit) non précisé par le camping.",
+      "a_demander": [
+        {
+          "question": "Une voiture avec tente de toit (2 adultes, 1 chien) peut-elle occuper un emplacement C « Zeltplatz » zone 600, ou faut-il réserver un emplacement B ?",
+          "page": "https://www.camping-olympia.com/anfrage/"
+        }
+      ]
     },
     "acces": "A22 sortie Bressanone/Brixen – Val Pusteria, puis SS49 sur ~53 km jusqu'à Toblach ; depuis Cortina, SS51 (~33 km). Le camping est à l'ouest de Toblach, hameau Nove Case / Neunhäusern.",
-    "description": "Camping familial (famille Klettenhammer), environ 200 emplacements de ~90 m², tous avec prise 16 A et TV, plus de petits emplacements de 30 m² (zone 600). Le moteur de réservation officiel propose des emplacements libres du 19 au 23 octobre 2026 (4 nuits), ce qui confirme l'ouverture. Prix du moteur pour 2 adultes : 37 €/nuit (emplacement C, zone 600), 40 €/nuit (catégorie B, zones 100/300/400), 41 €/nuit (B zone 500 / A zone 1-20). S'ajoutent : taxe de séjour 2,70 €/personne/nuit (dès 14 ans), chien 3,50 à 8 €/jour selon la saison (montant d'octobre non publié), électricité 0,80 €/kWh au compteur. Estimation pour 2 adultes + chien, sans électricité : environ 46 à 55 €/nuit. Chiens admis sur le camping (interdits dans les lodges et appartements), douche pour chiens sur place. Arrivée 15h–23h, départ avant 12h. Arrhes de 25 % à la réservation. Piscine couverte et saunas payants, supermarché, restaurant-pizzeria Samyr, laverie, Wi-Fi gratuit. L'eau/évacuation individuelle des emplacements A n'est active qu'en été. Arrêt de bus « Niederdorf, Camping » devant l'entrée. Tente de toit : aucune mention sur le site ; l'emplacement est facturé par emplacement + personnes, une voiture avec tente de toit occupe un emplacement standard. Le préciser dans le champ commentaire de la réservation."
+    "description": "Camping familial (famille Klettenhammer) à 1 170 m, entre Villabassa et Dobbiaco, ouvert toute l'année : environ 200 emplacements de ~90 m² (catégories A et B) et des emplacements tente de ~30 m² (catégorie C, zone 600), tous avec prise 16 A et TV. Le moteur de réservation officiel, interrogé le 28/09/2026, propose des places libres du 18 au 21 et du 21 au 25 octobre 2026 : 37 €/nuit pour 2 adultes sur l'emplacement C, 40 € en B, 41 € en A. Ce prix correspond exactement à la grille 2026 du camping (période 05.10–30.11 : emplacement C 9 €, adulte 14 €). S'ajoutent sur place le chien (6 €/nuit) et la taxe de séjour (2,70 €/adulte/nuit), soit 48,40 €/nuit au total, plus l'électricité au compteur (0,80 €/kWh) si l'on se branche. Arrhes en ligne : une nuit. Arrivée 15h–23h, départ avant 12h. Douche pour chiens ; chiens interdits dans les lodges et appartements. Piscine couverte et saunas payants, supermarché, restaurant-pizzeria, laverie, Wi-Fi gratuit. Tente de toit : ni autorisée ni refusée explicitement ; la signaler dans le champ commentaire de la réservation."
   },
   {
     "id": "camping-cortina",
@@ -5560,8 +5735,8 @@
       12.134
     ],
     "commune": "Cortina d'Ampezzo (BL)",
-    "altitude": 1300,
-    "resume": "Camping Cortina distinct de Camping Olympia Cortina. Disponibilité en octobre et acceptation de la tente de toit encore en attente de réponse.",
+    "altitude": 1125,
+    "resume": "Seul camping de Cortina ouvert en octobre 2026 : 41 €/nuit pour 2 adultes + chien + voiture (taxe comprise), sans réservation possible. Acceptation de la tente de toit non publiée.",
     "prix": {
       "type": "payant",
       "montant": 41,
@@ -5602,7 +5777,7 @@
     },
     "chien": {
       "admis": true,
-      "note": "Chiens annoncés admis par les annuaires récents ; vérifier supplément et conditions exactes directement avec le camping."
+      "note": "Chien gratuit (grille « Prezzi estate 2026 » : « CANE – GRATIS »)."
     },
     "services": [
       "douches chaudes",
@@ -5611,14 +5786,14 @@
     "eau": true,
     "ouverture": {
       "a_reverifier": false,
-      "note": "Le site officiel indique ouvert en été et en hiver, fermé uniquement en novembre. Octobre est donc dans la période d'ouverture annoncée. À ne pas confondre avec International Camping Olympia Cortina, qui ferme en octobre–novembre.",
+      "note": "Ouvert en octobre (fermé uniquement en novembre ; tarif 08/09–31/10). International Camping Olympia (Fiames) est fermé en octobre–novembre 2026 : sa grille 2026 s'arrête au 30 septembre.",
       "fin_saison": "2026-10-31"
     },
     "sources": [
       "camping"
     ],
     "etiquettes": [
-      "a confirmer"
+      "tente de toit a confirmer"
     ],
     "niveau_prix": "€€",
     "equipements": [
@@ -5649,6 +5824,10 @@
       {
         "libelle": "Fiche park4night",
         "url": "https://park4night.com/fr/place/37108"
+      },
+      {
+        "libelle": "International Camping Olympia — prix et fermeture 2026",
+        "url": "https://campingolympiacortina.it/offerte-e-prezzi/"
       }
     ],
     "photos": [
@@ -5818,7 +5997,7 @@
     "pratique": [
       {
         "libelle": "Réservation",
-        "valeur": "Impossible, arrivée libre (8h–21h)"
+        "valeur": "Impossible, arrivée libre (8h–21h) ; octobre hors saison"
       },
       {
         "libelle": "Sanitaires",
@@ -5857,18 +6036,32 @@
           "url": "https://campeggiodolomiti.it/en/"
         },
         {
-          "libelle": "International Camping Olympia Fiames — « Chiusura stagionale dal 30/09 al 05/12 »",
-          "url": "https://campingolympiacortina.it/"
-        },
-        {
           "libelle": "OpenStreetMap / Nominatim — Camping Cortina",
           "url": "https://www.openstreetmap.org/search?query=Camping%20Cortina%20Cortina%20d%27Ampezzo"
+        },
+        {
+          "libelle": "International Camping Olympia — grille 2026, dernière période « Autunno 14.09.26 – 30.09.26 », « chiusura ottobre – novembre »",
+          "url": "https://campingolympiacortina.it/offerte-e-prezzi/"
+        },
+        {
+          "libelle": "Camping Cortina — page Prezzi « NON SI ACCETTANO PRENOTAZIONI »",
+          "url": "https://www.campingcortina.it/prezzi.html"
+        },
+        {
+          "libelle": "EU-DEM 25 m (OpenTopoData) — 1 124 m aux coordonnées du camping",
+          "url": "https://api.opentopodata.org/v1/eudem25m?locations=46.5215,12.134"
         }
       ],
-      "doutes": "La fermeture d'International Camping Olympia (Fiames) est affichée pour 2025 (30/09–05/12/2025) ; aucune date 2026 publiée, même schéma très probable. Camping Cortina ne prend pas de réservation : place non garantie, mais octobre est hors saison. Tentes de toit : non mentionnées, l'emplacement couvre « tente » et voiture. Altitude non publiée par le camping (environ 1 200 m, non sourcée). L'aire camping-car de Fiames est fermée et l'« aire Balcone sulle Dolomiti » annoncée sur les forums est un poisson d'avril."
+      "doutes": "Acceptation d'une tente de toit non publiée : la grille ne cite que tente, caravane et camping-car.",
+      "a_demander": [
+        {
+          "question": "Accettate una tenda sul tetto dell'auto (auto 1,95 m) sulla piazzola standard a 9 € dal 15 al 19 ottobre 2026, con 2 adulti e un cane?",
+          "page": "https://www.campingcortina.it/"
+        }
+      ]
     },
     "acces": "Depuis le sud (SS51, Pieve di Cadore) : panneaux du camping à gauche 1 km avant le centre. Depuis le nord (Dobbiaco) ou l'ouest (Falzarego) : traverser Cortina puis tourner à droite ~500 m après la station IP. GPS officiel : 46°31'19\" N, 12°8'4\" E.",
-    "description": "L'entrée précédente mélangeait deux campings : « Camping Olympia » est à Toblach (Haut-Adige) et « International Camping Olympia » à Fiames (Cortina), fermé du 30 septembre au 5 décembre. Les trois campings de Cortina situés en fond de vallée diffèrent en octobre : Camping Rocchetta et Camping Dolomiti ferment le 20 septembre 2026, Camping Cortina reste ouvert (fermé seulement en novembre). Camping Cortina (depuis 1957) est dans une pinède à 2 km au sud du centre, relié au village par le bus municipal. Tarif « Prezzi estate 2026 », période 08/09–31/10 : adulte 14 €, emplacement 9 € (caravane, camping-car ou tente, voiture comprise), chien gratuit, électricité 3 A / 660 W comprise, taxe de séjour 2 €/personne/nuit en sus. Soit 2 × 14 + 9 + 2 × 2 = 41 €/nuit tout compris pour 2 adultes + chien + voiture à tente de toit. Réservation impossible (« Non si accettano prenotazioni ») : arriver dans les heures d'accueil (8h–21h). Départ après 14h = une nuit de plus. Sanitaires en trois blocs, eau chaude à toute heure, laverie à jetons, épicerie, bar-pizzeria, borne camping-car (usage limité l'hiver), recharge de voiture électrique.",
+    "description": "L'entrée précédente mélangeait deux campings : « Camping Olympia » est à Toblach (Haut-Adige) et « International Camping Olympia » à Fiames (Cortina), dont la grille 2026 s'arrête le 30 septembre (« chiusura ottobre – novembre »). Les trois campings de Cortina situés en fond de vallée diffèrent en octobre : Camping Rocchetta et Camping Dolomiti ferment le 20 septembre 2026, Camping Cortina reste ouvert (fermé seulement en novembre). Camping Cortina (depuis 1957) est dans une pinède à 2 km au sud du centre, relié au village par le bus municipal. Tarif « Prezzi estate 2026 », période 08/09–31/10 : adulte 14 €, emplacement 9 € (caravane, camping-car ou tente, voiture comprise), chien gratuit, électricité 3 A / 660 W comprise, taxe de séjour 2 €/personne/nuit en sus. Soit 2 × 14 + 9 + 2 × 2 = 41 €/nuit tout compris pour 2 adultes + chien + voiture à tente de toit. Réservation impossible (« Non si accettano prenotazioni ») : arriver dans les heures d'accueil (8h–21h). Départ après 14h = une nuit de plus. Sanitaires en trois blocs, eau chaude à toute heure, laverie à jetons, épicerie, bar-pizzeria, borne camping-car (usage limité l'hiver), recharge de voiture électrique.",
     "alternatives": [
       {
         "nom": "Camping Toblacher See (lac de Dobbiaco)",
@@ -6925,23 +7118,32 @@
     ],
     "commune": "Dobbiaco / Toblach (BZ)",
     "altitude": 1406,
-    "resume": "Lac au bord de la route Dobbiaco-Misurina, avec les Tre Cime en arrière-plan. Vue depuis le parking, sans marche.",
+    "resume": "Lac au bord de la route Dobbiaco-Misurina, avec les Tre Cime en arrière-plan. Vue depuis le parking, sans marche ; places gratuites en bord de route au sud du lac.",
     "prix": {
-      "type": "payant",
-      "montant": 15,
-      "unite": "jour",
-      "annee_tarif": 2025,
-      "detail": "Parking payant confirmé par la commune de Dobbiaco (zone de stationnement à la journée « Dürrensee ») ; montant de 15 €/jour relevé sur OpenStreetMap, non confirmé par une source officielle.",
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "voiture",
+      "annee_tarif": 2026,
+      "detail": "Places gratuites en bord de route au sud du lac. Le parking du lac est payant (commune de Dobbiaco, 2026) : 2 €/h en voiture, 3 €/h en camping-car selon les usagers ; tarif journée non publié (15 € selon OSM, 20 €/24 h selon un avis de juillet 2026).",
       "grille": [
         {
-          "libelle": "Parking du lac, journée",
-          "valeur": "15 € (OpenStreetMap, à confirmer)"
+          "libelle": "Bord de route au sud du lac (≈ 8 places)",
+          "valeur": "gratuit"
         },
         {
-          "libelle": "Places en bord de route au sud",
-          "valeur": "gratuit, environ 8 places"
+          "libelle": "Bord de route, 500 m au nord du lac (≈ 15 places)",
+          "valeur": "gratuit"
+        },
+        {
+          "libelle": "Parking du lac, voiture, 1 h",
+          "valeur": "2 €"
+        },
+        {
+          "libelle": "Belvédère Tre Cime (Drei Zinnen Blick), 1 h",
+          "valeur": "2 €"
         }
-      ]
+      ],
+      "alternative_gratuite": "46.6254, 12.2258 — environ 8 places gratuites en bord de route, 800 m au sud du parking du lac."
     },
     "chien": {
       "admis": true,
@@ -7137,34 +7339,58 @@
         "valeur": "accès libre toute l'année"
       },
       {
-        "libelle": "Stationnement",
-        "valeur": "payant ; horaires et saison non publiés"
+        "libelle": "Parking du lac",
+        "valeur": "payant ; stationnement interdit 21h–6h côté nord (panneaux, avis 2025)"
       }
     ],
     "pratique": [
       {
         "libelle": "Parking du lac",
-        "valeur": "46.6326, 12.2300 — payant, EasyPark"
+        "valeur": "46.6327, 12.2300 — payant, EasyPark ; 2 m maximum pour les camping-cars (avis 2025)"
       },
       {
-        "libelle": "Belvédère Tre Cime (Drei-Zinnen-Blick)",
-        "valeur": "46.6404, 12.2321 — payant"
+        "libelle": "Belvédère Tre Cime (Drei Zinnen Blick)",
+        "valeur": "46.6395, 12.2321 — payant 2 €/h (OSM)"
       },
       {
         "libelle": "Gratuit",
-        "valeur": "46.6254, 12.2258 — environ 8 places en bord de route"
+        "valeur": "46.6254, 12.2258 (≈ 8 places) et 46.6376, 12.2306 (≈ 15 places), en bord de route"
       },
       {
         "libelle": "Restaurant",
-        "valeur": "Ristorante Lago di Landro en face du parking (ouverture en octobre non vérifiée)"
+        "valeur": "Restaurant Dürrensee en face du parking (OSM : 9h–17h, fermé le mercredi ; ouverture en octobre non vérifiée)"
       }
     ],
     "verification": {
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Commune de Dobbiaco — abonnement parking (Dürrensee, Drei-Zinnen-Blick en zones payantes)",
-          "url": "https://www.toblach.eu/de/Neuigkeiten/News/Park_Abo_ab_1_Juni_2024_fuer_die_Buerger_der_Gemeinden_Sexten_Innichen_Toblach_Niederdorf_und_Welsberg-Taisten"
+          "libelle": "Commune de Dobbiaco — réglementation du stationnement payant dès juin 2026 (lac, Drei Zinnen Blick, Landrosee payants ; « Für Personen ohne Jahresabo gelten die regulären Stundentarife »)",
+          "url": "https://www.toblach.eu/de/Neuigkeiten/Bekanntmachungen/Neue_Regelung_fuer_gebuehrenpflichtige_Parkplaetze_ab_Juni_2026"
+        },
+        {
+          "libelle": "park4night — parking du lac : « €3/hour (camper, regular car €2/h) » (2023), payant (sept. 2025), « 20 euro za dobę » (juillet 2026)",
+          "url": "https://park4night.com/en/place/48956"
+        },
+        {
+          "libelle": "park4night — bord de route gratuit, 46.6376, 12.2305 (avis sept. 2026)",
+          "url": "https://park4night.com/en/place/89533"
+        },
+        {
+          "libelle": "park4night — bord de route gratuit au sud, 46.6253, 12.2257",
+          "url": "https://park4night.com/en/place/276643"
+        },
+        {
+          "libelle": "OpenStreetMap — parking du lac 15 EUR/day (2022)",
+          "url": "https://www.openstreetmap.org/way/437446697"
+        },
+        {
+          "libelle": "OpenStreetMap — Drei Zinnen Blick, commune de Dobbiaco, 2 EUR/hour (2024)",
+          "url": "https://www.openstreetmap.org/way/846917780"
+        },
+        {
+          "libelle": "OpenStreetMap — places gratuites au sud du lac (fee=no, 12/2025)",
+          "url": "https://www.openstreetmap.org/way/1339909261"
         },
         {
           "libelle": "pragser-wildsee.it — « Das Parken am See ist kostenpflichtig »",
@@ -7173,22 +7399,21 @@
         {
           "libelle": "Drei Zinnen — parking du lac de Landro",
           "url": "https://www.dreizinnen.com/en/info/parking-place-lake-of-landro_6823"
-        },
-        {
-          "libelle": "OpenStreetMap — parking EasyPark 15 EUR/day",
-          "url": "https://www.openstreetmap.org/?mlat=46.6326&mlon=12.2300#map=17/46.6326/12.2300"
         }
       ],
-      "doutes": "Montant du stationnement non publié par la commune de Dobbiaco ; 15 €/jour vient d'OpenStreetMap (année inconnue, notée 2025 par prudence). Horaires payants et éventuelle gratuité hors saison inconnus."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "SS51 d'Alemagna, environ 12 km au sud de Dobbiaco, 20 km au nord de Cortina ; route ouverte toute l'année. Arrêt de bus sur la ligne Dobbiaco – Cortina.",
-    "description": "Le lac longe la SS51 dans le val di Landro (Höhlensteintal), dans le parc naturel des Tre Cime. Le parking officiel est sur la rive ouest, au bord de la route, à quelques pas de l'eau ; il est payant (zone de stationnement à la journée de la commune de Dobbiaco, paiement EasyPark ; 15 €/jour selon OpenStreetMap, montant non confirmé par la commune). Le parking du belvédère des Tre Cime (Drei-Zinnen-Blick), 1 km au nord, est payant lui aussi. Petits emplacements gratuits en bord de route au sud du lac (environ 8 places). Une petite plage de galets au nord du lac offre la vue sur le Cristallo ; un sentier fait le tour. Camping interdit (parc naturel). Chien en laisse, règle générale au Tyrol du Sud et dans les parcs naturels. La vue sur les Tre Cime se prend surtout depuis le belvédère, pas depuis le parking du lac.",
+    "description": "Le lac longe la SS51 dans le val di Landro (Höhlensteintal), dans le parc naturel des Tre Cime. Le parking officiel est sur la rive ouest, au bord de la route, à quelques pas de l'eau ; il est payant (commune de Dobbiaco, confirmé en juin 2026) : 2 €/h en voiture selon les usagers, paiement EasyPark. Le parking du belvédère des Tre Cime (Drei Zinnen Blick), 1 km au nord, est payant lui aussi (2 €/h). Pour un arrêt photo, les places gratuites en bord de route suffisent : environ 8 au sud du lac, environ 15 à 500 m au nord. Une petite plage de galets au nord du lac offre la vue sur le Cristallo ; un sentier fait le tour. Camping interdit (parc naturel). Chien en laisse, règle générale au Tyrol du Sud et dans les parcs naturels. La vue sur les Tre Cime se prend surtout depuis le belvédère, pas depuis le parking du lac.",
     "reserver": {
       "obligatoire": false
     },
     "ouverture": {
-      "note": "Lac accessible pendant tout le séjour ; seul le tarif de stationnement reste à confirmer."
-    }
+      "a_reverifier": false,
+      "note": "Lac accessible pendant tout le séjour ; stationnement gratuit possible en bord de route."
+    },
+    "source": "https://www.toblach.eu/de/Neuigkeiten/Bekanntmachungen/Neue_Regelung_fuer_gebuehrenpflichtige_Parkplaetze_ab_Juni_2026"
   },
   {
     "id": "lago-antorno",
@@ -7202,26 +7427,25 @@
     "altitude": 1866,
     "resume": "Petit lac juste avant le péage des Tre Cime, avec leur reflet dans l'eau. Deux minutes de marche depuis le parking.",
     "prix": {
-      "type": "variable",
-      "montant": 14,
-      "unite": "jour",
+      "type": "gratuit",
+      "montant": 0,
       "annee_tarif": 2026,
-      "detail": "Probablement tarif de Misurina : 2 €/h ou 14 €/jour, 8 h – 20 h, jusqu'au 31 octobre. OpenStreetMap indique ce parking gratuit ; places gratuites en bord de route près de la barrière.",
+      "detail": "Gratuit : le parking du lac d'Antorno ne figure pas parmi les zones payantes de la commune (seulement les deux parkings du bord du lac de Misurina, via Guide Alpine et la Loita). Côté lac, stationnement au disque 2 h ; parking du Chalet Lago Antorno et 15 places avant la barrière sans limite affichée.",
       "grille": [
         {
-          "libelle": "Voiture, à l'heure",
-          "valeur": "2 € (à confirmer)"
+          "libelle": "Parking face au lac (près du Chalet)",
+          "valeur": "gratuit"
         },
         {
-          "libelle": "Voiture, à la journée",
-          "valeur": "14 € (à confirmer)"
+          "libelle": "Places côté lac",
+          "valeur": "gratuit, disque 2 h"
         },
         {
-          "libelle": "Places en bord de route près de la barrière",
+          "libelle": "Places en bord de route avant la barrière",
           "valeur": "gratuit (environ 15 places)"
         }
       ],
-      "alternative_gratuite": "Places gratuites en bord de route près de la barrière."
+      "alternative_gratuite": "Déjà gratuit."
     },
     "chien": {
       "admis": true,
@@ -7239,7 +7463,8 @@
     "etiquettes": [
       "gratuit",
       "sur la route des Tre Cime",
-      "photo"
+      "photo",
+      "départ à pied vers les Tre Cime"
     ],
     "photos": [
       {
@@ -7336,25 +7561,29 @@
       },
       {
         "libelle": "Stationnement",
-        "valeur": "payant 8 h – 20 h du 15 mai au 31 octobre selon lagodimisurina.com (non confirmé par la commune)"
+        "valeur": "gratuit ; disque 2 h sur les places côté lac"
       }
     ],
     "pratique": [
       {
         "libelle": "Parking du lac",
-        "valeur": "46.5910, 12.2632"
+        "valeur": "46.5911, 12.2627 — gratuit"
       },
       {
         "libelle": "Places en bord de route",
-        "valeur": "46.5994, 12.2700 — gratuit, environ 15 places, juste avant la barrière"
+        "valeur": "46.5994, 12.2700 — gratuit, environ 15 places, juste avant la barrière et au départ du sentier vers le Rifugio Auronzo"
       },
       {
         "libelle": "Barrière de péage",
         "valeur": "46.59985, 12.26997 — environ 700 m après le lac"
       },
       {
-        "libelle": "Restaurant",
-        "valeur": "Chalet au bord du lac (ouverture en octobre non vérifiée)"
+        "libelle": "Montée à pied aux Tre Cime",
+        "valeur": "poteau « Misurina Casello » 46.59882, 12.26974 → Rifugio Auronzo : 3,3 km, +470 m, 1 h 15 – 1 h 30"
+      },
+      {
+        "libelle": "Chalet Lago Antorno",
+        "valeur": "hôtel-restaurant ; chambres réservables le 18 octobre 2026"
       }
     ],
     "verification": {
@@ -7375,12 +7604,49 @@
         {
           "libelle": "Dolomiti Review — le sentier d'hiver part du lac d'Antorno",
           "url": "https://www.dolomitireview.com/chiusa-la-strada-delle-tre-cime-di-lavaredo-per-fine-stagione-tutte-le-informazioni-utili-per-linverno-2024/"
+        },
+        {
+          "libelle": "Commune d'Auronzo — délibération des tarifs de stationnement (PDF, avril 2024) : zones payantes de Misurina",
+          "url": "https://auronzo-di-cadore-api.municipiumapp.it/s3/406/allegati/tariffe-servizi-a-domanda-individuale.pdf"
+        },
+        {
+          "libelle": "myCicero / MooneyGo — zones de stationnement payant d'Auronzo et Misurina (MA1–MA5, 15/05–31/10)",
+          "url": "https://www.mycicero.it/z/auronzocadore/"
+        },
+        {
+          "libelle": "OpenStreetMap — parking du lac d'Antorno (fee=no) et 15 places gratuites avant la barrière",
+          "url": "https://www.openstreetmap.org/way/1293387808"
+        },
+        {
+          "libelle": "Moon Honey Travel (juin 2026) — parking gratuit à côté de l'Albergo Chalet Lago Antorno",
+          "url": "https://www.moonhoneytravel.com/rifugio-auronzo-toll-road/"
+        },
+        {
+          "libelle": "The Photo Hikes (2025) — stationnement gratuit au disque 2 h côté lac",
+          "url": "https://thephotohikes.com/lago-dantorno-scenic-spot/"
+        },
+        {
+          "libelle": "Wikidata — Lago d'Antorno, altitude 1866 m",
+          "url": "https://www.wikidata.org/wiki/Q2217047"
+        },
+        {
+          "libelle": "Chalet Lago Antorno — moteur de réservation officiel (chambre réservable le 18/10/2026)",
+          "url": "https://www.simplebooking.it/ibe/search?hid=6096&lang=IT&cur=EUR"
+        },
+        {
+          "libelle": "CAI Prenotarifugi — Rifugio Auronzo, accès à pied (depuis le péage de Misurina-Antorno, 1h15–1h30)",
+          "url": "https://www.prenotarifugi.cai.it/en/detail/?id=5818"
+        },
+        {
+          "libelle": "OpenStreetMap, relevé CAI — sentier « Misurina Casello – Rifugio Auronzo » (relation 7406119 : 3,3 km, +470 m, cotation E)",
+          "url": "https://www.openstreetmap.org/relation/7406119"
         }
       ],
-      "doutes": "Parking payant ou gratuit : sources contradictoires (lagodimisurina.com payant, OpenStreetMap gratuit) ; le PDF de la commune ne cite que « Misurina » sans détailler. Ouverture du chalet-restaurant en octobre non vérifiée. Altitude 1866 m non recoupée par une source officielle."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "Depuis Misurina, prendre la via Monte Piana vers les Tre Cime ; le lac est à environ 1,5 km, avant la barrière de péage (46.59985, 12.26997).",
-    "description": "Le lac se trouve au bord de la via Monte Piana, la route qui mène à la route à péage des Tre Cime ; la barrière automatique est environ 700 m plus haut, au nord-est du lac : le parking du lac ne sert pas de barrière. On peut donc s'y arrêter sans réservation. Le tour du lac est court et plat. Parking : un site spécialisé sur Misurina classe le parking d'Antorno parmi les parkings payants de Misurina (2 €/h, 14 €/jour, 15 mai – 31 octobre) ; OpenStreetMap le marque gratuit. Quelques places gratuites en bord de route (environ 15) juste avant la barrière. Le lac d'Antorno est aussi le point de départ à pied vers le Rifugio Auronzo quand la route est fermée.",
+    "description": "Le lac se trouve au bord de la via Monte Piana, la route qui mène à la route à péage des Tre Cime ; la barrière automatique est environ 700 m plus haut. On s'y arrête sans réservation. Le tour du lac est court et plat. Stationnement gratuit : la commune ne range pas Antorno parmi ses parkings payants de Misurina ; disque 2 h sur les places côté lac, parking du Chalet et 15 places avant la barrière sans limite affichée. C'est le départ de la montée à pied vers le Rifugio Auronzo quand on ne prend pas la route à péage : sentier balisé « avvicinamento 101 », 3,3 km et +470 m depuis la barrière.",
     "reserver": {
       "obligatoire": false
     },
@@ -7399,8 +7665,9 @@
       }
     ],
     "ouverture": {
-      "note": "Lac accessible pendant tout le séjour ; statut payant ou gratuit du parking à vérifier sur place."
-    }
+      "note": "Lac accessible pendant tout le séjour ; stationnement gratuit."
+    },
+    "source": "https://lagodimisurina.com/en/lake-misurina-parking/"
   },
   {
     "id": "lago-dobbiaco",
@@ -7415,22 +7682,18 @@
     "resume": "Lac accessible en cinq minutes à pied du parking, tour du lac plat et ombragé. Tout près du camping.",
     "prix": {
       "type": "payant",
-      "montant": 15,
-      "unite": "jour (parking du lac)",
+      "montant": 2,
+      "unite": "voiture / heure (parking du lac)",
       "annee_tarif": 2026,
-      "detail": "Le lac et le sentier sont gratuits ; seul le parking est payant. Tarif relevé par des usagers (park4night, août–sept. 2026), pas de grille officielle trouvée en ligne. Stationnement gratuit pour les clients du restaurant du lac (source 2025). Repli gratuit : gare de Dobbiaco.",
+      "detail": "Le lac et le sentier sont gratuits ; seul le parking est payant : 2 €/h en voiture (3 €/h en camping-car), 7h–19h. Parking gratuit pour les clients du restaurant du lac ; repli gratuit : gare de Dobbiaco.",
       "grille": [
         {
-          "libelle": "Parking du lac, 30 min",
-          "valeur": "1,50 €"
+          "libelle": "Parking du lac, voiture, 1 h",
+          "valeur": "2 €"
         },
         {
-          "libelle": "Parking du lac, 1 h",
-          "valeur": "3 €"
-        },
-        {
-          "libelle": "Parking du lac, journée",
-          "valeur": "15 €"
+          "libelle": "Parking du lac, voiture, journée",
+          "valeur": "10 €"
         },
         {
           "libelle": "Tour du lac à pied",
@@ -7444,9 +7707,9 @@
       "note": "Laisse sur le sentier du tour du lac, décrit comme « dog-friendly » par l'office de tourisme."
     },
     "rando": {
-      "distance_km": 3.5,
-      "denivele_m": 30,
-      "duree_h": 1,
+      "distance_km": 2.6,
+      "denivele_m": 10,
+      "duree_h": 0.7,
       "difficulte": "facile",
       "boucle": true
     },
@@ -7648,61 +7911,71 @@
       },
       {
         "libelle": "Stationnement payant (parking du lac)",
-        "valeur": "7h–19h (source : usagers, 2026)"
+        "valeur": "7h–19h, tous les jours"
       },
       {
         "libelle": "Stationnement interdit",
-        "valeur": "22h–6h (source : usagers, 2026)"
+        "valeur": "22h–6h"
       }
     ],
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "Parking du lac, 3 €/h ou 15 €/jour, 7h–19h ; interdit 22h–6h"
+        "valeur": "Parking du lac : voiture 2 €/h ou 10 €/jour, 7h–19h ; interdit 22h–6h"
       },
       {
         "libelle": "Toilettes / eau",
-        "valeur": "Toilettes publiques et point d'eau au parking (park4night)"
+        "valeur": "Toilettes publiques gratuites au bord du lac (OSM, 16/09/2026)"
       },
       {
         "libelle": "Restauration",
-        "valeur": "Restaurant du lac (Seerestaurant) et Seeschupfe"
+        "valeur": "Restaurant du lac (Seerestaurant) et Seeschupfe (chiens admis)"
       }
     ],
     "verification": {
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Office de tourisme Val Pusteria — tour du lac 2,6 km, ±10 m, chien OK",
+          "libelle": "Office de tourisme Val Pusteria — tour du lac 2,6 km, 40 min, ±10 m, « dog-friendly »",
           "url": "https://www.pustertal.org/en/leisure-activities/mountains-and-hiking/hiking-in-alta-pusteria-three-peaks/lake-dobbiaco-circular-hike/"
         },
         {
-          "libelle": "Commune de Dobbiaco — nouveau stationnement payant à partir de juin 2026",
-          "url": "https://www.toblach.eu/system/web/news.aspx?sprache=3&menuonr=219102810&detailonr=225802920-852"
+          "libelle": "Commune de Dobbiaco — réglementation du stationnement payant dès juin 2026 (lac, Drei Zinnen Blick, Landrosee payants ; « Für Personen ohne Jahresabo gelten die regulären Stundentarife »)",
+          "url": "https://www.toblach.eu/de/Neuigkeiten/Bekanntmachungen/Neue_Regelung_fuer_gebuehrenpflichtige_Parkplaetze_ab_Juni_2026"
         },
         {
-          "libelle": "park4night — tarifs relevés août–sept. 2026",
+          "libelle": "OpenStreetMap (modifié le 16/07/2026) — parking Toblacher See : voiture 2 €/h, 10 €/jour ; camping-car 3 €/h, 15 €/jour ; payant 7h–19h ; interdit 22h–6h",
+          "url": "https://www.openstreetmap.org/way/75384548"
+        },
+        {
+          "libelle": "park4night — avis mai–sept. 2026 (3 €/h, fourgons et camping-cars ; « €2-3/hr » le 10/08/2026)",
           "url": "https://park4night.com/en/place/298269"
         },
         {
-          "libelle": "travelliving.de (sept. 2025) — ancien tarif 2 €/h, max 7 €/jour",
+          "libelle": "travelliving.de (10/09/2025) — « 2 € pro Stunde, maximal 7 € pro Tag » ; gratuit pour les clients du restaurant ; gare gratuite",
           "url": "https://travelliving.de/reiseziele/italien/toblacher-see/"
+        },
+        {
+          "libelle": "park4night — parking Seeweg 16 (1,5 km au nord du lac) : « 4.5€ every 2 hours » (août 2026)",
+          "url": "https://park4night.com/en/place/367368"
         },
         {
           "libelle": "Nominatim/OpenStreetMap + EU-DEM — GPS et altitude",
           "url": "https://www.openstreetmap.org/#map=16/46.7052/12.2203"
         }
       ],
-      "doutes": "Aucune grille officielle 2026 trouvée : le tarif 3 €/h – 15 €/jour vient d'usagers (park4night, 2026) ; un autre avis cite 4,50 € les 2 h, peut-être sur un autre parking (Seeweg). Longueur du tour : 2,6 km (office de tourisme) contre 4,5 km (guide non officiel, sans doute avec détour)."
+      "doutes": "",
+      "a_demander": []
     },
     "acces": "SS51 d'Alemagna depuis Dobbiaco vers Cortina, 3 km ; parking à l'entrée du val di Landro. Pas de péage ni de restriction. Bus vers Cortina/val di Landro depuis Dobbiaco.",
-    "description": "Le lac se trouve à 3 km au sud de Dobbiaco, sur la SS51 d'Alemagna (Dobbiaco–Cortina), à l'entrée du val di Landro. Le parking principal est au bord de l'eau, à côté du restaurant du lac. La commune a introduit un nouveau règlement de stationnement payant à partir de juin 2026 : les tarifs relevés par des usagers en août–septembre 2026 sont de 1,50 € la demi-heure, 3 €/h, 15 €/jour, paiement de 7h à 19h ; stationnement interdit de 22h à 6h (camping-cars et caravanes interdits de 19h à 7h selon d'autres avis). Le tour du lac est presque plat (±10 m), faisable avec un chien en laisse ; le vélo est interdit sur le sentier du tour (une piste cyclable séparée longe le lac). Idéal en balade courte du soir. Le restaurant du lac serait ouvert à l'année ; le pédalo ne fonctionne qu'en été.",
+    "description": "Le lac se trouve à 3 km au sud de Dobbiaco, sur la SS51 d'Alemagna (Dobbiaco–Cortina), à l'entrée du val di Landro. Le parking principal est au bord de l'eau, à côté du restaurant du lac : 2 €/h ou 10 €/jour en voiture (3 €/h et 15 €/jour en camping-car), payant de 7h à 19h ; stationnement interdit de 22h à 6h. Le tour du lac fait 2,6 km presque à plat (±10 m), 40 min, faisable avec un chien en laisse ; le vélo est interdit sur le sentier du tour (une piste cyclable séparée longe le lac). Idéal en balade courte du soir. Le pédalo ne fonctionne qu'en été.",
     "reserver": {
       "obligatoire": false
     },
     "ouverture": {
       "note": "Accessible pendant tout le séjour : lac et sentier ouverts toute l'année. Seuls le pédalo (été) et peut-être le kiosque sont fermés en octobre."
-    }
+    },
+    "source": "https://www.pustertal.org/en/leisure-activities/mountains-and-hiking/hiking-in-alta-pusteria-three-peaks/lake-dobbiaco-circular-hike/"
   },
   {
     "id": "passo-gardena",
@@ -8241,12 +8514,12 @@
     ],
     "commune": "Cortina d'Ampezzo (BL)",
     "altitude": 1809,
-    "resume": "Col routier à 1 809 m, départ du sentier 215 vers le Lago di Sorapis. Stationnement gratuit le long de la route au départ du sentier (une vingtaine de places) ; en repli, grand parking gratuit de Rio Gere, 20 minutes à pied.",
+    "resume": "Col routier à 1 809 m, départ du sentier 215 vers le Lago di Sorapis. Stationnement gratuit sans réservation : parking en gravier d'une vingtaine de places et bord de route ; en repli, parking gratuit de Rio Gere, 20 minutes à pied.",
     "prix": {
       "type": "gratuit",
       "montant": 0,
       "annee_tarif": 2026,
-      "detail": "Stationnement gratuit au col et à Rio Gere (guides à jour de 2026). Aucun tarif officiel publié.",
+      "detail": "Gratuit, sans réservation ni plafond réglementé (deux guides mis à jour en juillet et août 2026). Le « numero chiuso » évoqué par la presse date de 2021 et désigne seulement la petite taille du parking.",
       "grille": [
         {
           "libelle": "Parking du col",
@@ -8315,7 +8588,7 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "≈ 20 places gratuites le long de la SR48 au départ du 215"
+        "valeur": "≈ 20 places gratuites (gravier) + bord de la SR48, sans réservation"
       },
       {
         "libelle": "Repli",
@@ -8338,21 +8611,34 @@
           "url": "https://www.openstreetmap.org/?mlat=46.5562&mlon=12.20437#map=16/46.5562/12.20437"
         },
         {
-          "libelle": "Corriere delle Alpi — numero chiuso été 2026 (payant)",
+          "libelle": "lagodimisurina.com — « no booking system: the car park is free, unsurfaced, with about twenty spaces » ; « Dogs are allowed on a lead » (août 2026)",
+          "url": "https://lagodimisurina.com/en/lake-sorapis-hike/"
+        },
+        {
+          "libelle": "Roads and Rivers — parkings du col « free » (mis à jour juillet 2026)",
+          "url": "https://roads-and-rivers.com/en/lake-sorapis/"
+        },
+        {
+          "libelle": "Corriere delle Alpi, 19 août 2021 — « il numero chiuso già c'è col park limitato al passo Tre Croci »",
           "url": "https://www.corrierealpi.it/cronaca/sorapis-a-cortina-la-fondazione-unesco-alza-la-voce-lago-vulnerabile-basta-turismo-di-massa-q4jm7t2m"
+        },
+        {
+          "libelle": "Regole d'Ampezzo — page d'accueil : fermetures estivales 2026 (S. Uberto), rien sur Tre Croci",
+          "url": "https://www.regole.it/"
         }
       ],
-      "doutes": "Gratuité et nombre de places tirés de guides, pas d'une source officielle (Comune di Cortina, Regole d'Ampezzo). Modalités du plafond de voitures 2026 derrière un paywall."
+      "doutes": "",
+      "a_demander": []
     },
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Col et parking accessibles en octobre ; refuge Vandelli et bus 51 fermés. Le plafond de voitures de l'été 2026 ne concerne a priori que l'été, non confirmé."
+      "a_reverifier": false,
+      "note": "Col et parking accessibles en octobre, gratuits, sans réservation. Refuge Vandelli et bus 51 fermés. Aucun plafond de voitures : la seule limite est la capacité du parking."
     },
     "acces": "SR48 depuis Cortina (≈ 8 km) ou Misurina. Aucune limite de hauteur. Parking de repli : Rio Gere, 46.5512, 12.1899.",
     "reserver": {
       "obligatoire": false
     },
-    "description": "Le sentier 215 vers le refuge Vandelli et le Lago di Sorapis part à l'est du col, sur la SR48. Le stationnement au départ est gratuit, le long de la route ou sur un petit parking en gravier d'une vingtaine de places, sans réservation ; en été il est plein avant 7 h. Plus bas, le parking des remontées de Rio Gere (gratuit, plus vaste) ajoute environ 20 minutes de marche par trajet. Les Règles d'Ampezzo (Regole d'Ampezzo, propriétaire foncier) ont annoncé pour l'été 2026 un « numero chiuso », un plafond du nombre de voitures au col ; modalités non publiées en accès libre. Le bus 51 Cortina – Tre Croci – Misurina ne circule que du 8 juin au 9 septembre 2026. Le refuge Vandelli ouvre du 20 juin au 20 septembre environ : fermé en octobre. En octobre, le sentier 215 comporte des passages équipés de câbles, exposés et possiblement verglacés : difficile avec un chien.",
+    "description": "Le sentier 215 vers le refuge Vandelli et le Lago di Sorapis part à l'est du col, sur la SR48. Le stationnement au départ est gratuit, le long de la route ou sur un petit parking en gravier d'une vingtaine de places, sans réservation ; en été il est plein avant 7 h. Plus bas, le parking des remontées de Rio Gere (gratuit, plus vaste) ajoute environ 20 minutes de marche par trajet. Il n'existe ni réservation ni plafond réglementé : le « numero chiuso » cité par la presse (Corriere delle Alpi, 2021) désigne simplement la capacité limitée du parking du col. Le bus 51 Cortina – Tre Croci – Misurina ne circule que du 8 juin au 9 septembre 2026. Le refuge Vandelli ouvre du 20 juin au 20 septembre environ : fermé en octobre. En octobre, le sentier 215 comporte des passages équipés de câbles, exposés et possiblement verglacés : difficile avec un chien.",
     "liens": [
       {
         "libelle": "Itinéraire et conditions 2026 (Dolomiti Review)",
@@ -8361,6 +8647,10 @@
       {
         "libelle": "Carte OpenStreetMap du col",
         "url": "https://www.openstreetmap.org/?mlat=46.5562&mlon=12.20437#map=16/46.5562/12.20437"
+      },
+      {
+        "libelle": "Parking et chien sur le 215 (lagodimisurina.com, août 2026)",
+        "url": "https://lagodimisurina.com/en/lake-sorapis-hike/"
       }
     ]
   },
@@ -10141,48 +10431,53 @@
       12.22027
     ],
     "commune": "Dobbiaco (BZ)",
-    "resume": "Parking à barrière au bord du lac : 3 €/h, 15 €/jour, payant 7h–19h, stationnement interdit 22h–6h.",
+    "resume": "Parking payant au bord du lac : voiture 2 €/h, 10 €/jour, payant 7h–19h toute l'année ; stationnement interdit 22h–6h.",
     "prix": {
       "type": "payant",
-      "montant": 15,
-      "unite": "voiture / jour",
+      "montant": 2,
+      "unite": "voiture / heure",
       "annee_tarif": 2026,
-      "detail": "Relevé visiteurs août 2026, non confirmé par la commune.",
+      "detail": "Tarif voiture (notre véhicule, tente de toit comprise, n'est pas un camping-car). Les 3 €/h et 15 €/jour cités par park4night sont le tarif camping-car. Le tour du lac prend 40 min : 2 € suffisent.",
       "grille": [
         {
-          "libelle": "30 min",
-          "valeur": "1,50 €"
+          "libelle": "Voiture, 1 heure",
+          "valeur": "2 €"
         },
         {
-          "libelle": "1 heure",
+          "libelle": "Voiture, journée",
+          "valeur": "10 €"
+        },
+        {
+          "libelle": "Camping-car, 1 heure",
           "valeur": "3 €"
         },
         {
-          "libelle": "Journée",
+          "libelle": "Camping-car, journée",
           "valeur": "15 €"
         }
-      ]
+      ],
+      "alternative_gratuite": "Gare de Dobbiaco (gratuite), ou parking clients du restaurant du lac."
     },
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Ouvert pendant le séjour (parking toute l'année) ; tarif 2026 à confirmer sur l'horodateur."
+      "a_reverifier": false,
+      "note": "Parking ouvert toute l'année, payant 7h–19h tous les jours, y compris en octobre."
     },
-    "source": "https://park4night.com/en/place/298269",
+    "source": "https://www.toblach.eu/de/Neuigkeiten/Bekanntmachungen/Neue_Regelung_fuer_gebuehrenpflichtige_Parkplaetze_ab_Juni_2026",
     "liens": [
       {
-        "libelle": "Commune — stationnement 2026",
-        "url": "https://dobbiaco.eu/it/Novita/Avvisi/Nuova_regolamentazione_per_i_parcheggi_a_pagamento_da_giugno_2026_in_poi"
+        "libelle": "Commune — stationnement payant dès juin 2026",
+        "url": "https://www.toblach.eu/de/Neuigkeiten/Bekanntmachungen/Neue_Regelung_fuer_gebuehrenpflichtige_Parkplaetze_ab_Juni_2026"
       },
       {
-        "libelle": "Commune — stationnement payant dès juin 2026",
-        "url": "https://www.dobbiaco.eu/system/web/news.aspx?sprache=3&menuonr=219102810&detailonr=225802920-852"
+        "libelle": "OpenStreetMap — tarifs voiture et camping-car",
+        "url": "https://www.openstreetmap.org/way/75384548"
       },
       {
         "libelle": "Tre Cime — fiche parking Lago di Dobbiaco",
         "url": "https://www.dreizinnen.com/en/info/parking-place-lake-of-dobbiaco_6483"
       },
       {
-        "libelle": "park4night — avis et tarifs récents",
+        "libelle": "park4night — avis récents",
         "url": "https://park4night.com/en/place/298269"
       }
     ],
@@ -10268,11 +10563,11 @@
     "horaires": [
       {
         "libelle": "Payant",
-        "valeur": "7h–19h"
+        "valeur": "7h–19h, tous les jours"
       },
       {
         "libelle": "Barrières",
-        "valeur": "fermées vers 20h30"
+        "valeur": "fermées vers 20h30 (park4night)"
       },
       {
         "libelle": "Interdit",
@@ -10282,30 +10577,51 @@
     "pratique": [
       {
         "libelle": "Places",
-        "valeur": "≈ 40 selon park4night (il existe deux parkings au bord du lac)"
+        "valeur": "≈ 40 (park4night) ; deux parkings payants au même tarif au bord du lac (nord et sud)"
       },
       {
         "libelle": "Paiement",
-        "valeur": "pièces, carte, application"
+        "valeur": "pièces, carte, application EasyPark"
+      },
+      {
+        "libelle": "Toilettes",
+        "valeur": "toilettes publiques gratuites au bord du lac (OSM, vérifié 16/09/2026)"
+      },
+      {
+        "libelle": "Hauteur",
+        "valeur": "pas de limite ; poids lourds interdits, camping-cars admis"
       }
     ],
     "verification": {
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "park4night — 3 €/h, 15 €/jour, 7h–19h, interdit 22h–6h (avis août 2026)",
+          "libelle": "Commune de Dobbiaco — réglementation du stationnement payant dès juin 2026 (lac, Drei Zinnen Blick, Landrosee payants ; « Für Personen ohne Jahresabo gelten die regulären Stundentarife »)",
+          "url": "https://www.toblach.eu/de/Neuigkeiten/Bekanntmachungen/Neue_Regelung_fuer_gebuehrenpflichtige_Parkplaetze_ab_Juni_2026"
+        },
+        {
+          "libelle": "OpenStreetMap (modifié le 16/07/2026) — parking Toblacher See : voiture 2 €/h, 10 €/jour ; camping-car 3 €/h, 15 €/jour ; payant 7h–19h ; interdit 22h–6h",
+          "url": "https://www.openstreetmap.org/way/75384548"
+        },
+        {
+          "libelle": "park4night — avis mai–sept. 2026 (3 €/h, fourgons et camping-cars ; « €2-3/hr » le 10/08/2026)",
           "url": "https://park4night.com/en/place/298269"
+        },
+        {
+          "libelle": "travelliving.de (10/09/2025) — « 2 € pro Stunde, maximal 7 € pro Tag » ; gratuit pour les clients du restaurant ; gare gratuite",
+          "url": "https://travelliving.de/reiseziele/italien/toblacher-see/"
+        },
+        {
+          "libelle": "park4night — parking Seeweg 16 (1,5 km au nord du lac) : « 4.5€ every 2 hours » (août 2026)",
+          "url": "https://park4night.com/en/place/367368"
         },
         {
           "libelle": "Tre Cime Dolomiti — adresse Via Dolomiti 3",
           "url": "https://www.dreizinnen.com/en/info/parking-place-lake-of-dobbiaco_6483"
-        },
-        {
-          "libelle": "OpenStreetMap — parking Toblacher See",
-          "url": "https://www.openstreetmap.org/way/75384548"
         }
       ],
-      "doutes": "Page de la commune (réglementation juin 2026) inaccessible depuis ce poste (403 du proxy) : tarif et horaires viennent d'avis de visiteurs d'août 2026 uniquement."
+      "doutes": "",
+      "a_demander": []
     },
     "chien": {
       "admis": true,
@@ -10315,7 +10631,7 @@
     "reserver": {
       "obligatoire": false
     },
-    "description": "Parkings de surface au nord du lac de Dobbiaco, sur la SS51 d'Alemagna. Tarifs relevés par des visiteurs en août 2026 : 1,50 € la demi-heure, 3 €/h, 15 €/jour, payant de 7h à 19h (pièces, carte ou application). Les barrières d'entrée ferment vers 20h30 ; stationnement interdit de 22h à 6h. Depuis juin 2026 la commune a une nouvelle réglementation (abonnement annuel valable sur ce parking) ; la page officielle n'a pas pu être lue. Tour du lac à plat ≈ 1 h, praticable avec un chien en laisse."
+    "description": "Deux parkings de surface au bord du lac de Dobbiaco, sur la SS51 d'Alemagna, gérés par la commune. Tarif voiture : 2 €/h, 10 €/jour ; camping-car : 3 €/h, 15 €/jour. Payant de 7h à 19h toute l'année (pièces, carte, EasyPark) ; stationnement interdit de 22h à 6h, barrières fermées vers 20h30. La commune a changé en juin 2026 les abonnements des résidents, pas les tarifs horaires des visiteurs. Le parking du Seeweg (4,50 € les 2 h) est un autre parking, 1,5 km au nord. Tour du lac à plat en 40 min, avec un chien en laisse."
   },
   {
     "id": "camping-tahiti-finale",
@@ -11731,14 +12047,14 @@
   },
   {
     "id": "courses-despar-dobbiaco",
-    "nom": "Despar Dobbiaco — courses base est",
+    "nom": "Despar Dobbiaco (Kaufhaus Sapelza) — courses base est",
     "categorie": "supermarche",
     "gps": [
-      46.73355,
-      12.22312
+      46.73539,
+      12.22225
     ],
-    "commune": "St. Johannesstrasse 2, Dobbiaco (BZ)",
-    "resume": "Selon Despar : lundi–samedi 8h30–12h30 et 15h30–19h30, dimanche fermé. Existence du magasin douteuse : OSM y place un Eurospin depuis 2021.",
+    "commune": "Via Conti Künigl 3/7, Dobbiaco (BZ)",
+    "resume": "Lundi–vendredi 8h30–12h et 15h–19h, samedi 8h30–12h30, dimanche fermé. L'ancien Despar St. Johannesstr. 2 est devenu un Eurospin (8h30–19h).",
     "prix": {
       "type": "variable",
       "unite": "courses"
@@ -11747,46 +12063,42 @@
       "admis": false,
       "note": "Seulement en sac ou caisse (FAQ Despar)."
     },
-    "source": "https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/",
+    "source": "https://www.despar.it/it/punto-vendita-despar/325/dobbiaco/",
     "liens": [
       {
-        "libelle": "Despar Dobbiaco — horaires",
-        "url": "https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/"
-      },
-      {
-        "libelle": "Despar Dobbiaco Via Conti Kunigl — fiche",
+        "libelle": "Despar Dobbiaco Via Conti Künigl — horaires officiels",
         "url": "https://www.despar.it/it/punto-vendita-despar/325/dobbiaco/"
       },
       {
-        "libelle": "Eurospin Dobbiaco — fiche",
+        "libelle": "Eurospin Dobbiaco, Viale San Giovanni 2A — fiche",
         "url": "https://www.eurospin.it/punti-vendita/dobbiaco-viale-s-giovanni/"
       }
     ],
-    "adresse": "St. Johannesstraße / Viale San Giovanni 2, 39034 Dobbiaco",
+    "adresse": "Via Conti Künigl / Graf-Künigl-Straße 3/7, 39034 Dobbiaco",
     "horaires": [
       {
         "libelle": "Lundi",
-        "valeur": "8h30–12h30 et 15h30–19h30"
+        "valeur": "8h30–12h et 15h–19h"
       },
       {
         "libelle": "Mardi",
-        "valeur": "8h30–12h30 et 15h30–19h30"
+        "valeur": "8h30–12h et 15h–19h"
       },
       {
         "libelle": "Mercredi",
-        "valeur": "8h30–12h30 et 15h30–19h30"
+        "valeur": "8h30–12h et 15h–19h"
       },
       {
         "libelle": "Jeudi",
-        "valeur": "8h30–12h30 et 15h30–19h30"
+        "valeur": "8h30–12h et 15h–19h"
       },
       {
         "libelle": "Vendredi",
-        "valeur": "8h30–12h30 et 15h30–19h30"
+        "valeur": "8h30–12h et 15h–19h"
       },
       {
         "libelle": "Samedi",
-        "valeur": "8h30–12h30 et 15h30–19h30"
+        "valeur": "8h30–12h30"
       },
       {
         "libelle": "Dimanche",
@@ -11796,19 +12108,35 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "4 places client + stationnement gratuit dans la rue (OSM)"
+        "valeur": "centre de Dobbiaco : parkings communaux payants ; Eurospin (Viale San Giovanni 2A) a son propre parking"
       },
       {
-        "libelle": "Alternative sûre",
-        "valeur": "Despar Via Conti Kunigl 3/7 ; Eurospin Viale San Giovanni"
+        "libelle": "Alternative",
+        "valeur": "Eurospin Viale San Giovanni 2A, lundi–samedi 8h30–19h sans coupure, dimanche fermé"
       }
     ],
     "verification": {
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Despar — fiche officielle St. Johannesstr. 2",
+          "libelle": "Despar — fiche officielle Via Conti Kunigl 3/7 (horaires, prospectus valable 17–30/09/2026)",
+          "url": "https://www.despar.it/it/punto-vendita-despar/325/dobbiaco/"
+        },
+        {
+          "libelle": "Despar — fiche St. Johannesstr. 2, restée en ligne sans magasin",
           "url": "https://www.despar.it/it/punto-vendita-despar/352/dobbiaco/"
+        },
+        {
+          "libelle": "Google Maps — un seul Despar à Dobbiaco, Via Conti Künigl 3/7 (4,3/5, 96 avis)",
+          "url": "https://www.google.com/maps/place/Despar/@46.7353903,12.2222528,17z"
+        },
+        {
+          "libelle": "Google Maps — Eurospin Viale S. Giovanni 2A (472 avis, avis août 2026)",
+          "url": "https://www.google.com/maps/place/Eurospin/@46.734117,12.2233247,17z"
+        },
+        {
+          "libelle": "Eurospin — fiche Dobbiaco, 8h30–19h, dimanche fermé",
+          "url": "https://www.eurospin.it/punti-vendita/dobbiaco-viale-s-giovanni/"
         },
         {
           "libelle": "OpenStreetMap — historique : Despar devenu Euro Spin en 2021",
@@ -11819,34 +12147,31 @@
           "url": "https://distribuzionemoderna.info/news/eurospin-apre-a-dobbiaco-bz"
         },
         {
-          "libelle": "Toblach Shopping — commerçants alimentaires (pas de Despar St. Johannes)",
-          "url": "http://www.toblachshopping.it/kaufleute-toblach/unsere-geschaefte/lebensmittel.html"
-        },
-        {
           "libelle": "Despar — FAQ : animaux admis seulement en sac ou caisse de transport",
           "url": "https://www.despar.it/it/contatti/"
         }
       ],
-      "doutes": "Existence réelle du Despar St. Johannesstr. 2 non confirmée : fiche Despar en ligne mais sans prospectus, OSM et liste des commerçants l'ignorent."
+      "doutes": "",
+      "a_demander": []
     },
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Horaires officiels Despar, mais le magasin a peut-être été remplacé par un Eurospin. Dimanche fermé dans tous les cas."
+      "a_reverifier": false,
+      "note": "Ouvert du lundi au samedi pendant le séjour, fermé à midi et le samedi après-midi ; dimanche fermé."
     },
-    "acces": "Viale San Giovanni, centre de Dobbiaco. Petit parking client gratuit (4 places, OSM) et places gratuites le long de la rue.",
-    "description": "La fiche Despar affiche encore ce magasin (8h30–12h30 et 15h30–19h30 du lundi au samedi, fermé le dimanche). Mais à cette adresse OpenStreetMap indique un Eurospin depuis septembre 2021 (ouverture Eurospin à Dobbiaco en août 2021), et la liste des commerçants de Dobbiaco ne cite pas ce Despar. Autre Despar certain : Via Conti Kunigl 3/7 (Kaufhaus Sapelza), 8h30–12h et 15h–19h, samedi 8h30–12h30, dimanche fermé. Eurospin Viale San Giovanni : 8h30–19h, dimanche fermé. Chien : sac ou caisse uniquement chez Despar. Aucun supermarché de Dobbiaco n'annonce d'ouverture le dimanche."
+    "acces": "Centre de Dobbiaco, au rez-de-chaussée du Kaufhaus Sapelza, près de la place de l'Hôtel de ville.",
+    "description": "Le Despar de Dobbiaco est celui de la Via Conti Künigl 3/7, dans le Kaufhaus Sapelza : lundi–vendredi 8h30–12h et 15h–19h, samedi 8h30–12h30, dimanche fermé (fiche officielle Despar, prospectus en cours). Google Maps indique une fermeture à 18h30 le lundi : prévoir d'arriver avant 18h30. L'ancien Despar de la St. Johannesstraße 2 n'existe plus : un Eurospin l'a remplacé en 2021 à la même adresse (Viale San Giovanni 2A, 8h30–19h sans coupure, dimanche fermé), plus pratique pour des courses en fin d'après-midi. Chien : sac ou caisse uniquement chez Despar. Aucun supermarché de Dobbiaco n'ouvre le dimanche."
   },
   {
     "id": "courses-conad-dobbiaco",
     "nom": "Conad City Dobbiaco — repli courses",
     "categorie": "supermarche",
     "gps": [
-      46.735375,
-      12.222278
+      46.7357,
+      12.22316
     ],
-    "gps_approximatif": true,
-    "commune": "Piazza Parrocchia 1, Dobbiaco (BZ) — épingle indicative du centre",
-    "resume": "Lundi–samedi 8h–19h continu, dimanche fermé. Chiens non mentionnés sur la fiche ; parking devant payant (3 €/h selon OSM).",
+    "gps_approximatif": false,
+    "commune": "Piazza Parrocchia 1, Dobbiaco (BZ)",
+    "resume": "Lundi–samedi 8h–19h continu, dimanche fermé. Chiens non mentionnés sur la fiche ; parking devant payant.",
     "prix": {
       "type": "variable",
       "unite": "courses"
@@ -11860,6 +12185,10 @@
       {
         "libelle": "Conad — adresse, services et horaires",
         "url": "https://www.conad.it/ricerca-negozi/conad-city-piazza-parrocchia-1-39034-dobbiaco--010691"
+      },
+      {
+        "libelle": "Google Maps — Conad City Piazza Parrocchia 1",
+        "url": "https://www.google.com/maps/search/CONAD+CITY+Piazza+Parrocchia+1+Dobbiaco/@46.7355824,12.2231104,17z"
       }
     ],
     "adresse": "Piazza Parrocchia 1, 39034 Dobbiaco",
@@ -11896,33 +12225,46 @@
     "pratique": [
       {
         "libelle": "Parking",
-        "valeur": "surface, payant 3 €/h ; rue 2 h max (OSM)"
+        "valeur": "parking « Conad City » payant (3 €/h selon OSM, juillet 2026) ; gratuit plus au sud sur Viale San Giovanni et chez Eurospin"
+      },
+      {
+        "libelle": "Attention",
+        "valeur": "l'ancien Conad City Piazza Municipio 2A est fermé définitivement"
       }
     ],
     "verification": {
       "date": "2026-09-28",
       "sources": [
         {
-          "libelle": "Conad — fiche officielle",
+          "libelle": "Conad — fiche officielle (lundi–samedi 8h–19h, dimanche absent)",
           "url": "https://www.conad.it/ricerca-negozi/conad-city-piazza-parrocchia-1-39034-dobbiaco--010691"
         },
         {
-          "libelle": "OpenStreetMap — Conad City Piazza Parrocchia 1",
+          "libelle": "Google Maps — Conad City Piazza Parrocchia 1 ouvert (849 avis) ; Piazza Municipio 2A « Chiuso definitivamente »",
+          "url": "https://www.google.com/maps/search/CONAD+CITY+Piazza+Parrocchia+1+Dobbiaco/@46.7355824,12.2231104,17z"
+        },
+        {
+          "libelle": "OpenStreetMap — Conad City Piazza Parrocchia 1 (position exacte, 31/08/2026)",
           "url": "https://www.openstreetmap.org/node/14135009014"
         },
         {
-          "libelle": "OpenStreetMap — parking Conad City 3 EUR/hour",
+          "libelle": "OpenStreetMap — parking Conad City 3 EUR/hour (14/07/2026)",
           "url": "https://www.openstreetmap.org/way/1538961362"
+        },
+        {
+          "libelle": "Commune de Dobbiaco — réglementation du stationnement payant dès juin 2026 (lac, Drei Zinnen Blick, Landrosee payants ; « Für Personen ohne Jahresabo gelten die regulären Stundentarife »)",
+          "url": "https://www.toblach.eu/de/Neuigkeiten/Bekanntmachungen/Neue_Regelung_fuer_gebuehrenpflichtige_Parkplaetze_ab_Juni_2026"
         }
       ],
-      "doutes": "Tarif du parking issu d'OSM uniquement."
+      "doutes": "",
+      "a_demander": []
     },
     "ouverture": {
       "a_reverifier": false,
       "note": "Ouvert du lundi au samedi en octobre ; fermé le dimanche."
     },
-    "acces": "Centre de Dobbiaco, place de l'église. Parking de surface payant, pas de plafond.",
-    "description": "Conad City sur la place de l'église de Dobbiaco. La fiche officielle donne 8h–19h du lundi au samedi et n'indique aucun horaire le dimanche : fermé. La fiche ne déclare pas l'admission des animaux (contrairement aux Conad de Savone et Varazze) : se relayer pour les courses. Stationnement devant : parking payant 3 €/h et places de rue limitées à 2 h (OSM) ; places gratuites plus au sud sur Viale San Giovanni."
+    "acces": "Centre de Dobbiaco, place de l'église, magasin en sous-sol (niveau -1). Parking de surface payant devant.",
+    "description": "Conad City sur la place de l'église de Dobbiaco (Piazza Parrocchia 1, niveau -1). La fiche officielle donne 8h–19h du lundi au samedi et aucun horaire le dimanche : fermé. Google Maps (849 avis) confirme le magasin ouvert ; l'ancien Conad City de la Piazza Municipio 2A est fermé définitivement, ne pas s'y rendre. La fiche ne déclare pas l'admission des animaux : se relayer pour les courses. Stationnement devant : parking payant (3 €/h selon OSM) ; places gratuites plus au sud sur Viale San Giovanni."
   },
   {
     "id": "courses-conad-bressanone",
