@@ -965,7 +965,8 @@
           ['Niveau', r.niveau],
           ['Type', r.type],
           ['Départ', r.depart],
-          ['Risque', r.risque]
+          ['Risque', r.risque],
+          ['Statut source', r.statut_source]
         ].forEach(function (x) {
           if (!x[1]) return;
           grille.appendChild(el('dt', null, x[0]));
