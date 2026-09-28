@@ -939,16 +939,35 @@
     return String(val).replace('.', ',') + (suffixe || '');
   }
 
-  /* Chaîne, liste de chaînes ou liste de { libelle, valeur } → texte d'une ligne. */
+  /* Valeur quelconque des fichiers de données → texte lisible sur une ligne.
+     Objets : « clé : valeur » ; listes : éléments séparés par « · ». */
   function texteListe(v) {
-    if (v == null || v === '') return null;
-    if (!Array.isArray(v)) return typeof v === 'object' ? (v.libelle ? v.libelle + (v.valeur ? ' : ' + v.valeur : '') : null) : String(v);
-    var t = v.map(function (x) {
-      if (x == null) return '';
-      if (typeof x !== 'object') return String(x);
-      return [x.nom || x.libelle, x.valeur || x.statut || x.note].filter(Boolean).join(' : ');
-    }).filter(Boolean).join(' · ');
-    return t || null;
+    if (v == null || v === '' || v === false) return null;
+    if (v === true) return 'oui';
+    if (typeof v !== 'object') return String(v);
+    if (Array.isArray(v)) {
+      var t = v.map(function (x) {
+        if (x && typeof x === 'object' && !Array.isArray(x) && (x.nom || x.libelle)) {
+          var reste = {};
+          Object.keys(x).forEach(function (k) { if (k !== 'nom' && k !== 'libelle' && k !== 'gps' && k !== 'url') reste[k] = x[k]; });
+          var r = texteListe(x.valeur !== undefined ? x.valeur : reste);
+          return (x.nom || x.libelle) + (r ? ' (' + r + ')' : '');
+        }
+        return texteListe(x);
+      }).filter(Boolean).join(' · ');
+      return t || null;
+    }
+    if (v.traduction) return v.traduction + (v.officiel ? ' — ' + v.officiel : '');
+    var parts = Object.keys(v).filter(function (k) { return ['gps', 'url', 'admis', 'source', 'sources'].indexOf(k) === -1; }).map(function (k) {
+      var t = texteListe(v[k]);
+      return t ? k.replace(/_/g, ' ') + ' : ' + t : null;
+    }).filter(Boolean);
+    return parts.length ? parts.join(' ; ') : null;
+  }
+
+  function niveauCourt(n) {
+    if (!n) return null;
+    return typeof n === 'object' ? (n.traduction || n.officiel || null) : n;
   }
 
   function randoResume(r) {
@@ -957,7 +976,7 @@
       r.distance_max_km ? ('jusqu\'à ' + texteMetrique(r.distance_max_km, ' km')) : null,
       r.duree,
       r.denivele_plus_m !== null && r.denivele_plus_m !== undefined ? ('D+ ' + r.denivele_plus_m + ' m') : null,
-      r.niveau
+      niveauCourt(r.niveau)
     ].filter(Boolean).join(' · ');
   }
 
@@ -999,18 +1018,20 @@
           ['Dénivelé +', r.denivele_plus_m !== null && r.denivele_plus_m !== undefined ? r.denivele_plus_m + ' m' : null],
           ['Dénivelé -', r.denivele_moins_m !== null && r.denivele_moins_m !== undefined ? r.denivele_moins_m + ' m' : null],
           ['Altitude max', r.altitude_max_m ? r.altitude_max_m + ' m' : null],
-          ['Niveau', r.niveau],
+          ['Niveau', texteListe(r.niveau)],
           ['Type', r.type],
           ['Départ', r.depart],
+          ['Arrivée', r.arrivee],
+          ['Retour au départ', r.retour_au_depart || r.retour_depart || r.retour],
           ['Risque', r.risque],
           ['Altitude min', r.altitude_min_m ? r.altitude_min_m + ' m' : null],
-          ['Balisage', r.balisage],
-          ['Parking', r.parking ? [r.parking.nom, r.parking.prix, r.parking.horaires].filter(Boolean).join(' · ') : null],
-          ['Accès', r.acces_transport],
-          ['Chien', r.chien ? [r.chien.admis === false ? 'non admis' : 'admis', r.chien.laisse, r.chien.passages_delicats, r.chien.betail].filter(Boolean).join(' · ') : null],
+          ['Balisage', texteListe(r.balisage)],
+          ['Parking', texteListe(r.parking)],
+          ['Accès', texteListe(r.acces_transport)],
+          ['Chien', r.chien ? (r.chien.admis === false ? 'NON ADMIS — ' : 'admis — ') + (texteListe(r.chien) || '') : null],
           ['Eau', texteListe(r.eau)],
           ['Ravitaillement en octobre', texteListe(r.ravitaillement_octobre)],
-          ['État en octobre', r.statut_octobre],
+          ['État en octobre', texteListe(r.statut_octobre)],
           ['Meilleur moment', r.meilleur_moment],
           ['Points forts', texteListe(r.points_forts)],
           ['Statut source', r.statut_source]
@@ -1036,7 +1057,7 @@
         if (r.gpx_url) lr.appendChild(lienExterne('Fichier GPX', r.gpx_url));
         (r.sources || []).forEach(function (x) { if (x && x.url && x.url !== r.source) lr.appendChild(lienExterne(x.libelle || 'Source', x.url)); });
         if (lr.childNodes.length) d.appendChild(lr);
-        if (r.doutes) d.appendChild(el('p', 'jour__note', 'Non publié : ' + r.doutes));
+        if (texteListe(r.doutes)) d.appendChild(el('p', 'jour__note', 'Non publié : ' + texteListe(r.doutes)));
 
         if (r.source) {
           var src = el('a', 'rando-source', 'Source de l’itinéraire');
