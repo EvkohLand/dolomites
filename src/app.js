@@ -2577,7 +2577,15 @@
     var r = routeDuJour(j);
     var pb = prixCarburantDuJour(j.jour, r && r.etape.pays);
     if (pb) d.appendChild(el('p', 'jour__note', 'Le budget du jour compte ' + prixLitreAffiche(pb.prix) + ', moyenne des ' + pb.n + ' stations les moins chères du tracé' + (r.etape.pays ? ' (' + r.etape.pays + ')' : '') + '.'));
-    if (st.length) dessinerCourbesCarburant(j, st, d);
+    if (st.length) {
+      /* Les archives françaises pèsent ≈ 1 Mo par jour : on ne les télécharge que si l'on ouvre la courbe. */
+      var avecFrance = st.some(function (s) { return s.pays === 'FR'; });
+      var dc = el('details', 'repli');
+      dc.appendChild(el('summary', null, 'Courbes des prix sur 15 jours' + (avecFrance ? ' (≈ 17 Mo au premier affichage, puis gardées sur cet appareil)' : '')));
+      var charge = false;
+      dc.addEventListener('toggle', function () { if (dc.open && !charge) { charge = true; dessinerCourbesCarburant(j, st, dc); } });
+      d.appendChild(dc);
+    }
     var src = c.sources || {};
     var morceaux = [];
     if (src.FR) morceaux.push('France : flux officiel, dernier relevé ' + dateHeure(src.FR.releve));
