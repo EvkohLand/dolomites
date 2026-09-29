@@ -952,3 +952,8 @@ html, body { overflow-x: hidden; }
 .rapport__ligne-tete { display: flex; justify-content: space-between; gap: 10px; margin: 0; font-size: 14px; }
 .rapport__evitable { margin: 4px 0 0; font-size: 13px; color: var(--discret); }
 .rapport__evitable--oui { color: #9a5b00; }
+.programme__route { margin: 2px 0 2px 14px; padding-left: 10px; border-left: 2px dashed var(--trait); font-size: 13px; color: var(--discret); }
+.programme__duree { font-size: 13px; color: var(--texte); }
+.programme__resume { margin: 0 0 8px; padding: 8px 12px; border-radius: var(--rayon); background: var(--fond); font-size: 14px; font-weight: 600; }
+.programme__resume--alerte { background: #fdf0ef; color: #b3261e; }
+.jour__heure { white-space: pre-line; }

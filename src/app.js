@@ -1386,20 +1386,27 @@
     /* Programme : chaque visite ouvre sa fiche complète. */
     if ((j.activites || []).length) {
       var ul = el('div', 'programme');
+      var dr = derouleJour(j);
+      if (dr) ul.appendChild(dr.resume);
+      if (j.depart) ul.appendChild(el('p', 'programme__route', j.depart + ' · départ' + (j.depart_de ? ' de ' + nomRef(j.depart_de) : '')));
       j.activites.forEach(function (a) {
         var l = resoudre(a.lieu);
+        if (a.trajet_min) ul.appendChild(el('p', 'programme__route', 'Route : ' + dureeAffiche(a.trajet_min / 60)));
         var b = el('button', 'programme__item');
         b.type = 'button';
-        b.appendChild(el('span', 'jour__heure', a.heure || '—'));
+        var fin = a.heure && a.duree_min ? ajouterMinutes(a.heure, a.duree_min) : null;
+        b.appendChild(el('span', 'jour__heure', (a.heure || '—') + (fin ? '\n' + fin : '')));
         var txt = el('span', 'programme__corps');
         txt.appendChild(el('span', 'jour__lieu', (l ? l.nom : a.lieu) + (l && aVerifier(l) ? ' ⚠' : '')));
         var px = l ? prixAffiche(l) : null;
         if (px) txt.appendChild(el('span', 'programme__prix', px));
+        if (a.duree_min) txt.appendChild(el('span', 'programme__duree', 'Sur place : ' + dureeAffiche(a.duree_min / 60) + (a.duree_confort_min && a.duree_confort_min !== a.duree_min ? ' (confortable : ' + dureeAffiche(a.duree_confort_min / 60) + ')' : '')));
         if (a.note) txt.appendChild(el('span', 'jour__note', a.note));
         b.appendChild(txt);
         b.addEventListener('click', function () { if (l) ouvrirPanneau(l.id, { retour: j.jour }); });
         ul.appendChild(b);
       });
+      if (j.trajet_nuit_min) ul.appendChild(el('p', 'programme__route', 'Route vers la nuit : ' + dureeAffiche(j.trajet_nuit_min / 60) + (j.arrivee_nuit ? ' · arrivée ' + j.arrivee_nuit : '')));
       principal.appendChild(bloc('Programme', ul));
     }
 
@@ -1482,6 +1489,30 @@
   /* Plan de ravitaillement du jour (config/commun/ravitaillement.json) : conseil,
      magasins avec l'horaire du jour et l'accueil du chien, pleins conseillés, eau, laverie.
      Sans plan pour ce jour, repli sur les magasins à moins de 25 km de la nuit. */
+  function ajouterMinutes(hhmm, min) {
+    var p = String(hhmm).split(':');
+    var t = Number(p[0]) * 60 + Number(p[1] || 0) + Math.round(min);
+    return ('0' + Math.floor(t / 60) % 24).slice(-2) + ':' + ('0' + t % 60).slice(-2);
+  }
+  function enMinutes(hhmm) { var p = String(hhmm).split(':'); return Number(p[0]) * 60 + Number(p[1] || 0); }
+
+  /* Résumé chiffré de la journée : volant, temps sur place, heure de fin face au coucher du soleil. */
+  function derouleJour(j) {
+    var acts = j.activites || [];
+    if (!acts.some(function (a) { return a.duree_min || a.trajet_min; })) return null;
+    var volant = (j.trajet_nuit_min || 0) + acts.reduce(function (s, a) { return s + (a.trajet_min || 0); }, 0);
+    var place = acts.reduce(function (s, a) { return s + (a.duree_min || 0); }, 0);
+    var fin = j.arrivee_nuit || null;
+    if (!fin) { var der = acts[acts.length - 1]; if (der && der.heure && der.duree_min) fin = ajouterMinutes(der.heure, der.duree_min); }
+    var n = j.nuit ? E.parId.get(j.nuit) : null;
+    var sol = n && Array.isArray(n.gps) && j.date ? soleil(n.gps[0], n.gps[1], j.date) : null;
+    var coucher = sol ? heureLocale(sol.coucher) : null;
+    var txt = 'Volant ' + dureeAffiche(volant / 60) + ' · sur place ' + dureeAffiche(place / 60) + (fin ? ' · fin vers ' + fin : '') + (coucher ? ' · coucher du soleil ' + coucher : '');
+    var alerte = fin && coucher && enMinutes(fin) > enMinutes(coucher);
+    var r = el('p', 'programme__resume' + (alerte ? ' programme__resume--alerte' : ''), txt + (alerte ? ' — fin après la nuit tombée' : ''));
+    return { resume: r, volant: volant, place: place };
+  }
+
   function dessinerRavitaillementEtape(j, conteneur) {
     var plan = E.ravitaillement && E.ravitaillement.scenarios && (E.ravitaillement.scenarios[E.scenarioId] || {})[String(j.jour)];
     var d = el('div', 'ravito');
