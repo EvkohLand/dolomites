@@ -1,17 +1,17 @@
 {
-  "genere_le": "2026-09-29T05:37Z",
+  "genere_le": "2026-09-29T08:18Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-09-29T06:12"
+      "maj": "2026-09-29T09:52"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
       "url": "https://www.stradeanas.it/it/vai-traffico-in-tempo-reale",
-      "maj": "2026-09-28"
+      "maj": "2026-09-29"
     },
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
@@ -64,6 +64,20 @@
     },
     {
       "source": "anas",
+      "id": "203326",
+      "route": "SS 1 VIA AURELIA",
+      "niveau": "info",
+      "etat": "Cantiere",
+      "texte": "divieto di sorpasso autoveicoli · limite di velocita 30Km/h · divieto di sosta · messa in opera segnaletica · restringimento carreggiata corsia di sorpasso — a partire dal 07/09/2026 dalle ore 07:00 fino al 30/09/2026 alle ore 18:00",
+      "debut": "2026-09-07",
+      "fin": "2026-09-30",
+      "gps": [
+        44.3933,
+        8.66503
+      ]
+    },
+    {
+      "source": "anas",
       "id": "203547",
       "route": "SS 1 VIA AURELIA",
       "niveau": "info",
@@ -74,6 +88,20 @@
       "gps": [
         43.8185,
         7.82583
+      ]
+    },
+    {
+      "source": "anas",
+      "id": "48494",
+      "route": "SS 10 PADANA INFERIORE",
+      "niveau": "fermeture",
+      "etat": "Infrastruttura",
+      "texte": "divieto di transito — a partire dal 01/01/2022 dalle ore 00:00",
+      "debut": "2022-01-01",
+      "fin": "",
+      "gps": [
+        45.12223,
+        9.98944
       ]
     },
     {
@@ -92,34 +120,6 @@
     },
     {
       "source": "anas",
-      "id": "53374",
-      "route": "SS 30 DI VAL BORMIDA",
-      "niveau": "fermeture",
-      "etat": "Gestione della viabilità",
-      "texte": "divieto di transito — a partire dal 27/09/2021 dalle ore 09:00",
-      "debut": "2021-09-27",
-      "fin": "",
-      "gps": [
-        44.66516,
-        8.41602
-      ]
-    },
-    {
-      "source": "anas",
-      "id": "199235",
-      "route": "SS 334 DEL SASSELLO",
-      "niveau": "gene",
-      "etat": "Cantiere",
-      "texte": "divieto di sorpasso autoveicoli · limite di velocita 30Km/h · divieto di sosta · senso unico alternato mediante impianto semaforico o movieri — a partire dal 19/07/2026 dalle ore 00:01 fino al 31/12/2026 alle ore 23:59",
-      "debut": "2026-07-19",
-      "fin": "2026-12-31",
-      "gps": [
-        44.41713,
-        8.4809
-      ]
-    },
-    {
-      "source": "anas",
       "id": "200067",
       "route": "SS 334 DEL SASSELLO",
       "niveau": "info",
@@ -130,34 +130,6 @@
       "gps": [
         44.35898,
         8.50596
-      ]
-    },
-    {
-      "source": "anas",
-      "id": "54241",
-      "route": "SS 334 DEL SASSELLO",
-      "niveau": "fermeture",
-      "etat": "Fenomeni naturali",
-      "texte": "chiusura al traffico — a partire dal 08/10/2021 dalle ore 07:00",
-      "debut": "2021-10-08",
-      "fin": "",
-      "gps": [
-        44.5363,
-        8.44831
-      ]
-    },
-    {
-      "source": "anas",
-      "id": "56113",
-      "route": "SS 334 DEL SASSELLO",
-      "niveau": "fermeture",
-      "etat": "Fenomeni naturali",
-      "texte": "chiusura al traffico — a partire dal 18/11/2021 dalle ore 07:00",
-      "debut": "2021-11-18",
-      "fin": "",
-      "gps": [
-        44.5363,
-        8.44831
       ]
     },
     {
@@ -176,72 +148,72 @@
     },
     {
       "source": "anas",
-      "id": "57197",
-      "route": "SS 334 DEL SASSELLO",
+      "id": "124370",
+      "route": "SS 456 DEL TURCHINO",
+      "niveau": "info",
+      "etat": "Cantiere",
+      "texte": "divieto di sorpasso autoveicoli · limite di velocita 30Km/h · divieto di sosta · restringimento carreggiata corsia di marcia veloce — a partire dal 03/06/2025 dalle ore 07:00 fino al 27/08/2025 alle ore 23:59, prorogata al 30/09/2026",
+      "debut": "2026-08-01",
+      "fin": "2026-09-30",
+      "gps": [
+        44.52689,
+        8.70037
+      ]
+    },
+    {
+      "source": "anas",
+      "id": "127680",
+      "route": "SS 456 DEL TURCHINO",
+      "niveau": "info",
+      "etat": "Cantiere",
+      "texte": "divieto di sosta · limite di velocita 30Km/h · divieto di sorpasso autoveicoli — a partire dal 11/07/2025 dalle ore 00:00 fino al 06/07/2027 alle ore 23:59",
+      "debut": "2025-07-11",
+      "fin": "2027-07-06",
+      "gps": [
+        44.45411,
+        8.742
+      ]
+    },
+    {
+      "source": "anas",
+      "id": "31110",
+      "route": "SS 456 DEL TURCHINO",
+      "niveau": "fermeture",
+      "etat": "Gestione della viabilità",
+      "texte": "divieto di transito — a partire dal 20/04/2020 dalle ore 23:59",
+      "debut": "2020-04-20",
+      "fin": "",
+      "gps": [
+        44.57907,
+        8.66006
+      ]
+    },
+    {
+      "source": "anas",
+      "id": "50788",
+      "route": "SS 456 DEL TURCHINO",
       "niveau": "fermeture",
       "etat": "Fenomeni naturali",
-      "texte": "chiusura al traffico — a partire dal 14/12/2021 dalle ore 07:00",
-      "debut": "2021-12-14",
+      "texte": "chiusura al traffico — a partire dal 14/07/2021 dalle ore 18:00",
+      "debut": "2021-07-14",
       "fin": "",
       "gps": [
-        44.5363,
-        8.44831
+        44.60556,
+        8.66195
       ]
     },
     {
       "source": "anas",
-      "id": "MI 7607/2026",
-      "route": "SS 45 BIS GARDESANA OCCIDENTALE",
-      "niveau": "gene",
-      "etat": "Pavimentazione",
-      "texte": "Corsia Chiusa",
-      "debut": "2026-07-01",
-      "fin": "",
-      "gps": [
-        45.57589,
-        10.44419
-      ]
-    },
-    {
-      "source": "anas",
-      "id": "MI 8318/2026",
-      "route": "SS 45 BIS GARDESANA OCCIDENTALE",
-      "niveau": "gene",
-      "etat": "Ostacolo in carreggiata",
-      "texte": "Traffico rallentato",
-      "debut": "2026-07-17",
-      "fin": "",
-      "gps": [
-        45.61014,
-        10.49507
-      ]
-    },
-    {
-      "source": "anas",
-      "id": "MI 9833/2026",
+      "id": "204204",
       "route": "SS 617 BRONESE",
-      "niveau": "gene",
-      "etat": "Opere in verde",
-      "texte": "Traffico rallentato",
-      "debut": "2026-09-01",
-      "fin": "",
+      "niveau": "info",
+      "etat": "Gestione della viabilità",
+      "texte": "restringimento carreggiata · limite di velocita 50Km/h — a partire dal 07/09/2026 dalle ore 09:00 fino al 02/10/2026 alle ore 19:00",
+      "debut": "2026-09-07",
+      "fin": "2026-10-02",
       "gps": [
-        45.2111,
-        9.14785
-      ]
-    },
-    {
-      "source": "anas",
-      "id": "MI 9868/2026",
-      "route": "SS 9 VIA EMILIA",
-      "niveau": "gene",
-      "etat": "Opera D'Arte",
-      "texte": "Corsia Chiusa",
-      "debut": "2026-09-02",
-      "fin": "",
-      "gps": [
-        45.2993,
-        9.49308
+        45.08378,
+        9.26463
       ]
     },
     {
@@ -326,34 +298,6 @@
       "gps": [
         46.41293,
         11.43014
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "587708",
-      "route": "LS/SP 29 — Passo Erbe",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Eores ed il Passo delle Erbe divieto di transito per autobus, divieto di transito per veicoli di peso superiore a 24 t e di lunghezza superiore a 12 m. Da San Martino in Badia fino al Passo delle Erbe la strada è aperta per gli autobus con lunghezza fino a 12 m.",
-      "debut": "2025-11-20",
-      "fin": "",
-      "gps": [
-        46.69114,
-        11.84262
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "685308",
-      "route": "LS/SP 37 — Passo Valparola",
-      "niveau": "info",
-      "etat": "Percorribile liberamente",
-      "texte": "Nessuna limitazione.",
-      "debut": "2025-11-19",
-      "fin": "",
-      "gps": [
-        46.5534,
-        11.97704
       ]
     },
     {
@@ -750,6 +694,20 @@
     },
     {
       "source": "bz",
+      "id": "3080012",
+      "route": "LS/SP56 — Sares",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Tra Sares e Marebbe (km 0,500 - km 3,500) CHIUSURA per la posa di sottoservizi.",
+      "debut": "2026-09-28",
+      "fin": "2026-10-30",
+      "gps": [
+        46.77023,
+        11.87374
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3149012",
       "route": "LS/SP62Racc — Laimburg Racc.",
       "niveau": "gene",
@@ -900,48 +858,6 @@
       "gps": [
         46.39628,
         11.52585
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "573208",
-      "route": "SS 242 — Passo Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Plan ed il passo (km 22,370 - km 30,950) divieto di transito per tutti i veicoli con rimorchio. Tra il bivio Miramonti ed il rifugio Passo Sella all’altezza di Pela de Mesdì (km 27,378 - km 27,405) divieto di transito per veicoli con un peso superiore a 33 t.",
-      "debut": "2026-03-27",
-      "fin": "",
-      "gps": [
-        46.51384,
-        11.76573
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "573608",
-      "route": "SS 244 — Passo Campolongo",
-      "niveau": "info",
-      "etat": "Percorribile liberamente",
-      "texte": "Nessuna limitazione.",
-      "debut": "2021-07-16",
-      "fin": "",
-      "gps": [
-        46.52404,
-        11.87583
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "572708",
-      "route": "SS 48 — Passo Falzarego",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Cernadoi ed il passo (sul versante bellunese) divieto di transito solo per autoarticolati di altezza superiore a 3,20 m e di lunghezza superiore a 13 m.",
-      "debut": "2026-06-29",
-      "fin": "",
-      "gps": [
-        46.51884,
-        12.0093
       ]
     },
     {
@@ -1100,20 +1016,6 @@
     },
     {
       "source": "bz",
-      "id": "3092912",
-      "route": "SS242 — di Val Gardena e Passo Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Selva di Val Gardena (km 20,950 - km 21,000) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori di scavo.",
-      "debut": "2026-09-24",
-      "fin": "2026-10-01",
-      "gps": [
-        46.55344,
-        11.76167
-      ]
-    },
-    {
-      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -1128,48 +1030,6 @@
     },
     {
       "source": "bz",
-      "id": "2973408",
-      "route": "SS243 — del Passo Gardena",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra il bivio Miramonti e Corvara (km 0,000 - km 14,520) divieto di transito per tutti i veicoli con rimorchio. Nei pressi di Murfrëit (km 2,000 - km 4,470) divieto di trasporto di liquidi inquinanti.",
-      "debut": "2026-04-16",
-      "fin": "",
-      "gps": [
-        46.53502,
-        11.78218
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2894201",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Piccolino (km 14,500 - km 14,600) senso unico alternato per la realizzazione di un sottopassaggio.",
-      "debut": "2026-09-28",
-      "fin": "2026-11-13",
-      "gps": [
-        46.69054,
-        11.89311
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3128701",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Longega (km 10,000 - km 10,500) senso unico alternato e chiusure temporanee fino a 10 minuti per lavori di mitigazione del rischio di caduta massi.",
-      "debut": "2026-08-24",
-      "fin": "2026-11-30",
-      "gps": [
-        46.71955,
-        11.88821
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3134101",
       "route": "SS244 — di Val Badia",
       "niveau": "fermeture",
@@ -1180,20 +1040,6 @@
       "gps": [
         46.78198,
         11.89122
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3148412",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Pedraces (km 24,400 - km 24,800) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori di asfaltatura.",
-      "debut": "2026-09-25",
-      "fin": "2026-09-30",
-      "gps": [
-        46.61486,
-        11.89347
       ]
     },
     {
