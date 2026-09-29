@@ -56,38 +56,38 @@
       "evitable": "—"
     },
     {
-      "jour": 2,
+      "jour": 1,
       "poste": "nourriture",
       "type": "Courses alimentaires",
-      "libelle": "Conad Superstore Savone — courses avec chien (chien admis) — 4,5 jours de repas",
-      "montant": 58,
-      "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
-      "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
-    },
-    {
-      "jour": 6,
-      "poste": "nourriture",
-      "type": "Courses alimentaires",
-      "libelle": "Lidl Varna / Vahrn — 1 jours de repas",
-      "montant": 13,
-      "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
-      "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
-    },
-    {
-      "jour": 7,
-      "poste": "nourriture",
-      "type": "Courses alimentaires",
-      "libelle": "Lidl Varna / Vahrn — 3 jours de repas",
+      "libelle": "Conad Via Aurelia 88 — Loano (chien admis) — 3 jours de repas (jours 2 à 4)",
       "montant": 39,
       "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
       "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
     },
     {
-      "jour": 10,
+      "jour": 5,
       "poste": "nourriture",
       "type": "Courses alimentaires",
-      "libelle": "Conad City Corvara — 4,5 jours de repas",
-      "montant": 58,
+      "libelle": "Lidl Varna / Vahrn — 3 jours de repas (jours 5 à 7)",
+      "montant": 39,
+      "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
+      "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
+    },
+    {
+      "jour": 8,
+      "poste": "nourriture",
+      "type": "Courses alimentaires",
+      "libelle": "Lidl Varna / Vahrn — 3 jours de repas (jours 8 à 10)",
+      "montant": 39,
+      "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
+      "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
+    },
+    {
+      "jour": 11,
+      "poste": "nourriture",
+      "type": "Courses alimentaires",
+      "libelle": "Lidl Varna / Vahrn — 4 jours de repas (jours 11 à 14)",
+      "montant": 52,
       "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
       "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
     }
