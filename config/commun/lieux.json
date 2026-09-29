@@ -11136,10 +11136,10 @@
     "resume": "Aire de camping-cars autorisée par la commune (19 emplacements) au-dessus de Santa Maddalena, ouverte jusqu'au 31 octobre. Chiens admis en laisse sans supplément affiché ; 3 nuits maximum, arrivée 8h–20h. Environ 41 € la nuit à deux, taxe comprise. Tente de toit : accord à obtenir.",
     "prix": {
       "type": "payant",
-      "montant": 41,
+      "montant": 42,
       "unite": "nuit, 2 adultes + chien, taxe de séjour comprise",
       "annee_tarif": 2026,
-      "detail": "Moteur de réservation officiel : « à partir de 35 € » par emplacement et par nuit, sans supplément par adulte ni pour le chien ; paiement en espèces. Guides 2026 : 37 € l'emplacement + taxe de séjour 2 €/adulte, soit 41 € à deux (Campercontact), 42 € (park4night).",
+      "detail": "42 € la nuit tout compris, confirmé par e-mail par Elisabeth le 28/09/2026. Moteur de réservation officiel : « à partir de 35 € » par emplacement et par nuit, sans supplément par adulte ni pour le chien ; paiement en espèces. Guides 2026 : 37 € l'emplacement + taxe de séjour 2 €/adulte, soit 41 € à deux (Campercontact), 42 € (park4night).",
       "grille": [
         {
           "libelle": "Emplacement, services compris (site officiel)",

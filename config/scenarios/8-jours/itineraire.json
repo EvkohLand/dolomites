@@ -29,9 +29,9 @@
       "ordre": 2,
       "jour": 2,
       "type": "aller",
-      "libelle": "Finale → Lago di Carezza → Varna",
+      "libelle": "Pietra Ligure → Lago di Carezza → Val di Funes",
       "de": "agricamping-pietra-ulivo",
-      "vers": "camping-vahrner-see",
+      "vers": "ferme-gletscher-hons",
       "par": [
         "courses-conad-savone",
         "lago-carezza"
@@ -42,8 +42,8 @@
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Finale → Lago di Carezza → Varna",
-      "distance_km": 557,
+      "note": "Pietra Ligure → Lago di Carezza → Val di Funes",
+      "distance_km": 556,
       "duree_h": 7.4,
       "autoroute": true,
       "sans_autoroute_apres": "lago-carezza",
@@ -60,10 +60,9 @@
       "jour": 3,
       "type": "boucle",
       "libelle": "Val di Funes : le cinéma des Odle et Santa Maddalena",
-      "de": "camping-vahrner-see",
-      "vers": "camping-vahrner-see",
+      "de": "ferme-gletscher-hons",
+      "vers": "ferme-gletscher-hons",
       "par": [
-        "adolf-munkel",
         "santa-maddalena"
       ],
       "visites": [
@@ -74,9 +73,9 @@
         "cinema-odle"
       ],
       "pays": "IT",
-      "note": "Val di Funes : le cinéma des Odle et Santa Maddalena",
-      "distance_km": 62,
-      "duree_h": 1.6
+      "note": "Val di Funes sur place",
+      "distance_km": 3,
+      "duree_h": 0.1
     },
     {
       "id": "etape-j4",
@@ -84,8 +83,8 @@
       "jour": 4,
       "type": "boucle",
       "libelle": "Alpe di Siusi à pied, puis Ortisei",
-      "de": "camping-vahrner-see",
-      "vers": "camping-vahrner-see",
+      "de": "ferme-gletscher-hons",
+      "vers": "ferme-gletscher-hons",
       "par": [
         "parking-alpe-p1",
         "parking-ortisei-gratuit"
@@ -96,8 +95,8 @@
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Alpe di Siusi à pied, puis Ortisei",
-      "distance_km": 95,
+      "note": "Alpe di Siusi et Ortisei",
+      "distance_km": 92,
       "duree_h": 2.4
     },
     {
@@ -106,19 +105,20 @@
       "jour": 5,
       "type": "transfert",
       "libelle": "Varna → Lago di Anterselva → Dobbiaco",
-      "de": "camping-vahrner-see",
+      "de": "ferme-gletscher-hons",
       "vers": "camping-olympia",
       "par": [
-        "lago-anterselva"
+        "lago-anterselva",
+        "courses-eurospin-dobbiaco"
       ],
       "visites": [
         "lago-anterselva"
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Varna → Lago di Anterselva → Dobbiaco",
-      "distance_km": 88,
-      "duree_h": 2.1
+      "note": "Val di Funes → Anterselva → Dobbiaco",
+      "distance_km": 118,
+      "duree_h": 2.8
     },
     {
       "id": "etape-j6",

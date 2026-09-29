@@ -667,16 +667,12 @@
         "douche": "Douches chaudes gratuites au camping."
       },
       "2": {
-        "conseil": "Grand ravitaillement avec Prince au Conad Superstore de Savone (chiens admis, 8 h 30) et plein à l’Eni voisine avant l’autoroute. Après la Ligurie, plus aucun magasin trouvé qui admette un chien de 20–25 kg : compléments au Lidl de Varna à l’arrivée, à tour de rôle.",
+        "conseil": "Grand ravitaillement avec Prince au Conad Superstore de Savone (chiens admis, 8 h 30) pour les jours 2 à 4 : la ferme du Val di Funes est loin des supermarchés. Plein à l’Eni voisine avant l’autoroute.",
         "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Varna sans autoroute",
         "magasins": [
           {
             "lieu": "courses-conad-savone",
             "note": "Samedi : 8h30–20h30"
-          },
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Samedi : 8h00–21h00"
           }
         ],
         "stations": [
@@ -717,24 +713,12 @@
         "douche": "Douches chaudes au camping, incluses."
       },
       "3": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les réserves viennent de Savone. Dépannage au supermarché le plus proche seulement si besoin (Bressanone, à 25 min de la ferme).",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
         "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Dimanche : 8h00–20h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Dimanche : 10h00–18h00"
-          },
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Dimanche : 9h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Dimanche : fermé"
           }
         ],
         "stations": [
@@ -757,50 +741,20 @@
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "4": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les réserves viennent de Savone. Dépannage au supermarché le plus proche seulement si besoin (Bressanone, à 25 min de la ferme).",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
         "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Lundi : 8h00–21h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Lundi : 8h00–19h30"
-          },
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Lundi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Lundi : 7h30–19h30"
           }
         ],
         "stations": [
@@ -823,29 +777,11 @@
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "5": {

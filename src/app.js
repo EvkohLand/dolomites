@@ -2176,6 +2176,16 @@
     return morceaux.join(' · ');
   }
 
+  /* Type lisible d'une dépense liée à un lieu. */
+  function typeDepense(l) {
+    var c = l.categorie || '';
+    if (c === 'parking' || /parking|stationnement/i.test((l.prix && l.prix.unite) || '')) return 'Stationnement';
+    if (c === 'lac' || c === 'plateau' || c === 'vue' || c === 'village') return 'Stationnement';
+    if (c === 'remontee') return 'Remontée mécanique';
+    if (c === 'courses') return 'Courses alimentaires';
+    return cat(c).libelle || 'Activité';
+  }
+
   function calculerBudget() {
     var b = E.budget;
     if (!b) return null;
@@ -2196,7 +2206,8 @@
           if (!j.nuit) return;
           var l = resoudre(j.nuit);
           var m = montantDe(l);
-          if (m) base.push({ jour: j.jour, poste: r.poste, libelle: l.nom, montant: m });
+          if (m) base.push({ jour: j.jour, poste: r.poste, type: 'Nuit (camping, ferme)', libelle: l.nom, montant: m,
+            evitable: 'Non : dormir dans la voiture ou sous la tente hors d’un terrain autorisé est interdit dans les Dolomites.' });
         });
       } else if (r.depuis === 'planning.activites') {
         /* Une activité payante est une option, sauf si sa fiche la déclare indispensable. */
@@ -2204,8 +2215,11 @@
           (j.activites || []).forEach(function (a) {
             var l = resoudre(a.lieu);
             var m = montantDe(l);
-            if (!m) return;
-            var ligne = { jour: j.jour, poste: r.poste, libelle: l.nom, montant: m };
+            if (!m || a.sans_frais) return;   // visite faite à pied depuis la nuit : rien à payer
+            var ligne = { jour: j.jour, poste: r.poste, type: typeDepense(l), libelle: l.nom + (l.prix && l.prix.unite ? ' — ' + l.prix.unite : ''), montant: m,
+              evitable: l.prix && l.prix.alternative_gratuite ? 'Oui : ' + l.prix.alternative_gratuite + ' (économie ' + euros(m) + ')'
+                : 'Non' + (l.prix && l.prix.raison_budget ? ' : ' + l.prix.raison_budget : '') };
+            if (a.evitable) ligne.evitable = a.evitable;
             if (l.prix && l.prix.budget === 'indispensable') { base.push(ligne); return; }
             option({
               cle: sc + 'activite|' + j.jour + '|' + l.id, jour: j.jour, libelle: l.nom,
@@ -2222,7 +2236,8 @@
             var t = troncon(id);
             if (!t) { anomalies.push('Tronçon à péage inconnu : ' + id + ' (étape ' + e.id + ')'); return; }
             if (e.autoroute) {
-              base.push({ jour: e.jour, poste: r.poste, libelle: 'Péage ' + t.libelle + ' (' + t.autoroutes + ')', montant: t.prix });
+              base.push({ jour: e.jour, poste: r.poste, type: 'Péage d’autoroute', libelle: t.libelle + ' (' + t.autoroutes + ')', montant: t.prix,
+                evitable: 'Oui : route gratuite, mais ' + dureeAffiche(t.heures_gagnees || 0) + ' de volant en plus' + (t.verdict ? ' — verdict : ' + t.verdict : '') + (t.alerte ? ' ; ' + t.alerte : '') });
               return;
             }
             var lignes = [{ jour: e.jour, poste: r.poste, libelle: 'Péage ' + t.libelle, montant: t.prix }];
@@ -2243,7 +2258,7 @@
           var pl = live ? live.prix : prixLitre(e.pays);
           var m = e.distance_km / 100 * conso * pl;
           if (m) base.push({
-            jour: e.jour, poste: r.poste,
+            jour: e.jour, poste: r.poste, type: 'Carburant', evitable: 'Non : faire le plein au moins cher (Eni 2,19 € en Italie).',
             libelle: e.distance_km + ' km' + (e.autoroute ? ' par l’autoroute' : (e.troncons_peage && e.troncons_peage.length ? ' sans péage' : '')) +
               (e.pays ? ' (' + e.pays + ')' : '') + ' à ' + euros(pl) + '/L' +
               (live ? ', prix relevé sur le tracé le ' + dateHeure(live.releve).replace(/,?\s\d\d:\d\d$/, '') : ''),
@@ -2254,7 +2269,7 @@
     });
 
     (b.saisi || []).forEach(function (s, i) {
-      var ligne = { jour: s.jour, poste: s.poste, libelle: s.libelle, montant: s.montant || 0 };
+      var ligne = { jour: s.jour, poste: s.poste, type: s.type || null, libelle: s.libelle, detail: s.detail, montant: s.montant || 0, evitable: s.evitable };
       if (s.option) option({ cle: sc + 'saisi|' + i, jour: s.jour, libelle: s.libelle, detail: s.note || '', lignes: [ligne] });
       else base.push(ligne);
     });
@@ -2317,6 +2332,40 @@
       ch.appendChild(c);
     });
     zone.appendChild(ch);
+
+    /* Où part l'argent : total par type, puis chaque dépense avec « peut-on s'en passer ? ». */
+    var types = {};
+    r.lignes.forEach(function (x) {
+      var t = x.type || ((r.postes.find(function (p) { return p.id === x.poste; }) || {}).libelle) || x.poste;
+      (types[t] = types[t] || []).push(x);
+    });
+    var rap = el('div', 'rapport');
+    rap.appendChild(el('h3', 'rapport__titre', 'Où part l’argent'));
+    Object.keys(types).sort(function (a, b) {
+      var sa = types[a].reduce(function (s2, x) { return s2 + x.montant; }, 0), sb = types[b].reduce(function (s2, x) { return s2 + x.montant; }, 0);
+      return sb - sa;
+    }).forEach(function (t) {
+      var ls = types[t];
+      var tot = ls.reduce(function (a, x) { return a + x.montant; }, 0);
+      var det = el('details', 'rapport__type');
+      var sm = el('summary', null);
+      sm.appendChild(el('span', 'rapport__nom', t + ' (' + ls.length + ')'));
+      sm.appendChild(el('span', 'rapport__montant', euros(tot) + ' · ' + Math.round(tot / (r.total || 1) * 100) + ' %'));
+      det.appendChild(sm);
+      ls.slice().sort(function (a, b) { return (a.jour || 99) - (b.jour || 99); }).forEach(function (x) {
+        var li = el('div', 'rapport__ligne');
+        var tete = el('p', 'rapport__ligne-tete');
+        tete.appendChild(el('span', null, (x.jour ? 'J' + x.jour + ' · ' : '') + x.libelle));
+        tete.appendChild(el('strong', null, euros(x.montant)));
+        li.appendChild(tete);
+        if (x.detail) li.appendChild(el('p', 'jour__note', x.detail));
+        if (x.evitable) li.appendChild(el('p', 'rapport__evitable' + (/^Oui/.test(x.evitable) ? ' rapport__evitable--oui' : ''), 'Peut-on s’en passer ? ' + x.evitable));
+        det.appendChild(li);
+      });
+      rap.appendChild(det);
+    });
+    if (E.budget.reserve) rap.appendChild(el('p', 'jour__note', 'Hors budget : ' + E.budget.reserve.libelle + ' — ' + euros(E.budget.reserve.montant) + ' à garder de côté, non dépensés sauf imprévu.'));
+    zone.appendChild(rap);
 
     /* Options : péages, remontées, activités payantes. Non comptées tant qu'elles ne sont pas cochées. */
     if (r.options.length) {

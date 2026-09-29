@@ -24,11 +24,6 @@
       "id": "nourriture",
       "libelle": "Nourriture",
       "couleur": "#3a6ea5"
-    },
-    {
-      "id": "divers",
-      "libelle": "Divers",
-      "couleur": "#6f6a63"
     }
   ],
   "calcule": [
@@ -52,30 +47,43 @@
   ],
   "saisi": [
     {
-      "jour": 2,
-      "poste": "nourriture",
-      "libelle": "Courses de départ avec Prince (Conad de Savone)",
-      "montant": 70
-    },
-    {
-      "jour": 4,
-      "poste": "nourriture",
-      "libelle": "Ravitaillement avant la base est",
-      "montant": 60
-    },
-    {
       "jour": 5,
       "poste": "activite",
       "libelle": "Parking d’Anterselva le matin : 10 € au lieu des 5 € de l’après-midi",
       "montant": 5
     },
     {
-      "jour": null,
-      "poste": "divers",
-      "libelle": "Marge imprévu",
-      "montant": 100
+      "jour": 1,
+      "poste": "nourriture",
+      "type": "Courses alimentaires",
+      "libelle": "Repas du vendredi apportés de la maison",
+      "montant": 0,
+      "detail": "Déjeuner avant le départ et dîner froid à l’étape.",
+      "evitable": "—"
+    },
+    {
+      "jour": 2,
+      "poste": "nourriture",
+      "type": "Courses alimentaires",
+      "libelle": "Conad Superstore Savone — courses avec chien (chien admis) — 3,5 jours de repas",
+      "montant": 46,
+      "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
+      "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
+    },
+    {
+      "jour": 5,
+      "poste": "nourriture",
+      "type": "Courses alimentaires",
+      "libelle": "Lidl Varna / Vahrn — 2,5 jours de repas",
+      "montant": 32,
+      "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
+      "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
     }
   ],
   "objectif_par_jour": 95,
-  "note": "Budget le plus économique : nuits, carburant, péages de l’aller et du retour (autoroute), nourriture, marge, et les seuls parkings sans alternative gratuite. Aucune remontée mécanique ni activité payante au programme : elles restent des options, non comptées sauf si on les coche. Nuits = estimations pour deux adultes, Prince et voiture à tente de toit ; ni disponibilité ni réservation. L’électricité, les taxes inconnues et les suppléments non confirmés sont exclus."
+  "note": "Budget le plus économique : nuits, carburant, péages de l’aller et du retour (autoroute), nourriture, et les seuls parkings sans alternative gratuite. Aucune remontée mécanique ni activité payante au programme : elles restent des options, non comptées sauf si on les coche. Nuits = estimations pour deux adultes, Prince et voiture à tente de toit ; ni disponibilité ni réservation. L’électricité, les taxes inconnues et les suppléments non confirmés sont exclus.",
+  "reserve": {
+    "libelle": "Réserve pour imprévus (panne, parking non prévu, pharmacie, péage de secours)",
+    "montant": 100
+  }
 }

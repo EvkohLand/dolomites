@@ -943,3 +943,12 @@ html, body { overflow-x: hidden; }
 .echange--refus, .echange--r-servation-non-sollicit-e { border-left-color: #b3261e; background: #fdf0ef; }
 .echange--r-ponse-positive, .echange--r-ponse-re-ue { border-left-color: var(--accent); }
 .echange-court { font-size: 12.5px; font-weight: 600; color: #9a5b00; }
+.rapport { margin: 18px 0; }
+.rapport__titre { font-size: 17px; margin: 0 0 10px; }
+.rapport__type { border: 1px solid var(--trait); border-radius: var(--rayon); margin-bottom: 8px; background: var(--surface); }
+.rapport__type > summary { display: flex; justify-content: space-between; gap: 10px; padding: 12px 14px; cursor: pointer; list-style: none; font-weight: 600; }
+.rapport__type > summary::-webkit-details-marker { display: none; }
+.rapport__ligne { padding: 8px 14px; border-top: 1px solid var(--trait); }
+.rapport__ligne-tete { display: flex; justify-content: space-between; gap: 10px; margin: 0; font-size: 14px; }
+.rapport__evitable { margin: 4px 0 0; font-size: 13px; color: var(--discret); }
+.rapport__evitable--oui { color: #9a5b00; }
