@@ -1065,3 +1065,37 @@ main { max-width: none; }
 .message__texte { white-space: pre-wrap; font: inherit; font-size: 14px; line-height: 1.5; background: var(--surface); border: 1px solid var(--trait); border-radius: 8px; padding: 10px 12px; margin: 8px 0; }
 .message__texte--trad { color: var(--discret); }
 .message .action { width: auto; }
+
+/* ---------- Grand écran : chaque onglet remplit toute la largeur ---------- */
+@media (min-width: 900px) {
+  /* auto-fit : un bloc seul s'étire sur toute la largeur, plusieurs blocs se partagent l'écran. */
+  .onglet-panneau:not([hidden]), .modale:not(.modale--etape) .modale__corps { grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); }
+  .onglets { justify-content: stretch; }
+  .onglet { flex: 1 1 0; text-align: center; }
+  /* À l'intérieur des blocs : les éléments répétés se mettent aussi en colonnes. */
+  .meteo-etape, .regles-etape, .zone-rando, .zone-decouverte, .ravito, .alternatives {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 12px 32px; align-items: start;
+  }
+  .meteo-etape > :not(.meteo-etape__point), .zone-rando > :not(.rando-card), .zone-decouverte > :not(.decouverte-card),
+  .ravito > p, .ravito > .tableau-cle { grid-column: 1 / -1; }
+  .rando-card, .decouverte-card { margin: 0; }
+}
+@media (min-width: 1600px) {
+  .onglet-panneau:not([hidden]), .modale:not(.modale--etape) .modale__corps { grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); }
+}
+
+/* Disposition souple : les blocs remplissent la ligne, une colonne vide n'existe jamais. */
+@media (min-width: 900px) {
+  .onglet-panneau:not([hidden]), .modale:not(.modale--etape) .modale__corps,
+  .meteo-etape, .regles-etape, .zone-rando, .zone-decouverte, .ravito, .alternatives {
+    display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: flex-start; align-content: flex-start;
+  }
+  .onglet-panneau:not([hidden]) > *, .modale:not(.modale--etape) .modale__corps > *,
+  .meteo-etape > *, .regles-etape > *, .zone-rando > *, .zone-decouverte > *, .ravito > *, .alternatives > * { flex: 1 1 420px; min-width: 0; }
+  .onglet-panneau > .modale__desc, .onglet-panneau > .galerie, .onglet-panneau > .rapport,
+  .modale:not(.modale--etape) .modale__corps > .badges, .modale:not(.modale--etape) .modale__corps > .modale__desc,
+  .modale:not(.modale--etape) .modale__corps > .retour-etape, .modale:not(.modale--etape) .modale__corps > .paire,
+  .modale:not(.modale--etape) .modale__corps > .bloc:has(.galerie),
+  .meteo-etape > :not(.meteo-etape__point), .zone-rando > :not(.rando-card), .zone-decouverte > :not(.decouverte-card),
+  .ravito > p, .ravito > .tableau-cle { flex-basis: 100%; }
+}
