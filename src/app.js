@@ -1638,17 +1638,6 @@
     return !!(z && l && Array.isArray(l.gps) && l.gps[0] >= z.lat_min && l.gps[0] <= z.lat_max && l.gps[1] >= z.lng_min && l.gps[1] <= z.lng_max);
   }
 
-  /* Normale d'octobre de la station de référence, ramenée à l'altitude du lieu. */
-  function normale(l, date) {
-    var n = (E.meteo || {}).normales_reference;
-    if (!n || !date || !l.altitude || !dansZone(l, n.zone) || date.slice(5, 7) !== '10') return null;
-    var jour = Number(date.slice(8, 10));
-    var dec = (n.decades || []).find(function (x) { return jour <= x.jusqu_au; });
-    if (!dec) return null;
-    var delta = (l.altitude - n.altitude) / 100 * (n.gradient_c_par_100m || 0.6);
-    return Math.round(dec.min - delta) + ' / ' + Math.round(dec.max - delta) + ' °C';
-  }
-
   function prevision(l, date) {
     /* Open-Meteo ne prévoit qu'à 16 jours : au-delà, ne pas appeler (réponse 400). */
     var ecart = (new Date(date + 'T12:00:00') - Date.now()) / 86400000;
@@ -1670,20 +1659,30 @@
     var m = E.meteo || {};
     var d = el('div', 'meteo-etape');
     var pts = pointsMeteo(j);
+    var pointHaut = pts.slice().sort(function (a, b) { return (b.lieu.altitude || 0) - (a.lieu.altitude || 0); })[0];
     pts.forEach(function (pt) {
       var ligne = el('div', 'meteo-etape__point');
       ligne.appendChild(el('p', 'meteo-etape__lieu', pt.role + ' · ' + pt.lieu.nom + (pt.lieu.altitude ? ' (' + pt.lieu.altitude + ' m)' : '')));
       var val = el('p', 'meteo-etape__val', 'Prévision en cours de chargement…');
       ligne.appendChild(val);
       d.appendChild(ligne);
-      var nm = normale(pt.lieu, j.date);
-      if (nm) ligne.appendChild(el('p', 'jour__note', 'Normale de saison estimée à ' + (pt.lieu.altitude || '?') + ' m : ' + nm));
+      var nm = el('p', 'jour__note');
+      ligne.appendChild(nm);
+      if (j.date && window.fetch) {
+        normaleApi(pt.lieu, j.date).then(function (x) {
+          nm.textContent = 'Normale du ' + dateCourte(j.date).replace(/^\S+\s/, '') + ' à ' + (pt.lieu.altitude ? pt.lieu.altitude + ' m' : 'ce point') + ' : ' +
+            Math.round(x.min) + ' / ' + Math.round(x.max) + ' °C, moyenne ' + x.de + '–' + x.a + ' de l’archive Open-Meteo (' + x.ans + ' ans).';
+        }).catch(function () { ligne.removeChild(nm); });
+      }
       var sol = j.date ? soleil(pt.lieu.gps[0], pt.lieu.gps[1], j.date) : null;
       if (sol) {
         var jourMin = Math.round((sol.coucher - sol.lever) / 60000);
         ligne.appendChild(el('p', 'meteo-etape__soleil', 'Soleil : lever ' + heureLocale(sol.lever) + ' · coucher ' + heureLocale(sol.coucher) +
           ' · ' + Math.floor(jourMin / 60) + ' h ' + String(jourMin % 60).padStart(2, '0') + ' de jour'));
       }
+      var courbesIci = el('div');
+      ligne.appendChild(courbesIci);
+      dessinerCourbesMeteo(pt, pt === pointHaut, courbesIci);
       if (!j.date || !window.fetch) { val.textContent = 'Prévision indisponible hors ligne.'; return; }
       prevision(pt.lieu, j.date).then(function (x) {
         if (!x || !x.time || !x.time.length || x.temperature_2m_max[0] == null) throw new Error('vide');
@@ -1709,6 +1708,604 @@
       if (liens.childNodes.length) d.appendChild(liens);
     }
     conteneur.appendChild(bloc('Météo du jour', d));
+  }
+
+  /* ---------- Courbes des 15 derniers jours : SVG en ligne, sans bibliothèque ---------- */
+
+  var NS_SVG = 'http://www.w3.org/2000/svg';
+  var JOURS_HISTO = 15;
+
+  function isoDecale(iso, n) {
+    var d = new Date(iso + 'T12:00:00Z');
+    d.setUTCDate(d.getUTCDate() + n);
+    return d.toISOString().slice(0, 10);
+  }
+
+  /* Du jour J-15 à aujourd'hui, recalculé à chaque ouverture. */
+  function fenetreHisto() {
+    var auj = aujourdhuiIso(), out = [];
+    for (var i = -JOURS_HISTO; i <= 0; i++) out.push(isoDecale(auj, i));
+    return out;
+  }
+
+  function jjmm(iso) { return iso.slice(8, 10) + '/' + iso.slice(5, 7); }
+
+  function noeudSvg(tag, attrs, parent) {
+    var n = document.createElementNS(NS_SVG, tag);
+    Object.keys(attrs || {}).forEach(function (k) { n.setAttribute(k, attrs[k]); });
+    if (parent) parent.appendChild(n);
+    return n;
+  }
+
+  function pasRond(brut) {
+    var p = Math.pow(10, Math.floor(Math.log10(brut)));
+    var f = brut / p;
+    return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * p;
+  }
+
+  function moyenne(l) {
+    var v = l.filter(function (x) { return typeof x === 'number'; });
+    return v.length ? v.reduce(function (a, b) { return a + b; }, 0) / v.length : null;
+  }
+
+  /* o : { titre, dates, series: [{ nom, couleur: 1|2, type: 'ligne'|'barres'|'aire', valeurs }], format, zero }.
+     Un jour sans valeur reste vide : ni interpolation, ni zéro inventé. */
+  function courbe(o) {
+    var fig = el('figure', 'courbe');
+    fig.appendChild(el('figcaption', 'courbe__titre', o.titre));
+    if (o.series.length > 1) {
+      var leg = el('div', 'courbe__legende');
+      o.series.forEach(function (s) {
+        var it = el('span', 'courbe__cle');
+        it.appendChild(el('span', 'courbe__marque courbe__marque--' + (s.type === 'barres' ? 'barre' : 'ligne') + ' courbe__serie-' + s.couleur));
+        it.appendChild(document.createTextNode(s.nom));
+        leg.appendChild(it);
+      });
+      fig.appendChild(leg);
+    }
+    var zone = el('div', 'courbe__zone');
+    var bulle = el('div', 'courbe__bulle');
+    bulle.hidden = true;
+    fig.appendChild(zone);
+
+    var n = o.dates.length;
+    var auj = aujourdhuiIso();
+    var tout = [];
+    o.series.forEach(function (s) { s.valeurs.forEach(function (v) { if (typeof v === 'number') tout.push(v); }); });
+    var vmin = Math.min.apply(null, tout), vmax = Math.max.apply(null, tout);
+    if (o.zero || o.series.some(function (s) { return s.type !== 'ligne'; })) vmin = Math.min(0, vmin);
+    if (vmin === vmax) { vmax += 1; if (!o.zero) vmin -= 1; }
+    /* Une variation minuscule ne doit pas ressembler à un effondrement : l'axe couvre au moins 5 % de la valeur. */
+    var marge = Math.abs(vmax) * 0.05 - (vmax - vmin);
+    if (marge > 0 && vmin > 0) { vmin = Math.max(0, vmin - marge / 2); vmax += marge / 2; }
+    var pas = pasRond((vmax - vmin) / 4);
+    var bas = Math.floor(vmin / pas) * pas, haut = Math.ceil(vmax / pas) * pas;
+    var ticks = [];
+    for (var t = bas; t <= haut + pas / 2; t += pas) ticks.push(Math.round(t * 1000) / 1000);
+
+    var dernier = 0;
+    function dessiner(largeur) {
+      vide(zone);
+      var H = 150, bandeX = 22;
+      var libY = ticks.map(function (x) { return o.format(x, pas); });
+      var gauche = 12 + Math.max.apply(null, libY.map(function (x) { return x.length; })) * 7;
+      var droite = 52, hautM = 12;
+      var lp = Math.max(60, largeur - gauche - droite);
+      var bande = lp / n;
+      var X = function (i) { return gauche + (i + 0.5) * bande; };
+      var Y = function (v) { return hautM + (haut - v) / (haut - bas) * H; };
+      var s = noeudSvg('svg', { width: largeur, height: hautM + H + bandeX, viewBox: '0 0 ' + largeur + ' ' + (hautM + H + bandeX), tabindex: '0', role: 'img', 'class': 'courbe__svg' });
+      noeudSvg('title', {}, s).textContent = o.titre + ' — valeurs dans le tableau sous le graphique';
+      ticks.forEach(function (v, k) {
+        noeudSvg('line', { x1: gauche, x2: gauche + lp, y1: Y(v), y2: Y(v), 'class': 'courbe__grille' }, s);
+        var tx = noeudSvg('text', { x: gauche - 6, y: Y(v) + 4, 'text-anchor': 'end', 'class': 'courbe__axe' }, s);
+        tx.textContent = libY[k];
+      });
+      /* Dates : une sur k, en partant d'aujourd'hui, pour qu'aucune ne se chevauche. */
+      var tous = Math.max(1, Math.ceil(n / Math.max(1, Math.floor(lp / 46))));
+      for (var i = n - 1; i >= 0; i -= tous) {
+        var lx = noeudSvg('text', { x: X(i), y: hautM + H + 16, 'text-anchor': i === n - 1 ? 'end' : 'middle', 'class': 'courbe__axe' + (o.dates[i] === auj ? ' courbe__axe--jour' : '') }, s);
+        if (i === n - 1) lx.setAttribute('x', X(i) + Math.min(bande / 2, 10));
+        lx.textContent = o.dates[i] === auj ? 'auj.' : jjmm(o.dates[i]);
+      }
+      var etiquettes = [];
+      var nbBarres = o.series.filter(function (x) { return x.type === 'barres'; }).length;
+      o.series.forEach(function (se) {
+        var cls = 'courbe__serie-' + se.couleur;
+        if (se.type === 'barres') {
+          var lb = Math.min(24, Math.max(2, bande - 2) / nbBarres);
+          se.valeurs.forEach(function (v, i) {
+            if (typeof v !== 'number' || v <= 0) return;
+            var x0 = X(i) - lb / 2, y0 = Y(v), yb = Y(0), h = yb - y0;
+            if (h < 0.5) return;
+            var r = Math.min(4, h, lb / 2);
+            noeudSvg('path', {
+              d: 'M' + x0 + ' ' + yb + 'V' + (y0 + r) + 'Q' + x0 + ' ' + y0 + ' ' + (x0 + r) + ' ' + y0 + 'H' + (x0 + lb - r) +
+                'Q' + (x0 + lb) + ' ' + y0 + ' ' + (x0 + lb) + ' ' + (y0 + r) + 'V' + yb + 'Z',
+              'class': 'courbe__barre ' + cls + (o.dates[i] === auj ? '' : ' courbe__passe')
+            }, s);
+          });
+          return;
+        }
+        var d = '', aire = '', debut = -1;
+        se.valeurs.forEach(function (v, i) {
+          var ok = typeof v === 'number';
+          if (ok) {
+            d += (debut < 0 ? 'M' : 'L') + X(i).toFixed(1) + ' ' + Y(v).toFixed(1);
+            if (debut < 0) debut = i;
+          }
+          if ((!ok || i === n - 1) && debut >= 0) {
+            var fin = ok ? i : i - 1;
+            if (se.type === 'aire') {
+              aire += 'M' + X(debut) + ' ' + Y(0);
+              for (var k = debut; k <= fin; k++) aire += 'L' + X(k) + ' ' + Y(se.valeurs[k]);
+              aire += 'L' + X(fin) + ' ' + Y(0) + 'Z';
+            }
+            /* Point isolé : un segment de longueur nulle ne se voit pas, on pose un point. */
+            if (fin === debut) noeudSvg('circle', { cx: X(debut), cy: Y(se.valeurs[debut]), r: 3, 'class': 'courbe__point ' + cls }, s);
+            debut = -1;
+          }
+        });
+        if (aire) noeudSvg('path', { d: aire, 'class': 'courbe__aire ' + cls }, s);
+        if (d) noeudSvg('path', { d: d, 'class': 'courbe__ligne ' + cls }, s);
+        for (var dern = n - 1; dern >= 0 && typeof se.valeurs[dern] !== 'number'; dern--);
+        if (dern >= 0) etiquettes.push({ i: dern, v: se.valeurs[dern], cls: cls });
+      });
+      /* Valeur du jour mise en évidence : point cerclé et valeur écrite à droite. */
+      var poses = [];
+      etiquettes.forEach(function (e) {
+        noeudSvg('circle', { cx: X(e.i), cy: Y(e.v), r: 4.5, 'class': 'courbe__fin ' + e.cls }, s);
+        var y = Y(e.v) + 4;
+        if (poses.some(function (p) { return Math.abs(p - y) < 13; })) return;   // proches : la bulle et le tableau suffisent
+        poses.push(y);
+        var tx = noeudSvg('text', { x: X(e.i) + 8, y: y, 'class': 'courbe__val' }, s);
+        tx.textContent = o.format(e.v);
+      });
+      var barresDuJour = o.series.filter(function (x) { return x.type === 'barres'; });
+      if (!etiquettes.length && barresDuJour.length) {
+        var vj = barresDuJour[0].valeurs[n - 1];
+        if (typeof vj === 'number') {
+          var tj = noeudSvg('text', { x: X(n - 1) + 8, y: Math.min(Y(vj), Y(0) - 4), 'class': 'courbe__val' }, s);
+          tj.textContent = o.format(vj);
+        }
+      }
+      var viseur = noeudSvg('line', { y1: hautM, y2: hautM + H, 'class': 'courbe__viseur', visibility: 'hidden' }, s);
+      var capte = noeudSvg('rect', { x: gauche, y: 0, width: lp, height: hautM + H + bandeX, fill: 'transparent' }, s);
+      zone.appendChild(s);
+      zone.appendChild(bulle);
+
+      function montrer(i) {
+        i = Math.max(0, Math.min(n - 1, i));
+        viseur.setAttribute('x1', X(i)); viseur.setAttribute('x2', X(i));
+        viseur.setAttribute('visibility', 'visible');
+        vide(bulle);
+        bulle.appendChild(el('p', 'courbe__bulle-date', dateCourte(o.dates[i])));
+        o.series.forEach(function (se) {
+          var l = el('p', 'courbe__bulle-ligne');
+          l.appendChild(el('span', 'courbe__marque courbe__marque--ligne courbe__serie-' + se.couleur));
+          var v = se.valeurs[i];
+          l.appendChild(el('strong', null, typeof v === 'number' ? o.format(v) : 'pas de donnée'));
+          l.appendChild(el('span', 'courbe__bulle-nom', se.nom));
+          bulle.appendChild(l);
+        });
+        bulle.hidden = false;
+        var bx = X(i) + 10;
+        if (bx + bulle.offsetWidth > largeur) bx = X(i) - 10 - bulle.offsetWidth;
+        bulle.style.left = Math.max(0, bx) + 'px';
+        s.__i = i;
+      }
+      function cacher() { viseur.setAttribute('visibility', 'hidden'); bulle.hidden = true; }
+      function indice(ev) {
+        var r = s.getBoundingClientRect();
+        return Math.floor((ev.clientX - r.left - gauche) / bande);
+      }
+      capte.addEventListener('pointermove', function (ev) { montrer(indice(ev)); });
+      capte.addEventListener('pointerdown', function (ev) { montrer(indice(ev)); });
+      s.addEventListener('pointerleave', cacher);
+      s.addEventListener('focus', function () { montrer(n - 1); });
+      s.addEventListener('blur', cacher);
+      s.addEventListener('keydown', function (ev) {
+        if (ev.key === 'ArrowLeft' || ev.key === 'ArrowRight') {
+          ev.preventDefault();
+          montrer((s.__i == null ? n - 1 : s.__i) + (ev.key === 'ArrowLeft' ? -1 : 1));
+        }
+      });
+    }
+    function ajuster() {
+      var w = Math.floor(zone.clientWidth);
+      if (w && w !== dernier) { dernier = w; dessiner(w); }
+    }
+    if (window.ResizeObserver) new ResizeObserver(ajuster).observe(zone);
+    else { window.addEventListener('resize', ajuster); setTimeout(ajuster, 0); }
+
+    /* Le tableau : chaque valeur lisible sans survol. */
+    var det = el('details', 'courbe__tableau');
+    det.appendChild(el('summary', null, 'Valeurs jour par jour'));
+    var tab = el('table');
+    var tr = el('tr');
+    tr.appendChild(el('th', null, 'Date'));
+    o.series.forEach(function (se) { tr.appendChild(el('th', null, se.nom)); });
+    tab.appendChild(tr);
+    o.dates.slice().reverse().forEach(function (dt) {
+      var i = o.dates.indexOf(dt);
+      var ligne = el('tr');
+      ligne.appendChild(el('td', null, dateCourte(dt) + (dt === auj ? ' (aujourd’hui)' : '')));
+      o.series.forEach(function (se) { ligne.appendChild(el('td', null, typeof se.valeurs[i] === 'number' ? o.format(se.valeurs[i]) : '—')); });
+      tab.appendChild(ligne);
+    });
+    det.appendChild(tab);
+    fig.appendChild(det);
+    return fig;
+  }
+
+  /* Décimales d'un axe : juste assez pour que deux graduations ne se ressemblent pas. */
+  function decAxe(pas) { return pas >= 1 ? 0 : pas >= 0.1 ? 1 : 2; }
+
+  function nombreFr(v, dec) { return v.toFixed(dec).replace('.', ',').replace('-', '−'); }
+
+  /* ---------- Météo des 15 derniers jours et normale, lues chez Open-Meteo ---------- */
+
+  var cacheHisto = {};
+
+  function jsonDirect(u) {
+    return fetch(u).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+  }
+
+  function memoire(cle, fabrique) {
+    if (!cacheHisto[cle]) {
+      cacheHisto[cle] = fabrique();
+      cacheHisto[cle].catch(function () { delete cacheHisto[cle]; });
+    }
+    return cacheHisto[cle];
+  }
+
+  function coordonnees(l) {
+    return 'latitude=' + l.gps[0] + '&longitude=' + l.gps[1] + (l.altitude ? '&elevation=' + l.altitude : '') + '&timezone=Europe%2FRome';
+  }
+
+  function histoMeteo(l) {
+    return memoire('meteo|' + l.id + '|' + aujourdhuiIso(), function () {
+      return jsonDirect('https://api.open-meteo.com/v1/forecast?' + coordonnees(l) +
+        '&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,snowfall_sum,snow_depth_max&past_days=' + JOURS_HISTO + '&forecast_days=1')
+        .then(function (d) {
+          var x = d.daily;
+          if (!x || !x.time) throw new Error('vide');
+          var dates = fenetreHisto();
+          var serie = function (cle, f) {
+            return dates.map(function (dt) {
+              var i = x.time.indexOf(dt);
+              var v = i < 0 || !x[cle] ? null : x[cle][i];
+              return typeof v === 'number' ? (f ? f(v) : v) : null;
+            });
+          };
+          return {
+            dates: dates,
+            tmax: serie('temperature_2m_max'), tmin: serie('temperature_2m_min'),
+            pluie: serie('precipitation_sum'), neige: serie('snowfall_sum'),
+            sol: serie('snow_depth_max', function (m) { return Math.round(m * 100); })
+          };
+        });
+    });
+  }
+
+  /* Normale : moyenne du même jour sur les 10 dernières années, au point et à l'altitude du lieu.
+     Dix appels d'un jour (une longue plage compte pour des centaines d'appels chez Open-Meteo),
+     résultat gardé sur l'appareil : une normale ne change pas. */
+  var CLE_NORMALES = 'dolomites.normales.v1';
+  function normaleApi(l, date) {
+    var cle = l.id + '|' + (l.altitude || '') + '|' + date;
+    var garde = lireStockage(CLE_NORMALES)[cle];
+    if (garde && typeof garde.min === 'number') return Promise.resolve(garde);
+    return memoire('normale|' + cle, function () {
+      var an = Number(date.slice(0, 4)), md = date.slice(5), annees = [];
+      for (var a = an - 10; a < an; a++) annees.push(a);
+      return Promise.all(annees.map(function (a) {
+        return jsonDirect('https://archive-api.open-meteo.com/v1/archive?' + coordonnees(l) +
+          '&daily=temperature_2m_max,temperature_2m_min&start_date=' + a + '-' + md + '&end_date=' + a + '-' + md)
+          .then(function (d) { var x = d.daily || {}; return [(x.temperature_2m_min || [])[0], (x.temperature_2m_max || [])[0]]; });
+      })).then(function (res) {
+        var mins = res.map(function (r) { return r[0]; }), maxs = res.map(function (r) { return r[1]; });
+        var mn = moyenne(mins), mx = moyenne(maxs);
+        if (mn === null || mx === null) throw new Error('vide');
+        var out = { min: mn, max: mx, ans: mins.filter(function (v) { return typeof v === 'number'; }).length, de: an - 10, a: an - 1 };
+        var tout = lireStockage(CLE_NORMALES);
+        tout[cle] = out;
+        try { localStorage.setItem(CLE_NORMALES, JSON.stringify(tout)); } catch (e) { /* gardée pour la visite seulement */ }
+        return out;
+      });
+    });
+  }
+
+  function phraseCourbe(conteneur, texte) {
+    vide(conteneur);
+    conteneur.appendChild(el('p', 'jour__note', texte));
+  }
+
+  function toutNul(l) { return !l.some(function (v) { return typeof v === 'number' && v > 0; }); }
+
+  function dessinerCourbesMeteo(pt, avecNeige, conteneur) {
+    var c = el('div', 'courbes');
+    c.appendChild(el('p', 'jour__note', 'Courbes des 15 derniers jours en cours de chargement…'));
+    conteneur.appendChild(c);
+    if (!window.fetch) { phraseCourbe(c, 'Courbes des 15 derniers jours indisponibles hors ligne.'); return; }
+    histoMeteo(pt.lieu).then(function (h) {
+      if (!h.tmax.some(function (v) { return typeof v === 'number'; })) throw new Error('vide');
+      vide(c);
+      var lieu = pt.lieu.nom + (pt.lieu.altitude ? ' (' + pt.lieu.altitude + ' m)' : '');
+      var deg = function (v, axe) { return nombreFr(v, axe ? decAxe(axe) : 1) + ' °C'; };
+      c.appendChild(courbe({
+        titre: 'Températures des 15 derniers jours — ' + lieu,
+        dates: h.dates, format: deg,
+        series: [
+          { nom: 'Maximum', couleur: 2, type: 'ligne', valeurs: h.tmax },
+          { nom: 'Minimum', couleur: 1, type: 'ligne', valeurs: h.tmin }
+        ]
+      }));
+      c.appendChild(el('p', 'jour__note', 'Du ' + dateCourte(h.dates[0]) + ' à aujourd’hui, relu chez Open-Meteo à chaque ouverture : valeurs du modèle météo à l’altitude du lieu, pas le relevé d’une station.'));
+      /* Une courbe visible, les autres repliées. */
+      var repli = el('details', 'repli');
+      repli.appendChild(el('summary', null, avecNeige ? 'Pluie et neige des 15 derniers jours' : 'Pluie des 15 derniers jours'));
+      c.appendChild(repli);
+      var mm = function (v, axe) { return nombreFr(v, axe ? decAxe(axe) : v >= 10 || v === 0 ? 0 : 1) + ' mm'; };
+      if (toutNul(h.pluie)) repli.appendChild(el('p', 'jour__note', 'Aucune précipitation sur les 15 derniers jours à ce point.'));
+      else repli.appendChild(courbe({ titre: 'Précipitations par jour — ' + lieu, dates: h.dates, format: mm, zero: true,
+        series: [{ nom: 'Précipitations', couleur: 1, type: 'barres', valeurs: h.pluie }] }));
+      if (avecNeige) {
+        var cm = function (v, axe) { return nombreFr(v, axe ? decAxe(axe) : v >= 10 || v === 0 ? 0 : 1) + ' cm'; };
+        if (toutNul(h.neige) && toutNul(h.sol)) repli.appendChild(el('p', 'jour__note', 'Neige au point le plus haut : ni chute ni neige au sol sur les 15 derniers jours.'));
+        else repli.appendChild(courbe({ titre: 'Neige au point le plus haut — ' + lieu, dates: h.dates, format: cm, zero: true,
+          series: [
+            { nom: 'Hauteur au sol', couleur: 1, type: 'aire', valeurs: h.sol },
+            { nom: 'Chute du jour', couleur: 2, type: 'barres', valeurs: h.neige }
+          ] }));
+      }
+    }).catch(function () {
+      phraseCourbe(c, 'Courbes des 15 derniers jours indisponibles (hors ligne ou service Open-Meteo injoignable).');
+    });
+  }
+
+  /* ---------- Carburant : historique officiel (France) ou relevés mémorisés sur l'appareil (Italie) ---------- */
+
+  var CLE_RELEVES_IT = 'dolomites.releves-italie.v1';
+  var CLE_ARCHIVES_FR = 'dolomites.archives-france.v1';
+  var URL_ARCHIVE_FR = 'https://donnees.roulez-eco.fr/opendata/jour/';
+
+  function lireStockage(cle) {
+    try { return JSON.parse(localStorage.getItem(cle) || '{}') || {}; } catch (e) { return {}; }
+  }
+
+  /* Garde les 30 derniers jours ; un stockage plein ou refusé ne casse rien. */
+  function ecrireStockage(cle, obj) {
+    var limite = isoDecale(aujourdhuiIso(), -30);
+    Object.keys(obj).forEach(function (d) { if (d < limite) delete obj[d]; });
+    try { localStorage.setItem(cle, JSON.stringify(obj)); return true; } catch (e) { return false; }
+  }
+
+  /* L'Italie ne publie ni archive quotidienne ni API lisible depuis le navigateur :
+     chaque ouverture mémorise ici les prix du jour du fichier, une valeur par jour et par station. */
+  function memoriserRelevesItalie() {
+    var c = E.carbuLive;
+    var ext = c && c.sources && c.sources.IT && c.sources.IT.extraction;
+    if (!ext || !c.stations) return;
+    var r = lireStockage(CLE_RELEVES_IT);
+    var jour = r[ext] || {};
+    Object.keys(c.stations).forEach(function (k) {
+      var s = c.stations[k];
+      if (s.pays === 'IT' && typeof s.gazole === 'number') jour[k] = [s.gazole, typeof s.sp95 === 'number' ? s.sp95 : null];
+    });
+    r[ext] = jour;
+    ecrireStockage(CLE_RELEVES_IT, r);
+  }
+
+  /* Archive quotidienne officielle : un zip d'un seul fichier XML, décompressé dans le navigateur. */
+  function lireZip(buf) {
+    var v = new DataView(buf);
+    for (var fin = buf.byteLength - 22; fin >= 0 && v.getUint32(fin, true) !== 0x06054b50; fin--);
+    if (fin < 0) throw new Error('zip illisible');
+    var cd = v.getUint32(fin + 16, true);
+    var methode = v.getUint16(cd + 10, true), taille = v.getUint32(cd + 20, true), loc = v.getUint32(cd + 42, true);
+    var debut = loc + 30 + v.getUint16(loc + 26, true) + v.getUint16(loc + 28, true);
+    var brut = new Blob([new Uint8Array(buf, debut, taille)]);
+    if (methode === 0) return brut.arrayBuffer();
+    return new Response(brut.stream().pipeThrough(new DecompressionStream('deflate-raw'))).arrayBuffer();
+  }
+
+  function prixDansArchive(xml, id, date) {
+    var i = xml.indexOf('<pdv id="' + id + '"');
+    if (i < 0) return null;
+    var bloc = xml.slice(i, xml.indexOf('</pdv>', i));
+    var out = {};
+    var re = /<prix nom="([^"]+)"[^>]*maj="([^"]+)"[^>]*valeur="([\d.]+)"/g, m;
+    while ((m = re.exec(bloc))) {
+      /* Même règle que la page : un prix de plus de 8 jours n'est pas un prix du jour. */
+      if ((Date.parse(date + 'T23:59:59') - Date.parse(m[2])) / 86400000 > 8) continue;
+      var v = Number(m[3]);
+      if (v > 10) v = v / 1000;   // anciennes archives en millièmes d'euro
+      if (m[1] === 'Gazole') out.g = v;
+      else if (m[1] === 'E10') out.e10 = v;
+      else if (m[1] === 'SP95') out.sp95 = v;
+    }
+    return typeof out.g === 'number' ? [out.g, out.e10 != null ? out.e10 : null, out.sp95 != null ? out.sp95 : null] : null;
+  }
+
+  var archivesEnCours = {};
+
+  /* Deux archives à la fois : chacune fait 15 Mo une fois décompressée, un téléphone n'en tient pas quinze. */
+  var fileAttente = [], actives = 0;
+  function file(tache) {
+    return new Promise(function (ok, ko) {
+      fileAttente.push(function () {
+        actives++;
+        tache().then(ok, ko).then(function () { actives--; if (fileAttente.length) fileAttente.shift()(); });
+      });
+      if (actives < 2) fileAttente.shift()();
+    });
+  }
+  function archiveFrance(date, ids) {
+    var cache = lireStockage(CLE_ARCHIVES_FR)[date];
+    if (cache && ids.every(function (id) { return cache.ids.indexOf(id) !== -1; })) return Promise.resolve(cache.p);
+    if (!window.DecompressionStream) return Promise.reject(new Error('décompression indisponible'));
+    if (archivesEnCours[date]) return archivesEnCours[date];
+    /* Le serveur n'envoie l'en-tête CORS qu'aux requêtes portant un « Range » : on demande tout le fichier. */
+    var p = file(function () {
+      return fetch(URL_ARCHIVE_FR + date.replace(/-/g, ''), { headers: { Range: 'bytes=0-99999999' } })
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.arrayBuffer(); })
+      .then(lireZip)
+      .then(function (buf) {
+        var xml = new TextDecoder('iso-8859-1').decode(buf);
+        var res = {};
+        ids.forEach(function (id) { var x = prixDansArchive(xml, id, date); if (x) res[id] = x; });
+        var tout = lireStockage(CLE_ARCHIVES_FR);
+        tout[date] = { ids: ids, p: res };
+        ecrireStockage(CLE_ARCHIVES_FR, tout);
+        return res;
+      });
+    });
+    archivesEnCours[date] = p;
+    p.then(function () { delete archivesEnCours[date]; }, function () { delete archivesEnCours[date]; });
+    return p;
+  }
+
+  /* Toutes les stations françaises du scénario, pour qu'une archive téléchargée serve à tous les jours. */
+  function idsFranceScenario() {
+    var c = E.carbuLive, ids = [];
+    Object.keys((c && c.jours && c.jours[E.scenarioId]) || {}).forEach(function (jour) {
+      (c.jours[E.scenarioId][jour] || []).forEach(function (x) {
+        var s = c.stations[x.id];
+        if (s && s.pays === 'FR' && ids.indexOf(s.id) === -1) ids.push(s.id);
+      });
+    });
+    return ids.sort();
+  }
+
+  /* Par date : [gazole, essence] de chaque station suivie ce jour-là, ou rien. */
+  function histoCarburantPays(stations, pays) {
+    var dates = fenetreHisto(), auj = aujourdhuiIso();
+    if (pays === 'FR') {
+      var ids = idsFranceScenario();
+      return rafraichirPrixFrance().then(function () {
+        return Promise.all(dates.map(function (d) {
+          if (d === auj) {
+            var jour = {};
+            stations.forEach(function (s) {
+              var x = E.prixFranceDirect[s.id];
+              if (x && typeof x.gazole === 'number') jour[s.id] = [x.gazole, typeof x.e10 === 'number' ? x.e10 : null, typeof x.sp95 === 'number' ? x.sp95 : null];
+            });
+            return jour;
+          }
+          return archiveFrance(d, ids).catch(function () { return null; });
+        }));
+      }).then(function (jours) {
+        return { dates: dates, jours: jours.map(function (j) {
+          if (!j) return null;
+          var o = {};
+          stations.forEach(function (s) { if (j[s.id]) o[s.id] = [j[s.id][0], j[s.id][1] != null ? j[s.id][1] : j[s.id][2]]; });
+          return Object.keys(o).length ? o : null;
+        }), source: 'archives' };
+      });
+    }
+    var r = lireStockage(CLE_RELEVES_IT);
+    return Promise.resolve({ dates: dates, jours: dates.map(function (d) {
+      var j = r[d];
+      if (!j) return null;
+      var o = {};
+      stations.forEach(function (s) { var k = 'IT-' + s.id; if (j[k]) o[s.id] = j[k]; });
+      return Object.keys(o).length ? o : null;
+    }), source: 'appareil', depuis: Object.keys(r).sort()[0] });
+  }
+
+  function moyenneJour(jour, rang) {
+    if (!jour) return null;
+    var m = moyenne(Object.keys(jour).map(function (k) { return jour[k][rang]; }));
+    return m === null ? null : Math.round(m * 1000) / 1000;
+  }
+
+  /* Prix retenu pour le budget ce jour-là : moyenne des 3 gazoles les moins chers, comme aujourd'hui. */
+  function prixBudgetJour(jour) {
+    if (!jour) return null;
+    var v = Object.keys(jour).map(function (k) { return jour[k][0]; }).filter(function (x) { return typeof x === 'number'; }).sort(function (a, b) { return a - b; }).slice(0, 3);
+    return v.length ? moyenne(v) : null;
+  }
+
+  var NOMS_PAYS = { FR: 'France', IT: 'Italie', AT: 'Autriche' };
+
+  function dessinerCourbesCarburant(j, st, conteneur) {
+    var pays = [];
+    var r = routeDuJour(j);
+    if (r && r.etape.pays && st.some(function (s) { return s.pays === r.etape.pays; })) pays.push(r.etape.pays);
+    st.forEach(function (s) { if (pays.indexOf(s.pays) === -1) pays.push(s.pays); });
+    if (!pays.length) return;
+    var c0 = el('div', 'courbes');
+    c0.appendChild(el('p', 'jour__note', 'Courbes des prix des 15 derniers jours en cours de chargement…'));
+    conteneur.appendChild(c0);
+    var euroL = function (v, axe) { return axe ? nombreFr(v, Math.max(2, decAxe(axe))) + ' €' : prixLitreAffiche(v); };
+    Promise.all(pays.map(function (p) {
+      return histoCarburantPays(st.filter(function (s) { return s.pays === p; }), p).catch(function () { return null; });
+    })).then(function (histos) {
+      vide(c0);
+      var parPays = {};
+      /* Le pays de l'étape visible ; les autres pays et le coût de l'étape repliés. */
+      var repli = el('details', 'repli');
+      var resume = el('summary');
+      repli.appendChild(resume);
+      histos.forEach(function (h, k) {
+        var p = pays[k];
+        var c = k ? repli : c0;
+        var nb = h ? h.jours.filter(Boolean).length : 0;
+        if (!h || !nb) {
+          c.appendChild(el('p', 'jour__note', p === 'IT'
+            ? 'Italie : pas encore d’historique sur cet appareil. Le ministère italien ne publie aucune archive quotidienne lisible depuis la page : chaque ouverture mémorise le prix du jour ici, et la courbe se remplit jour après jour.'
+            : NOMS_PAYS[p] + ' : historique des prix indisponible (hors ligne ou archive officielle injoignable).'));
+          return;
+        }
+        parPays[p] = h;
+        var n = st.filter(function (s) { return s.pays === p; }).length;
+        c.appendChild(courbe({
+          titre: 'Prix moyen à la pompe, ' + (NOMS_PAYS[p] || p) + ' — 15 derniers jours',
+          dates: h.dates, format: euroL,
+          series: [
+            { nom: 'Gazole', couleur: 1, type: 'ligne', valeurs: h.jours.map(function (x) { return moyenneJour(x, 0); }) },
+            { nom: p === 'FR' ? 'Essence (E10, sinon SP95)' : 'Essence (SP95)', couleur: 2, type: 'ligne', valeurs: h.jours.map(function (x) { return moyenneJour(x, 1); }) }
+          ]
+        }));
+        c.appendChild(el('p', 'jour__note', h.source === 'archives'
+          ? 'Moyenne des ' + n + ' stations suivies à moins de ' + ((E.carbuLive || {}).rayon_km || 5) + ' km du tracé. Jours passés : archives quotidiennes officielles (donnees.roulez-eco.fr), téléchargées une fois puis gardées sur cet appareil ; aujourd’hui : prix lus en direct. ' + nb + ' jour' + (nb > 1 ? 's' : '') + ' disponible' + (nb > 1 ? 's' : '') + ' sur 16.'
+          : 'Moyenne des ' + n + ' stations suivies. Relevés mémorisés sur cet appareil depuis le ' + jjmm(h.depuis) + ' : ' + nb + ' jour' + (nb > 1 ? 's' : '') + ' disponible' + (nb > 1 ? 's' : '') + ' sur 16. L’Italie ne publie pas d’archive quotidienne : aucun jour manquant n’est reconstitué.'));
+      });
+      var cout = dessinerCourbeCout(j, parPays, repli);
+      var noms = pays.slice(1).map(function (p) { return NOMS_PAYS[p] || p; }).concat(cout ? ['coût de l’étape jour par jour'] : []);
+      resume.textContent = 'Autres courbes : ' + noms.join(', ');
+      if (noms.length) c0.appendChild(repli);
+    });
+  }
+
+  /* Coût du carburant de l'étape si on l'avait roulée chacun des 15 derniers jours. */
+  function dessinerCourbeCout(j, parPays, c) {
+    var etapes = ((E.itineraire && E.itineraire.etapes) || []).filter(function (e) { return e.jour === j.jour && e.distance_km; });
+    if (!etapes.length) return false;
+    var defaut = (E.carburant || {}).defaut;
+    var dates = fenetreHisto();
+    var conso = consoReelle();
+    var valeurs = dates.map(function (d, i) {
+      var total = 0;
+      for (var k = 0; k < etapes.length; k++) {
+        var h = parPays[etapes[k].pays || defaut];
+        var prix = h ? prixBudgetJour(h.jours[i]) : null;
+        if (prix === null) return null;   // un pays sans prix ce jour-là : pas de coût inventé
+        total += etapes[k].distance_km / 100 * conso * prix;
+      }
+      return Math.round(total * 100) / 100;
+    });
+    var nb = valeurs.filter(function (v) { return v !== null; }).length;
+    if (!nb) return false;
+    var km = etapes.reduce(function (a, e) { return a + e.distance_km; }, 0);
+    c.appendChild(courbe({
+      titre: 'Coût du carburant de l’étape selon le prix de chaque jour',
+      dates: dates, format: function (v, axe) { return axe ? nombreFr(v, decAxe(axe)) + ' €' : euros(v); },
+      series: [{ nom: 'Coût de l’étape', couleur: 1, type: 'ligne', valeurs: valeurs }]
+    }));
+    c.appendChild(el('p', 'jour__note', km + ' km à ' + nombreFr(conso, 1) + ' L/100 km, au prix moyen des 3 stations les moins chères du tracé ce jour-là. ' + nb + ' jour' + (nb > 1 ? 's' : '') + ' calculable' + (nb > 1 ? 's' : '') + ' sur 16 : un jour sans prix dans l’un des pays traversés reste vide.'));
+    return true;
   }
 
   function dessinerBudgetEtape(j, conteneur) {
@@ -1980,6 +2577,7 @@
     var r = routeDuJour(j);
     var pb = prixCarburantDuJour(j.jour, r && r.etape.pays);
     if (pb) d.appendChild(el('p', 'jour__note', 'Le budget du jour compte ' + prixLitreAffiche(pb.prix) + ', moyenne des ' + pb.n + ' stations les moins chères du tracé' + (r.etape.pays ? ' (' + r.etape.pays + ')' : '') + '.'));
+    if (st.length) dessinerCourbesCarburant(j, st, d);
     var src = c.sources || {};
     var morceaux = [];
     if (src.FR) morceaux.push('France : flux officiel, dernier relevé ' + dateHeure(src.FR.releve));
@@ -2219,12 +2817,32 @@
 
   /* ---------- Budget ---------- */
 
-  function prixLitre(paysCode) {
-    var c = E.carburant;
-    if (!c) return 0;
-    var p = (c.pays || {})[paysCode || c.defaut] || (c.pays || {})[c.defaut] || {};
+  /* Sans station relevée près du tracé : moyenne nationale du jour, lue en direct (France)
+     ou calculée chaque jour par le workflow sur le fichier officiel (Italie, illisible depuis la page). */
+  function moyennePays(paysCode) {
+    var code = paysCode || (E.carburant || {}).defaut;
     var type = (E.vehicule && E.vehicule.carburant) || 'gazole';
-    return p[type] || p.gazole || 0;
+    var direct = (E.moyennesDirect || {})[code];
+    var fichier = ((E.carbuLive || {}).moyennes || {})[code];
+    var m = direct || fichier;
+    var prix = m && (m[type] || m.gazole);
+    if (typeof prix !== 'number') return null;
+    return { prix: prix, origine: direct ? 'lue en direct' : 'du ' + dateHeure(m.date || '').replace(/,?\s\d\d:\d\d$/, '') };
+  }
+
+  var URL_MOYENNE_FRANCE = 'https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?limit=1&select=' +
+    encodeURIComponent('avg(gazole_prix) as gazole, avg(e10_prix) as e10, avg(sp95_prix) as sp95, count(*) as n') +
+    '&where=' + encodeURIComponent('gazole_maj >= now(days=-8)');
+
+  function rafraichirMoyenneFrance() {
+    if (!window.fetch) return Promise.resolve(false);
+    return jsonDirect(URL_MOYENNE_FRANCE).then(function (d) {
+      var x = (d.results || [])[0];
+      if (!x || typeof x.gazole !== 'number') return false;
+      var r3 = function (v) { return typeof v === 'number' ? Math.round(v * 1000) / 1000 : undefined; };
+      E.moyennesDirect.FR = { gazole: r3(x.gazole), e10: r3(x.e10), sp95: r3(x.sp95), n: x.n, date: aujourdhuiIso() };
+      return true;
+    }).catch(function () { return false; });
   }
 
   function consoReelle() {
@@ -2348,13 +2966,15 @@
           if (!e.distance_km) return;
           /* Prix du jour relevé sur le tracé quand il existe, sinon le prix indicatif du pays. */
           var live = prixCarburantDuJour(e.jour, e.pays);
-          var pl = live ? live.prix : prixLitre(e.pays);
+          var moy = live ? null : moyennePays(e.pays);
+          var pl = live ? live.prix : (moy ? moy.prix : 0);
           var m = e.distance_km / 100 * conso * pl;
           if (m) base.push({
-            jour: e.jour, poste: r.poste, type: 'Carburant', evitable: 'Non : faire le plein au moins cher (Eni 2,19 € en Italie).',
+            jour: e.jour, poste: r.poste, type: 'Carburant', evitable: 'Non : faire le plein à la station la moins chère du tracé (liste dans la vue de l’étape).',
             libelle: e.distance_km + ' km' + (e.autoroute ? ' par l’autoroute' : (e.troncons_peage && e.troncons_peage.length ? ' sans péage' : '')) +
               (e.pays ? ' (' + e.pays + ')' : '') + ' à ' + euros(pl) + '/L' +
-              (live ? ', prix relevé sur le tracé le ' + dateHeure(live.releve).replace(/,?\s\d\d:\d\d$/, '') : ''),
+              (live ? ', prix relevé sur le tracé le ' + dateHeure(live.releve).replace(/,?\s\d\d:\d\d$/, '') : '') +
+              (moy ? ', moyenne nationale ' + moy.origine : ''),
             montant: m
           });
         });
@@ -2792,7 +3412,9 @@
       E.webcams = r[14];
       E.ravitaillement = r[15];
       E.prixFranceDirect = {};
+      E.moyennesDirect = {};
       chargerChoix();
+      memoriserRelevesItalie();
 
       E.parId = indexer(E.lieux);
       E.categories = construireCategories(E.lieux, r[2] || {});
@@ -2811,6 +3433,7 @@
         dessinerChoixScenario();
         rendre();
         preparerHorsLigne();
+        rafraichirMoyenneFrance().then(function (ok) { if (ok) dessinerBudget(); });
 
         ouvrirDepuisAdresse();
       });

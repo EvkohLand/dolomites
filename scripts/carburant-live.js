@@ -83,8 +83,10 @@ async function stationsItalie(boite, maintenant) {
   const extraction = (/Estrazione del (\d{4}-\d{2}-\d{2})/.exec(txtPrix) || [])[1] || '';
 
   const stations = new Map();
+  const autoroutes = new Set();
   for (const c of lignesCsv(txtStations).slice(2)) {
     if (c.length < 10) continue;
+    if (/autostrad/i.test(c[3])) autoroutes.add(c[0]);
     const lat = Number(c[c.length - 2]), lon = Number(c[c.length - 1]);
     if (!lat || !lon || !C.dansBoite([lat, lon], boite)) continue;
     stations.set(c[0], {
@@ -97,13 +99,16 @@ async function stationsItalie(boite, maintenant) {
     });
   }
 
+  /* Moyenne nationale du jour, libre-service hors autoroute : prix de repli du budget. */
+  const national = { gazole: [], sp95: [] };
   for (const c of lignesCsv(txtPrix).slice(2)) {
-    const s = stations.get(c[0]);
-    if (!s) continue;
     const carbu = c[1] === 'Gasolio' ? 'gazole' : c[1] === 'Benzina' ? 'sp95' : null;
     const prix = Number(c[2]);
     const quand = dateItalienne(c[4]);
     if (!carbu || !prix || !frais(quand, maintenant)) continue;
+    if (c[3] === '1' && !autoroutes.has(c[0]) && prix > 0.5 && prix < 5) national[carbu].push(prix);
+    const s = stations.get(c[0]);
+    if (!s) continue;
     const mode = c[3] === '1' ? 'self' : 'servito';
     s.prix[carbu + '_' + mode] = { prix, quand };
   }
@@ -123,7 +128,21 @@ async function stationsItalie(boite, maintenant) {
       releve: g.quand
     });
   }
-  return { stations: out, extraction };
+  const moy = l => l.length ? arrondi(l.reduce((a, b) => a + b, 0) / l.length) : undefined;
+  const moyenne = { gazole: moy(national.gazole), sp95: moy(national.sp95), n: national.gazole.length, date: extraction, perimetre: 'libre-service hors autoroute' };
+  return { stations: out, extraction, moyenne };
+}
+
+/* Moyenne nationale française du jour, même calcul que la page (qui la relit en direct). */
+async function moyenneFrance() {
+  const params = new URLSearchParams({
+    limit: '1',
+    select: 'avg(gazole_prix) as gazole, avg(e10_prix) as e10, avg(sp95_prix) as sp95, count(*) as n',
+    where: 'gazole_maj >= now(days=-8)'
+  });
+  const x = ((await (await C.telecharger(URL_FR.replace('/exports/json', '/records') + '?' + params)).json()).results || [])[0];
+  if (!x || typeof x.gazole !== 'number') throw new Error('moyenne France vide');
+  return { gazole: arrondi(x.gazole), e10: arrondi(x.e10), sp95: arrondi(x.sp95), n: x.n, date: new Date().toISOString().slice(0, 10), perimetre: 'toutes stations' };
 }
 
 async function principal() {
@@ -134,6 +153,7 @@ async function principal() {
 
   const precedent = C.lireJsonSiPresent(FICHIER);
   const sources = {};
+  const moyennes = {};
   let candidats = [];
   const erreurs = [];
 
@@ -143,10 +163,12 @@ async function principal() {
     candidats = candidats.concat(fr.stations);
     sources.FR = { libelle: 'Flux instantané prix-carburants (data.economie.gouv.fr)', url: 'https://www.prix-carburants.gouv.fr/', releve: fr.releve };
   } catch (e) { erreurs.push('France : ' + e.message); }
+  try { moyennes.FR = await moyenneFrance(); } catch (e) { erreurs.push('moyenne France : ' + e.message); }
   try {
     const it = await stationsItalie(tout, maintenant);
     candidats = candidats.concat(it.stations);
     sources.IT = { libelle: 'Osservaprezzi carburanti (MIMIT), prix communiqués', url: 'https://carburanti.mise.gov.it/', extraction: it.extraction };
+    if (it.moyenne.gazole) moyennes.IT = it.moyenne;
   } catch (e) { erreurs.push('Italie : ' + e.message); }
 
   if (precedent && precedent.stations) {
@@ -154,6 +176,9 @@ async function principal() {
       if (sources[p] || !(precedent.sources || {})[p]) continue;
       sources[p] = Object.assign({}, precedent.sources[p], { perime: true });
       candidats = candidats.concat(Object.values(precedent.stations).filter(s => s.pays === p).map(s => Object.assign({ cle: p + '-' + s.id }, s)));
+    }
+    for (const p of ['FR', 'IT']) {
+      if (!moyennes[p] && (precedent.moyennes || {})[p]) moyennes[p] = Object.assign({}, precedent.moyennes[p], { perime: true });
     }
   }
   if (!candidats.length) throw new Error('aucune station récupérée — ' + erreurs.join(' ; '));
@@ -183,6 +208,7 @@ async function principal() {
     rayon_km: RAYON_KM,
     note: 'Stations à moins de ' + RAYON_KM + ' km du tracé du jour ou de la nuit, triées par prix du gazole. Italie : prix « self » (libre-service) quand il existe. Un prix de plus de ' + FRAICHEUR_JOURS + ' jours est écarté.',
     sources,
+    moyennes,
     stations,
     jours: parJour
   };

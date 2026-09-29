@@ -198,9 +198,10 @@ if (vehicule) {
 if (carburant) {
   if (!carburant.pays || !Object.keys(carburant.pays).length) err('commun/carburant.json', 'aucun pays défini');
   else {
+    /* Aucun prix figé : le prix vient des stations du tracé ou de la moyenne nationale du jour. */
     for (const [code, p] of Object.entries(carburant.pays)) {
-      if (typeof p.gazole !== 'number' && typeof p.sp95 !== 'number') {
-        err('commun/carburant.json', `pays « ${code} » : aucun prix de carburant`);
+      if (typeof p.gazole === 'number' || typeof p.sp95 === 'number') {
+        err('commun/carburant.json', `pays « ${code} » : prix saisi à la main, interdit (il vient des données du jour)`);
       }
     }
     if (carburant.defaut && !carburant.pays[carburant.defaut]) {

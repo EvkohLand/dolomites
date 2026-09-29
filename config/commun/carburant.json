@@ -1,31 +1,21 @@
 {
   "defaut": "IT",
-  "note": "Prix indicatifs au 28 septembre 2026, à recaler juste avant le départ : le carburant varie quotidiennement. Chaque étape peut nommer son pays ; sans indication, le pays par défaut s'applique.",
+  "note": "Aucun prix saisi ici : le budget prend le prix des stations relevées sur le tracé du jour, sinon la moyenne nationale du jour (France : lue en direct par la page ; Italie : calculée chaque jour par le workflow sur le fichier officiel MIMIT). Chaque étape peut nommer son pays ; sans indication, le pays par défaut s'applique.",
   "pays": {
     "FR": {
       "libelle": "France",
-      "gazole": 2.4,
-      "sp95": 2.03,
-      "note": "Ordre de grandeur national fin septembre 2026 d'après les données publiques de prix à la pompe agrégées. Forte dispersion selon station et autoroute.",
-      "a_reverifier": true,
       "source": "https://www.prix-carburants.gouv.fr/"
     },
     "IT": {
       "libelle": "Italie",
-      "gazole": 2.369,
-      "sp95": 2.152,
-      "note": "Moyenne nationale hors autoroute en libre-service fin septembre 2026. Autoroute : gazole autour de 2,42 €/L. Choisir le libre-service (« self / fai da te ») lorsque possible.",
-      "a_reverifier": true,
+      "note": "Choisir le libre-service (« self / fai da te ») lorsque possible ; le service assisté et l'autoroute coûtent nettement plus.",
       "source": "https://carburanti.mise.gov.it/"
     },
     "AT": {
       "libelle": "Autriche",
-      "gazole": 2.259,
-      "sp95": 1.956,
-      "note": "Moyenne nationale publiée le 28/09/2026. Le Tyrol peut être plus cher que la moyenne nationale ; vérifier le Spritpreisrechner avant un éventuel plein au Brenner.",
-      "a_reverifier": true,
+      "note": "Aucune étape du tracé actuel ne passe en Autriche.",
       "source": "https://www.e-control.at/spritpreisrechner"
     }
   },
-  "strategie": "Au 28/09/2026, le gazole moyen est proche entre France (~2,40 €/L) et Italie hors autoroute (~2,37 €/L), et un peu moins cher en moyenne en Autriche (~2,26 €/L). Ne plus partir du principe que l'Italie est nettement plus chère que la France. Comparer les stations sur le trajet et éviter surtout les stations autoroutières et le service assisté italien."
+  "strategie": "Comparer les stations du tracé dans la vue de chaque étape (prix du jour et courbe des 15 derniers jours) ; éviter les stations autoroutières et le service assisté italien."
 }
