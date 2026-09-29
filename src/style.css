@@ -1099,3 +1099,12 @@ main { max-width: none; }
   .meteo-etape > :not(.meteo-etape__point), .zone-rando > :not(.rando-card), .zone-decouverte > :not(.decouverte-card),
   .ravito > p, .ravito > .tableau-cle { flex-basis: 100%; }
 }
+
+/* Onglet Photos : grille qui remplit toute la largeur, vignettes recadrées. */
+.onglet-panneau[data-onglet="photos"] .galerie--etape { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; overflow: visible; }
+.onglet-panneau[data-onglet="photos"] .galerie--etape .photo img { width: 100%; height: 170px; object-fit: cover; }
+.onglet-panneau[data-onglet="photos"] .galerie--etape figcaption { max-width: none; }
+@media (max-width: 640px) {
+  .onglet-panneau[data-onglet="photos"] .galerie--etape { grid-template-columns: repeat(2, 1fr); }
+  .onglet-panneau[data-onglet="photos"] .galerie--etape .photo img { height: 120px; }
+}
