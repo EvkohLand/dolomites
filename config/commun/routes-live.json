@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-09-28T23:12Z",
+  "genere_le": "2026-09-29T05:37Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-09-28T20:00"
+      "maj": "2026-09-29T06:12"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-09-28"
+      "maj": "2026-09-29"
     }
   },
   "messages": [
@@ -316,20 +316,6 @@
     },
     {
       "source": "bz",
-      "id": "3137112",
-      "route": "Comune di Laives",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In via Pietralba, in via Montessori e in zona Crosara senso unico alternato per lavori di scavo e la posa di cavidotti.",
-      "debut": "2026-09-10",
-      "fin": "2026-09-28",
-      "gps": [
-        46.42676,
-        11.33763
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3143501",
       "route": "Comune di Nova Ponente",
       "niveau": "fermeture",
@@ -572,7 +558,7 @@
       "route": "LS/SP157 — Elle",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da martedì 29.09.2026: Ad Elle (km 3,800 - km 6,250) CHIUSURA al traffico dalle ore 07:00 alle ore 17:00 per lavori di asfaltatura (giorni feriali). Deviazione attraverso la SC Mantana-Elle.",
+      "texte": "Ad Elle (km 3,800 - km 6,250) CHIUSURA al traffico dalle ore 07:00 alle ore 17:00 per lavori di asfaltatura (giorni feriali). Deviazione attraverso la SC Mantana-Elle.",
       "debut": "2026-09-28",
       "fin": "2026-10-08",
       "gps": [
@@ -964,7 +950,7 @@
       "route": "SS.38 — Superstrada MEBO",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da martedì 29.09.2026: In direzione Bolzano tra Appiano e Bolzano Sud in galleria di Castelfirmiano (km 222,700 - km 225,000) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori di pulizia e di manutenzione degli impianti tecnici. La deviazione avviene attraverso l’uscita di Appiano.",
+      "texte": "In direzione Bolzano tra Appiano e Bolzano Sud in galleria di Castelfirmiano (km 222,700 - km 225,000) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori di pulizia e di manutenzione degli impianti tecnici. La deviazione avviene attraverso l’uscita di Appiano.",
       "debut": "2026-09-28",
       "fin": "2026-09-30",
       "gps": [
