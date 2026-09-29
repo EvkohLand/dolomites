@@ -47,12 +47,6 @@
   ],
   "saisi": [
     {
-      "jour": 5,
-      "poste": "activite",
-      "libelle": "Parking d’Anterselva le matin : 10 € au lieu des 5 € de l’après-midi",
-      "montant": 5
-    },
-    {
       "jour": 1,
       "poste": "nourriture",
       "type": "Courses alimentaires",
@@ -62,11 +56,11 @@
       "evitable": "—"
     },
     {
-      "jour": 2,
+      "jour": 1,
       "poste": "nourriture",
       "type": "Courses alimentaires",
-      "libelle": "Conad Superstore Savone — courses avec chien (chien admis) — 3,5 jours de repas",
-      "montant": 46,
+      "libelle": "Conad Via Aurelia 88 — Loano (chien admis) — 3 jours de repas (jours 2 à 4)",
+      "montant": 39,
       "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
       "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
     },
@@ -74,8 +68,8 @@
       "jour": 5,
       "poste": "nourriture",
       "type": "Courses alimentaires",
-      "libelle": "Lidl Varna / Vahrn — 2,5 jours de repas",
-      "montant": 32,
+      "libelle": "Lidl Varna / Vahrn — 3 jours de repas (jours 5 à 7)",
+      "montant": 39,
       "detail": "Base : 13 € par jour pour deux en supermarché discount (petit-déjeuner 2,50 € ; pique-nique 5 € ; dîner au réchaud 4,50 € ; café et divers 1 €). Estimation, pas un prix relevé. Eau aux fontaines et au camping, croquettes de Prince apportées de la maison.",
       "evitable": "Non. Déjà au plus bas : aucun restaurant ; s’en passer seulement si des repas sont apportés de la maison."
     }
