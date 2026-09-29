@@ -1629,7 +1629,16 @@
     var haut = lieux.slice().sort(function (a, b) { return (b.altitude || 0) - (a.altitude || 0); })[0];
     var pts = [];
     if (nuit && Array.isArray(nuit.gps)) pts.push({ lieu: nuit, role: 'Nuit' });
-    if (haut && (!nuit || (haut.altitude || 0) > (nuit.altitude || 0) + 300)) pts.push({ lieu: haut, role: 'Point haut' });
+    if (haut && haut !== nuit && (!nuit || (haut.altitude || 0) > (nuit.altitude || 0) + 300)) {
+      pts.push({ lieu: haut, role: 'Point haut' });
+    } else if (nuit) {
+      /* Altitude inconnue : le lieu visité le plus éloigné de la nuit (> 10 km) a sa propre météo ;
+         Open-Meteo prend alors l'altitude de son modèle de terrain. */
+      var visites = (j.activites || []).map(function (a) { return E.parId.get(a.lieu); })
+        .filter(function (l) { return l && Array.isArray(l.gps) && l.categorie !== 'courses' && l.categorie !== 'carburant'; });
+      var loin = visites.sort(function (a, b) { return distanceKm(b.gps, nuit.gps) - distanceKm(a.gps, nuit.gps); })[0];
+      if (loin && distanceKm(loin.gps, nuit.gps) > 10) pts.push({ lieu: loin, role: 'Lieu visité' });
+    }
     if (!pts.length && lieux.length) pts.push({ lieu: lieux[0], role: 'Étape' });
     return pts;
   }
