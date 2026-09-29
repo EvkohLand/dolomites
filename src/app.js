@@ -943,17 +943,8 @@
     var groupes = (((E.randonnees || {}).zones) || []).filter(function (g) {
       return Array.isArray(g.zones_planning) && g.zones_planning.indexOf(j.zone) !== -1;
     });
-    var titre = (j.titre || '').toLowerCase();
-
-    /* Falzarego contient deux sous-zones très proches mais distinctes.
-       On ne montre que le secteur nommé par la journée, sauf lorsque le planning
-       prévoit explicitement l'un comme solution de repli de l'autre. */
-    if (j.zone === 'Alta Badia / Falzarego') {
-      var citeCinque = titre.indexOf('cinque torri') !== -1;
-      var citeLagazuoi = titre.indexOf('lagazuoi') !== -1;
-      if (citeCinque && !citeLagazuoi) groupes = groupes.filter(function (g) { return g.id === 'cinque-torri'; });
-      if (citeLagazuoi && !citeCinque) groupes = groupes.filter(function (g) { return g.id === 'lagazuoi'; });
-    }
+    /* Le planning peut restreindre les zones de randonnée d'un jour : « zones_randos » : [ids]. */
+    if (Array.isArray(j.zones_randos)) groupes = groupes.filter(function (g) { return j.zones_randos.indexOf(g.id) !== -1; });
     return groupes;
   }
 
@@ -1222,7 +1213,13 @@
 
   function photosDuJour(j) {
     var out = [];
-    lieuxDuJour(j).forEach(function (l) {
+    var lieux = lieuxDuJour(j);
+    /* Jour sans visite ni nuit (retour) : les lieux du trajet, à commencer par la base qu'on quitte. */
+    if (!lieux.some(function (l) { return (l.photos || []).length; })) {
+      var r = routeDuJour(j);
+      if (r) lieux = referencesEtape(r.etape).map(function (id) { return E.parId.get(id); }).filter(Boolean);
+    }
+    lieux.forEach(function (l) {
       (l.photos || []).forEach(function (ph) {
         if (ph && (ph.url || ph.fichier)) out.push({ ph: ph, lieu: l });
       });
@@ -1246,24 +1243,14 @@
   }
 
   function dessinerRouteHiver() {
-    var zone = document.getElementById('route-hiver');
     var bandeau = document.getElementById('bandeau-route');
-    if (bandeau) {
-      vide(bandeau);
-      bandeau.appendChild(document.createTextNode('Octobre : les cols (Gardena, Falzarego, Giau, Pordoi…) ne se passent que sur chaussée sèche, sans chaînes à bord. Chaque étape liste ses règles, sa météo et son budget.'));
-    }
-    if (!zone) return;
-    vide(zone);
-    zone.appendChild(el('p', null, 'La période générale d’obligation hivernale commence habituellement le 15 novembre, mais neige, verglas ou pluie verglaçante peuvent rendre un équipement hivernal obligatoire avant cette date sur les routes de montagne. Véhicule déclaré sans chaînes et sans pneus hiver : ne pas engager un col enneigé ou verglacé.'));
-    var hu = el('ul', null);
-    [
-      'Avant chaque journée avec col ou route d’altitude : vérifier météo et état officiel de la route le matin même.',
-      'Si neige, verglas, pluie verglaçante ou chaussée blanche : demi-tour ou itinéraire de vallée ; ne pas tenter le passage.',
-      'Vérifier les marquages réels des pneus 4 saisons : M+S pour la conformité italienne ; 3PMSF est nettement préférable sur neige.',
-      'Sans chaînes à bord, Passo Gardena, Falzarego, Valparola, Pordoi, Giau et les accès élevés sont conditionnels à une chaussée sèche et dégagée.'
-    ].forEach(function (x) { hu.appendChild(el('li', null, x)); });
-    zone.appendChild(hu);
+    if (!bandeau) return;
+    vide(bandeau);
+    var t = (E.pratique || {}).bandeau_etapes;
+    bandeau.hidden = !t;
+    if (t) bandeau.appendChild(document.createTextNode(t));
   }
+
 
   function dessinerPlanning() {
     var zone = document.getElementById('planning');
@@ -1593,30 +1580,27 @@
 
   /* Haut-Adige (germanophone et italophone) : message en allemand et en italien ; ailleurs en Italie : italien. */
   function languesDe(l) {
-    if (!Array.isArray(l.gps)) return ['it'];
-    if (l.gps[0] > 46.3 && l.gps[1] > 10.4 && l.gps[1] < 12.5) return ['de', 'it'];
-    if (l.gps[1] < 7.5) return ['fr'];
-    return ['it'];
+    var m = E.messages || {};
+    if (Array.isArray(l.langues)) return l.langues;
+    var prov = /\(([A-Z]{2})\)/.exec(l.commune || '');
+    if (prov && m.langues_par_province && m.langues_par_province[prov[1]]) return m.langues_par_province[prov[1]];
+    return m.langue_par_defaut || ['it'];
   }
 
-  function messageSejour(langue, c) {
-    var arr = dateLangue(c.arrivee, langue), dep = dateLangue(c.depart, langue), n = c.nuits, h = c.heure;
-    if (langue === 'de') return 'Guten Tag,\n\nhaben Sie vom ' + arr + ' bis ' + dep + ' 2026 (' + n + (n > 1 ? ' Nächte' : ' Nacht') + ') einen Platz frei? Ankunft gegen ' + (h || '17:00') + ' Uhr.\n\n' +
-      'Wir sind 2 Erwachsene mit einem mittelgroßen Hund (ca. 20–25 kg) und einem Auto mit Dachzelt (Höhe 1,95 m, das Zelt wird vor Ort aufgeklappt). Wir haben keine Toilette an Bord.\n\n' +
-      'Könnten Sie uns bitte den Gesamtpreis pro Nacht nennen (inklusive Ortstaxe und Hund, Strom optional) und sagen, ob eine Reservierung nötig ist?\n\nVielen Dank und freundliche Grüße';
-    if (langue === 'fr') return 'Bonjour,\n\nAuriez-vous une place du ' + arr + ' au ' + dep + ' 2026 (' + n + (n > 1 ? ' nuits' : ' nuit') + ') ? Arrivée vers ' + (h || '17 h') + '.\n\n' +
-      'Nous sommes 2 adultes avec un chien de taille moyenne (20–25 kg) et une voiture avec tente de toit (hauteur 1,95 m, tente dépliée sur place). Pas de WC à bord.\n\n' +
-      'Pourriez-vous nous indiquer le prix total par nuit (taxe de séjour et chien compris, électricité facultative) et s’il faut réserver ?\n\nMerci beaucoup, bonne journée.';
-    return 'Buongiorno,\n\navete un posto libero dal ' + arr + ' al ' + dep + ' 2026 (' + n + (n > 1 ? ' notti' : ' notte') + ')? Arrivo verso le ' + (h || '17:00') + '.\n\n' +
-      'Siamo 2 adulti con un cane di taglia media (circa 20–25 kg) e un’auto con tenda da tetto (altezza 1,95 m, la tenda si apre sul posto). Non abbiamo bagno a bordo.\n\n' +
-      'Potreste indicarci il prezzo totale a notte (tassa di soggiorno e cane inclusi, corrente facoltativa) e se è necessario prenotare?\n\nGrazie mille, cordiali saluti.';
+  /* Messages de contact : modèles de config/commun/messages.json, remplis avec le profil des voyageurs. */
+  function remplirMessage(type, langue, c) {
+    var m = E.messages || {}, v = E.voyageurs || {};
+    var modele = ((m[type] || {})[langue]) || '';
+    var mots = (m.mots_nuit || {})[langue] || ['', ''];
+    var vars = {
+      arrivee: dateLangue(c.arrivee, langue), depart: dateLangue(c.depart, langue), nuits: c.nuits,
+      nuits_mot: c.nuits > 1 ? mots[1] : mots[0], heure: c.heure || '17:00', adultes: v.adultes || 2,
+      poids: (v.chien && v.chien.poids) || '', hauteur: String((E.vehicule && E.vehicule.hauteur_tente_fermee_m) || '').replace('.', ',')
+    };
+    return modele.replace(/\{(\w+)\}/g, function (x, k) { return vars[k] !== undefined ? vars[k] : x; });
   }
-
-  function messageDeplacement(langue, c) {
-    var arr = dateLangue(c.arrivee, langue), dep = dateLangue(c.depart, langue);
-    if (langue === 'de') return 'Guten Tag,\n\nvielen Dank für Ihre Antwort. Unsere Route hat sich geändert: Wäre es möglich, die Reservierung auf ' + arr + ' bis ' + dep + ' 2026 (' + c.nuits + ' Nächte) zu verschieben, Ankunft gegen ' + (c.heure || '16:30') + ' Uhr? Falls nicht, stornieren Sie bitte die Reservierung.\n\nVielen Dank und freundliche Grüße';
-    return 'Buongiorno,\n\ngrazie per la risposta. Il nostro itinerario è cambiato: sarebbe possibile spostare la prenotazione dal ' + arr + ' al ' + dep + ' 2026 (' + c.nuits + ' notti), con arrivo verso le ' + (c.heure || '16:30') + '? Altrimenti vi preghiamo di annullarla.\n\nGrazie mille, cordiali saluti.';
-  }
+  function messageSejour(langue, c) { return remplirMessage('sejour', langue, c); }
+  function messageDeplacement(langue, c) { return remplirMessage('deplacement', langue, c); }
 
   function blocMessage(titre, texte, traduction) {
     var d = el('details', 'message');
@@ -1668,7 +1652,7 @@
         d.appendChild(blocMessage('Demander une place ou réserver — ' + nomLg(lg), messageSejour(lg, c), lg === 'fr' || k ? null : fr));
       });
       if (ech && /réservation/.test(ech.etat || '')) {
-        var frDep = 'Bonjour, merci pour votre réponse. Notre itinéraire a changé : serait-il possible de déplacer la réservation du ' + dateLangue(c.arrivee, 'fr') + ' au ' + dateLangue(c.depart, 'fr') + ' (' + c.nuits + ' nuits), arrivée vers ' + (c.heure || '16 h 30') + ' ? Sinon, merci de l’annuler.';
+        var frDep = messageDeplacement('fr', c);
         langues.filter(function (lg) { return lg !== 'fr'; }).forEach(function (lg, k) {
           d.appendChild(blocMessage('Déplacer ou annuler la réservation — ' + nomLg(lg), messageDeplacement(lg, c), k ? null : frDep));
         });
@@ -1712,7 +1696,7 @@
   }
 
   function dessinerRavitaillementEtape(j, conteneur) {
-    var plan = E.ravitaillement && E.ravitaillement.scenarios && (E.ravitaillement.scenarios[E.scenarioId] || {})[String(j.jour)];
+    var plan = E.ravitaillement && E.ravitaillement.jours && E.ravitaillement.jours[String(j.jour)];
     var d = el('div', 'ravito');
     function bouton(ref) {
       var l = E.parId.get(ref.lieu);
@@ -1740,7 +1724,7 @@
       if (autres.length) d.appendChild(tableauCle(autres));
     } else if (j.nuit) {
       var n = resoudre(j.nuit);
-      (E.lieux || []).filter(function (l) { return l.categorie === 'courses' && distanceKm(l.gps, n.gps) < 25; }).forEach(function (l) {
+      (E.lieux || []).filter(function (l) { return l.categorie === 'supermarche' && distanceKm(l.gps, n.gps) < 25; }).forEach(function (l) {
         var b = bouton({ lieu: l.id }); if (b) d.appendChild(b);
       });
     }
@@ -1771,7 +1755,7 @@
       /* Altitude inconnue : le lieu visité le plus éloigné de la nuit (> 10 km) a sa propre météo ;
          Open-Meteo prend alors l'altitude de son modèle de terrain. */
       var visites = (j.activites || []).map(function (a) { return E.parId.get(a.lieu); })
-        .filter(function (l) { return l && Array.isArray(l.gps) && l.categorie !== 'courses' && l.categorie !== 'carburant'; });
+        .filter(function (l) { return l && Array.isArray(l.gps) && l.categorie !== 'supermarche' && l.categorie !== 'carburant'; });
       var loin = visites.sort(function (a, b) { return distanceKm(b.gps, nuit.gps) - distanceKm(a.gps, nuit.gps); })[0];
       if (loin && distanceKm(loin.gps, nuit.gps) > 10) pts.push({ lieu: loin, role: 'Lieu visité' });
     }
@@ -3046,7 +3030,7 @@
     if (c === 'parking' || /parking|stationnement/i.test((l.prix && l.prix.unite) || '')) return 'Stationnement';
     if (c === 'lac' || c === 'plateau' || c === 'vue' || c === 'village') return 'Stationnement';
     if (c === 'remontee') return 'Remontée mécanique';
-    if (c === 'courses') return 'Courses alimentaires';
+    if (c === 'supermarche') return 'Courses alimentaires';
     return cat(c).libelle || 'Activité';
   }
 
@@ -3071,7 +3055,7 @@
           var l = resoudre(j.nuit);
           var m = montantDe(l);
           if (m) base.push({ jour: j.jour, poste: r.poste, type: 'Nuit (camping, ferme)', libelle: l.nom, montant: m,
-            evitable: 'Non : dormir dans la voiture ou sous la tente hors d’un terrain autorisé est interdit dans les Dolomites.' });
+            evitable: ((E.budget || {}).evitable || {}).nuit });
         });
       } else if (r.depuis === 'planning.activites') {
         /* Une activité payante est une option, sauf si sa fiche la déclare indispensable. */
@@ -3123,7 +3107,7 @@
           var pl = live ? live.prix : (moy ? moy.prix : 0);
           var m = e.distance_km / 100 * conso * pl;
           if (m) base.push({
-            jour: e.jour, poste: r.poste, type: 'Carburant', evitable: 'Non : faire le plein à la station la moins chère du tracé (liste dans la vue de l’étape).',
+            jour: e.jour, poste: r.poste, type: 'Carburant', evitable: ((E.budget || {}).evitable || {}).carburant,
             libelle: e.distance_km + ' km' + (e.autoroute ? ' par l’autoroute' : (e.troncons_peage && e.troncons_peage.length ? ' sans péage' : '')) +
               (e.pays ? ' (' + e.pays + ')' : '') + ' à ' + euros(pl) + '/L' +
               (live ? ', prix relevé sur le tracé le ' + dateHeure(live.releve).replace(/,?\s\d\d:\d\d$/, '') : '') +
@@ -3480,13 +3464,14 @@
     return Promise.all([
       lire(d + 'reglages.json'), lire(d + 'planning.json'),
       lire(d + 'itineraire.json'), lire(d + 'budget.json'),
-      lire(d + 'trace.json')
+      lire(d + 'trace.json'), lireOptionnel(d + 'ravitaillement.json')
     ]).then(function (r) {
       E.reglages = r[0] || {};
       E.planning = r[1] || [];
       E.itineraire = r[2] || { etapes: [] };
       E.budget = r[3] || null;
       E.trace = r[4] || null;
+      E.ravitaillement = r[5] || null;
     });
   }
 
@@ -3547,7 +3532,7 @@
       lireOptionnel('commun/carburant-live.json'),
       lireOptionnel('commun/routes-live.json'),
       lireOptionnel('commun/webcams.json'),
-      lireOptionnel('commun/ravitaillement.json')
+      lire('commun/voyageurs.json'), lire('commun/messages.json')
     ]).then(function (r) {
       E.scenarios = r[0] || { scenarios: [] };
       E.lieux = r[1] || [];
@@ -3563,7 +3548,8 @@
       E.carbuLive = r[12];
       E.routesLive = r[13];
       E.webcams = r[14];
-      E.ravitaillement = r[15];
+      E.voyageurs = r[15] || {};
+      E.messages = r[16] || {};
       E.prixFranceDirect = {};
       E.moyennesDirect = {};
       chargerChoix();

@@ -1,0 +1,36 @@
+{
+  "sejour": {
+    "de": "Guten Tag,\n\nhaben Sie vom {arrivee} bis {depart} 2026 ({nuits} {nuits_mot}) einen Platz frei? Ankunft gegen {heure} Uhr.\n\nWir sind {adultes} Erwachsene mit einem mittelgroßen Hund (ca. {poids}) und einem Auto mit Dachzelt (Höhe {hauteur} m, das Zelt wird vor Ort aufgeklappt). Wir haben keine Toilette an Bord.\n\nKönnten Sie uns bitte den Gesamtpreis pro Nacht nennen (inklusive Ortstaxe und Hund, Strom optional) und sagen, ob eine Reservierung nötig ist?\n\nVielen Dank und freundliche Grüße",
+    "it": "Buongiorno,\n\navete un posto libero dal {arrivee} al {depart} 2026 ({nuits} {nuits_mot})? Arrivo verso le {heure}.\n\nSiamo {adultes} adulti con un cane di taglia media (circa {poids}) e un’auto con tenda da tetto (altezza {hauteur} m, la tenda si apre sul posto). Non abbiamo bagno a bordo.\n\nPotreste indicarci il prezzo totale a notte (tassa di soggiorno e cane inclusi, corrente facoltativa) e se è necessario prenotare?\n\nGrazie mille, cordiali saluti.",
+    "fr": "Bonjour,\n\nAuriez-vous une place du {arrivee} au {depart} 2026 ({nuits} {nuits_mot}) ? Arrivée vers {heure}.\n\nNous sommes {adultes} adultes avec un chien de taille moyenne ({poids}) et une voiture avec tente de toit (hauteur {hauteur} m, tente dépliée sur place). Pas de WC à bord.\n\nPourriez-vous nous indiquer le prix total par nuit (taxe de séjour et chien compris, électricité facultative) et s’il faut réserver ?\n\nMerci beaucoup, bonne journée."
+  },
+  "deplacement": {
+    "de": "Guten Tag,\n\nvielen Dank für Ihre Antwort. Unsere Route hat sich geändert: Wäre es möglich, die Reservierung auf {arrivee} bis {depart} 2026 ({nuits} {nuits_mot}) zu verschieben, Ankunft gegen {heure} Uhr? Falls nicht, stornieren Sie bitte die Reservierung.\n\nVielen Dank und freundliche Grüße",
+    "it": "Buongiorno,\n\ngrazie per la risposta. Il nostro itinerario è cambiato: sarebbe possibile spostare la prenotazione dal {arrivee} al {depart} 2026 ({nuits} {nuits_mot}), con arrivo verso le {heure}? Altrimenti vi preghiamo di annullarla.\n\nGrazie mille, cordiali saluti.",
+    "fr": "Bonjour, merci pour votre réponse. Notre itinéraire a changé : serait-il possible de déplacer la réservation du {arrivee} au {depart} ({nuits} {nuits_mot}), arrivée vers {heure} ? Sinon, merci de l’annuler."
+  },
+  "mots_nuit": {
+    "de": [
+      "Nacht",
+      "Nächte"
+    ],
+    "it": [
+      "notte",
+      "notti"
+    ],
+    "fr": [
+      "nuit",
+      "nuits"
+    ]
+  },
+  "langues_par_province": {
+    "BZ": [
+      "de",
+      "it"
+    ]
+  },
+  "langue_par_defaut": [
+    "it"
+  ],
+  "note": "Modèles des messages de l’onglet Contacter. Variables : {arrivee} {depart} {nuits} {nuits_mot} {heure} {adultes} {poids} {hauteur}."
+}

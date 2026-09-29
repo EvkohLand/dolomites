@@ -1,0 +1,10 @@
+{
+  "adultes": 2,
+  "chien": {
+    "nom": "Prince",
+    "poids": "20–25 kg"
+  },
+  "wc_a_bord": false,
+  "electricite": "facultative",
+  "note": "Profil utilisé par les messages de contact. La hauteur du véhicule vient de vehicule.json."
+}

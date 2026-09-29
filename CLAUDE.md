@@ -103,7 +103,19 @@ Corriger ce qui est sûr ; signaler ce qui demande un choix de l'utilisateur, av
 l'économie ou le gain de temps chiffré. Le but : les vacances les plus agréables
 possibles, au moindre coût.
 
-## 6. Travail dans ce dépôt
+## 6. Données : tout dans les JSON, rien dans le code
+
+- **Aucune donnée du voyage dans `src/`.** Dates, lieux, prix, horaires, textes de
+  conseil, profil des voyageurs, modèles de messages, justifications du budget :
+  tout vit dans `config/`. Le code ne fait qu'afficher et calculer.
+- **Un scénario = un dossier** `config/scenarios/<id>/`, découpé jour par jour :
+  `planning.json` (une entrée par jour : visites, horaires, durées, trajets, nuit),
+  `itineraire.json` (la route du jour), `budget.json`, `ravitaillement.json`
+  (magasins et pleins du jour), `reglages.json`. `trace.json` est généré.
+- **Les données partagées** entre scénarios sont dans `config/commun/` et se
+  référencent par leur `id` (un lieu n'est décrit qu'une fois, dans `lieux.json`).
+
+## 7. Travail dans ce dépôt
 
 - ChatGPT dépose ses recherches uniquement dans `by-chatgpt/` : les relire, vérifier,
   puis intégrer ce qui tient.

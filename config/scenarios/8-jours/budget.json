@@ -88,5 +88,9 @@
   "reserve": {
     "libelle": "Réserve pour imprévus (panne, parking non prévu, pharmacie, péage de secours)",
     "montant": 100
+  },
+  "evitable": {
+    "nuit": "Non : dormir dans la voiture ou sous la tente hors d’un terrain autorisé est interdit dans les Dolomites.",
+    "carburant": "Non : faire le plein à la station la moins chère du tracé (liste dans l’onglet Route)."
   }
 }

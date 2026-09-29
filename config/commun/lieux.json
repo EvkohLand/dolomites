@@ -13765,7 +13765,7 @@
   {
     "id": "courses-conad-loano",
     "nom": "Conad Via Aurelia 88 — Loano",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       44.134383,
       8.262582
@@ -13845,7 +13845,7 @@
   {
     "id": "courses-conad-city-loano",
     "nom": "Conad City Via Aurelia 408 — Loano",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       44.122,
       8.251615
@@ -13921,7 +13921,7 @@
   {
     "id": "courses-coop-finale",
     "nom": "Coop Finale Ligure",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       44.17143,
       8.33471
@@ -14001,7 +14001,7 @@
   {
     "id": "courses-conad-acqui",
     "nom": "Conad Via Romita 90 — Acqui Terme",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       44.668508,
       8.470918
@@ -14081,7 +14081,7 @@
   {
     "id": "courses-lidl-varna",
     "nom": "Lidl Varna / Vahrn",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       46.73251,
       11.64942
@@ -14161,7 +14161,7 @@
   {
     "id": "courses-conad-city-varna",
     "nom": "Conad City Varna / Vahrn",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       46.7286075,
       11.65162
@@ -14237,7 +14237,7 @@
   {
     "id": "courses-conad-city-corvara",
     "nom": "Conad City Corvara",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       46.54708,
       11.875808
@@ -14313,7 +14313,7 @@
   {
     "id": "courses-conad-city-cortina",
     "nom": "Conad City Cortina d'Ampezzo",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       46.5369,
       12.1405
@@ -14389,7 +14389,7 @@
   {
     "id": "courses-coop-cortina",
     "nom": "La Cooperativa di Cortina",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       46.536796,
       12.138567
@@ -14465,7 +14465,7 @@
   {
     "id": "courses-eurospin-dobbiaco",
     "nom": "Eurospin Dobbiaco",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       46.73401,
       12.22317
@@ -14545,7 +14545,7 @@
   {
     "id": "courses-leclerc-le-luc",
     "nom": "E.Leclerc Le Luc",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       43.38143,
       6.30265
@@ -14633,7 +14633,7 @@
   {
     "id": "courses-intermarche-arles",
     "nom": "Intermarché Super Arles Trinquetaille",
-    "categorie": "courses",
+    "categorie": "supermarche",
     "gps": [
       43.68112,
       4.62182

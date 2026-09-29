@@ -1,0 +1,159 @@
+{
+  "methode": "Stations : tous les points de vente à ≤ 1,2 km des tracés trace.json (Valhalla, sans péage) croisés avec le flux officiel français (donnees.roulez-eco.fr, pop=R, hors autoroute) et l'Osservaprezzi MIMIT (Tipo Impianto ≠ Autostradale), puis prix du jour relus un par un sur l'API MIMIT. Magasins : OSM (Overpass) le long des tracés et à 10 km des nuits, puis fiche officielle de l'enseigne.",
+  "genere_le": "2026-09-28",
+  "jours": {
+    "1": {
+      "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L). Premier passage en caisse au Conad de Loano, avec Prince, avant l’agricamping : provisions jusqu’à la prochaine base.",
+      "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
+      "magasins": [
+        {
+          "lieu": "courses-conad-loano",
+          "note": "Vendredi : 8h00–21h00"
+        }
+      ],
+      "stations": [
+        {
+          "lieu": "carburant-eni-finale",
+          "note": "Vendredi : 07:30–12:30 et 15:00–19:00"
+        }
+      ],
+      "eau": [
+        {
+          "nom": "La Pietra e l’Ulivo — eau",
+          "gps": [
+            44.14807223,
+            8.27046714
+          ],
+          "note": "Eau au compteur (0,01 €/L), sanitaires gratuits."
+        }
+      ],
+      "laverie": [
+        {
+          "nom": "La Pietra e l’Ulivo — lave-linge et sèche-linge",
+          "note": "Sur place (tarif non publié)."
+        }
+      ],
+      "douche": "Douches chaudes gratuites à l’agricamping."
+    },
+    "2": {
+      "conseil": "Plein à l’Eni de Finale (2,19 €) avant l’autoroute. Pas de courses : les provisions de Loano couvrent la ferme, loin des supermarchés.",
+      "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Val di Funes sans autoroute",
+      "magasins": [
+        {
+          "lieu": "courses-eurospar-bressanone",
+          "note": "Samedi : 8h00–19h30"
+        }
+      ],
+      "stations": [
+        {
+          "lieu": "carburant-eni-finale",
+          "note": "Samedi : 07:30–12:30"
+        },
+        {
+          "lieu": "carburant-eni-chiusa",
+          "note": "Samedi : non communiqué au MIMIT"
+        },
+        {
+          "lieu": "carburant-eni-bressanone",
+          "note": "Samedi : 06:00–13:30"
+        }
+      ],
+      "eau": [
+        {
+          "nom": "Ferme Zum Gletscher Hons",
+          "note": "Eau et services compris dans la nuit (42 €)."
+        }
+      ],
+      "laverie": [],
+      "douche": "Douches chaudes au camping, incluses."
+    },
+    "3": {
+      "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+      "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
+      "magasins": [
+        {
+          "lieu": "courses-eurospar-bressanone",
+          "note": "Dimanche : 9h00–19h30"
+        },
+        {
+          "lieu": "courses-lidl-varna",
+          "note": "Dimanche : 8h00–20h00"
+        }
+      ],
+      "stations": [
+        {
+          "lieu": "carburant-eni-chiusa",
+          "note": "Dimanche : non communiqué au MIMIT"
+        },
+        {
+          "lieu": "carburant-eni-bressanone",
+          "note": "Dimanche : fermé (personnel)"
+        }
+      ],
+      "eau": [
+        {
+          "nom": "Ferme Zum Gletscher Hons",
+          "note": "Eau et services compris dans la nuit (42 €)."
+        }
+      ],
+      "laverie": [],
+      "douche": "Douches chaudes au camping, incluses."
+    },
+    "4": {
+      "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+      "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
+      "magasins": [
+        {
+          "lieu": "courses-eurospar-bressanone",
+          "note": "Lundi : 8h00–19h30"
+        },
+        {
+          "lieu": "courses-lidl-varna",
+          "note": "Lundi : 8h00–21h00"
+        }
+      ],
+      "stations": [
+        {
+          "lieu": "carburant-eni-chiusa",
+          "note": "Lundi : non communiqué au MIMIT"
+        },
+        {
+          "lieu": "carburant-eni-bressanone",
+          "note": "Lundi : 06:00–20:00"
+        }
+      ],
+      "eau": [
+        {
+          "nom": "Ferme Zum Gletscher Hons",
+          "note": "Eau et services compris dans la nuit (42 €)."
+        }
+      ],
+      "laverie": [],
+      "douche": "Douches chaudes au camping, incluses."
+    },
+    "5": {
+      "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
+      "zone": "Retour : Santa Maddalena / Funes → autoroute A22, A4, A21, A26, A10, A8, A9",
+      "magasins": [
+        {
+          "lieu": "courses-conad-savone",
+          "note": "Mardi : 8h30–20h30"
+        }
+      ],
+      "stations": [
+        {
+          "lieu": "carburant-eni-chiusa",
+          "note": "Mardi : non communiqué au MIMIT"
+        },
+        {
+          "lieu": "carburant-eni-bressanone",
+          "note": "Mardi : 06:00–20:00"
+        },
+        {
+          "lieu": "carburant-eni-savona-stalingrado",
+          "note": "Mardi : non communiqué au MIMIT"
+        }
+      ]
+    }
+  }
+}

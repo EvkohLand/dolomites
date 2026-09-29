@@ -82,7 +82,8 @@ const vehicule = lire('commun/vehicule.json');
 const carburant = lire('commun/carburant.json');
 const randonnees = lire('commun/randonnees.json');
 const decouvertes = lire('commun/decouvertes.json');
-const ravitaillement = fs.existsSync(path.join(__dirname, 'config/commun/ravitaillement.json')) ? lire('commun/ravitaillement.json') : null;
+const voyageurs = lire('commun/voyageurs.json');
+const messages = lire('commun/messages.json');
 const pratique = lire('commun/pratique.json');
 const peages = lire('commun/peages.json');
 
@@ -93,7 +94,7 @@ for (const [rel, obj] of [
   ['commun/vehicule.json', vehicule], ['commun/carburant.json', carburant],
   ['commun/randonnees.json', randonnees],
   ['commun/decouvertes.json', decouvertes],
-  ['commun/ravitaillement.json', ravitaillement],
+  ['commun/voyageurs.json', voyageurs], ['commun/messages.json', messages],
   ['commun/pratique.json', pratique],
   ['commun/peages.json', peages],
 ]) {
@@ -184,9 +185,6 @@ if (pratique && Array.isArray(lieux)) {
         pratiques.add(id);
       }
     }
-  }
-  for (const l of lieux.filter(l => l.categorie === 'supermarche')) {
-    if (!pratiques.has(l.id)) err('commun/pratique.json', `magasin « ${l.id} » absent de la section pratique`);
   }
 }
 
@@ -344,6 +342,7 @@ if (scenarios && Array.isArray(scenarios.scenarios)) {
     for (const [rel, obj] of [
       [`${s.dossier}/reglages.json`, reglages], [`${s.dossier}/planning.json`, planning],
       [`${s.dossier}/itineraire.json`, itineraire], [`${s.dossier}/budget.json`, budget],
+      [`${s.dossier}/ravitaillement.json`, fs.existsSync(path.join(__dirname, 'config', s.dossier, 'ravitaillement.json')) ? lire(`${s.dossier}/ravitaillement.json`) : null],
     ]) { if (obj) chasserDonneesPerso(rel, obj, ''); }
 
     if (reglages && reglages.carte && Array.isArray(reglages.carte.zone_valide)) {
