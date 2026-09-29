@@ -14,8 +14,14 @@
       "fr-a8-riviera",
       "it-a10-ponente"
     ],
-    "activites": [],
-    "note": "Départ à 13 h après les derniers dépôts Vinted. Tout en autoroute (A9, A54, A8, A10) : ≈ 5 h 30 de volant, péages comptés au budget ; avec deux pauses, arrivée vers 19 h 30 au agricamping La Pietra e l’Ulivo (Pietra Ligure). Le camping ne publie aucune heure limite d’arrivée (« check-in à partir de 15 h ») : annoncer l’arrivée vers 19 h 30 par e-mail et obtenir une confirmation écrite avant de partir. Tente de toit, Prince et hauteur 1,95 m à faire valider par écrit. Aucune nuit réservée. Tente de toit et chien acceptés par écrit le 28/09 ; redemander la nuit du 9→10, le prix de base et l'heure limite d'arrivée. Repli : camping Tahiti à Finale Ligure (20 km plus loin)."
+    "activites": [
+      {
+        "lieu": "courses-conad-loano",
+        "heure": "19:05",
+        "note": "Premier passage en caisse, avec Prince (chiens admis) : vendredi 8 h–21 h. Provisions jusqu’à la prochaine base."
+      }
+    ],
+    "note": "Départ à 13 h après les derniers dépôts Vinted, tout en autoroute (A9, A54, A8, A10) : ≈ 5 h 45 de volant marge comprise, péages comptés. Courses au Conad de Loano vers 19 h (1 km avant l’agricamping), arrivée à La Pietra e l’Ulivo vers 19 h 55, arrivée autonome par code. Tente de toit et chien acceptés par écrit le 28/09 ; aucune nuit réservée."
   },
   {
     "date": "2026-10-10",
@@ -32,126 +38,185 @@
       "it-a21-a4",
       "it-a22-bolzano"
     ],
+    "depart": "07:30",
+    "depart_de": "agricamping-pietra-ulivo",
     "activites": [
       {
-        "lieu": "courses-conad-savone",
-        "heure": "08:30",
-        "note": "Grand ravitaillement et plein avant l’autoroute : chiens admis, parking extérieur pour 1,95 m."
-      },
-      {
         "lieu": "lago-carezza",
-        "heure": "15:00",
-        "note": "Tour du lac à pied (1,2 km, 20 à 30 min, plat) : parking P1 au bord du lac, 5 € la première heure. Éviter les parkings Simhild et Paolina, reliés par une passerelle suspendue."
+        "trajet_min": 366,
+        "heure": "14:06",
+        "duree_min": 60,
+        "duree_confort_min": 60,
+        "note": "Tour du lac à pied (1,2 km, plat) depuis le parking P1 au bord du lac, par le passage souterrain. Éviter les parkings Simhild et Paolina, reliés par une passerelle suspendue."
       }
     ],
-    "note": "Départ de Pietra Ligure à 7 h 30, grand ravitaillement au Conad de Savone (chiens admis) pour les jours 2 à 4, plein à l’Eni voisine. Autoroute jusqu’à Bolzano Nord (≈ 5 h 45), Lago di Carezza vers 15 h, puis sans autoroute par Bolzano et Chiusa jusqu’à Santa Maddalena (≈ 1 h 20) : arrivée à la ferme Zum Gletscher Hons vers 16 h 30, avant 18 h comme demandé par Elisabeth (prévenir en cas de retard). Base pour 3 nuits (maximum autorisé)."
+    "trajet_nuit_min": 104,
+    "arrivee_nuit": "16:50",
+    "note": "Autoroute de Pietra Ligure à Bolzano Nord puis la route du Val d’Ega (6 h 06 de volant marge comprise, deux pauses de 15 min) : Carezza vers 14 h 05, sur le chemin. Sans autoroute ensuite par Bolzano et Chiusa jusqu’à la ferme Zum Gletscher Hons vers 16 h 50, avant 18 h comme demandé par la ferme."
   },
   {
     "date": "2026-10-11",
     "jour": 3,
-    "titre": "Val di Funes : le cinéma des Odle, puis repos",
+    "titre": "Val di Funes : le cinéma des Odle et Santa Maddalena",
     "zone": "Funes",
     "nuit": "ferme-gletscher-hons",
     "trajet": null,
+    "depart": "09:15",
+    "depart_de": "ferme-gletscher-hons",
     "activites": [
       {
         "lieu": "cinema-odle",
-        "heure": "09:00",
-        "note": "Parking de Zans (10 €, 10 min de voiture depuis la ferme), puis le sentier Adolf Munkel jusqu’aux transats du refuge Geisleralm (≈ 1 h 40, sans passage vertigineux). Refuge ouvert le dimanche. Sans payer : monter à pied depuis la ferme (+ 1 h 15 par sens).",
+        "trajet_min": 14,
+        "heure": "09:30",
+        "duree_min": 255,
+        "duree_confort_min": 255,
+        "note": "Parking de Zans, puis boucle courte 6-35-36 par l’Adolf-Munkel-Weg jusqu’aux chaises du refuge Geisleralm (9 km, +420 m, sans vide ni câble), pique-nique aux chaises. Refuge ouvert le dimanche, fermé le lundi.",
         "evitable": "Oui : monter à pied depuis la ferme (≈ 1 h 15 de plus par sens, sentier sans vertige), économie 10 €."
       },
       {
         "lieu": "santa-maddalena",
-        "heure": "16:00",
-        "note": "À pied depuis la ferme : l’église et le belvédère des Odle, sans parking à payer.",
+        "trajet_min": 13,
+        "heure": "16:15",
+        "duree_min": 45,
+        "duree_confort_min": 90,
+        "note": "Retour en voiture à la ferme (13 min), pause, puis à pied (400 m) : l’église et le belvédère des Odle dans la lumière de fin d’après-midi, sans parking à payer.",
+        "a_pied": true,
         "sans_frais": true
       }
     ],
-    "note": "Journée presque sans voiture : la ferme est à Santa Maddalena même. Après-midi de repos à la ferme."
+    "arrivee_nuit": "17:00",
+    "note": "Dimanche : le refuge Geisleralm est ouvert (fermé le lundi). Départ de Zans à 9 h 30, quand le sentier à l’ombre a dégelé ; retour à la ferme vers 14 h, après-midi au calme, puis Santa Maddalena à pied à 16 h 15. Moins de 30 min de voiture dans la journée."
   },
   {
     "date": "2026-10-12",
     "jour": 4,
-    "titre": "Alpe di Siusi à pied, puis Ortisei",
+    "titre": "Alpe di Siusi à pied, puis Ortisei → Varna",
     "zone": "Alpe di Siusi / Ortisei",
-    "nuit": "ferme-gletscher-hons",
+    "nuit": "camping-vahrner-see",
     "trajet": null,
+    "depart": "07:40",
+    "depart_de": "ferme-gletscher-hons",
     "activites": [
       {
         "lieu": "parking-alpe-p1",
-        "heure": "08:15",
-        "note": "Entrée sur la route du plateau avant 9 h ; réservation en ligne ouverte 6 jours avant. Balade sans vertige : boucle du Tschon Stoan ou Spitzbühl – Tschapit."
+        "trajet_min": 67,
+        "heure": "08:47",
+        "duree_min": 240,
+        "duree_confort_min": 240,
+        "note": "Contrôle de San Valentino avant 9 h (route fermée à la montée 9 h–17 h) ; réservation en ligne ouverte 6 jours avant, 15 €. Boucle Spitzbühl – Tschapit (9,1 km, sans vide) ou boucle du Tschon Stoan (8 km) ; refuges fermés dès le 11/10 : pique-nique."
       },
       {
         "lieu": "parking-ortisei-gratuit",
-        "heure": "15:00",
-        "note": "Parking Fever gratuit 1 h 30 avec disque : le temps du centre d’Ortisei à pied."
+        "trajet_min": 39,
+        "heure": "13:26",
+        "duree_min": 85,
+        "duree_confort_min": 85,
+        "note": "Parking Fever gratuit 90 min avec disque : le centre d’Ortisei à pied (via Rezia, église, promenade Luis Trenker)."
       }
     ],
-    "note": "Départ de la ferme à 7 h 45 pour passer le contrôle de la route du plateau avant 9 h (≈ 50 min par Chiusa et Siusi). Après-midi : Ortisei par Castelrotto (≈ 40 min), retour à la ferme par Ponte Gardena et Chiusa (≈ 45 min). Aucune remontée."
+    "trajet_nuit_min": 58,
+    "arrivee_nuit": "15:49",
+    "note": "Départ à 7 h 40 pour passer le contrôle de San Valentino avant 9 h (1 h 07 de route). Quatre heures de marche sur le plateau sans vide, Ortisei en début d’après-midi par Castelrotto, puis le camping du lac de Varna par Ponte Gardena et Bressanone. Aucune remontée."
   },
   {
     "date": "2026-10-13",
     "jour": 5,
-    "titre": "Val di Funes → Lago di Anterselva → Dobbiaco",
+    "titre": "Varna → Lago di Anterselva → Dobbiaco",
     "zone": "Anterselva / Dobbiaco",
     "nuit": "camping-olympia",
     "trajet": null,
+    "depart": "11:37",
+    "depart_de": "camping-vahrner-see",
     "activites": [
       {
-        "lieu": "lago-anterselva",
-        "heure": "14:00",
-        "note": "Tour du lac à pied (4 km, ≈ 1 h 10, plat). Parking du centre de biathlon : 5 € à partir de 14 h, 10 € avant."
+        "lieu": "courses-lidl-varna",
+        "trajet_min": 7,
+        "heure": "11:44",
+        "duree_min": 45,
+        "duree_confort_min": 60,
+        "note": "Passage en caisse pour la nouvelle base, à tour de rôle : Lidl interdit les chiens."
       },
       {
-        "lieu": "courses-eurospin-dobbiaco",
-        "heure": "17:00",
-        "note": "Grand ravitaillement pour les jours 5 à 8 (discount). Chien non admis : à tour de rôle."
+        "lieu": "lago-anterselva",
+        "trajet_min": 91,
+        "heure": "14:00",
+        "duree_min": 100,
+        "duree_confort_min": 100,
+        "note": "Tour du lac par le sentier nature (4 km, presque plat). Parking du centre de biathlon : 5 € à partir de 14 h, 10 € avant."
       }
     ],
-    "note": "Matinée tranquille à la ferme (départ avant 11 h). Courses à l’Eurospin de Dobbiaco possibles en fin de journée. Val Pusteria par la SS49 sans autoroute jusqu’à Rasun, puis la vallée d’Anterselva : arrivée au lac après 14 h (parking 5 € au lieu de 10 €). Camping Olympia vers 16 h 30 (réception 15 h – 23 h, 2 nuits minimum : 3 nuits ici)."
+    "trajet_nuit_min": 52,
+    "arrivee_nuit": "16:32",
+    "note": "Matinée de repos au lac de Varna. Courses au Lidl en sortant (base est), Val Pusteria sans autoroute puis la vallée d’Anterselva : au parking à 14 h, le ticket passe de 10 € à 5 €. Camping Olympia vers 16 h 30 (réception 15 h–23 h, 2 nuits minimum)."
   },
   {
     "date": "2026-10-14",
     "jour": 6,
-    "titre": "Lago di Braies, puis repos au camping",
-    "zone": "Braies",
-    "nuit": "camping-olympia",
-    "trajet": null,
-    "activites": [
-      {
-        "lieu": "lago-braies",
-        "heure": "08:00",
-        "note": "Tour du lac (≈ 1 h 15), parking P2."
-      }
-    ],
-    "note": "Braies à 25 min du camping : y être à 8 h pour le lac sans foule, retour au camping pour midi. Après-midi de repos ; balade gratuite au lac de Dobbiaco à pied si l’envie vient."
-  },
-  {
-    "date": "2026-10-15",
-    "jour": 7,
     "titre": "Tre Cime à pied depuis Antorno",
     "zone": "Tre Cime / Dobbiaco",
     "nuit": "camping-olympia",
     "trajet": null,
+    "depart": "07:30",
+    "depart_de": "camping-olympia",
     "activites": [
       {
-        "lieu": "lago-landro",
-        "heure": "08:00",
-        "note": "Belvédère des Tre Cime depuis la route, places gratuites au sud du lac."
-      },
-      {
         "lieu": "lago-antorno",
-        "heure": "08:45",
-        "note": "Parking gratuit : départ à pied."
+        "trajet_min": 43,
+        "heure": "08:13",
+        "duree_min": 5,
+        "duree_confort_min": 10,
+        "note": "Parking gratuit avant la barrière de la route à péage : départ à pied (poteau « Misurina Casello »)."
       },
       {
         "lieu": "rando-tre-cime",
-        "heure": "09:00",
-        "note": "Montée à pied par le sentier 101 jusqu’au refuge Auronzo (≈ 1 h 45), puis le chemin large vers le refuge Lavaredo. Sans passage vertigineux ; faire demi-tour si neige."
+        "heure": "08:18",
+        "duree_min": 360,
+        "duree_confort_min": 360,
+        "note": "Variante sans vertige : sentier 101 jusqu’au refuge Auronzo (3,3 km, +470 m), puis le chemin large jusqu’au refuge Lavaredo et à la Forcella Lavaredo, retour par le même chemin. Ne pas faire le tour complet (pierrier sous la Forcella). Demi-tour si neige."
+      },
+      {
+        "lieu": "lago-landro",
+        "trajet_min": 20,
+        "heure": "14:38",
+        "duree_min": 30,
+        "duree_confort_min": 30,
+        "note": "Belvédère des Tre Cime depuis le bord de la route, places gratuites au sud du lac ; lumière de l’après-midi."
       }
     ],
-    "note": "Gratuit : la route à péage d’Auronzo (40 €) reste en option dans sa fiche, non comptée. Si neige, garder Landro, Antorno et Misurina à pied."
+    "trajet_nuit_min": 22,
+    "arrivee_nuit": "15:30",
+    "note": "Journée entière consacrée aux Tre Cime, à pied depuis Antorno : la route à péage d’Auronzo (40 €) reste en option, non comptée. Landro sur le chemin du retour, quand le soleil éclaire les Tre Cime ; retour au camping vers 15 h 30. Si neige : Antorno, Misurina et Landro seulement."
+  },
+  {
+    "date": "2026-10-15",
+    "jour": 7,
+    "titre": "Lago di Braies → Varna",
+    "zone": "Braies / Varna",
+    "nuit": "camping-vahrner-see",
+    "trajet": null,
+    "depart": "07:30",
+    "depart_de": "camping-olympia",
+    "activites": [
+      {
+        "lieu": "lago-braies",
+        "trajet_min": 23,
+        "heure": "07:53",
+        "duree_min": 105,
+        "duree_confort_min": 105,
+        "note": "Tour du lac (3,6 km, +86 m) tôt, eau miroir et peu de monde ; parking P2. Si la rive est est verglacée, aller-retour par la rive ouest."
+      },
+      {
+        "lieu": "courses-lidl-varna",
+        "trajet_min": 89,
+        "heure": "11:07",
+        "duree_min": 45,
+        "duree_confort_min": 60,
+        "note": "Passage en caisse pour la nouvelle base, à tour de rôle : Lidl interdit les chiens."
+      }
+    ],
+    "trajet_nuit_min": 7,
+    "arrivee_nuit": "11:59",
+    "note": "Braies à 7 h 55, avant la foule, puis vers le lac de Varna par le Val Pusteria sans autoroute, courses au Lidl en passant. Arrivée vers midi : après-midi de repos au lac. La dernière nuit près de Bressanone raccourcit le retour d’1 h 15 par rapport à Dobbiaco."
   },
   {
     "date": "2026-10-16",
@@ -173,6 +238,6 @@
       "fr-a9-a54"
     ],
     "activites": [],
-    "note": "ATTENTION : ≈ 11 h 40 de volant, au-delà de 11 h. Val Pusteria sans autoroute jusqu’à Bressanone, puis tout en autoroute (A22, A4, A21, A26, A10, A8, A9), péages comptés au budget. Partir à 6 h, relais au volant toutes les 2 h ; sinon couper en deux avec une nuit en Ligurie (camping Tahiti, non comptée). Expéditions Vinted dès le jour ouvré suivant ce vendredi, après contrôle des échéances dans l’application."
+    "note": "≈ 11 h 30 de volant marge comprise (Varna, entrée sur l’A22 à Bressanone, puis A22, A4, A21, A26, A10, A8, A9), péages comptés. Partir à 7 h 30, relais au volant toutes les 2 h et trois pauses (1 h) : arrivée vers 20:00. Repli : couper en deux avec une nuit en Ligurie (non comptée)."
   }
 ]

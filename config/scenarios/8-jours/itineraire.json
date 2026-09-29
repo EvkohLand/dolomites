@@ -8,13 +8,17 @@
       "libelle": "Saint-Gély → Pietra Ligure par l’autoroute",
       "de": "depart",
       "vers": "agricamping-pietra-ulivo",
-      "par": [],
-      "visites": [],
+      "par": [
+        "courses-conad-loano"
+      ],
+      "visites": [
+        "courses-conad-loano"
+      ],
       "visites_hors_route": [],
       "pays": "FR",
       "note": "Saint-Gély → Pietra Ligure par l’autoroute",
-      "distance_km": 458,
-      "duree_h": 5.2,
+      "distance_km": 462,
+      "duree_h": 5.3,
       "autoroute": true,
       "troncons_peage": [
         "fr-a9-a54",
@@ -33,18 +37,16 @@
       "de": "agricamping-pietra-ulivo",
       "vers": "ferme-gletscher-hons",
       "par": [
-        "courses-conad-savone",
         "lago-carezza"
       ],
       "visites": [
-        "courses-conad-savone",
         "lago-carezza"
       ],
       "visites_hors_route": [],
       "pays": "IT",
       "note": "Pietra Ligure → Lago di Carezza → Val di Funes",
-      "distance_km": 556,
-      "duree_h": 7.4,
+      "distance_km": 550,
+      "duree_h": 7,
       "autoroute": true,
       "sans_autoroute_apres": "lago-carezza",
       "troncons_peage": [
@@ -63,28 +65,29 @@
       "de": "ferme-gletscher-hons",
       "vers": "ferme-gletscher-hons",
       "par": [
-        "santa-maddalena"
+        "adolf-munkel"
       ],
       "visites": [
         "cinema-odle",
         "santa-maddalena"
       ],
       "visites_hors_route": [
-        "cinema-odle"
+        "cinema-odle",
+        "santa-maddalena"
       ],
       "pays": "IT",
-      "note": "Val di Funes sur place",
-      "distance_km": 3,
-      "duree_h": 0.1
+      "note": "Val di Funes : le cinéma des Odle et Santa Maddalena",
+      "distance_km": 12,
+      "duree_h": 0.4
     },
     {
       "id": "etape-j4",
       "ordre": 4,
       "jour": 4,
-      "type": "boucle",
-      "libelle": "Alpe di Siusi à pied, puis Ortisei",
+      "type": "transfert",
+      "libelle": "Alpe di Siusi à pied, puis Ortisei → Varna",
       "de": "ferme-gletscher-hons",
-      "vers": "ferme-gletscher-hons",
+      "vers": "camping-vahrner-see",
       "par": [
         "parking-alpe-p1",
         "parking-ortisei-gratuit"
@@ -95,8 +98,8 @@
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Alpe di Siusi et Ortisei",
-      "distance_km": 92,
+      "note": "Alpe di Siusi à pied, puis Ortisei → Varna",
+      "distance_km": 94,
       "duree_h": 2.4
     },
     {
@@ -105,57 +108,38 @@
       "jour": 5,
       "type": "transfert",
       "libelle": "Varna → Lago di Anterselva → Dobbiaco",
-      "de": "ferme-gletscher-hons",
+      "de": "camping-vahrner-see",
       "vers": "camping-olympia",
       "par": [
-        "lago-anterselva",
-        "courses-eurospin-dobbiaco"
+        "courses-lidl-varna",
+        "lago-anterselva"
       ],
       "visites": [
+        "courses-lidl-varna",
         "lago-anterselva"
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Val di Funes → Anterselva → Dobbiaco",
-      "distance_km": 118,
-      "duree_h": 2.8
+      "note": "Varna → Lago di Anterselva → Dobbiaco",
+      "distance_km": 94,
+      "duree_h": 2.3
     },
     {
       "id": "etape-j6",
       "ordre": 6,
       "jour": 6,
       "type": "boucle",
-      "libelle": "Lago di Braies",
-      "de": "camping-olympia",
-      "vers": "camping-olympia",
-      "par": [
-        "lago-braies"
-      ],
-      "visites": [
-        "lago-braies"
-      ],
-      "visites_hors_route": [],
-      "pays": "IT",
-      "note": "Lago di Braies",
-      "distance_km": 29,
-      "duree_h": 0.8
-    },
-    {
-      "id": "etape-j7",
-      "ordre": 7,
-      "jour": 7,
-      "type": "boucle",
       "libelle": "Tre Cime à pied depuis Antorno",
       "de": "camping-olympia",
       "vers": "camping-olympia",
       "par": [
-        "lago-landro",
-        "lago-antorno"
+        "lago-antorno",
+        "lago-landro"
       ],
       "visites": [
-        "lago-landro",
         "lago-antorno",
-        "rando-tre-cime"
+        "rando-tre-cime",
+        "lago-landro"
       ],
       "visites_hors_route": [
         "rando-tre-cime"
@@ -166,20 +150,42 @@
       "duree_h": 1.2
     },
     {
+      "id": "etape-j7",
+      "ordre": 7,
+      "jour": 7,
+      "type": "transfert",
+      "libelle": "Lago di Braies → Varna",
+      "de": "camping-olympia",
+      "vers": "camping-vahrner-see",
+      "par": [
+        "lago-braies",
+        "courses-lidl-varna"
+      ],
+      "visites": [
+        "lago-braies",
+        "courses-lidl-varna"
+      ],
+      "visites_hors_route": [],
+      "pays": "IT",
+      "note": "Lago di Braies → Varna",
+      "distance_km": 77,
+      "duree_h": 1.9
+    },
+    {
       "id": "etape-retour",
       "ordre": 8,
       "jour": 8,
       "type": "retour",
       "libelle": "Retour à Saint-Gély par l’autoroute",
-      "de": "camping-olympia",
+      "de": "camping-vahrner-see",
       "vers": "depart",
       "par": [],
       "visites": [],
       "visites_hors_route": [],
       "pays": "IT",
       "note": "Retour à Saint-Gély par l’autoroute",
-      "distance_km": 1013,
-      "duree_h": 11.6,
+      "distance_km": 962,
+      "duree_h": 10.5,
       "autoroute": true,
       "troncons_peage": [
         "it-a22",
