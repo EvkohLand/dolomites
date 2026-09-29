@@ -42,9 +42,12 @@ sans fin.
 - **Aucun débordement horizontal** : la page fait exactement la largeur de l'écran.
   Un texte trop long se coupe ou revient à la ligne, il n'élargit jamais la page.
 - **Champs de saisie en 16 px** minimum (sinon Safari zoome dessus).
-- Vérifier chaque changement visuel au navigateur headless à 360 px, 393 px et
-  1400 px de large : `document.documentElement.scrollWidth` doit égaler la largeur
-  de l'écran, et la console ne doit contenir aucune erreur.
+- Vérifier chaque changement visuel au navigateur headless à 390 px, 1280 px et
+  1680 px de large, sur la page en ligne après publication :
+  `node scripts/controle-largeur.js <url> <largeur>` ouvre chaque onglet de chaque jour
+  et échoue si un contenu occupe moins de 85 % de l'écran, déborde, ou lève une
+  erreur JavaScript. Un contrôle qui ne trouve rien doit d'abord avoir prouvé qu'il
+  détecte le défaut.
 
 ## 3. Données : en direct depuis le navigateur, rien de figé
 
