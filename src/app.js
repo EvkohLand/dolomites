@@ -261,7 +261,26 @@
     return m;
   }
 
-  function icone(c, alerte, passages) {
+  /* Accueil du chien, qui donne la couleur du repère sur la carte (l'icône garde la
+     catégorie) : vert admis, jaune seulement en sac ou en caisse de transport
+     (chien.en_sac), rouge non admis, orange quand la fiche ne le dit pas
+     (admis null ou absent). */
+  var STATUTS_CHIEN = {
+    oui: { libelle: 'Chien admis' },
+    sac: { libelle: 'Chien en sac ou caisse' },
+    non: { libelle: 'Chien non admis' },
+    inconnu: { libelle: 'Chien : on ne sait pas' }
+  };
+
+  function statutChien(l) {
+    var c = l && l.chien;
+    if (c && c.en_sac) return 'sac';
+    if (c && c.admis === true) return 'oui';
+    if (c && c.admis === false) return 'non';
+    return 'inconnu';
+  }
+
+  function icone(c, alerte, passages, chien) {
     passages = passages || [];
     var nums = passages.slice(0, 3).map(function (x) { return x.ordre; });
     var badge = nums.length
@@ -269,7 +288,7 @@
       : '';
     return L.divIcon({
       className: 'pin' + (alerte ? ' pin--alerte' : ''),
-      html: '<span class="pin__point" style="--pin:' + c.couleur + '"><svg aria-hidden="true"><use href="#ico-' + c.icone + '"></use></svg></span>' + badge,
+      html: '<span class="pin__point pin__point--chien-' + chien + '"><svg aria-hidden="true"><use href="#ico-' + c.icone + '"></use></svg></span>' + badge,
       iconSize: [42, 34], iconAnchor: [13, 17]
     });
   }
@@ -279,6 +298,7 @@
     var px = prixAffiche(l);
     if (px) bits.push(px);
     if (l.altitude) bits.push(l.altitude + ' m');
+    bits.push(STATUTS_CHIEN[statutChien(l)].libelle);
     var n = el('div');
     n.appendChild(el('strong', null, l.nom));
     n.appendChild(document.createElement('br'));
@@ -299,7 +319,7 @@
     E.lieuxVisibles().forEach(function (l) {
       if (!Array.isArray(l.gps)) return;
       var pe = passages.get(l.id) || [];
-      var m = L.marker(l.gps, { icon: icone(cat(l.categorie), aVerifier(l), pe), title: l.nom, riseOnHover: true });
+      var m = L.marker(l.gps, { icon: icone(cat(l.categorie), aVerifier(l), pe, statutChien(l)), title: l.nom, riseOnHover: true });
       m.on('click', function () { ouvrirPanneau(l.id); });
       /* Survol : le nom, le prix et les étapes qui passent par ce point. */
       m.bindTooltip(infobulle(l, pe), { direction: 'top', offset: [0, -14], opacity: 1, className: 'bulle' });
@@ -442,6 +462,14 @@
       leg.appendChild(s);
     });
     zone.appendChild(leg);
+    var legChien = el('div', 'trace-legende');
+    Object.keys(STATUTS_CHIEN).forEach(function (k) {
+      var s = el('span');
+      s.appendChild(el('i', 'chien-pastille pin__point--chien-' + k));
+      s.appendChild(document.createTextNode(STATUTS_CHIEN[k].libelle));
+      legChien.appendChild(s);
+    });
+    zone.appendChild(legChien);
     zone.appendChild(el('p', 'resume-itineraire__aide',
       'Flèches = sens de circulation ; les pastilles E1, E2… sont les étapes.'));
   }
@@ -455,8 +483,10 @@
       var b = el('button', 'filtre');
       b.type = 'button';
       b.setAttribute('aria-pressed', String(E.actives.has(c.id)));
+      /* La couleur des repères dit l'accueil du chien : le filtre montre donc l'icône
+         de la catégorie, pas une pastille de couleur qui ne correspondrait plus. */
       var p = el('span', 'filtre__pastille');
-      p.style.setProperty('--c', c.couleur);
+      p.appendChild(svg(c.icone));
       b.appendChild(p);
       b.appendChild(document.createTextNode(c.libelle));
       b.addEventListener('click', function () {

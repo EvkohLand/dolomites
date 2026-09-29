@@ -13102,6 +13102,7 @@
     },
     "chien": {
       "admis": false,
+      "en_sac": true,
       "note": "Seulement en sac ou caisse de transport (FAQ Despar) : un adulte attend dehors avec Prince."
     },
     "source": "https://www.despar.it/it/punto-vendita-eurospar/93/bressanone/",
@@ -13202,6 +13203,7 @@
     },
     "chien": {
       "admis": false,
+      "en_sac": true,
       "note": "Seulement en sac ou caisse de transport (FAQ Despar)."
     },
     "source": "https://www.despar.it/it/punto-vendita-despar/21/la-villa/",
@@ -13314,6 +13316,7 @@
     },
     "chien": {
       "admis": false,
+      "en_sac": true,
       "note": "Seulement en sac ou caisse (FAQ Despar)."
     },
     "source": "https://www.despar.it/it/punto-vendita-despar/325/dobbiaco/",
@@ -13961,6 +13964,7 @@
     ],
     "chien": {
       "admis": false,
+      "en_sac": true,
       "note": "Coop Liguria n'admet que les chiens de petite taille, dans les chariots à caisse intégrée (depuis juillet 2023) : Prince (20–25 kg) n'entre pas."
     },
     "pratique": [
@@ -14505,6 +14509,7 @@
     ],
     "chien": {
       "admis": false,
+      "en_sac": true,
       "note": "Eurospin tolère au mieux les chiens en sac de transport, selon le magasin : pas pour Prince."
     },
     "pratique": [
