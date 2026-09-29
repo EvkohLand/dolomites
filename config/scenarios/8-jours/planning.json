@@ -121,33 +121,33 @@
   {
     "date": "2026-10-13",
     "jour": 5,
-    "titre": "Varna → Lago di Anterselva → Dobbiaco",
-    "zone": "Anterselva / Dobbiaco",
+    "titre": "Varna → Cinque Torri à pied → Dobbiaco",
+    "zone": "Cinque Torri / Dobbiaco",
     "nuit": "camping-olympia",
     "trajet": null,
-    "depart": "11:37",
+    "depart": "09:00",
     "depart_de": "camping-vahrner-see",
     "activites": [
       {
         "lieu": "courses-lidl-varna",
         "trajet_min": 7,
-        "heure": "11:44",
+        "heure": "09:07",
         "duree_min": 45,
         "duree_confort_min": 60,
-        "note": "Passage en caisse pour la nouvelle base, à tour de rôle : Lidl interdit les chiens."
+        "note": "Courses pour la nouvelle base, à tour de rôle : Lidl interdit les chiens. Prévoir le pique-nique et l’eau de la randonnée (refuges fermés, aucune source connue)."
       },
       {
-        "lieu": "lago-anterselva",
-        "trajet_min": 91,
-        "heure": "14:00",
-        "duree_min": 100,
-        "duree_confort_min": 100,
-        "note": "Tour du lac par le sentier nature (4 km, presque plat). Parking du centre de biathlon : 5 € à partir de 14 h, 10 € avant."
+        "lieu": "parking-bai-de-dones",
+        "trajet_min": 118,
+        "heure": "11:50",
+        "duree_min": 165,
+        "duree_confort_min": 165,
+        "note": "Parking gratuit de Bai de Dones, puis sentiers 424 et 425 jusqu’au refuge Cinque Torri (5,6 km aller-retour, +300 m, sans vide) et +30 min jusqu’aux tranchées de la Grande Guerre (musée en plein air gratuit). Télésiège fermé depuis le 11/10 : tout à pied. Demi-tour si neige ou verglas."
       }
     ],
-    "trajet_nuit_min": 52,
-    "arrivee_nuit": "16:32",
-    "note": "Matinée de repos au lac de Varna. Courses au Lidl en sortant (base est), Val Pusteria sans autoroute puis la vallée d’Anterselva : au parking à 14 h, le ticket passe de 10 € à 5 €. Camping Olympia vers 16 h 30 (réception 15 h–23 h, 2 nuits minimum)."
+    "trajet_nuit_min": 73,
+    "arrivee_nuit": "15:48",
+    "note": "Remplace le lac d’Anterselva, jugé trop proche de Braies (jour 7) : un paysage différent, gratuit et sans vide. Départ de Varna à 9 h, courses au Lidl, puis Val Badia et col de Valparola (2 168 m) sans autoroute jusqu’au Falzarego. Randonnée en fin de matinée, quand le sous-bois a dégelé. Retour par Cortina et le val di Landro, camping Olympia vers 15 h 50 (réception 15 h–23 h, 2 nuits minimum). La veille : vérifier météo, neige et ouverture du col de Valparola ; s’il est fermé, passer par Dobbiaco et Cortina (plus long)."
   },
   {
     "date": "2026-10-14",

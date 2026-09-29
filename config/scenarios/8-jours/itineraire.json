@@ -107,22 +107,22 @@
       "ordre": 5,
       "jour": 5,
       "type": "transfert",
-      "libelle": "Varna → Lago di Anterselva → Dobbiaco",
+      "libelle": "Varna → Cinque Torri à pied → Dobbiaco",
       "de": "camping-vahrner-see",
       "vers": "camping-olympia",
       "par": [
         "courses-lidl-varna",
-        "lago-anterselva"
+        "parking-bai-de-dones"
       ],
       "visites": [
         "courses-lidl-varna",
-        "lago-anterselva"
+        "parking-bai-de-dones"
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Varna → Lago di Anterselva → Dobbiaco",
-      "distance_km": 94,
-      "duree_h": 2.3
+      "note": "Varna → Cinque Torri à pied → Dobbiaco",
+      "distance_km": 124,
+      "duree_h": 3
     },
     {
       "id": "etape-j6",

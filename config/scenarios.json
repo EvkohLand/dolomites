@@ -34,11 +34,11 @@
     {
       "id": "8-jours",
       "libelle": "8 jours — les huit lieux, sans remontée",
-      "resume": "Du vendredi 9 (départ 13 h) au vendredi 16 octobre. Les huit lieux, un ou deux par jour : Carezza à l’aller, cinéma des Odle et Santa Maddalena, Alpe di Siusi et Ortisei, Anterselva, Tre Cime à pied, Braies, puis dernière nuit au lac de Varna pour raccourcir le retour. Trois demi-journées de repos, aucune remontée ni activité payante obligatoire hors Alpe di Siusi. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mercredi 14 matin ; retour vendredi 16, premier dépôt lundi 19.",
+      "resume": "Du vendredi 9 (départ 13 h) au vendredi 16 octobre. Les huit lieux, un ou deux par jour : Carezza à l’aller, cinéma des Odle et Santa Maddalena, Alpe di Siusi et Ortisei, Cinque Torri à pied, Tre Cime à pied, Braies, puis dernière nuit au lac de Varna pour raccourcir le retour. Deux demi-journées de repos, aucune remontée ni activité payante obligatoire hors Alpe di Siusi. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mercredi 14 matin ; retour vendredi 16, premier dépôt lundi 19.",
       "jours": 8,
       "dossier": "scenarios/8-jours",
       "titre": "Dolomites — 8 jours",
-      "logique_route": "2026-10-09 → 2026-10-16. Les huit lieux, un ou deux par jour : Carezza à l’aller, cinéma des Odle et Santa Maddalena, Alpe di Siusi et Ortisei, Anterselva, Tre Cime à pied, Braies, puis dernière nuit au lac de Varna pour raccourcir le retour. Trois demi-journées de repos, aucune remontée ni activité payante obligatoire hors Alpe di Siusi.",
+      "logique_route": "2026-10-09 → 2026-10-16. Les huit lieux, un ou deux par jour : Carezza à l’aller, cinéma des Odle et Santa Maddalena, Alpe di Siusi et Ortisei, Cinque Torri à pied, Tre Cime à pied, Braies, puis dernière nuit au lac de Varna pour raccourcir le retour. Deux demi-journées de repos, aucune remontée ni activité payante obligatoire hors Alpe di Siusi.",
       "bases": [
         "Pietra Ligure — La Pietra e l’Ulivo (1 nuit)",
         "Val di Funes — ferme Zum Gletscher Hons (2 nuits)",
