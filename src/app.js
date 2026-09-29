@@ -726,6 +726,18 @@
       corps.appendChild(bloc('Sur place', eq));
     }
 
+    /* Échanges e-mail avec l'exploitant (by-chatgpt/mails) */
+    if (Array.isArray(l.echanges) && l.echanges.length) {
+      var de = el('div', 'echanges');
+      l.echanges.forEach(function (x) {
+        var pe = el('p', 'echange echange--' + (x.etat || '').replace(/[^a-z]+/gi, '-'));
+        pe.appendChild(el('strong', null, (x.etat || 'échange') + ' · ' + dateCourte(x.date) + ' — '));
+        pe.appendChild(document.createTextNode(x.resume || ''));
+        de.appendChild(pe);
+      });
+      corps.appendChild(bloc('Échanges avec l’établissement', de));
+    }
+
     /* Adresse */
     if (l.adresse) corps.appendChild(bloc('Adresse', el('p', null, l.adresse)));
 
@@ -1403,6 +1415,8 @@
       var pn = prixAffiche(n);
       if (pn) tn.appendChild(el('span', 'programme__prix', pn));
       if (n.resume) tn.appendChild(el('span', 'jour__note', n.resume));
+      var ech = Array.isArray(n.echanges) && n.echanges[n.echanges.length - 1];
+      if (ech) tn.appendChild(el('span', 'echange-court', 'E-mail : ' + ech.etat + ' (' + dateCourte(ech.date) + ')'));
       bn.appendChild(tn);
       bn.addEventListener('click', function () { ouvrirPanneau(n.id, { retour: j.jour }); });
       dn.appendChild(bn);

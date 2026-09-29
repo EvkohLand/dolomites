@@ -6118,6 +6118,13 @@
         "note": "Repli pour une nuit isolée. À 30 km au nord de Cortina par la SS51. Ouvert toute l'année ; basse saison du 12 au 29 octobre 2026. Emplacement Standard+ (voiture + tente ou caravane) 42,50 € pour 2 personnes, chien 7 €, écotaxe 2,50 €/emplacement, taxe de séjour 2,70 €/pers. ≈ 57 €/nuit. Route d'accès fermée de 12h à 15h : arrivée 15h–19h. Chiens interdits sur la prairie à tentes, donc prendre un emplacement numéroté.",
         "url": "https://www.toblachersee.com/en/prices-camping/"
       }
+    ],
+    "echanges": [
+      {
+        "date": "2026-09-28",
+        "etat": "offres reçues",
+        "resume": "Deux offres personnalisées pour 18→19, 18→21 ou 21→25 oct., prix derrière un lien. Le nouveau planning (nuits du 13 au 16) n'a pas encore été demandé."
+      }
     ]
   },
   {
@@ -6481,7 +6488,14 @@
     "reserver": {
       "obligatoire": false,
       "url": "https://www.campingcortina.it/prezzi.html"
-    }
+    },
+    "echanges": [
+      {
+        "date": "2026-09-29",
+        "etat": "sans réponse",
+        "resume": "Demande pour 14→18 oct. envoyée le 27/09 ; aucune réponse au 29/09 (le camping ne prend de toute façon pas de réservation)."
+      }
+    ]
   },
   {
     "id": "aire-ortisei",
@@ -10153,7 +10167,14 @@
     "reserver": {
       "obligatoire": false,
       "url": "https://booking.campingbrixen.it/?skd-checkin=2026-10-13&skd-checkout=2026-10-16&skd-adult-room=2"
-    }
+    },
+    "echanges": [
+      {
+        "date": "2026-09-28",
+        "etat": "offre reçue",
+        "resume": "Offre personnalisée pour 13→16 ou 13→17 oct., détails derrière un lien (prix non écrits dans le mail). Rien de réservé."
+      }
+    ]
   },
   {
     "id": "camping-sass-dlacia",
@@ -10349,7 +10370,14 @@
       "obligatoire": false,
       "url": "https://campingsassdlacia.it/en/booking?roomId=33105"
     },
-    "description": "Grand camping d'Alta Badia (plus de 200 emplacements Rolling Home) à 3 km de San Cassiano, à 1 690 m, base pour Lagazuoi, Fanes et les cols. L'emplacement « Rolling Home » (gravier) accepte « one tent with one car » ; le moteur officiel demande de déclarer le véhicule (option « A car and a tent up to 6 m² », gratuite) et Pitchup classe l'emplacement en « Roof tent ». Un avis Pitchup de 2026 signale une tente de toit coincée sur un emplacement enclavé, le camping s'en est excusé : mentionner la tente de toit à la réservation. Tarifs du moteur officiel (28/09/2026) : 35 €/nuit pour 2 adultes, identiques du 16 au 21 octobre ; + chien 4 €/jour + taxe de séjour 2,30 €/personne/nuit ; électricité au compteur à 1,10 €/kWh (prise CEE + rallonge 20 m). La remise « Early Bird automne » (15 %, dès le 18 octobre) exige une réservation 30 jours à l'avance : plus accessible. Arrivée conseillée entre 15h et 18h30 (réception inoccupée ensuite, accès fermé après 21h–22h). Chiens en laisse, interdits au minimarket, au spa et dans les sanitaires. Laverie à jetons, minimarket 7h30–21h, restaurant/pizzeria, spa payant."
+    "description": "Grand camping d'Alta Badia (plus de 200 emplacements Rolling Home) à 3 km de San Cassiano, à 1 690 m, base pour Lagazuoi, Fanes et les cols. L'emplacement « Rolling Home » (gravier) accepte « one tent with one car » ; le moteur officiel demande de déclarer le véhicule (option « A car and a tent up to 6 m² », gratuite) et Pitchup classe l'emplacement en « Roof tent ». Un avis Pitchup de 2026 signale une tente de toit coincée sur un emplacement enclavé, le camping s'en est excusé : mentionner la tente de toit à la réservation. Tarifs du moteur officiel (28/09/2026) : 35 €/nuit pour 2 adultes, identiques du 16 au 21 octobre ; + chien 4 €/jour + taxe de séjour 2,30 €/personne/nuit ; électricité au compteur à 1,10 €/kWh (prise CEE + rallonge 20 m). La remise « Early Bird automne » (15 %, dès le 18 octobre) exige une réservation 30 jours à l'avance : plus accessible. Arrivée conseillée entre 15h et 18h30 (réception inoccupée ensuite, accès fermé après 21h–22h). Chiens en laisse, interdits au minimarket, au spa et dans les sanitaires. Laverie à jetons, minimarket 7h30–21h, restaurant/pizzeria, spa payant.",
+    "echanges": [
+      {
+        "date": "2026-09-29",
+        "etat": "offre active",
+        "resume": "Première offre R22710 : 140 € pour 4 nuits (14→18) à 2 adultes, hors taxe, électricité et chien. Dates corrigées ensuite (16→18, 17→18 ou 17→21) : nouvelle offre R22727 derrière un lien, tarif garanti 5 jours ; relance du camping le 29/09. Rien de réservé."
+      }
+    ]
   },
   {
     "id": "parking-col-raiser",
@@ -11353,7 +11381,14 @@
       "url": "https://www.zumgletscherhons.com/kontakt"
     },
     "description": "Aire pour camping-cars au-dessus de Santa Maddalena, à 1 300 m, avec vue sur les Odle, exploitée par la ferme de Johann Mantinger. La commune l'a autorisée en 2023 pour 19 emplacements (délibération 207 du 26 août 2026) et le règlement communal de 2026 la classe comme aire de camping-cars désignée. Services : électricité 1 kW, eau, vidange, douche chaude, WC, Wi-Fi, tri des déchets, magasin de la ferme. Le moteur de réservation du site affiche « à partir de 35 € » la nuit par emplacement, sans supplément par personne ni pour le chien, paiement en espèces ; les guides 2026 donnent 37 € + taxe de séjour 2 €/adulte, soit environ 41 € à deux. Chiens admis en laisse. Séjour de 3 nuits maximum, arrivée 8h–20h, départ avant 11h, silence 22h–7h. Ouverte jusqu'au 31 octobre. La tente de toit n'est citée nulle part : l'aire s'adresse aux camping-cars, accord à obtenir avant de venir. Réservation conseillée, souvent complet le soir. Route d'accès étroite, 9 m au maximum.",
-    "altitude": 1300
+    "altitude": 1300,
+    "echanges": [
+      {
+        "date": "2026-09-28",
+        "etat": "réservation non sollicitée",
+        "resume": "Probablement ce lieu (contact « Hans Mantinger », interlocutrice Elisabeth ; nom de l'établissement absent du mail) : 42 €/nuit tout compris ; Elisabeth écrit avoir RÉSERVÉ du 13 au 16 octobre malgré la mention « pas une réservation » ; place tenue jusqu'à 18h, prévenir en cas de retard. Le nouveau planning ne dort pas là à ces dates : répondre pour annuler ou déplacer."
+      }
+    ]
   },
   {
     "id": "courses-conad-savone",
@@ -11917,7 +11952,14 @@
       "obligatoire": false,
       "url": "https://www.campingtahitifinaleligure.it/prenotazioni-campeggio-finale-ligure-savona"
     },
-    "description": "Camping familial de 78 emplacements (40 à 60 m², électricité 6 A) sur 2 ha, à Finalpia, à 600 m de la plage et à pied du centre de Finale Ligure. Quatre blocs sanitaires, dont certains chauffés, douches chaudes gratuites, laverie, bar-restaurant-pizzeria avec mini-marché, Wi-Fi gratuit, tennis. Le terrain est en terrasses sur la colline : les avis Park4Night décrivent des allées raides et étroites, gênantes pour les grands camping-cars, sans incidence pour une voiture de 1,95 m. Tarif officiel 2026 en saison moyenne (20/03–08/11) : grande piazzola minimum 45 € pour véhicule ou tente + 2 personnes, chien 3 €, taxe de séjour 0,70 €/personne/nuit (5 premières nuits), électricité 4,50 €. Arrivée à partir de 15h, départ avant 10h. La tente de toit n'est citée sur aucune page officielle (italien, anglais, allemand) ; un seul avis TripAdvisor relate un séjour avec tente de toit et petit chien. Selon qu'elle est comptée « tente + voiture » (29 €) ou comme un van (minimum 45 € avec 2 personnes), la nuit coûte 57,40 € ou 49,40 € chien et taxe compris : à faire préciser dans la demande. Pas de réservation en ligne : formulaire de demande, puis acompte de 30 % par virement sous 15 jours."
+    "description": "Camping familial de 78 emplacements (40 à 60 m², électricité 6 A) sur 2 ha, à Finalpia, à 600 m de la plage et à pied du centre de Finale Ligure. Quatre blocs sanitaires, dont certains chauffés, douches chaudes gratuites, laverie, bar-restaurant-pizzeria avec mini-marché, Wi-Fi gratuit, tennis. Le terrain est en terrasses sur la colline : les avis Park4Night décrivent des allées raides et étroites, gênantes pour les grands camping-cars, sans incidence pour une voiture de 1,95 m. Tarif officiel 2026 en saison moyenne (20/03–08/11) : grande piazzola minimum 45 € pour véhicule ou tente + 2 personnes, chien 3 €, taxe de séjour 0,70 €/personne/nuit (5 premières nuits), électricité 4,50 €. Arrivée à partir de 15h, départ avant 10h. La tente de toit n'est citée sur aucune page officielle (italien, anglais, allemand) ; un seul avis TripAdvisor relate un séjour avec tente de toit et petit chien. Selon qu'elle est comptée « tente + voiture » (29 €) ou comme un van (minimum 45 € avec 2 personnes), la nuit coûte 57,40 € ou 49,40 € chien et taxe compris : à faire préciser dans la demande. Pas de réservation en ligne : formulaire de demande, puis acompte de 30 % par virement sous 15 jours.",
+    "echanges": [
+      {
+        "date": "2026-09-28",
+        "etat": "refus",
+        "resume": "Aucune disponibilité pour 12→13 et 14→15 octobre. La nuit du 9→10 n'a pas été redemandée après correction."
+      }
+    ]
   },
   {
     "id": "courses-conad-varazze",
@@ -12222,7 +12264,14 @@
       "obligatoire": false,
       "url": "https://www.pitchup.com/it/campsites/italy/liguria/genova/cogoleto/green-family-park-europa/"
     },
-    "description": "Camping familial sur les hauteurs de Cogoleto, entre Gênes et Savone. La fiche Pitchup (données 2026) indique une ouverture du 1er avril au 11 octobre 2026 puis du 18 décembre 2026 au 9 janvier 2027 : seule la nuit du 10 octobre (départ le 11) tombe dans la saison ; toute nuit à partir du 11 au soir est impossible. Les emplacements sur herbe/terre acceptent explicitement « Tenda da tetto, Caravan, Furgonato/Van, Camper » (une unité par emplacement) ; les XL font 5 m × 10 m avec stationnement à côté de l'unité. Chiens admis (2 max par emplacement), 5 €/nuit, tatouage ou puce obligatoire. Tarifs officiels : adulte 8–10 €, emplacement 15–25 €, animal 5 €, 2e véhicule 5 € ; Pitchup affiche « à partir de 32 € » pour 2 adultes, électricité +3 €. Arrivée 15h–20h, départ avant 12h (Pitchup). Le camping est au bout de la Via Vicinale Chiappino, qui part de la Via della Pace : les deux adresses du site officiel désignent le même accès, et le point GPS tombe à 30 m de cette voie sur OpenStreetMap. Électricité : câble de 25 m nécessaire."
+    "description": "Camping familial sur les hauteurs de Cogoleto, entre Gênes et Savone. La fiche Pitchup (données 2026) indique une ouverture du 1er avril au 11 octobre 2026 puis du 18 décembre 2026 au 9 janvier 2027 : seule la nuit du 10 octobre (départ le 11) tombe dans la saison ; toute nuit à partir du 11 au soir est impossible. Les emplacements sur herbe/terre acceptent explicitement « Tenda da tetto, Caravan, Furgonato/Van, Camper » (une unité par emplacement) ; les XL font 5 m × 10 m avec stationnement à côté de l'unité. Chiens admis (2 max par emplacement), 5 €/nuit, tatouage ou puce obligatoire. Tarifs officiels : adulte 8–10 €, emplacement 15–25 €, animal 5 €, 2e véhicule 5 € ; Pitchup affiche « à partir de 32 € » pour 2 adultes, électricité +3 €. Arrivée 15h–20h, départ avant 12h (Pitchup). Le camping est au bout de la Via Vicinale Chiappino, qui part de la Via della Pace : les deux adresses du site officiel désignent le même accès, et le point GPS tombe à 30 m de cette voie sur OpenStreetMap. Électricité : câble de 25 m nécessaire.",
+    "echanges": [
+      {
+        "date": "2026-09-29",
+        "etat": "sans réponse",
+        "resume": "Demande via l'adresse du secrétariat (place XL, accès Via della Pace) pour la nuit du 10→11 oct. ; aucune réponse."
+      }
+    ]
   },
   {
     "id": "ferme-pinzagen-van-moar",
@@ -12595,7 +12644,14 @@
       "obligatoire": true,
       "url": "https://booking.passepartout.cloud/booking?oidPortale=23238&lingua=it"
     },
-    "description": "Dix emplacements sur herbe plate avec eau et électricité (6 A, câble à prise industrielle à apporter), au milieu d'oliviers, à 1 km de la mer. Ouvert toute l'année. Le moteur de réservation officiel pose la règle : « PIAZZOLE SOLO PER : CAMPER / CARAVAN / VAN / MEZZI CON TENDA DA TETTO. SONO VIETATE LE TENDE » — la voiture à tente de toit est admise, seules les tentes au sol sont refusées ; l'interdiction de garer une voiture sur l'emplacement, dans l'ancien règlement PDF, vise les voitures seules. Prix lus sur le moteur pour 2 adultes : Standard 45 € la nuit du 12 octobre 2026 (43 € le 14), XL 55 € (52,50 €), chien 2,50 €/jour, taxe 0,70 €/personne ; électricité 0,60 €/kWh et eau au compteur. Emplacement disponible de 12 h à 12 h ; arrivée autonome, un code envoyé par e-mail ouvre la barrière. Chiens en laisse, carnet de vaccination exigé, jamais seuls. Paiement intégral par carte à la réservation."
+    "description": "Dix emplacements sur herbe plate avec eau et électricité (6 A, câble à prise industrielle à apporter), au milieu d'oliviers, à 1 km de la mer. Ouvert toute l'année. Le moteur de réservation officiel pose la règle : « PIAZZOLE SOLO PER : CAMPER / CARAVAN / VAN / MEZZI CON TENDA DA TETTO. SONO VIETATE LE TENDE » — la voiture à tente de toit est admise, seules les tentes au sol sont refusées ; l'interdiction de garer une voiture sur l'emplacement, dans l'ancien règlement PDF, vise les voitures seules. Prix lus sur le moteur pour 2 adultes : Standard 45 € la nuit du 12 octobre 2026 (43 € le 14), XL 55 € (52,50 €), chien 2,50 €/jour, taxe 0,70 €/personne ; électricité 0,60 €/kWh et eau au compteur. Emplacement disponible de 12 h à 12 h ; arrivée autonome, un code envoyé par e-mail ouvre la barrière. Chiens en laisse, carnet de vaccination exigé, jamais seuls. Paiement intégral par carte à la réservation.",
+    "echanges": [
+      {
+        "date": "2026-09-28",
+        "etat": "réponse positive",
+        "resume": "Voiture avec tente de toit acceptée, aire pour chiens, chien 2,50 €/jour, électricité 0,60 €/kWh, eau 1 €/100 L. Manquent : prix de base, total avec taxe, heure limite d'arrivée. Dates demandées : 12→13 ou 14→15 oct. — la nuit du 9→10 est à redemander."
+      }
+    ]
   },
   {
     "id": "camping-gamp-chiusa",
@@ -12809,7 +12865,14 @@
       "obligatoire": false,
       "url": "https://s004544.officialbookings.com/room/Y"
     },
-    "description": "Camping familial de la résidence Ansitz Gamp, à 1 km de la sortie d'autoroute Chiusa, à 5 minutes à pied de la vieille ville et 2 minutes de la gare et des bus. Trois formules : emplacements Komfort (70–105 m², réservés aux caravanes et camping-cars : « Zelt inkl. Auto oder Motorrad sind auf diesen Stellplätzen nicht erlaubt »), Zeltplätze (tente + une voiture, séparés par des haies, sur herbe, eau et 6 A, 2 personnes max. en ligne) et aire camping-car sur gravier sans douches ni toilettes. Le moteur officiel écrit pour cette aire : « Buchen Sie bitte nicht den Wohnmobilstellplatz, wenn Sie mit einem Wohnwagen, Auto mit Dachzelt, Pkw unter 4,40 Meter oder mit einem Zelt anreisen, da diese nur im Campingplatz stehen dürfen! » : la voiture à tente de toit va donc sur un Zeltplatz. Prix du 13 au 16 octobre 2026 : 153 € les 3 nuits pour 2 adultes, taxe 2,40 €/personne/nuit en sus, chien 13,50 € les 3 nuits. Chien admis (1 par emplacement, en laisse, interdit sur la plage de la piscine). Sanitaires, lave-linge et sèche-linge, minimarché, piscine chauffée, Wi-Fi gratuit. Emplacement disponible dès 12h, arrivée jusqu'à 22h sur accord (prévenir si après 17h, sinon la place est libérée), départ avant 11h30."
+    "description": "Camping familial de la résidence Ansitz Gamp, à 1 km de la sortie d'autoroute Chiusa, à 5 minutes à pied de la vieille ville et 2 minutes de la gare et des bus. Trois formules : emplacements Komfort (70–105 m², réservés aux caravanes et camping-cars : « Zelt inkl. Auto oder Motorrad sind auf diesen Stellplätzen nicht erlaubt »), Zeltplätze (tente + une voiture, séparés par des haies, sur herbe, eau et 6 A, 2 personnes max. en ligne) et aire camping-car sur gravier sans douches ni toilettes. Le moteur officiel écrit pour cette aire : « Buchen Sie bitte nicht den Wohnmobilstellplatz, wenn Sie mit einem Wohnwagen, Auto mit Dachzelt, Pkw unter 4,40 Meter oder mit einem Zelt anreisen, da diese nur im Campingplatz stehen dürfen! » : la voiture à tente de toit va donc sur un Zeltplatz. Prix du 13 au 16 octobre 2026 : 153 € les 3 nuits pour 2 adultes, taxe 2,40 €/personne/nuit en sus, chien 13,50 € les 3 nuits. Chien admis (1 par emplacement, en laisse, interdit sur la plage de la piscine). Sanitaires, lave-linge et sèche-linge, minimarché, piscine chauffée, Wi-Fi gratuit. Emplacement disponible dès 12h, arrivée jusqu'à 22h sur accord (prévenir si après 17h, sinon la place est libérée), départ avant 11h30.",
+    "echanges": [
+      {
+        "date": "2026-09-28",
+        "etat": "sans réponse",
+        "resume": "Demande pour 13→16 ou 13→17 oct. envoyée ; aucune réponse au 29/09."
+      }
+    ]
   },
   {
     "id": "camping-vahrner-see",
@@ -13014,7 +13077,14 @@
       "obligatoire": false,
       "url": "https://camping-vahrner-see.com/en/camping-vahrner-see/nature-camping"
     },
-    "description": "Camping de 70 emplacements libres (on choisit sa place) au bord du lac de Varna, au nord de Bressanone, à l'écart des routes, à côté d'une auberge avec terrasse, près de la sortie Vahrn Nord. Grille officielle 2026, identique d'avril à juin et en septembre–octobre : 12 € par personne, « 1 Car with roof tent 13,00 € », animal 2 €, taxe de séjour 2,80 €/personne/jour en sus ; 11 jours pour le prix de 10. Sanitaires chauffés à eau chaude, vidange eaux grises et noires à proximité, pain et produits de base à l'auberge. Réservation réservée aux groupes de 10 personnes et plus : « Otherwise just come by! ». Accès limité par deux petits passages inférieurs de 2,70 m de haut sur 2,65 m de large : sans problème pour une voiture de 1,95 m. Électricité incluse selon l'ADAC, lave-linge selon suedtirol.info. Aucun horaire de réception publié : l'auberge attenante (bar 9h–22h) est fermée le mercredi après-midi et le jeudi."
+    "description": "Camping de 70 emplacements libres (on choisit sa place) au bord du lac de Varna, au nord de Bressanone, à l'écart des routes, à côté d'une auberge avec terrasse, près de la sortie Vahrn Nord. Grille officielle 2026, identique d'avril à juin et en septembre–octobre : 12 € par personne, « 1 Car with roof tent 13,00 € », animal 2 €, taxe de séjour 2,80 €/personne/jour en sus ; 11 jours pour le prix de 10. Sanitaires chauffés à eau chaude, vidange eaux grises et noires à proximité, pain et produits de base à l'auberge. Réservation réservée aux groupes de 10 personnes et plus : « Otherwise just come by! ». Accès limité par deux petits passages inférieurs de 2,70 m de haut sur 2,65 m de large : sans problème pour une voiture de 1,95 m. Électricité incluse selon l'ADAC, lave-linge selon suedtirol.info. Aucun horaire de réception publié : l'auberge attenante (bar 9h–22h) est fermée le mercredi après-midi et le jeudi.",
+    "echanges": [
+      {
+        "date": "2026-09-28",
+        "etat": "réponse reçue",
+        "resume": "Pas de réservation : venir directement ou appeler pendant le trajet ; arrivée conseillée en début d'après-midi ; check-in 8h30–21h ; hauteur maximale 2,70 m ; tente ouverte sur le camping ; douches ouvertes ; électricité (prise EURO/adaptateur)."
+      }
+    ]
   },
   {
     "id": "courses-eurospar-bressanone",
