@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-09-29T12:43Z",
+  "genere_le": "2026-09-29T14:21Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-09-29T14:02"
+      "maj": "2026-09-29T15:27"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -760,6 +760,20 @@
       "gps": [
         46.77638,
         11.94531
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3149512",
+      "route": "LS/SP67 — Valle S. Silvestro",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Dobbiaco (km 1,390 - km 1,450) senso unico alternato con chiusure temporanee per lavori di asfaltatura.",
+      "debut": "2026-10-07",
+      "fin": "2026-10-30",
+      "gps": [
+        46.73714,
+        12.22663
       ]
     },
     {
