@@ -6,18 +6,16 @@
     "France : TotalEnergies plafonne le gazole à 2,25 €/L ; ses stations hors autoroute sont les moins chères de la RN113/RN7. L'Italie (Eni 2,19 €) est désormais moins chère : plein en Ligurie.",
     "Chien : seuls les Conad de Ligurie/Piémont déclarent « Accesso animali consentito » (Savone, Loano ×2, Acqui, Varazze). Aucun magasin du Trentin-Haut-Adige vérifié n'admet un chien de 20–25 kg (Despar : sac ; Lidl, MPREIS : interdit ; Coop Cortina : petits chiens seulement au rayon alimentaire). En France : refus partout sauf chiens d'assistance.",
     "Départ vendredi 9 octobre : l’aller et le retour se font par l’autoroute, où les stations sont plus chères. Faire les pleins hors autoroute : en France avant de partir, en Italie à Finale, Savone, Bressanone ou Dobbiaco.",
-    "Dimanches du séjour : 11 et 18 octobre. Le 11, la base ouest a le Lidl de Varna ouvert ; le 18, tout Dobbiaco est fermé (Corvara et La Villa ouverts).",
-    "Départ vendredi 9 octobre : l’aller et le retour se font par l’autoroute, où les stations sont plus chères. Faire les pleins hors autoroute : en France avant de partir, en Italie à Finale, Savone, Bressanone ou Dobbiaco.",
     "Dimanches du séjour : 11 et 18 octobre. Le 11, la base ouest a le Lidl de Varna ouvert ; le 18, tout Dobbiaco est fermé (Corvara et La Villa ouverts)."
   ],
   "scenarios": {
     "5-jours": {
       "1": {
-        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L) : les stations d’autoroute sont plus chères. Arrivée vers 19 h 30 : la Coop de Finale est ouverte jusqu’à 21 h pour le dîner ; l’Eni de Finale (2,19 €) ferme à 19 h, plein le lendemain matin.",
+        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L). Premier passage en caisse au Conad de Loano, avec Prince, avant l’agricamping : provisions jusqu’à la prochaine base.",
         "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
         "magasins": [
           {
-            "lieu": "courses-coop-finale",
+            "lieu": "courses-conad-loano",
             "note": "Vendredi : 8h00–21h00"
           }
         ],
@@ -29,226 +27,121 @@
         ],
         "eau": [
           {
-            "nom": "Camping Tahiti — eau des sanitaires",
+            "nom": "La Pietra e l’Ulivo — eau",
             "gps": [
-              44.17574,
-              8.34955
+              44.14807223,
+              8.27046714
             ],
-            "note": "Eau au camping, comprise dans la nuitée."
-          },
-          {
-            "nom": "Fontaine publique Finale Ligure (bord de mer)",
-            "gps": [
-              44.16998,
-              8.34949
-            ],
-            "note": "OSM amenity=drinking_water, 24/7, 600 m du camping.",
-            "source": "https://www.openstreetmap.org/node/639637221"
+            "note": "Eau au compteur (0,01 €/L), sanitaires gratuits."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Tahiti — laverie",
-            "note": "Laverie au camping (tarif non publié)."
-          },
-          {
-            "nom": "Lavagettone — laverie libre-service",
-            "gps": [
-              44.17137,
-              8.35302
-            ],
-            "adresse": "Via Giovanni Porro 6, Finale Ligure",
-            "horaires": "8h–22h (OSM)",
-            "source": "https://www.openstreetmap.org/node/4227249248"
+            "nom": "La Pietra e l’Ulivo — lave-linge et sèche-linge",
+            "note": "Sur place (tarif non publié)."
           }
         ],
-        "douche": "Douches chaudes gratuites au camping."
+        "douche": "Douches chaudes gratuites à l’agricamping."
       },
       "2": {
-        "conseil": "Grand ravitaillement avec Prince au Conad Superstore de Savone (chiens admis, 8 h 30) et plein à l’Eni voisine avant l’autoroute. Après la Ligurie, plus aucun magasin trouvé qui admette un chien de 20–25 kg : compléments au Lidl de Varna à l’arrivée, à tour de rôle.",
-        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Varna sans autoroute",
+        "conseil": "Plein à l’Eni de Finale (2,19 €) avant l’autoroute. Pas de courses : les provisions de Loano couvrent la ferme, loin des supermarchés.",
+        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Val di Funes sans autoroute",
         "magasins": [
           {
-            "lieu": "courses-conad-savone",
-            "note": "Samedi : 8h30–20h30"
-          },
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Samedi : 8h00–21h00"
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Samedi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-savona-stalingrado",
+            "lieu": "carburant-eni-finale",
+            "note": "Samedi : 07:30–12:30"
+          },
+          {
+            "lieu": "carburant-eni-chiusa",
             "note": "Samedi : non communiqué au MIMIT"
           },
           {
-            "lieu": "carburant-eni-finale",
-            "note": "Samedi : 07:30–12:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Samedi : 06:00–13:30"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "3": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
         "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Dimanche : 8h00–20h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Dimanche : 10h00–18h00"
-          },
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Dimanche : 9h00–19h30"
           },
           {
-            "lieu": "courses-conad-bressanone",
-            "note": "Dimanche : fermé"
+            "lieu": "courses-lidl-varna",
+            "note": "Dimanche : 8h00–20h00"
           }
         ],
         "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Dimanche : fermé (personnel)"
-          },
           {
             "lieu": "carburant-eni-chiusa",
             "note": "Dimanche : non communiqué au MIMIT"
           },
           {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Dimanche : horaires non publiés"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
+            "lieu": "carburant-eni-bressanone",
             "note": "Dimanche : fermé (personnel)"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "4": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
         "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Lundi : 8h00–21h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Lundi : 8h00–19h30"
-          },
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Lundi : 8h00–19h30"
           },
           {
-            "lieu": "courses-conad-bressanone",
-            "note": "Lundi : 7h30–19h30"
+            "lieu": "courses-lidl-varna",
+            "note": "Lundi : 8h00–21h00"
           }
         ],
         "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Lundi : 06:00–20:00"
-          },
           {
             "lieu": "carburant-eni-chiusa",
             "note": "Lundi : non communiqué au MIMIT"
           },
           {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Lundi : non communiqués au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
-            "note": "Lundi : 07:00–12:30 et 13:30–19:00"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Lundi : 06:00–20:00"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "5": {
-        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères et TotalEnergies France est à 2,25 €. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
-        "zone": "Varna → Bressanone, puis autoroute A22, A4, A21, A26, A10, A8, A9",
+        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
+        "zone": "Retour : Santa Maddalena / Funes → autoroute A22, A4, A21, A26, A10, A8, A9",
         "magasins": [
           {
             "lieu": "courses-conad-savone",
@@ -256,6 +149,10 @@
           }
         ],
         "stations": [
+          {
+            "lieu": "carburant-eni-chiusa",
+            "note": "Mardi : non communiqué au MIMIT"
+          },
           {
             "lieu": "carburant-eni-bressanone",
             "note": "Mardi : 06:00–20:00"
@@ -269,11 +166,11 @@
     },
     "7-jours": {
       "1": {
-        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L) : les stations d’autoroute sont plus chères. Arrivée vers 19 h 30 : la Coop de Finale est ouverte jusqu’à 21 h pour le dîner ; l’Eni de Finale (2,19 €) ferme à 19 h, plein le lendemain matin.",
+        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L). Premier passage en caisse au Conad de Loano, avec Prince, avant l’agricamping : provisions jusqu’à la prochaine base.",
         "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
         "magasins": [
           {
-            "lieu": "courses-coop-finale",
+            "lieu": "courses-conad-loano",
             "note": "Vendredi : 8h00–21h00"
           }
         ],
@@ -285,160 +182,89 @@
         ],
         "eau": [
           {
-            "nom": "Camping Tahiti — eau des sanitaires",
+            "nom": "La Pietra e l’Ulivo — eau",
             "gps": [
-              44.17574,
-              8.34955
+              44.14807223,
+              8.27046714
             ],
-            "note": "Eau au camping, comprise dans la nuitée."
-          },
-          {
-            "nom": "Fontaine publique Finale Ligure (bord de mer)",
-            "gps": [
-              44.16998,
-              8.34949
-            ],
-            "note": "OSM amenity=drinking_water, 24/7, 600 m du camping.",
-            "source": "https://www.openstreetmap.org/node/639637221"
+            "note": "Eau au compteur (0,01 €/L), sanitaires gratuits."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Tahiti — laverie",
-            "note": "Laverie au camping (tarif non publié)."
-          },
-          {
-            "nom": "Lavagettone — laverie libre-service",
-            "gps": [
-              44.17137,
-              8.35302
-            ],
-            "adresse": "Via Giovanni Porro 6, Finale Ligure",
-            "horaires": "8h–22h (OSM)",
-            "source": "https://www.openstreetmap.org/node/4227249248"
+            "nom": "La Pietra e l’Ulivo — lave-linge et sèche-linge",
+            "note": "Sur place (tarif non publié)."
           }
         ],
-        "douche": "Douches chaudes gratuites au camping."
+        "douche": "Douches chaudes gratuites à l’agricamping."
       },
       "2": {
-        "conseil": "Grand ravitaillement avec Prince au Conad Superstore de Savone (chiens admis, 8 h 30) et plein à l’Eni voisine avant l’autoroute. Après la Ligurie, plus aucun magasin trouvé qui admette un chien de 20–25 kg : compléments au Lidl de Varna à l’arrivée, à tour de rôle.",
-        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Varna sans autoroute",
+        "conseil": "Plein à l’Eni de Finale (2,19 €) avant l’autoroute. Pas de courses : les provisions de Loano couvrent la ferme, loin des supermarchés.",
+        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Val di Funes sans autoroute",
         "magasins": [
           {
-            "lieu": "courses-conad-savone",
-            "note": "Samedi : 8h30–20h30"
-          },
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Samedi : 8h00–21h00"
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Samedi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-savona-stalingrado",
+            "lieu": "carburant-eni-finale",
+            "note": "Samedi : 07:30–12:30"
+          },
+          {
+            "lieu": "carburant-eni-chiusa",
             "note": "Samedi : non communiqué au MIMIT"
           },
           {
-            "lieu": "carburant-eni-finale",
-            "note": "Samedi : 07:30–12:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Samedi : 06:00–13:30"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "3": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
         "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Dimanche : 8h00–20h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Dimanche : 10h00–18h00"
-          },
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Dimanche : 9h00–19h30"
           },
           {
-            "lieu": "courses-conad-bressanone",
-            "note": "Dimanche : fermé"
+            "lieu": "courses-lidl-varna",
+            "note": "Dimanche : 8h00–20h00"
           }
         ],
         "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Dimanche : fermé (personnel)"
-          },
           {
             "lieu": "carburant-eni-chiusa",
             "note": "Dimanche : non communiqué au MIMIT"
           },
           {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Dimanche : horaires non publiés"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
+            "lieu": "carburant-eni-bressanone",
             "note": "Dimanche : fermé (personnel)"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "4": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Santa Maddalena / Funes → Varna / Vahrn",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
@@ -451,24 +277,12 @@
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Lundi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Lundi : 7h30–19h30"
           }
         ],
         "stations": [
           {
             "lieu": "carburant-eni-bressanone",
             "note": "Lundi : 06:00–20:00"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Lundi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Lundi : non communiqués au MIMIT"
           },
           {
             "lieu": "carburant-eni-bressanone-lahner",
@@ -503,8 +317,8 @@
         "douche": "Douches chaudes au camping, incluses."
       },
       "5": {
-        "conseil": "Courses avant de quitter la base (Lidl de Varna) ou à Dobbiaco à l’arrivée (Eurospin, discount).",
-        "zone": "Varna → Val Pusteria → Anterselva → Dobbiaco",
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce mardi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Varna / Vahrn → Dobbiaco / Toblach",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
@@ -552,8 +366,8 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "6": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base est Dobbiaco (camping Olympia)",
         "magasins": [
           {
             "lieu": "courses-eurospin-dobbiaco",
@@ -593,8 +407,8 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "7": {
-        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères et TotalEnergies France est à 2,25 €. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
-        "zone": "Dobbiaco → Val Pusteria → Bressanone, puis autoroute A22, A4, A21, A26, A10, A8, A9",
+        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
+        "zone": "Retour : Dobbiaco / Toblach → autoroute A22, A4, A21, A26, A10, A8, A9",
         "magasins": [
           {
             "lieu": "courses-conad-savone",
@@ -607,6 +421,10 @@
             "note": "Jeudi : 07:30–12:30 et 14:30–19:30"
           },
           {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Jeudi : 06:00–20:00"
+          },
+          {
             "lieu": "carburant-eni-savona-stalingrado",
             "note": "Jeudi : non communiqué au MIMIT"
           }
@@ -615,11 +433,11 @@
     },
     "8-jours": {
       "1": {
-        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L) : les stations d’autoroute sont plus chères. Arrivée vers 19 h 30 : la Coop de Finale est ouverte jusqu’à 21 h pour le dîner ; l’Eni de Finale (2,19 €) ferme à 19 h, plein le lendemain matin.",
+        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L). Premier passage en caisse au Conad de Loano, avec Prince, avant l’agricamping : provisions jusqu’à la prochaine base.",
         "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
         "magasins": [
           {
-            "lieu": "courses-coop-finale",
+            "lieu": "courses-conad-loano",
             "note": "Vendredi : 8h00–21h00"
           }
         ],
@@ -631,58 +449,111 @@
         ],
         "eau": [
           {
-            "nom": "Camping Tahiti — eau des sanitaires",
+            "nom": "La Pietra e l’Ulivo — eau",
             "gps": [
-              44.17574,
-              8.34955
+              44.14807223,
+              8.27046714
             ],
-            "note": "Eau au camping, comprise dans la nuitée."
-          },
-          {
-            "nom": "Fontaine publique Finale Ligure (bord de mer)",
-            "gps": [
-              44.16998,
-              8.34949
-            ],
-            "note": "OSM amenity=drinking_water, 24/7, 600 m du camping.",
-            "source": "https://www.openstreetmap.org/node/639637221"
+            "note": "Eau au compteur (0,01 €/L), sanitaires gratuits."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Tahiti — laverie",
-            "note": "Laverie au camping (tarif non publié)."
-          },
-          {
-            "nom": "Lavagettone — laverie libre-service",
-            "gps": [
-              44.17137,
-              8.35302
-            ],
-            "adresse": "Via Giovanni Porro 6, Finale Ligure",
-            "horaires": "8h–22h (OSM)",
-            "source": "https://www.openstreetmap.org/node/4227249248"
+            "nom": "La Pietra e l’Ulivo — lave-linge et sèche-linge",
+            "note": "Sur place (tarif non publié)."
           }
         ],
-        "douche": "Douches chaudes gratuites au camping."
+        "douche": "Douches chaudes gratuites à l’agricamping."
       },
       "2": {
-        "conseil": "Grand ravitaillement avec Prince au Conad Superstore de Savone (chiens admis, 8 h 30) pour les jours 2 à 4 : la ferme du Val di Funes est loin des supermarchés. Plein à l’Eni voisine avant l’autoroute.",
-        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Varna sans autoroute",
+        "conseil": "Plein à l’Eni de Finale (2,19 €) avant l’autoroute. Pas de courses : les provisions de Loano couvrent la ferme, loin des supermarchés.",
+        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Val di Funes sans autoroute",
         "magasins": [
           {
-            "lieu": "courses-conad-savone",
-            "note": "Samedi : 8h30–20h30"
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Samedi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-savona-stalingrado",
+            "lieu": "carburant-eni-finale",
+            "note": "Samedi : 07:30–12:30"
+          },
+          {
+            "lieu": "carburant-eni-chiusa",
             "note": "Samedi : non communiqué au MIMIT"
           },
           {
-            "lieu": "carburant-eni-finale",
-            "note": "Samedi : 07:30–12:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Samedi : 06:00–13:30"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
+          }
+        ],
+        "laverie": [],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "3": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
+        "magasins": [
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Dimanche : 9h00–19h30"
+          },
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Dimanche : 8h00–20h00"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-chiusa",
+            "note": "Dimanche : non communiqué au MIMIT"
+          },
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Dimanche : fermé (personnel)"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
+          }
+        ],
+        "laverie": [],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "4": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Santa Maddalena / Funes → Varna / Vahrn",
+        "magasins": [
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Lundi : 8h00–21h00"
+          },
+          {
+            "lieu": "courses-conad-city-varna",
+            "note": "Lundi : 8h00–19h30"
+          },
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Lundi : 8h00–19h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Lundi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Lundi : 07:00–12:30 et 13:30–19:00"
           }
         ],
         "eau": [
@@ -712,81 +583,9 @@
         ],
         "douche": "Douches chaudes au camping, incluses."
       },
-      "3": {
-        "conseil": "Pas de courses prévues : les réserves viennent de Savone. Dépannage au supermarché le plus proche seulement si besoin (Bressanone, à 25 min de la ferme).",
-        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
-        "magasins": [
-          {
-            "lieu": "courses-eurospar-bressanone",
-            "note": "Dimanche : 9h00–19h30"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Dimanche : fermé (personnel)"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Dimanche : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Dimanche : horaires non publiés"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
-            "note": "Dimanche : fermé (personnel)"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Ferme Zum Gletscher Hons",
-            "note": "Eau et services compris dans la nuit (42 €)."
-          }
-        ],
-        "laverie": [],
-        "douche": "Douches chaudes au camping, incluses."
-      },
-      "4": {
-        "conseil": "Pas de courses prévues : les réserves viennent de Savone. Dépannage au supermarché le plus proche seulement si besoin (Bressanone, à 25 min de la ferme).",
-        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
-        "magasins": [
-          {
-            "lieu": "courses-eurospar-bressanone",
-            "note": "Lundi : 8h00–19h30"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Lundi : 06:00–20:00"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Lundi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Lundi : non communiqués au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
-            "note": "Lundi : 07:00–12:30 et 13:30–19:00"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Ferme Zum Gletscher Hons",
-            "note": "Eau et services compris dans la nuit (42 €)."
-          }
-        ],
-        "laverie": [],
-        "douche": "Douches chaudes au camping, incluses."
-      },
       "5": {
-        "conseil": "Courses avant de quitter la base (Lidl de Varna) ou à Dobbiaco à l’arrivée (Eurospin, discount).",
-        "zone": "Varna → Val Pusteria → Anterselva → Dobbiaco",
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce mardi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Varna / Vahrn → Dobbiaco / Toblach",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
@@ -834,8 +633,8 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "6": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base est Dobbiaco (camping Olympia)",
         "magasins": [
           {
             "lieu": "courses-eurospin-dobbiaco",
@@ -875,49 +674,62 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "7": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce jeudi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Dobbiaco / Toblach → Varna / Vahrn",
         "magasins": [
           {
-            "lieu": "courses-eurospin-dobbiaco",
-            "note": "Jeudi : 8h30–19h00"
+            "lieu": "courses-lidl-varna",
+            "note": "Jeudi : 8h00–21h00"
           },
           {
-            "lieu": "courses-despar-dobbiaco",
-            "note": "Jeudi : 8h30–12h et 15h–19h"
+            "lieu": "courses-conad-city-varna",
+            "note": "Jeudi : 8h00–19h30"
           },
           {
-            "lieu": "courses-conad-dobbiaco",
-            "note": "Jeudi : 8h00–19h00"
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Jeudi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Jeudi : 07:30–12:30 et 14:30–19:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Jeudi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Jeudi : 07:00–12:30 et 13:30–19:00"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Olympia — eau",
+            "nom": "Camping Vahrner See — eau des sanitaires",
             "gps": [
-              46.73461,
-              12.1941
+              46.76148,
+              11.63452
             ],
-            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
+            "note": "Comprise dans la nuitée."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Olympia — laverie payante",
-            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
           }
         ],
-        "douche": "Douches chauffées au camping (douche pour chiens)."
+        "douche": "Douches chaudes au camping, incluses."
       },
       "8": {
-        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères et TotalEnergies France est à 2,25 €. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
-        "zone": "Dobbiaco → Val Pusteria → Bressanone, puis autoroute A22, A4, A21, A26, A10, A8, A9",
+        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
+        "zone": "Retour : Varna / Vahrn → autoroute A22, A4, A21, A26, A10, A8, A9",
         "magasins": [
           {
             "lieu": "courses-conad-savone",
@@ -926,8 +738,8 @@
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Vendredi : 07:30–12:30 et 14:30–19:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Vendredi : 06:00–20:00"
           },
           {
             "lieu": "carburant-eni-savona-stalingrado",
@@ -938,11 +750,11 @@
     },
     "10-jours": {
       "1": {
-        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L) : les stations d’autoroute sont plus chères. Arrivée vers 19 h 30 : la Coop de Finale est ouverte jusqu’à 21 h pour le dîner ; l’Eni de Finale (2,19 €) ferme à 19 h, plein le lendemain matin.",
+        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L). Premier passage en caisse au Conad de Loano, avec Prince, avant l’agricamping : provisions jusqu’à la prochaine base.",
         "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
         "magasins": [
           {
-            "lieu": "courses-coop-finale",
+            "lieu": "courses-conad-loano",
             "note": "Vendredi : 8h00–21h00"
           }
         ],
@@ -954,226 +766,121 @@
         ],
         "eau": [
           {
-            "nom": "Camping Tahiti — eau des sanitaires",
+            "nom": "La Pietra e l’Ulivo — eau",
             "gps": [
-              44.17574,
-              8.34955
+              44.14807223,
+              8.27046714
             ],
-            "note": "Eau au camping, comprise dans la nuitée."
-          },
-          {
-            "nom": "Fontaine publique Finale Ligure (bord de mer)",
-            "gps": [
-              44.16998,
-              8.34949
-            ],
-            "note": "OSM amenity=drinking_water, 24/7, 600 m du camping.",
-            "source": "https://www.openstreetmap.org/node/639637221"
+            "note": "Eau au compteur (0,01 €/L), sanitaires gratuits."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Tahiti — laverie",
-            "note": "Laverie au camping (tarif non publié)."
-          },
-          {
-            "nom": "Lavagettone — laverie libre-service",
-            "gps": [
-              44.17137,
-              8.35302
-            ],
-            "adresse": "Via Giovanni Porro 6, Finale Ligure",
-            "horaires": "8h–22h (OSM)",
-            "source": "https://www.openstreetmap.org/node/4227249248"
+            "nom": "La Pietra e l’Ulivo — lave-linge et sèche-linge",
+            "note": "Sur place (tarif non publié)."
           }
         ],
-        "douche": "Douches chaudes gratuites au camping."
+        "douche": "Douches chaudes gratuites à l’agricamping."
       },
       "2": {
-        "conseil": "Grand ravitaillement avec Prince au Conad Superstore de Savone (chiens admis, 8 h 30) et plein à l’Eni voisine avant l’autoroute. Après la Ligurie, plus aucun magasin trouvé qui admette un chien de 20–25 kg : compléments au Lidl de Varna à l’arrivée, à tour de rôle.",
-        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Varna sans autoroute",
+        "conseil": "Plein à l’Eni de Finale (2,19 €) avant l’autoroute. Pas de courses : les provisions de Loano couvrent la ferme, loin des supermarchés.",
+        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Val di Funes sans autoroute",
         "magasins": [
           {
-            "lieu": "courses-conad-savone",
-            "note": "Samedi : 8h30–20h30"
-          },
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Samedi : 8h00–21h00"
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Samedi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-savona-stalingrado",
+            "lieu": "carburant-eni-finale",
+            "note": "Samedi : 07:30–12:30"
+          },
+          {
+            "lieu": "carburant-eni-chiusa",
             "note": "Samedi : non communiqué au MIMIT"
           },
           {
-            "lieu": "carburant-eni-finale",
-            "note": "Samedi : 07:30–12:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Samedi : 06:00–13:30"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "3": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
         "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Dimanche : 8h00–20h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Dimanche : 10h00–18h00"
-          },
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Dimanche : 9h00–19h30"
           },
           {
-            "lieu": "courses-conad-bressanone",
-            "note": "Dimanche : fermé"
+            "lieu": "courses-lidl-varna",
+            "note": "Dimanche : 8h00–20h00"
           }
         ],
         "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Dimanche : fermé (personnel)"
-          },
           {
             "lieu": "carburant-eni-chiusa",
             "note": "Dimanche : non communiqué au MIMIT"
           },
           {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Dimanche : horaires non publiés"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
+            "lieu": "carburant-eni-bressanone",
             "note": "Dimanche : fermé (personnel)"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "4": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
         "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Lundi : 8h00–21h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Lundi : 8h00–19h30"
-          },
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Lundi : 8h00–19h30"
           },
           {
-            "lieu": "courses-conad-bressanone",
-            "note": "Lundi : 7h30–19h30"
+            "lieu": "courses-lidl-varna",
+            "note": "Lundi : 8h00–21h00"
           }
         ],
         "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Lundi : 06:00–20:00"
-          },
           {
             "lieu": "carburant-eni-chiusa",
             "note": "Lundi : non communiqué au MIMIT"
           },
           {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Lundi : non communiqués au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
-            "note": "Lundi : 07:00–12:30 et 13:30–19:00"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Lundi : 06:00–20:00"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
           }
         ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
+        "laverie": [],
         "douche": "Douches chaudes au camping, incluses."
       },
       "5": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Santa Maddalena / Funes → Varna / Vahrn",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
@@ -1186,24 +893,12 @@
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Mardi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Mardi : 7h30–19h30"
           }
         ],
         "stations": [
           {
             "lieu": "carburant-eni-bressanone",
             "note": "Mardi : 06:00–20:00"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Mardi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Mardi : non communiqués au MIMIT"
           },
           {
             "lieu": "carburant-eni-bressanone-lahner",
@@ -1238,8 +933,8 @@
         "douche": "Douches chaudes au camping, incluses."
       },
       "6": {
-        "conseil": "Courses avant de quitter la base (Lidl de Varna) ou à Dobbiaco à l’arrivée (Eurospin, discount).",
-        "zone": "Varna → Val Pusteria → Anterselva → Dobbiaco",
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce mercredi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Varna / Vahrn → Dobbiaco / Toblach",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
@@ -1287,8 +982,8 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "7": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base est Dobbiaco (camping Olympia)",
         "magasins": [
           {
             "lieu": "courses-eurospin-dobbiaco",
@@ -1328,8 +1023,8 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "8": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base est Dobbiaco (camping Olympia)",
         "magasins": [
           {
             "lieu": "courses-eurospin-dobbiaco",
@@ -1369,8 +1064,424 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "9": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce samedi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Dobbiaco / Toblach → Varna / Vahrn",
+        "magasins": [
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Samedi : 8h00–21h00"
+          },
+          {
+            "lieu": "courses-conad-city-varna",
+            "note": "Samedi : 8h00–19h00"
+          },
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Samedi : 8h00–19h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Samedi : 06:00–13:30"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Samedi : 08:00–12:30 et 13:30–17:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Camping Vahrner See — eau des sanitaires",
+            "gps": [
+              46.76148,
+              11.63452
+            ],
+            "note": "Comprise dans la nuitée."
+          }
+        ],
+        "laverie": [
+          {
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
+          }
+        ],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "10": {
+        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
+        "zone": "Retour : Varna / Vahrn → autoroute A22, A4, A21, A26, A10, A8, A9",
+        "magasins": [
+          {
+            "lieu": "courses-conad-savone",
+            "note": "Dimanche : 8h30–20h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Dimanche : fermé (personnel)"
+          },
+          {
+            "lieu": "carburant-eni-savona-stalingrado",
+            "note": "Dimanche : non communiqué au MIMIT"
+          }
+        ]
+      }
+    },
+    "14-jours": {
+      "1": {
+        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L). Premier passage en caisse au Conad de Loano, avec Prince, avant l’agricamping : provisions jusqu’à la prochaine base.",
+        "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
+        "magasins": [
+          {
+            "lieu": "courses-conad-loano",
+            "note": "Vendredi : 8h00–21h00"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-finale",
+            "note": "Vendredi : 07:30–12:30 et 15:00–19:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "La Pietra e l’Ulivo — eau",
+            "gps": [
+              44.14807223,
+              8.27046714
+            ],
+            "note": "Eau au compteur (0,01 €/L), sanitaires gratuits."
+          }
+        ],
+        "laverie": [
+          {
+            "nom": "La Pietra e l’Ulivo — lave-linge et sèche-linge",
+            "note": "Sur place (tarif non publié)."
+          }
+        ],
+        "douche": "Douches chaudes gratuites à l’agricamping."
+      },
+      "2": {
+        "conseil": "Plein à l’Eni de Finale (2,19 €) avant l’autoroute. Pas de courses : les provisions de Loano couvrent la ferme, loin des supermarchés.",
+        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Val di Funes sans autoroute",
+        "magasins": [
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Samedi : 8h00–19h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-finale",
+            "note": "Samedi : 07:30–12:30"
+          },
+          {
+            "lieu": "carburant-eni-chiusa",
+            "note": "Samedi : non communiqué au MIMIT"
+          },
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Samedi : 06:00–13:30"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
+          }
+        ],
+        "laverie": [],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "3": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
+        "magasins": [
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Dimanche : 9h00–19h30"
+          },
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Dimanche : 8h00–20h00"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-chiusa",
+            "note": "Dimanche : non communiqué au MIMIT"
+          },
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Dimanche : fermé (personnel)"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
+          }
+        ],
+        "laverie": [],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "4": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
+        "magasins": [
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Lundi : 8h00–19h30"
+          },
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Lundi : 8h00–21h00"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-chiusa",
+            "note": "Lundi : non communiqué au MIMIT"
+          },
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Lundi : 06:00–20:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
+          }
+        ],
+        "laverie": [],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "5": {
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce mardi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Santa Maddalena / Funes → Varna / Vahrn",
+        "magasins": [
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Mardi : 8h00–21h00"
+          },
+          {
+            "lieu": "courses-conad-city-varna",
+            "note": "Mardi : 8h00–19h30"
+          },
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Mardi : 8h00–19h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Mardi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Mardi : 07:00–12:30 et 13:30–19:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Camping Vahrner See — eau des sanitaires",
+            "gps": [
+              46.76148,
+              11.63452
+            ],
+            "note": "Comprise dans la nuitée."
+          }
+        ],
+        "laverie": [
+          {
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
+          }
+        ],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "6": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
+        "magasins": [
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Mercredi : 8h00–21h00"
+          },
+          {
+            "lieu": "courses-conad-city-varna",
+            "note": "Mercredi : 8h00–19h30"
+          },
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Mercredi : 8h00–19h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Mercredi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Mercredi : 07:00–12:30 et 13:30–19:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Camping Vahrner See — eau des sanitaires",
+            "gps": [
+              46.76148,
+              11.63452
+            ],
+            "note": "Comprise dans la nuitée."
+          }
+        ],
+        "laverie": [
+          {
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
+          }
+        ],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "7": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
+        "magasins": [
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Jeudi : 8h00–21h00"
+          },
+          {
+            "lieu": "courses-conad-city-varna",
+            "note": "Jeudi : 8h00–19h30"
+          },
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Jeudi : 8h00–19h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Jeudi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Jeudi : 07:00–12:30 et 13:30–19:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Camping Vahrner See — eau des sanitaires",
+            "gps": [
+              46.76148,
+              11.63452
+            ],
+            "note": "Comprise dans la nuitée."
+          }
+        ],
+        "laverie": [
+          {
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
+          }
+        ],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "8": {
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce vendredi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Varna / Vahrn → Dobbiaco / Toblach",
+        "magasins": [
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Vendredi : 8h00–21h00"
+          },
+          {
+            "lieu": "courses-eurospin-dobbiaco",
+            "note": "Vendredi : 8h30–19h00"
+          },
+          {
+            "lieu": "courses-despar-dobbiaco",
+            "note": "Vendredi : 8h30–12h et 15h–19h"
+          },
+          {
+            "lieu": "courses-conad-dobbiaco",
+            "note": "Vendredi : 8h00–19h00"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Vendredi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-dobbiaco",
+            "note": "Vendredi : 07:30–12:30 et 14:30–19:30"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Camping Olympia — eau",
+            "gps": [
+              46.73461,
+              12.1941
+            ],
+            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
+          }
+        ],
+        "laverie": [
+          {
+            "nom": "Camping Olympia — laverie payante",
+            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
+          }
+        ],
+        "douche": "Douches chauffées au camping (douche pour chiens)."
+      },
+      "9": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base est Dobbiaco (camping Olympia)",
         "magasins": [
           {
             "lieu": "courses-eurospin-dobbiaco",
@@ -1410,551 +1521,9 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "10": {
-        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères et TotalEnergies France est à 2,25 €. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis). Dimanche : Eni Dobbiaco fermée, faire le plein la veille.",
-        "zone": "Dobbiaco → Val Pusteria → Bressanone, puis autoroute A22, A4, A21, A26, A10, A8, A9",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent. Dimanche : tous les magasins de Dobbiaco sont fermés.",
+        "zone": "Base est Dobbiaco (camping Olympia)",
         "magasins": [
-          {
-            "lieu": "courses-conad-savone",
-            "note": "Dimanche : 8h30–20h30"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Dimanche : fermé (personnel)"
-          },
-          {
-            "lieu": "carburant-eni-savona-stalingrado",
-            "note": "Dimanche : non communiqué au MIMIT"
-          }
-        ]
-      }
-    },
-    "14-jours": {
-      "1": {
-        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L) : les stations d’autoroute sont plus chères. Arrivée vers 19 h 30 : la Coop de Finale est ouverte jusqu’à 21 h pour le dîner ; l’Eni de Finale (2,19 €) ferme à 19 h, plein le lendemain matin.",
-        "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
-        "magasins": [
-          {
-            "lieu": "courses-coop-finale",
-            "note": "Vendredi : 8h00–21h00"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-finale",
-            "note": "Vendredi : 07:30–12:30 et 15:00–19:00"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Tahiti — eau des sanitaires",
-            "gps": [
-              44.17574,
-              8.34955
-            ],
-            "note": "Eau au camping, comprise dans la nuitée."
-          },
-          {
-            "nom": "Fontaine publique Finale Ligure (bord de mer)",
-            "gps": [
-              44.16998,
-              8.34949
-            ],
-            "note": "OSM amenity=drinking_water, 24/7, 600 m du camping.",
-            "source": "https://www.openstreetmap.org/node/639637221"
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Tahiti — laverie",
-            "note": "Laverie au camping (tarif non publié)."
-          },
-          {
-            "nom": "Lavagettone — laverie libre-service",
-            "gps": [
-              44.17137,
-              8.35302
-            ],
-            "adresse": "Via Giovanni Porro 6, Finale Ligure",
-            "horaires": "8h–22h (OSM)",
-            "source": "https://www.openstreetmap.org/node/4227249248"
-          }
-        ],
-        "douche": "Douches chaudes gratuites au camping."
-      },
-      "2": {
-        "conseil": "Grand ravitaillement avec Prince au Conad Superstore de Savone (chiens admis, 8 h 30) et plein à l’Eni voisine avant l’autoroute. Après la Ligurie, plus aucun magasin trouvé qui admette un chien de 20–25 kg : compléments au Lidl de Varna à l’arrivée, à tour de rôle.",
-        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Varna sans autoroute",
-        "magasins": [
-          {
-            "lieu": "courses-conad-savone",
-            "note": "Samedi : 8h30–20h30"
-          },
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Samedi : 8h00–21h00"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-savona-stalingrado",
-            "note": "Samedi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-finale",
-            "note": "Samedi : 07:30–12:30"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
-        "douche": "Douches chaudes au camping, incluses."
-      },
-      "3": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
-        "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Dimanche : 8h00–20h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Dimanche : 10h00–18h00"
-          },
-          {
-            "lieu": "courses-eurospar-bressanone",
-            "note": "Dimanche : 9h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Dimanche : fermé"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Dimanche : fermé (personnel)"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Dimanche : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Dimanche : horaires non publiés"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
-            "note": "Dimanche : fermé (personnel)"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
-        "douche": "Douches chaudes au camping, incluses."
-      },
-      "4": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
-        "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Lundi : 8h00–21h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Lundi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-eurospar-bressanone",
-            "note": "Lundi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Lundi : 7h30–19h30"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Lundi : 06:00–20:00"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Lundi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Lundi : non communiqués au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
-            "note": "Lundi : 07:00–12:30 et 13:30–19:00"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
-        "douche": "Douches chaudes au camping, incluses."
-      },
-      "5": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
-        "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Mardi : 8h00–21h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Mardi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-eurospar-bressanone",
-            "note": "Mardi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Mardi : 7h30–19h30"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Mardi : 06:00–20:00"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Mardi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Mardi : non communiqués au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
-            "note": "Mardi : 07:00–12:30 et 13:30–19:00"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
-        "douche": "Douches chaudes au camping, incluses."
-      },
-      "6": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
-        "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Mercredi : 8h00–21h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Mercredi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-eurospar-bressanone",
-            "note": "Mercredi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Mercredi : 7h30–19h30"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Mercredi : 06:00–20:00"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Mercredi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Mercredi : non communiqués au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
-            "note": "Mercredi : 07:00–12:30 et 13:30–19:00"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
-        "douche": "Douches chaudes au camping, incluses."
-      },
-      "7": {
-        "conseil": "Plein à l’Eni de Chiusa ou de Santa Cristina avant les cols : en Alta Badia, seule l’Eni de Pedraces est à 2,19 €. Courses au Lidl de Varna avant de partir, ou au Conad de Corvara à l’arrivée.",
-        "zone": "Varna → Val Gardena → Alta Badia",
-        "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Jeudi : 8h00–21h00"
-          },
-          {
-            "lieu": "courses-conad-city-corvara",
-            "note": "Jeudi : 8h00–19h00"
-          },
-          {
-            "lieu": "courses-despar-la-villa",
-            "note": "Jeudi : 8h00–19h30"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Jeudi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Jeudi : non communiqués au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-badia",
-            "note": "Jeudi : 08:00–12:00 et 14:30–18:00"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Sass Dlacia — eau",
-            "gps": [
-              46.5541,
-              11.96999
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Sass Dlacia — laverie à jetons",
-            "note": "Selon la fiche du dépôt."
-          },
-          {
-            "nom": "Lava Più — laverie libre-service Corvara",
-            "gps": [
-              46.55808,
-              11.8787
-            ],
-            "horaires": "7 j/7 8h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/12105935740"
-          }
-        ],
-        "douche": "Douches au camping."
-      },
-      "8": {
-        "conseil": "Minimarché du camping pour le quotidien ; courses à tour de rôle à La Villa ou Corvara.",
-        "zone": "Base Alta Badia (San Cassiano)",
-        "magasins": [
-          {
-            "lieu": "courses-despar-la-villa",
-            "note": "Vendredi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-city-corvara",
-            "note": "Vendredi : 8h00–19h00"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-badia",
-            "note": "Vendredi : 08:00–12:00 et 14:30–18:00"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Sass Dlacia — eau",
-            "gps": [
-              46.5541,
-              11.96999
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Sass Dlacia — laverie à jetons",
-            "note": "Selon la fiche du dépôt."
-          },
-          {
-            "nom": "Lava Più — laverie libre-service Corvara",
-            "gps": [
-              46.55808,
-              11.8787
-            ],
-            "horaires": "7 j/7 8h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/12105935740"
-          }
-        ],
-        "douche": "Douches au camping."
-      },
-      "9": {
-        "conseil": "Minimarché du camping pour le quotidien ; courses à tour de rôle à La Villa ou Corvara.",
-        "zone": "Base Alta Badia (San Cassiano)",
-        "magasins": [
-          {
-            "lieu": "courses-despar-la-villa",
-            "note": "Samedi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-city-corvara",
-            "note": "Samedi : 8h00–19h00"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-badia",
-            "note": "Samedi : 08:00–12:00 et 14:30–18:00"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Sass Dlacia — eau",
-            "gps": [
-              46.5541,
-              11.96999
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Sass Dlacia — laverie à jetons",
-            "note": "Selon la fiche du dépôt."
-          },
-          {
-            "nom": "Lava Più — laverie libre-service Corvara",
-            "gps": [
-              46.55808,
-              11.8787
-            ],
-            "horaires": "7 j/7 8h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/12105935740"
-          }
-        ],
-        "douche": "Douches au camping."
-      },
-      "10": {
-        "conseil": "Aujourd’hui dimanche : tous les magasins de Dobbiaco sont fermés. Courses avant de partir : Conad de Corvara ou Despar de La Villa (ouverts le dimanche).",
-        "zone": "Alta Badia → Val Badia → Brunico → Anterselva → Dobbiaco",
-        "magasins": [
-          {
-            "lieu": "courses-conad-city-corvara",
-            "note": "Dimanche : 9h00–19h00"
-          },
           {
             "lieu": "courses-eurospin-dobbiaco",
             "note": "Dimanche : fermé"
@@ -1969,10 +1538,6 @@
           }
         ],
         "stations": [
-          {
-            "lieu": "carburant-eni-badia",
-            "note": "Dimanche : 08:00–12:00 et 14:30–18:00"
-          },
           {
             "lieu": "carburant-eni-dobbiaco",
             "note": "Dimanche : fermé (personnel)"
@@ -1997,321 +1562,8 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "11": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
-        "magasins": [
-          {
-            "lieu": "courses-eurospin-dobbiaco",
-            "note": "Lundi : 8h30–19h00"
-          },
-          {
-            "lieu": "courses-despar-dobbiaco",
-            "note": "Lundi : 8h30–12h et 15h–19h"
-          },
-          {
-            "lieu": "courses-conad-dobbiaco",
-            "note": "Lundi : 8h00–19h00"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Lundi : 07:30–12:30 et 14:30–19:30"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Olympia — eau",
-            "gps": [
-              46.73461,
-              12.1941
-            ],
-            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Olympia — laverie payante",
-            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
-          }
-        ],
-        "douche": "Douches chauffées au camping (douche pour chiens)."
-      },
-      "12": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
-        "magasins": [
-          {
-            "lieu": "courses-eurospin-dobbiaco",
-            "note": "Mardi : 8h30–19h00"
-          },
-          {
-            "lieu": "courses-despar-dobbiaco",
-            "note": "Mardi : 8h30–12h et 15h–19h"
-          },
-          {
-            "lieu": "courses-conad-dobbiaco",
-            "note": "Mardi : 8h00–19h00"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Mardi : 07:30–12:30 et 14:30–19:30"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Olympia — eau",
-            "gps": [
-              46.73461,
-              12.1941
-            ],
-            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Olympia — laverie payante",
-            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
-          }
-        ],
-        "douche": "Douches chauffées au camping (douche pour chiens)."
-      },
-      "13": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
-        "magasins": [
-          {
-            "lieu": "courses-eurospin-dobbiaco",
-            "note": "Mercredi : 8h30–19h00"
-          },
-          {
-            "lieu": "courses-despar-dobbiaco",
-            "note": "Mercredi : 8h30–12h et 15h–19h"
-          },
-          {
-            "lieu": "courses-conad-dobbiaco",
-            "note": "Mercredi : 8h00–19h00"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Mercredi : 07:30–12:30 et 14:30–19:30"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Olympia — eau",
-            "gps": [
-              46.73461,
-              12.1941
-            ],
-            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Olympia — laverie payante",
-            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
-          }
-        ],
-        "douche": "Douches chauffées au camping (douche pour chiens)."
-      },
-      "14": {
-        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères et TotalEnergies France est à 2,25 €. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
-        "zone": "Dobbiaco → Val Pusteria → Bressanone, puis autoroute A22, A4, A21, A26, A10, A8, A9",
-        "magasins": [
-          {
-            "lieu": "courses-conad-savone",
-            "note": "Jeudi : 8h30–20h30"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Jeudi : 07:30–12:30 et 14:30–19:30"
-          },
-          {
-            "lieu": "carburant-eni-savona-stalingrado",
-            "note": "Jeudi : non communiqué au MIMIT"
-          }
-        ]
-      }
-    },
-    "16-jours": {
-      "1": {
-        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L) : les stations d’autoroute sont plus chères. Arrivée vers 19 h 30 : la Coop de Finale est ouverte jusqu’à 21 h pour le dîner ; l’Eni de Finale (2,19 €) ferme à 19 h, plein le lendemain matin.",
-        "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
-        "magasins": [
-          {
-            "lieu": "courses-coop-finale",
-            "note": "Vendredi : 8h00–21h00"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-finale",
-            "note": "Vendredi : 07:30–12:30 et 15:00–19:00"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Tahiti — eau des sanitaires",
-            "gps": [
-              44.17574,
-              8.34955
-            ],
-            "note": "Eau au camping, comprise dans la nuitée."
-          },
-          {
-            "nom": "Fontaine publique Finale Ligure (bord de mer)",
-            "gps": [
-              44.16998,
-              8.34949
-            ],
-            "note": "OSM amenity=drinking_water, 24/7, 600 m du camping.",
-            "source": "https://www.openstreetmap.org/node/639637221"
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Tahiti — laverie",
-            "note": "Laverie au camping (tarif non publié)."
-          },
-          {
-            "nom": "Lavagettone — laverie libre-service",
-            "gps": [
-              44.17137,
-              8.35302
-            ],
-            "adresse": "Via Giovanni Porro 6, Finale Ligure",
-            "horaires": "8h–22h (OSM)",
-            "source": "https://www.openstreetmap.org/node/4227249248"
-          }
-        ],
-        "douche": "Douches chaudes gratuites au camping."
-      },
-      "2": {
-        "conseil": "Grand ravitaillement avec Prince au Conad Superstore de Savone (chiens admis, 8 h 30) et plein à l’Eni voisine avant l’autoroute. Après la Ligurie, plus aucun magasin trouvé qui admette un chien de 20–25 kg : compléments au Lidl de Varna à l’arrivée, à tour de rôle.",
-        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Varna sans autoroute",
-        "magasins": [
-          {
-            "lieu": "courses-conad-savone",
-            "note": "Samedi : 8h30–20h30"
-          },
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Samedi : 8h00–21h00"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-savona-stalingrado",
-            "note": "Samedi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-finale",
-            "note": "Samedi : 07:30–12:30"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
-        "douche": "Douches chaudes au camping, incluses."
-      },
-      "3": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
-        "magasins": [
-          {
-            "lieu": "courses-lidl-varna",
-            "note": "Dimanche : 8h00–20h00"
-          },
-          {
-            "lieu": "courses-conad-city-varna",
-            "note": "Dimanche : 10h00–18h00"
-          },
-          {
-            "lieu": "courses-eurospar-bressanone",
-            "note": "Dimanche : 9h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Dimanche : fermé"
-          }
-        ],
-        "stations": [
-          {
-            "lieu": "carburant-eni-bressanone",
-            "note": "Dimanche : fermé (personnel)"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Dimanche : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Dimanche : horaires non publiés"
-          },
-          {
-            "lieu": "carburant-eni-bressanone-lahner",
-            "note": "Dimanche : fermé (personnel)"
-          }
-        ],
-        "eau": [
-          {
-            "nom": "Camping Vahrner See — eau des sanitaires",
-            "gps": [
-              46.76148,
-              11.63452
-            ],
-            "note": "Comprise dans la nuitée."
-          }
-        ],
-        "laverie": [
-          {
-            "nom": "Camping Vahrner See — lave-linge",
-            "note": "Signalé par suedtirol.info ; tarif non publié."
-          },
-          {
-            "nom": "Ecozon — laverie libre-service Bressanone",
-            "gps": [
-              46.71599,
-              11.65208
-            ],
-            "horaires": "6h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/1930821706"
-          }
-        ],
-        "douche": "Douches chaudes au camping, incluses."
-      },
-      "4": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce lundi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Dobbiaco / Toblach → Varna / Vahrn",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
@@ -2324,24 +1576,12 @@
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Lundi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Lundi : 7h30–19h30"
           }
         ],
         "stations": [
           {
             "lieu": "carburant-eni-bressanone",
             "note": "Lundi : 06:00–20:00"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Lundi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Lundi : non communiqués au MIMIT"
           },
           {
             "lieu": "carburant-eni-bressanone-lahner",
@@ -2375,9 +1615,9 @@
         ],
         "douche": "Douches chaudes au camping, incluses."
       },
-      "5": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+      "12": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
@@ -2390,10 +1630,6 @@
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Mardi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Mardi : 7h30–19h30"
           }
         ],
         "stations": [
@@ -2402,12 +1638,263 @@
             "note": "Mardi : 06:00–20:00"
           },
           {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Mardi : non communiqué au MIMIT"
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Mardi : 07:00–12:30 et 13:30–19:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Camping Vahrner See — eau des sanitaires",
+            "gps": [
+              46.76148,
+              11.63452
+            ],
+            "note": "Comprise dans la nuitée."
+          }
+        ],
+        "laverie": [
+          {
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
           },
           {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Mardi : non communiqués au MIMIT"
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
+          }
+        ],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "13": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
+        "magasins": [
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Mercredi : 8h00–21h00"
+          },
+          {
+            "lieu": "courses-conad-city-varna",
+            "note": "Mercredi : 8h00–19h30"
+          },
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Mercredi : 8h00–19h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Mercredi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Mercredi : 07:00–12:30 et 13:30–19:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Camping Vahrner See — eau des sanitaires",
+            "gps": [
+              46.76148,
+              11.63452
+            ],
+            "note": "Comprise dans la nuitée."
+          }
+        ],
+        "laverie": [
+          {
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
+          }
+        ],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "14": {
+        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
+        "zone": "Retour : Varna / Vahrn → autoroute A22, A4, A21, A26, A10, A8, A9",
+        "magasins": [
+          {
+            "lieu": "courses-conad-savone",
+            "note": "Jeudi : 8h30–20h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Jeudi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-savona-stalingrado",
+            "note": "Jeudi : non communiqué au MIMIT"
+          }
+        ]
+      }
+    },
+    "16-jours": {
+      "1": {
+        "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L). Premier passage en caisse au Conad de Loano, avec Prince, avant l’agricamping : provisions jusqu’à la prochaine base.",
+        "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
+        "magasins": [
+          {
+            "lieu": "courses-conad-loano",
+            "note": "Vendredi : 8h00–21h00"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-finale",
+            "note": "Vendredi : 07:30–12:30 et 15:00–19:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "La Pietra e l’Ulivo — eau",
+            "gps": [
+              44.14807223,
+              8.27046714
+            ],
+            "note": "Eau au compteur (0,01 €/L), sanitaires gratuits."
+          }
+        ],
+        "laverie": [
+          {
+            "nom": "La Pietra e l’Ulivo — lave-linge et sèche-linge",
+            "note": "Sur place (tarif non publié)."
+          }
+        ],
+        "douche": "Douches chaudes gratuites à l’agricamping."
+      },
+      "2": {
+        "conseil": "Plein à l’Eni de Finale (2,19 €) avant l’autoroute. Pas de courses : les provisions de Loano couvrent la ferme, loin des supermarchés.",
+        "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Val di Funes sans autoroute",
+        "magasins": [
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Samedi : 8h00–19h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-finale",
+            "note": "Samedi : 07:30–12:30"
+          },
+          {
+            "lieu": "carburant-eni-chiusa",
+            "note": "Samedi : non communiqué au MIMIT"
+          },
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Samedi : 06:00–13:30"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
+          }
+        ],
+        "laverie": [],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "3": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
+        "magasins": [
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Dimanche : 9h00–19h30"
+          },
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Dimanche : 8h00–20h00"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-chiusa",
+            "note": "Dimanche : non communiqué au MIMIT"
+          },
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Dimanche : fermé (personnel)"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
+          }
+        ],
+        "laverie": [],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "4": {
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Val di Funes (ferme Zum Gletscher Hons)",
+        "magasins": [
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Lundi : 8h00–19h30"
+          },
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Lundi : 8h00–21h00"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-chiusa",
+            "note": "Lundi : non communiqué au MIMIT"
+          },
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Lundi : 06:00–20:00"
+          }
+        ],
+        "eau": [
+          {
+            "nom": "Ferme Zum Gletscher Hons",
+            "note": "Eau et services compris dans la nuit (42 €)."
+          }
+        ],
+        "laverie": [],
+        "douche": "Douches chaudes au camping, incluses."
+      },
+      "5": {
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce mardi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Santa Maddalena / Funes → Varna / Vahrn",
+        "magasins": [
+          {
+            "lieu": "courses-lidl-varna",
+            "note": "Mardi : 8h00–21h00"
+          },
+          {
+            "lieu": "courses-conad-city-varna",
+            "note": "Mardi : 8h00–19h30"
+          },
+          {
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Mardi : 8h00–19h30"
+          }
+        ],
+        "stations": [
+          {
+            "lieu": "carburant-eni-bressanone",
+            "note": "Mardi : 06:00–20:00"
           },
           {
             "lieu": "carburant-eni-bressanone-lahner",
@@ -2442,8 +1929,8 @@
         "douche": "Douches chaudes au camping, incluses."
       },
       "6": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
@@ -2456,24 +1943,12 @@
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Mercredi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Mercredi : 7h30–19h30"
           }
         ],
         "stations": [
           {
             "lieu": "carburant-eni-bressanone",
             "note": "Mercredi : 06:00–20:00"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Mercredi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Mercredi : non communiqués au MIMIT"
           },
           {
             "lieu": "carburant-eni-bressanone-lahner",
@@ -2508,8 +1983,8 @@
         "douche": "Douches chaudes au camping, incluses."
       },
       "7": {
-        "conseil": "Aucun magasin de la zone n’admet Prince : un adulte fait les courses au Lidl de Varna (3 km du camping, 7 j/7). Gazole : les Eni à 2,19 € ; les autres marques de la vallée affichent 2,40–2,46 €.",
-        "zone": "Base ouest Varna / Bressanone",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
@@ -2522,24 +1997,12 @@
           {
             "lieu": "courses-eurospar-bressanone",
             "note": "Jeudi : 8h00–19h30"
-          },
-          {
-            "lieu": "courses-conad-bressanone",
-            "note": "Jeudi : 7h30–19h30"
           }
         ],
         "stations": [
           {
             "lieu": "carburant-eni-bressanone",
             "note": "Jeudi : 06:00–20:00"
-          },
-          {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Jeudi : non communiqué au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Jeudi : non communiqués au MIMIT"
           },
           {
             "lieu": "carburant-eni-bressanone-lahner",
@@ -2574,163 +2037,153 @@
         "douche": "Douches chaudes au camping, incluses."
       },
       "8": {
-        "conseil": "Plein à l’Eni de Chiusa ou de Santa Cristina avant les cols : en Alta Badia, seule l’Eni de Pedraces est à 2,19 €. Courses au Lidl de Varna avant de partir, ou au Conad de Corvara à l’arrivée.",
-        "zone": "Varna → Val Gardena → Alta Badia",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
         "magasins": [
           {
             "lieu": "courses-lidl-varna",
             "note": "Vendredi : 8h00–21h00"
           },
           {
-            "lieu": "courses-conad-city-corvara",
-            "note": "Vendredi : 8h00–19h00"
+            "lieu": "courses-conad-city-varna",
+            "note": "Vendredi : 8h00–19h30"
           },
           {
-            "lieu": "courses-despar-la-villa",
+            "lieu": "courses-eurospar-bressanone",
             "note": "Vendredi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-chiusa",
-            "note": "Vendredi : non communiqué au MIMIT"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Vendredi : 06:00–20:00"
           },
           {
-            "lieu": "carburant-eni-santa-cristina",
-            "note": "Vendredi : non communiqués au MIMIT"
-          },
-          {
-            "lieu": "carburant-eni-badia",
-            "note": "Vendredi : 08:00–12:00 et 14:30–18:00"
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Vendredi : 07:00–12:30 et 13:30–19:00"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Sass Dlacia — eau",
+            "nom": "Camping Vahrner See — eau des sanitaires",
             "gps": [
-              46.5541,
-              11.96999
+              46.76148,
+              11.63452
             ],
             "note": "Comprise dans la nuitée."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Sass Dlacia — laverie à jetons",
-            "note": "Selon la fiche du dépôt."
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
           },
           {
-            "nom": "Lava Più — laverie libre-service Corvara",
+            "nom": "Ecozon — laverie libre-service Bressanone",
             "gps": [
-              46.55808,
-              11.8787
+              46.71599,
+              11.65208
             ],
-            "horaires": "7 j/7 8h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/12105935740"
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
           }
         ],
-        "douche": "Douches au camping."
+        "douche": "Douches chaudes au camping, incluses."
       },
       "9": {
-        "conseil": "Minimarché du camping pour le quotidien ; courses à tour de rôle à La Villa ou Corvara.",
-        "zone": "Base Alta Badia (San Cassiano)",
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce samedi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Varna / Vahrn → Dobbiaco / Toblach",
         "magasins": [
           {
-            "lieu": "courses-despar-la-villa",
-            "note": "Samedi : 8h00–19h30"
+            "lieu": "courses-lidl-varna",
+            "note": "Samedi : 8h00–21h00"
           },
           {
-            "lieu": "courses-conad-city-corvara",
+            "lieu": "courses-eurospin-dobbiaco",
+            "note": "Samedi : 8h30–19h00"
+          },
+          {
+            "lieu": "courses-despar-dobbiaco",
+            "note": "Samedi : 8h30–12h30"
+          },
+          {
+            "lieu": "courses-conad-dobbiaco",
             "note": "Samedi : 8h00–19h00"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-badia",
-            "note": "Samedi : 08:00–12:00 et 14:30–18:00"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Samedi : 06:00–13:30"
+          },
+          {
+            "lieu": "carburant-eni-dobbiaco",
+            "note": "Samedi : 07:30–12:30"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Sass Dlacia — eau",
+            "nom": "Camping Olympia — eau",
             "gps": [
-              46.5541,
-              11.96999
+              46.73461,
+              12.1941
             ],
-            "note": "Comprise dans la nuitée."
+            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Sass Dlacia — laverie à jetons",
-            "note": "Selon la fiche du dépôt."
-          },
-          {
-            "nom": "Lava Più — laverie libre-service Corvara",
-            "gps": [
-              46.55808,
-              11.8787
-            ],
-            "horaires": "7 j/7 8h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/12105935740"
+            "nom": "Camping Olympia — laverie payante",
+            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
           }
         ],
-        "douche": "Douches au camping."
+        "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "10": {
-        "conseil": "Minimarché du camping pour le quotidien ; courses à tour de rôle à La Villa ou Corvara.",
-        "zone": "Base Alta Badia (San Cassiano)",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent. Dimanche : tous les magasins de Dobbiaco sont fermés.",
+        "zone": "Base est Dobbiaco (camping Olympia)",
         "magasins": [
           {
-            "lieu": "courses-despar-la-villa",
-            "note": "Dimanche : 8h30–19h30"
+            "lieu": "courses-eurospin-dobbiaco",
+            "note": "Dimanche : fermé"
           },
           {
-            "lieu": "courses-conad-city-corvara",
-            "note": "Dimanche : 9h00–19h00"
+            "lieu": "courses-despar-dobbiaco",
+            "note": "Dimanche : fermé"
+          },
+          {
+            "lieu": "courses-conad-dobbiaco",
+            "note": "Dimanche : fermé"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-badia",
-            "note": "Dimanche : 08:00–12:00 et 14:30–18:00"
+            "lieu": "carburant-eni-dobbiaco",
+            "note": "Dimanche : fermé (personnel)"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Sass Dlacia — eau",
+            "nom": "Camping Olympia — eau",
             "gps": [
-              46.5541,
-              11.96999
+              46.73461,
+              12.1941
             ],
-            "note": "Comprise dans la nuitée."
+            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Sass Dlacia — laverie à jetons",
-            "note": "Selon la fiche du dépôt."
-          },
-          {
-            "nom": "Lava Più — laverie libre-service Corvara",
-            "gps": [
-              46.55808,
-              11.8787
-            ],
-            "horaires": "7 j/7 8h–23h (OSM)",
-            "source": "https://www.openstreetmap.org/node/12105935740"
+            "nom": "Camping Olympia — laverie payante",
+            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
           }
         ],
-        "douche": "Douches au camping."
+        "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "11": {
-        "conseil": "Courses avant de quitter la base (Conad de Corvara) ou à Dobbiaco à l’arrivée (Eurospin, discount).",
-        "zone": "Alta Badia → Val Badia → Brunico → Anterselva → Dobbiaco",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base est Dobbiaco (camping Olympia)",
         "magasins": [
-          {
-            "lieu": "courses-conad-city-corvara",
-            "note": "Lundi : 8h00–19h00"
-          },
           {
             "lieu": "courses-eurospin-dobbiaco",
             "note": "Lundi : 8h30–19h00"
@@ -2745,10 +2198,6 @@
           }
         ],
         "stations": [
-          {
-            "lieu": "carburant-eni-badia",
-            "note": "Lundi : 08:00–12:00 et 14:30–18:00"
-          },
           {
             "lieu": "carburant-eni-dobbiaco",
             "note": "Lundi : 07:30–12:30 et 14:30–19:30"
@@ -2773,172 +2222,224 @@
         "douche": "Douches chauffées au camping (douche pour chiens)."
       },
       "12": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Passage en caisse au Lidl de Varna prévu au programme (chiens interdits : à tour de rôle), ouvert ce mardi. Plein à l’Eni de Bressanone (2,19 €) en passant.",
+        "zone": "Dobbiaco / Toblach → Varna / Vahrn",
         "magasins": [
           {
-            "lieu": "courses-eurospin-dobbiaco",
-            "note": "Mardi : 8h30–19h00"
+            "lieu": "courses-lidl-varna",
+            "note": "Mardi : 8h00–21h00"
           },
           {
-            "lieu": "courses-despar-dobbiaco",
-            "note": "Mardi : 8h30–12h et 15h–19h"
+            "lieu": "courses-conad-city-varna",
+            "note": "Mardi : 8h00–19h30"
           },
           {
-            "lieu": "courses-conad-dobbiaco",
-            "note": "Mardi : 8h00–19h00"
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Mardi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Mardi : 07:30–12:30 et 14:30–19:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Mardi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Mardi : 07:00–12:30 et 13:30–19:00"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Olympia — eau",
+            "nom": "Camping Vahrner See — eau des sanitaires",
             "gps": [
-              46.73461,
-              12.1941
+              46.76148,
+              11.63452
             ],
-            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
+            "note": "Comprise dans la nuitée."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Olympia — laverie payante",
-            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
           }
         ],
-        "douche": "Douches chauffées au camping (douche pour chiens)."
+        "douche": "Douches chaudes au camping, incluses."
       },
       "13": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
         "magasins": [
           {
-            "lieu": "courses-eurospin-dobbiaco",
-            "note": "Mercredi : 8h30–19h00"
+            "lieu": "courses-lidl-varna",
+            "note": "Mercredi : 8h00–21h00"
           },
           {
-            "lieu": "courses-despar-dobbiaco",
-            "note": "Mercredi : 8h30–12h et 15h–19h"
+            "lieu": "courses-conad-city-varna",
+            "note": "Mercredi : 8h00–19h30"
           },
           {
-            "lieu": "courses-conad-dobbiaco",
-            "note": "Mercredi : 8h00–19h00"
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Mercredi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Mercredi : 07:30–12:30 et 14:30–19:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Mercredi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Mercredi : 07:00–12:30 et 13:30–19:00"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Olympia — eau",
+            "nom": "Camping Vahrner See — eau des sanitaires",
             "gps": [
-              46.73461,
-              12.1941
+              46.76148,
+              11.63452
             ],
-            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
+            "note": "Comprise dans la nuitée."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Olympia — laverie payante",
-            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
           }
         ],
-        "douche": "Douches chauffées au camping (douche pour chiens)."
+        "douche": "Douches chaudes au camping, incluses."
       },
       "14": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
         "magasins": [
           {
-            "lieu": "courses-eurospin-dobbiaco",
-            "note": "Jeudi : 8h30–19h00"
+            "lieu": "courses-lidl-varna",
+            "note": "Jeudi : 8h00–21h00"
           },
           {
-            "lieu": "courses-despar-dobbiaco",
-            "note": "Jeudi : 8h30–12h et 15h–19h"
+            "lieu": "courses-conad-city-varna",
+            "note": "Jeudi : 8h00–19h30"
           },
           {
-            "lieu": "courses-conad-dobbiaco",
-            "note": "Jeudi : 8h00–19h00"
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Jeudi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Jeudi : 07:30–12:30 et 14:30–19:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Jeudi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Jeudi : 07:00–12:30 et 13:30–19:00"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Olympia — eau",
+            "nom": "Camping Vahrner See — eau des sanitaires",
             "gps": [
-              46.73461,
-              12.1941
+              46.76148,
+              11.63452
             ],
-            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
+            "note": "Comprise dans la nuitée."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Olympia — laverie payante",
-            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
           }
         ],
-        "douche": "Douches chauffées au camping (douche pour chiens)."
+        "douche": "Douches chaudes au camping, incluses."
       },
       "15": {
-        "conseil": "Magasins de Dobbiaco fermés le dimanche, et entre 12 h et 15 h au Despar. Eni Dobbiaco à 2,19 €.",
-        "zone": "Base est Dobbiaco",
+        "conseil": "Pas de courses prévues : les provisions du dernier passage en caisse suffisent.",
+        "zone": "Base Varna (camping du lac de Varna)",
         "magasins": [
           {
-            "lieu": "courses-eurospin-dobbiaco",
-            "note": "Vendredi : 8h30–19h00"
+            "lieu": "courses-lidl-varna",
+            "note": "Vendredi : 8h00–21h00"
           },
           {
-            "lieu": "courses-despar-dobbiaco",
-            "note": "Vendredi : 8h30–12h et 15h–19h"
+            "lieu": "courses-conad-city-varna",
+            "note": "Vendredi : 8h00–19h30"
           },
           {
-            "lieu": "courses-conad-dobbiaco",
-            "note": "Vendredi : 8h00–19h00"
+            "lieu": "courses-eurospar-bressanone",
+            "note": "Vendredi : 8h00–19h30"
           }
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Vendredi : 07:30–12:30 et 14:30–19:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Vendredi : 06:00–20:00"
+          },
+          {
+            "lieu": "carburant-eni-bressanone-lahner",
+            "note": "Vendredi : 07:00–12:30 et 13:30–19:00"
           }
         ],
         "eau": [
           {
-            "nom": "Camping Olympia — eau",
+            "nom": "Camping Vahrner See — eau des sanitaires",
             "gps": [
-              46.73461,
-              12.1941
+              46.76148,
+              11.63452
             ],
-            "note": "Comprise ; le dépôt signale l'eau des emplacements A l'été seulement : utiliser les sanitaires."
+            "note": "Comprise dans la nuitée."
           }
         ],
         "laverie": [
           {
-            "nom": "Camping Olympia — laverie payante",
-            "note": "Selon la fiche du dépôt ; aucune laverie publique trouvée à moins de 12 km (OSM)."
+            "nom": "Camping Vahrner See — lave-linge",
+            "note": "Signalé par suedtirol.info ; tarif non publié."
+          },
+          {
+            "nom": "Ecozon — laverie libre-service Bressanone",
+            "gps": [
+              46.71599,
+              11.65208
+            ],
+            "horaires": "6h–23h (OSM)",
+            "source": "https://www.openstreetmap.org/node/1930821706"
           }
         ],
-        "douche": "Douches chauffées au camping (douche pour chiens)."
+        "douche": "Douches chaudes au camping, incluses."
       },
       "16": {
-        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères et TotalEnergies France est à 2,25 €. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
-        "zone": "Dobbiaco → Val Pusteria → Bressanone, puis autoroute A22, A4, A21, A26, A10, A8, A9",
+        "conseil": "Plein complet avant l’autoroute (Eni 2,19 €) : les stations d’autoroute sont plus chères. Pause courses possible avec Prince au Conad de Savone (sortie Savona Vado, chiens admis).",
+        "zone": "Retour : Varna / Vahrn → autoroute A22, A4, A21, A26, A10, A8, A9",
         "magasins": [
           {
             "lieu": "courses-conad-savone",
@@ -2947,8 +2448,8 @@
         ],
         "stations": [
           {
-            "lieu": "carburant-eni-dobbiaco",
-            "note": "Samedi : 07:30–12:30"
+            "lieu": "carburant-eni-bressanone",
+            "note": "Samedi : 06:00–13:30"
           },
           {
             "lieu": "carburant-eni-savona-stalingrado",

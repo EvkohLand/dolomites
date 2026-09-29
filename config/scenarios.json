@@ -4,93 +4,96 @@
     {
       "id": "5-jours",
       "libelle": "5 jours — Carezza, Funes, Alpe di Siusi, Ortisei",
-      "resume": "Du vendredi 9 (départ 13 h) au mardi 13 octobre. Aller et retour par l’autoroute ; sur place, uniquement l’ouest : Carezza à l’arrivée, Val di Funes et le cinéma des Odle, Alpe di Siusi et Ortisei. Braies, Anterselva et Tre Cime ne tiennent pas en 5 jours. Boutique Vinted ouverte : tout expédier vendredi 9 avant 13 h ; retour mardi 13, premier dépôt mercredi 14.",
+      "resume": "Du vendredi 9 (départ 13 h) au mardi 13 octobre. Une seule base, la ferme Zum Gletscher Hons au Val di Funes (3 nuits, le maximum) : Carezza sur la route de l’aller, cinéma des Odle et Santa Maddalena le dimanche, Alpe di Siusi et Ortisei le lundi. Anterselva, Braies et les Tre Cime, à plus de 2 h de la ferme, ne tiennent pas en 5 jours. Boutique Vinted ouverte : tout expédier vendredi 9 avant 13 h ; retour mardi 13, premier dépôt mercredi 14.",
       "jours": 5,
       "dossier": "scenarios/5-jours",
       "titre": "Dolomites — 5 jours",
-      "logique_route": "2026-10-09 → 2026-10-13. Aller et retour par l’autoroute ; sur place, uniquement l’ouest : Carezza à l’arrivée, Val di Funes et le cinéma des Odle, Alpe di Siusi et Ortisei. Braies, Anterselva et Tre Cime ne tiennent pas en 5 jours.",
+      "logique_route": "2026-10-09 → 2026-10-13. Une seule base, la ferme Zum Gletscher Hons au Val di Funes (3 nuits, le maximum) : Carezza sur la route de l’aller, cinéma des Odle et Santa Maddalena le dimanche, Alpe di Siusi et Ortisei le lundi. Anterselva, Braies et les Tre Cime, à plus de 2 h de la ferme, ne tiennent pas en 5 jours.",
       "bases": [
-        "Finale Ligure — Tahiti (à confirmer)",
-        "Varna — Vahrner See (sans réservation ; Löwenhof en repli)"
+        "Pietra Ligure — La Pietra e l’Ulivo (1 nuit)",
+        "Val di Funes — ferme Zum Gletscher Hons (3 nuits)"
       ],
       "etapes_route": 5
     },
     {
       "id": "7-jours",
       "libelle": "7 jours — les huit lieux, rythme serré",
-      "resume": "Du vendredi 9 (départ 13 h) au jeudi 15 octobre. Les huit lieux demandés : Carezza, Funes et le cinéma des Odle, Alpe di Siusi, Ortisei, puis Anterselva et Braies le même jour, et les Tre Cime à pied. Retour de ≈ 11 h 40 de volant. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mardi 13 matin ; retour jeudi 15, premier dépôt vendredi 16.",
+      "resume": "Du vendredi 9 (départ 13 h) au jeudi 15 octobre. Les huit lieux : Carezza à l’aller, cinéma des Odle et Santa Maddalena le dimanche, Alpe di Siusi et Ortisei le lundi, puis Anterselva et Braies le même après-midi en passant à l’est, et les Tre Cime à pied. Retour de ≈ 12 h 45 de volant depuis Dobbiaco. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mardi 13 matin ; retour jeudi 15, premier dépôt vendredi 16.",
       "jours": 7,
       "dossier": "scenarios/7-jours",
       "titre": "Dolomites — 7 jours",
-      "logique_route": "2026-10-09 → 2026-10-15. Les huit lieux demandés : Carezza, Funes et le cinéma des Odle, Alpe di Siusi, Ortisei, puis Anterselva et Braies le même jour, et les Tre Cime à pied. Retour de ≈ 11 h 40 de volant.",
+      "logique_route": "2026-10-09 → 2026-10-15. Les huit lieux : Carezza à l’aller, cinéma des Odle et Santa Maddalena le dimanche, Alpe di Siusi et Ortisei le lundi, puis Anterselva et Braies le même après-midi en passant à l’est, et les Tre Cime à pied. Retour de ≈ 12 h 45 de volant depuis Dobbiaco.",
       "bases": [
-        "Finale Ligure — Tahiti (à confirmer)",
-        "Varna — Vahrner See (sans réservation ; Löwenhof en repli)",
-        "Dobbiaco — Olympia (à confirmer)"
+        "Pietra Ligure — La Pietra e l’Ulivo (1 nuit)",
+        "Val di Funes — ferme Zum Gletscher Hons (2 nuits)",
+        "Varna — Vahrner See (1 nuit, sans réservation)",
+        "Dobbiaco — Olympia (2 nuits, le minimum)"
       ],
       "etapes_route": 7
     },
     {
       "id": "8-jours",
       "libelle": "8 jours — les huit lieux, sans remontée",
-      "resume": "Du vendredi 9 (départ 13 h) au vendredi 16 octobre. Les huit lieux demandés, un par demi-journée : Carezza à l’arrivée, Funes et le cinéma des Odle, Alpe di Siusi et Ortisei, Anterselva, Braies, Tre Cime à pied. Aucune remontée ni activité payante. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mercredi 14 matin ; retour vendredi 16, premier dépôt lundi 19.",
+      "resume": "Du vendredi 9 (départ 13 h) au vendredi 16 octobre. Les huit lieux, un ou deux par jour : Carezza à l’aller, cinéma des Odle et Santa Maddalena, Alpe di Siusi et Ortisei, Anterselva, Tre Cime à pied, Braies, puis dernière nuit au lac de Varna pour raccourcir le retour. Trois demi-journées de repos, aucune remontée ni activité payante obligatoire hors Alpe di Siusi. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mercredi 14 matin ; retour vendredi 16, premier dépôt lundi 19.",
       "jours": 8,
       "dossier": "scenarios/8-jours",
       "titre": "Dolomites — 8 jours",
-      "logique_route": "2026-10-09 → 2026-10-16. Les huit lieux demandés, un par demi-journée : Carezza à l’arrivée, Funes et le cinéma des Odle, Alpe di Siusi et Ortisei, Anterselva, Braies, Tre Cime à pied. Aucune remontée ni activité payante.",
+      "logique_route": "2026-10-09 → 2026-10-16. Les huit lieux, un ou deux par jour : Carezza à l’aller, cinéma des Odle et Santa Maddalena, Alpe di Siusi et Ortisei, Anterselva, Tre Cime à pied, Braies, puis dernière nuit au lac de Varna pour raccourcir le retour. Trois demi-journées de repos, aucune remontée ni activité payante obligatoire hors Alpe di Siusi.",
       "bases": [
-        "Finale Ligure — Tahiti (à confirmer)",
-        "Varna — Vahrner See (sans réservation ; Löwenhof en repli)",
-        "Dobbiaco — Olympia (à confirmer)"
+        "Pietra Ligure — La Pietra e l’Ulivo (1 nuit)",
+        "Val di Funes — ferme Zum Gletscher Hons (2 nuits)",
+        "Varna — Vahrner See (2 nuits, sans réservation)",
+        "Dobbiaco — Olympia (2 nuits, le minimum)"
       ],
       "etapes_route": 8
     },
     {
       "id": "10-jours",
-      "libelle": "10 jours — les huit lieux et un jour de réserve",
-      "resume": "Du vendredi 9 (départ 13 h) au dimanche 18 octobre. Les huit lieux sans se presser, Ortisei séparé de l’Alpe di Siusi, et une journée de réserve météo à Dobbiaco. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mercredi 14 matin ; retour dimanche 18, premier dépôt lundi 19.",
+      "libelle": "10 jours — les huit lieux, repos et réserve météo",
+      "resume": "Du vendredi 9 (départ 13 h) au dimanche 18 octobre. Les huit lieux avec une journée de repos à la ferme, une journée de réserve à Dobbiaco pour les Tre Cime, et une dernière demi-journée au lac de Varna avant le retour. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mercredi 14 matin ; retour dimanche 18, premier dépôt lundi 19.",
       "jours": 10,
       "dossier": "scenarios/10-jours",
       "titre": "Dolomites — 10 jours",
-      "logique_route": "2026-10-09 → 2026-10-18. Les huit lieux sans se presser, Ortisei séparé de l’Alpe di Siusi, et une journée de réserve météo à Dobbiaco.",
+      "logique_route": "2026-10-09 → 2026-10-18. Les huit lieux avec une journée de repos à la ferme, une journée de réserve à Dobbiaco pour les Tre Cime, et une dernière demi-journée au lac de Varna avant le retour.",
       "bases": [
-        "Finale Ligure — Tahiti (à confirmer)",
-        "Varna — Vahrner See (sans réservation ; Löwenhof en repli)",
-        "Dobbiaco — Olympia (à confirmer)"
+        "Pietra Ligure — La Pietra e l’Ulivo (1 nuit)",
+        "Val di Funes — ferme Zum Gletscher Hons (3 nuits)",
+        "Varna — Vahrner See (2 nuits, sans réservation)",
+        "Dobbiaco — Olympia (3 nuits)"
       ],
-      "etapes_route": 9
+      "etapes_route": 8
     },
     {
       "id": "14-jours",
-      "libelle": "14 jours — trois bases, huit lieux et l’Alta Badia",
-      "resume": "Du vendredi 9 (départ 13 h) au jeudi 22 octobre. Les huit lieux, plus trois nuits en Alta Badia (Cinque Torri à pied, Passo Giau) et deux journées de réserve. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mardi 20 matin ; retour jeudi 22, premier dépôt vendredi 23.",
+      "libelle": "14 jours — les huit lieux, six jours de repos",
+      "resume": "Du vendredi 9 (départ 13 h) au jeudi 22 octobre. Les huit lieux, jamais plus d’une grosse sortie par jour, et six journées de repos ou de réserve : trois à la ferme et au lac de Varna avant l’est, une à Dobbiaco pour les Tre Cime, deux au lac de Varna avant le retour. L’Alta Badia n’est pas retenue : la nuit y est moins chère, mais le détour coûte plus en carburant. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mardi 20 matin ; retour jeudi 22, premier dépôt vendredi 23.",
       "jours": 14,
       "dossier": "scenarios/14-jours",
       "titre": "Dolomites — 14 jours",
-      "logique_route": "2026-10-09 → 2026-10-22. Les huit lieux, plus trois nuits en Alta Badia (Cinque Torri à pied, Passo Giau) et deux journées de réserve.",
+      "logique_route": "2026-10-09 → 2026-10-22. Les huit lieux, jamais plus d’une grosse sortie par jour, et six journées de repos ou de réserve : trois à la ferme et au lac de Varna avant l’est, une à Dobbiaco pour les Tre Cime, deux au lac de Varna avant le retour. L’Alta Badia n’est pas retenue : la nuit y est moins chère, mais le détour coûte plus en carburant.",
       "bases": [
-        "Finale Ligure — Tahiti (à confirmer)",
-        "Varna — Vahrner See (sans réservation ; Löwenhof en repli)",
-        "San Cassiano — Sass Dlacia (à confirmer)",
-        "Dobbiaco — Olympia (à confirmer)"
+        "Pietra Ligure — La Pietra e l’Ulivo (1 nuit)",
+        "Val di Funes — ferme Zum Gletscher Hons (3 nuits)",
+        "Varna — Vahrner See (6 nuits, sans réservation)",
+        "Dobbiaco — Olympia (3 nuits)"
       ],
-      "etapes_route": 11
+      "etapes_route": 8
     },
     {
       "id": "16-jours",
-      "libelle": "16 jours — toute la fenêtre de congés",
-      "resume": "Du vendredi 9 (départ 13 h) au samedi 24 octobre. Comme le 14 jours, avec deux journées libres de plus. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mercredi 21 matin ; retour samedi 24, premier dépôt lundi 26.",
+      "libelle": "16 jours — les huit lieux, huit jours de repos",
+      "resume": "Du vendredi 9 (départ 13 h) au samedi 24 octobre. Comme le 14 jours, avec deux journées de repos de plus au lac de Varna : huit journées calmes en tout, dont une réserve météo à Dobbiaco pour les Tre Cime. Mode vacances vendredi 9 après les derniers dépôts (avant 13 h) → mercredi 21 matin ; retour samedi 24, premier dépôt lundi 26.",
       "jours": 16,
       "dossier": "scenarios/16-jours",
       "titre": "Dolomites — 16 jours",
-      "logique_route": "2026-10-09 → 2026-10-24. Comme le 14 jours, avec deux journées libres de plus.",
+      "logique_route": "2026-10-09 → 2026-10-24. Comme le 14 jours, avec deux journées de repos de plus au lac de Varna : huit journées calmes en tout, dont une réserve météo à Dobbiaco pour les Tre Cime.",
       "bases": [
-        "Finale Ligure — Tahiti (à confirmer)",
-        "Varna — Vahrner See (sans réservation ; Löwenhof en repli)",
-        "San Cassiano — Sass Dlacia (à confirmer)",
-        "Dobbiaco — Olympia (à confirmer)"
+        "Pietra Ligure — La Pietra e l’Ulivo (1 nuit)",
+        "Val di Funes — ferme Zum Gletscher Hons (3 nuits)",
+        "Varna — Vahrner See (8 nuits, sans réservation)",
+        "Dobbiaco — Olympia (3 nuits)"
       ],
-      "etapes_route": 11
+      "etapes_route": 8
     }
   ],
   "note": "Les six durées partent toutes le vendredi 9 octobre 2026 à 13 h (fenêtre de congés du 10 au 25). Aller et retour par l’autoroute, péages comptés ; dans les Dolomites, aucune autoroute. Aucune remontée mécanique au programme. Les réouvertures Vinted sont calculées avec cinq jours ouvrés et une journée ouvrée de marge ; vérifier la date effective de chaque commande dans l’application."
