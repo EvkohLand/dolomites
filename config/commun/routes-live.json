@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-09-29T08:18Z",
+  "genere_le": "2026-09-29T12:43Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-09-29T09:52"
+      "maj": "2026-09-29T14:02"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -904,7 +904,7 @@
     },
     {
       "source": "bz",
-      "id": "2952212",
+      "id": "2952201",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
