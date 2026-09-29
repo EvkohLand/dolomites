@@ -21,8 +21,8 @@ sans fin.
   éléments visibles au même niveau.
 - **Sobriété visuelle.** Peu de couleurs (celles des jetons CSS existants), une
   couleur d'alerte réservée à ce qui change l'action, pas de décoration gratuite,
-  des espacements généreux, des lignes de texte de 60 à 80 caractères au plus sur
-  ordinateur.
+  des espacements généreux. Sur un grand écran, la largeur sert à mettre des blocs
+  côte à côte (colonnes), pas à allonger les lignes de texte.
 - **Lisibilité.** Texte de base ≥ 15 px, jamais sous 12 px ; contraste suffisant
   (WCAG AA) ; libellés en français clair, sans jargon ni identifiant technique.
 - **Esthétique et agréable à manipuler.** Cibles tactiles d'au moins 44 px, retour
@@ -36,6 +36,9 @@ sans fin.
 - **Zoom de page bloqué sur mobile** : balise viewport (`maximum-scale=1,
   user-scalable=no`), `touch-action` et blocage des gestes de pincement pour iOS
   Safari. La carte garde son propre zoom.
+- **100 % de la largeur de l'écran**, sur ordinateur comme sur mobile : pas de
+  colonne centrée avec des marges vides sur les côtés. Sur grand écran, les blocs se
+  répartissent en plusieurs colonnes.
 - **Aucun débordement horizontal** : la page fait exactement la largeur de l'écran.
   Un texte trop long se coupe ou revient à la ligne, il n'élargit jamais la page.
 - **Champs de saisie en 16 px** minimum (sinon Safari zoome dessus).
@@ -75,7 +78,29 @@ sans fin.
 - Le budget détaille chaque dépense : type, montant, et « peut-on s'en passer ? ».
   Aucun poste fourre-tout.
 
-## 5. Travail dans ce dépôt
+## 5. Chercher systématiquement ce qui cloche et ce qui coûte
+
+À chaque intervention, sans attendre qu'on le demande, relire le planning, le budget
+et les fiches pour trouver :
+
+- **les incohérences** : une date, un prix, un horaire ou une règle qui diffère entre
+  deux endroits ; un lieu fermé le jour prévu ; une nuit dont la réception ferme avant
+  l'heure d'arrivée ; un magasin fermé le dimanche prévu ; une journée qui finit après
+  la nuit tombée ; une donnée sans source ;
+- **les allers-retours inutiles** : un lieu visité loin de la base alors qu'une autre
+  base est sur le chemin ; un ordre de visite qui repasse deux fois par la même vallée ;
+- **les économies de route et de carburant** : bases qui réduisent les kilomètres,
+  visites groupées le même jour quand le temps le permet, pleins aux stations les
+  moins chères du tracé ;
+- **les économies sur toute dépense** : parking gratuit à distance de marche, nuit
+  moins chère au même endroit, option payante qui a une alternative gratuite,
+  réservation qui évite un surcoût.
+
+Corriger ce qui est sûr ; signaler ce qui demande un choix de l'utilisateur, avec
+l'économie ou le gain de temps chiffré. Le but : les vacances les plus agréables
+possibles, au moindre coût.
+
+## 6. Travail dans ce dépôt
 
 - ChatGPT dépose ses recherches uniquement dans `by-chatgpt/` : les relire, vérifier,
   puis intégrer ce qui tient.

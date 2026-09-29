@@ -1317,6 +1317,7 @@
     { id: 'meteo', libelle: 'Météo' },
     { id: 'route', libelle: 'Route' },
     { id: 'courses', libelle: 'Courses' },
+    { id: 'contact', libelle: 'Contacter' },
     { id: 'budget', libelle: 'Budget' },
     { id: 'savoir', libelle: 'À savoir' },
     { id: 'explorer', libelle: 'À explorer' },
@@ -1508,6 +1509,7 @@
     dessinerWebcamsEtape(j, P.route);
 
     dessinerRavitaillementEtape(j, P.courses);
+    dessinerContactsEtape(j, P.contact);
 
     /* Randonnées et adresses de la zone : repliées, pour ne pas noyer la journée. */
     var nbRandos = randosPourJour(j).reduce(function (s, g) { return s + (g.randos || []).length; }, 0);
@@ -1573,6 +1575,140 @@
     var alerte = fin && coucher && enMinutes(fin) > enMinutes(coucher);
     var r = el('p', 'programme__resume' + (alerte ? ' programme__resume--alerte' : ''), txt + (alerte ? ' — fin après la nuit tombée' : ''));
     return { resume: r, volant: volant, place: place, fin: fin, coucher: coucher, alerte: alerte };
+  }
+
+  /* ---------- Onglet Contacter : qui, par quel moyen, quel message ---------- */
+
+  var MOIS_IT = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
+  var MOIS_DE = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+  var MOIS_FR = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+
+  function dateLangue(iso, langue) {
+    var d = new Date(iso + 'T12:00:00'), j = d.getDate(), m = d.getMonth();
+    if (langue === 'de') return j + '. ' + MOIS_DE[m];
+    if (langue === 'it') return j + ' ' + MOIS_IT[m];
+    return j + ' ' + MOIS_FR[m];
+  }
+  function lendemain(iso) { var d = new Date(iso + 'T12:00:00'); d.setDate(d.getDate() + 1); return d.toISOString().slice(0, 10); }
+
+  /* Haut-Adige (germanophone et italophone) : message en allemand et en italien ; ailleurs en Italie : italien. */
+  function languesDe(l) {
+    if (!Array.isArray(l.gps)) return ['it'];
+    if (l.gps[0] > 46.3 && l.gps[1] > 10.4 && l.gps[1] < 12.5) return ['de', 'it'];
+    if (l.gps[1] < 7.5) return ['fr'];
+    return ['it'];
+  }
+
+  function messageSejour(langue, c) {
+    var arr = dateLangue(c.arrivee, langue), dep = dateLangue(c.depart, langue), n = c.nuits, h = c.heure;
+    if (langue === 'de') return 'Guten Tag,\n\nhaben Sie vom ' + arr + ' bis ' + dep + ' 2026 (' + n + (n > 1 ? ' Nächte' : ' Nacht') + ') einen Platz frei? Ankunft gegen ' + (h || '17:00') + ' Uhr.\n\n' +
+      'Wir sind 2 Erwachsene mit einem mittelgroßen Hund (ca. 20–25 kg) und einem Auto mit Dachzelt (Höhe 1,95 m, das Zelt wird vor Ort aufgeklappt). Wir haben keine Toilette an Bord.\n\n' +
+      'Könnten Sie uns bitte den Gesamtpreis pro Nacht nennen (inklusive Ortstaxe und Hund, Strom optional) und sagen, ob eine Reservierung nötig ist?\n\nVielen Dank und freundliche Grüße';
+    if (langue === 'fr') return 'Bonjour,\n\nAuriez-vous une place du ' + arr + ' au ' + dep + ' 2026 (' + n + (n > 1 ? ' nuits' : ' nuit') + ') ? Arrivée vers ' + (h || '17 h') + '.\n\n' +
+      'Nous sommes 2 adultes avec un chien de taille moyenne (20–25 kg) et une voiture avec tente de toit (hauteur 1,95 m, tente dépliée sur place). Pas de WC à bord.\n\n' +
+      'Pourriez-vous nous indiquer le prix total par nuit (taxe de séjour et chien compris, électricité facultative) et s’il faut réserver ?\n\nMerci beaucoup, bonne journée.';
+    return 'Buongiorno,\n\navete un posto libero dal ' + arr + ' al ' + dep + ' 2026 (' + n + (n > 1 ? ' notti' : ' notte') + ')? Arrivo verso le ' + (h || '17:00') + '.\n\n' +
+      'Siamo 2 adulti con un cane di taglia media (circa 20–25 kg) e un’auto con tenda da tetto (altezza 1,95 m, la tenda si apre sul posto). Non abbiamo bagno a bordo.\n\n' +
+      'Potreste indicarci il prezzo totale a notte (tassa di soggiorno e cane inclusi, corrente facoltativa) e se è necessario prenotare?\n\nGrazie mille, cordiali saluti.';
+  }
+
+  function messageDeplacement(langue, c) {
+    var arr = dateLangue(c.arrivee, langue), dep = dateLangue(c.depart, langue);
+    if (langue === 'de') return 'Guten Tag,\n\nvielen Dank für Ihre Antwort. Unsere Route hat sich geändert: Wäre es möglich, die Reservierung auf ' + arr + ' bis ' + dep + ' 2026 (' + c.nuits + ' Nächte) zu verschieben, Ankunft gegen ' + (c.heure || '16:30') + ' Uhr? Falls nicht, stornieren Sie bitte die Reservierung.\n\nVielen Dank und freundliche Grüße';
+    return 'Buongiorno,\n\ngrazie per la risposta. Il nostro itinerario è cambiato: sarebbe possibile spostare la prenotazione dal ' + arr + ' al ' + dep + ' 2026 (' + c.nuits + ' notti), con arrivo verso le ' + (c.heure || '16:30') + '? Altrimenti vi preghiamo di annullarla.\n\nGrazie mille, cordiali saluti.';
+  }
+
+  function blocMessage(titre, texte, traduction) {
+    var d = el('details', 'message');
+    d.appendChild(el('summary', null, titre));
+    var pre = el('pre', 'message__texte', texte);
+    d.appendChild(pre);
+    var bt = el('button', 'action', 'Copier le message');
+    bt.type = 'button';
+    bt.addEventListener('click', function () {
+      var ok = function () { bt.textContent = 'Copié'; setTimeout(function () { bt.textContent = 'Copier le message'; }, 1500); };
+      if (navigator.clipboard) navigator.clipboard.writeText(texte).then(ok, function () {});
+    });
+    d.appendChild(bt);
+    if (traduction) { d.appendChild(el('p', 'jour__note', 'En français :')); d.appendChild(el('pre', 'message__texte message__texte--trad', traduction)); }
+    return d;
+  }
+
+  function moyensContact(l) {
+    var out = [], vus = {};
+    function ajoute(lib, url) { if (url && !vus[url]) { vus[url] = 1; out.push([lib, url]); } }
+    (l.liens || []).forEach(function (x) {
+      var t = (x.libelle + ' ' + x.url).toLowerCase();
+      if (/contact|kontakt|anfrage|request|richiesta|demande/.test(t) && !/campercontact|park4night|pitchup|campspace/.test(t)) ajoute('Page de contact', x.url);
+    });
+    if (l.page_contact) ajoute('Page de contact', l.page_contact);
+    if (l.reserver && l.reserver.url) ajoute(l.reserver.obligatoire ? 'Réservation (obligatoire)' : 'Réservation en ligne', l.reserver.url);
+    return out;
+  }
+
+  function carteContact(l, c) {
+    var d = el('div', 'contact');
+    d.appendChild(el('p', 'contact__nom', l.nom));
+    if (c.pourquoi) d.appendChild(el('p', 'jour__note', c.pourquoi));
+    var ech = Array.isArray(l.echanges) && l.echanges[l.echanges.length - 1];
+    if (ech) d.appendChild(el('p', 'echange echange--' + (ech.etat || '').replace(/[^a-z]+/gi, '-'), 'Dernier échange (' + dateCourte(ech.date) + ', ' + ech.etat + ') : ' + ech.resume));
+    var m = moyensContact(l);
+    if (m.length) {
+      var pm = el('div', 'puces');
+      m.forEach(function (x) { pm.appendChild(lienExterne(x[0], x[1])); });
+      d.appendChild(pm);
+    } else {
+      d.appendChild(el('p', 'jour__note', 'Aucun moyen de contact en ligne connu : se présenter sur place.'));
+    }
+    if (c.nuits) {
+      var langues = languesDe(l);
+      var fr = messageSejour('fr', c);
+      var nomLg = function (lg) { return lg === 'de' ? 'allemand' : lg === 'it' ? 'italien' : 'français'; };
+      langues.forEach(function (lg, k) {
+        d.appendChild(blocMessage('Demander une place ou réserver — ' + nomLg(lg), messageSejour(lg, c), lg === 'fr' || k ? null : fr));
+      });
+      if (ech && /réservation/.test(ech.etat || '')) {
+        var frDep = 'Bonjour, merci pour votre réponse. Notre itinéraire a changé : serait-il possible de déplacer la réservation du ' + dateLangue(c.arrivee, 'fr') + ' au ' + dateLangue(c.depart, 'fr') + ' (' + c.nuits + ' nuits), arrivée vers ' + (c.heure || '16 h 30') + ' ? Sinon, merci de l’annuler.';
+        langues.filter(function (lg) { return lg !== 'fr'; }).forEach(function (lg, k) {
+          d.appendChild(blocMessage('Déplacer ou annuler la réservation — ' + nomLg(lg), messageDeplacement(lg, c), k ? null : frDep));
+        });
+      }
+    }
+    var q = (l.verification && l.verification.a_demander) || [];
+    if (q.length) {
+      var dq = el('details', 'message');
+      dq.appendChild(el('summary', null, 'Questions encore sans réponse (' + q.length + ')'));
+      q.forEach(function (x) { dq.appendChild(el('p', null, '• ' + x.question)); });
+      d.appendChild(dq);
+    }
+    return d;
+  }
+
+  function dessinerContactsEtape(j, conteneur) {
+    var cartes = [];
+    if (j.nuit) {
+      var n = E.parId.get(j.nuit);
+      var plan = E.planning || [];
+      var i = plan.indexOf(j), debut = i;
+      while (debut > 0 && plan[debut - 1].nuit === j.nuit) debut--;
+      var fin = i;
+      while (fin + 1 < plan.length && plan[fin + 1].nuit === j.nuit) fin++;
+      if (n && debut === i) {
+        cartes.push(carteContact(n, {
+          arrivee: j.date, depart: lendemain(plan[fin].date), nuits: fin - debut + 1, heure: j.arrivee_nuit,
+          pourquoi: 'Nuit' + (fin > debut ? 's du jour ' + plan[debut].jour + ' au jour ' + plan[fin].jour : ' de ce jour') + ' : ' + (fin - debut + 1) + ' nuit' + (fin > debut ? 's' : '') + ', arrivée prévue vers ' + (j.arrivee_nuit || '?') + '.'
+        }));
+      } else if (n) {
+        conteneur.appendChild(el('p', 'jour__note', 'Nuit à ' + n.nom + ' : contact et messages au jour ' + plan[debut].jour + ', jour d’arrivée.'));
+      }
+    }
+    (j.activites || []).forEach(function (a) {
+      var l = E.parId.get(a.lieu);
+      if (l && l.reserver && l.reserver.obligatoire && l.categorie !== 'camping') {
+        cartes.push(carteContact(l, { pourquoi: 'Réservation obligatoire pour ce jour. ' + ((l.pratique || []).filter(function (x) { return /réserv/i.test(x.libelle + x.valeur); }).map(function (x) { return x.valeur; })[0] || '') }));
+      }
+    });
+    cartes.forEach(function (c) { conteneur.appendChild(c); });
   }
 
   function dessinerRavitaillementEtape(j, conteneur) {

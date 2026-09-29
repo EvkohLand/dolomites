@@ -959,7 +959,7 @@ html, body { overflow-x: hidden; }
 .jour__heure { white-space: pre-line; }
 
 /* ---------- Vue d'une étape : résumé, onglets, un panneau à la fois ---------- */
-.modale--etape .modale__corps { max-width: 980px; margin: 0 auto; }
+.modale--etape .modale__corps { max-width: none; }
 .etape-resume { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px; margin: 4px 0 14px; }
 .etape-resume__case { padding: 10px 12px; border: 1px solid var(--trait); border-radius: var(--rayon); background: var(--fond); display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .etape-resume__lib { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--discret); }
@@ -1032,3 +1032,36 @@ html, body { overflow-x: hidden; }
 .courbe__tableau summary { cursor: pointer; }
 .courbe__tableau table { border-collapse: collapse; margin-top: 4px; font-variant-numeric: tabular-nums; }
 .courbe__tableau th, .courbe__tableau td { text-align: left; padding: 2px 12px 2px 0; border-bottom: 1px solid var(--trait); }
+
+/* ---------- 100 % de la largeur : colonnes sur grand écran ---------- */
+main { max-width: none; }
+.modale__corps, .modale--etape .modale__corps { max-width: none; width: 100%; padding-inline: var(--gouttiere); }
+.pratique__intro, .pratique__alerte, .pratique__note { max-width: none; }
+@media (min-width: 900px) {
+  :root { --gouttiere: 28px; }
+  .modale__tete { padding-inline: var(--gouttiere); }
+  /* Chaque onglet répartit ses blocs en colonnes ; texte long et photos sur toute la largeur. */
+  .onglet-panneau:not([hidden]) { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 0 32px; align-items: start; }
+  .onglet-panneau > .modale__desc, .onglet-panneau > .galerie, .onglet-panneau > .rapport { grid-column: 1 / -1; }
+  /* Fiche d'un lieu : même principe. */
+  .modale:not(.modale--etape) .modale__corps { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 0 32px; align-content: start; align-items: start; }
+  .modale:not(.modale--etape) .modale__corps > .badges,
+  .modale:not(.modale--etape) .modale__corps > .modale__desc,
+  .modale:not(.modale--etape) .modale__corps > .retour-etape,
+  .modale:not(.modale--etape) .modale__corps > .paire,
+  .modale:not(.modale--etape) .modale__corps > .bloc:has(.galerie) { grid-column: 1 / -1; }
+  .etape-resume { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .etapes { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+}
+@media (min-width: 1600px) {
+  .onglet-panneau:not([hidden]), .modale:not(.modale--etape) .modale__corps { grid-template-columns: repeat(auto-fill, minmax(480px, 1fr)); }
+}
+
+/* ---------- Onglet Contacter ---------- */
+.contact { padding: 14px; border: 1px solid var(--trait); border-radius: var(--rayon); background: var(--surface); margin: 12px 0; display: flex; flex-direction: column; gap: 8px; }
+.contact__nom { margin: 0; font-weight: 600; font-size: 16px; }
+.message { border: 1px solid var(--trait); border-radius: var(--rayon); padding: 8px 12px; background: var(--fond); }
+.message > summary { cursor: pointer; font-weight: 600; font-size: 14px; min-height: 32px; display: flex; align-items: center; }
+.message__texte { white-space: pre-wrap; font: inherit; font-size: 14px; line-height: 1.5; background: var(--surface); border: 1px solid var(--trait); border-radius: 8px; padding: 10px 12px; margin: 8px 0; }
+.message__texte--trad { color: var(--discret); }
+.message .action { width: auto; }
