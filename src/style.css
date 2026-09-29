@@ -957,3 +957,33 @@ html, body { overflow-x: hidden; }
 .programme__resume { margin: 0 0 8px; padding: 8px 12px; border-radius: var(--rayon); background: var(--fond); font-size: 14px; font-weight: 600; }
 .programme__resume--alerte { background: #fdf0ef; color: #b3261e; }
 .jour__heure { white-space: pre-line; }
+
+/* ---------- Vue d'une étape : résumé, onglets, un panneau à la fois ---------- */
+.modale--etape .modale__corps { max-width: 980px; margin: 0 auto; }
+.etape-resume { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px; margin: 4px 0 14px; }
+.etape-resume__case { padding: 10px 12px; border: 1px solid var(--trait); border-radius: var(--rayon); background: var(--fond); display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.etape-resume__lib { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--discret); }
+.etape-resume__val { font-size: 16px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.onglets {
+  position: sticky; top: -1px; z-index: 5; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+  margin: 0 calc(-1 * var(--gouttiere)); padding: 8px var(--gouttiere); background: var(--surface); border-bottom: 1px solid var(--trait);
+}
+.onglets::-webkit-scrollbar { display: none; }
+.onglet {
+  flex: 0 0 auto; padding: 8px 14px; border: 1px solid var(--trait); border-radius: 999px; background: var(--surface);
+  font: inherit; font-size: 14px; color: var(--texte); cursor: pointer; touch-action: manipulation;
+}
+.onglet[aria-selected="true"] { background: var(--texte); border-color: var(--texte); color: var(--surface); }
+.onglets-zone { padding-top: 6px; }
+.onglet-panneau > .bloc:first-child, .onglet-panneau > :first-child { margin-top: 10px; }
+.repli { margin-top: 8px; }
+.repli > summary { cursor: pointer; font-size: 14px; color: var(--discret); }
+.modale--etape .galerie--etape { flex-wrap: wrap; overflow: visible; }
+.modale--etape .galerie--etape .photo img { height: 150px; }
+@media (max-width: 640px) {
+  .etape-resume { grid-template-columns: repeat(3, 1fr); }
+  .etape-resume__val { font-size: 14.5px; }
+  .modale--etape .galerie--etape .photo { flex: 1 1 45%; }
+  .modale--etape .galerie--etape .photo img { width: 100%; height: 120px; object-fit: cover; }
+}
+.etape-resume__case--alerte { border-color: #b3261e; background: #fdf0ef; color: #b3261e; }

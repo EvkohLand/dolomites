@@ -1312,6 +1312,65 @@
     });
   }
 
+  var ONGLETS_ETAPE = [
+    { id: 'programme', libelle: 'Programme' },
+    { id: 'meteo', libelle: 'Météo' },
+    { id: 'route', libelle: 'Route' },
+    { id: 'courses', libelle: 'Courses' },
+    { id: 'budget', libelle: 'Budget' },
+    { id: 'savoir', libelle: 'À savoir' },
+    { id: 'explorer', libelle: 'À explorer' },
+    { id: 'photos', libelle: 'Photos' }
+  ];
+  var CLE_ONGLET = 'dolomites.onglet';
+
+  /* Barre résumé, barre d'onglets collante, puis un seul panneau visible à la fois. */
+  function montrerOnglets(j, corps, P) {
+    var dr = derouleJour(j);
+    var n = j.nuit ? E.parId.get(j.nuit) : null;
+    var b = calculerBudget();
+    var budgetJour = b ? b.lignes.filter(function (x) { return x.jour === j.jour; }).reduce(function (a, x) { return a + x.montant; }, 0) : 0;
+    var res = el('div', 'etape-resume');
+    [
+      dr ? ['Volant', dureeAffiche(dr.volant / 60)] : null,
+      dr && dr.place ? ['Sur place', dureeAffiche(dr.place / 60)] : null,
+      dr && dr.fin ? ['Fin', dr.fin, dr.alerte] : null,
+      dr && dr.coucher ? ['Coucher du soleil', dr.coucher] : null,
+      n ? ['Nuit', n.nom.split(' — ')[0]] : ['Nuit', 'retour'],
+      budgetJour ? ['Budget', euros(budgetJour)] : null
+    ].filter(Boolean).forEach(function (x) {
+      var c = el('div', 'etape-resume__case' + (x[2] ? ' etape-resume__case--alerte' : ''));
+      c.appendChild(el('span', 'etape-resume__lib', x[0]));
+      c.appendChild(el('span', 'etape-resume__val', x[1]));
+      res.appendChild(c);
+    });
+    var barre = el('div', 'onglets');
+    barre.setAttribute('role', 'tablist');
+    var dispo = ONGLETS_ETAPE.filter(function (o) { return P[o.id].childNodes.length; });
+    var voulu = null;
+    try { voulu = sessionStorage.getItem(CLE_ONGLET); } catch (e) { /* stockage indisponible */ }
+    if (!dispo.some(function (o) { return o.id === voulu; })) voulu = 'programme';
+    var zone = el('div', 'onglets-zone');
+    function choisir(id) {
+      Array.prototype.forEach.call(barre.children, function (bt) { bt.setAttribute('aria-selected', String(bt.dataset.onglet === id)); });
+      Array.prototype.forEach.call(zone.children, function (pn) { pn.hidden = pn.dataset.onglet !== id; });
+      try { sessionStorage.setItem(CLE_ONGLET, id); } catch (e) { /* ignore */ }
+    }
+    dispo.forEach(function (o) {
+      var bt = el('button', 'onglet', o.libelle + (o.id === 'photos' ? ' (' + P.photos.querySelectorAll('figure').length + ')' : ''));
+      bt.type = 'button';
+      bt.setAttribute('role', 'tab');
+      bt.dataset.onglet = o.id;
+      bt.addEventListener('click', function () { choisir(o.id); corps.scrollTop = Math.min(corps.scrollTop, res.offsetTop); });
+      barre.appendChild(bt);
+      zone.appendChild(P[o.id]);
+    });
+    corps.appendChild(res);
+    corps.appendChild(barre);
+    corps.appendChild(zone);
+    choisir(voulu);
+  }
+
   function ouvrirEtape(num) {
     var j = (E.planning || []).find(function (x) { return x.jour === Number(num); });
     if (!j) return;
@@ -1343,20 +1402,17 @@
         fig.appendChild(el('figcaption', null, photos[i].lieu.nom));
         g.appendChild(fig);
       });
-      corps.appendChild(bloc('Photos (' + photos.length + ')', g));
+      var galerieEtape = g;
     }
 
-    if (j.note) corps.appendChild(el('p', 'modale__desc', j.note));
+    /* Onglets : l'essentiel d'abord, le reste rangé. */
+    var P = {};
+    ONGLETS_ETAPE.forEach(function (o) { P[o.id] = el('div', 'onglet-panneau'); P[o.id].dataset.onglet = o.id; });
+    var principal = P.programme, cote = P.route;   // compatibilité des blocs existants
+    if (j.note) P.programme.appendChild(el('p', 'modale__desc', j.note));
 
-    var grille = el('div', 'etape-grille');
-    var principal = el('div', 'etape-grille__principal');
-    var cote = el('div', 'etape-grille__cote');
-    grille.appendChild(principal);
-    grille.appendChild(cote);
-    corps.appendChild(grille);
-
-    dessinerMeteoEtape(j, cote);
-    dessinerBudgetEtape(j, cote);
+    dessinerMeteoEtape(j, P.meteo);
+    dessinerBudgetEtape(j, P.budget);
 
     /* Route */
     var r = routeDuJour(j);
@@ -1380,14 +1436,13 @@
         focusEtape(r.etape);
         document.getElementById('section-carte').scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
-      cote.appendChild(bloc('Route', tr));
+      P.route.appendChild(bloc('Route', tr));
     }
 
     /* Programme : chaque visite ouvre sa fiche complète. */
     if ((j.activites || []).length) {
       var ul = el('div', 'programme');
       var dr = derouleJour(j);
-      if (dr) ul.appendChild(dr.resume);
       if (j.depart) ul.appendChild(el('p', 'programme__route', j.depart + ' · départ' + (j.depart_de ? ' de ' + nomRef(j.depart_de) : '')));
       j.activites.forEach(function (a) {
         var l = resoudre(a.lieu);
@@ -1407,7 +1462,7 @@
         ul.appendChild(b);
       });
       if (j.trajet_nuit_min) ul.appendChild(el('p', 'programme__route', 'Route vers la nuit : ' + dureeAffiche(j.trajet_nuit_min / 60) + (j.arrivee_nuit ? ' · arrivée ' + j.arrivee_nuit : '')));
-      principal.appendChild(bloc('Programme', ul));
+      P.programme.appendChild(bloc('Programme', ul));
     }
 
     /* Nuit, puis les solutions de repli du même secteur. */
@@ -1430,7 +1485,8 @@
       var gh = groupeDe(pr.groupes_hebergement, n.id);
       var autres = gh ? gh.lieux.filter(function (id) { return id !== n.id && E.parId.has(id); }) : [];
       if (autres.length) {
-        dn.appendChild(el('p', 'jour__note', 'Si c’est plein ou fermé :'));
+        var repli = el('details', 'repli');
+        repli.appendChild(el('summary', null, 'Si c’est plein ou fermé (' + autres.length + ')'));
         var ra = el('div', 'puces');
         autres.forEach(function (id) {
           var l = E.parId.get(id);
@@ -1439,18 +1495,19 @@
           b.addEventListener('click', function () { ouvrirPanneau(id, { retour: j.jour }); });
           ra.appendChild(b);
         });
-        dn.appendChild(ra);
+        repli.appendChild(ra);
+        dn.appendChild(repli);
       }
-      principal.appendChild(bloc('Nuit', dn));
+      P.programme.appendChild(bloc('Nuit', dn));
 
     }
 
     /* Données en direct : routes, carburant, webcams. Absentes hors ligne : bloc masqué ou message. */
-    dessinerRoutesEtape(j, principal);
-    dessinerCarburantEtape(j, principal);
-    dessinerWebcamsEtape(j, principal);
+    dessinerRoutesEtape(j, P.route);
+    dessinerCarburantEtape(j, P.route);
+    dessinerWebcamsEtape(j, P.route);
 
-    dessinerRavitaillementEtape(j, principal);
+    dessinerRavitaillementEtape(j, P.courses);
 
     /* Randonnées et adresses de la zone : repliées, pour ne pas noyer la journée. */
     var nbRandos = randosPourJour(j).reduce(function (s, g) { return s + (g.randos || []).length; }, 0);
@@ -1458,17 +1515,22 @@
       var dr = el('details', 'volet volet--interne');
       dr.appendChild(el('summary', null, 'Autres randonnées dans la zone (' + nbRandos + ')'));
       dessinerRandosJour(j, dr);
-      principal.appendChild(dr);
+      dr.open = true;
+      P.explorer.appendChild(dr);
     }
     var nbDec = decouvertesPourJour(j).reduce(function (s, g) { return s + (g.items || []).length; }, 0);
     if (nbDec) {
       var dd = el('details', 'volet volet--interne');
       dd.appendChild(el('summary', null, 'À faire, remontées et bonnes adresses (' + nbDec + ')'));
       dessinerDecouvertesJour(j, dd);
-      principal.appendChild(dd);
+      dd.open = true;
+      P.explorer.appendChild(dd);
     }
 
-    dessinerReglesEtape(j, cote);
+    dessinerReglesEtape(j, P.savoir);
+    if (galerieEtape) P.photos.appendChild(galerieEtape);
+
+    montrerOnglets(j, corps, P);
 
     /* Navigation entre les jours sans refermer. */
     var nav = el('div', 'paire');
@@ -1510,7 +1572,7 @@
     var txt = 'Volant ' + dureeAffiche(volant / 60) + ' · sur place ' + dureeAffiche(place / 60) + (fin ? ' · fin vers ' + fin : '') + (coucher ? ' · coucher du soleil ' + coucher : '');
     var alerte = fin && coucher && enMinutes(fin) > enMinutes(coucher);
     var r = el('p', 'programme__resume' + (alerte ? ' programme__resume--alerte' : ''), txt + (alerte ? ' — fin après la nuit tombée' : ''));
-    return { resume: r, volant: volant, place: place };
+    return { resume: r, volant: volant, place: place, fin: fin, coucher: coucher, alerte: alerte };
   }
 
   function dessinerRavitaillementEtape(j, conteneur) {
