@@ -27,9 +27,15 @@ Le dépôt est public. L'archive conserve les faits, les dates, les objets, les 
 - les URLs d'offres personnalisées contenant des identifiants uniques ;
 - les liens de renouvellement personnels.
 
-## Fichier principal
+## Archives par zone / sujet
 
-- [historique-complet.md](./historique-complet.md) — historique détaillé de tous les échanges retrouvés.
+- [Agricamper Italia](./agricamper.md)
+- [Bressanone / Val Gardena / Alpe di Siusi](./bressanone-val-gardena.md)
+- [Alta Badia / Cortina](./alta-badia-cortina.md)
+- [Dobbiaco / Braies / Tre Cime](./dobbiaco.md)
+- [Étapes de transit et autres contacts](./transit-et-autres.md)
+
+Chaque fichier reprend les messages dans l'ordre, y compris les demandes initiales, corrections de dates, offres, réponses, refus et dossiers encore sans réponse.
 
 ## État synthétique au 29/09/2026
 
@@ -48,7 +54,7 @@ Le dépôt est public. L'archive conserve les faits, les dates, les objets, les 
 | Contact Hans Mantinger / Elisabeth | Réponse + réservation non sollicitée | 42 €/nuit tout compris ; interlocutrice dit avoir réservé malgré la mention « pas une réservation » ; place tenue jusqu'à 18:00 |
 | Agricamping La Pietra e l'Ulivo | Réponse positive | Voiture + tente de toit acceptées ; chien +2,50 €/jour ; élec. 0,60 €/kWh ; eau 1 €/100 L ; prix de base/heure limite non fournis |
 | Camping Tahiti Finale Ligure | Refus | Pas de disponibilité pour les dates corrigées |
-| Camping via `segreteria.camping@gmail.com` | En attente | Demande de nuit de transit corrigée au 10→11 oct. ; piazzola XL / accès Via della Pace mentionnés ; aucune réponse retrouvée |
+| Camping via adresse générique de secrétariat | En attente | Nuit de transit corrigée au 10→11 oct. ; piazzola XL / accès Via della Pace mentionnés ; aucune réponse retrouvée |
 
 ## Règle de mise à jour
 
