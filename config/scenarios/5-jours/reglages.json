@@ -25,7 +25,8 @@
     "tuiles": {
       "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       "attribution": "© OpenStreetMap",
-      "message_hors_ligne": "Fond de carte indisponible sans réseau. Les positions des points, leurs coordonnées et tout le détail restent lisibles."
+      "message_hors_ligne": "Fond de carte indisponible sans réseau. Les positions des points, leurs coordonnées et tout le détail restent lisibles.",
+      "libelle": "Plan"
     },
     "zone_valide": [
       [
@@ -36,7 +37,14 @@
         48.5,
         13.5
       ]
-    ]
+    ],
+    "tuiles_aeriennes": {
+      "libelle": "Vue aérienne",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "attribution": "Imagerie © Esri, Maxar, Earthstar Geographics",
+      "noms_url": "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+      "zoom_max_natif": 18
+    }
   },
   "couleurs": {
     "fond": "#faf9f7",

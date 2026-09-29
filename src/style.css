@@ -1118,3 +1118,10 @@ main { max-width: none; }
   .onglet-panneau[data-onglet="photos"] .galerie--etape { grid-template-columns: repeat(2, 1fr); }
   .onglet-panneau[data-onglet="photos"] .galerie--etape .photo img { height: 120px; }
 }
+
+/* ---------- Choix du fond de carte (plan / vue aérienne) ---------- */
+/* Cibles tactiles de 44 px : le sélecteur Leaflet d'origine est trop petit au doigt. */
+.leaflet-control-layers-expanded { padding: 2px 4px; border-radius: var(--rayon); }
+.leaflet-control-layers-base label { display: flex; align-items: center; min-height: 44px; padding: 0 8px; font: 500 14px/1 var(--sans); color: var(--texte); cursor: pointer; }
+.leaflet-control-layers-base label > span { display: flex; align-items: center; gap: 6px; }
+.leaflet-control-layers-base input { width: 16px; height: 16px; margin: 0; accent-color: var(--accent); }

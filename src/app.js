@@ -189,7 +189,24 @@
       var m = document.getElementById('carte-hors-ligne');
       if (m) m.hidden = true;
     });
-    couche.addTo(carte);
+    /* Fond aérien au choix (imagerie Esri, gratuite avec attribution, sans clé),
+       avec les noms de lieux par-dessus. Le choix est mémorisé sur l'appareil ;
+       sans stockage, la carte s'ouvre simplement sur le plan. */
+    var a = c.tuiles_aeriennes;
+    var fondChoisi = couche;
+    if (a && a.url) {
+      var opt = { attribution: a.attribution, maxZoom: c.zoom_max || 17, maxNativeZoom: a.zoom_max_natif || 18 };
+      var aerien = L.layerGroup([L.tileLayer(a.url, opt)].concat(a.noms_url ? [L.tileLayer(a.noms_url, opt)] : []));
+      var fonds = {};
+      fonds[t.libelle || 'Plan'] = couche;
+      fonds[a.libelle || 'Vue aérienne'] = aerien;
+      L.control.layers(fonds, null, { collapsed: false, position: 'topright' }).addTo(carte);
+      try { if (localStorage.getItem('dolomites-fond') === 'aerien') fondChoisi = aerien; } catch (e) {}
+      carte.on('baselayerchange', function (ev) {
+        try { localStorage.setItem('dolomites-fond', ev.layer === aerien ? 'aerien' : 'plan'); } catch (e) {}
+      });
+    }
+    fondChoisi.addTo(carte);
 
     coucheTrace = L.layerGroup().addTo(carte);
     coucheMarqueurs = L.layerGroup().addTo(carte);
