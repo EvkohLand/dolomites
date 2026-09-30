@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-09-30T14:14Z",
+  "genere_le": "2026-09-30T17:58Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-09-30T15:24"
+      "maj": "2026-09-30T19:05"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -876,6 +876,20 @@
     },
     {
       "source": "bz",
+      "id": "3121112",
+      "route": "LS/SP73 — Renon",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Ad Auna di Sotto (km 10,150 - km 10,250) senso unico alternato dalle ore 08:00 alle ore 18:00 per lavori di asfaltatura.",
+      "debut": "2026-10-15",
+      "fin": "2026-10-21",
+      "gps": [
+        46.4979,
+        11.38494
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3150612",
       "route": "LS/SP74 — Chiusa - Velturno - Bressanone",
       "niveau": "gene",
@@ -970,6 +984,20 @@
       "gps": [
         46.46046,
         11.34001
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2916201",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nella galleria di Laives CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso Laives.",
+      "debut": "2026-10-15",
+      "fin": "2026-10-16",
+      "gps": [
+        46.42713,
+        11.34893
       ]
     },
     {
@@ -1222,20 +1250,6 @@
       "gps": [
         46.78505,
         11.90688
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3086501",
-      "route": "SS49 — della Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Sulla circonvallazione di Villabassa (km 53,650 - km 57,100) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:00 per lavori di pulizia in galleria. Deviazione attraverso Villabassa.",
-      "debut": "2026-09-28",
-      "fin": "2026-09-30",
-      "gps": [
-        46.73829,
-        12.15609
       ]
     },
     {
