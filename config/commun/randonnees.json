@@ -5,7 +5,10 @@
     {
       "id": "funes",
       "zones_planning": [
-        "Funes / Bressanone"
+        "Funes / Bressanone",
+        "Route / Carezza / Funes",
+        "Funes",
+        "Braies / Varna"
       ],
       "difficulte_zone": "Facile à difficile selon variante. Sentiers forestiers/alpages puis terrain plus alpin vers les sommets.",
       "risques_zone": [
@@ -2128,7 +2131,8 @@
       "id": "val-gardena",
       "zones_planning": [
         "Val Gardena",
-        "Bressanone / Val Gardena"
+        "Bressanone / Val Gardena",
+        "Alpe di Siusi / Ortisei"
       ],
       "difficulte_zone": "Seceda va de la marche panoramique avec remontée à une vraie ascension depuis la vallée.",
       "risques_zone": [
@@ -3404,7 +3408,8 @@
       "id": "alpe-siusi",
       "zones_planning": [
         "Alpe di Siusi",
-        "Alpe di Siusi / Alta Badia"
+        "Alpe di Siusi / Alta Badia",
+        "Alpe di Siusi / Ortisei"
       ],
       "difficulte_zone": "Plateau globalement roulant, mais certaines boucles cumulent plusieurs centaines de mètres de dénivelé.",
       "risques_zone": [
@@ -5111,7 +5116,8 @@
     {
       "id": "cinque-torri",
       "zones_planning": [
-        "Alta Badia / Falzarego"
+        "Alta Badia / Falzarego",
+        "Cinque Torri / Dobbiaco"
       ],
       "difficulte_zone": "Randonnées faciles autour des tours ; accès à pied depuis Bai de Dones lorsque le télésiège est fermé.",
       "risques_zone": [
@@ -8012,7 +8018,9 @@
     {
       "id": "braies",
       "zones_planning": [
-        "Braies"
+        "Braies",
+        "Braies / Varna",
+        "Anterselva / Braies / Dobbiaco"
       ],
       "difficulte_zone": "Du plateau facile à une vraie randonnée de sommet ; accès routier spécifique à Prato Piazza.",
       "risques_zone": [
@@ -8862,7 +8870,10 @@
     {
       "id": "dobbiaco",
       "zones_planning": [
-        "Dobbiaco"
+        "Dobbiaco",
+        "Cinque Torri / Dobbiaco",
+        "Anterselva / Dobbiaco",
+        "Anterselva / Braies / Dobbiaco"
       ],
       "difficulte_zone": "Balades faciles autour du lac et randonnées plus longues depuis le village.",
       "risques_zone": [

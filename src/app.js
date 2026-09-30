@@ -1195,7 +1195,7 @@
           ['Saison', texteListe(x.saison)],
           ['Horaires', texteListe(x.horaires)],
           ['Prix', texteListe(x.prix)],
-          ['Chien', x.chien && typeof x.chien === 'object' ? [x.chien.admis === false ? 'non admis' : 'admis', x.chien.conditions].filter(Boolean).join(' · ') : x.chien],
+          ['Chien', x.chien && typeof x.chien === 'object' ? [x.chien.admis === false ? 'non admis' : (x.chien.admis === true || x.chien.admis === 'partiel' ? 'admis' : 'à demander'), x.chien.conditions].filter(Boolean).join(' · ') : x.chien],
           ['Durée', x.duree],
           ['Réservation', x.reservation && typeof x.reservation === 'object' ? (x.reservation.obligatoire ? 'obligatoire' : 'non obligatoire') : x.reservation],
           ['Adresse', x.adresse],

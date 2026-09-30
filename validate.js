@@ -336,6 +336,17 @@ if (scenarios && Array.isArray(scenarios.scenarios)) {
 
     const reglages = lire(`${s.dossier}/reglages.json`);
     const planning = lire(`${s.dossier}/planning.json`);
+    /* Un jour avec des visites dont la « zone » n'est rattachée à aucun groupe de
+       decouvertes.json n'affiche aucune idée ni bonne adresse : renommer une zone du
+       planning sans reporter le nom dans zones_planning les fait disparaître en silence. */
+    if (Array.isArray(planning) && decouvertes && Array.isArray(decouvertes.zones)) {
+      const zonesDec = new Set(decouvertes.zones.flatMap(z => z.zones_planning || []));
+      for (const j of planning) {
+        if ((j.activites || []).length && j.zone && !zonesDec.has(j.zone)) {
+          warn(`${s.dossier}/planning.json`, `jour ${j.jour} : zone « ${j.zone} » rattachée à aucun groupe de decouvertes.json (aucune bonne adresse affichée)`);
+        }
+      }
+    }
     const itineraire = lire(`${s.dossier}/itineraire.json`);
     const budget = lire(`${s.dossier}/budget.json`);
 

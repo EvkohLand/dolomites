@@ -3,10 +3,73 @@
   "note": "Sélection strictement rattachée aux zones du planning. Les dates d'ouverture 2026 sont reprises des sources officielles lorsqu'elles sont publiées. Une activité fermée aux dates du voyage est conservée mais marquée comme indisponible pour éviter les faux bons plans.",
   "zones": [
     {
+      "id": "ligurie",
+      "zones_planning": [
+        "Route / Ligurie"
+      ],
+      "items": [
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Finalborgo — bourg médiéval fortifié",
+          "resume": "Classé parmi les plus beaux villages d’Italie : remparts, cloîtres de Sainte-Catherine, palais du Tribunal. À 8 km de Pietra Ligure, balade libre d’environ 1 h.",
+          "source": "https://visitfinaleligure.it/fr/les-trois-quartiers-historiques-et-varigotti/finalborgo/",
+          "gps": [
+            44.17591,
+            8.32728
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "chien": "gratuit",
+            "gratuit": true,
+            "detail": "Balade libre dans les rues."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Rues publiques ; règle non précisée pour les monuments."
+          },
+          "duree_conseillee": "1 h"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Farinata da Virginia (Pietra Ligure) — à emporter",
+          "resume": "Farinata (galette de pois chiche) à emporter, spécialité ligure bon marché. Noté 4,4 sur Google. Pas de salle : à manger dehors avec le chien.",
+          "source": "https://restaurantguru.com/Farinata-da-Virginia-Pietra-Ligure",
+          "adresse": "Via Giuseppe Mazzini 70, Pietra Ligure",
+          "gps": [
+            44.1496,
+            8.2844
+          ],
+          "horaires": {
+            "general": "Vendredi 8 h 45 – 12 h 45 et 17 h – 20 h ; fermé le dimanche",
+            "par_jour": {
+              "2026-10-09": "8 h 45 – 12 h 45, 17 h – 20 h"
+            }
+          },
+          "prix": {
+            "detail": "Fourchette 1–10 € par personne (restaurantguru) ; tarif officiel non publié."
+          },
+          "prix_montant": 10,
+          "chien": {
+            "admis": true,
+            "conditions": "Vente à emporter uniquement : le chien reste dehors avec l’un de vous."
+          }
+        }
+      ]
+    },
+    {
       "id": "funes-bressanone",
       "zones_planning": [
         "Funes / Bressanone",
-        "Bressanone / Val Gardena"
+        "Bressanone / Val Gardena",
+        "Route / Carezza / Funes",
+        "Funes",
+        "Braies / Varna"
       ],
       "items": [
         {
@@ -983,6 +1046,220 @@
           ],
           "source": "https://www.klausen.it/de/ferienregion-suedtirol/klausen/sehenswuerdigkeiten/kloster-saeben.html",
           "page_contact": "https://www.klausen.it/de/"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Waldschenke (Santa Maddalena / St. Johann)",
+          "resume": "Restaurant-pizzeria au pied des Odle : soupe de Knödel au speck 9,80 €, pizza marinara 7,80 €, assortiment Knödel et Schlutzkrapfen 16,20 €.",
+          "source": "https://www.restaurant-waldschenke.com/speisekarte/",
+          "adresse": "St. Johann 3, Villnöß",
+          "gps": [
+            46.6334,
+            11.7283
+          ],
+          "horaires": {
+            "general": "Cuisine 12 h – 14 h 30 et 18 h – 20 h 30 ; pizza 17 h 30 – 20 h 30 ; fermé le lundi",
+            "fermeture_hebdo": "lundi"
+          },
+          "prix": {
+            "detail": "Carte officielle : Speckknödelsuppe 9,80 €, pizza dès 7,80 €."
+          },
+          "prix_montant": 9.8,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Dreimädelhaus (Funes) — pizzeria et cuisine tyrolienne",
+          "resume": "Soupe de Knödel au speck 9,50 €, Schlutzkrapfen 16 €, pâtes dès 11 €. Ouvert le samedi et le dimanche.",
+          "source": "https://www.dreimaedelhaus.info/speisekarte",
+          "adresse": "Coller Straße 10, Villnöß",
+          "gps": [
+            46.6465,
+            11.6882
+          ],
+          "horaires": {
+            "general": "Samedi et dimanche 12 h – 14 h et 17 h – 21 h ; fermé le mercredi",
+            "fermeture_hebdo": "mercredi"
+          },
+          "prix": {
+            "detail": "Carte officielle."
+          },
+          "prix_montant": 9.5,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Zanser Schwaige — produits de l’alpage",
+          "resume": "Speck, fromage et strudel maison à 5 min à pied du parking de Zans, au départ du sentier Adolf Munkel.",
+          "source": "https://www.zanserschwaige.com/",
+          "gps": [
+            46.6347,
+            11.7686
+          ],
+          "horaires": {
+            "general": "Début mai – Toussaint ; jour de fermeture non publié"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "vue",
+          "nom": "Belvédère gratuit de Saint-Jean de Ranui",
+          "resume": "La photo la plus célèbre du val devant les Odle, depuis le point de vue gratuit à 100 m du parking. Le tourniquet (4 € en espèces) n’apporte rien : l’église ne se visite pas.",
+          "source": "https://www.ledolomiti.it/de/sehenswuerdigkeiten/chiesetta-san-giovanni-in-ranui",
+          "gps": [
+            46.63676,
+            11.72193
+          ],
+          "horaires": {
+            "general": "Accès libre au point de vue"
+          },
+          "prix": {
+            "adulte": "gratuit (tourniquet 4 € évitable)",
+            "gratuit": true,
+            "detail": "Parking 10 €/jour (relevé juillet 2026) : combiner avec l’arrivée du sentier Munkel à Ranui pour ne pas payer deux fois."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          },
+          "duree_conseillee": "30 min"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Vieille ville de Chiusa / Klausen",
+          "resume": "L’un des plus beaux villages d’Italie, façades crénelées, « ville de Dürer » ; au pied du monastère de Säben. Balade libre d’1 h.",
+          "source": "https://www.brixen-suedtirol.com/de/infos/altstadt-klausen_5569",
+          "gps": [
+            46.63992,
+            11.56635
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "chien": "gratuit",
+            "gratuit": true,
+            "detail": "Parkings P1 Schindergries et P2 Altstadt : gratuits la nuit, 1 €/h et 4 €/jour en journée."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Rues publiques."
+          },
+          "duree_conseillee": "1 h"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Gummerer Hof (Pinzagen) — Buschenschank",
+          "resume": "Taverne de vigneron (Törggelen) au-dessus de Bressanone, 83/100 au Falstaff. Ouverte les lundis et jeudis soir, donc les 12 et 15 octobre.",
+          "source": "https://www.gummererhof.it/menu",
+          "gps": [
+            46.7072,
+            11.6462
+          ],
+          "horaires": {
+            "general": "Lundi, jeudi et vendredi dès 17 h ; samedi et dimanche dès 12 h",
+            "par_jour": {
+              "2026-10-12": "dès 17 h",
+              "2026-10-15": "dès 17 h"
+            }
+          },
+          "prix": {
+            "detail": "Carte non lisible en ligne."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Stiftskeller de l’abbaye de Novacella",
+          "resume": "Cave de l’abbaye à 5 min du lac de Varna : en-cas et petits plats tyroliens, vins de l’abbaye.",
+          "source": "https://www.kloster-neustift.it/de/besuchen-erleben/essen-trinken/",
+          "gps": [
+            46.7427,
+            11.6485
+          ],
+          "horaires": {
+            "general": "Lundi – samedi 10 h – 19 h ; fermé le dimanche et les fêtes religieuses",
+            "par_jour": {
+              "2026-10-12": "10 h – 19 h",
+              "2026-10-15": "10 h – 19 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Gasthaus Sunnegg (Bressanone, vignes de Kranebitt)",
+          "resume": "Cuisine tyrolienne dans les vignes au-dessus de Bressanone, ouvert le lundi et le jeudi.",
+          "source": "https://www.sunnegg.com/",
+          "gps": [
+            46.7311,
+            11.6577
+          ],
+          "horaires": {
+            "general": "12 h – 14 h et 19 h – 21 h ; fermé mardi et mercredi",
+            "fermeture_hebdo": "mardi, mercredi"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "Animalerie L’Isola dei Tesori (Bressanone)",
+          "resume": "Animalerie avec pesée et lavage du chien (le chien entre donc probablement) : croquettes de dépannage.",
+          "source": "https://www.isoladeitesori.it/on/demandware.store/Sites-idt-it-Site/it_IT/Stores-FindStores?lat=46.71&long=11.65&radius=30",
+          "adresse": "Via Vittorio Veneto 27/E, Bressanone",
+          "gps": [
+            46.710068,
+            11.652263
+          ],
+          "horaires": {
+            "general": "Lundi – samedi 8 h 30 – 12 h 30 et 15 h – 19 h (OpenStreetMap) ; fermé le dimanche"
+          },
+          "prix": {
+            "detail": "Magasin."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Services de pesée et de lavage : chien probablement admis, règle non écrite."
+          }
         }
       ]
     },
@@ -990,7 +1267,8 @@
       "id": "val-gardena",
       "zones_planning": [
         "Val Gardena",
-        "Bressanone / Val Gardena"
+        "Bressanone / Val Gardena",
+        "Alpe di Siusi / Ortisei"
       ],
       "items": [
         {
@@ -1483,6 +1761,49 @@
           ],
           "source": "https://www.val-gardena.com/it/indirizzi/dettaglio/base/poi/selva-di-val-gardena/parcheggio-passo-sella/EE413704564D44E3AEDB5B9CEA20076E",
           "page_contact": "https://www.valgardena.it/"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Promenade Luis Trenker (Ortisei → Selva)",
+          "resume": "Ancienne voie du petit train, plate et ensoleillée, jusqu’à la cascade Tervela ; faisable en partie en aller-retour depuis l’église d’Ortisei.",
+          "source": "https://www.valgardena.it/it/outdoor/base/outdoor/passeggiata-luis-trenker/810055000/",
+          "horaires": {
+            "general": "Fiche officielle : ouvert"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "chien": "gratuit",
+            "gratuit": true,
+            "detail": "Sentier libre."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Laisse ; règle non précisée."
+          },
+          "duree_conseillee": "30 min à 2 h (8,7 km jusqu’à Selva)"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Vedl Mulin (Ortisei)",
+          "resume": "Restaurant-pizzeria du centre d’Ortisei, cuisine en continu : pratique après l’Alpe di Siusi.",
+          "source": "https://www.valgardena.it/en/addresses/detail/base/company/ortisei-val-gardena/vedl-mulin/051EDD4CDD714F6B8B7522F371AFC17C/",
+          "gps": [
+            46.573064,
+            11.674052
+          ],
+          "horaires": {
+            "general": "Saison 11/05 – 02/11/2026, tous les jours 11 h 45 – 22 h"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
         }
       ]
     },
@@ -1490,7 +1811,8 @@
       "id": "alpe-siusi",
       "zones_planning": [
         "Alpe di Siusi",
-        "Alpe di Siusi / Alta Badia"
+        "Alpe di Siusi / Alta Badia",
+        "Alpe di Siusi / Ortisei"
       ],
       "items": [
         {
@@ -2028,7 +2350,8 @@
       "id": "lagazuoi-falzarego",
       "zones_planning": [
         "Val Gardena / Alta Badia",
-        "Alta Badia / Falzarego"
+        "Alta Badia / Falzarego",
+        "Cinque Torri / Dobbiaco"
       ],
       "items": [
         {
@@ -2563,6 +2886,81 @@
           ],
           "source": "https://lagazuoi.it/IT/Info-Prezzi-e-info-utili-page105-Parcheggio-della-funivia-Lagazuoi",
           "page_contact": "https://lagazuoi.it/EN/Contacts"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Vallée des moulins de Longiarü (Val di Morins)",
+          "resume": "Huit moulins restaurés sur un sentier facile d’1 h, patrimoine ladin, juste à côté de la route du Val Badia prise le jour des Cinque Torri.",
+          "source": "https://www.alta-badia.org/it/cultura-e-territorio/attrazioni/valle-dei-mulini/",
+          "gps": [
+            46.63643,
+            11.8489
+          ],
+          "horaires": {
+            "general": "Accès libre ; seul le premier moulin se visite, visites guidées l’été seulement"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "chien": "gratuit",
+            "gratuit": true,
+            "detail": "Parking à 50 m avant le Gasthof Tlisöra."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          },
+          "duree_conseillee": "1 h"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "vue",
+          "nom": "Cascades de Fanes — seulement jusqu’au Ponte Outo",
+          "resume": "Chemin de terre n° 10 depuis Pian de Loa jusqu’au pont Ponte Outo, sur la route du retour vers Dobbiaco. S’arrêter au pont : après, les sentiers de la gorge sont équipés de câbles (interdits par nos règles).",
+          "source": "https://www.guidedolomiti.com/escursioni-trekking/sentiero-canyons-cascate-di-fanes/",
+          "gps": [
+            46.60141,
+            12.09661
+          ],
+          "horaires": {
+            "general": "Ouverture non publiée"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "chien": "gratuit",
+            "gratuit": true,
+            "detail": "Tarif du parking de Sant’Uberto non publié."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          },
+          "duree_conseillee": "1 h – 1 h 30"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Al Passetto (Cortina) — pizzeria",
+          "resume": "Pizzeria face à la gare routière et à un grand parking public, ouverte le mardi (fermée le mercredi).",
+          "source": "https://www.alpassettoghedina.it/",
+          "adresse": "Via G. Marconi 8, Cortina d’Ampezzo",
+          "gps": [
+            46.5393,
+            12.1371
+          ],
+          "horaires": {
+            "general": "12 h – 15 h et 18 h 30 – 24 h ; fermé le mercredi",
+            "fermeture_hebdo": "mercredi"
+          },
+          "prix": {
+            "detail": "Carte non lisible en ligne."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
         }
       ]
     },
@@ -3085,7 +3483,10 @@
       "id": "tre-cime-dobbiaco",
       "zones_planning": [
         "Tre Cime / Dobbiaco",
-        "Dobbiaco"
+        "Dobbiaco",
+        "Cinque Torri / Dobbiaco",
+        "Anterselva / Dobbiaco",
+        "Anterselva / Braies / Dobbiaco"
       ],
       "items": [
         {
@@ -3935,13 +4336,131 @@
           ],
           "source": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/",
           "page_contact": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Pizzeria Hans (Dobbiaco)",
+          "resume": "Pizza marinara 7,60 €, margherita 8,60 €, Schlutzkrapfen 16,90 € ; noté 4,6 sur Google, ouvert tous les jours.",
+          "source": "https://pizzeria-hans.com/",
+          "adresse": "Pustertaler Straße 9, Toblach",
+          "gps": [
+            46.729,
+            12.2221
+          ],
+          "horaires": {
+            "general": "Pizzeria 12 h – 15 h et 17 h 30 – 23 h, sans jour de fermeture"
+          },
+          "prix": {
+            "detail": "Cartes officielles (PDF)."
+          },
+          "prix_montant": 7.6,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Restaurant Seeschupfe (lac de Dobbiaco)",
+          "resume": "Au bord du lac de Dobbiaco, près du camping : chiens acceptés selon OpenStreetMap.",
+          "source": "https://www.toblachersee.com/wine-dine/",
+          "gps": [
+            46.7063,
+            12.2178
+          ],
+          "horaires": {
+            "general": "12 h – 22 h, pizzeria 15 h – 22 h ; « peut varier selon la saison »"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Selon OpenStreetMap (dog=yes), pas selon le site officiel."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "eglise",
+          "nom": "Église de pèlerinage d’Aufkirchen (Santa Maria)",
+          "resume": "Église gothique à 2 km de Dobbiaco, départ du chemin de méditation vers St. Peter am Kofl.",
+          "source": "https://www.dreizinnen.com/de/infos/marienwallfahrtskirche-aufkirchen_6617",
+          "gps": [
+            46.74395,
+            12.20395
+          ],
+          "horaires": {
+            "general": "Horaires non publiés"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "chien": "gratuit",
+            "gratuit": true,
+            "detail": "Parking sur place."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Sentier de la source de la Drave",
+          "resume": "La source d’un fleuve de 750 km, dans la forêt de mélèzes entre Dobbiaco et San Candido : 4,3 km faciles, 1 h.",
+          "source": "https://www.dreizinnen.com/de/activity/themenweg-drauursprung_708",
+          "gps": [
+            46.72247,
+            12.25301
+          ],
+          "horaires": {
+            "general": "Fiche officielle : ouvert"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "chien": "gratuit",
+            "gratuit": true,
+            "detail": "Sentier libre."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Laisse."
+          },
+          "duree_conseillee": "1 h"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Chalet Lago Antorno",
+          "resume": "Restaurant au bord du lac d’Antorno, au départ de la montée à pied vers les Tre Cime. Saison d’octobre non publiée.",
+          "source": "https://www.lagoantorno.it/ristorante",
+          "gps": [
+            46.5946,
+            12.2638
+          ],
+          "horaires": {
+            "general": "12 h – 21 h ; dates de saison non publiées"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "« Animali benvenuti » sur le site, visiblement pour l’hébergement ; salle du restaurant : à demander."
+          }
         }
       ]
     },
     {
       "id": "braies",
       "zones_planning": [
-        "Braies"
+        "Braies",
+        "Braies / Varna",
+        "Anterselva / Braies / Dobbiaco"
       ],
       "items": [
         {
@@ -4396,6 +4915,56 @@
           ],
           "source": "https://www.pustertal.org/en/leisure-activities/mountains-and-hiking/hiking-in-alta-pusteria-three-peaks/lake-dobbiaco-circular-hike/",
           "page_contact": "https://www.dreizinnen.com/en/contact"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Bains de Braies Vecchia (Bad Altprags) et leurs sources",
+          "resume": "Établissement thermal de 1490 et sources Hirschbrunnen et Augenquelle : au carrefour du val de Braies, prendre à gauche (Altprags) au lieu du lac. Potabilité de l’eau non indiquée.",
+          "source": "https://umwelt.provinz.bz.it/de/wasser/mineralwasserquellen/bad-altprags",
+          "gps": [
+            46.70219,
+            12.15333
+          ],
+          "horaires": {
+            "general": "Ouverture non publiée"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "chien": "gratuit",
+            "gratuit": true,
+            "detail": "Accès libre non confirmé."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Mühlbacher Klause — fort-barrière médiéval",
+          "resume": "Ruines d’un fort-barrière directement sur la route Braies → Varna ; visites guidées le jeudi seulement jusqu’à mi-octobre, ruines visibles de l’extérieur.",
+          "source": "https://muehlbacherklause.it/besuchszeiten/",
+          "gps": [
+            46.81211,
+            11.68466
+          ],
+          "horaires": {
+            "general": "Juin – mi-octobre, jeudi 9 h 30 – 12 h et 14 h 30 – 16 h 30, annulé par mauvais temps",
+            "par_jour": {
+              "2026-10-15": "jeudi : visite possible si la saison n’est pas close (limite « mi-octobre »)"
+            }
+          },
+          "prix": {
+            "detail": "Prix de la visite non publié ; extérieur libre."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          },
+          "duree_conseillee": "1 h"
         }
       ]
     }
