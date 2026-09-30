@@ -9526,6 +9526,202 @@
           "source": "https://www.dreizinnen.com/en/activity/summer-hiking-tour-silvesteralm-and-silvesterkapelle_736"
         }
       ]
+    },
+    {
+      "id": "carezza",
+      "zones_planning": [
+        "Route / Carezza / Funes"
+      ],
+      "difficulte_zone": "Promenades forestières faciles autour du lac ; éviter la boucle officielle qui emprunte la passerelle suspendue.",
+      "risques_zone": [
+        "Verglas possible en sous-bois",
+        "Arrivée à la ferme de Funes conseillée avant 18 h : au plus 1 h de marche ce jour-là"
+      ],
+      "randos": [
+        {
+          "type": "aller simple",
+          "verifie_le": "2026-10-01",
+          "chien": {
+            "admis": true,
+            "passages_delicats": "aucun cité par la fiche",
+            "laisse_museliere": "Laisse obligatoire (lieux publics) ; muselière à avoir sur soi dans le bus"
+          },
+          "nom": "Col de Carezza → lac de Carezza par la forêt du Latemar",
+          "distance_km": 4.4,
+          "duree": "1 h 05 (aller simple, descente)",
+          "duree_h": 1.1,
+          "denivele_plus_m": 18,
+          "denivele_moins_m": 225,
+          "niveau": {
+            "officiel": "facile (office du Val d’Ega)",
+            "traduction": "facile"
+          },
+          "depart": "Col de Carezza (Karerpass)",
+          "depart_gps": [
+            46.4042,
+            11.60915
+          ],
+          "risque": "Faible ; 59 % de chemin empierré.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage au-dessus du vide cité."
+          },
+          "plan": [
+            "Col de Carezza",
+            "sentiers 21, 13 et 10 dans la forêt du Latemar",
+            "lac de Carezza (P1)"
+          ],
+          "acces_transport": {
+            "bus": "Retour au col en bus 180 ou 184, ou aller-retour à pied (durée du retour en montée non publiée).",
+            "remontees": []
+          },
+          "parking": {
+            "nom": "Parking du col de Carezza",
+            "gps": [
+              46.4042,
+              11.60915
+            ],
+            "prix": "payant, tarif non publié"
+          },
+          "source": "https://www.outdooractive.com/de/route/wanderung/val-di-fassa/vom-karerpass-zum-karer-see/810055748/"
+        },
+        {
+          "type": "aller simple",
+          "verifie_le": "2026-10-01",
+          "chien": {
+            "admis": true,
+            "passages_delicats": "aucun cité par la fiche",
+            "laisse_museliere": "Laisse obligatoire (lieux publics) ; muselière à avoir sur soi dans le bus"
+          },
+          "nom": "Lac de Carezza → Stadl Alm (randonnée familiale)",
+          "distance_km": 4.2,
+          "duree": "1 h 05 (aller simple)",
+          "duree_h": 1.1,
+          "denivele_plus_m": 32,
+          "denivele_moins_m": 83,
+          "niveau": {
+            "officiel": "facile, praticable en poussette (office du Val d’Ega)",
+            "traduction": "facile"
+          },
+          "depart": "Parking P1 du lac de Carezza",
+          "depart_gps": [
+            46.41034,
+            11.5759
+          ],
+          "risque": "Faible.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Chemin praticable en poussette."
+          },
+          "plan": [
+            "P1 du lac de Carezza",
+            "sentiers 8, 25A et 25",
+            "Stadl Alm (auberge fermée hors été)"
+          ],
+          "parking": {
+            "nom": "P1 du lac de Carezza",
+            "gps": [
+              46.41034,
+              11.5759
+            ],
+            "prix": "5 € la 1re heure, 8 € jusqu’à 2 h"
+          },
+          "source": "https://www.outdooractive.com/de/route/wanderung/eggental/familienwanderung-vom-karer-see-zur-stadl-alm/810054675/"
+        }
+      ]
+    },
+    {
+      "id": "val-badia",
+      "zones_planning": [
+        "Cinque Torri / Dobbiaco"
+      ],
+      "difficulte_zone": "Balades de fond de vallée faciles le long du torrent, sur la route des Cinque Torri.",
+      "risques_zone": [
+        "Presque tous les restaurants ferment du 3 au 11 octobre"
+      ],
+      "randos": [
+        {
+          "type": "boucle",
+          "verifie_le": "2026-10-01",
+          "chien": {
+            "admis": true,
+            "passages_delicats": "aucun cité par la fiche",
+            "laisse_museliere": "Laisse obligatoire (lieux publics) ; muselière à avoir sur soi dans le bus"
+          },
+          "nom": "La Villa → lac Lech da Sompunt",
+          "distance_km": 7.5,
+          "duree": "2 h 30",
+          "duree_h": 2.5,
+          "denivele_plus_m": 172,
+          "denivele_moins_m": 174,
+          "niveau": {
+            "officiel": "facile (Alta Badia)",
+            "traduction": "facile"
+          },
+          "depart": "Arrêt de bus de La Villa",
+          "depart_gps": [
+            46.58271,
+            11.90366
+          ],
+          "risque": "Faible ; chemin asphalté et bord de rivière.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage délicat cité."
+          },
+          "plan": [
+            "La Villa",
+            "route n° 11",
+            "chemin asphalté et bord de rivière",
+            "lac Lech da Sompunt",
+            "retour à La Villa"
+          ],
+          "parking": {
+            "nom": "La Villa",
+            "prix": "parking non précisé par la fiche"
+          },
+          "source": "https://www.altabadia.org/it/tour/oadetail/oa/escursione-da-la-villa-al-lago-lech-da-sompunt"
+        },
+        {
+          "type": "aller simple",
+          "verifie_le": "2026-10-01",
+          "chien": {
+            "admis": true,
+            "passages_delicats": "aucun cité par la fiche",
+            "laisse_museliere": "Laisse obligatoire (lieux publics) ; muselière à avoir sur soi dans le bus"
+          },
+          "nom": "Sentier des artistes (Tru di artisć), La Villa → San Cassiano",
+          "distance_km": 5.2,
+          "duree": "1 h 40 jusqu’à Armentarola (50 min jusqu’à San Cassiano)",
+          "duree_h": 1.7,
+          "denivele_plus_m": 245,
+          "denivele_moins_m": 46,
+          "niveau": {
+            "officiel": "facile (Alta Badia)",
+            "traduction": "facile"
+          },
+          "depart": "La Villa",
+          "depart_gps": [
+            46.58313,
+            11.90382
+          ],
+          "risque": "Faible ; le long du torrent, œuvres d’art en chemin.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Aucun passage délicat cité."
+          },
+          "plan": [
+            "La Villa",
+            "bord du torrent",
+            "San Cassiano",
+            "Armentarola"
+          ],
+          "acces_transport": {
+            "bus": "Retour en bus 465, toutes les heures.",
+            "remontees": []
+          },
+          "source": "https://www.altabadia.org/it/tour/oadetail/oa/sentiero-degli-artisti-tru-di-artisc"
+        }
+      ]
     }
   ]
 }

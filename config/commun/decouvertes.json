@@ -59,6 +59,31 @@
             "admis": true,
             "conditions": "Vente à emporter uniquement : le chien reste dehors avec l’un de vous."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Da Benny — pizzeria du camping Pian dei Boschi",
+          "resume": "Pizzeria ouverte aux clients extérieurs, à 1 km de l’agricamping, ouverte le vendredi soir. Réservation conseillée.",
+          "source": "https://www.piandeiboschi.it/it/ristorante-pizzeria-pietra-ligure.html",
+          "adresse": "Via Ponti 1, Pietra Ligure",
+          "gps": [
+            44.14913,
+            8.2685
+          ],
+          "horaires": {
+            "general": "Vendredi 18 h 30 – 22 h 30",
+            "par_jour": {
+              "2026-10-09": "18 h 30 – 22 h 30"
+            }
+          },
+          "prix": {
+            "detail": "20–30 € par personne selon Google Maps ; carte non publiée."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Chiens admis sur les emplacements du camping ; en salle : à demander."
+          }
         }
       ]
     },
@@ -1259,6 +1284,56 @@
           "chien": {
             "admis": null,
             "conditions": "Services de pesée et de lavage : chien probablement admis, règle non écrite."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Hubenbauer — Buschenschank (Varna)",
+          "resume": "Ferme-auberge avec brasserie : speck et saucisses fumées de la ferme, à quelques minutes du lac de Varna. Ouverte le lundi et le jeudi toute la journée.",
+          "source": "https://www.hubenbauer.com",
+          "gps": [
+            46.73768,
+            11.6358
+          ],
+          "horaires": {
+            "general": "18/09 – 06/12 : lundi et jeudi 11 h 30 – 21 h, mardi 11 h 30 – 13 h, fermé le mercredi",
+            "par_jour": {
+              "2026-10-12": "11 h 30 – 21 h",
+              "2026-10-15": "11 h 30 – 21 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Buschenschank Gschlössler (Varna)",
+          "resume": "Saucisses maison, viande de ses bêtes et vin de la ferme ; ouvert le jeudi soir (15 octobre), fermé le lundi.",
+          "source": "https://www.gschloessler.com/torggelen-buschenschank",
+          "gps": [
+            46.74318,
+            11.62521
+          ],
+          "horaires": {
+            "general": "Octobre – novembre : mercredi et jeudi 17 h – 21 h, vendredi – dimanche 12 h – 21 h ; fermé le lundi",
+            "par_jour": {
+              "2026-10-12": "fermé",
+              "2026-10-15": "17 h – 21 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
           }
         }
       ]
@@ -4965,6 +5040,133 @@
             "conditions": "Règle non publiée : demander sur place."
           },
           "duree_conseillee": "1 h"
+        }
+      ]
+    },
+    {
+      "id": "carezza",
+      "zones_planning": [
+        "Route / Carezza / Funes"
+      ],
+      "items": [
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Ladritscher Hof — ferme-auberge (Nova Levante)",
+          "resume": "Vieille ferme à 1,5 km du lac, cuisine de sa propre production ; menu d’automne « Törggelen » (boudins, saucisses maison, Schlutzkrapfen) sur réservation. Ouverte le samedi.",
+          "source": "https://www.ladritscherhof.com",
+          "gps": [
+            46.42188,
+            11.56611
+          ],
+          "horaires": {
+            "general": "12/06 – 01/11/2026, 11 h – 18 h, cuisine chaude 12 h – 16 h ; fermé le jeudi",
+            "par_jour": {
+              "2026-10-10": "11 h – 18 h, cuisine 12 h – 16 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        }
+      ]
+    },
+    {
+      "id": "val-badia",
+      "zones_planning": [
+        "Cinque Torri / Dobbiaco"
+      ],
+      "items": [
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "marche",
+          "nom": "Fromagerie Chi Prà (Badia)",
+          "resume": "Fromages au lait cru et yaourts de la ferme, 500 m avant Pedraces, sur la route du 13 octobre. Ouverte le mardi.",
+          "source": "https://www.sentres.com/it/poi/azienda-agricola/chi-pra/61286306",
+          "gps": [
+            46.61579,
+            11.89305
+          ],
+          "horaires": {
+            "general": "Mardi 9 h – 12 h 30 et 15 h – 19 h (Google Maps) ; fermé le dimanche",
+            "par_jour": {
+              "2026-10-13": "9 h – 12 h 30, 15 h – 19 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Magasin de ferme : un adulte garde le chien dehors."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "Lüch da Ciampidel — distributeur de la ferme 24 h/24 (San Cassiano)",
+          "resume": "Viande, speck, saucisses et œufs de la ferme dans un distributeur automatique ouvert 24 h/24 (la boutique, elle, n’ouvre que du jeudi au samedi).",
+          "source": "https://www.ciampidel.com/it/",
+          "gps": [
+            46.58361,
+            11.9188
+          ],
+          "horaires": {
+            "general": "Distributeur 24 h/24 ; boutique jeudi – samedi 9 h – 12 h"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Distributeur en extérieur."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Bistro « La Scola » (Colfosco)",
+          "resume": "Bistro ouvert en octobre quand presque tout le Val Badia est fermé ; chiens admis selon l’office de tourisme ; repas chauds le midi.",
+          "source": "https://www.altabadia.org/en/info/restaurants/detail/gastronomy/bistro-la-scola",
+          "gps": [
+            46.55042,
+            11.85415
+          ],
+          "horaires": {
+            "general": "01/10 – 30/11, 9 h – 18 h 30, repas chauds 11 h 30 – 14 h"
+          },
+          "prix": {
+            "detail": "10–20 € par personne selon Google Maps."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "« Dogs admitted » (office de tourisme d’Alta Badia)."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "La Ciasota — cantine (La Val)",
+          "resume": "Cantine d’ouvriers aux « prix corrects » selon l’office de tourisme, ouverte presque toute l’année, à 10 min de détour de la vallée.",
+          "source": "https://www.altabadia.org/en/info/restaurants/detail/gastronomy/ristorante-la-ciasota",
+          "gps": [
+            46.65026,
+            11.90618
+          ],
+          "horaires": {
+            "general": "01/01 – 20/12, 11 h 30 – 13 h (office) ou 11 h – 15 h (Google Maps)"
+          },
+          "prix": {
+            "detail": "10–20 € par personne selon Google Maps."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
         }
       ]
     }
