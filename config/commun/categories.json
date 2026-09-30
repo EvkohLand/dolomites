@@ -96,5 +96,12 @@
     "icone": "refuge",
     "ordre": 14,
     "actif": false
+  },
+  "service": {
+    "libelle": "Eau, WC, laverie",
+    "couleur": "#4a7f9b",
+    "icone": "goutte",
+    "ordre": 15,
+    "actif": false
   }
 }

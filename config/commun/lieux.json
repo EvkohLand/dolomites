@@ -19390,5 +19390,1214 @@
         }
       ]
     }
+  },
+  {
+    "id": "agricamping-lo-zafferano",
+    "nom": "Agricamping Lo Zafferano (Albenga)",
+    "categorie": "agricamper",
+    "gps": [
+      44.06892,
+      8.20808
+    ],
+    "commune": "Albenga (SV)",
+    "resume": "Ferme à 11 km de Pietra Ligure : 25 € la nuit jusqu’à 4 personnes, électricité et douches chaudes comprises, et la nuit est offerte pour 35 € de produits de la ferme achetés. Chiens bienvenus. Tente de toit : non mentionnée par la source, à faire confirmer par écrit avant d’y aller.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 28,
+      "unite": "nuit pour 2, taxe comprise (offerte pour 35 € d’achats à la ferme)",
+      "detail": "25 €/nuit du 1er septembre au 22 décembre + taxe 1,50 €/personne jusqu’au 30 octobre ; acompte 30 %."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Cani ammessi e benvenuti »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert toute l’année."
+    },
+    "source": "https://agricampingzafferano.it/it/agricamping-piazzole-camper-appartamento-vacanze-albenga-savona-liguria",
+    "equipements": [
+      "electricite",
+      "eau",
+      "vidange",
+      "toilettes",
+      "douches",
+      "ouvert-annee",
+      "reservation"
+    ],
+    "liens": [
+      {
+        "libelle": "Lo Zafferano — emplacements et prix (officiel)",
+        "url": "https://agricampingzafferano.it/it/agricamping-piazzole-camper-appartamento-vacanze-albenga-savona-liguria"
+      },
+      {
+        "libelle": "CamperOnLine — fermes près de Pietra Ligure",
+        "url": "https://www.camperonline.it/sosta-camper/agriturismi/pietra-ligure/6518"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Lo Zafferano — emplacements et prix (officiel)",
+          "url": "https://agricampingzafferano.it/it/agricamping-piazzole-camper-appartamento-vacanze-albenga-savona-liguria"
+        },
+        {
+          "libelle": "CamperOnLine — fermes près de Pietra Ligure",
+          "url": "https://www.camperonline.it/sosta-camper/agriturismi/pietra-ligure/6518"
+        }
+      ]
+    }
+  },
+  {
+    "id": "agricamping-oasi-ceriale",
+    "nom": "Agricamping Oasi (Ceriale)",
+    "categorie": "agricamper",
+    "gps": [
+      44.07312,
+      8.22491
+    ],
+    "commune": "Ceriale (SV)",
+    "resume": "Ferme-camping à 10 km de Pietra Ligure, dès 25 € les 24 h, chiens acceptés, ouverte le 9 octobre (fermée du 3 au 30 novembre). Tente de toit : non mentionnée par la source, à faire confirmer par écrit avant d’y aller.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 25,
+      "unite": "24 h, à partir de",
+      "detail": "« À partir de 25 € les 24 h » (site officiel)."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chiens acceptés (CamperOnLine)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Fermé du 3 au 30 novembre et du 7 au 31 janvier : ouvert le 9 octobre."
+    },
+    "source": "https://www.oasiceriale.com/",
+    "equipements": [
+      "electricite",
+      "eau",
+      "toilettes",
+      "douches"
+    ],
+    "liens": [
+      {
+        "libelle": "Oasi Ceriale (officiel)",
+        "url": "https://www.oasiceriale.com/"
+      },
+      {
+        "libelle": "CamperOnLine — Oasi agricamping",
+        "url": "https://www.camperonline.it/sosta-camper/aree-di-sosta/italia/liguria/oasi-agricamping/23955"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Oasi Ceriale (officiel)",
+          "url": "https://www.oasiceriale.com/"
+        },
+        {
+          "libelle": "CamperOnLine — Oasi agricamping",
+          "url": "https://www.camperonline.it/sosta-camper/aree-di-sosta/italia/liguria/oasi-agricamping/23955"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camping-pian-dei-boschi",
+    "nom": "Camping Pian dei Boschi (Pietra Ligure)",
+    "categorie": "camping",
+    "gps": [
+      44.15055,
+      8.26918
+    ],
+    "commune": "Pietra Ligure (SV)",
+    "resume": "Camping à Pietra Ligure, ouvert en octobre : 31 € la nuit avec le chien (plus la taxe), soit environ 15 € de moins que La Pietra e l’Ulivo. Chiens admis sur les emplacements (pas dans les maisons). Tente de toit : non mentionnée par la source, à faire confirmer par écrit avant d’y aller.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 31,
+      "unite": "nuit, emplacement jusqu’à 3 personnes + chien, hors taxe de séjour",
+      "detail": "Du 28/09 au 01/11 : emplacement 27 € + chien 4 €. Taxe de séjour non publiée."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 4,
+      "note": "Admis sur les emplacements, 4 € ; interdits dans les maisons."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Grille de prix publiée jusqu’au 1er novembre 2026."
+    },
+    "source": "https://www.piandeiboschi.it/it/prezzi-camping-pietra-ligure.html",
+    "equipements": [
+      "toilettes",
+      "douches"
+    ],
+    "liens": [
+      {
+        "libelle": "Pian dei Boschi — prix 2026 (officiel)",
+        "url": "https://www.piandeiboschi.it/it/prezzi-camping-pietra-ligure.html"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Pian dei Boschi — prix 2026 (officiel)",
+          "url": "https://www.piandeiboschi.it/it/prezzi-camping-pietra-ligure.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aire-area-camper-pietra",
+    "nom": "Area Camper Pietra — aire (tente de toit probablement refusée)",
+    "categorie": "aire",
+    "gps": [
+      44.1544,
+      8.28361
+    ],
+    "commune": "Pietra Ligure (SV)",
+    "nuit_possible": false,
+    "resume": "Aire privée à 24 € avec électricité, mais « area sosta (no camping) » et OpenStreetMap indique « pas de tente » : ne pas y prévoir la nuit. Utile pour l’eau et la vidange (5 €).",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 24,
+      "unite": "nuit pour 2 (vidange seule : 5 €)",
+      "detail": "24 €/nuit électricité 2 A, eau, vidange ; taxe 0,70 €/personne du 01/04 au 31/10 ; carico/scarico seul 5 €."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Animali sempre benvenuti »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouverte toute l’année, départ 10 h."
+    },
+    "source": "https://www.areacamperpietra.it/",
+    "equipements": [
+      "electricite",
+      "eau",
+      "vidange",
+      "ouvert-annee"
+    ],
+    "liens": [
+      {
+        "libelle": "Area Camper Pietra (officiel)",
+        "url": "https://www.areacamperpietra.it/"
+      },
+      {
+        "libelle": "OpenStreetMap — tents=no",
+        "url": "https://www.openstreetmap.org/way/25616990"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Area Camper Pietra (officiel)",
+          "url": "https://www.areacamperpietra.it/"
+        },
+        {
+          "libelle": "OpenStreetMap — tents=no",
+          "url": "https://www.openstreetmap.org/way/25616990"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aire-sportbar-villnoess",
+    "nom": "Aire de la Sportbar (St. Peter, Val di Funes)",
+    "categorie": "aire",
+    "gps": [
+      46.64101,
+      11.69165
+    ],
+    "commune": "Villnöss – St. Peter",
+    "resume": "Aire privée de 40 places dans la même vallée que la ferme : 12 à 16 € la nuit selon les sources (contre 42 € à la ferme), chiens autorisés, WC et douches. Prix à confirmer, et tente de toit : non mentionnée par la source, à faire confirmer par écrit avant d’y aller.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 16,
+      "unite": "nuit (12 € selon promobil), eau, WC et douches en supplément",
+      "detail": "16 €/jour 0–24 h, WC, douches et eau en plus (stellplatz.info, 2026) ; 12 €/nuit et WC 1 € (promobil) : les deux sources ne concordent pas."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chiens autorisés (stellplatz.info)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Du 4 avril au 20 novembre."
+    },
+    "source": "https://stellplatz.info/wohnmobilstellplatz/sportbar-villnoss",
+    "equipements": [
+      "electricite",
+      "eau",
+      "vidange",
+      "toilettes",
+      "douches",
+      "bar",
+      "restaurant",
+      "wifi",
+      "reservation"
+    ],
+    "liens": [
+      {
+        "libelle": "stellplatz.info — Sportbar Villnöss",
+        "url": "https://stellplatz.info/wohnmobilstellplatz/sportbar-villnoss"
+      },
+      {
+        "libelle": "promobil — Sportbar Villnöss",
+        "url": "https://www.promobil.de/stellplatz/wohnmobilstellplatz-sportbar-villnoess-62e969bb5b33830008ae2eb7.html"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "stellplatz.info — Sportbar Villnöss",
+          "url": "https://stellplatz.info/wohnmobilstellplatz/sportbar-villnoss"
+        },
+        {
+          "libelle": "promobil — Sportbar Villnöss",
+          "url": "https://www.promobil.de/stellplatz/wohnmobilstellplatz-sportbar-villnoess-62e969bb5b33830008ae2eb7.html"
+        },
+        {
+          "libelle": "OpenStreetMap — aire",
+          "url": "https://www.openstreetmap.org/node/10013108559"
+        }
+      ]
+    }
+  },
+  {
+    "id": "agricamping-sitting-bull-ranch",
+    "nom": "Sitting Bull Ranch (San Martino in Badia)",
+    "categorie": "agricamper",
+    "gps": [
+      46.635172,
+      11.85651
+    ],
+    "commune": "San Martino in Badia",
+    "resume": "Ferme à 1 480 m, 20 places, 28 à 35 € avec électricité, eau, WC et douches, chiens autorisés ; à 1 km des moulins de Longiarü. Ouverture saisonnière sans dates. Tente de toit : non mentionnée par la source, à faire confirmer par écrit avant d’y aller.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 28,
+      "unite": "nuit (jusqu’à 35 €)",
+      "detail": "28–35 € avec électricité, eau, vidange et WC (stellplatz.info)."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chiens autorisés."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Saisonnière, dates non publiées : à confirmer pour octobre."
+    },
+    "source": "https://stellplatz.info/wohnmobilstellplatz/sitting-bull-ranch",
+    "equipements": [
+      "electricite",
+      "eau",
+      "vidange",
+      "toilettes",
+      "douches"
+    ],
+    "liens": [
+      {
+        "libelle": "stellplatz.info — Sitting Bull Ranch",
+        "url": "https://stellplatz.info/wohnmobilstellplatz/sitting-bull-ranch"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "stellplatz.info — Sitting Bull Ranch",
+          "url": "https://stellplatz.info/wohnmobilstellplatz/sitting-bull-ranch"
+        }
+      ]
+    }
+  },
+  {
+    "id": "agricamping-glinzhof",
+    "nom": "Glinzhof — ferme bio (San Candido)",
+    "categorie": "agricamper",
+    "gps": [
+      46.74322,
+      12.2799
+    ],
+    "commune": "Innichen / San Candido",
+    "resume": "Seule ferme avec emplacements trouvée près de Dobbiaco : 3 places, 50 à 80 € selon les sources, chiens autorisés, piscine et sauna. Plus chère que le camping Olympia. Tente de toit : non mentionnée par la source, à faire confirmer par écrit avant d’y aller.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 50,
+      "unite": "nuit (jusqu’à 80 €)",
+      "detail": "80 € (stellplatz.info) ou 50–70 € (Campercontact)."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chiens autorisés."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Saisonnière, dates non publiées."
+    },
+    "source": "https://www.glinzhof.com/camping/",
+    "equipements": [
+      "electricite",
+      "eau",
+      "toilettes",
+      "douches"
+    ],
+    "liens": [
+      {
+        "libelle": "Glinzhof — camping (officiel)",
+        "url": "https://www.glinzhof.com/camping/"
+      },
+      {
+        "libelle": "stellplatz.info — Glinzhof",
+        "url": "https://stellplatz.info/wohnmobilstellplatz/glinzhof"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Glinzhof — camping (officiel)",
+          "url": "https://www.glinzhof.com/camping/"
+        },
+        {
+          "libelle": "stellplatz.info — Glinzhof",
+          "url": "https://stellplatz.info/wohnmobilstellplatz/glinzhof"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aire-camperpark-dolomites",
+    "nom": "Camperpark Dolomites (San Candido)",
+    "categorie": "aire",
+    "gps": [
+      46.73933,
+      12.36604
+    ],
+    "commune": "Innichen / San Candido",
+    "resume": "Aire privée de 90 places à environ 15 min de Dobbiaco, ouverte toute l’année, sans réservation : 36 € tout compris (électricité, eau, WC), douche chaude 3 €, lave-linge 4 €. Environ 12 € de moins par nuit que le camping Olympia. Le site ne parle que de camping-cars, fourgons et caravanes : tente de toit : non mentionnée par la source, à faire confirmer par écrit avant d’y aller.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 36,
+      "unite": "nuit pour 2, taxe comprise",
+      "detail": "30 € avec électricité, eau, WC et vidange + taxe 3 €/personne ; douche chaude 3 € ; machine à laver 4 €."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chiens bienvenus, en laisse."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouverte toute l’année, barrière automatique 24 h/24."
+    },
+    "source": "https://www.camperpark-dolomites.it/",
+    "equipements": [
+      "electricite",
+      "eau",
+      "vidange",
+      "toilettes",
+      "douches",
+      "laverie",
+      "ouvert-annee",
+      "24h"
+    ],
+    "liens": [
+      {
+        "libelle": "Camperpark Dolomites (officiel)",
+        "url": "https://www.camperpark-dolomites.it/"
+      },
+      {
+        "libelle": "Photon/OpenStreetMap — Via Prato alla Drava 1 A",
+        "url": "https://www.openstreetmap.org/search?query=Camperpark%20Dolomites"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Camperpark Dolomites (officiel)",
+          "url": "https://www.camperpark-dolomites.it/"
+        },
+        {
+          "libelle": "Photon/OpenStreetMap — Via Prato alla Drava 1 A",
+          "url": "https://www.openstreetmap.org/search?query=Camperpark%20Dolomites"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aire-monguelfo",
+    "nom": "Aire de camping-cars de Monguelfo",
+    "categorie": "aire",
+    "gps": [
+      46.75277,
+      12.11328
+    ],
+    "commune": "Welsberg / Monguelfo",
+    "resume": "Parking communal pour camping-cars à 10 km de Dobbiaco : 12 € les 24 h, ouvert toute l’année, seulement l’élimination des déchets (ni eau ni électricité). Règle pour les tentes non publiée : tente de toit : non mentionnée par la source, à faire confirmer par écrit avant d’y aller.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 12,
+      "unite": "24 h",
+      "detail": "12 €/24 h (pièces, carte ou EasyPark)."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouverte toute l’année."
+    },
+    "source": "https://www.gsieser-tal.com/it/pois/C0F1632C718CB214793535FA93C9F8C2-area-di-sosta-per-camper-a-monguelfo.html",
+    "equipements": [
+      "poubelles",
+      "ouvert-annee"
+    ],
+    "liens": [
+      {
+        "libelle": "Office du val de Gsies — aire de Monguelfo",
+        "url": "https://www.gsieser-tal.com/it/pois/C0F1632C718CB214793535FA93C9F8C2-area-di-sosta-per-camper-a-monguelfo.html"
+      },
+      {
+        "libelle": "OpenStreetMap — aire",
+        "url": "https://www.openstreetmap.org/node/11231074196"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Office du val de Gsies — aire de Monguelfo",
+          "url": "https://www.gsieser-tal.com/it/pois/C0F1632C718CB214793535FA93C9F8C2-area-di-sosta-per-camper-a-monguelfo.html"
+        },
+        {
+          "libelle": "OpenStreetMap — aire",
+          "url": "https://www.openstreetmap.org/node/11231074196"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camping-lago-dobbiaco",
+    "nom": "Camping Lago di Dobbiaco / Toblacher See",
+    "categorie": "camping",
+    "gps": [
+      46.70643,
+      12.21713
+    ],
+    "commune": "Toblach / Dobbiaco",
+    "resume": "Camping au bord du lac de Dobbiaco, ouvert jusqu’au 6 novembre : environ 55 € la nuit avec le chien, plus cher que le camping Olympia (48,40 €). Chiens interdits sur le pré à tentes ; arrivée 15 h – 19 h.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "montant": 54.4,
+      "unite": "nuit pour 2 + chien, taxes comprises (55,40 € en emplacement Standard)",
+      "detail": "Basse saison 12–29/10 : emplacement Basic 39,50 € ou Standard 40,50 € + chien 7 € + contribution environnementale 2,50 € + taxe 2,70 €/personne."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 7,
+      "note": "7 € ; interdit sur le pré à tentes."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "1er mai – 6 novembre 2026 ; route d’accès fermée de 12 h à 15 h."
+    },
+    "source": "https://www.toblachersee.com/preise-camping/",
+    "equipements": [
+      "electricite",
+      "eau",
+      "toilettes",
+      "douches",
+      "restaurant"
+    ],
+    "liens": [
+      {
+        "libelle": "Toblacher See — prix du camping (officiel)",
+        "url": "https://www.toblachersee.com/preise-camping/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Toblacher See — prix du camping (officiel)",
+          "url": "https://www.toblachersee.com/preise-camping/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aire-misurina",
+    "nom": "Aire de camping-cars de Misurina (pas de tente)",
+    "categorie": "aire",
+    "gps": [
+      46.58834,
+      12.25579
+    ],
+    "commune": "Auronzo di Cadore (BL)",
+    "nuit_possible": false,
+    "resume": "Aire gratuite de septembre à avril, 48 h maximum, avec point d’eau et vidange gratuits, mais « pas de tente » selon OpenStreetMap : utile pour l’eau le jour des Tre Cime, pas pour la nuit.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "de septembre à avril (20 €/jour le reste de l’année)",
+      "detail": "OpenStreetMap ; aucune page officielle trouvée."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Gratuite de septembre à avril selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/way/1443681833",
+    "equipements": [
+      "eau",
+      "vidange",
+      "parking-gratuit"
+    ],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — aire de Misurina",
+        "url": "https://www.openstreetmap.org/way/1443681833"
+      },
+      {
+        "libelle": "OpenStreetMap — vidange gratuite",
+        "url": "https://www.openstreetmap.org/node/13247661471"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — aire de Misurina",
+          "url": "https://www.openstreetmap.org/way/1443681833"
+        },
+        {
+          "libelle": "OpenStreetMap — vidange gratuite",
+          "url": "https://www.openstreetmap.org/node/13247661471"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-douche-plage-pietra",
+    "nom": "Douche de plage gratuite (Pietra Ligure)",
+    "categorie": "service",
+    "gps": [
+      44.14797,
+      8.28335
+    ],
+    "commune": "Pietra Ligure",
+    "resume": "Douche froide gratuite, 24 h/24, sur le front de mer.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Point d’eau public en extérieur."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/13740848121",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — Douche de plage gratuite (Pietra Ligure)",
+        "url": "https://www.openstreetmap.org/node/13740848121"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — Douche de plage gratuite (Pietra Ligure)",
+          "url": "https://www.openstreetmap.org/node/13740848121"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-wc-pietra",
+    "nom": "WC publics gratuits (Pietra Ligure)",
+    "categorie": "service",
+    "gps": [
+      44.14807,
+      8.28358
+    ],
+    "commune": "Pietra Ligure",
+    "resume": "WC publics gratuits près de la plage.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet ou non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/4390237190",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — WC publics gratuits (Pietra Ligure)",
+        "url": "https://www.openstreetmap.org/node/4390237190"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — WC publics gratuits (Pietra Ligure)",
+          "url": "https://www.openstreetmap.org/node/4390237190"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-wc-carezza",
+    "nom": "WC gratuits du centre de services (Carezza)",
+    "categorie": "service",
+    "gps": [
+      46.41098,
+      11.57552
+    ],
+    "commune": "Nova Levante",
+    "resume": "WC gratuits au centre de services du lac de Carezza.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet ou non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/way/394926869",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — WC gratuits du centre de services (Carezza)",
+        "url": "https://www.openstreetmap.org/way/394926869"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — WC gratuits du centre de services (Carezza)",
+          "url": "https://www.openstreetmap.org/way/394926869"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-fontaine-santa-maddalena",
+    "nom": "Fontaine communale (Santa Maddalena)",
+    "categorie": "service",
+    "gps": [
+      46.64147,
+      11.71479
+    ],
+    "commune": "Villnöss",
+    "resume": "Eau potable gratuite au village, du printemps à l’automne.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Point d’eau public en extérieur."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/2429287832",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — Fontaine communale (Santa Maddalena)",
+        "url": "https://www.openstreetmap.org/node/2429287832"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — Fontaine communale (Santa Maddalena)",
+          "url": "https://www.openstreetmap.org/node/2429287832"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-wc-santa-maddalena",
+    "nom": "WC gratuits (Santa Maddalena)",
+    "categorie": "service",
+    "gps": [
+      46.6451,
+      11.7193
+    ],
+    "commune": "Villnöss",
+    "resume": "WC publics gratuits.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet ou non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/8355897663",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — WC gratuits (Santa Maddalena)",
+        "url": "https://www.openstreetmap.org/node/8355897663"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — WC gratuits (Santa Maddalena)",
+          "url": "https://www.openstreetmap.org/node/8355897663"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-vidange-bressanone",
+    "nom": "Vidange gratuite 24 h/24 (Bressanone)",
+    "categorie": "service",
+    "gps": [
+      46.73089,
+      11.64162
+    ],
+    "commune": "Bressanone",
+    "resume": "Seule vidange gratuite 24 h/24 du trajet, avec eau.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Point d’eau public en extérieur."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/7758093823",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — Vidange gratuite 24 h/24 (Bressanone)",
+        "url": "https://www.openstreetmap.org/node/7758093823"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — Vidange gratuite 24 h/24 (Bressanone)",
+          "url": "https://www.openstreetmap.org/node/7758093823"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-fontaine-bressanone",
+    "nom": "Fontaine de la régie municipale (Bressanone)",
+    "categorie": "service",
+    "gps": [
+      46.71678,
+      11.65875
+    ],
+    "commune": "Bressanone",
+    "resume": "Eau potable gratuite en centre-ville.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Point d’eau public en extérieur."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/1475234912",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — Fontaine de la régie municipale (Bressanone)",
+        "url": "https://www.openstreetmap.org/node/1475234912"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — Fontaine de la régie municipale (Bressanone)",
+          "url": "https://www.openstreetmap.org/node/1475234912"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-laverie-ecozon-bressanone",
+    "nom": "Laverie self-service Ecozon (Bressanone)",
+    "categorie": "service",
+    "gps": [
+      46.71599,
+      11.65208
+    ],
+    "commune": "Bressanone",
+    "resume": "Laverie automatique ouverte de 6 h à 23 h, la plus pratique du trajet ; prix non publié.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "unite": "prix non publié",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet ou non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/1930821706",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — Laverie self-service Ecozon (Bressanone)",
+        "url": "https://www.openstreetmap.org/node/1930821706"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — Laverie self-service Ecozon (Bressanone)",
+          "url": "https://www.openstreetmap.org/node/1930821706"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-laverie-lava-piu-val-badia",
+    "nom": "Laverie Lava Più (Val Badia)",
+    "categorie": "service",
+    "gps": [
+      46.55808,
+      11.8787
+    ],
+    "commune": "Alta Badia",
+    "resume": "Laverie automatique ouverte de 8 h à 23 h tous les jours, sur la route des Cinque Torri ; prix non publié.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "payant",
+      "unite": "prix non publié",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet ou non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/12105935740",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — Laverie Lava Più (Val Badia)",
+        "url": "https://www.openstreetmap.org/node/12105935740"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — Laverie Lava Più (Val Badia)",
+          "url": "https://www.openstreetmap.org/node/12105935740"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-wc-valparola",
+    "nom": "WC gratuits (col de Valparola)",
+    "categorie": "service",
+    "gps": [
+      46.52749,
+      12.00884
+    ],
+    "commune": "Livinallongo",
+    "resume": "WC gratuits au col, sur la route des Cinque Torri.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet ou non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/13022589336",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — WC gratuits (col de Valparola)",
+        "url": "https://www.openstreetmap.org/node/13022589336"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — WC gratuits (col de Valparola)",
+          "url": "https://www.openstreetmap.org/node/13022589336"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-fontaine-cinque-torri",
+    "nom": "Fontaine (Bai de Dones, Cinque Torri)",
+    "categorie": "service",
+    "gps": [
+      46.51841,
+      12.03796
+    ],
+    "commune": "Cortina d’Ampezzo",
+    "resume": "Eau au départ de la randonnée des Cinque Torri (refuges fermés).",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Point d’eau public en extérieur."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/8888249699",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — Fontaine (Bai de Dones, Cinque Torri)",
+        "url": "https://www.openstreetmap.org/node/8888249699"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — Fontaine (Bai de Dones, Cinque Torri)",
+          "url": "https://www.openstreetmap.org/node/8888249699"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-fontaine-cortina",
+    "nom": "Fontaine de 1868 (Cortina)",
+    "categorie": "service",
+    "gps": [
+      46.539,
+      12.1351
+    ],
+    "commune": "Cortina d’Ampezzo",
+    "resume": "Eau potable gratuite au centre de Cortina.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Point d’eau public en extérieur."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/2721631662",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — Fontaine de 1868 (Cortina)",
+        "url": "https://www.openstreetmap.org/node/2721631662"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — Fontaine de 1868 (Cortina)",
+          "url": "https://www.openstreetmap.org/node/2721631662"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-wc-landro",
+    "nom": "WC gratuits (lac de Landro)",
+    "categorie": "service",
+    "gps": [
+      46.63998,
+      12.23235
+    ],
+    "commune": "Toblach",
+    "resume": "WC gratuits au belvédère des Tre Cime.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet ou non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/way/300630311",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — WC gratuits (lac de Landro)",
+        "url": "https://www.openstreetmap.org/way/300630311"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — WC gratuits (lac de Landro)",
+          "url": "https://www.openstreetmap.org/way/300630311"
+        }
+      ]
+    }
+  },
+  {
+    "id": "service-wc-dobbiaco",
+    "nom": "WC gratuits (Dobbiaco)",
+    "categorie": "service",
+    "gps": [
+      46.72981,
+      12.2187
+    ],
+    "commune": "Toblach",
+    "resume": "WC publics gratuits au centre.",
+    "prix": {
+      "annee_tarif": 2026,
+      "type": "gratuit",
+      "montant": 0,
+      "unite": "gratuit",
+      "detail": "Relevé OpenStreetMap du 30/09/2026."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet ou non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Selon OpenStreetMap."
+    },
+    "source": "https://www.openstreetmap.org/node/10795172221",
+    "equipements": [],
+    "liens": [
+      {
+        "libelle": "OpenStreetMap — WC gratuits (Dobbiaco)",
+        "url": "https://www.openstreetmap.org/node/10795172221"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "OpenStreetMap — WC gratuits (Dobbiaco)",
+          "url": "https://www.openstreetmap.org/node/10795172221"
+        }
+      ]
+    }
   }
 ]
