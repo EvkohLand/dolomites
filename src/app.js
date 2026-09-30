@@ -1339,6 +1339,9 @@
       var n = j.nuit ? resoudre(j.nuit) : null;
       corps.appendChild(el('p', 'etape__nuit', n ? 'Nuit : ' + n.nom : 'Pas de nuit : retour'));
       if (lieuxDuJour(j).some(aVerifier)) corps.appendChild(el('span', 'etape__alerte', 'infos à revérifier'));
+      if (n) risqueNuit(n, j.date).then(function (x) {
+        if (x.risque) corps.appendChild(el('span', 'etape__alerte etape__alerte--tempete', 'Nuit à risque : ' + texteRisque(x)));
+      }).catch(function () {});
       c.appendChild(corps);
 
       c.addEventListener('click', function () { ouvrirEtape(j.jour); });
@@ -1533,6 +1536,7 @@
         repli.appendChild(ra);
         dn.appendChild(repli);
       }
+      if ((E.meteo || {}).tempete && Array.isArray(n.gps)) dn.appendChild(blocTempete(j, n));
       P.programme.appendChild(bloc('Nuit', dn));
 
     }
@@ -1822,13 +1826,94 @@
     if (!cacheMeteo[cle]) {
       var u = 'https://api.open-meteo.com/v1/forecast?latitude=' + l.gps[0] + '&longitude=' + l.gps[1] +
         (l.altitude ? '&elevation=' + l.altitude : '') +
-        '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,snowfall_sum,wind_speed_10m_max' +
+        '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,snowfall_sum,wind_speed_10m_max,wind_gusts_10m_max' +
         '&timezone=Europe%2FRome&start_date=' + date + '&end_date=' + date;
       cacheMeteo[cle] = fetch(u).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
         .then(function (d) { return d.daily; });
       cacheMeteo[cle].catch(function () { delete cacheMeteo[cle]; });
     }
     return cacheMeteo[cle];
+  }
+
+  /* Nuit à risque pour la tente de toit : rafales horaires et code orage au lieu de la
+     nuit, de nuit_de_h le soir à nuit_a_h le lendemain (seuils dans meteo.json › tempete).
+     Rejetée hors de la fenêtre de prévision (16 jours) ou hors ligne : rien n'est affiché. */
+  var cacheNuit = {};
+  function risqueNuit(n, date) {
+    var tp = (E.meteo || {}).tempete;
+    if (!tp || !n || !Array.isArray(n.gps) || !date || !window.fetch) return Promise.reject(new Error('sans objet'));
+    var lendemain = isoDecale(date, 1);
+    var ecart = (new Date(lendemain + 'T12:00:00') - Date.now()) / 86400000;
+    if (ecart > 15.5 || ecart < -1) return Promise.reject(new Error('hors fenêtre'));
+    var cle = n.id + '|' + date;
+    if (!cacheNuit[cle]) {
+      var u = 'https://api.open-meteo.com/v1/forecast?latitude=' + n.gps[0] + '&longitude=' + n.gps[1] +
+        (n.altitude ? '&elevation=' + n.altitude : '') +
+        '&hourly=wind_gusts_10m,weather_code&timezone=Europe%2FRome&start_date=' + date + '&end_date=' + lendemain;
+      cacheNuit[cle] = fetch(u).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function (d) {
+          var h = d.hourly || {};
+          var debut = date + 'T' + String(tp.nuit_de_h).padStart(2, '0');
+          var fin = lendemain + 'T' + String(tp.nuit_a_h).padStart(2, '0');
+          var rafales = 0, orage = false, vu = false;
+          (h.time || []).forEach(function (t, i) {
+            if (t < debut || t > fin) return;
+            if (h.wind_gusts_10m[i] != null) { vu = true; rafales = Math.max(rafales, h.wind_gusts_10m[i]); }
+            if ((tp.codes_orage || []).indexOf(h.weather_code[i]) >= 0) orage = true;
+          });
+          if (!vu) throw new Error('vide');
+          return { rafales: Math.round(rafales), orage: orage, risque: orage || rafales >= tp.rafales_kmh };
+        });
+      cacheNuit[cle].catch(function () { delete cacheNuit[cle]; });
+    }
+    return cacheNuit[cle];
+  }
+
+  function texteRisque(x) {
+    return [x.rafales >= ((E.meteo || {}).tempete || {}).rafales_kmh ? 'rafales jusqu’à ' + x.rafales + ' km/h' : null,
+      x.orage ? 'orage prévu' : null].filter(Boolean).join(' et ');
+  }
+
+  /* Plan tempête de la nuit : replié quand la prévision est calme ou inconnue, ouvert et
+     en alerte quand elle dépasse les seuils. Abris : lieu.abris_tempete (ids de lieux). */
+  function blocTempete(j, n) {
+    var tp = (E.meteo || {}).tempete;
+    var d = el('details', 'repli repli--tempete');
+    var sm = el('summary', null, tp.titre_calme);
+    d.appendChild(sm);
+    var alerte = el('p', 'tempete__alerte');
+    alerte.hidden = true;
+    d.appendChild(alerte);
+    var ul = el('ul', 'tempete__consignes');
+    (tp.consignes || []).forEach(function (c) { ul.appendChild(el('li', null, c)); });
+    d.appendChild(ul);
+    var abris = (n.abris_tempete || []).filter(function (a) { return E.parId.has(a.lieu); });
+    if (abris.length) {
+      d.appendChild(el('p', 'bloc__titre', 'Dormir sous un toit'));
+      abris.forEach(function (a) {
+        var l = E.parId.get(a.lieu);
+        var b = el('button', 'programme__item');
+        b.type = 'button';
+        var t = el('span', 'programme__corps');
+        t.appendChild(el('span', 'jour__lieu', l.nom));
+        var px = prixAffiche(l);
+        if (px) t.appendChild(el('span', 'programme__prix', px + ' · ' + STATUTS_CHIEN[statutChien(l)].libelle.toLowerCase()));
+        if (a.note) t.appendChild(el('span', 'jour__note', a.note));
+        b.appendChild(t);
+        b.addEventListener('click', function () { ouvrirPanneau(l.id, { retour: j.jour }); });
+        d.appendChild(b);
+      });
+    }
+    if (tp.source) d.appendChild(el('p', 'jour__note', tp.source));
+    risqueNuit(n, j.date).then(function (x) {
+      if (!x.risque) return;
+      d.open = true;
+      d.classList.add('repli--alerte');
+      sm.textContent = tp.titre;
+      alerte.textContent = 'Prévision pour cette nuit : ' + texteRisque(x) + '.';
+      alerte.hidden = false;
+    }).catch(function () {});
+    return d;
   }
 
   function dessinerMeteoEtape(j, conteneur) {
@@ -1867,7 +1952,8 @@
           Math.round(x.temperature_2m_min[0]) + ' / ' + Math.round(x.temperature_2m_max[0]) + ' °C',
           'pluie ' + x.precipitation_sum[0] + ' mm' + (x.precipitation_probability_max[0] != null ? ' (' + x.precipitation_probability_max[0] + ' %)' : ''),
           x.snowfall_sum[0] ? 'neige ' + x.snowfall_sum[0] + ' cm' : null,
-          'vent ' + Math.round(x.wind_speed_10m_max[0]) + ' km/h'
+          'vent ' + Math.round(x.wind_speed_10m_max[0]) + ' km/h' +
+            (x.wind_gusts_10m_max && x.wind_gusts_10m_max[0] != null ? ', rafales ' + Math.round(x.wind_gusts_10m_max[0]) + ' km/h' : '')
         ].filter(Boolean).join(' · ');
         val.textContent = t;
         val.classList.add('meteo-etape__val--ok');
