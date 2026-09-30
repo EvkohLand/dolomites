@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-09-30T00:21Z",
+  "genere_le": "2026-09-30T09:36Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-09-29T20:00"
+      "maj": "2026-09-30T11:19"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -222,7 +222,7 @@
       "route": "",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Mercoledì 30.09.2026: Per uno sciopero di 24 ore sugli autobus della SASA si potranno verificare ritardi e disservizi. I servizi minimi dalle ore 06:00 alle 09:00 e dalle ore 12:00 alle ore 15:00 sono garantiti. Tutti i percorsi con partenza prima delle 09:00 ovvero delle 15:00 raggiungeranno il capolinea. Ulteriori informazioni su https://www.altoadigemobilita.info/it/il-mio-viaggio/avvisi.",
+      "texte": "Per uno sciopero di 24 ore sugli autobus della SASA si potranno verificare ritardi e disservizi. I servizi minimi dalle ore 06:00 alle 09:00 e dalle ore 12:00 alle ore 15:00 sono garantiti. Tutti i percorsi con partenza prima delle 09:00 ovvero delle 15:00 raggiungeranno il capolinea. Ulteriori informazioni su https://www.altoadigemobilita.info/it/il-mio-viaggio/avvisi.",
       "debut": "2026-09-28",
       "fin": "2026-10-01",
       "gps": [
@@ -508,20 +508,6 @@
       "gps": [
         46.71097,
         11.6885
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2825801",
-      "route": "LS/SP153 — Fundres",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Vandoies di Sotto(km 0,230 - km 0,330) CHIUSURa al traffico dalle ore 08:15 alle ore 11:15 per il montaggio di una gru da cantiere. La deviazione avviene attraverso la via Wiedenhofegg",
-      "debut": "2026-09-30",
-      "fin": "2026-09-30",
-      "gps": [
-        46.81723,
-        11.72316
       ]
     },
     {
@@ -867,8 +853,8 @@
       "niveau": "gene",
       "etat": "rallentamenti",
       "texte": "Ad Auna di Sotto (km 10,150 - km 10,250) senso unico alternato dalle ore 08:00 alle ore 18:00 per lavori di asfaltatura.",
-      "debut": "2026-09-28",
-      "fin": "2026-10-02",
+      "debut": "2026-10-15",
+      "fin": "2026-10-21",
       "gps": [
         46.4979,
         11.38494
@@ -904,6 +890,20 @@
     },
     {
       "source": "bz",
+      "id": "3150013",
+      "route": "Route / Percorso 3 — Percorso ciclabile Val Pusteria",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Il percorso ciclabile 3 Val Pusteria a Villabassa (km 59,475 - km 59,675) é CHIUSO per lavori di asfaltatura.",
+      "debut": "2026-10-05",
+      "fin": "2026-10-09",
+      "gps": [
+        46.7358,
+        12.18619
+      ]
+    },
+    {
+      "source": "bz",
       "id": "572708",
       "route": "SS 48 — Passo Falzarego",
       "niveau": "gene",
@@ -918,25 +918,11 @@
     },
     {
       "source": "bz",
-      "id": "3147601",
-      "route": "SS.38 — Superstrada MEBO",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione Bolzano tra Appiano e Bolzano Sud in galleria di Castelfirmiano (km 222,700 - km 225,000) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori di pulizia e di manutenzione degli impianti tecnici. La deviazione avviene attraverso l’uscita di Appiano.",
-      "debut": "2026-09-28",
-      "fin": "2026-09-30",
-      "gps": [
-        46.48615,
-        11.28961
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3147701",
       "route": "SS.38 — Superstrada MEBO",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da mercoledì 30.09.2026: In direzione Merano tra Bolzano Sud e Appiano in galleria di Castelfirmiano (km 222,700 - km 225,000) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori di pulizia e di manutenzione degli impianti tecnici. La deviazione avviene attraverso Bolzano.",
+      "texte": "In direzione Merano tra Bolzano Sud e Appiano in galleria di Castelfirmiano (km 222,700 - km 225,000) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori di pulizia e di manutenzione degli impianti tecnici. La deviazione avviene attraverso Bolzano.",
       "debut": "2026-09-28",
       "fin": "2026-10-01",
       "gps": [
@@ -956,6 +942,20 @@
       "gps": [
         46.46046,
         11.34001
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2916201",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nella galleria di Laives CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso Laives.",
+      "debut": "2026-10-15",
+      "fin": "2026-10-16",
+      "gps": [
+        46.42713,
+        11.34893
       ]
     },
     {
@@ -1002,7 +1002,7 @@
     },
     {
       "source": "bz",
-      "id": "3149101",
+      "id": "3149112",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1026,20 +1026,6 @@
       "gps": [
         46.57898,
         11.52248
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2942701",
-      "route": "SS241 — di Val d'Ega e Passo Costalunga",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nelle gallerie all'entrata valle (km 0,000 - km 6,450) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 05:30 per lavori di pulizia. La deviazione per veicoli fino a 12 m di lunghezza avviene attraverso Collepietra - San Valentino in Campo, per il traffico oltre 12 m di lunghezza attraverso Ora - Aldino.",
-      "debut": "2026-09-28",
-      "fin": "2026-09-30",
-      "gps": [
-        46.48931,
-        11.40347
       ]
     },
     {
@@ -1222,20 +1208,6 @@
       "gps": [
         46.78505,
         11.90688
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3086501",
-      "route": "SS49 — della Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Sulla circonvallazione di Villabassa (km 53,650 - km 57,100) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:00 per lavori di pulizia in galleria. Deviazione attraverso Villabassa.",
-      "debut": "2026-09-28",
-      "fin": "2026-09-30",
-      "gps": [
-        46.73829,
-        12.15609
       ]
     },
     {
