@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-09-30T09:36Z",
+  "genere_le": "2026-09-30T14:14Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-09-30T11:19"
+      "maj": "2026-09-30T15:24"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -260,6 +260,20 @@
     },
     {
       "source": "bz",
+      "id": "2744912",
+      "route": "Comune di Laives",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Sulla SC 40.1 per La Costa/Seit CHIUSURA dalle ore 08:30 alle ore 12:00 e dalle ore 13:30 alle ore 18:00 a causa di lavori di asfaltatura (giorni feriali).",
+      "debut": "2026-10-06",
+      "fin": "2026-10-30",
+      "gps": [
+        46.44814,
+        11.35537
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3007001",
       "route": "Comune di Laives",
       "niveau": "fermeture",
@@ -508,6 +522,20 @@
       "gps": [
         46.71097,
         11.6885
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2825801",
+      "route": "LS/SP153 — Fundres",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Vandoies di Sotto(km 0,230 - km 0,330) CHIUSURA al traffico dalle ore 08:15 alle ore 11:15 per il montaggio di una gru da cantiere. La deviazione avviene attraverso la via Wiedenhofegg",
+      "debut": "2026-09-30",
+      "fin": "2026-09-30",
+      "gps": [
+        46.81723,
+        11.72316
       ]
     },
     {
@@ -848,16 +876,16 @@
     },
     {
       "source": "bz",
-      "id": "3121112",
-      "route": "LS/SP73 — Renon",
+      "id": "3150612",
+      "route": "LS/SP74 — Chiusa - Velturno - Bressanone",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Ad Auna di Sotto (km 10,150 - km 10,250) senso unico alternato dalle ore 08:00 alle ore 18:00 per lavori di asfaltatura.",
-      "debut": "2026-10-15",
-      "fin": "2026-10-21",
+      "texte": "A Perara (km 9,480 - km 9,550) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori di scavo (giorni feriali).",
+      "debut": "2026-09-30",
+      "fin": "2026-10-09",
       "gps": [
-        46.4979,
-        11.38494
+        46.69929,
+        11.63664
       ]
     },
     {
@@ -942,20 +970,6 @@
       "gps": [
         46.46046,
         11.34001
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2916201",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nella galleria di Laives CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso Laives.",
-      "debut": "2026-10-15",
-      "fin": "2026-10-16",
-      "gps": [
-        46.42713,
-        11.34893
       ]
     },
     {
@@ -1208,6 +1222,20 @@
       "gps": [
         46.78505,
         11.90688
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3086501",
+      "route": "SS49 — della Pusteria",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Sulla circonvallazione di Villabassa (km 53,650 - km 57,100) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:00 per lavori di pulizia in galleria. Deviazione attraverso Villabassa.",
+      "debut": "2026-09-28",
+      "fin": "2026-09-30",
+      "gps": [
+        46.73829,
+        12.15609
       ]
     },
     {

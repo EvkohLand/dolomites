@@ -1,33 +1,33 @@
 {
-  "genere_le": "2026-09-29T14:20Z",
+  "genere_le": "2026-09-30T14:13Z",
   "rayon_km": 5,
   "note": "Stations à moins de 5 km du tracé du jour ou de la nuit, triées par prix du gazole. Italie : prix « self » (libre-service) quand il existe. Un prix de plus de 8 jours est écarté.",
   "sources": {
     "FR": {
       "libelle": "Flux instantané prix-carburants (data.economie.gouv.fr)",
       "url": "https://www.prix-carburants.gouv.fr/",
-      "releve": "2026-09-29T15:57:21+00:00"
+      "releve": "2026-09-30T15:49:03+00:00"
     },
     "IT": {
       "libelle": "Osservaprezzi carburanti (MIMIT), prix communiqués",
       "url": "https://carburanti.mise.gov.it/",
-      "extraction": "2026-09-28"
+      "extraction": "2026-09-29"
     }
   },
   "moyennes": {
     "FR": {
-      "gazole": 2.389,
-      "e10": 2.173,
-      "sp95": 2.233,
-      "n": 7689,
-      "date": "2026-09-29",
+      "gazole": 2.38,
+      "e10": 2.165,
+      "sp95": 2.225,
+      "n": 7542,
+      "date": "2026-09-30",
       "perimetre": "toutes stations"
     },
     "IT": {
-      "gazole": 2.369,
-      "sp95": 2.152,
-      "n": 19330,
-      "date": "2026-09-28",
+      "gazole": 2.335,
+      "sp95": 2.125,
+      "n": 19463,
+      "date": "2026-09-29",
       "perimetre": "libre-service hors autoroute"
     }
   },
@@ -47,7 +47,58 @@
       "gazole_servito": 2.064,
       "sp95": 1.996,
       "sp95_mode": "self",
-      "releve": "2026-09-26T22:23"
+      "releve": "2026-09-28T22:36"
+    },
+    "IT-38402": {
+      "pays": "IT",
+      "id": "38402",
+      "nom": "Bordighera Nord",
+      "marque": "Agip Eni",
+      "autoroute": true,
+      "adresse": "Autostrada A10 Savona-Ventimiglia, Km. 143, Dir. Nord - 18012, Bordighera (IM)",
+      "gps": [
+        43.79894,
+        7.69105
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.49,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T09:21"
+    },
+    "IT-62717": {
+      "pays": "IT",
+      "id": "62717",
+      "nom": "Bordighera Sud",
+      "marque": "Agip Eni",
+      "autoroute": true,
+      "adresse": "A10 Savona-Ventimiglia, Km. 143+544, Est - 18012, Bordighera (IM)",
+      "gps": [
+        43.79809,
+        7.69114
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "releve": "2026-09-28T09:32"
+    },
+    "IT-47200": {
+      "pays": "IT",
+      "id": "47200",
+      "nom": "Bordighera Sud",
+      "marque": "Agip Eni",
+      "autoroute": true,
+      "adresse": "A10 Savona-Ventimiglia, Km. 143+544, Est - 18012, Bordighera (IM)",
+      "gps": [
+        43.79809,
+        7.69114
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.39,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T09:29"
     },
     "IT-3850": {
       "pays": "IT",
@@ -67,160 +118,123 @@
       "sp95_mode": "self",
       "releve": "2026-09-28T07:43"
     },
-    "IT-41016": {
+    "IT-51733": {
       "pays": "IT",
-      "id": "41016",
-      "nom": "Pv 55964",
+      "id": "51733",
+      "nom": "52849 – Ventimiglia",
       "marque": "Agip Eni",
-      "adresse": "Via Dante Alighieri 370 18038, Sanremo (IM)",
+      "adresse": "S.s. 20 Loc. Roverino 18039, Ventimiglia (IM)",
       "gps": [
-        43.82554,
-        7.77131
+        43.80278,
+        7.59652
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.4,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T11:40"
+    },
+    "IT-55153": {
+      "pays": "IT",
+      "id": "55153",
+      "nom": "Eni Station Punto Vendita 51570",
+      "marque": "Agip Eni",
+      "adresse": "Corso Limone Piemonte 1 18039, Ventimiglia (IM)",
+      "gps": [
+        43.79961,
+        7.60034
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T11:39"
+    },
+    "IT-54199": {
+      "pays": "IT",
+      "id": "54199",
+      "nom": "1362 Pietra Ligure",
+      "marque": "Agip Eni",
+      "adresse": "Via Aurelia, 16, Pietra Ligure (SV)",
+      "gps": [
+        44.14669,
+        8.27747
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.4,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T11:44"
+    },
+    "IT-58586": {
+      "pays": "IT",
+      "id": "58586",
+      "nom": "55224 Imperia",
+      "marque": "Agip Eni",
+      "adresse": "Lungomare A. Vespucci 18100, Imperia (IM)",
+      "gps": [
+        43.88636,
+        8.03076
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.4,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T08:44"
+    },
+    "IT-48225": {
+      "pays": "IT",
+      "id": "48225",
+      "nom": "Ionescu Patricia E C. Sas",
+      "marque": "Agip Eni",
+      "adresse": "Viale G. Matteotti 134 18100, Imperia (IM)",
+      "gps": [
+        43.89001,
+        8.03404
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.4,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T11:23"
+    },
+    "IT-58188": {
+      "pays": "IT",
+      "id": "58188",
+      "nom": "51605 Loano",
+      "marque": "Agip Eni",
+      "adresse": "Via Aurelia Km 607 + 120 Snc, Loano (SV)",
+      "gps": [
+        44.12971,
+        8.25913
       ],
       "gazole": 2.19,
       "gazole_mode": "self",
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-09-28T07:47"
+      "releve": "2026-09-28T11:43"
     },
-    "IT-8291": {
+    "IT-7930": {
       "pays": "IT",
-      "id": "8291",
-      "nom": "Agip 1230",
+      "id": "7930",
+      "nom": "Eni Ramoino A E C Snc",
       "marque": "Agip Eni",
-      "adresse": "Corso Marconi 2 18038, Sanremo (IM)",
+      "adresse": "Via Xxv Aprile 136 18100, Imperia (IM)",
       "gps": [
-        43.8095,
-        7.75682
+        43.89611,
+        8.0388
       ],
       "gazole": 2.19,
       "gazole_mode": "self",
-      "gazole_servito": 2.44,
+      "gazole_servito": 2.4,
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-09-27T19:46"
-    },
-    "IT-48158": {
-      "pays": "IT",
-      "id": "48158",
-      "nom": "1337",
-      "marque": "Agip Eni",
-      "adresse": "Piave 6 17031, Albenga (SV)",
-      "gps": [
-        44.04606,
-        8.21299
-      ],
-      "gazole": 2.19,
-      "gazole_mode": "self",
-      "gazole_servito": 2.575,
-      "sp95": 1.99,
-      "sp95_mode": "self",
-      "releve": "2026-09-28T07:47"
-    },
-    "IT-62717": {
-      "pays": "IT",
-      "id": "62717",
-      "nom": "Bordighera Sud",
-      "marque": "Agip Eni",
-      "autoroute": true,
-      "adresse": "A10 Savona-Ventimiglia, Km. 143+544, Est - 18012, Bordighera (IM)",
-      "gps": [
-        43.79809,
-        7.69114
-      ],
-      "gazole": 2.199,
-      "gazole_mode": "self",
-      "releve": "2026-09-28T06:47"
-    },
-    "IT-47200": {
-      "pays": "IT",
-      "id": "47200",
-      "nom": "Bordighera Sud",
-      "marque": "Agip Eni",
-      "autoroute": true,
-      "adresse": "A10 Savona-Ventimiglia, Km. 143+544, Est - 18012, Bordighera (IM)",
-      "gps": [
-        43.79809,
-        7.69114
-      ],
-      "gazole": 2.199,
-      "gazole_mode": "self",
-      "gazole_servito": 2.399,
-      "sp95": 1.999,
-      "sp95_mode": "self",
-      "releve": "2026-09-28T06:46"
-    },
-    "FR-13680007": {
-      "pays": "FR",
-      "id": "13680007",
-      "nom": "Lançon-Provence — Autoroute A7 - Aire De Lançon Est",
-      "adresse": "Autoroute A7 - Aire De Lançon Est, 13680 Lançon-Provence",
-      "gps": [
-        43.599,
-        5.159
-      ],
-      "autoroute": true,
-      "gazole": 2.25,
-      "gazole_mode": "self",
-      "e10": 1.99,
-      "releve": "2026-09-29T00:01:00+00:00"
-    },
-    "FR-83170012": {
-      "pays": "FR",
-      "id": "83170012",
-      "nom": "Tourves — Autoroute A8 - Aire De Cambarette Sud - Terrasses De Provence Centre",
-      "adresse": "Autoroute A8 - Aire De Cambarette Sud - Terrasses De Provence Centre, 83170 Tourves",
-      "gps": [
-        43.42412,
-        5.96988
-      ],
-      "autoroute": true,
-      "gazole": 2.25,
-      "gazole_mode": "self",
-      "releve": "2026-09-29T00:01:00+00:00"
-    },
-    "FR-34400017": {
-      "pays": "FR",
-      "id": "34400017",
-      "nom": "Villetelle — Autoroute A9 - Aire Ambrussum Sud",
-      "adresse": "Autoroute A9 - Aire Ambrussum Sud, 34400 Villetelle",
-      "gps": [
-        43.71248,
-        4.13135
-      ],
-      "autoroute": true,
-      "gazole": 2.25,
-      "gazole_mode": "self",
-      "sp95": 1.99,
-      "releve": "2026-09-29T00:01:00+00:00"
-    },
-    "FR-13200015": {
-      "pays": "FR",
-      "id": "13200015",
-      "nom": "Arles — N°1 Av Bachaga Said Boualem",
-      "adresse": "N°1 Av Bachaga Said Boualem, 13200 Arles",
-      "gps": [
-        43.671,
-        4.622
-      ],
-      "gazole": 2.25,
-      "gazole_mode": "self",
-      "e10": 1.99,
-      "releve": "2026-09-29T00:01:00+00:00"
-    },
-    "FR-13200014": {
-      "pays": "FR",
-      "id": "13200014",
-      "nom": "Arles — Rn 113 - Déviation - Aire Des Cantarelles",
-      "adresse": "Rn 113 - Déviation - Aire Des Cantarelles, 13200 Arles",
-      "gps": [
-        43.65159,
-        4.67002
-      ],
-      "autoroute": true,
-      "gazole": 2.25,
-      "gazole_mode": "self",
-      "releve": "2026-09-29T00:01:00+00:00"
+      "releve": "2026-09-28T10:46"
     },
     "IT-6506": {
       "pays": "IT",
@@ -253,7 +267,7 @@
       "gazole_servito": 2.059,
       "sp95": 1.889,
       "sp95_mode": "self",
-      "releve": "2026-09-23T21:31"
+      "releve": "2026-09-28T21:31"
     },
     "IT-54873": {
       "pays": "IT",
@@ -272,22 +286,6 @@
       "sp95_mode": "self",
       "releve": "2026-09-26T10:37"
     },
-    "IT-48007": {
-      "pays": "IT",
-      "id": "48007",
-      "nom": "Montale",
-      "marque": "Esso",
-      "adresse": "9 Via Emilia, Km. 256+621, Nord - 29122, Piacenza (PC)",
-      "gps": [
-        45.02405,
-        9.74579
-      ],
-      "gazole": 1.999,
-      "gazole_mode": "self",
-      "sp95": 1.889,
-      "sp95_mode": "self",
-      "releve": "2026-09-25T22:22"
-    },
     "IT-36393": {
       "pays": "IT",
       "id": "36393",
@@ -302,7 +300,7 @@
       "gazole_mode": "self",
       "sp95": 1.987,
       "sp95_mode": "self",
-      "releve": "2026-09-24T21:50"
+      "releve": "2026-09-28T21:51"
     },
     "IT-62027": {
       "pays": "IT",
@@ -320,6 +318,22 @@
       "sp95_mode": "self",
       "releve": "2026-09-28T07:45"
     },
+    "IT-50871": {
+      "pays": "IT",
+      "id": "50871",
+      "nom": "Eni Station San Rocco Al Porto",
+      "marque": "Agip Eni",
+      "adresse": "Via Emilia Centro Commerciale 26865, San Rocco Al Porto (LO)",
+      "gps": [
+        45.07258,
+        9.70819
+      ],
+      "gazole": 2.179,
+      "gazole_mode": "self",
+      "sp95": 1.979,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T08:11"
+    },
     "IT-50291": {
       "pays": "IT",
       "id": "50291",
@@ -334,7 +348,41 @@
       "gazole_mode": "self",
       "sp95": 1.979,
       "sp95_mode": "self",
-      "releve": "2026-09-27T19:35"
+      "releve": "2026-09-28T20:16"
+    },
+    "IT-32857": {
+      "pays": "IT",
+      "id": "32857",
+      "nom": "Garda Ovest",
+      "marque": "Esso",
+      "autoroute": true,
+      "adresse": "A22 Brennero-Modena, Km. 207, Sud - 37010, Cavaion Veronese (VR)",
+      "gps": [
+        45.54073,
+        10.77955
+      ],
+      "gazole": 2.189,
+      "gazole_mode": "self",
+      "gazole_servito": 2.859,
+      "sp95": 1.989,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T10:34"
+    },
+    "IT-48376": {
+      "pays": "IT",
+      "id": "48376",
+      "nom": "Enercoop Piacenza Loc.montale",
+      "marque": "Enercoop",
+      "adresse": "Via Emilia Parmense 157 29122, Piacenza (PC)",
+      "gps": [
+        45.02742,
+        9.73465
+      ],
+      "gazole": 2.189,
+      "gazole_mode": "self",
+      "sp95": 1.989,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T17:30"
     },
     "IT-3530": {
       "pays": "IT",
@@ -354,6 +402,23 @@
       "sp95_mode": "self",
       "releve": "2026-09-28T07:43"
     },
+    "IT-38788": {
+      "pays": "IT",
+      "id": "38788",
+      "nom": "52575 Chiusa",
+      "marque": "Agip Eni",
+      "adresse": "Piazza Frages 5 39043, Chiusa (BZ)",
+      "gps": [
+        46.63771,
+        11.56111
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T11:34"
+    },
     "IT-45459": {
       "pays": "IT",
       "id": "45459",
@@ -370,60 +435,6 @@
       "sp95": 1.99,
       "sp95_mode": "self",
       "releve": "2026-09-28T07:54"
-    },
-    "IT-3935": {
-      "pays": "IT",
-      "id": "3935",
-      "nom": "Stradella Nord",
-      "marque": "Agip Eni",
-      "autoroute": true,
-      "adresse": "Autostrada A21 Torino-Piacenza, Km. 130.222, Dir. Ovest - 27049, Stradella (PV)",
-      "gps": [
-        45.08366,
-        9.31557
-      ],
-      "gazole": 2.19,
-      "gazole_mode": "self",
-      "gazole_servito": 2.48,
-      "sp95": 1.99,
-      "sp95_mode": "self",
-      "releve": "2026-09-28T07:50"
-    },
-    "IT-51566": {
-      "pays": "IT",
-      "id": "51566",
-      "nom": "Paganella Ovest",
-      "marque": "Agip Eni",
-      "autoroute": true,
-      "adresse": "Autostrada A22 Brennero-Modena, Dir. Direzione Ovest, Trento (TN)",
-      "gps": [
-        46.14059,
-        11.08576
-      ],
-      "gazole": 2.19,
-      "gazole_mode": "self",
-      "gazole_servito": 2.4,
-      "sp95": 1.99,
-      "sp95_mode": "self",
-      "releve": "2026-09-28T07:40"
-    },
-    "IT-60569": {
-      "pays": "IT",
-      "id": "60569",
-      "nom": "Tortona Sud",
-      "marque": "Agip Eni",
-      "autoroute": true,
-      "adresse": "Autostrada A21 Torino-Piacenza, Dir. Piacenza, Tortona (AL)",
-      "gps": [
-        44.93523,
-        8.88579
-      ],
-      "gazole": 2.19,
-      "gazole_mode": "self",
-      "gazole_servito": 2.45,
-      "sp95": 1.99,
-      "sp95_mode": "self",
-      "releve": "2026-09-28T07:39"
     },
     "IT-13692": {
       "pays": "IT",
@@ -452,11 +463,11 @@
         46.57028,
         11.52308
       ],
-      "gazole": 2.199,
+      "gazole": 2.19,
       "gazole_mode": "self",
-      "sp95": 1.999,
+      "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-09-28T06:32"
+      "releve": "2026-09-28T09:05"
     },
     "IT-62758": {
       "pays": "IT",
@@ -469,9 +480,43 @@
         46.57028,
         11.52308
       ],
-      "gazole": 2.199,
+      "gazole": 2.19,
       "gazole_mode": "self",
-      "releve": "2026-09-28T06:30"
+      "releve": "2026-09-28T09:02"
+    },
+    "IT-27752": {
+      "pays": "IT",
+      "id": "27752",
+      "nom": "Eni Insam",
+      "marque": "Agip Eni",
+      "adresse": "Statale 242 Di Val Gardena E Passo Sella, Km. 14, Dir. Chiusa - 39046, Ortisei (BZ)",
+      "gps": [
+        46.56792,
+        11.68537
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T10:04"
+    },
+    "IT-53567": {
+      "pays": "IT",
+      "id": "53567",
+      "nom": "Eni Station La Mara",
+      "marque": "Agip Eni",
+      "adresse": "Via Lahner 39 39042, Bressanone (BZ)",
+      "gps": [
+        46.68708,
+        11.63114
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T10:47"
     },
     "IT-45903": {
       "pays": "IT",
@@ -484,12 +529,29 @@
         46.57028,
         11.52308
       ],
-      "gazole": 2.299,
+      "gazole": 2.29,
       "gazole_mode": "self",
-      "gazole_servito": 2.419,
-      "sp95": 2.099,
+      "gazole_servito": 2.41,
+      "sp95": 2.09,
       "sp95_mode": "self",
-      "releve": "2026-09-28T06:27"
+      "releve": "2026-09-28T09:10"
+    },
+    "IT-57472": {
+      "pays": "IT",
+      "id": "57472",
+      "nom": "Castelrotto Azzalini Energie",
+      "marque": "AZZALINI ENERGIE",
+      "adresse": "Via Arnaria- Fraz. Roncadizza 25/A 39040, Castelrotto (BZ)",
+      "gps": [
+        46.57349,
+        11.65489
+      ],
+      "gazole": 2.394,
+      "gazole_mode": "self",
+      "gazole_servito": 2.394,
+      "sp95": 2.187,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T16:50"
     },
     "IT-35013": {
       "pays": "IT",
@@ -506,23 +568,7 @@
       "gazole_servito": 2.394,
       "sp95": 2.189,
       "sp95_mode": "self",
-      "releve": "2026-09-26T12:11"
-    },
-    "IT-4401": {
-      "pays": "IT",
-      "id": "4401",
-      "nom": "Gnp Velturno",
-      "marque": "GNP",
-      "adresse": "Via Paese 2 39040, Velturno (Bz) 2 39040",
-      "gps": [
-        46.67091,
-        11.6012
-      ],
-      "gazole": 2.397,
-      "gazole_mode": "self",
-      "sp95": 2.197,
-      "sp95_mode": "self",
-      "releve": "2026-09-27T10:48"
+      "releve": "2026-09-28T15:11"
     },
     "IT-35174": {
       "pays": "IT",
@@ -534,11 +580,11 @@
         46.56339,
         11.5569
       ],
-      "gazole": 2.417,
+      "gazole": 2.437,
       "gazole_mode": "self",
-      "sp95": 2.177,
+      "sp95": 2.197,
       "sp95_mode": "self",
-      "releve": "2026-09-26T10:02"
+      "releve": "2026-09-28T11:47"
     },
     "IT-35960": {
       "pays": "IT",
@@ -550,28 +596,11 @@
         46.60202,
         11.55918
       ],
-      "gazole": 2.417,
+      "gazole": 2.437,
       "gazole_mode": "self",
-      "sp95": 2.177,
+      "sp95": 2.197,
       "sp95_mode": "self",
-      "releve": "2026-09-26T12:38"
-    },
-    "IT-57472": {
-      "pays": "IT",
-      "id": "57472",
-      "nom": "Castelrotto Azzalini Energie",
-      "marque": "AZZALINI ENERGIE",
-      "adresse": "Via Arnaria- Fraz. Roncadizza 25/A 39040, Castelrotto (BZ)",
-      "gps": [
-        46.57349,
-        11.65489
-      ],
-      "gazole": 2.429,
-      "gazole_mode": "self",
-      "gazole_servito": 2.429,
-      "sp95": 2.187,
-      "sp95_mode": "self",
-      "releve": "2026-09-27T16:06"
+      "releve": "2026-09-28T11:49"
     },
     "IT-7806": {
       "pays": "IT",
@@ -587,41 +616,23 @@
       "gazole_mode": "self",
       "sp95": 2.259,
       "sp95_mode": "self",
-      "releve": "2026-09-28T07:40"
+      "releve": "2026-09-29T07:43"
     },
-    "IT-38788": {
+    "IT-11543": {
       "pays": "IT",
-      "id": "38788",
-      "nom": "52575 Chiusa",
-      "marque": "Agip Eni",
-      "adresse": "Piazza Frages 5 39043, Chiusa (BZ)",
+      "id": "11543",
+      "nom": "Castelrotto-Pontives Ss 242",
+      "marque": "Q8",
+      "adresse": "Pontives Ss 242 S/N 39040, Castelrotto (BZ)",
       "gps": [
-        46.63771,
-        11.56111
+        46.58012,
+        11.63957
       ],
-      "gazole": 2.455,
+      "gazole": 2.449,
       "gazole_mode": "self",
-      "gazole_servito": 2.455,
-      "sp95": 2.189,
+      "sp95": 2.199,
       "sp95_mode": "self",
-      "releve": "2026-09-28T01:28"
-    },
-    "IT-27752": {
-      "pays": "IT",
-      "id": "27752",
-      "nom": "Eni Insam",
-      "marque": "Agip Eni",
-      "adresse": "Statale 242 Di Val Gardena E Passo Sella, Km. 14, Dir. Chiusa - 39046, Ortisei (BZ)",
-      "gps": [
-        46.56792,
-        11.68537
-      ],
-      "gazole": 2.455,
-      "gazole_mode": "self",
-      "gazole_servito": 2.455,
-      "sp95": 2.189,
-      "sp95_mode": "self",
-      "releve": "2026-09-26T12:28"
+      "releve": "2026-09-29T07:33"
     },
     "IT-46748": {
       "pays": "IT",
@@ -634,12 +645,46 @@
         46.7323,
         11.64167
       ],
-      "gazole": 2.399,
+      "gazole": 2.189,
       "gazole_mode": "self",
       "gazole_servito": 2.859,
-      "sp95": 2.244,
+      "sp95": 1.989,
       "sp95_mode": "self",
-      "releve": "2026-09-27T10:14"
+      "releve": "2026-09-28T18:11"
+    },
+    "IT-52234": {
+      "pays": "IT",
+      "id": "52234",
+      "nom": "Eni 3144 Pit Stop",
+      "marque": "Agip Eni",
+      "adresse": "Via Peter Mayr 16 39042, Bressanone (BZ)",
+      "gps": [
+        46.7203,
+        11.65522
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T10:44"
+    },
+    "IT-16252": {
+      "pays": "IT",
+      "id": "16252",
+      "nom": "Selfarea Angerer",
+      "marque": "Agip Eni",
+      "adresse": "Via Plose 13/D 39042, Bressanone (BZ)",
+      "gps": [
+        46.70999,
+        11.66181
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T11:46"
     },
     "IT-61929": {
       "pays": "IT",
@@ -651,30 +696,97 @@
         46.76961,
         11.65529
       ],
-      "gazole": 2.445,
+      "gazole": 2.19,
       "gazole_mode": "self",
-      "gazole_servito": 2.455,
-      "sp95": 2.179,
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-09-26T08:15"
+      "releve": "2026-09-28T11:32"
     },
-    "IT-46791": {
+    "IT-47894": {
       "pays": "IT",
-      "id": "46791",
-      "nom": "Plose Ovest",
-      "marque": "Tamoil",
-      "autoroute": true,
-      "adresse": "A22 Brennero-Modena, Km. 42, Sud - 39040, Varna (BZ)",
+      "id": "47894",
+      "nom": "Eni Weger",
+      "marque": "Agip Eni",
+      "adresse": "Via Val Pusteria 26 39037, Rio Di Pusteria (BZ)",
       "gps": [
-        46.72968,
-        11.64248
+        46.79692,
+        11.66865
       ],
-      "gazole": 2.448,
+      "gazole": 2.19,
       "gazole_mode": "self",
-      "gazole_servito": 2.448,
-      "sp95": 2.278,
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-09-26T17:12"
+      "releve": "2026-09-28T11:03"
+    },
+    "IT-41821": {
+      "pays": "IT",
+      "id": "41821",
+      "nom": "Eni Nr. 13148",
+      "marque": "Agip Eni",
+      "adresse": "Via Valle Pusteria 30 39030, Chienes (BZ)",
+      "gps": [
+        46.80323,
+        11.84282
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T11:28"
+    },
+    "IT-18861": {
+      "pays": "IT",
+      "id": "18861",
+      "nom": "Agip Tankstelle Rasen",
+      "marque": "Agip Eni",
+      "adresse": "Extra Urbano S.p. 44 0044 160 39030, Rasun Anterselva (Bz) 39030, Rasun-Anterselva (BZ)",
+      "gps": [
+        46.77495,
+        12.04361
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T10:50"
+    },
+    "IT-50274": {
+      "pays": "IT",
+      "id": "50274",
+      "nom": "Tanking",
+      "marque": "Agip Eni",
+      "adresse": "Via San Lorenzo 37 39031, Brunico (BZ)",
+      "gps": [
+        46.79075,
+        11.92724
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T11:35"
+    },
+    "IT-58726": {
+      "pays": "IT",
+      "id": "58726",
+      "nom": "Pv 3138 Brunico",
+      "marque": "Agip Eni",
+      "adresse": "Via San Lorenzo 11 39031, Brunico (BZ)",
+      "gps": [
+        46.79325,
+        11.93093
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T10:15"
     },
     "IT-56986": {
       "pays": "IT",
@@ -710,123 +822,37 @@
       "sp95_mode": "self",
       "releve": "2026-09-28T07:41"
     },
-    "IT-36546": {
+    "IT-23495": {
       "pays": "IT",
-      "id": "36546",
-      "nom": "Q8 Valdaora",
-      "marque": "Q8",
-      "adresse": "Via Stazione 7 39030, Valdaora (BZ)",
+      "id": "23495",
+      "nom": "Nordoil",
+      "marque": "Agip Eni",
+      "adresse": "Anello Nord 3 39031, Brunico (BZ)",
       "gps": [
-        46.76319,
-        12.03198
+        46.79798,
+        11.92449
       ],
-      "gazole": 2.429,
+      "gazole": 2.19,
       "gazole_mode": "self",
-      "gazole_servito": 2.429,
-      "sp95": 2.199,
+      "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-09-22T08:33"
+      "releve": "2026-09-28T11:30"
     },
-    "IT-61770": {
+    "IT-57756": {
       "pays": "IT",
-      "id": "61770",
-      "nom": "Esso",
+      "id": "57756",
+      "nom": "Esso San Candido",
       "marque": "Esso",
-      "adresse": "Via Falzes 39030",
+      "adresse": "Via Pusteria 1/A 39038, San Candido (BZ)",
       "gps": [
-        46.81035,
-        11.88199
+        46.7305,
+        12.26635
       ],
-      "gazole": 2.439,
+      "gazole": 2.399,
       "gazole_mode": "self",
-      "gazole_servito": 2.629,
       "sp95": 2.199,
       "sp95_mode": "self",
-      "releve": "2026-09-26T08:06"
-    },
-    "IT-50885": {
-      "pays": "IT",
-      "id": "50885",
-      "nom": "Q8 Station Sas",
-      "marque": "Q8",
-      "adresse": "Via Brennero 28 39040, Varna (BZ)",
-      "gps": [
-        46.73311,
-        11.64954
-      ],
-      "gazole": 2.449,
-      "gazole_mode": "self",
-      "sp95": 2.239,
-      "sp95_mode": "self",
-      "releve": "2026-09-27T18:38"
-    },
-    "IT-41821": {
-      "pays": "IT",
-      "id": "41821",
-      "nom": "Eni Nr. 13148",
-      "marque": "Agip Eni",
-      "adresse": "Via Valle Pusteria 30 39030, Chienes (BZ)",
-      "gps": [
-        46.80323,
-        11.84282
-      ],
-      "gazole": 2.455,
-      "gazole_mode": "self",
-      "gazole_servito": 2.455,
-      "sp95": 2.189,
-      "sp95_mode": "self",
-      "releve": "2026-09-26T12:08"
-    },
-    "IT-18861": {
-      "pays": "IT",
-      "id": "18861",
-      "nom": "Agip Tankstelle Rasen",
-      "marque": "Agip Eni",
-      "adresse": "Extra Urbano S.p. 44 0044 160 39030, Rasun Anterselva (Bz) 39030, Rasun-Anterselva (BZ)",
-      "gps": [
-        46.77495,
-        12.04361
-      ],
-      "gazole": 2.455,
-      "gazole_mode": "self",
-      "gazole_servito": 2.455,
-      "sp95": 2.189,
-      "sp95_mode": "self",
-      "releve": "2026-09-26T07:57"
-    },
-    "IT-47894": {
-      "pays": "IT",
-      "id": "47894",
-      "nom": "Eni Weger",
-      "marque": "Agip Eni",
-      "adresse": "Via Val Pusteria 26 39037, Rio Di Pusteria (BZ)",
-      "gps": [
-        46.79692,
-        11.66865
-      ],
-      "gazole": 2.455,
-      "gazole_mode": "self",
-      "gazole_servito": 2.455,
-      "sp95": 2.189,
-      "sp95_mode": "self",
-      "releve": "2026-09-26T12:06"
-    },
-    "IT-50274": {
-      "pays": "IT",
-      "id": "50274",
-      "nom": "Tanking",
-      "marque": "Agip Eni",
-      "adresse": "Via San Lorenzo 37 39031, Brunico (BZ)",
-      "gps": [
-        46.79075,
-        11.92724
-      ],
-      "gazole": 2.455,
-      "gazole_mode": "self",
-      "gazole_servito": 2.455,
-      "sp95": 2.189,
-      "sp95_mode": "self",
-      "releve": "2026-09-26T12:08"
+      "releve": "2026-09-28T17:57"
     },
     "IT-35524": {
       "pays": "IT",
@@ -843,40 +869,41 @@
       "gazole_servito": 2.455,
       "sp95": 2.234,
       "sp95_mode": "self",
-      "releve": "2026-09-26T06:37"
+      "releve": "2026-09-28T21:09"
     },
-    "IT-57756": {
+    "IT-56736": {
       "pays": "IT",
-      "id": "57756",
-      "nom": "Esso San Candido",
-      "marque": "Esso",
-      "adresse": "Via Pusteria 1/A 39038, San Candido (BZ)",
-      "gps": [
-        46.7305,
-        12.26635
-      ],
-      "gazole": 2.46,
-      "gazole_mode": "self",
-      "sp95": 2.199,
-      "sp95_mode": "self",
-      "releve": "2026-09-26T10:14"
-    },
-    "IT-52234": {
-      "pays": "IT",
-      "id": "52234",
-      "nom": "Eni 3144 Pit Stop",
+      "id": "56736",
+      "nom": "Enistation 3156",
       "marque": "Agip Eni",
-      "adresse": "Via Peter Mayr 16 39042, Bressanone (BZ)",
+      "adresse": "Strada Colz 39036, Badia (BZ)",
       "gps": [
-        46.7203,
-        11.65522
+        46.5879,
+        11.90316
       ],
-      "gazole": 2.455,
+      "gazole": 2.19,
       "gazole_mode": "self",
-      "gazole_servito": 2.455,
-      "sp95": 2.189,
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-09-26T13:09"
+      "releve": "2026-09-28T11:26"
+    },
+    "IT-57857": {
+      "pays": "IT",
+      "id": "57857",
+      "nom": "52671 Cortina D'Ampezzo",
+      "marque": "Agip Eni",
+      "adresse": "Corso Italia 199 70, Cortina D'Ampezzo (BL)",
+      "gps": [
+        46.54081,
+        12.13515
+      ],
+      "gazole": 2.19,
+      "gazole_mode": "self",
+      "gazole_servito": 2.19,
+      "sp95": 1.99,
+      "sp95_mode": "self",
+      "releve": "2026-09-28T10:57"
     },
     "IT-5319": {
       "pays": "IT",
@@ -888,12 +915,46 @@
         46.75956,
         11.63781
       ],
-      "gazole": 2.459,
+      "gazole": 2.419,
       "gazole_mode": "self",
-      "gazole_servito": 2.459,
-      "sp95": 2.249,
+      "gazole_servito": 2.419,
+      "sp95": 2.239,
       "sp95_mode": "self",
-      "releve": "2026-09-26T00:56"
+      "releve": "2026-09-29T00:28"
+    },
+    "IT-46791": {
+      "pays": "IT",
+      "id": "46791",
+      "nom": "Plose Ovest",
+      "marque": "Tamoil",
+      "autoroute": true,
+      "adresse": "A22 Brennero-Modena, Km. 42, Sud - 39040, Varna (BZ)",
+      "gps": [
+        46.72968,
+        11.64248
+      ],
+      "gazole": 2.448,
+      "gazole_mode": "self",
+      "gazole_servito": 2.448,
+      "sp95": 2.278,
+      "sp95_mode": "self",
+      "releve": "2026-09-26T17:12"
+    },
+    "IT-50885": {
+      "pays": "IT",
+      "id": "50885",
+      "nom": "Q8 Station Sas",
+      "marque": "Q8",
+      "adresse": "Via Brennero 28 39040, Varna (BZ)",
+      "gps": [
+        46.73311,
+        11.64954
+      ],
+      "gazole": 2.449,
+      "gazole_mode": "self",
+      "sp95": 2.239,
+      "sp95_mode": "self",
+      "releve": "2026-09-27T18:38"
     }
   },
   "jours": {
@@ -904,20 +965,8 @@
           "km": 3.5
         },
         {
-          "id": "IT-3850",
+          "id": "IT-38402",
           "km": 0
-        },
-        {
-          "id": "IT-41016",
-          "km": 1
-        },
-        {
-          "id": "IT-8291",
-          "km": 2
-        },
-        {
-          "id": "IT-48158",
-          "km": 3.7
         },
         {
           "id": "IT-62717",
@@ -928,24 +977,36 @@
           "km": 0
         },
         {
-          "id": "FR-13680007",
+          "id": "IT-3850",
           "km": 0
         },
         {
-          "id": "FR-83170012",
-          "km": 0
+          "id": "IT-51733",
+          "km": 0.2
         },
         {
-          "id": "FR-34400017",
-          "km": 0
+          "id": "IT-55153",
+          "km": 0.2
         },
         {
-          "id": "FR-13200015",
-          "km": 0.1
+          "id": "IT-54199",
+          "km": 0.3
         },
         {
-          "id": "FR-13200014",
-          "km": 0.1
+          "id": "IT-58586",
+          "km": 0.6
+        },
+        {
+          "id": "IT-48225",
+          "km": 0.6
+        },
+        {
+          "id": "IT-58188",
+          "km": 0.6
+        },
+        {
+          "id": "IT-7930",
+          "km": 0.7
         }
       ],
       "2": [
@@ -962,10 +1023,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-36393",
           "km": 0.8
         },
@@ -974,28 +1031,32 @@
           "km": 0.7
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
+        },
+        {
+          "id": "IT-32857",
+          "km": 0
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
         },
         {
           "id": "IT-3530",
           "km": 0
         },
         {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-45459",
           "km": 0
-        },
-        {
-          "id": "IT-3935",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
-          "km": 0.1
         }
       ],
       "3": [
@@ -1006,6 +1067,10 @@
       ],
       "4": [
         {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-62759",
           "km": 0.3
         },
@@ -1014,15 +1079,23 @@
           "km": 0.3
         },
         {
+          "id": "IT-27752",
+          "km": 0.7
+        },
+        {
+          "id": "IT-53567",
+          "km": 3.9
+        },
+        {
           "id": "IT-45903",
           "km": 0.3
         },
         {
-          "id": "IT-35013",
-          "km": 1.4
+          "id": "IT-57472",
+          "km": 0
         },
         {
-          "id": "IT-4401",
+          "id": "IT-35013",
           "km": 1.4
         },
         {
@@ -1034,24 +1107,12 @@
           "km": 0
         },
         {
-          "id": "IT-57472",
-          "km": 0
-        },
-        {
           "id": "IT-7806",
           "km": 0.7
         },
         {
-          "id": "IT-13692",
+          "id": "IT-11543",
           "km": 0
-        },
-        {
-          "id": "IT-38788",
-          "km": 0
-        },
-        {
-          "id": "IT-27752",
-          "km": 0.7
         }
       ],
       "5": [
@@ -1066,10 +1127,6 @@
         {
           "id": "IT-54873",
           "km": 2.4
-        },
-        {
-          "id": "IT-48007",
-          "km": 3.1
         },
         {
           "id": "IT-41309",
@@ -1084,23 +1141,27 @@
           "km": 0.5
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
+        },
+        {
+          "id": "IT-32857",
+          "km": 0.1
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
         },
         {
           "id": "IT-3530",
           "km": 0
         },
         {
-          "id": "IT-3935",
-          "km": 0
-        },
-        {
-          "id": "IT-3850",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
+          "id": "IT-62759",
           "km": 0
         }
       ]
@@ -1112,20 +1173,8 @@
           "km": 3.5
         },
         {
-          "id": "IT-3850",
+          "id": "IT-38402",
           "km": 0
-        },
-        {
-          "id": "IT-41016",
-          "km": 1
-        },
-        {
-          "id": "IT-8291",
-          "km": 2
-        },
-        {
-          "id": "IT-48158",
-          "km": 3.7
         },
         {
           "id": "IT-62717",
@@ -1136,24 +1185,36 @@
           "km": 0
         },
         {
-          "id": "FR-13680007",
+          "id": "IT-3850",
           "km": 0
         },
         {
-          "id": "FR-83170012",
-          "km": 0
+          "id": "IT-51733",
+          "km": 0.2
         },
         {
-          "id": "FR-34400017",
-          "km": 0
+          "id": "IT-55153",
+          "km": 0.2
         },
         {
-          "id": "FR-13200015",
-          "km": 0.1
+          "id": "IT-54199",
+          "km": 0.3
         },
         {
-          "id": "FR-13200014",
-          "km": 0.1
+          "id": "IT-58586",
+          "km": 0.6
+        },
+        {
+          "id": "IT-48225",
+          "km": 0.6
+        },
+        {
+          "id": "IT-58188",
+          "km": 0.6
+        },
+        {
+          "id": "IT-7930",
+          "km": 0.7
         }
       ],
       "2": [
@@ -1170,10 +1231,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-36393",
           "km": 0.8
         },
@@ -1182,28 +1239,32 @@
           "km": 0.7
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
+        },
+        {
+          "id": "IT-32857",
+          "km": 0
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
         },
         {
           "id": "IT-3530",
           "km": 0
         },
         {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-45459",
           "km": 0
-        },
-        {
-          "id": "IT-3935",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
-          "km": 0.1
         }
       ],
       "3": [
@@ -1214,6 +1275,18 @@
       ],
       "4": [
         {
+          "id": "IT-46748",
+          "km": 0.1
+        },
+        {
+          "id": "IT-53567",
+          "km": 0
+        },
+        {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-62759",
           "km": 0.3
         },
@@ -1222,78 +1295,38 @@
           "km": 0.3
         },
         {
-          "id": "IT-45903",
-          "km": 0.3
+          "id": "IT-52234",
+          "km": 0.6
         },
         {
-          "id": "IT-35013",
-          "km": 1.4
-        },
-        {
-          "id": "IT-4401",
-          "km": 1
-        },
-        {
-          "id": "IT-46748",
-          "km": 0.1
-        },
-        {
-          "id": "IT-35174",
-          "km": 0
-        },
-        {
-          "id": "IT-35960",
-          "km": 0
-        },
-        {
-          "id": "IT-57472",
-          "km": 0
-        },
-        {
-          "id": "IT-7806",
+          "id": "IT-27752",
           "km": 0.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 1
         },
         {
           "id": "IT-61929",
           "km": 1.7
         },
         {
-          "id": "IT-46791",
-          "km": 0.1
+          "id": "IT-47894",
+          "km": 4.7
+        },
+        {
+          "id": "IT-45903",
+          "km": 0.3
+        },
+        {
+          "id": "IT-57472",
+          "km": 0
         }
       ],
       "5": [
         {
-          "id": "IT-56986",
-          "km": 1.4
-        },
-        {
-          "id": "IT-35533",
-          "km": 1.5
-        },
-        {
           "id": "IT-46748",
           "km": 0.4
-        },
-        {
-          "id": "IT-36546",
-          "km": 1
-        },
-        {
-          "id": "IT-61770",
-          "km": 2.2
-        },
-        {
-          "id": "IT-61929",
-          "km": 0.6
-        },
-        {
-          "id": "IT-46791",
-          "km": 0.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 0
         },
         {
           "id": "IT-41821",
@@ -1308,8 +1341,36 @@
           "km": 0.1
         },
         {
+          "id": "IT-61929",
+          "km": 0.6
+        },
+        {
           "id": "IT-50274",
           "km": 0.9
+        },
+        {
+          "id": "IT-58726",
+          "km": 1
+        },
+        {
+          "id": "IT-52234",
+          "km": 1.4
+        },
+        {
+          "id": "IT-56986",
+          "km": 1.4
+        },
+        {
+          "id": "IT-35533",
+          "km": 1.5
+        },
+        {
+          "id": "IT-23495",
+          "km": 1.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 2.6
         }
       ],
       "6": [
@@ -1318,12 +1379,12 @@
           "km": 0
         },
         {
-          "id": "IT-35524",
-          "km": 0
-        },
-        {
           "id": "IT-57756",
           "km": 3.3
+        },
+        {
+          "id": "IT-35524",
+          "km": 0
         }
       ],
       "7": [
@@ -1340,10 +1401,6 @@
           "km": 2.3
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-41309",
           "km": 3.5
         },
@@ -1356,24 +1413,28 @@
           "km": 0.7
         },
         {
+          "id": "IT-50871",
+          "km": 1.7
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
         },
         {
+          "id": "IT-46748",
+          "km": 0.1
+        },
+        {
+          "id": "IT-32857",
+          "km": 0.1
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.9
+        },
+        {
           "id": "IT-3530",
           "km": 0
-        },
-        {
-          "id": "IT-3850",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
-          "km": 0.1
-        },
-        {
-          "id": "IT-45459",
-          "km": 0.1
         }
       ]
     },
@@ -1384,20 +1445,8 @@
           "km": 3.5
         },
         {
-          "id": "IT-3850",
+          "id": "IT-38402",
           "km": 0
-        },
-        {
-          "id": "IT-41016",
-          "km": 1
-        },
-        {
-          "id": "IT-8291",
-          "km": 2
-        },
-        {
-          "id": "IT-48158",
-          "km": 3.7
         },
         {
           "id": "IT-62717",
@@ -1408,24 +1457,36 @@
           "km": 0
         },
         {
-          "id": "FR-13680007",
+          "id": "IT-3850",
           "km": 0
         },
         {
-          "id": "FR-83170012",
-          "km": 0
+          "id": "IT-51733",
+          "km": 0.2
         },
         {
-          "id": "FR-34400017",
-          "km": 0
+          "id": "IT-55153",
+          "km": 0.2
         },
         {
-          "id": "FR-13200015",
-          "km": 0.1
+          "id": "IT-54199",
+          "km": 0.3
         },
         {
-          "id": "FR-13200014",
-          "km": 0.1
+          "id": "IT-58586",
+          "km": 0.6
+        },
+        {
+          "id": "IT-48225",
+          "km": 0.6
+        },
+        {
+          "id": "IT-58188",
+          "km": 0.6
+        },
+        {
+          "id": "IT-7930",
+          "km": 0.7
         }
       ],
       "2": [
@@ -1442,10 +1503,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-36393",
           "km": 0.8
         },
@@ -1454,28 +1511,32 @@
           "km": 0.7
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
+        },
+        {
+          "id": "IT-32857",
+          "km": 0
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
         },
         {
           "id": "IT-3530",
           "km": 0
         },
         {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-45459",
           "km": 0
-        },
-        {
-          "id": "IT-3935",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
-          "km": 0.1
         }
       ],
       "3": [
@@ -1486,6 +1547,18 @@
       ],
       "4": [
         {
+          "id": "IT-46748",
+          "km": 0.1
+        },
+        {
+          "id": "IT-53567",
+          "km": 0
+        },
+        {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-62759",
           "km": 0.3
         },
@@ -1494,77 +1567,41 @@
           "km": 0.3
         },
         {
-          "id": "IT-45903",
-          "km": 0.3
+          "id": "IT-52234",
+          "km": 0.6
         },
         {
-          "id": "IT-35013",
-          "km": 1.4
-        },
-        {
-          "id": "IT-4401",
-          "km": 1
-        },
-        {
-          "id": "IT-46748",
-          "km": 0.1
-        },
-        {
-          "id": "IT-35174",
-          "km": 0
-        },
-        {
-          "id": "IT-35960",
-          "km": 0
-        },
-        {
-          "id": "IT-57472",
-          "km": 0
-        },
-        {
-          "id": "IT-7806",
+          "id": "IT-27752",
           "km": 0.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 1
         },
         {
           "id": "IT-61929",
           "km": 1.7
         },
         {
-          "id": "IT-46791",
-          "km": 0.1
+          "id": "IT-47894",
+          "km": 4.7
+        },
+        {
+          "id": "IT-45903",
+          "km": 0.3
+        },
+        {
+          "id": "IT-57472",
+          "km": 0
         }
       ],
       "5": [
-        {
-          "id": "IT-56986",
-          "km": 1.4
-        },
-        {
-          "id": "IT-35533",
-          "km": 1.5
-        },
         {
           "id": "IT-46748",
           "km": 0.4
         },
         {
-          "id": "IT-36546",
-          "km": 1
-        },
-        {
-          "id": "IT-61770",
-          "km": 2.2
-        },
-        {
-          "id": "IT-61929",
-          "km": 0.6
-        },
-        {
-          "id": "IT-46791",
-          "km": 0.6
-        },
-        {
-          "id": "IT-50885",
+          "id": "IT-56736",
           "km": 0
         },
         {
@@ -1572,7 +1609,11 @@
           "km": 0
         },
         {
-          "id": "IT-18861",
+          "id": "IT-35533",
+          "km": 0
+        },
+        {
+          "id": "IT-56986",
           "km": 0
         },
         {
@@ -1580,8 +1621,28 @@
           "km": 0.1
         },
         {
+          "id": "IT-57857",
+          "km": 0.2
+        },
+        {
+          "id": "IT-61929",
+          "km": 0.6
+        },
+        {
+          "id": "IT-52234",
+          "km": 1.4
+        },
+        {
+          "id": "IT-16252",
+          "km": 2.6
+        },
+        {
+          "id": "IT-23495",
+          "km": 3.2
+        },
+        {
           "id": "IT-50274",
-          "km": 0.9
+          "km": 3.2
         }
       ],
       "6": [
@@ -1590,46 +1651,18 @@
           "km": 0
         },
         {
-          "id": "IT-35524",
-          "km": 0
-        },
-        {
           "id": "IT-57756",
           "km": 3.3
+        },
+        {
+          "id": "IT-35524",
+          "km": 0
         }
       ],
       "7": [
         {
-          "id": "IT-56986",
-          "km": 1.4
-        },
-        {
-          "id": "IT-35533",
-          "km": 1.5
-        },
-        {
           "id": "IT-46748",
           "km": 0.4
-        },
-        {
-          "id": "IT-36546",
-          "km": 1
-        },
-        {
-          "id": "IT-61770",
-          "km": 2.2
-        },
-        {
-          "id": "IT-61929",
-          "km": 0.6
-        },
-        {
-          "id": "IT-46791",
-          "km": 0.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 0
         },
         {
           "id": "IT-41821",
@@ -1644,8 +1677,36 @@
           "km": 0.3
         },
         {
+          "id": "IT-61929",
+          "km": 0.6
+        },
+        {
           "id": "IT-50274",
           "km": 0.9
+        },
+        {
+          "id": "IT-58726",
+          "km": 1
+        },
+        {
+          "id": "IT-52234",
+          "km": 1.4
+        },
+        {
+          "id": "IT-56986",
+          "km": 1.4
+        },
+        {
+          "id": "IT-35533",
+          "km": 1.5
+        },
+        {
+          "id": "IT-23495",
+          "km": 1.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 2.6
         }
       ],
       "8": [
@@ -1662,10 +1723,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-41309",
           "km": 3.4
         },
@@ -1678,24 +1735,28 @@
           "km": 0.6
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
         },
         {
-          "id": "IT-3935",
+          "id": "IT-46748",
           "km": 0
         },
         {
-          "id": "IT-3850",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
+          "id": "IT-32857",
           "km": 0.1
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
+        },
+        {
+          "id": "IT-53567",
+          "km": 0
         }
       ]
     },
@@ -1706,20 +1767,8 @@
           "km": 3.5
         },
         {
-          "id": "IT-3850",
+          "id": "IT-38402",
           "km": 0
-        },
-        {
-          "id": "IT-41016",
-          "km": 1
-        },
-        {
-          "id": "IT-8291",
-          "km": 2
-        },
-        {
-          "id": "IT-48158",
-          "km": 3.7
         },
         {
           "id": "IT-62717",
@@ -1730,24 +1779,36 @@
           "km": 0
         },
         {
-          "id": "FR-13680007",
+          "id": "IT-3850",
           "km": 0
         },
         {
-          "id": "FR-83170012",
-          "km": 0
+          "id": "IT-51733",
+          "km": 0.2
         },
         {
-          "id": "FR-34400017",
-          "km": 0
+          "id": "IT-55153",
+          "km": 0.2
         },
         {
-          "id": "FR-13200015",
-          "km": 0.1
+          "id": "IT-54199",
+          "km": 0.3
         },
         {
-          "id": "FR-13200014",
-          "km": 0.1
+          "id": "IT-58586",
+          "km": 0.6
+        },
+        {
+          "id": "IT-48225",
+          "km": 0.6
+        },
+        {
+          "id": "IT-58188",
+          "km": 0.6
+        },
+        {
+          "id": "IT-7930",
+          "km": 0.7
         }
       ],
       "2": [
@@ -1764,10 +1825,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-36393",
           "km": 0.8
         },
@@ -1776,28 +1833,32 @@
           "km": 0.7
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
+        },
+        {
+          "id": "IT-32857",
+          "km": 0
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
         },
         {
           "id": "IT-3530",
           "km": 0
         },
         {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-45459",
           "km": 0
-        },
-        {
-          "id": "IT-3935",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
-          "km": 0.1
         }
       ],
       "3": [
@@ -1814,6 +1875,18 @@
       ],
       "5": [
         {
+          "id": "IT-46748",
+          "km": 0.1
+        },
+        {
+          "id": "IT-53567",
+          "km": 0
+        },
+        {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-62759",
           "km": 0.3
         },
@@ -1822,78 +1895,38 @@
           "km": 0.3
         },
         {
-          "id": "IT-45903",
-          "km": 0.3
+          "id": "IT-52234",
+          "km": 0.6
         },
         {
-          "id": "IT-35013",
-          "km": 1.4
-        },
-        {
-          "id": "IT-4401",
-          "km": 1
-        },
-        {
-          "id": "IT-46748",
-          "km": 0.1
-        },
-        {
-          "id": "IT-35174",
-          "km": 0
-        },
-        {
-          "id": "IT-35960",
-          "km": 0
-        },
-        {
-          "id": "IT-57472",
-          "km": 0
-        },
-        {
-          "id": "IT-7806",
+          "id": "IT-27752",
           "km": 0.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 1
         },
         {
           "id": "IT-61929",
           "km": 1.7
         },
         {
-          "id": "IT-46791",
-          "km": 0.1
+          "id": "IT-47894",
+          "km": 4.7
+        },
+        {
+          "id": "IT-45903",
+          "km": 0.3
+        },
+        {
+          "id": "IT-57472",
+          "km": 0
         }
       ],
       "6": [
         {
-          "id": "IT-56986",
-          "km": 1.4
-        },
-        {
-          "id": "IT-35533",
-          "km": 1.5
-        },
-        {
           "id": "IT-46748",
           "km": 0.4
-        },
-        {
-          "id": "IT-36546",
-          "km": 1
-        },
-        {
-          "id": "IT-61770",
-          "km": 2.2
-        },
-        {
-          "id": "IT-61929",
-          "km": 0.6
-        },
-        {
-          "id": "IT-46791",
-          "km": 0.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 0
         },
         {
           "id": "IT-41821",
@@ -1908,8 +1941,36 @@
           "km": 0.1
         },
         {
+          "id": "IT-61929",
+          "km": 0.6
+        },
+        {
           "id": "IT-50274",
           "km": 0.9
+        },
+        {
+          "id": "IT-58726",
+          "km": 1
+        },
+        {
+          "id": "IT-52234",
+          "km": 1.4
+        },
+        {
+          "id": "IT-56986",
+          "km": 1.4
+        },
+        {
+          "id": "IT-35533",
+          "km": 1.5
+        },
+        {
+          "id": "IT-23495",
+          "km": 1.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 2.6
         }
       ],
       "7": [
@@ -1918,12 +1979,12 @@
           "km": 0
         },
         {
-          "id": "IT-35524",
-          "km": 0
-        },
-        {
           "id": "IT-57756",
           "km": 3.3
+        },
+        {
+          "id": "IT-35524",
+          "km": 0
         }
       ],
       "8": [
@@ -1938,36 +1999,8 @@
       ],
       "9": [
         {
-          "id": "IT-56986",
-          "km": 1.4
-        },
-        {
-          "id": "IT-35533",
-          "km": 1.5
-        },
-        {
           "id": "IT-46748",
           "km": 0.4
-        },
-        {
-          "id": "IT-36546",
-          "km": 1
-        },
-        {
-          "id": "IT-61770",
-          "km": 2.2
-        },
-        {
-          "id": "IT-61929",
-          "km": 0.6
-        },
-        {
-          "id": "IT-46791",
-          "km": 0.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 0
         },
         {
           "id": "IT-41821",
@@ -1982,8 +2015,36 @@
           "km": 0.3
         },
         {
+          "id": "IT-61929",
+          "km": 0.6
+        },
+        {
           "id": "IT-50274",
           "km": 0.9
+        },
+        {
+          "id": "IT-58726",
+          "km": 1
+        },
+        {
+          "id": "IT-52234",
+          "km": 1.4
+        },
+        {
+          "id": "IT-56986",
+          "km": 1.4
+        },
+        {
+          "id": "IT-35533",
+          "km": 1.5
+        },
+        {
+          "id": "IT-23495",
+          "km": 1.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 2.6
         }
       ],
       "10": [
@@ -2000,10 +2061,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-41309",
           "km": 3.4
         },
@@ -2016,24 +2073,28 @@
           "km": 0.6
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
         },
         {
-          "id": "IT-3935",
+          "id": "IT-46748",
           "km": 0
         },
         {
-          "id": "IT-3850",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
+          "id": "IT-32857",
           "km": 0.1
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
+        },
+        {
+          "id": "IT-53567",
+          "km": 0
         }
       ]
     },
@@ -2044,20 +2105,8 @@
           "km": 3.5
         },
         {
-          "id": "IT-3850",
+          "id": "IT-38402",
           "km": 0
-        },
-        {
-          "id": "IT-41016",
-          "km": 1
-        },
-        {
-          "id": "IT-8291",
-          "km": 2
-        },
-        {
-          "id": "IT-48158",
-          "km": 3.7
         },
         {
           "id": "IT-62717",
@@ -2068,24 +2117,36 @@
           "km": 0
         },
         {
-          "id": "FR-13680007",
+          "id": "IT-3850",
           "km": 0
         },
         {
-          "id": "FR-83170012",
-          "km": 0
+          "id": "IT-51733",
+          "km": 0.2
         },
         {
-          "id": "FR-34400017",
-          "km": 0
+          "id": "IT-55153",
+          "km": 0.2
         },
         {
-          "id": "FR-13200015",
-          "km": 0.1
+          "id": "IT-54199",
+          "km": 0.3
         },
         {
-          "id": "FR-13200014",
-          "km": 0.1
+          "id": "IT-58586",
+          "km": 0.6
+        },
+        {
+          "id": "IT-48225",
+          "km": 0.6
+        },
+        {
+          "id": "IT-58188",
+          "km": 0.6
+        },
+        {
+          "id": "IT-7930",
+          "km": 0.7
         }
       ],
       "2": [
@@ -2102,10 +2163,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-36393",
           "km": 0.8
         },
@@ -2114,28 +2171,32 @@
           "km": 0.7
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
+        },
+        {
+          "id": "IT-32857",
+          "km": 0
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
         },
         {
           "id": "IT-3530",
           "km": 0
         },
         {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-45459",
           "km": 0
-        },
-        {
-          "id": "IT-3935",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
-          "km": 0.1
         }
       ],
       "3": [
@@ -2152,6 +2213,18 @@
       ],
       "5": [
         {
+          "id": "IT-46748",
+          "km": 0.3
+        },
+        {
+          "id": "IT-53567",
+          "km": 0
+        },
+        {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-62759",
           "km": 0.3
         },
@@ -2160,44 +2233,32 @@
           "km": 0.3
         },
         {
-          "id": "IT-45903",
-          "km": 0.3
+          "id": "IT-52234",
+          "km": 0.6
         },
         {
-          "id": "IT-35013",
-          "km": 1.4
-        },
-        {
-          "id": "IT-4401",
-          "km": 1
-        },
-        {
-          "id": "IT-46748",
-          "km": 0.3
-        },
-        {
-          "id": "IT-35174",
-          "km": 0
-        },
-        {
-          "id": "IT-35960",
-          "km": 0
-        },
-        {
-          "id": "IT-57472",
-          "km": 0
-        },
-        {
-          "id": "IT-7806",
+          "id": "IT-27752",
           "km": 0.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 1
         },
         {
           "id": "IT-61929",
           "km": 1.7
         },
         {
-          "id": "IT-46791",
-          "km": 0.1
+          "id": "IT-47894",
+          "km": 4.7
+        },
+        {
+          "id": "IT-45903",
+          "km": 0.3
+        },
+        {
+          "id": "IT-57472",
+          "km": 0
         }
       ],
       "6": [
@@ -2210,14 +2271,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2228,6 +2281,14 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "7": [
@@ -2240,14 +2301,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2258,40 +2311,20 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "8": [
         {
-          "id": "IT-56986",
-          "km": 1.4
-        },
-        {
-          "id": "IT-35533",
-          "km": 1.5
-        },
-        {
           "id": "IT-46748",
           "km": 0.4
-        },
-        {
-          "id": "IT-36546",
-          "km": 1
-        },
-        {
-          "id": "IT-61770",
-          "km": 2.2
-        },
-        {
-          "id": "IT-61929",
-          "km": 0.6
-        },
-        {
-          "id": "IT-46791",
-          "km": 0.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 0
         },
         {
           "id": "IT-41821",
@@ -2306,8 +2339,36 @@
           "km": 0.1
         },
         {
+          "id": "IT-61929",
+          "km": 0.6
+        },
+        {
           "id": "IT-50274",
           "km": 0.9
+        },
+        {
+          "id": "IT-58726",
+          "km": 1
+        },
+        {
+          "id": "IT-52234",
+          "km": 1.4
+        },
+        {
+          "id": "IT-56986",
+          "km": 1.4
+        },
+        {
+          "id": "IT-35533",
+          "km": 1.5
+        },
+        {
+          "id": "IT-23495",
+          "km": 1.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 2.6
         }
       ],
       "9": [
@@ -2316,12 +2377,12 @@
           "km": 0
         },
         {
-          "id": "IT-35524",
-          "km": 0
-        },
-        {
           "id": "IT-57756",
           "km": 3.3
+        },
+        {
+          "id": "IT-35524",
+          "km": 0
         }
       ],
       "10": [
@@ -2336,36 +2397,8 @@
       ],
       "11": [
         {
-          "id": "IT-56986",
-          "km": 1.4
-        },
-        {
-          "id": "IT-35533",
-          "km": 1.5
-        },
-        {
           "id": "IT-46748",
           "km": 0.4
-        },
-        {
-          "id": "IT-36546",
-          "km": 1
-        },
-        {
-          "id": "IT-61770",
-          "km": 2.2
-        },
-        {
-          "id": "IT-61929",
-          "km": 0.6
-        },
-        {
-          "id": "IT-46791",
-          "km": 0.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 0
         },
         {
           "id": "IT-41821",
@@ -2380,8 +2413,36 @@
           "km": 0.3
         },
         {
+          "id": "IT-61929",
+          "km": 0.6
+        },
+        {
           "id": "IT-50274",
           "km": 0.9
+        },
+        {
+          "id": "IT-58726",
+          "km": 1
+        },
+        {
+          "id": "IT-52234",
+          "km": 1.4
+        },
+        {
+          "id": "IT-56986",
+          "km": 1.4
+        },
+        {
+          "id": "IT-35533",
+          "km": 1.5
+        },
+        {
+          "id": "IT-23495",
+          "km": 1.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 2.6
         }
       ],
       "12": [
@@ -2394,14 +2455,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2412,6 +2465,14 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "13": [
@@ -2424,14 +2485,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2442,6 +2495,14 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "14": [
@@ -2458,10 +2519,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-41309",
           "km": 3.4
         },
@@ -2474,24 +2531,28 @@
           "km": 0.6
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
         },
         {
-          "id": "IT-3935",
+          "id": "IT-46748",
           "km": 0
         },
         {
-          "id": "IT-3850",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
+          "id": "IT-32857",
           "km": 0.1
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
+        },
+        {
+          "id": "IT-53567",
+          "km": 0
         }
       ]
     },
@@ -2502,20 +2563,8 @@
           "km": 3.5
         },
         {
-          "id": "IT-3850",
+          "id": "IT-38402",
           "km": 0
-        },
-        {
-          "id": "IT-41016",
-          "km": 1
-        },
-        {
-          "id": "IT-8291",
-          "km": 2
-        },
-        {
-          "id": "IT-48158",
-          "km": 3.7
         },
         {
           "id": "IT-62717",
@@ -2526,24 +2575,36 @@
           "km": 0
         },
         {
-          "id": "FR-13680007",
+          "id": "IT-3850",
           "km": 0
         },
         {
-          "id": "FR-83170012",
-          "km": 0
+          "id": "IT-51733",
+          "km": 0.2
         },
         {
-          "id": "FR-34400017",
-          "km": 0
+          "id": "IT-55153",
+          "km": 0.2
         },
         {
-          "id": "FR-13200015",
-          "km": 0.1
+          "id": "IT-54199",
+          "km": 0.3
         },
         {
-          "id": "FR-13200014",
-          "km": 0.1
+          "id": "IT-58586",
+          "km": 0.6
+        },
+        {
+          "id": "IT-48225",
+          "km": 0.6
+        },
+        {
+          "id": "IT-58188",
+          "km": 0.6
+        },
+        {
+          "id": "IT-7930",
+          "km": 0.7
         }
       ],
       "2": [
@@ -2560,10 +2621,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-36393",
           "km": 0.8
         },
@@ -2572,28 +2629,32 @@
           "km": 0.7
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
+        },
+        {
+          "id": "IT-32857",
+          "km": 0
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
         },
         {
           "id": "IT-3530",
           "km": 0
         },
         {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-45459",
           "km": 0
-        },
-        {
-          "id": "IT-3935",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
-          "km": 0.1
         }
       ],
       "3": [
@@ -2610,6 +2671,18 @@
       ],
       "5": [
         {
+          "id": "IT-46748",
+          "km": 0.3
+        },
+        {
+          "id": "IT-53567",
+          "km": 0
+        },
+        {
+          "id": "IT-38788",
+          "km": 0
+        },
+        {
           "id": "IT-62759",
           "km": 0.3
         },
@@ -2618,44 +2691,32 @@
           "km": 0.3
         },
         {
-          "id": "IT-45903",
-          "km": 0.3
+          "id": "IT-52234",
+          "km": 0.6
         },
         {
-          "id": "IT-35013",
-          "km": 1.4
-        },
-        {
-          "id": "IT-4401",
-          "km": 1
-        },
-        {
-          "id": "IT-46748",
-          "km": 0.3
-        },
-        {
-          "id": "IT-35174",
-          "km": 0
-        },
-        {
-          "id": "IT-35960",
-          "km": 0
-        },
-        {
-          "id": "IT-57472",
-          "km": 0
-        },
-        {
-          "id": "IT-7806",
+          "id": "IT-27752",
           "km": 0.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 1
         },
         {
           "id": "IT-61929",
           "km": 1.7
         },
         {
-          "id": "IT-46791",
-          "km": 0.1
+          "id": "IT-47894",
+          "km": 4.7
+        },
+        {
+          "id": "IT-45903",
+          "km": 0.3
+        },
+        {
+          "id": "IT-57472",
+          "km": 0
         }
       ],
       "6": [
@@ -2668,14 +2729,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2686,6 +2739,14 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "7": [
@@ -2698,14 +2759,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2716,6 +2769,14 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "8": [
@@ -2728,14 +2789,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2746,40 +2799,20 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "9": [
         {
-          "id": "IT-56986",
-          "km": 1.4
-        },
-        {
-          "id": "IT-35533",
-          "km": 1.5
-        },
-        {
           "id": "IT-46748",
           "km": 0.4
-        },
-        {
-          "id": "IT-36546",
-          "km": 1
-        },
-        {
-          "id": "IT-61770",
-          "km": 2.2
-        },
-        {
-          "id": "IT-61929",
-          "km": 0.6
-        },
-        {
-          "id": "IT-46791",
-          "km": 0.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 0
         },
         {
           "id": "IT-41821",
@@ -2794,8 +2827,36 @@
           "km": 0.1
         },
         {
+          "id": "IT-61929",
+          "km": 0.6
+        },
+        {
           "id": "IT-50274",
           "km": 0.9
+        },
+        {
+          "id": "IT-58726",
+          "km": 1
+        },
+        {
+          "id": "IT-52234",
+          "km": 1.4
+        },
+        {
+          "id": "IT-56986",
+          "km": 1.4
+        },
+        {
+          "id": "IT-35533",
+          "km": 1.5
+        },
+        {
+          "id": "IT-23495",
+          "km": 1.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 2.6
         }
       ],
       "10": [
@@ -2804,12 +2865,12 @@
           "km": 0
         },
         {
-          "id": "IT-35524",
-          "km": 0
-        },
-        {
           "id": "IT-57756",
           "km": 3.3
+        },
+        {
+          "id": "IT-35524",
+          "km": 0
         }
       ],
       "11": [
@@ -2824,36 +2885,8 @@
       ],
       "12": [
         {
-          "id": "IT-56986",
-          "km": 1.4
-        },
-        {
-          "id": "IT-35533",
-          "km": 1.5
-        },
-        {
           "id": "IT-46748",
           "km": 0.4
-        },
-        {
-          "id": "IT-36546",
-          "km": 1
-        },
-        {
-          "id": "IT-61770",
-          "km": 2.2
-        },
-        {
-          "id": "IT-61929",
-          "km": 0.6
-        },
-        {
-          "id": "IT-46791",
-          "km": 0.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 0
         },
         {
           "id": "IT-41821",
@@ -2868,8 +2901,36 @@
           "km": 0.3
         },
         {
+          "id": "IT-61929",
+          "km": 0.6
+        },
+        {
           "id": "IT-50274",
           "km": 0.9
+        },
+        {
+          "id": "IT-58726",
+          "km": 1
+        },
+        {
+          "id": "IT-52234",
+          "km": 1.4
+        },
+        {
+          "id": "IT-56986",
+          "km": 1.4
+        },
+        {
+          "id": "IT-35533",
+          "km": 1.5
+        },
+        {
+          "id": "IT-23495",
+          "km": 1.7
+        },
+        {
+          "id": "IT-16252",
+          "km": 2.6
         }
       ],
       "13": [
@@ -2882,14 +2943,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2900,6 +2953,14 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "14": [
@@ -2912,14 +2973,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2930,6 +2983,14 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "15": [
@@ -2942,14 +3003,6 @@
           "km": 1.8
         },
         {
-          "id": "IT-46791",
-          "km": 3.6
-        },
-        {
-          "id": "IT-50885",
-          "km": 3.3
-        },
-        {
           "id": "IT-47894",
           "km": 4.7
         },
@@ -2960,6 +3013,14 @@
         {
           "id": "IT-5319",
           "km": 0.3
+        },
+        {
+          "id": "IT-46791",
+          "km": 3.6
+        },
+        {
+          "id": "IT-50885",
+          "km": 3.3
         }
       ],
       "16": [
@@ -2976,10 +3037,6 @@
           "km": 2.4
         },
         {
-          "id": "IT-48007",
-          "km": 3.1
-        },
-        {
           "id": "IT-41309",
           "km": 3.4
         },
@@ -2992,24 +3049,28 @@
           "km": 0.6
         },
         {
+          "id": "IT-50871",
+          "km": 1.6
+        },
+        {
           "id": "IT-50291",
           "km": 2.7
         },
         {
-          "id": "IT-3935",
+          "id": "IT-46748",
           "km": 0
         },
         {
-          "id": "IT-3850",
-          "km": 0
-        },
-        {
-          "id": "IT-51566",
-          "km": 0
-        },
-        {
-          "id": "IT-60569",
+          "id": "IT-32857",
           "km": 0.1
+        },
+        {
+          "id": "IT-48376",
+          "km": 2.8
+        },
+        {
+          "id": "IT-53567",
+          "km": 0
         }
       ]
     }
