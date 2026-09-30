@@ -17970,13 +17970,12 @@
     "nom": "Park Autosilos — parking couvert à étages (Finale Ligure)",
     "categorie": "parking",
     "gps": [
-      44.16959,
-      8.34329
+      44.1697,
+      8.34349
     ],
-    "gps_approximatif": true,
     "commune": "Finale Ligure (SV)",
-    "adresse": "Piazza Donatori di Sangue, Finale Ligure",
-    "resume": "Parking couvert à étages de 220 places, entrée via Torino, à 10 min : forfait nuit 5 €. Hauteur 2,10 m (voiture 1,95 m) selon une source secondaire. Se garer à un niveau couvert, ni sur le toit ni en sous-sol.",
+    "adresse": "Via Torino 28, Finale Ligure (entrée via Torino, piazza Donatori di Sangue)",
+    "resume": "Parking couvert à étages à 10 min, hors zone inondable (carte ISPRA) : forfait nuit 5 €. Hauteur 2,10 m (voiture 1,95 m) selon une source secondaire, à vérifier au panneau. Il a un niveau en sous-sol : se garer à un étage hors-sol.",
     "prix": {
       "type": "payant",
       "annee_tarif": 2026,
@@ -17990,7 +17989,7 @@
     },
     "ouverture": {
       "a_reverifier": true,
-      "note": "Ouvert 24 h/24 toute l’année selon une source secondaire ; hauteur à vérifier sur le panneau d’entrée."
+      "note": "Ouvert 24 h/24 toute l’année selon une source secondaire ; parking sans gardien, le règlement n’interdit ni la nuit ni de dormir dans la voiture. Ticket perdu : 20 €."
     },
     "source": "https://www.servizidiriviera.it/parcheggi/",
     "liens": [
@@ -18013,6 +18012,14 @@
         {
           "libelle": "OpenStreetMap (Photon/Nominatim) — Piazza Donatori di Sangue, Finale Ligure 44.16959, 8.34329",
           "url": "https://www.openstreetmap.org/search?query=Piazza%20Donatori%20di%20Sangue%2C%20Finale%20Ligure"
+        },
+        {
+          "libelle": "Servizi di Riviera — règlement du Park Donatori (6 articles)",
+          "url": "https://www.servizidiriviera.it/download/regolamento-park-donatori-silos/?wpdmdl=8628"
+        },
+        {
+          "libelle": "ISPRA — carte nationale des zones inondables (PGRA) : hors P1/P2/P3 au point testé",
+          "url": "https://idrogeo.isprambiente.it/app/"
         }
       ]
     }
