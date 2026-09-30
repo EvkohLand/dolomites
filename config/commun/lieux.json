@@ -6125,6 +6125,12 @@
         "etat": "offres reçues",
         "resume": "Deux offres personnalisées pour 18→19, 18→21 ou 21→25 oct., prix derrière un lien. Le nouveau planning (nuits du 13 au 16) n'a pas encore été demandé."
       }
+    ],
+    "abris_tempete": [
+      {
+        "lieu": "abri-bb-hotel-heidi",
+        "note": "Chiens bienvenus ; aucun parking couvert trouvé à Dobbiaco."
+      }
     ]
   },
   {
@@ -11388,6 +11394,16 @@
         "etat": "réservation non sollicitée",
         "resume": "Probablement ce lieu (contact « Hans Mantinger », interlocutrice Elisabeth ; nom de l'établissement absent du mail) : 42 €/nuit tout compris ; Elisabeth écrit avoir RÉSERVÉ du 13 au 16 octobre malgré la mention « pas une réservation » ; place tenue jusqu'à 18h, prévenir en cas de retard. Le nouveau planning ne dort pas là à ces dates : répondre pour annuler ou déplacer."
       }
+    ],
+    "abris_tempete": [
+      {
+        "lieu": "abri-pension-veltierhof",
+        "note": "Même vallée, chien admis : 129 € pour 1 nuit."
+      },
+      {
+        "lieu": "abri-galreidhof",
+        "note": "Plus cher, chien sur demande."
+      }
     ]
   },
   {
@@ -12651,6 +12667,16 @@
         "etat": "réponse positive",
         "resume": "Voiture avec tente de toit acceptée, aire pour chiens, chien 2,50 €/jour, électricité 0,60 €/kWh, eau 1 €/100 L. Manquent : prix de base, total avec taxe, heure limite d'arrivée. Dates demandées : 12→13 ou 14→15 oct. — la nuit du 9→10 est à redemander."
       }
+    ],
+    "abris_tempete": [
+      {
+        "lieu": "abri-il-capanno",
+        "note": "Chambre avec chien de toute taille : la moins chère trouvée."
+      },
+      {
+        "lieu": "abri-camping-dei-fiori",
+        "note": "À 200 m, mais chien de 20–25 kg à faire accepter."
+      }
     ]
   },
   {
@@ -13083,6 +13109,16 @@
         "date": "2026-09-28",
         "etat": "réponse reçue",
         "resume": "Pas de réservation : venir directement ou appeler pendant le trajet ; arrivée conseillée en début d'après-midi ; check-in 8h30–21h ; hauteur maximale 2,70 m ; tente ouverte sur le camping ; douches ouvertes ; électricité (prise EURO/adaptateur)."
+      }
+    ],
+    "abris_tempete": [
+      {
+        "lieu": "abri-gasthaus-vahrner-see",
+        "note": "Sur place ; fermé le jeudi (nuit du 15)."
+      },
+      {
+        "lieu": "abri-parking-couvert-bressanone",
+        "note": "Tente repliée, nuit dans la voiture à l’abri : ≈ 12 €."
       }
     ]
   },
@@ -17451,5 +17487,359 @@
       ]
     },
     "recherche_photo": "Ortisei Urtijëi"
+  },
+  {
+    "id": "abri-il-capanno",
+    "nom": "Il Capanno — chambres (Pietra Ligure)",
+    "categorie": "abri",
+    "gps": [
+      44.1594,
+      8.2634
+    ],
+    "gps_approximatif": true,
+    "commune": "Pietra Ligure (SV)",
+    "adresse": "Via alla Cappelletta 27, Pietra Ligure",
+    "resume": "Repli tempête de la nuit du 9 : 3 chambres avec salle de bain au-dessus d’un restaurant, sur la colline de Pietra Ligure. Chiens de toute taille acceptés.",
+    "prix": {
+      "type": "payant",
+      "montant": 75,
+      "unite": "nuit pour 2, prix d’annuaire (tarif d’octobre non affiché) + chien 5 €/jour",
+      "annee_tarif": 2026,
+      "detail": "Annuaire bed-and-breakfast.it : 75 € la nuit pour 2. Chien 5 €/jour, en laisse, jamais seul dans la chambre. Ouvert toute l’année ; restaurant fermé le mercredi (le 9 octobre est un vendredi). Temps de trajet depuis l’agricamping non publié."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 5,
+      "note": "« Animali di qualsiasi taglia » : en laisse, jamais seul dans la chambre, 5 €/jour."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert toute l’année selon l’annuaire ; prix d’octobre à confirmer à la réservation."
+    },
+    "source": "https://www.bed-and-breakfast.it/it/liguria/il-capanno-pietra-ligure/41817",
+    "liens": [
+      {
+        "libelle": "Réserver (annuaire bed-and-breakfast.it)",
+        "url": "https://www.bed-and-breakfast.it/it/liguria/il-capanno-pietra-ligure/41817"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "bed-and-breakfast.it — fiche Il Capanno : chambres, prix, animaux",
+          "url": "https://www.bed-and-breakfast.it/it/liguria/il-capanno-pietra-ligure/41817"
+        },
+        {
+          "libelle": "agriturismo.farm — chiens de toute taille acceptés",
+          "url": "https://www.agriturismo.farm/it/booking/agriturismo/liguria/il-capanno-pietra-ligure/41817"
+        },
+        {
+          "libelle": "OpenStreetMap/Nominatim — Via alla Cappelletta, Pietra Ligure 44.1594, 8.2634 (rue, sans numéro)",
+          "url": "https://www.openstreetmap.org/search?query=Via%20alla%20Cappelletta%2C%20Pietra%20Ligure"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-camping-dei-fiori",
+    "nom": "Camping dei Fiori — mobil-homes (Pietra Ligure)",
+    "categorie": "abri",
+    "gps": [
+      44.14794,
+      8.26811
+    ],
+    "commune": "Pietra Ligure (SV)",
+    "adresse": "Viale Riviera 15, Pietra Ligure",
+    "resume": "Mobil-homes à environ 200 m de l’agricamping, ouvert jusqu’au 3 novembre 2026. Chiens admis dans « certains » hébergements, de préférence petits à moyens : Prince à faire confirmer.",
+    "prix": {
+      "type": "payant",
+      "unite": "nuit isolée : prix non publié (seulement à la semaine, ≈ 430–730 €)",
+      "annee_tarif": 2026,
+      "detail": "Prix d’une nuit isolée introuvable : à demander par la réservation en ligne."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Admis dans « certains » hébergements ; le camping « préfère les chiens petits à moyens ». Chien de 20–25 kg : à confirmer."
+    },
+    "ouverture": {
+      "fin_saison": "2026-11-03",
+      "a_reverifier": true,
+      "note": "Saison du 27 mars au 3 novembre 2026."
+    },
+    "source": "https://www.campingdeifiori.it/en/pet-friendly/",
+    "liens": [
+      {
+        "libelle": "Réservation en ligne",
+        "url": "https://reservation.secureholiday.net/en/3593/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Camping dei Fiori — page animaux",
+          "url": "https://www.campingdeifiori.it/en/pet-friendly/"
+        },
+        {
+          "libelle": "bungalow.it — saison et prix à la semaine",
+          "url": "https://www.bungalow.it/italia/liguria/pietra-ligure/camping-dei-fiori-cn1n1r7p9c1238s67"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-pension-veltierhof",
+    "nom": "Pension Veltierhof (Val di Funes)",
+    "categorie": "abri",
+    "gps": [
+      46.644,
+      11.6915
+    ],
+    "commune": "Villnöss – St. Peter",
+    "adresse": "Vollergnadenweg 3, St. Peter, Villnöss",
+    "resume": "Repli tempête des nuits du 10 et du 11, dans la même vallée : chambre double avec petit-déjeuner, chien admis, parking gratuit.",
+    "prix": {
+      "type": "payant",
+      "montant": 129,
+      "unite": "1 nuit pour 2 + chien, taxe comprise (≈ 121 €/nuit pour 2 nuits)",
+      "annee_tarif": 2026,
+      "detail": "Tarif officiel du 5 octobre au 8 novembre 2026 : 48 €/personne/nuit, 3 nuits minimum ; supplément 9 €/personne pour 1 nuit, 5 €/personne/nuit pour 2 nuits. Taxe de séjour 2,50 €/personne, chien 10 €/jour sans nourriture. Calcul : 1 nuit = 2 × 57 + 5 + 10 = 129 € ; 2 nuits = 2 × 2 × 53 + 10 + 20 = 242 €."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 10,
+      "note": "Chien admis, 10 € par jour sans nourriture."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Tarif publié pour la période du 5 octobre au 8 novembre 2026."
+    },
+    "source": "https://pension-veltierhof-villnoess.com/",
+    "liens": [
+      {
+        "libelle": "Réserver en ligne",
+        "url": "https://steiner-karin.holiduhost.com/?language=de"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Pension Veltierhof — prix 2026, suppléments, chien (site officiel, vérifié le 30/09)",
+          "url": "https://pension-veltierhof-villnoess.com/"
+        },
+        {
+          "libelle": "OpenStreetMap/Nominatim — Vollergnadenweg 3, Villnöß 46.6440, 11.6915",
+          "url": "https://www.openstreetmap.org/search?query=Vollergnadenweg%203%2C%20Villn%C3%B6%C3%9F"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-galreidhof",
+    "nom": "Galreidhof — appartement de ferme (Santa Maddalena)",
+    "categorie": "abri",
+    "gps": [
+      46.6458,
+      11.7066
+    ],
+    "commune": "Villnöss – St. Magdalena",
+    "adresse": "Sunnseitn 3, St. Magdalena, Villnöss",
+    "resume": "Second repli à Funes, près de la ferme : appartement à partir de 95–99 €/nuit, chien sur demande. Plus cher que le Veltierhof.",
+    "prix": {
+      "type": "payant",
+      "montant": 154,
+      "unite": "1 nuit pour 2, supplément court séjour et taxe compris",
+      "annee_tarif": 2026,
+      "detail": "À partir de 95–99 €/nuit pour 2 du 1er septembre au 20 décembre, prévu pour 5 nuits minimum, sinon 50 € de supplément par séjour ; taxe de séjour 2,50 €/personne. Calcul pour 1 nuit : 99 + 50 + 5 = 154 €. Chien : sur demande."
+    },
+    "chien": {
+      "admis": null,
+      "note": "« Tiere auf Anfrage » : à demander."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Tarif publié du 1er septembre au 20 décembre."
+    },
+    "source": "https://www.galreidhof.com/ferienwohnung_c.php",
+    "liens": [
+      {
+        "libelle": "Demande sur suedtirol.info",
+        "url": "https://www.suedtirol.info/en/en/accommodation/pdp-enquiry.1A06B0CA85E511D2956400805A10578D.galreidhof.s--maddalena-st--magdalena---funes-villnoess"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Galreidhof — appartement, prix",
+          "url": "https://www.galreidhof.com/ferienwohnung_c.php"
+        },
+        {
+          "libelle": "suedtirol.info — fiche Galreidhof",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-enquiry.1A06B0CA85E511D2956400805A10578D.galreidhof.s--maddalena-st--magdalena---funes-villnoess"
+        },
+        {
+          "libelle": "OpenStreetMap/Nominatim — Sunnseitn 3, Villnöß 46.6458, 11.7066",
+          "url": "https://www.openstreetmap.org/search?query=Sunnseitn%203%2C%20Villn%C3%B6%C3%9F"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-gasthaus-vahrner-see",
+    "nom": "Gasthaus zum Vahrner See — chambres",
+    "categorie": "abri",
+    "gps": [
+      46.76148,
+      11.63452
+    ],
+    "commune": "Varna / Vahrn",
+    "resume": "Sur place, à côté du camping du lac de Varna : deux chambres doubles, salle de bain sur le palier, chiens admis. Prix sur demande. Attention : l’auberge est fermée le jeudi, donc la nuit du 15.",
+    "prix": {
+      "type": "payant",
+      "unite": "prix sur demande",
+      "annee_tarif": 2026,
+      "detail": "« Price on request » sur les annuaires ; ouverture des chambres en octobre non confirmée. Restaurant fermé le mercredi après-midi et le jeudi."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Dogs allowed » selon suedtirol.info et Sentres."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Chambres ouvertes en octobre : non confirmé. Fermeture hebdomadaire mercredi après-midi et jeudi (nuit du jeudi 15 octobre)."
+    },
+    "source": "https://www.suedtirol.info/en/en/accommodation/pdp-enquiry.FBA8F55DE54211D499340050044A1601.albergo-gasthaus-zum-vahrner-see.varna-vahrn",
+    "liens": [
+      {
+        "libelle": "Demande sur suedtirol.info",
+        "url": "https://www.suedtirol.info/en/en/accommodation/pdp-enquiry.FBA8F55DE54211D499340050044A1601.albergo-gasthaus-zum-vahrner-see.varna-vahrn"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "suedtirol.info — chambres, chiens admis, prix sur demande",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-enquiry.FBA8F55DE54211D499340050044A1601.albergo-gasthaus-zum-vahrner-see.varna-vahrn"
+        },
+        {
+          "libelle": "Sentres — même fiche",
+          "url": "https://www.sentres.com/en/lodging/holiday-flat/albergo-gasthaus-zum-vahrner-see/61318324/"
+        },
+        {
+          "libelle": "Camping Vahrner See — horaires du restaurant",
+          "url": "https://camping-vahrner-see.com/landgasthaus/restaurant-bar"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-parking-couvert-bressanone",
+    "nom": "Zentralparkhaus Bressanone — parking couvert",
+    "categorie": "parking",
+    "gps": [
+      46.7161,
+      11.6516
+    ],
+    "commune": "Bressanone / Brixen",
+    "adresse": "Dantestraße 13, Brixen",
+    "resume": "Seul parking couvert assez haut trouvé près des bases : 2,20 m de hauteur libre (voiture 1,95 m, tente fermée). Niveau −2 à 1,90 m : interdit pour nous. À 7 km du lac de Varna.",
+    "prix": {
+      "type": "payant",
+      "montant": 12,
+      "unite": "nuit (21 h – 7 h), 1,20 € par heure commencée",
+      "annee_tarif": 2026,
+      "detail": "Tarif de nuit officiel : 1,20 € par heure commencée de 21 h à 7 h, soit 12 € pour la nuit (calcul). Ouverture 24 h/24 : donnée par brixen-suedtirol.de, pas par la commune."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Parking : le chien reste avec vous dans la voiture."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouverture 24 h/24 à confirmer (une seule source)."
+    },
+    "source": "https://www.gemeinde.brixen.bz.it/Dienste/P-Parkhaus-Brixen",
+    "liens": [
+      {
+        "libelle": "Commune de Bressanone — Parkhaus",
+        "url": "https://www.gemeinde.brixen.bz.it/Dienste/P-Parkhaus-Brixen"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Commune de Bressanone — hauteurs 2,20 m / 1,90 m (niveau −2), tarif de nuit (vérifié le 30/09)",
+          "url": "https://www.gemeinde.brixen.bz.it/Dienste/P-Parkhaus-Brixen"
+        },
+        {
+          "libelle": "brixen-suedtirol.de — ouvert 24 h/24",
+          "url": "https://www.brixen-suedtirol.de/zentralparkhaus/"
+        },
+        {
+          "libelle": "OpenStreetMap/Nominatim — Dantestraße 13, Brixen 46.7161, 11.6516",
+          "url": "https://www.openstreetmap.org/search?query=Dantestra%C3%9Fe%2013%2C%20Brixen"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-bb-hotel-heidi",
+    "nom": "B&B Hotel Heidi (Dobbiaco)",
+    "categorie": "abri",
+    "gps": [
+      46.7306,
+      12.207
+    ],
+    "commune": "Toblach / Dobbiaco",
+    "adresse": "Gratsch 6, Toblach",
+    "resume": "Repli tempête des nuits du 13 et du 14 : le camping Olympia n’accepte pas les chiens dans ses chalets. Hôtel B&B à 1–2 km du centre, chiens bienvenus.",
+    "prix": {
+      "type": "payant",
+      "montant": 97.9,
+      "unite": "nuit, chambre double, à partir de (jusqu’à 149 € en octobre selon un autre annuaire)",
+      "annee_tarif": 2026,
+      "detail": "Chambre double à partir de 97,90 € sur suedtirol.de, à partir de 149 € en octobre 2026 sur preiswert-uebernachten.de. Supplément chien non publié."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Hunde sind herzlich willkommen » ; supplément non publié."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Prix d’octobre à confirmer à la réservation."
+    },
+    "source": "https://www.suedtirol.de/unterkunft/toblach/4504_hotel-heidi-garni-b-b",
+    "liens": [
+      {
+        "libelle": "Fiche suedtirol.de",
+        "url": "https://www.suedtirol.de/unterkunft/toblach/4504_hotel-heidi-garni-b-b"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "suedtirol.de — chiens bienvenus, à partir de 97,90 €",
+          "url": "https://www.suedtirol.de/unterkunft/toblach/4504_hotel-heidi-garni-b-b"
+        },
+        {
+          "libelle": "preiswert-uebernachten.de — à partir de 149 € en octobre 2026",
+          "url": "https://www.preiswert-uebernachten.de/it/toblach/bb-hotel-heidi/275568"
+        },
+        {
+          "libelle": "Camping Olympia — chiens interdits dans les chalets et appartements",
+          "url": "https://www.camping-olympia.com/en/good-to-know/"
+        },
+        {
+          "libelle": "OpenStreetMap/Nominatim — Gratsch 6, Toblach 46.7306, 12.2070",
+          "url": "https://www.openstreetmap.org/search?query=Gratsch%206%2C%20Toblach"
+        }
+      ]
+    }
   }
 ]

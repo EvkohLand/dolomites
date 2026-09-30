@@ -89,5 +89,12 @@
     "icone": "panier",
     "ordre": 13,
     "actif": true
+  },
+  "abri": {
+    "libelle": "Toit en dur (tempête)",
+    "couleur": "#5a6b7a",
+    "icone": "refuge",
+    "ordre": 14,
+    "actif": false
   }
 }
