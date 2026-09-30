@@ -103,5 +103,12 @@
     "icone": "goutte",
     "ordre": 15,
     "actif": false
+  },
+  "sante": {
+    "libelle": "Santé : véto, hôpital, pharmacie",
+    "couleur": "#b3261e",
+    "icone": "croix",
+    "ordre": 16,
+    "actif": false
   }
 }

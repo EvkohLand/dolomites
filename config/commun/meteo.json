@@ -125,5 +125,24 @@
         "url": "https://media.dometic.com/externalassets/16-1606-160601-160601005_9120002118_96320.pdf"
       }
     ]
+  },
+  "urgences": {
+    "titre": "Urgences près de la nuit",
+    "numeros": "112 : numéro d’urgence européen (secours en montagne compris) · 118 : urgence médicale, gratuit, 24 h/24.",
+    "note_veto": "Aucun vétérinaire ouvert le dimanche entre Bressanone et Dobbiaco : le week-end, passer par la garde du Haut-Adige (page de l’ordre des vétérinaires) ou aller à VetBZ, ouvert 24 h/24 à Bolzano.",
+    "sources": [
+      {
+        "libelle": "Protection civile du Haut-Adige — 112",
+        "url": "https://protezione-civile.provincia.bz.it/it/numero-unico-emergenza"
+      },
+      {
+        "libelle": "Ministère de la santé — 112, 118 et urgences",
+        "url": "https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/numero-unico-europeo-le-emergenze-nue-112/"
+      },
+      {
+        "libelle": "Ordre des vétérinaires — gardes",
+        "url": "https://www.tieraerztekammer.com/bereitschaftsdienste/"
+      }
+    ]
   }
 }

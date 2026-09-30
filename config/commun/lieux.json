@@ -6164,7 +6164,15 @@
         "note": "Dernier recours : 262 €."
       }
     ],
-    "commune_istat": 21028
+    "commune_istat": 21028,
+    "sante_proche": [
+      "hopital-san-candido",
+      "hopital-brunico",
+      "pharmacie-dobbiaco",
+      "veto-bruneck",
+      "veto-vetcortina",
+      "veto-vetbz-bolzano"
+    ]
   },
   {
     "id": "camping-cortina",
@@ -11466,7 +11474,14 @@
         "note": "À 2 min, dernier recours (≥ 217 €)."
       }
     ],
-    "commune_istat": 21033
+    "commune_istat": 21033,
+    "sante_proche": [
+      "hopital-bressanone",
+      "veto-tierklinik-brixen",
+      "veto-kleintierklinik-pranter",
+      "veto-vetbz-bolzano",
+      "pharmacie-rosenapotheke-varna"
+    ]
   },
   {
     "id": "courses-conad-savone",
@@ -12763,6 +12778,11 @@
         "lieu": "abri-camping-dei-fiori",
         "note": "À 200 m, mais chien de 20–25 kg à faire accepter."
       }
+    ],
+    "sante_proche": [
+      "hopital-santa-corona",
+      "pharmacie-del-borgo-finale",
+      "veto-anicura-letimbro"
     ]
   },
   {
@@ -13235,7 +13255,14 @@
         "note": "Sur place ; fermé le jeudi (nuit du 15)."
       }
     ],
-    "commune_istat": 21111
+    "commune_istat": 21111,
+    "sante_proche": [
+      "hopital-bressanone",
+      "pharmacie-rosenapotheke-varna",
+      "veto-tierklinik-brixen",
+      "veto-kleintierklinik-pranter",
+      "veto-vetbz-bolzano"
+    ]
   },
   {
     "id": "courses-eurospar-bressanone",
@@ -20596,6 +20623,604 @@
         {
           "libelle": "OpenStreetMap — WC gratuits (Dobbiaco)",
           "url": "https://www.openstreetmap.org/node/10795172221"
+        }
+      ]
+    }
+  },
+  {
+    "id": "veto-vetbz-bolzano",
+    "nom": "VetBZ — urgences vétérinaires 24 h/24 (Bolzano)",
+    "categorie": "sante",
+    "gps": [
+      46.48903,
+      11.31668
+    ],
+    "commune": "Bolzano",
+    "adresse": "Via Resia 20, Bolzano",
+    "resume": "Seul service vétérinaire d’urgence écrit « 24 heures sur 24, tous les jours, fériés compris » de la région : à environ 35 km de Funes, 74 km de Dobbiaco. En urgence vitale, l’autoroute est justifiée.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Clinique vétérinaire."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Lundi – vendredi 7 h – 20 h, samedi et dimanche 8 h – 19 h ; urgences 24 h/24 toute l’année (numéro sur la page officielle)."
+    },
+    "source": "https://www.vetbz.it/medicina-durgenza/",
+    "liens": [
+      {
+        "libelle": "VetBZ — médecine d’urgence (officiel)",
+        "url": "https://www.vetbz.it/medicina-durgenza/"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "VetBZ — médecine d’urgence (officiel)",
+          "url": "https://www.vetbz.it/medicina-durgenza/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "veto-tierklinik-brixen",
+    "nom": "Tierklinik Brixen — clinique vétérinaire (Bressanone)",
+    "categorie": "sante",
+    "gps": [
+      46.72041,
+      11.65586
+    ],
+    "commune": "Bressanone",
+    "adresse": "Via Brennero 6, Bressanone",
+    "resume": "Clinique la plus proche de Varna et de Funes ; joignable en urgence seulement aux heures d’ouverture. Le week-end, passer par la garde de la Croix-Rouge du Haut-Adige (numéro sur la page de l’ordre des vétérinaires).",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Clinique vétérinaire."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Lundi – mardi 9 h – 12 h et 13 h – 17 h ; mercredi – vendredi 8 h – 12 h et 15 h – 19 h ; samedi 10 h – 12 h et 17 h – 18 h 30 ; dimanche fermé."
+    },
+    "source": "https://www.tierklinikbrixen.it/contatti",
+    "liens": [
+      {
+        "libelle": "Tierklinik Brixen — contact et horaires (officiel)",
+        "url": "https://www.tierklinikbrixen.it/contatti"
+      },
+      {
+        "libelle": "Ordre des vétérinaires — gardes du week-end (Raum Brixen, Pustertal)",
+        "url": "https://www.tieraerztekammer.com/bereitschaftsdienste/"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Tierklinik Brixen — contact et horaires (officiel)",
+          "url": "https://www.tierklinikbrixen.it/contatti"
+        },
+        {
+          "libelle": "Ordre des vétérinaires — gardes du week-end (Raum Brixen, Pustertal)",
+          "url": "https://www.tieraerztekammer.com/bereitschaftsdienste/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "veto-kleintierklinik-pranter",
+    "nom": "Kleintierklinik Dr. Pranter (Bressanone)",
+    "categorie": "sante",
+    "gps": [
+      46.72311,
+      11.65672
+    ],
+    "commune": "Bressanone",
+    "adresse": "Weinbergstraße 2, Bressanone",
+    "resume": "Clinique pour petits animaux, sur rendez-vous en semaine ; numéro d’urgence par SMS indiqué sur son site.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Clinique vétérinaire."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Lundi – vendredi 9 h – 12 h et 15 h – 18 h, sur rendez-vous."
+    },
+    "source": "https://kleintierklinik.it/veterinaer-brixen-bozen-suedtirol.php",
+    "liens": [
+      {
+        "libelle": "Kleintierklinik Pranter (officiel)",
+        "url": "https://kleintierklinik.it/veterinaer-brixen-bozen-suedtirol.php"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Kleintierklinik Pranter (officiel)",
+          "url": "https://kleintierklinik.it/veterinaer-brixen-bozen-suedtirol.php"
+        }
+      ]
+    }
+  },
+  {
+    "id": "veto-bruneck",
+    "nom": "Tierarztpraxis Bruneck — vétérinaire (Brunico)",
+    "categorie": "sante",
+    "gps": [
+      46.79634,
+      11.94081
+    ],
+    "commune": "Brunico",
+    "adresse": "Stuckstraße 5a, Brunico",
+    "resume": "Vétérinaire le plus proche de Dobbiaco trouvé (aucun à Dobbiaco même) ; un numéro hors heures de consultation est sur son site.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Cabinet vétérinaire."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Horaires non publiés ; garde du week-end du Val Pusteria publiée semaine par semaine (à revérifier la veille)."
+    },
+    "source": "https://www.tierarzt-bruneck.it/",
+    "liens": [
+      {
+        "libelle": "Tierarztpraxis Bruneck (officiel)",
+        "url": "https://www.tierarzt-bruneck.it/"
+      },
+      {
+        "libelle": "Ordre des vétérinaires — garde du Val Pusteria",
+        "url": "https://www.tieraerztekammer.com/bereitschaftsdienste/"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Tierarztpraxis Bruneck (officiel)",
+          "url": "https://www.tierarzt-bruneck.it/"
+        },
+        {
+          "libelle": "Ordre des vétérinaires — garde du Val Pusteria",
+          "url": "https://www.tieraerztekammer.com/bereitschaftsdienste/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "veto-vetcortina",
+    "nom": "Vetcortina — ambulatoire vétérinaire (Cortina)",
+    "categorie": "sante",
+    "gps": [
+      46.51543,
+      12.13773
+    ],
+    "gps_approximatif": true,
+    "commune": "Cortina d’Ampezzo",
+    "adresse": "Località Socus 3/B, Cortina (adresse du site ; les annuaires donnent Via del Parco 8/A)",
+    "resume": "Service d’urgence vétérinaire écrit, avec astreinte téléphonique ; sur la route du 13 octobre.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Cabinet vétérinaire."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Lundi – samedi 10 h – 12 h 30 et 16 h – 19 h 30 ; dimanche fermé sauf urgence."
+    },
+    "source": "https://www.vetcortina.it/",
+    "liens": [
+      {
+        "libelle": "Vetcortina (officiel)",
+        "url": "https://www.vetcortina.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Vetcortina (officiel)",
+          "url": "https://www.vetcortina.it/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "veto-anicura-letimbro",
+    "nom": "AniCura Clinica Veterinaria Letimbro (Savone)",
+    "categorie": "sante",
+    "gps": [
+      44.30856,
+      8.47212
+    ],
+    "commune": "Savona",
+    "adresse": "Via Eroine della Resistenza 4, Savona",
+    "resume": "Clinique aux horaires les plus larges trouvés en Ligurie (pas de 24 h/24 écrit), chirurgie d’urgence ; à environ 23 km de Pietra Ligure.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Clinique vétérinaire."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Tous les jours 8 h 30 – 23 h 30."
+    },
+    "source": "https://www.anicura.it/cliniche/clinica-veterinaria-letimbro/contatti/",
+    "liens": [
+      {
+        "libelle": "AniCura Letimbro — contacts (officiel)",
+        "url": "https://www.anicura.it/cliniche/clinica-veterinaria-letimbro/contatti/"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "AniCura Letimbro — contacts (officiel)",
+          "url": "https://www.anicura.it/cliniche/clinica-veterinaria-letimbro/contatti/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hopital-santa-corona",
+    "nom": "Ospedale Santa Corona — urgences 24 h/24 (Pietra Ligure)",
+    "categorie": "sante",
+    "gps": [
+      44.14418,
+      8.27107
+    ],
+    "commune": "Pietra Ligure",
+    "adresse": "Via XXV Aprile 38, Pietra Ligure",
+    "resume": "Urgences ouvertes 24 h/24, 7 j/7, à quelques minutes de l’agricamping ; attente aux urgences en direct sur le site régional.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Urgences 24 h/24."
+    },
+    "source": "https://www.asl2.liguria.it/ospedali/ospedale-pietra-ligure.html",
+    "liens": [
+      {
+        "libelle": "ASL2 — Ospedale Santa Corona",
+        "url": "https://www.asl2.liguria.it/ospedali/ospedale-pietra-ligure.html"
+      },
+      {
+        "libelle": "Attente aux urgences en direct (Ligurie)",
+        "url": "https://pslive.regione.liguria.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "ASL2 — Ospedale Santa Corona",
+          "url": "https://www.asl2.liguria.it/ospedali/ospedale-pietra-ligure.html"
+        },
+        {
+          "libelle": "Attente aux urgences en direct (Ligurie)",
+          "url": "https://pslive.regione.liguria.it/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hopital-bressanone",
+    "nom": "Hôpital de Bressanone — urgences 24 h/24",
+    "categorie": "sante",
+    "gps": [
+      46.72387,
+      11.64795
+    ],
+    "commune": "Bressanone",
+    "adresse": "Dantestraße 51, Bressanone",
+    "resume": "Urgences centrales ouvertes jour et nuit : environ 2 km du lac de Varna, 13 km de Funes.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Urgences 24 h/24."
+    },
+    "source": "https://www.sabes.it/de/notaufnahme-brixen",
+    "liens": [
+      {
+        "libelle": "Service sanitaire du Haut-Adige — urgences de Bressanone",
+        "url": "https://www.sabes.it/de/notaufnahme-brixen"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Service sanitaire du Haut-Adige — urgences de Bressanone",
+          "url": "https://www.sabes.it/de/notaufnahme-brixen"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hopital-san-candido",
+    "nom": "Hôpital de San Candido — urgences 24 h/24",
+    "categorie": "sante",
+    "gps": [
+      46.73377,
+      12.2842
+    ],
+    "commune": "San Candido",
+    "adresse": "Freisinger Straße 2, San Candido",
+    "resume": "Urgences au rez-de-chaussée, ouvertes jour et nuit, à environ 5 km de Dobbiaco.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Urgences 24 h/24."
+    },
+    "source": "https://www.sabes.it/de/notaufnahme-innichen",
+    "liens": [
+      {
+        "libelle": "Service sanitaire du Haut-Adige — urgences de San Candido",
+        "url": "https://www.sabes.it/de/notaufnahme-innichen"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Service sanitaire du Haut-Adige — urgences de San Candido",
+          "url": "https://www.sabes.it/de/notaufnahme-innichen"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hopital-brunico",
+    "nom": "Hôpital de Brunico — urgences 24 h/24",
+    "categorie": "sante",
+    "gps": [
+      46.79986,
+      11.93642
+    ],
+    "commune": "Brunico",
+    "adresse": "Spitalstraße 11, bâtiment C, Brunico",
+    "resume": "Hôpital complet pour le Val Badia et le Val Pusteria ; la nuit, chirurgien, interniste et anesthésiste présents.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Urgences 24 h/24."
+    },
+    "source": "https://www.sabes.it/de/notaufnahme-bruneck",
+    "liens": [
+      {
+        "libelle": "Service sanitaire du Haut-Adige — urgences de Brunico",
+        "url": "https://www.sabes.it/de/notaufnahme-bruneck"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Service sanitaire du Haut-Adige — urgences de Brunico",
+          "url": "https://www.sabes.it/de/notaufnahme-bruneck"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hopital-cortina",
+    "nom": "Hôpital de Cortina — premier secours 24 h/24",
+    "categorie": "sante",
+    "gps": [
+      46.55798,
+      12.1338
+    ],
+    "commune": "Cortina d’Ampezzo",
+    "adresse": "Via Codivilla, Cortina (pavillon Putti)",
+    "resume": "Point de premier secours 24 h/24 : il stabilise puis transfère vers des urgences complètes si besoin ; ce n’est pas un service d’urgences complet.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Premier secours 24 h/24, 7 j/7."
+    },
+    "source": "https://www.gvmnet.it/strutture-sanitarie/ospedale-cortina/le-specialita-mediche/specialita-di-ricovero/punto-di-primo-intervento-avanzato",
+    "liens": [
+      {
+        "libelle": "GVM — Punto di Primo Intervento de Cortina",
+        "url": "https://www.gvmnet.it/strutture-sanitarie/ospedale-cortina/le-specialita-mediche/specialita-di-ricovero/punto-di-primo-intervento-avanzato"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "GVM — Punto di Primo Intervento de Cortina",
+          "url": "https://www.gvmnet.it/strutture-sanitarie/ospedale-cortina/le-specialita-mediche/specialita-di-ricovero/punto-di-primo-intervento-avanzato"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pharmacie-rosenapotheke-varna",
+    "nom": "Rosenapotheke — pharmacie (Varna)",
+    "categorie": "sante",
+    "gps": [
+      46.73788,
+      11.63999
+    ],
+    "commune": "Varna",
+    "adresse": "Brennerstraße 101, Varna",
+    "resume": "Pharmacie la plus proche du lac de Varna. Garde : voir la liste officielle du Haut-Adige.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "8 h 30 – 12 h 30 et 15 h – 19 h en semaine ; samedi 8 h 30 – 12 h 30 ; dimanche fermé."
+    },
+    "source": "https://gesundheit.provinz.bz.it/de/turnusapotheken",
+    "liens": [
+      {
+        "libelle": "Haut-Adige — pharmacies de garde (officiel)",
+        "url": "https://gesundheit.provinz.bz.it/de/turnusapotheken"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Haut-Adige — pharmacies de garde (officiel)",
+          "url": "https://gesundheit.provinz.bz.it/de/turnusapotheken"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pharmacie-dobbiaco",
+    "nom": "Farmacia Dobbiaco — pharmacie",
+    "categorie": "sante",
+    "gps": [
+      46.73319,
+      12.22288
+    ],
+    "commune": "Dobbiaco",
+    "adresse": "St.-Johannes-Straße 6, Dobbiaco",
+    "resume": "Pharmacie du village. Du 9 au 16, les pharmacies de garde du secteur sont à Sesto et à Brunico (liste officielle).",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "8 h 15 – 12 h 15 et 15 h 30 – 19 h."
+    },
+    "source": "https://gesundheit.provinz.bz.it/de/turnusapotheken",
+    "liens": [
+      {
+        "libelle": "Haut-Adige — pharmacies de garde (officiel)",
+        "url": "https://gesundheit.provinz.bz.it/de/turnusapotheken"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Haut-Adige — pharmacies de garde (officiel)",
+          "url": "https://gesundheit.provinz.bz.it/de/turnusapotheken"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pharmacie-del-borgo-finale",
+    "nom": "Farmacia del Borgo — pharmacie de garde la nuit du 9 (Finalborgo)",
+    "categorie": "sante",
+    "gps": [
+      44.17465,
+      8.32855
+    ],
+    "commune": "Finale Ligure",
+    "resume": "Pharmacie de garde de nuit le 9 octobre selon le planning de l’ASL2 ; FarmaTaxi de 20 h à 8 h indiqué sur le même planning. La Farmacia Centrale de Pietra est en congés à cette période.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "Selon l’acte."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Sans objet."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Garde de nuit le 9 octobre (planning ASL2 d’octobre 2026)."
+    },
+    "source": "https://www.asl2.liguria.it/farmacie/turni-farmacie-territorio/documents/turni-farmacie-del-finalese.html",
+    "liens": [
+      {
+        "libelle": "ASL2 — gardes des pharmacies du Finalese",
+        "url": "https://www.asl2.liguria.it/farmacie/turni-farmacie-territorio/documents/turni-farmacie-del-finalese.html"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "ASL2 — gardes des pharmacies du Finalese",
+          "url": "https://www.asl2.liguria.it/farmacie/turni-farmacie-territorio/documents/turni-farmacie-del-finalese.html"
         }
       ]
     }

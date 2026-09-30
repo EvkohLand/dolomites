@@ -1540,6 +1540,30 @@
         dn.appendChild(repli);
       }
       if ((E.meteo || {}).tempete && Array.isArray(n.gps)) dn.appendChild(blocTempete(j, n));
+      var urg = (E.meteo || {}).urgences;
+      var sante = (n.sante_proche || []).filter(function (id) { return E.parId.has(id); });
+      if (urg && sante.length) {
+        /* Hôpitaux, vétérinaires et pharmacies proches de la nuit : replié, ouvert au besoin. */
+        var du = el('details', 'repli');
+        du.appendChild(el('summary', null, urg.titre + ' (' + sante.length + ')'));
+        du.appendChild(el('p', 'tempete__alerte', urg.numeros));
+        if (urg.note_veto) du.appendChild(el('p', 'jour__note', urg.note_veto));
+        sante.forEach(function (id) {
+          var l = E.parId.get(id);
+          var b = el('button', 'programme__item');
+          b.type = 'button';
+          var t = el('span', 'programme__corps');
+          t.appendChild(el('span', 'jour__lieu', l.nom));
+          if (l.ouverture && l.ouverture.note) t.appendChild(el('span', 'jour__note', l.ouverture.note));
+          b.appendChild(t);
+          b.addEventListener('click', function () { ouvrirPanneau(id, { retour: j.jour }); });
+          du.appendChild(b);
+        });
+        var lu = el('div', 'puces');
+        (urg.sources || []).forEach(function (x) { lu.appendChild(lienExterne(x.libelle, x.url)); });
+        du.appendChild(lu);
+        dn.appendChild(du);
+      }
       P.programme.appendChild(bloc('Nuit', dn));
 
     }
