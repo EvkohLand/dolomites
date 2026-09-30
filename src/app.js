@@ -1342,6 +1342,9 @@
       if (n) risqueNuit(n, j.date).then(function (x) {
         if (x.risque) corps.appendChild(el('span', 'etape__alerte etape__alerte--tempete', 'Nuit à risque : ' + texteRisque(x)));
       }).catch(function () {});
+      if (n) alerteOfficielle(n, j.date).then(function (x) {
+        if (x.alerte) corps.appendChild(el('span', 'etape__alerte etape__alerte--tempete', 'Alerte officielle : ' + x.quoi.join(', ')));
+      }).catch(function () {});
       c.appendChild(corps);
 
       c.addEventListener('click', function () { ouvrirEtape(j.jour); });
@@ -1869,6 +1872,35 @@
     return cacheNuit[cle];
   }
 
+  /* Alerte officielle du Tyrol du Sud (centre d'alerte provincial, CORS ouvert) : niveau
+     0–3 par commune (code ISTAT de la fiche : commune_istat), pour chaque risque suivi.
+     Publiée pour le jour même et les 3 jours suivants seulement ; au-delà, rien. */
+  var cacheAlerte = {};
+  function alerteOfficielle(n, date) {
+    var a = ((E.meteo || {}).tempete || {}).alertes_officielles;
+    if (!a || !n || !n.commune_istat || !date || !window.fetch) return Promise.reject(new Error('sans objet'));
+    var ecart = (new Date(date + 'T12:00:00') - Date.now()) / 86400000;
+    if (ecart > a.horizon_jours + 0.5 || ecart < -1) return Promise.reject(new Error('hors fenêtre'));
+    if (!cacheAlerte[date]) {
+      cacheAlerte[date] = fetch(a.url_modele.replace('{date}', date))
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+      cacheAlerte[date].catch(function () { delete cacheAlerte[date]; });
+    }
+    return cacheAlerte[date].then(function (d) {
+      var max = 0, quoi = [];
+      (d.phenomena || []).forEach(function (ph) {
+        var nom = a.risques[ph.identifier];
+        if (!nom) return;
+        (ph.warningLevels || []).forEach(function (w) {
+          if ((w.municipalities || []).indexOf(n.commune_istat) < 0) return;
+          if (w.level >= a.niveau_alerte) quoi.push(nom + ' (' + a.niveaux[w.level] + ')');
+          max = Math.max(max, w.level);
+        });
+      });
+      return { niveau: max, couleur: a.niveaux[max], quoi: quoi, alerte: max >= a.niveau_alerte };
+    });
+  }
+
   function texteRisque(x) {
     return [x.rafales >= ((E.meteo || {}).tempete || {}).rafales_kmh ? 'rafales jusqu’à ' + x.rafales + ' km/h' : null,
       x.orage ? 'orage prévu' : null].filter(Boolean).join(' et ');
@@ -1905,14 +1937,35 @@
       });
     }
     if (tp.source) d.appendChild(el('p', 'jour__note', tp.source));
-    risqueNuit(n, j.date).then(function (x) {
-      if (!x.risque) return;
+    if ((tp.sources || []).length) {
+      var ls = el('div', 'puces');
+      tp.sources.forEach(function (x) { ls.appendChild(lienExterne(x.libelle, x.url)); });
+      d.appendChild(ls);
+    }
+    function passerEnAlerte() {
       d.open = true;
       d.classList.add('repli--alerte');
       sm.textContent = tp.titre;
+    }
+    risqueNuit(n, j.date).then(function (x) {
+      if (!x.risque) return;
+      passerEnAlerte();
       alerte.textContent = 'Prévision pour cette nuit : ' + texteRisque(x) + '.';
       alerte.hidden = false;
     }).catch(function () {});
+    var ao = tp.alertes_officielles;
+    if (ao && n.commune_istat) {
+      var off = el('p', 'jour__note');
+      off.appendChild(document.createTextNode(ao.source + ' '));
+      off.appendChild(lienExterne('Voir la carte officielle', ao.page));
+      d.appendChild(off);
+      alerteOfficielle(n, j.date).then(function (x) {
+        var t = el('p', x.alerte ? 'tempete__alerte' : 'jour__note',
+          ao.libelle + ' pour ce jour : ' + (x.alerte ? x.quoi.join(', ') : 'niveau ' + x.couleur + ', aucune alerte') + '.');
+        d.insertBefore(t, ul);
+        if (x.alerte) passerEnAlerte();
+      }).catch(function () {});
+    }
     return d;
   }
 

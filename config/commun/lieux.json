@@ -6131,7 +6131,8 @@
         "lieu": "abri-bb-hotel-heidi",
         "note": "Chiens bienvenus ; aucun parking couvert trouvé à Dobbiaco."
       }
-    ]
+    ],
+    "commune_istat": 21028
   },
   {
     "id": "camping-cortina",
@@ -11404,7 +11405,8 @@
         "lieu": "abri-galreidhof",
         "note": "Plus cher, chien sur demande."
       }
-    ]
+    ],
+    "commune_istat": 21033
   },
   {
     "id": "courses-conad-savone",
@@ -13118,9 +13120,10 @@
       },
       {
         "lieu": "abri-parking-couvert-bressanone",
-        "note": "Tente repliée, nuit dans la voiture à l’abri : ≈ 12 €."
+        "note": "Tente repliée, nuit dans la voiture au niveau le plus haut : ≈ 16,60 €."
       }
-    ]
+    ],
+    "commune_istat": 21111
   },
   {
     "id": "courses-eurospar-bressanone",
@@ -17741,18 +17744,18 @@
     "nom": "Zentralparkhaus Bressanone — parking couvert",
     "categorie": "parking",
     "gps": [
-      46.7161,
+      46.71614,
       11.6516
     ],
     "commune": "Bressanone / Brixen",
     "adresse": "Dantestraße 13, Brixen",
-    "resume": "Parking couvert à 2,20 m de hauteur libre (voiture 1,95 m, tente fermée), à 7 km du lac de Varna. En cas d’orage, rester aux étages hors-sol : le niveau −2 (1,90 m) est interdit pour nous et un sous-sol peut être inondé.",
+    "resume": "Parking couvert à 2,20 m de hauteur libre (voiture 1,95 m, tente fermée), à 7 km du lac de Varna, ≈ 16,60 € la nuit. Au moins deux niveaux sont en sous-sol : se garer le plus haut possible. Le 1er septembre 2026, une forte pluie a noyé caves et garages de la vieille ville de Bressanone.",
     "prix": {
       "type": "payant",
-      "montant": 12,
-      "unite": "nuit (21 h – 7 h), 1,20 € par heure commencée",
+      "montant": 16.6,
+      "unite": "nuit de 20 h à 8 h (carte journée 18 €)",
       "annee_tarif": 2026,
-      "detail": "Tarif de nuit officiel : 1,20 € par heure commencée de 21 h à 7 h, soit 12 € pour la nuit (calcul). Ouverture 24 h/24 : donnée par brixen-suedtirol.de, pas par la commune."
+      "detail": "Tarif officiel : 2,30 € par heure commencée de 7 h à 21 h, 1,20 € de 21 h à 7 h. Calcul 20 h → 8 h : 2,30 + 10 × 1,20 + 2,30 = 16,60 €. Ouverture 24 h/24 : donnée par brixen-suedtirol.de, pas par la commune."
     },
     "chien": {
       "admis": null,
@@ -17783,6 +17786,14 @@
         {
           "libelle": "OpenStreetMap/Nominatim — Dantestraße 13, Brixen 46.7161, 11.6516",
           "url": "https://www.openstreetmap.org/search?query=Dantestra%C3%9Fe%2013%2C%20Brixen"
+        },
+        {
+          "libelle": "stol.it — 01/09/2026 : pluie forte, caves et garages sous l’eau à Bressanone, Varna et Millan",
+          "url": "https://www.stol.it/artikel/chronik/brixen-kein-hagel-aber-starkregen-keller-und-garagen-unter-wasser"
+        },
+        {
+          "libelle": "Protection civile du Tyrol du Sud — garages souterrains à éviter en cas de crue",
+          "url": "https://bevoelkerungsschutz.provinz.bz.it/it/alluvioni"
         }
       ]
     }

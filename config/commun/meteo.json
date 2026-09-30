@@ -82,6 +82,48 @@
       "Garer loin des arbres et des pentes rocheuses (chutes de branches et de pierres), de préférence le nez face au vent.",
       "Parking couvert : choisir un étage hors-sol, jamais un sous-sol (inondé en quelques minutes par un orage) ; éviter aussi les bords de torrent et les fonds de vallée inondables.",
       "Solution gratuite en dernier recours : tente repliée, dormir dans la voiture."
+    ],
+    "alertes_officielles": {
+      "libelle": "Alerte officielle de la protection civile du Tyrol du Sud",
+      "url_modele": "https://cms-lwz.afbs.it/fileadmin/export/risk_potential_{date}.json",
+      "page": "https://warnungen.provinz.bz.it/de/reports/risk-potential/map",
+      "horizon_jours": 3,
+      "niveau_alerte": 1,
+      "niveaux": [
+        "vert",
+        "jaune",
+        "orange",
+        "rouge"
+      ],
+      "risques": {
+        "RISK_VENTO": "vent fort",
+        "RISK_TEMPORALE": "orages forts",
+        "RISK_ALLUVIONE": "crue",
+        "RISK_IDROGEOL": "glissements et coulées de boue"
+      },
+      "source": "Niveau par commune publié chaque jour par le centre d’alerte provincial, pour le jour même et les 3 jours suivants."
+    },
+    "sources": [
+      {
+        "libelle": "Protection civile du Tyrol du Sud — tempêtes (se garer loin des arbres)",
+        "url": "https://bevoelkerungsschutz.provinz.bz.it/it/tempeste"
+      },
+      {
+        "libelle": "Protection civile du Tyrol du Sud — crues (garages souterrains : piège)",
+        "url": "https://bevoelkerungsschutz.provinz.bz.it/it/alluvioni"
+      },
+      {
+        "libelle": "Protection civile du Tyrol du Sud — orages (voiture fermée = abri contre la foudre)",
+        "url": "https://bevoelkerungsschutz.provinz.bz.it/it/temporali"
+      },
+      {
+        "libelle": "Allerta Liguria — mesures d’autoprotection",
+        "url": "https://allertaliguria.regione.liguria.it/misure_autoprotezione.php"
+      },
+      {
+        "libelle": "Dometic — notice de tente de toit : pas de tente si orage annoncé, se réfugier dans le véhicule",
+        "url": "https://media.dometic.com/externalassets/16-1606-160601-160601005_9120002118_96320.pdf"
+      }
     ]
   }
 }
