@@ -6128,8 +6128,40 @@
     ],
     "abris_tempete": [
       {
+        "lieu": "abri-durnwalder-prags",
+        "note": "Ferme, dès 56 €, sur demande."
+      },
+      {
+        "lieu": "abri-huterhof-innichen",
+        "note": "Ferme, dès 62 €, sur demande."
+      },
+      {
+        "lieu": "abri-hirschenhof-toblach",
+        "note": "Ferme, dès 65 €, sur demande."
+      },
+      {
+        "lieu": "abri-parkhof-niederdorf",
+        "note": "Ferme, dès 70 €, sur demande."
+      },
+      {
+        "lieu": "abri-steinerhof-toblach",
+        "note": "Ferme, dès 75 €, sur demande."
+      },
+      {
         "lieu": "abri-bb-hotel-heidi",
         "note": "Chiens bienvenus ; aucun parking couvert trouvé à Dobbiaco."
+      },
+      {
+        "lieu": "abri-garni-letizia",
+        "note": "Confirmé : 147–162 €."
+      },
+      {
+        "lieu": "abri-emma-niederdorf",
+        "note": "≈ 181 € + chien, à 3 min."
+      },
+      {
+        "lieu": "abri-hotel-andermax",
+        "note": "Dernier recours : 262 €."
       }
     ],
     "commune_istat": 21028
@@ -11398,12 +11430,40 @@
     ],
     "abris_tempete": [
       {
+        "lieu": "abri-miglanzhof",
+        "note": "Le moins cher : 85 € + chien, à 8 min."
+      },
+      {
+        "lieu": "abri-gasserhof-feldthurns",
+        "note": "≈ 100 €, un peu loin (25 min)."
+      },
+      {
+        "lieu": "abri-vogelweide-klausen",
+        "note": "124–160 €, en ville, sans séjour minimum."
+      },
+      {
         "lieu": "abri-pension-veltierhof",
         "note": "Même vallée, chien admis : 129 € pour 1 nuit."
       },
       {
         "lieu": "abri-galreidhof",
         "note": "Plus cher, chien sur demande."
+      },
+      {
+        "lieu": "abri-raschoetzhof",
+        "note": "174 €, 1 nuit acceptée."
+      },
+      {
+        "lieu": "abri-teiser-stern",
+        "note": "179–215 €."
+      },
+      {
+        "lieu": "abri-hotel-kabis",
+        "note": "≈ 192 € + chien."
+      },
+      {
+        "lieu": "abri-ranuimuellerhof",
+        "note": "À 2 min, dernier recours (≥ 217 €)."
       }
     ],
     "commune_istat": 21033
@@ -12672,8 +12732,32 @@
     ],
     "abris_tempete": [
       {
+        "lieu": "abri-parking-finale-autosilos",
+        "note": "Tente repliée, nuit dans la voiture à un niveau couvert : 5 €."
+      },
+      {
+        "lieu": "abri-campeggio-del-mulino",
+        "note": "Le moins cher en dur, si le chien est accepté en bungalow."
+      },
+      {
         "lieu": "abri-il-capanno",
         "note": "Chambre avec chien de toute taille : la moins chère trouvée."
+      },
+      {
+        "lieu": "abri-ai-pozzi-loano",
+        "note": "Chien de toute taille, arrivée jusqu’à 23 h 30 : 83,60 €."
+      },
+      {
+        "lieu": "abri-hotel-florenz-finale",
+        "note": "85 €, grand chien accepté, arrivée avant 20 h 30."
+      },
+      {
+        "lieu": "abri-villaggio-giuele",
+        "note": "110 €, chien gratuit."
+      },
+      {
+        "lieu": "abri-hotel-bello-finale",
+        "note": "Réception 24 h/24 pour une arrivée tardive : 159 €."
       },
       {
         "lieu": "abri-camping-dei-fiori",
@@ -13115,12 +13199,40 @@
     ],
     "abris_tempete": [
       {
-        "lieu": "abri-gasthaus-vahrner-see",
-        "note": "Sur place ; fermé le jeudi (nuit du 15)."
-      },
-      {
         "lieu": "abri-parking-couvert-bressanone",
         "note": "Tente repliée, nuit dans la voiture au niveau le plus haut : ≈ 16,60 €."
+      },
+      {
+        "lieu": "abri-schusterhof-natz",
+        "note": "Nuit du 15 seulement : 75–85 €."
+      },
+      {
+        "lieu": "abri-pension-schirmerhof",
+        "note": "88 €, à appeler (ouverture non confirmée)."
+      },
+      {
+        "lieu": "abri-gaestehaus-klara",
+        "note": "Garage gratuit : 102–132 €."
+      },
+      {
+        "lieu": "abri-pension-haus-am-see",
+        "note": "≥ 106 €, appartement."
+      },
+      {
+        "lieu": "abri-hotel-putzer",
+        "note": "Réservable en ligne, annulation gratuite : ≈ 116–120 €."
+      },
+      {
+        "lieu": "abri-gasthof-thaler",
+        "note": "136 € + chien."
+      },
+      {
+        "lieu": "abri-hotel-traube-brixen",
+        "note": "191–207 €, en ville."
+      },
+      {
+        "lieu": "abri-gasthaus-vahrner-see",
+        "note": "Sur place ; fermé le jeudi (nuit du 15)."
       }
     ],
     "commune_istat": 21111
@@ -17849,6 +17961,1425 @@
         {
           "libelle": "OpenStreetMap/Nominatim — Gratsch 6, Toblach 46.7306, 12.2070",
           "url": "https://www.openstreetmap.org/search?query=Gratsch%206%2C%20Toblach"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-parking-finale-autosilos",
+    "nom": "Park Autosilos — parking couvert à étages (Finale Ligure)",
+    "categorie": "parking",
+    "gps": [
+      44.16959,
+      8.34329
+    ],
+    "gps_approximatif": true,
+    "commune": "Finale Ligure (SV)",
+    "adresse": "Piazza Donatori di Sangue, Finale Ligure",
+    "resume": "Parking couvert à étages de 220 places, entrée via Torino, à 10 min : forfait nuit 5 €. Hauteur 2,10 m (voiture 1,95 m) selon une source secondaire. Se garer à un niveau couvert, ni sur le toit ni en sous-sol.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 5,
+      "unite": "forfait nuit 20 h – 8 h (du 16/09 au 14/06)",
+      "detail": "Gestionnaire Servizi di Riviera : forfait nuit 5 € de 20 h à 8 h, 1,80 €/h, 14 €/jour maximum. Hauteur 2,10 m et ouverture 24 h/24 selon accessibilitacentristorici.it seulement."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Parking : le chien reste avec vous dans la voiture."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert 24 h/24 toute l’année selon une source secondaire ; hauteur à vérifier sur le panneau d’entrée."
+    },
+    "source": "https://www.servizidiriviera.it/parcheggi/",
+    "liens": [
+      {
+        "libelle": "Gestionnaire Servizi di Riviera",
+        "url": "https://www.servizidiriviera.it/parcheggi/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Servizi di Riviera — tarifs Park Autosilos",
+          "url": "https://www.servizidiriviera.it/parcheggi/"
+        },
+        {
+          "libelle": "accessibilitacentristorici.it — hauteur 2,10 m, 24 h/24",
+          "url": "https://www.accessibilitacentristorici.it/ztl/liguria/finale-ligure/parcheggio_finale-ligure.html"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Piazza Donatori di Sangue, Finale Ligure 44.16959, 8.34329",
+          "url": "https://www.openstreetmap.org/search?query=Piazza%20Donatori%20di%20Sangue%2C%20Finale%20Ligure"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-campeggio-del-mulino",
+    "nom": "Campeggio del Mulino — bungalow (Finale Ligure)",
+    "categorie": "abri",
+    "gps": [
+      44.17368,
+      8.35029
+    ],
+    "commune": "Finale Ligure (SV)",
+    "adresse": "Via Castelli, Finalpia, Finale Ligure",
+    "resume": "Bungalow en basse saison (26/09 – 19/10) à 70,20 € la nuit, chien compris : le moins cher en dur si le camping accepte un chien de 20–25 kg dans le bungalow, ce qu’aucune source ne dit.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 70.2,
+      "unite": "nuit pour 2 en bungalow, chien et taxe compris",
+      "detail": "Tarif officiel basse saison : bungalow 65 € + chien 3,80 € + taxe 1,40 € = 70,20 €."
+    },
+    "chien": {
+      "admis": null,
+      "note": "Chien admis au camping (3,80 €) ; en bungalow et pour un grand chien : non précisé, à demander."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Basse saison du 26 septembre au 19 octobre 2026."
+    },
+    "source": "https://www.campeggiodelmulino.com/copia-di-listino-prezzi",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.campeggiodelmulino.com/copia-di-listino-prezzi"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Campeggio del Mulino — tarifs 2026",
+          "url": "https://www.campeggiodelmulino.com/copia-di-listino-prezzi"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Via Castelli, Finalpia, Finale Ligure 44.17368, 8.35029",
+          "url": "https://www.openstreetmap.org/search?query=Via%20Castelli%2C%20Finalpia%2C%20Finale%20Ligure"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-ai-pozzi-loano",
+    "nom": "Ai Pozzi Village — studio (Loano)",
+    "categorie": "abri",
+    "gps": [
+      44.12915,
+      8.24909
+    ],
+    "gps_approximatif": true,
+    "commune": "Loano (SV)",
+    "adresse": "Via Silvio Amico 35, Loano",
+    "resume": "Studio à 8 min, réservable en ligne pour la nuit du 9 : 83,60 € chien et taxe compris. Chiens de toutes tailles acceptés, écrit sur le site officiel.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 83.6,
+      "unite": "nuit pour 2, chien et taxe compris (tarif non remboursable)",
+      "detail": "Moteur officiel au 30/09 pour le 9/10 : studio 64,60 € non remboursable, 76 € flexible ; chien 15 €/jour ; taxe 2 €/personne. Total 83,60 € (95 € en flexible). Arrivée 15 h – 23 h 30."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 15,
+      "note": "« Accettiamo cani di tutte le taglie », 15 € par jour."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Ouvert toute l’année ; disponible le 9 octobre au 30/09."
+    },
+    "source": "https://www.aipozzivillage.com/pet-friendly-hotel.html",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.simplebooking.it/ibe2/hotel/11368?lang=IT&cur=EUR"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Ai Pozzi — page chiens (officiel)",
+          "url": "https://www.aipozzivillage.com/pet-friendly-hotel.html"
+        },
+        {
+          "libelle": "DogWelcome — grands chiens, ouvert toute l’année",
+          "url": "https://www.dogwelcome.it/strutture-cani-animali-ammessi/villaggi-vacanze-resort/italia/liguria/savona/ai-pozzi-village"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Via Silvio Amico 35, Loano 44.12915, 8.24909",
+          "url": "https://www.openstreetmap.org/search?query=Via%20Silvio%20Amico%2035%2C%20Loano"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-hotel-florenz-finale",
+    "nom": "Hotel Florenz (Finalborgo)",
+    "categorie": "abri",
+    "gps": [
+      44.1746,
+      8.33176
+    ],
+    "commune": "Finale Ligure (SV)",
+    "adresse": "Via Domenico Brunenghi 124, Finale Ligure",
+    "resume": "Hôtel à 12 min, 85 € la nuit pour 2 sur Booking au 30/09, chiens de grande taille acceptés sans supplément. Arrivée jusqu’à 20 h 30.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 85,
+      "unite": "nuit pour 2 (Booking, tarif réduit)",
+      "detail": "Booking au 30/09 pour le 9/10 : 85 € (94 € avant réduction), « taxes et frais compris » ; taxe de séjour incluse : non confirmé."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Grands chiens acceptés (VacanzeAnimali), sans supplément (Booking). Le site officiel n’en parle pas."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Disponible le 9/10 sur Booking au 30/09. Arrivée 14 h – 20 h 30."
+    },
+    "source": "https://www.vacanzeanimali.it/bkd-0-hotel_florenz-4716.html",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.booking.com/hotel/it/florenz.html"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "VacanzeAnimali — chiens petits, moyens et grands",
+          "url": "https://www.vacanzeanimali.it/bkd-0-hotel_florenz-4716.html"
+        },
+        {
+          "libelle": "Booking — prix et animaux sans supplément",
+          "url": "https://www.booking.com/hotel/it/florenz.html"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Via Domenico Brunenghi 124, Finale Ligure 44.1746, 8.33176",
+          "url": "https://www.openstreetmap.org/search?query=Via%20Domenico%20Brunenghi%20124%2C%20Finale%20Ligure"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-villaggio-giuele",
+    "nom": "Il Villaggio di GiuEle — studio (Calvisio)",
+    "categorie": "abri",
+    "gps": [
+      44.19094,
+      8.35697
+    ],
+    "gps_approximatif": true,
+    "commune": "Finale Ligure (SV)",
+    "adresse": "Via Calvisio 37, Finale Ligure",
+    "resume": "Studio à 15 min, 110 € la nuit sur le moteur officiel, chien sans supplément quelle que soit sa taille. Ouvert jusqu’à début novembre.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 110,
+      "unite": "nuit pour 2 (taxe de séjour non publiée)",
+      "detail": "Moteur officiel au 30/09 : Studio A, 2 adultes, 9/10 : 110 € ; chien 0 €."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 0,
+      "note": "Chiens de petite à très grande taille, sans supplément (DogWelcome)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "De Pâques à la première semaine de novembre ; studios libres le 9/10 au 30/09."
+    },
+    "source": "https://www.ilvillaggiodigiuele.it",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.simplebooking.it/ibe2/hotel/10428?lang=it"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Il Villaggio di GiuEle (officiel)",
+          "url": "https://www.ilvillaggiodigiuele.it"
+        },
+        {
+          "libelle": "DogWelcome — toutes tailles, sans supplément",
+          "url": "https://www.dogwelcome.it/strutture-cani-animali-ammessi/villaggi-vacanze-resort/italia/liguria/savona/il-villaggio-di-giuele"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Via Calvisio 37, Finale Ligure 44.19094, 8.35697",
+          "url": "https://www.openstreetmap.org/search?query=Via%20Calvisio%2037%2C%20Finale%20Ligure"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-hotel-bello-finale",
+    "nom": "Hotel Bello by Ostello Bello (Finale Ligure)",
+    "categorie": "abri",
+    "gps": [
+      44.16975,
+      8.34106
+    ],
+    "gps_approximatif": true,
+    "commune": "Finale Ligure (SV)",
+    "adresse": "Via Silla 8, Finale Ligure",
+    "resume": "Chambre privée à 10 min, réception 24 h/24 : utile pour une arrivée tardive. 159 € sur Booking au 30/09. Animaux bienvenus en chambre privée sans supplément ; taille non précisée.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 159,
+      "unite": "nuit pour 2 (Booking), petit-déjeuner 9,90 € en plus",
+      "detail": "Booking au 30/09 pour le 9/10 : 159 € minimum, « taxes et frais compris »."
+    },
+    "chien": {
+      "admis": null,
+      "note": "« Pets are welcome… in a private room… no extra charge » ; grand chien : à confirmer."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert toute l’année, réception 24 h/24."
+    },
+    "source": "https://ostellobello.com/en/faq/",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://ostellobello.com/en/hostel/finale-ligure/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Ostello Bello — FAQ animaux (officiel)",
+          "url": "https://ostellobello.com/en/faq/"
+        },
+        {
+          "libelle": "Booking — prix du 9/10",
+          "url": "https://www.booking.com/hotel/it/san-giuseppe.html"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Via Silla 8, Finale Ligure 44.16975, 8.34106",
+          "url": "https://www.openstreetmap.org/search?query=Via%20Silla%208%2C%20Finale%20Ligure"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-miglanzhof",
+    "nom": "Miglanzhof — appartement « Peitler » (ferme)",
+    "categorie": "abri",
+    "gps": [
+      46.64477,
+      11.64375
+    ],
+    "commune": "Villnöss – St. Valentin",
+    "adresse": "Valentinweg 44, Villnöß",
+    "resume": "Appartement de ferme pour 2 à 8 min : 80 € la nuit, ménage compris, chien accepté dans ce logement. Le moins cher trouvé à Funes ; séjour minimum et supplément chien à demander.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 85,
+      "unite": "nuit pour 2, taxe comprise, + chien (non publié)",
+      "detail": "80 €/nuit du 03.10 au 11.12.2026, ménage final inclus ; taxe 2,50 €/personne. Libre les 10 et 11 octobre au calendrier Roter Hahn du 30/09."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Haustiere sind in dieser Wohnung erlaubt » (Roter Hahn) ; supplément non publié."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Tarif publié jusqu’au 11 décembre 2026 ; séjour minimum non publié."
+    },
+    "source": "https://www.miglanzhof.com/unsere-wohnungen/",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.miglanzhof.com/anfragen/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Miglanzhof — appartements (officiel)",
+          "url": "https://www.miglanzhof.com/unsere-wohnungen/"
+        },
+        {
+          "libelle": "Roter Hahn — Miglanzhof",
+          "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/miglanzhof-villnoess+2831-1"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Valentinweg 44, Villnöß 46.64477, 11.64375",
+          "url": "https://www.openstreetmap.org/search?query=Valentinweg%2044%2C%20Villn%C3%B6%C3%9F"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-gasserhof-feldthurns",
+    "nom": "Gasserhof — chambre (ferme, Feldthurns)",
+    "categorie": "abri",
+    "gps": [
+      46.67604,
+      11.59836
+    ],
+    "commune": "Feldthurns",
+    "adresse": "Schnauderer Straße 23, Feldthurns",
+    "resume": "Chambre avec petit-déjeuner dans une ferme, environ 100 € chien compris, à 25 min ou un peu plus.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 100.8,
+      "unite": "nuit pour 2 + chien + taxe",
+      "detail": "Roter Hahn : « ab 86 € » pour 2 avec petit-déjeuner ; chien 10 €/jour (site officiel) ; taxe 2,40 €/personne (grille non datée). 86 + 10 + 4,80 = 100,80 €."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 10,
+      "note": "Animaux admis dans les 6 chambres (Roter Hahn), 10 €/jour."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Calendrier « sur demande », pas de fermeture annuelle en octobre."
+    },
+    "source": "https://www.gasser-hof.it/unser-angebot/",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/gasserhof-feldthurns+4458-1"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Gasserhof (officiel)",
+          "url": "https://www.gasser-hof.it/unser-angebot/"
+        },
+        {
+          "libelle": "Roter Hahn — Gasserhof",
+          "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/gasserhof-feldthurns+4458-1"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Schnauderer Straße 23, Feldthurns 46.67604, 11.59836",
+          "url": "https://www.openstreetmap.org/search?query=Schnauderer%20Stra%C3%9Fe%2023%2C%20Feldthurns"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-vogelweide-klausen",
+    "nom": "Hotel-Gasthof Walther von der Vogelweide (Chiusa)",
+    "categorie": "abri",
+    "gps": [
+      46.6412,
+      11.56762
+    ],
+    "commune": "Klausen / Chiusa",
+    "adresse": "Oberstadt 66, Klausen",
+    "resume": "Hôtel au centre de Chiusa, à 19 min : 124 à 160 € la nuit chien compris (20 €), aucun séjour minimum.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 123.8,
+      "unite": "nuit pour 2 avec petit-déjeuner, chien et taxe compris (jusqu’à 159,80 €)",
+      "detail": "« ab 49 € » par personne (site officiel), « from 134 € » pour 2 (suedtirol.info), non datés ; chien 20 €/nuit ; taxe 2,90 €/personne."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 20,
+      "note": "« Haustiere: 20 Euro pro Nacht ohne Futter »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Aucune fermeture publiée ; pizzeria fermée le lundi seulement."
+    },
+    "source": "https://www.vogelweide.it/hotel/preise-infos/",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.vogelweide.it/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Vogelweide — prix et infos (officiel)",
+          "url": "https://www.vogelweide.it/hotel/preise-infos/"
+        },
+        {
+          "libelle": "suedtirol.info — Gasthof Walther von der Vogelweide",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.BA1AF318A1A311D3A0B800105A6F94EC.gasthof-walther-von-der-vogelweide.chiusa-klausen"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Oberstadt 66, Klausen 46.6412, 11.56762",
+          "url": "https://www.openstreetmap.org/search?query=Oberstadt%2066%2C%20Klausen"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-raschoetzhof",
+    "nom": "Pension Garni Raschötzhof (St. Peter)",
+    "categorie": "abri",
+    "gps": [
+      46.64286,
+      11.68138
+    ],
+    "gps_approximatif": true,
+    "commune": "Villnöss – St. Peter",
+    "adresse": "St. Peter 134, Villnöß",
+    "resume": "Pension à 6 min, 1 nuit acceptée : 174 € chien et taxe compris.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 174,
+      "unite": "nuit pour 2 avec petit-déjeuner, chien et taxe compris",
+      "detail": "Saison d’automne 05.10–08.11.2026 : 73 €/personne + 4 €/personne sous 3 nuits ; chien 15 €/jour ; taxe 2,50 €/personne. (73 + 4) × 2 + 15 + 5 = 174 €."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 15,
+      "note": "« Auf Anfrage sind Hunde … willkommen », 15 €/jour ; pas en salle du petit-déjeuner."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Grille publiée jusqu’au 8 novembre 2026 ; 1 nuit acceptée."
+    },
+    "source": "https://www.raschoetzhof.it/",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.raschoetzhof.it/buchen/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Raschötzhof (officiel)",
+          "url": "https://www.raschoetzhof.it/"
+        },
+        {
+          "libelle": "suedtirol.info — Raschötzhof",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.1A06B01385E511D2956400805A10578D.pension-garni-raschoetzhof.s--pietro-st--peter---funes-villnoess"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — St. Peter 134, Villnöß 46.64286, 11.68138",
+          "url": "https://www.openstreetmap.org/search?query=St.%20Peter%20134%2C%20Villn%C3%B6%C3%9F"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-teiser-stern",
+    "nom": "Gasthof Teiser Stern (Teis)",
+    "categorie": "abri",
+    "gps": [
+      46.65231,
+      11.62026
+    ],
+    "commune": "Villnöss – Teis",
+    "adresse": "Teiser Straße 13, Villnöß",
+    "resume": "Gasthof à 14 min avec un tarif 1–2 nuits : 179 € en chambre et petit-déjeuner (déduction à confirmer), 215 € en demi-pension.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 179,
+      "unite": "nuit pour 2 avec petit-déjeuner, chien et taxe compris (à confirmer ; 215 € en demi-pension)",
+      "detail": "Tarif « 1–2 Tage » 06.09–01.11.2026 : 97 €/personne en demi-pension ; « Übernachtung mit Frühstück – 18 € pro Person » lu comme une déduction ; chien 15 € ; taxe 3 €/personne."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 15,
+      "note": "15 €/jour, seulement dans certaines chambres, un chien par chambre."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Saison tarifaire du 6 septembre au 1er novembre 2026."
+    },
+    "source": "https://www.teiser-stern.it/de/zimmer-preise/preisuebersicht",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.teiser-stern.it/de/buchen"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Teiser Stern — prix (officiel)",
+          "url": "https://www.teiser-stern.it/de/zimmer-preise/preisuebersicht"
+        },
+        {
+          "libelle": "suedtirol.info — Teiser Stern",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.1A06B12485E511D2956400805A10578D.gasthof-teiser-stern.tiso-teis"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Teiser Straße 13, Villnöß 46.65231, 11.62026",
+          "url": "https://www.openstreetmap.org/search?query=Teiser%20Stra%C3%9Fe%2013%2C%20Villn%C3%B6%C3%9F"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-hotel-kabis",
+    "nom": "Hotel Kabis (St. Peter)",
+    "categorie": "abri",
+    "gps": [
+      46.64234,
+      11.68006
+    ],
+    "commune": "Villnöss – St. Peter",
+    "adresse": "Peterweg 14, Villnöß",
+    "resume": "Hôtel à 6 min, environ 192 € la nuit en petit-déjeuner, plus chien et taxe. Grille ambiguë.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 192,
+      "unite": "nuit pour 2 avec petit-déjeuner, + chien et taxe (non publiés)",
+      "detail": "83 €/personne en demi-pension (3–6 nuits), « bei 1–2 Nächten + 25 € pro Tag », « nur mit Frühstück − 12 € » : (83 + 25 − 12) × 2 = 192 €."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Dogs allowed » (suedtirol.info) ; supplément inconnu."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Grille publiée jusqu’au 8 novembre 2026."
+    },
+    "source": "https://www.hotel-kabis.com/de/zimmer-preise/zimmer/mountaineer-economy",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.hotel-kabis.com/de/zimmer-preise/buchen"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Hotel Kabis — Mountaineer Economy (officiel)",
+          "url": "https://www.hotel-kabis.com/de/zimmer-preise/zimmer/mountaineer-economy"
+        },
+        {
+          "libelle": "suedtirol.info — Hotel Kabis",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.1A06B00A85E511D2956400805A10578D.hotel-kabis.s--pietro-st--peter---funes-villnoess"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Peterweg 14, Villnöß 46.64234, 11.68006",
+          "url": "https://www.openstreetmap.org/search?query=Peterweg%2014%2C%20Villn%C3%B6%C3%9F"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-ranuimuellerhof",
+    "nom": "Hotel Ranuimüllerhof (Santa Maddalena)",
+    "categorie": "abri",
+    "gps": [
+      46.64146,
+      11.71533
+    ],
+    "gps_approximatif": true,
+    "commune": "Villnöss – St. Magdalena",
+    "adresse": "St. Magdalena 38, Villnöß",
+    "resume": "Le plus proche (2 min) mais cher : au moins 217 € la nuit, séjour court selon disponibilité.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 217,
+      "unite": "nuit pour 2 au minimum (pension trois quarts), chien et taxe compris",
+      "detail": "« ab 98 € » par personne 13.09–25.10.2026 (tarif dès 7 nuits) ; chien 15 €/jour ; taxe 3 €/personne."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 15,
+      "note": "15 €/jour sans nourriture ; pas en salle à manger ni au spa."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Saison jusqu’au 25 octobre 2026 ; restaurant fermé mardi et mercredi."
+    },
+    "source": "https://www.ranuimuellerhof.com/unterkuenfte-villnoess.html",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.ranuimuellerhof.com/buchen.html"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Ranuimüllerhof (officiel)",
+          "url": "https://www.ranuimuellerhof.com/unterkuenfte-villnoess.html"
+        },
+        {
+          "libelle": "suedtirol.info — Ranuimüllerhof",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.1A06B09485E511D2956400805A10578D.hotel-ranuimuellerhof.s--maddalena-st--magdalena---funes-villnoess"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — St. Magdalena 38, Villnöß 46.64146, 11.71533",
+          "url": "https://www.openstreetmap.org/search?query=St.%20Magdalena%2038%2C%20Villn%C3%B6%C3%9F"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-pension-schirmerhof",
+    "nom": "Pension Schirmerhof (Natz)",
+    "categorie": "abri",
+    "gps": [
+      46.75232,
+      11.68281
+    ],
+    "commune": "Natz-Schabs",
+    "adresse": "Unterbrunnergasse 11, Natz-Schabs",
+    "resume": "Pension à 11 min, la moins chère trouvée : 88 € la nuit chien et taxe compris. Mais absente du moteur officiel du 12 au 18 octobre : fermée ou complète, à confirmer.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 88,
+      "unite": "nuit pour 2 avec petit-déjeuner, chien et taxe compris",
+      "detail": "35 €/personne (3 nuits min.) + 2 €/personne sous 3 nuits ; chien 10 € ; taxe 2 €/personne. 2 × 37 + 10 + 4 = 88 €."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 10,
+      "note": "« Haustiere: auf Anfrage – Aufpreis 10,00 € »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouverture du 12 au 18 octobre inconnue (rien sur le moteur officiel)."
+    },
+    "source": "https://www.schirmerhof.com/zimmer-preise/",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.schirmerhof.com/zimmer-preise/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Schirmerhof — prix (officiel)",
+          "url": "https://www.schirmerhof.com/zimmer-preise/"
+        },
+        {
+          "libelle": "suedtirol.info — Schirmerhof",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.37D4C90F02E311D385D50060082C3577.pension-schirmerhof.naz-natz"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Unterbrunnergasse 11, Natz-Schabs 46.75232, 11.68281",
+          "url": "https://www.openstreetmap.org/search?query=Unterbrunnergasse%2011%2C%20Natz-Schabs"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-gaestehaus-klara",
+    "nom": "Gästehaus Klara (Natz) — avec garage",
+    "categorie": "abri",
+    "gps": [
+      46.75089,
+      11.68095
+    ],
+    "commune": "Natz-Schabs",
+    "adresse": "Ölberg 1, Natz-Schabs",
+    "resume": "Chambre d’hôtes à 11 min avec garage gratuit (la voiture et la tente à l’abri) : 102 à 132 € chien et taxe compris.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 102,
+      "unite": "nuit pour 2 sans petit-déjeuner, chien et taxe compris (jusqu’à 132 €)",
+      "detail": "Chambre 80–110 € + 1 nuit 8 € + chien 10 € + taxe 2 €/personne."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 10,
+      "note": "« Haustiere: 10,00 € pro Tag »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouverture en octobre inconnue ; 1 nuit acceptée."
+    },
+    "source": "https://www.hausklara.it",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.hausklara.it"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Gästehaus Klara (officiel)",
+          "url": "https://www.hausklara.it"
+        },
+        {
+          "libelle": "suedtirol.info — Gästehaus Klara",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-enquiry.37D4C92402E311D385D50060082C3577.gaestehaus-klara.naz-natz"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Ölberg 1, Natz-Schabs 46.75089, 11.68095",
+          "url": "https://www.openstreetmap.org/search?query=%C3%96lberg%201%2C%20Natz-Schabs"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-pension-haus-am-see",
+    "nom": "Pension Haus am See — appartement (Natz)",
+    "categorie": "abri",
+    "gps": [
+      46.7609,
+      11.66548
+    ],
+    "commune": "Natz-Schabs",
+    "adresse": "Flötscher 1, Natz-Schabs",
+    "resume": "Appartement à 9 min, au moins 106 € : chien accepté seulement en appartement, prix d’une nuit seule non publié.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 106,
+      "unite": "nuit pour 2 au minimum (tarif 3 nuits), ménage chien et taxe compris",
+      "detail": "Appartement 8 « ab 82 € » pour 2 (3 nuits min.) + 20 € de ménage pour le chien + taxe 2 €/personne."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Chiens seulement dans les appartements, 20 € de ménage final."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouverture en octobre inconnue."
+    },
+    "source": "https://www.pension-hausamsee.com",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.pension-hausamsee.com"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Pension Haus am See (officiel)",
+          "url": "https://www.pension-hausamsee.com"
+        },
+        {
+          "libelle": "suedtirol.info — Haus am See",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-enquiry.37D4C8FA02E311D385D50060082C3577.pension-haus-am-see.naz-natz"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Flötscher 1, Natz-Schabs 46.7609, 11.66548",
+          "url": "https://www.openstreetmap.org/search?query=Fl%C3%B6tscher%201%2C%20Natz-Schabs"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-hotel-putzer",
+    "nom": "Hotel Putzer (Schabs)",
+    "categorie": "abri",
+    "gps": [
+      46.78296,
+      11.66866
+    ],
+    "commune": "Natz-Schabs",
+    "adresse": "Pustertaler Straße 9, Natz-Schabs",
+    "resume": "Le moins cher réservable en ligne, à 6 min : 116,40 € le 12, 120,40 € le 15 (hors chien), annulation gratuite jusqu’au 7 et au 10 octobre.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 116.4,
+      "unite": "nuit pour 2 sans petit-déjeuner, taxe comprise, + chien (non publié) ; 120,40 € le 15",
+      "detail": "suedtirol.info au 30/09 : chambre Standard 111 € (12/10) et 115 € (15/10), +20 € avec petit-déjeuner ; taxe 2,70 €/personne."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Einzelne Zimmer … auch deinem Vierbeiner » sur demande ; « Dogs allowed » (suedtirol.info)."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Chambres libres les 12 et 15 octobre au 30/09 ; restaurant fermé le lundi."
+    },
+    "source": "https://derputzer.it/schlafen/",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.37D4C9AB02E311D385D50060082C3577.hotel-putzer.sciaves-schabs"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Hotel Putzer — dormir (officiel)",
+          "url": "https://derputzer.it/schlafen/"
+        },
+        {
+          "libelle": "suedtirol.info — prix en direct",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.37D4C9AB02E311D385D50060082C3577.hotel-putzer.sciaves-schabs"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Pustertaler Straße 9, Natz-Schabs 46.78296, 11.66866",
+          "url": "https://www.openstreetmap.org/search?query=Pustertaler%20Stra%C3%9Fe%209%2C%20Natz-Schabs"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-gasthof-thaler",
+    "nom": "Gasthof Thaler (Mittewald)",
+    "categorie": "abri",
+    "gps": [
+      46.80686,
+      11.57366
+    ],
+    "gps_approximatif": true,
+    "commune": "Franzensfeste – Mittewald",
+    "adresse": "Mittewald, Franzensfeste",
+    "resume": "Auberge à 11 min, chambres libres les 12 et 15 : 136 € avec petit-déjeuner, hors chien. En ligne : acompte sans annulation, mieux vaut appeler le jour même.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 136,
+      "unite": "nuit pour 2 avec petit-déjeuner, taxe comprise, + chien (non publié)",
+      "detail": "suedtirol.info au 30/09 : 132 € ; taxe 2 €/personne."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Hunde herzlich willkommen » (site officiel)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Chambres libres les deux nuits au 30/09."
+    },
+    "source": "https://www.gasthofthaler.com/zimmer.php",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.CCA5E53750DA11D5A2850050DA43B72E.albergo-gasthof-thaler.mezzaselva-mittewald"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Gasthof Thaler (officiel)",
+          "url": "https://www.gasthofthaler.com/zimmer.php"
+        },
+        {
+          "libelle": "suedtirol.info — prix en direct",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.CCA5E53750DA11D5A2850050DA43B72E.albergo-gasthof-thaler.mezzaselva-mittewald"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Mittewald, Franzensfeste 46.80686, 11.57366",
+          "url": "https://www.openstreetmap.org/search?query=Mittewald%2C%20Franzensfeste"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-schusterhof-natz",
+    "nom": "Schusterhof — appartement (ferme, Natz)",
+    "categorie": "abri",
+    "gps": [
+      46.75429,
+      11.68275
+    ],
+    "commune": "Natz-Schabs",
+    "adresse": "Schlossergasse 48, Natz-Schabs",
+    "resume": "Appartement de ferme à 11 min, 75 à 85 € ménage compris, chien accepté. Libre le 15 seulement au calendrier du 30/09.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 75,
+      "unite": "nuit, ménage compris (85 € en mi-saison), + chien et taxe",
+      "detail": "Appartement Nuss : 75 € avant-saison, 85 € mi-saison ; dates des saisons non publiées."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Haustiere sind in dieser Wohnung erlaubt » (Roter Hahn)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Nuss occupé le 12, libre le 15 ; Marille libre le 15 (calendrier Roter Hahn du 30/09)."
+    },
+    "source": "https://www.schusterhof-suedtirol.it/wohnungen/nuss/",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.schusterhof-suedtirol.it/anfrage/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Schusterhof — appartement Nuss (officiel)",
+          "url": "https://www.schusterhof-suedtirol.it/wohnungen/nuss/"
+        },
+        {
+          "libelle": "Roter Hahn — Schusterhof",
+          "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/schusterhof-natz-schabs+3077-1"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Schlossergasse 48, Natz-Schabs 46.75429, 11.68275",
+          "url": "https://www.openstreetmap.org/search?query=Schlossergasse%2048%2C%20Natz-Schabs"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-hotel-traube-brixen",
+    "nom": "Hotel Traube (Bressanone)",
+    "categorie": "abri",
+    "gps": [
+      46.71288,
+      11.6588
+    ],
+    "commune": "Bressanone / Brixen",
+    "adresse": "Runggadgasse 24, Brixen",
+    "resume": "Hôtel en centre-ville, réservable en ligne avec annulation gratuite : 191 € le 12, 207 € le 15, chien compris.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 190.6,
+      "unite": "nuit pour 2 avec petit-déjeuner, chien et taxe compris (206,60 € le 15)",
+      "detail": "suedtirol.info au 30/09 : 172 € (12/10), 188 € (15/10) ; taxe 3,30 €/personne ; chien 12 €/jour selon un annuaire."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 12,
+      "note": "« Dogs allowed » (suedtirol.info) ; 12 €/jour selon top-hundeurlaub.de."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Chambres libres les deux nuits au 30/09."
+    },
+    "source": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.2542F34F544811D2968200A0244EAF51.hotel-traube.bressanone-citta-brixen-stadt",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.2542F34F544811D2968200A0244EAF51.hotel-traube.bressanone-citta-brixen-stadt"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "suedtirol.info — prix en direct",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.2542F34F544811D2968200A0244EAF51.hotel-traube.bressanone-citta-brixen-stadt"
+        },
+        {
+          "libelle": "top-hundeurlaub.de — chien 12 €",
+          "url": "https://www.top-hundeurlaub.de/angebote/hotel-traube"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Runggadgasse 24, Brixen 46.71288, 11.6588",
+          "url": "https://www.openstreetmap.org/search?query=Runggadgasse%2024%2C%20Brixen"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-durnwalder-prags",
+    "nom": "APP. Durnwalder — appartement (ferme)",
+    "categorie": "abri",
+    "gps": [
+      46.71625,
+      12.10387
+    ],
+    "commune": "Prags / Braies",
+    "adresse": "St. Veit 4, Prags",
+    "resume": "Appartement de ferme Roter Hahn à 13 min, à partir de 56 € la nuit pour 2, chien accepté dans ce logement. Séjour minimum, supplément chien et taxe non publiés : à demander. Réservable en ligne.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 56,
+      "unite": "nuit pour 2, logement seul, à partir de ; + chien, taxe, ménage (non publiés)",
+      "detail": "Tarif « à partir de » Roter Hahn au 30/09 ; 13 et 14 octobre « Auf Anfrage »."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Haustiere sind … erlaubt » pour ce logement (Roter Hahn)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "13 et 14 octobre : sur demande."
+    },
+    "source": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/app-durnwalder-prags+2537-1",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/app-durnwalder-prags+2537-1"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Roter Hahn — APP. Durnwalder",
+          "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/app-durnwalder-prags+2537-1"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — St. Veit 4, Prags 46.71625, 12.10387",
+          "url": "https://www.openstreetmap.org/search?query=St.%20Veit%204%2C%20Prags"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-huterhof-innichen",
+    "nom": "Huterhof — appartement (ferme)",
+    "categorie": "abri",
+    "gps": [
+      46.7413,
+      12.36124
+    ],
+    "commune": "Innichen – Winnebach",
+    "adresse": "Loretostraße 15, Innichen",
+    "resume": "Appartement de ferme Roter Hahn à 18 min, à partir de 62 € la nuit pour 2, chien accepté dans ce logement. Séjour minimum, supplément chien et taxe non publiés : à demander. Libre du 13 au 15 au 30/09.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 62,
+      "unite": "nuit pour 2, logement seul, à partir de ; + chien, taxe, ménage (non publiés)",
+      "detail": "Tarif « à partir de » Roter Hahn au 30/09 ; 13 et 14 octobre « Auf Anfrage »."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Haustiere sind … erlaubt » pour ce logement (Roter Hahn)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "13 et 14 octobre : sur demande."
+    },
+    "source": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/huterhof-innichen+3300-1",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/huterhof-innichen+3300-1"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Roter Hahn — Huterhof",
+          "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/huterhof-innichen+3300-1"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Loretostraße 15, Innichen 46.7413, 12.36124",
+          "url": "https://www.openstreetmap.org/search?query=Loretostra%C3%9Fe%2015%2C%20Innichen"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-hirschenhof-toblach",
+    "nom": "Hirschenhof — appartement (ferme)",
+    "categorie": "abri",
+    "gps": [
+      46.746,
+      12.23294
+    ],
+    "commune": "Toblach – Wahlen",
+    "adresse": "Wahlen 57, Toblach",
+    "resume": "Appartement de ferme Roter Hahn à 7 min, à partir de 65 € la nuit pour 2, chien accepté dans ce logement. Séjour minimum, supplément chien et taxe non publiés : à demander. Le 13 : arrivée possible.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 65,
+      "unite": "nuit pour 2, logement seul, à partir de ; + chien, taxe, ménage (non publiés)",
+      "detail": "Tarif « à partir de » Roter Hahn au 30/09 ; 13 et 14 octobre « Auf Anfrage »."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Haustiere sind … erlaubt » pour ce logement (Roter Hahn)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "13 et 14 octobre : sur demande."
+    },
+    "source": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/hirschenhof-toblach+2782-1",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/hirschenhof-toblach+2782-1"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Roter Hahn — Hirschenhof",
+          "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/hirschenhof-toblach+2782-1"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Wahlen 57, Toblach 46.746, 12.23294",
+          "url": "https://www.openstreetmap.org/search?query=Wahlen%2057%2C%20Toblach"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-parkhof-niederdorf",
+    "nom": "Parkhof — appartement (ferme)",
+    "categorie": "abri",
+    "gps": [
+      46.7377,
+      12.17441
+    ],
+    "commune": "Niederdorf / Villabassa",
+    "adresse": "Parkweg 45, Niederdorf",
+    "resume": "Appartement de ferme Roter Hahn à 3 min, à partir de 70 € la nuit pour 2, chien accepté dans ce logement. Séjour minimum, supplément chien et taxe non publiés : à demander.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 70,
+      "unite": "nuit pour 2, logement seul, à partir de ; + chien, taxe, ménage (non publiés)",
+      "detail": "Tarif « à partir de » Roter Hahn au 30/09 ; 13 et 14 octobre « Auf Anfrage »."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Haustiere sind … erlaubt » pour ce logement (Roter Hahn)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "13 et 14 octobre : sur demande."
+    },
+    "source": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/parkhof-niederdorf+4075-1",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/parkhof-niederdorf+4075-1"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Roter Hahn — Parkhof",
+          "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/parkhof-niederdorf+4075-1"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Parkweg 45, Niederdorf 46.7377, 12.17441",
+          "url": "https://www.openstreetmap.org/search?query=Parkweg%2045%2C%20Niederdorf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-steinerhof-toblach",
+    "nom": "Steinerhof — appartement (ferme)",
+    "categorie": "abri",
+    "gps": [
+      46.73325,
+      12.23434
+    ],
+    "commune": "Toblach",
+    "adresse": "Haselsberg 16, Toblach",
+    "resume": "Appartement de ferme Roter Hahn à Dobbiaco, à partir de 75 € la nuit pour 2, chien accepté dans ce logement. Séjour minimum, supplément chien et taxe non publiés : à demander.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 75,
+      "unite": "nuit pour 2, logement seul, à partir de ; + chien, taxe, ménage (non publiés)",
+      "detail": "Tarif « à partir de » Roter Hahn au 30/09 ; 13 et 14 octobre « Auf Anfrage »."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Haustiere sind … erlaubt » pour ce logement (Roter Hahn)."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "13 et 14 octobre : sur demande."
+    },
+    "source": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/steinerhof-toblach+4319-1",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/steinerhof-toblach+4319-1"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Roter Hahn — Steinerhof",
+          "url": "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof/suedtirol/ferienwohnungen-und-zimmer/steinerhof-toblach+4319-1"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Haselsberg 16, Toblach 46.73325, 12.23434",
+          "url": "https://www.openstreetmap.org/search?query=Haselsberg%2016%2C%20Toblach"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-garni-letizia",
+    "nom": "Hotel Garni Letizia (San Candido)",
+    "categorie": "abri",
+    "gps": [
+      46.7314,
+      12.28328
+    ],
+    "commune": "Innichen / San Candido",
+    "adresse": "Firtalerstraße 5, Innichen",
+    "resume": "Garni à 11 min, 1 nuit acceptée, ouvert les 13 et 14 : 147 € avec l’offre chien gratuit, 162 € sinon.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 147,
+      "unite": "nuit pour 2 avec petit-déjeuner, taxe comprise (162 € avec le chien à 15 €)",
+      "detail": "140 € la nuit (70 €/personne, grille 13.09–02.11.2026) ; taxe 3,50 €/personne ; chien 15 €/jour, offert du 14.09 au 01.11.2026 selon sudtirol.com."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 15,
+      "note": "« Pets are also welcome » (officiel) ; 15 €/jour."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Ouvert, 1 nuit réservable le 13 et le 14 au 30/09."
+    },
+    "source": "https://www.hotel-garni-letizia.it/en/prices-conditions",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.hotel-garni-letizia.it/en/enquiry"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Garni Letizia — prix et conditions (officiel)",
+          "url": "https://www.hotel-garni-letizia.it/en/prices-conditions"
+        },
+        {
+          "libelle": "suedtirol.info — Garni Letizia",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.5D46E91A76F611D1957100805A150B0B.hotel-garni-letizia.s--candido-innichen"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Firtalerstraße 5, Innichen 46.7314, 12.28328",
+          "url": "https://www.openstreetmap.org/search?query=Firtalerstra%C3%9Fe%205%2C%20Innichen"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-emma-niederdorf",
+    "nom": "Emma Historic Hotel (Villabassa)",
+    "categorie": "abri",
+    "gps": [
+      46.73806,
+      12.16975
+    ],
+    "commune": "Niederdorf / Villabassa",
+    "adresse": "Frau-Emma-Straße 5, Niederdorf",
+    "resume": "Hôtel à 3 min, 1 nuit réservable le 13 et le 14 : environ 181 € plus le chien.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 181,
+      "unite": "nuit pour 2 avec petit-déjeuner, taxe estimée comprise, + chien",
+      "detail": "174 € (13/10) ou 176 € (14/10), offre Short Stay ; taxe non publiée par l’hôtel (3,50 €/personne au Weiherbad voisin)."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Dogs allowed » (suedtirol.info), « Haustiere: Erlaubt » (holidaycheck) ; supplément inconnu."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert, 1 nuit réservable au 30/09."
+    },
+    "source": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.F1FF6241A38211D1925F00805A150B0B.emma-historic-hotel.villabassa-niederdorf",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.hotel-emma.it/en/online-booking/"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "suedtirol.info — Emma Historic Hotel",
+          "url": "https://www.suedtirol.info/en/en/accommodation/pdp-accommodation.F1FF6241A38211D1925F00805A150B0B.emma-historic-hotel.villabassa-niederdorf"
+        },
+        {
+          "libelle": "holidaycheck — animaux admis",
+          "url": "https://www.holidaycheck.de/hi/emma-historic-hotel/0b9d36ab-f9be-3cfa-8d30-55ccfc7d2739"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Frau-Emma-Straße 5, Niederdorf 46.73806, 12.16975",
+          "url": "https://www.openstreetmap.org/search?query=Frau-Emma-Stra%C3%9Fe%205%2C%20Niederdorf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abri-hotel-andermax",
+    "nom": "Hotel Andermax (Versciaco)",
+    "categorie": "abri",
+    "gps": [
+      46.72961,
+      12.3286
+    ],
+    "commune": "Innichen – Vierschach",
+    "adresse": "Helmweg 13, Innichen",
+    "resume": "Hôtel à 14 min, dernier recours : 262 € chien et taxe compris, chien après accord préalable.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "montant": 262,
+      "unite": "nuit pour 2 avec petit-déjeuner, chien et taxe compris",
+      "detail": "234 € (offre 1–2 jours) + chien 20 € + taxe 4 €/personne."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 20,
+      "note": "Chiens après accord préalable, seulement dans certaines chambres."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert, 1 nuit acceptée au 30/09."
+    },
+    "source": "https://www.andermax.it/de/schick-wohnen/gut-zu-wissen.html",
+    "liens": [
+      {
+        "libelle": "Réserver ou demander",
+        "url": "https://www.andermax.it"
+      }
+    ],
+    "verification": {
+      "date": "2026-09-30",
+      "sources": [
+        {
+          "libelle": "Andermax — bon à savoir (officiel)",
+          "url": "https://www.andermax.it/de/schick-wohnen/gut-zu-wissen.html"
+        },
+        {
+          "libelle": "OpenStreetMap (Photon/Nominatim) — Helmweg 13, Innichen 46.72961, 12.3286",
+          "url": "https://www.openstreetmap.org/search?query=Helmweg%2013%2C%20Innichen"
         }
       ]
     }

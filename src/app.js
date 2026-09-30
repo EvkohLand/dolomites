@@ -1921,8 +1921,15 @@
     d.appendChild(ul);
     var abris = (n.abris_tempete || []).filter(function (a) { return E.parId.has(a.lieu); });
     if (abris.length) {
-      d.appendChild(el('p', 'bloc__titre', 'Dormir sous un toit'));
-      abris.forEach(function (a) {
+      d.appendChild(el('p', 'bloc__titre', 'Dormir sous un toit (du moins cher au plus cher)'));
+      /* Les 4 premiers visibles, le reste replié : la liste dépasse souvent 8 adresses. */
+      var suite = null;
+      abris.forEach(function (a, i) {
+        if (i === 4) {
+          suite = el('details', 'repli');
+          suite.appendChild(el('summary', null, 'Autres abris (' + (abris.length - 4) + ')'));
+          d.appendChild(suite);
+        }
         var l = E.parId.get(a.lieu);
         var b = el('button', 'programme__item');
         b.type = 'button';
@@ -1933,7 +1940,7 @@
         if (a.note) t.appendChild(el('span', 'jour__note', a.note));
         b.appendChild(t);
         b.addEventListener('click', function () { ouvrirPanneau(l.id, { retour: j.jour }); });
-        d.appendChild(b);
+        (suite || d).appendChild(b);
       });
     }
     if (tp.source) d.appendChild(el('p', 'jour__note', tp.source));
