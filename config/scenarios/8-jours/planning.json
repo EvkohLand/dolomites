@@ -94,29 +94,29 @@
     "zone": "Alpe di Siusi / Ortisei",
     "nuit": "camping-vahrner-see",
     "trajet": null,
-    "depart": "07:40",
+    "depart": "07:15",
     "depart_de": "ferme-gletscher-hons",
     "activites": [
       {
         "lieu": "parking-alpe-p1",
         "trajet_min": 67,
-        "heure": "08:47",
+        "heure": "08:22",
         "duree_min": 240,
         "duree_confort_min": 240,
-        "note": "Contrôle de San Valentino avant 9 h (route fermée à la montée 9 h–17 h) ; réservation en ligne ouverte 6 jours avant, 15 €. Boucle Spitzbühl – Tschapit (9,1 km, sans vide) ou boucle du Tschon Stoan (8 km) ; refuges fermés dès le 11/10 : pique-nique."
+        "note": "Contrôle de San Valentino avant 9 h (route fermée à la montée 9 h–17 h) ; P1 Spitzbühl 15 €, réservation en ligne obligatoire à partir de J−6 et encore possible le matin même avant 9 h s’il reste des places. Boucle Spitzbühl – Tschapit (9,1 km, sans vide) ou boucle du Tschon Stoan (8 km) ; refuges fermés dès le 11/10 : pique-nique."
       },
       {
         "lieu": "parking-ortisei-gratuit",
         "trajet_min": 39,
-        "heure": "13:26",
+        "heure": "13:01",
         "duree_min": 85,
         "duree_confort_min": 85,
         "note": "Parking Fever gratuit 90 min avec disque : le centre d’Ortisei à pied (via Rezia, église, promenade Luis Trenker)."
       }
     ],
     "trajet_nuit_min": 58,
-    "arrivee_nuit": "15:49",
-    "note": "Départ à 7 h 40 pour passer le contrôle de San Valentino avant 9 h (1 h 07 de route). Quatre heures de marche sur le plateau sans vide, Ortisei en début d’après-midi par Castelrotto, puis le camping du lac de Varna par Ponte Gardena et Bressanone. Aucune remontée."
+    "arrivee_nuit": "15:24",
+    "note": "Départ à 7 h 15 pour viser P1 vers 8 h 22 et garder environ 38 min de marge avant la fermeture de la montée à 9 h (1 h 07 de route). Quatre heures de marche sur le plateau sans vide, Ortisei en début d’après-midi par Castelrotto, puis le camping du lac de Varna par Ponte Gardena et Bressanone. Aucune remontée."
   },
   {
     "date": "2026-10-13",
@@ -203,7 +203,7 @@
         "heure": "07:53",
         "duree_min": 105,
         "duree_confort_min": 105,
-        "note": "Tour du lac (3,6 km, +86 m) tôt, eau miroir et peu de monde ; parking P2. Si la rive est est verglacée, aller-retour par la rive ouest."
+        "note": "Tour du lac (3,6 km, +86 m) tôt, eau miroir et peu de monde ; parking P2 payant. Le 15 octobre, la restriction routière 2026 (1er juillet–15 septembre, 9 h–16 h) est terminée : aucune réservation en ligne n’est nécessaire pour entrer dans la vallée. Si la rive est est verglacée, aller-retour par la rive ouest."
       },
       {
         "lieu": "marche-rio-di-pusteria",
