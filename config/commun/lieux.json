@@ -9554,7 +9554,13 @@
       "tracé voiture"
     ],
     "source": "https://data.gvcc.net/AlboPretorioOnline/DownloadDocument/beschluesse/document/MjEwNDcvYjg5MWIxMmQtZmJmZi00NTliLTliNWUtNTQ2Mjk0OTE0ZGI0LzE3OTA2MDg5ODQ.zvU04L-gGDruGZGouqRkEPiwQz4_JRMUvGU3ocjdBm4",
-    "photos": [],
+    "photos": [
+      {
+        "legende": "Environs de Pederü — accès Alpe di Fanes — Pausa pranzo panoramio",
+        "credit": "Alessandro Gigliotti — Wikimedia Commons, CC BY 3.0",
+        "fichier": "pederu-web-1.jpg"
+      }
+    ],
     "adresse": "Pederü, 39030 San Vigilio di Marebbe (BZ)",
     "horaires": [
       {
@@ -11585,7 +11591,24 @@
       "note": "Ouvert tous les jours d'octobre 2026, dimanche compris (aucune fermeture exceptionnelle annoncée)."
     },
     "acces": "Via Stalingrado, sortie Savona de l'A10. Parkings gratuits en surface et en toiture (pas de plafond) ; parking couvert de hauteur inconnue à éviter.",
-    "description": "Grand Conad Superstore à l'entrée ouest de Savone. La fiche officielle donne 8h30–20h30 tous les jours, dimanche compris, sans fermeture exceptionnelle annoncée. Services : animaux admis, chariots pour animaux, toilettes, rayon boucherie/poissonnerie/traiteur. Chez Conad, les chariots pour chiens visent les petits chiens (≈ 10 kg max selon la presse) : si Prince est plus gros, demander à l'accueil ou faire les courses à tour de rôle. Parking : le magasin annonce un parking couvert et un parking extérieur ; OSM montre des parkings gratuits en surface et en toiture (Piazza Ilaria Alpi). Hauteur du parking couvert non publiée : utiliser la surface ou la toiture avec 1,95 m."
+    "description": "Grand Conad Superstore à l'entrée ouest de Savone. La fiche officielle donne 8h30–20h30 tous les jours, dimanche compris, sans fermeture exceptionnelle annoncée. Services : animaux admis, chariots pour animaux, toilettes, rayon boucherie/poissonnerie/traiteur. Chez Conad, les chariots pour chiens visent les petits chiens (≈ 10 kg max selon la presse) : si Prince est plus gros, demander à l'accueil ou faire les courses à tour de rôle. Parking : le magasin annonce un parking couvert et un parking extérieur ; OSM montre des parkings gratuits en surface et en toiture (Piazza Ilaria Alpi). Hauteur du parking couvert non publiée : utiliser la surface ou la toiture avec 1,95 m.",
+    "photos": [
+      {
+        "legende": "Environs de Conad Superstore Savone — courses avec chien — Zona nuova1 panoramio",
+        "credit": "Nordovest — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-conad-savone-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Conad Superstore Savone — courses avec chien — Savona",
+        "credit": "Roberta Salamone — Wikimedia Commons, CC BY 3.0",
+        "fichier": "courses-conad-savone-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Conad Superstore Savone — courses avec chien — Waves",
+        "credit": "Roberta Salamone — Wikimedia Commons, CC BY 3.0",
+        "fichier": "courses-conad-savone-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "parking-lago-dobbiaco",
@@ -12147,7 +12170,24 @@
       "note": "Ouvert tous les jours en octobre ; dimanche matin seulement ; fermé en semaine 13h–15h30."
     },
     "acces": "Via Piave, centre de Varazze, près de l'Aurelia (SS1). Parking découvert, pas de plafond.",
-    "description": "Petit Conad City du centre de Varazze. Horaires officiels : coupure de midi en semaine, journée continue le samedi, matin seulement le dimanche. Services déclarés : animaux admis, chariots pour animaux, parking découvert (≈ 30 places, gratuit selon OSM). Les chariots Conad pour chiens visent les petits chiens (≈ 10 kg) : pour Prince, demander à l'accueil ou se relayer."
+    "description": "Petit Conad City du centre de Varazze. Horaires officiels : coupure de midi en semaine, journée continue le samedi, matin seulement le dimanche. Services déclarés : animaux admis, chariots pour animaux, parking découvert (≈ 30 places, gratuit selon OSM). Les chariots Conad pour chiens visent les petits chiens (≈ 10 kg) : pour Prince, demander à l'accueil ou se relayer.",
+    "photos": [
+      {
+        "legende": "Environs de Conad City Varazze — courses avec chien — Varazze (SV) collegiata di Sant'Ambrogio campanile 03",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY 2.5",
+        "fichier": "courses-conad-varazze-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Conad City Varazze — courses avec chien — Varazze IMG 0665",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY 2.5",
+        "fichier": "courses-conad-varazze-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Conad City Varazze — courses avec chien — Varazze IMG 0666",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY 2.5",
+        "fichier": "courses-conad-varazze-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "camping-green-europa-cogoleto",
@@ -13363,7 +13403,24 @@
       "note": "Ouvert tous les jours d'octobre 2026, dimanche 9h–19h30."
     },
     "acces": "Via Brennero (SS12), nord de Bressanone. Parking municipal de surface Zinggen, sans plafond de hauteur.",
-    "description": "Eurospar au nord du centre de Bressanone, sur la route du Brenner. La fiche officielle donne 8h–19h30 du lundi au samedi et 9h–19h30 le dimanche, aucune ouverture ou fermeture exceptionnelle annoncée. La FAQ Despar (valable pour Despar, Eurospar, Interspar) : animaux admis seulement dans un sac ou une caisse de transport. Parking de surface payant à côté (durée limitée à 3 h selon OSM/park4night) ; pas de parking souterrain connu."
+    "description": "Eurospar au nord du centre de Bressanone, sur la route du Brenner. La fiche officielle donne 8h–19h30 du lundi au samedi et 9h–19h30 le dimanche, aucune ouverture ou fermeture exceptionnelle annoncée. La FAQ Despar (valable pour Despar, Eurospar, Interspar) : animaux admis seulement dans un sac ou une caisse de transport. Parking de surface payant à côté (durée limitée à 3 h selon OSM/park4night) ; pas de parking souterrain connu.",
+    "photos": [
+      {
+        "legende": "Environs de Eurospar Bressanone — courses ouest — Blackbird female",
+        "credit": "Yellow.Cat from Roma, Italy — Wikimedia Commons, CC BY 2.0",
+        "fichier": "courses-eurospar-bressanone-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Eurospar Bressanone — courses ouest — Brixen Altes Krankenhaus (BD )",
+        "credit": "Oliver Abels — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "courses-eurospar-bressanone-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Eurospar Bressanone — courses ouest — Brixen Altes Krankenhaus (BD )",
+        "credit": "Oliver Abels — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "courses-eurospar-bressanone-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "courses-despar-la-villa",
@@ -13476,7 +13533,24 @@
       "note": "Ouvert tous les jours d'octobre 2026 selon la fiche officielle."
     },
     "acces": "Strada Boscdaplan (SS244), La Villa. Parking client de surface, pas de plafond.",
-    "description": "Supermarché Despar de La Villa, sur la route principale de l'Alta Badia. Fiche officielle (28/09/2026) : 8h–19h30 du lundi au samedi, 8h30–19h30 le dimanche, aucune fermeture exceptionnelle annoncée. Parking client gratuit en surface (OSM). Chien : règle Despar, sac ou caisse uniquement. Alternatives : Despar de Colfosco (Str. Col Pradat 37), 7h–12h et 15h–19h, dimanche 7h–12h et 16h–19h ; Conad City de Corvara (Strada Col Alt 97), 8h–19h du lundi au samedi, 9h–19h le dimanche. Le Despar Strada Col Alt 10 de Corvara est affiché fermé toute la semaine."
+    "description": "Supermarché Despar de La Villa, sur la route principale de l'Alta Badia. Fiche officielle (28/09/2026) : 8h–19h30 du lundi au samedi, 8h30–19h30 le dimanche, aucune fermeture exceptionnelle annoncée. Parking client gratuit en surface (OSM). Chien : règle Despar, sac ou caisse uniquement. Alternatives : Despar de Colfosco (Str. Col Pradat 37), 7h–12h et 15h–19h, dimanche 7h–12h et 16h–19h ; Conad City de Corvara (Strada Col Alt 97), 8h–19h du lundi au samedi, 9h–19h le dimanche. Le Despar Strada Col Alt 10 de Corvara est affiché fermé toute la semaine.",
+    "photos": [
+      {
+        "legende": "Environs de Despar La Villa — provisions Alta Badia — Bergrutsch im Gadertal",
+        "credit": "Unterillertaler — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-despar-la-villa-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Despar La Villa — provisions Alta Badia — Smueia de Badia",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-despar-la-villa-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Despar La Villa — provisions Alta Badia — Smueia de Badia 2",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-despar-la-villa-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "courses-despar-dobbiaco",
@@ -13593,7 +13667,24 @@
       "note": "Ouvert du lundi au samedi pendant le séjour, fermé à midi et le samedi après-midi ; dimanche fermé."
     },
     "acces": "Centre de Dobbiaco, au rez-de-chaussée du Kaufhaus Sapelza, près de la place de l'Hôtel de ville.",
-    "description": "Le Despar de Dobbiaco est celui de la Via Conti Künigl 3/7, dans le Kaufhaus Sapelza : lundi–vendredi 8h30–12h et 15h–19h, samedi 8h30–12h30, dimanche fermé (fiche officielle Despar, prospectus en cours). Google Maps indique une fermeture à 18h30 le lundi : prévoir d'arriver avant 18h30. L'ancien Despar de la St. Johannesstraße 2 n'existe plus : un Eurospin l'a remplacé en 2021 à la même adresse (Viale San Giovanni 2A, 8h30–19h sans coupure, dimanche fermé), plus pratique pour des courses en fin d'après-midi. Chien : sac ou caisse uniquement chez Despar. Aucun supermarché de Dobbiaco n'ouvre le dimanche."
+    "description": "Le Despar de Dobbiaco est celui de la Via Conti Künigl 3/7, dans le Kaufhaus Sapelza : lundi–vendredi 8h30–12h et 15h–19h, samedi 8h30–12h30, dimanche fermé (fiche officielle Despar, prospectus en cours). Google Maps indique une fermeture à 18h30 le lundi : prévoir d'arriver avant 18h30. L'ancien Despar de la St. Johannesstraße 2 n'existe plus : un Eurospin l'a remplacé en 2021 à la même adresse (Viale San Giovanni 2A, 8h30–19h sans coupure, dimanche fermé), plus pratique pour des courses en fin d'après-midi. Chien : sac ou caisse uniquement chez Despar. Aucun supermarché de Dobbiaco n'ouvre le dimanche.",
+    "photos": [
+      {
+        "legende": "Environs de Despar Dobbiaco (Kaufhaus Sapelza) — courses base est — Campanile",
+        "credit": "Roberto Ferrari from Campogalliano (Modena), Italy — Wikimedia Commons, CC BY-SA 2.0",
+        "fichier": "courses-despar-dobbiaco-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Despar Dobbiaco (Kaufhaus Sapelza) — courses base est — 20050903015DR Toblach (Bozen) Pfarrkirche Johann Baptist",
+        "credit": "Jörg Blobelt — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "courses-despar-dobbiaco-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Despar Dobbiaco (Kaufhaus Sapelza) — courses base est — 20050903010DR Toblach (Bozen) Pfarrkirche Johann Baptist",
+        "credit": "Jörg Blobelt — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "courses-despar-dobbiaco-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "courses-conad-dobbiaco",
@@ -13698,7 +13789,8 @@
       "note": "Ouvert du lundi au samedi en octobre ; fermé le dimanche."
     },
     "acces": "Centre de Dobbiaco, place de l'église, magasin en sous-sol (niveau -1). Parking de surface payant devant.",
-    "description": "Conad City sur la place de l'église de Dobbiaco (Piazza Parrocchia 1, niveau -1). La fiche officielle donne 8h–19h du lundi au samedi et aucun horaire le dimanche : fermé. Google Maps (849 avis) confirme le magasin ouvert ; l'ancien Conad City de la Piazza Municipio 2A est fermé définitivement, ne pas s'y rendre. La fiche ne déclare pas l'admission des animaux : se relayer pour les courses. Stationnement devant : parking payant (3 €/h selon OSM) ; places gratuites plus au sud sur Viale San Giovanni."
+    "description": "Conad City sur la place de l'église de Dobbiaco (Piazza Parrocchia 1, niveau -1). La fiche officielle donne 8h–19h du lundi au samedi et aucun horaire le dimanche : fermé. Google Maps (849 avis) confirme le magasin ouvert ; l'ancien Conad City de la Piazza Municipio 2A est fermé définitivement, ne pas s'y rendre. La fiche ne déclare pas l'admission des animaux : se relayer pour les courses. Stationnement devant : parking payant (3 €/h selon OSM) ; places gratuites plus au sud sur Viale San Giovanni.",
+    "photos": []
   },
   {
     "id": "courses-conad-bressanone",
@@ -13787,7 +13879,8 @@
       "note": "Ouvert du lundi au samedi en octobre ; fermé le dimanche."
     },
     "acces": "Via Dante, sud du centre de Bressanone. Parking extérieur du magasin conseillé ; à défaut, Parkhaus Brixen (Via Dante 13, 2,20 m, éviter le niveau -2 à 1,90 m).",
-    "description": "Conad du quartier sud de Bressanone. Fiche officielle : 7h30–19h30 en semaine, 8h–19h30 le samedi, pas d'horaire le dimanche : fermé. Parking extérieur et couvert annoncés ; hauteur du couvert non publiée : rester en extérieur avec 1,95 m. Aucune admission des animaux déclarée : se relayer. Le dimanche, l'Eurospar Via Brennero (9h–19h30) est l'alternative ouverte."
+    "description": "Conad du quartier sud de Bressanone. Fiche officielle : 7h30–19h30 en semaine, 8h–19h30 le samedi, pas d'horaire le dimanche : fermé. Parking extérieur et couvert annoncés ; hauteur du couvert non publiée : rester en extérieur avec 1,95 m. Aucune admission des animaux déclarée : se relayer. Le dimanche, l'Eurospar Via Brennero (9h–19h30) est l'alternative ouverte.",
+    "photos": []
   },
   {
     "id": "aire-pontives",
@@ -14021,7 +14114,8 @@
         }
       ],
       "doutes": "OSM numérote ce magasin « Via Aurelia 408 » alors que Conad publie « Via Aurelia 88 » avec ces coordonnées ; l'autre Conad City (fiche Conad « Via Aurelia 408 ») est à 44,1220 / 8,2516. La position Conad fait foi. Gratuité du parking non publiée. Horaires d'octobre non distingués sur la fiche (horaires courants au 28/09/2026)."
-    }
+    },
+    "photos": []
   },
   {
     "id": "courses-conad-city-loano",
@@ -14097,7 +14191,24 @@
         }
       ],
       "doutes": "Pas de parking déclaré ; préférer le Conad Via Aurelia 88."
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Conad City Via Aurelia 408 — Loano — Stazione di Loano fabbricato viaggiatori lato binari",
+        "credit": "Mentnafunangann — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-conad-city-loano-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Conad City Via Aurelia 408 — Loano — Loano locomotiva FTN 9",
+        "credit": "Giorgio Stagni — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-conad-city-loano-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Conad City Via Aurelia 408 — Loano — Loano Via Aurelia panoramio",
+        "credit": "avu-edm — Wikimedia Commons, CC BY 3.0",
+        "fichier": "courses-conad-city-loano-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "courses-coop-finale",
@@ -14178,7 +14289,8 @@
         }
       ],
       "doutes": "Horaires seulement relevés sur OSM (une source) : à confirmer sur coop.it. Parking non vérifié."
-    }
+    },
+    "photos": []
   },
   {
     "id": "courses-conad-acqui",
@@ -14258,7 +14370,8 @@
         }
       ],
       "doutes": "Dimanche : Conad publie 8h30–13h00, OSM 9h00–13h00 ; la fiche Conad fait foi (source exploitant, relue le 28/09/2026)."
-    }
+    },
+    "photos": []
   },
   {
     "id": "courses-lidl-varna",
@@ -14338,7 +14451,24 @@
         }
       ],
       "doutes": "Horaires d'octobre pas encore publiés (la fiche montre la semaine en cours)."
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Lidl Varna — Torrent covered in snow",
+        "credit": "Yellow.Cat from Roma, Italy — Wikimedia Commons, CC BY 2.0",
+        "fichier": "courses-lidl-varna-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Lidl Varna — Vahrn Neustift Ansitz Hofstätter (17769)",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-lidl-varna-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Lidl Varna — Vahrn Neustift Ansitz Hofstätter (17769)2",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-lidl-varna-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "courses-conad-city-varna",
@@ -14414,7 +14544,8 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": []
   },
   {
     "id": "courses-conad-city-corvara",
@@ -14490,7 +14621,24 @@
         }
       ],
       "doutes": "OSM indique une coupure de midi et le dimanche fermé ; la fiche Conad (continu, dimanche 9h–19h) fait foi mais les horaires d'intersaison peuvent changer : vérifier la veille."
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Conad City Corvara — Corvara mit dem Sassongher",
+        "credit": "Unterillertaler — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-conad-city-corvara-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Conad City Corvara — MS15",
+        "credit": "User:Andrj15 — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-conad-city-corvara-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Conad City Corvara — Corvara ^ Sassonger panoramio",
+        "credit": "Zoran Kurelić Rabko — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "courses-conad-city-corvara-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "courses-conad-city-cortina",
@@ -14566,7 +14714,8 @@
         }
       ],
       "doutes": "Gratuité du parking non publiée (centre de Cortina souvent payant)."
-    }
+    },
+    "photos": []
   },
   {
     "id": "courses-coop-cortina",
@@ -14642,7 +14791,24 @@
         }
       ],
       "doutes": "Page chien de 2022 : politique à reconfirmer sur place. Dimanche fermé."
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de La Cooperativa di Cortina — Viadukt Cortina",
+        "credit": "Webverbesserer — Wikimedia Commons, CC BY 3.0",
+        "fichier": "courses-coop-cortina-web-1.jpg"
+      },
+      {
+        "legende": "Environs de La Cooperativa di Cortina — CALLE EN CORTINA panoramio",
+        "credit": "Manuel Velazquez — Wikimedia Commons, CC BY 3.0",
+        "fichier": "courses-coop-cortina-web-2.jpg"
+      },
+      {
+        "legende": "Environs de La Cooperativa di Cortina — 32043 Cortina d'Ampezzo, Province of Belluno, Italy panoramio (2)",
+        "credit": "Anton Nikiforov — Wikimedia Commons, CC BY 3.0",
+        "fichier": "courses-coop-cortina-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "courses-eurospin-dobbiaco",
@@ -14723,7 +14889,8 @@
         }
       ],
       "doutes": "Fiche Eurospin non relue aujourd'hui (source reprise du dépôt)."
-    }
+    },
+    "photos": []
   },
   {
     "id": "courses-leclerc-le-luc",
@@ -14811,7 +14978,8 @@
         }
       ],
       "doutes": "Dimanche : OSM dit ouvert le matin, la page Leclerc dit fermé ; la page Leclerc fait foi. Parking : absence de portique non vérifiée sur place."
-    }
+    },
+    "photos": []
   },
   {
     "id": "courses-intermarche-arles",
@@ -14919,6 +15087,21 @@
         "legende": "Environs de Intermarché Super Arles Trinquetaille — Rhône (Arles) (3)",
         "credit": "Gzen92 — Wikimedia Commons, CC BY-SA 4.0",
         "fichier": "courses-intermarche-arles-web-3.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chapelle_du_Mejan_et_tour_de_l%27horloge_%28Arles%29.jpg/960px-Chapelle_du_Mejan_et_tour_de_l%27horloge_%28Arles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Environs de Intermarché Super Arles Trinquetaille — Chapelle du Mejan et tour de l'horloge (Arles)",
+        "credit": "Gzen92 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Rh%C3%B4ne_%28Arles%29_%281%29.jpg/960px-Rh%C3%B4ne_%28Arles%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Environs de Intermarché Super Arles Trinquetaille — Rhône (Arles) (1)",
+        "credit": "Gzen92 — Wikimedia Commons, CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Rh%C3%B4ne_%28Arles%29_%283%29.jpg/960px-Rh%C3%B4ne_%28Arles%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Environs de Intermarché Super Arles Trinquetaille — Rhône (Arles) (3)",
+        "credit": "Gzen92 — Wikimedia Commons, CC BY-SA 4.0"
       }
     ]
   },
@@ -15010,7 +15193,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Finale Ligure — Via Mazzini 13 — Finale Ligure palazzo Ghiglieri",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "carburant-eni-finale-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-savona-stalingrado",
@@ -15197,7 +15387,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Acqui Terme — Via Circonvallazione 15 — Acqui Terme",
+        "credit": "photobeppus — Wikimedia Commons, CC BY-SA 2.0",
+        "fichier": "carburant-eni-acqui-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-spinetta",
@@ -15269,6 +15466,11 @@
         "legende": "Environs de Eni Spinetta Marengo (Alessandria) — SS10 Via Genova 26 — Platano Napoleone",
         "credit": "Brigante mandrogno — Wikimedia Commons, Public domain",
         "fichier": "carburant-eni-spinetta-web-1.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Platano_Napoleone.jpg/960px-Platano_Napoleone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Environs de Eni Spinetta Marengo (Alessandria) — SS10 Via Genova 26 — Platano Napoleone",
+        "credit": "Brigante mandrogno — Wikimedia Commons, Public domain"
       }
     ]
   },
@@ -15366,6 +15568,11 @@
         "legende": "Environs de Pompe Bianche Salò — Piazza S. Bernardino 10 — Plaque dedicated to Pierino Ebranati",
         "credit": "Luca.favorido — Wikimedia Commons, CC0",
         "fichier": "carburant-pompebianche-salo-web-1.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Plaque_dedicated_to_Pierino_Ebranati.jpg/960px-Plaque_dedicated_to_Pierino_Ebranati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Environs de Pompe Bianche Salò — Piazza S. Bernardino 10 — Plaque dedicated to Pierino Ebranati",
+        "credit": "Luca.favorido — Wikimedia Commons, CC0"
       }
     ]
   },
@@ -15457,7 +15664,14 @@
         }
       ],
       "doutes": "Dernier prix déclaré le 24/09 (2,112 €) ; sous plafond Eni de toute façon."
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Trento — Via Maccani 46 — Trento fountain via Pietrastretta",
+        "credit": "Matteo Ianeselli — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "carburant-eni-trento-maccani-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-dro",
@@ -15547,7 +15761,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Dro — Località Lago 10 — Le Marocche di Dro (TN) panoramio",
+        "credit": "giovanni bidi — Wikimedia Commons, CC BY 3.0",
+        "fichier": "carburant-eni-dro-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-chiusa",
@@ -15637,7 +15858,8 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": []
   },
   {
     "id": "carburant-eni-bressanone",
@@ -15727,7 +15949,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Bressanone — Via Peter Mayr 16 — Blackbird female",
+        "credit": "Yellow.Cat from Roma, Italy — Wikimedia Commons, CC BY 2.0",
+        "fichier": "carburant-eni-bressanone-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-bressanone-lahner",
@@ -15817,7 +16046,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Bressanone sud — Via Lahner 39 — Brixen Pfefferberg Tschötsch St. Johannes (14302)",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "carburant-eni-bressanone-lahner-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-santa-cristina",
@@ -15883,7 +16119,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Santa Cristina Valgardena — SS242 km 14 — Alpin garden Ortisei 5572 Flickr Ragnhild & Neil Crawford",
+        "credit": "Ragnhild&amp;Neil Crawford from Sweden — Wikimedia Commons, CC BY-SA 2.0",
+        "fichier": "carburant-eni-santa-cristina-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-badia",
@@ -15973,7 +16216,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Badia — Bergrutsch im Gadertal",
+        "credit": "Unterillertaler — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "carburant-eni-badia-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-cortina",
@@ -16039,7 +16289,8 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": []
   },
   {
     "id": "carburant-eni-dobbiaco",
@@ -16129,7 +16380,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Dobbiaco — SS49 km 59 — Bibliothek Toblach Innenansicht",
+        "credit": "Edith Strobl — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "carburant-eni-dobbiaco-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-taggia",
@@ -16219,7 +16477,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Taggia — Via Aurelia 10 — Taggia Arma vecchia staz ferr E.656",
+        "credit": "Giorgio Stagni — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "carburant-eni-taggia-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-ip-sanremo",
@@ -16285,7 +16550,8 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": []
   },
   {
     "id": "carburant-total-arles",
@@ -16375,7 +16641,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de TotalEnergies Arles — Relais du pont Van Gogh — Arles ecluse",
+        "credit": "Ad Meskens — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "carburant-total-arles-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-total-cannet-des-maures",
@@ -16465,7 +16738,8 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": []
   },
   {
     "id": "carburant-total-le-luc",
@@ -16555,7 +16829,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de TotalEnergies Access Le Luc — RN7 Les Liébauds — Var department location map",
+        "credit": "Edouard-rainaut — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "carburant-total-le-luc-web-1.png"
+      }
+    ]
   },
   {
     "id": "carburant-total-saint-maximin",
@@ -16645,7 +16926,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de TotalEnergies Access Saint-Maximin — RN7 route de Nice — Basilique St Maximim La Sainte Baume",
+        "credit": "yves Tennevin — Wikimedia Commons, CC BY 2.0",
+        "fichier": "carburant-total-saint-maximin-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-total-roquebrune",
@@ -16735,7 +17023,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de TotalEnergies Access Roquebrune-Cap-Martin — RD6007 — Fouga Magister on french AFB 943",
+        "credit": "Tangopaso — Wikimedia Commons, Public domain",
+        "fichier": "carburant-total-roquebrune-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-total-fourques",
@@ -16825,7 +17120,8 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": []
   },
   {
     "id": "lago-carezza",
@@ -17719,7 +18015,8 @@
           "url": "https://www.openstreetmap.org/search?query=Via%20alla%20Cappelletta%2C%20Pietra%20Ligure"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-camping-dei-fiori",
@@ -17766,7 +18063,8 @@
           "url": "https://www.bungalow.it/italia/liguria/pietra-ligure/camping-dei-fiori-cn1n1r7p9c1238s67"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-pension-veltierhof",
@@ -17814,7 +18112,14 @@
           "url": "https://www.openstreetmap.org/search?query=Vollergnadenweg%203%2C%20Villn%C3%B6%C3%9F"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Pension Veltierhof (Val di Funes) — Herbstpanorama Sankt Magdalena Villnöß",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "abri-pension-veltierhof-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-galreidhof",
@@ -17865,7 +18170,14 @@
           "url": "https://www.openstreetmap.org/search?query=Sunnseitn%203%2C%20Villn%C3%B6%C3%9F"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Galreidhof — appartement de ferme (Santa Maddalena) — 39040 Villnöß, Province of Bolzano South Tyrol, Italy panoramio (2)",
+        "credit": "Fabio_Antoniazzi_75 — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "abri-galreidhof-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-gasthaus-vahrner-see",
@@ -17914,7 +18226,8 @@
           "url": "https://camping-vahrner-see.com/landgasthaus/restaurant-bar"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-parking-couvert-bressanone",
@@ -17973,7 +18286,8 @@
           "url": "https://bevoelkerungsschutz.provinz.bz.it/it/alluvioni"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-bb-hotel-heidi",
@@ -18028,7 +18342,8 @@
           "url": "https://www.openstreetmap.org/search?query=Gratsch%206%2C%20Toblach"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-parking-finale-autosilos",
@@ -18087,7 +18402,14 @@
           "url": "https://idrogeo.isprambiente.it/app/"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Park Autosilos — parking couvert à étages (Finale Ligure) — Finale Ligure palazzo Ghiglieri",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "abri-parking-finale-autosilos-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-campeggio-del-mulino",
@@ -18134,7 +18456,14 @@
           "url": "https://www.openstreetmap.org/search?query=Via%20Castelli%2C%20Finalpia%2C%20Finale%20Ligure"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Campeggio del Mulino — bungalow (Finale Ligure) — Finale Ligure panorama",
+        "credit": "febs — Wikimedia Commons, CC BY 2.0",
+        "fichier": "abri-campeggio-del-mulino-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-ai-pozzi-loano",
@@ -18187,7 +18516,14 @@
           "url": "https://www.openstreetmap.org/search?query=Via%20Silvio%20Amico%2035%2C%20Loano"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Ai Pozzi Village — studio (Loano) — Self portraitlabel QS:Len,\"Self portrait\"",
+        "credit": "Vincenzo Guidotti — Wikimedia Commons, CC0",
+        "fichier": "abri-ai-pozzi-loano-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-hotel-florenz-finale",
@@ -18238,7 +18574,8 @@
           "url": "https://www.openstreetmap.org/search?query=Via%20Domenico%20Brunenghi%20124%2C%20Finale%20Ligure"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-villaggio-giuele",
@@ -18291,7 +18628,14 @@
           "url": "https://www.openstreetmap.org/search?query=Via%20Calvisio%2037%2C%20Finale%20Ligure"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Il Villaggio di GiuEle — studio (Calvisio) — Monte Corno",
+        "credit": "Wasquewhat — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "abri-villaggio-giuele-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-hotel-bello-finale",
@@ -18343,7 +18687,14 @@
           "url": "https://www.openstreetmap.org/search?query=Via%20Silla%208%2C%20Finale%20Ligure"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Hotel Bello by Ostello Bello (Finale Ligure) — Finale Ligure palazzo Ghiglieri",
+        "credit": "Davide Papalini — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "abri-hotel-bello-finale-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-miglanzhof",
@@ -18394,7 +18745,14 @@
           "url": "https://www.openstreetmap.org/search?query=Valentinweg%2044%2C%20Villn%C3%B6%C3%9F"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Miglanzhof — appartement « Peitler » (ferme) — Türkenbund Lilie Lilium martagon Villnößtal 170626",
+        "credit": "Armin S Kowalski — Wikimedia Commons, CC BY-SA 2.0",
+        "fichier": "abri-miglanzhof-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-gasserhof-feldthurns",
@@ -18446,7 +18804,14 @@
           "url": "https://www.openstreetmap.org/search?query=Schnauderer%20Stra%C3%9Fe%2023%2C%20Feldthurns"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Gasserhof — chambre (ferme, Feldthurns) — Feldthurns Schloss Velthurns (14798)",
+        "credit": "Oliver Abels (SBT) — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "abri-gasserhof-feldthurns-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-vogelweide-klausen",
@@ -18498,7 +18863,8 @@
           "url": "https://www.openstreetmap.org/search?query=Oberstadt%2066%2C%20Klausen"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-raschoetzhof",
@@ -18557,6 +18923,11 @@
         "legende": "Environs de Pension Garni Raschötzhof (St. Peter) — Villnoess Sankt Peter und Paul 8631",
         "credit": "Pelz — Wikimedia Commons, CC BY-SA 3.0",
         "fichier": "abri-raschoetzhof-web-1.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Villnoess_Sankt_Peter_und_Paul_8631.jpg/960px-Villnoess_Sankt_Peter_und_Paul_8631.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Environs de Pension Garni Raschötzhof (St. Peter) — Villnoess Sankt Peter und Paul 8631",
+        "credit": "Pelz — Wikimedia Commons, CC BY-SA 3.0"
       }
     ]
   },
@@ -18610,7 +18981,14 @@
           "url": "https://www.openstreetmap.org/search?query=Teiser%20Stra%C3%9Fe%2013%2C%20Villn%C3%B6%C3%9F"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Gasthof Teiser Stern (Teis) — Schloss Summersberg 1",
+        "credit": "Haneburger — Wikimedia Commons, Public domain",
+        "fichier": "abri-teiser-stern-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-hotel-kabis",
@@ -18661,7 +19039,8 @@
           "url": "https://www.openstreetmap.org/search?query=Peterweg%2014%2C%20Villn%C3%B6%C3%9F"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-ranuimuellerhof",
@@ -18720,6 +19099,11 @@
         "legende": "Environs de Hotel Ranuimüllerhof (Santa Maddalena) — 3,025m Sass Rigais Dolomites Funes Italy - panoramio",
         "credit": "Hiroki Ogawa — Wikimedia Commons, CC BY 3.0",
         "fichier": "abri-ranuimuellerhof-web-1.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/39040_Villn%C3%B6%C3%9F%2C_Province_of_Bolzano_-_South_Tyrol%2C_Italy_-_panoramio_%282%29.jpg/960px-39040_Villn%C3%B6%C3%9F%2C_Province_of_Bolzano_-_South_Tyrol%2C_Italy_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Environs de Hotel Ranuimüllerhof (Santa Maddalena) — 39040 Villnöß, Province of Bolzano South Tyrol, Italy panoramio (2)",
+        "credit": "Fabio_Antoniazzi_75 — Wikimedia Commons, CC BY-SA 3.0"
       }
     ]
   },
@@ -18773,7 +19157,8 @@
           "url": "https://www.openstreetmap.org/search?query=Unterbrunnergasse%2011%2C%20Natz-Schabs"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-gaestehaus-klara",
@@ -18825,7 +19210,14 @@
           "url": "https://www.openstreetmap.org/search?query=%C3%96lberg%201%2C%20Natz-Schabs"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Gästehaus Klara (Natz) — avec garage — Natz 310807",
+        "credit": "Bernd Haynold — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "abri-gaestehaus-klara-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-pension-haus-am-see",
@@ -18876,7 +19268,14 @@
           "url": "https://www.openstreetmap.org/search?query=Fl%C3%B6tscher%201%2C%20Natz-Schabs"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Pension Haus am See — appartement (Natz) — Poligam Alpen Flair Sven 1D X MK II 0003 AK8I2926",
+        "credit": "Sven Mandel — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "abri-pension-haus-am-see-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-hotel-putzer",
@@ -18927,7 +19326,14 @@
           "url": "https://www.openstreetmap.org/search?query=Pustertaler%20Stra%C3%9Fe%209%2C%20Natz-Schabs"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Hotel Putzer (Schabs) — Spinges",
+        "credit": "Internt Consulting — Wikimedia Commons, CC BY 2.0",
+        "fichier": "abri-hotel-putzer-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-gasthof-thaler",
@@ -18979,7 +19385,8 @@
           "url": "https://www.openstreetmap.org/search?query=Mittewald%2C%20Franzensfeste"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-schusterhof-natz",
@@ -19030,7 +19437,8 @@
           "url": "https://www.openstreetmap.org/search?query=Schlossergasse%2048%2C%20Natz-Schabs"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-hotel-traube-brixen",
@@ -19082,7 +19490,8 @@
           "url": "https://www.openstreetmap.org/search?query=Runggadgasse%2024%2C%20Brixen"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-durnwalder-prags",
@@ -19129,7 +19538,14 @@
           "url": "https://www.openstreetmap.org/search?query=St.%20Veit%204%2C%20Prags"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de APP. Durnwalder — appartement (ferme) — Lake of Braies in 2024.12",
+        "credit": "CAPTAIN RAJU — Wikimedia Commons, CC0",
+        "fichier": "abri-durnwalder-prags-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-huterhof-innichen",
@@ -19176,7 +19592,14 @@
           "url": "https://www.openstreetmap.org/search?query=Loretostra%C3%9Fe%2015%2C%20Innichen"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Huterhof — appartement (ferme) — Staatsgrenze Drautalbahn",
+        "credit": "Morido — Wikimedia Commons, CC BY 4.0",
+        "fichier": "abri-huterhof-innichen-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-hirschenhof-toblach",
@@ -19223,7 +19646,8 @@
           "url": "https://www.openstreetmap.org/search?query=Wahlen%2057%2C%20Toblach"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-parkhof-niederdorf",
@@ -19270,7 +19694,8 @@
           "url": "https://www.openstreetmap.org/search?query=Parkweg%2045%2C%20Niederdorf"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-steinerhof-toblach",
@@ -19317,7 +19742,8 @@
           "url": "https://www.openstreetmap.org/search?query=Haselsberg%2016%2C%20Toblach"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "abri-garni-letizia",
@@ -19369,7 +19795,14 @@
           "url": "https://www.openstreetmap.org/search?query=Firtalerstra%C3%9Fe%205%2C%20Innichen"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Hotel Garni Letizia (San Candido) — Fiati",
+        "credit": "Roberto Ferrari from Campogalliano (Modena), Italy — Wikimedia Commons, CC BY-SA 2.0",
+        "fichier": "abri-garni-letizia-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-emma-niederdorf",
@@ -19420,7 +19853,14 @@
           "url": "https://www.openstreetmap.org/search?query=Frau-Emma-Stra%C3%9Fe%205%2C%20Niederdorf"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Emma Historic Hotel (Villabassa) — Villabassa Niederdorf 001",
+        "credit": "Mattana — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "abri-emma-niederdorf-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-hotel-andermax",
@@ -19468,7 +19908,14 @@
           "url": "https://www.openstreetmap.org/search?query=Helmweg%2013%2C%20Innichen"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Hotel Andermax (Versciaco) — Innichen Vierschach, dorpszicht IMG",
+        "credit": "Michielverbeek — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "abri-hotel-andermax-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "agricamping-lo-zafferano",
@@ -19527,7 +19974,8 @@
           "url": "https://www.camperonline.it/sosta-camper/agriturismi/pietra-ligure/6518"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "agricamping-oasi-ceriale",
@@ -19583,7 +20031,24 @@
           "url": "https://www.camperonline.it/sosta-camper/aree-di-sosta/italia/liguria/oasi-agricamping/23955"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Agricamping Oasi (Ceriale) — Festivàl de Sàn Zòrzo (Arbénga, 2023) Mainè e mainesse de Vuè",
+        "credit": "N.Longo — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "agricamping-oasi-ceriale-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Agricamping Oasi (Ceriale) — Mainè e mainesse de Vuè (Festival de San Zorzu 2023) Ezibisiun 03",
+        "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "agricamping-oasi-ceriale-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Agricamping Oasi (Ceriale) — Attilio Valeri (Festival de San Zorzu 2023) Ezibisiun 05",
+        "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "agricamping-oasi-ceriale-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "camping-pian-dei-boschi",
@@ -19630,7 +20095,24 @@
           "url": "https://www.piandeiboschi.it/it/prezzi-camping-pietra-ligure.html"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Camping Pian dei Boschi (Pietra Ligure) — Pietra Ligure complesso residenziale \"Pietre di Mare\"",
+        "credit": "Luca Galli — Wikimedia Commons, CC BY 2.0",
+        "fichier": "camping-pian-dei-boschi-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Camping Pian dei Boschi (Pietra Ligure) — Capella de San Bastian (Ransi, A Prìa) 03",
+        "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "camping-pian-dei-boschi-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Camping Pian dei Boschi (Pietra Ligure) — Capella de San Bastian (Ransi, A Prìa) 02",
+        "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "camping-pian-dei-boschi-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "aire-area-camper-pietra",
@@ -19687,7 +20169,24 @@
           "url": "https://www.openstreetmap.org/way/25616990"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Area Camper Pietra — aire (tente de toit probablement refusée) — Tunba munumentale du mestru Guido Moretti (Semiteiu da Prìa) 02",
+        "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "aire-area-camper-pietra-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Area Camper Pietra — aire (tente de toit probablement refusée) — Tunba munumentale du mestru Guido Moretti (Semiteiu da Prìa) 03",
+        "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "aire-area-camper-pietra-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Area Camper Pietra — aire (tente de toit probablement refusée) — Tunba munumentale du mestru Guido Moretti (Semiteiu da Prìa) 01",
+        "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "aire-area-camper-pietra-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "aire-sportbar-villnoess",
@@ -19752,7 +20251,24 @@
           "url": "https://www.openstreetmap.org/node/10013108559"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Aire de la Sportbar (St. Peter, Val di Funes) — Villnoess Sankt Peter und Paul 8631",
+        "credit": "Pelz — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "aire-sportbar-villnoess-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Aire de la Sportbar (St. Peter, Val di Funes) — Villnoess Sankt Peter und Paul Innenraum 8629",
+        "credit": "Pelz — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "aire-sportbar-villnoess-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Aire de la Sportbar (St. Peter, Val di Funes) — Villnoess Sankt Peter und Paul Decke 8628",
+        "credit": "Pelz — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "aire-sportbar-villnoess-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "agricamping-sitting-bull-ranch",
@@ -19801,7 +20317,8 @@
           "url": "https://stellplatz.info/wohnmobilstellplatz/sitting-bull-ranch"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "agricamping-glinzhof",
@@ -19857,7 +20374,24 @@
           "url": "https://stellplatz.info/wohnmobilstellplatz/glinzhof"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Glinzhof — ferme bio (San Candido) — Rio Sesto a San Candido, il fiume piu lungo d Italia panoramio",
+        "credit": "Walter Della Schiava — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "agricamping-glinzhof-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Glinzhof — ferme bio (San Candido) — La seggiovia dei Baranci panoramio",
+        "credit": "Walter Della Schiava — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "agricamping-glinzhof-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Glinzhof — ferme bio (San Candido) — Bahnhof Innichen Blocksignal Richtung Österreich",
+        "credit": "Morido — Wikimedia Commons, CC BY 4.0",
+        "fichier": "agricamping-glinzhof-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "aire-camperpark-dolomites",
@@ -19917,7 +20451,24 @@
           "url": "https://www.openstreetmap.org/search?query=Camperpark%20Dolomites"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Camperpark Dolomites (San Candido) — Staatsgrenze Drautalbahn",
+        "credit": "Morido — Wikimedia Commons, CC BY 4.0",
+        "fichier": "aire-camperpark-dolomites-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Camperpark Dolomites (San Candido) — Draupass PassoDrava",
+        "credit": "Morido — Wikimedia Commons, CC BY 4.0",
+        "fichier": "aire-camperpark-dolomites-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Camperpark Dolomites (San Candido) — Boletus Italy",
+        "credit": "Giorgio___ — Wikimedia Commons, CC0",
+        "fichier": "aire-camperpark-dolomites-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "aire-monguelfo",
@@ -19971,7 +20522,24 @@
           "url": "https://www.openstreetmap.org/node/11231074196"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Aire de camping-cars de Monguelfo — Riflessioni",
+        "credit": "Roberto Ferrari from Campogalliano (Modena), Italy — Wikimedia Commons, CC BY-SA 2.0",
+        "fichier": "aire-monguelfo-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Aire de camping-cars de Monguelfo — Scultura",
+        "credit": "Roberto Ferrari from Campogalliano (Modena), Italy — Wikimedia Commons, CC BY-SA 2.0",
+        "fichier": "aire-monguelfo-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Aire de camping-cars de Monguelfo — Scultura 1",
+        "credit": "Roberto Ferrari from Campogalliano (Modena), Italy — Wikimedia Commons, CC BY-SA 2.0",
+        "fichier": "aire-monguelfo-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "camping-lago-dobbiaco",
@@ -20021,7 +20589,24 @@
           "url": "https://www.toblachersee.com/preise-camping/"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Camping Lago di Dobbiaco — Lago di Dobbiaco panoramio",
+        "credit": "József Kovács — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "camping-lago-dobbiaco-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Camping Lago di Dobbiaco — Lago di Dobbiaco panoramio József Kovács",
+        "credit": "József Kovács — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "camping-lago-dobbiaco-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Camping Lago di Dobbiaco — Lago di Dobbiaco panoramio József Kovács (1)",
+        "credit": "József Kovács — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "camping-lago-dobbiaco-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "aire-misurina",
@@ -20077,7 +20662,8 @@
           "url": "https://www.openstreetmap.org/node/13247661471"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "service-douche-plage-pietra",
@@ -20120,7 +20706,14 @@
           "url": "https://www.openstreetmap.org/node/13740848121"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Douche de plage gratuite (Pietra Ligure) — PietraLigureMonumentoAiCaduti",
+        "credit": "Marco Rimoldi, Kaosrimo — Wikimedia Commons, CC BY 3.0",
+        "fichier": "service-douche-plage-pietra-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "service-wc-pietra",
@@ -20163,7 +20756,14 @@
           "url": "https://www.openstreetmap.org/node/4390237190"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de WC publics gratuits (Pietra Ligure) — PietraLigureMonumentoAiCaduti",
+        "credit": "Marco Rimoldi, Kaosrimo — Wikimedia Commons, CC BY 3.0",
+        "fichier": "service-wc-pietra-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "service-wc-carezza",
@@ -20206,7 +20806,14 @@
           "url": "https://www.openstreetmap.org/way/394926869"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de WC gratuits du centre de services (Carezza) — Bozen 2 (114)",
+        "credit": "User:Mattes — Wikimedia Commons, Public domain",
+        "fichier": "service-wc-carezza-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "service-fontaine-santa-maddalena",
@@ -20249,7 +20856,8 @@
           "url": "https://www.openstreetmap.org/node/2429287832"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "service-wc-santa-maddalena",
@@ -20292,7 +20900,8 @@
           "url": "https://www.openstreetmap.org/node/8355897663"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "service-vidange-bressanone",
@@ -20335,7 +20944,8 @@
           "url": "https://www.openstreetmap.org/node/7758093823"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "service-fontaine-bressanone",
@@ -20378,7 +20988,14 @@
           "url": "https://www.openstreetmap.org/node/1475234912"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Fontaine de la régie municipale (Bressanone) — Brixen Adlerbrückengasse bei Nacht",
+        "credit": "Uoaei1 — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "service-fontaine-bressanone-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "service-laverie-ecozon-bressanone",
@@ -20420,7 +21037,8 @@
           "url": "https://www.openstreetmap.org/node/1930821706"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "service-laverie-lava-piu-val-badia",
@@ -20462,7 +21080,8 @@
           "url": "https://www.openstreetmap.org/node/12105935740"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "service-wc-valparola",
@@ -20505,7 +21124,14 @@
           "url": "https://www.openstreetmap.org/node/13022589336"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de WC gratuits (col de Valparola) — Lagazuoi panoramio (1)",
+        "credit": "Christian Brunow — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "service-wc-valparola-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "service-fontaine-cinque-torri",
@@ -20604,6 +21230,11 @@
         "legende": "Environs de Fontaine de 1868 (Cortina) — Cortina d'Ampezzo Italy - panoramio",
         "credit": "Hiroki Ogawa — Wikimedia Commons, CC BY 3.0",
         "fichier": "service-fontaine-cortina-web-1.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cortina_d%27Ampezzo_Italy_-_panoramio.jpg/960px-Cortina_d%27Ampezzo_Italy_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "legende": "Environs de Fontaine de 1868 (Cortina) — Cortina d'Ampezzo Italy panoramio",
+        "credit": "Hiroki Ogawa — Wikimedia Commons, CC BY 3.0"
       }
     ]
   },
@@ -20648,7 +21279,8 @@
           "url": "https://www.openstreetmap.org/way/300630311"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "service-wc-dobbiaco",
@@ -20691,7 +21323,8 @@
           "url": "https://www.openstreetmap.org/node/10795172221"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "veto-vetbz-bolzano",
@@ -20732,7 +21365,14 @@
           "url": "https://www.vetbz.it/medicina-durgenza/"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de VetBZ — urgences vétérinaires 24 h — Kompatscher, Van der Bellen, Mattarella and Caramaschi by the wall of the Bolzano transit ",
+        "credit": "boboseiptu — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "veto-vetbz-bolzano-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "veto-tierklinik-brixen",
@@ -20781,7 +21421,8 @@
           "url": "https://www.tieraerztekammer.com/bereitschaftsdienste/"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "veto-kleintierklinik-pranter",
@@ -20822,7 +21463,14 @@
           "url": "https://kleintierklinik.it/veterinaer-brixen-bozen-suedtirol.php"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Kleintierklinik Dr. Pranter (Bressanone) — Blackbird female",
+        "credit": "Yellow.Cat from Roma, Italy — Wikimedia Commons, CC BY 2.0",
+        "fichier": "veto-kleintierklinik-pranter-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "veto-bruneck",
@@ -20871,7 +21519,14 @@
           "url": "https://www.tieraerztekammer.com/bereitschaftsdienste/"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Tierarztpraxis Bruneck — vétérinaire (Brunico) — Monumento all'alpino di Brunico",
+        "credit": "Mauro Mazzio (Boboseiptu) — Wikimedia Commons, CC BY 2.5",
+        "fichier": "veto-bruneck-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "veto-vetcortina",
@@ -20913,7 +21568,14 @@
           "url": "https://www.vetcortina.it/"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Vetcortina — ambulatoire vétérinaire (Cortina) — Olympic Ski Jumping hill Cortina",
+        "credit": "User:Globetrotter51 — Wikimedia Commons, CC BY 3.0",
+        "fichier": "veto-vetcortina-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "veto-anicura-letimbro",
@@ -20954,7 +21616,8 @@
           "url": "https://www.anicura.it/cliniche/clinica-veterinaria-letimbro/contatti/"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "hopital-santa-corona",
@@ -21003,7 +21666,14 @@
           "url": "https://pslive.regione.liguria.it/"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Ospedale Santa Corona — urgences 24 h — Logo Santa Corona Pietra Ligure",
+        "credit": "Al*from*Lig — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "hopital-santa-corona-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "hopital-bressanone",
@@ -21044,7 +21714,14 @@
           "url": "https://www.sabes.it/de/notaufnahme-brixen"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Hôpital de Bressanone — urgences 24 h — Brixen Altes Krankenhaus (BD )",
+        "credit": "Oliver Abels — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "hopital-bressanone-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "hopital-san-candido",
@@ -21085,7 +21762,14 @@
           "url": "https://www.sabes.it/de/notaufnahme-innichen"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Hôpital de San Candido — urgences 24 h — Musica e Birra",
+        "credit": "Roberto Ferrari from Campogalliano (Modena), Italy — Wikimedia Commons, CC BY-SA 2.0",
+        "fichier": "hopital-san-candido-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "hopital-brunico",
@@ -21126,7 +21810,14 @@
           "url": "https://www.sabes.it/de/notaufnahme-bruneck"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Hôpital de Brunico — urgences 24 h — Brunico panoramio (19)",
+        "credit": "Emanuela Meme Giudic… — Wikimedia Commons, CC BY 3.0",
+        "fichier": "hopital-brunico-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "hopital-cortina",
@@ -21167,7 +21858,8 @@
           "url": "https://www.gvmnet.it/strutture-sanitarie/ospedale-cortina/le-specialita-mediche/specialita-di-ricovero/punto-di-primo-intervento-avanzato"
         }
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "pharmacie-rosenapotheke-varna",
@@ -21208,7 +21900,14 @@
           "url": "https://gesundheit.provinz.bz.it/de/turnusapotheken"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Rosenapotheke — pharmacie (Varna) — Vahrn Lidlhof (BD )",
+        "credit": "Oliver Abels — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "pharmacie-rosenapotheke-varna-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "pharmacie-dobbiaco",
@@ -21249,7 +21948,14 @@
           "url": "https://gesundheit.provinz.bz.it/de/turnusapotheken"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Farmacia Dobbiaco — pharmacie — Bibliothek Toblach Innenansicht",
+        "credit": "Edith Strobl — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "pharmacie-dobbiaco-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "pharmacie-del-borgo-finale",
@@ -21289,7 +21995,14 @@
           "url": "https://www.asl2.liguria.it/farmacie/turni-farmacie-territorio/documents/turni-farmacie-del-finalese.html"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Farmacia del Borgo — pharmacie de garde la nuit du 9 (Finalborgo) — VoileMarbreSanBiagio",
+        "credit": "auteur non précisé — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "pharmacie-del-borgo-finale-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "marche-rio-di-pusteria",
@@ -21329,6 +22042,13 @@
           "url": "https://www.suedtirol.info/de/de/erlebnisse-und-events/events-suedtirol/pdp-event.7D4FB07661C849C5A4F68E041748B400.wochenmarkt-und-bauernmarkt-in-muehlbach.muehlbach"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Marché du jeudi et marché paysan de Rio di Pusteria — Spinges",
+        "credit": "Internt Consulting — Wikimedia Commons, CC BY 2.0",
+        "fichier": "marche-rio-di-pusteria-web-1.jpg"
+      }
+    ]
   }
 ]
