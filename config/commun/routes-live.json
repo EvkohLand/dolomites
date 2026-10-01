@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-01T13:03Z",
+  "genere_le": "2026-10-01T14:46Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-01T14:42"
+      "maj": "2026-10-01T16:36"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,6 +218,20 @@
     },
     {
       "source": "bz",
+      "id": "3112401",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Chiusa e Bolzano Nord 2 km di coda dopo un incidente.",
+      "debut": "2026-10-01",
+      "fin": "",
+      "gps": [
+        46.50778,
+        11.46481
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -396,20 +410,6 @@
       "gps": [
         46.26151,
         11.27079
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3150801",
-      "route": "LS/SP131 — S. Valentino in Campo",
-      "niveau": "info",
-      "etat": "Percorribile liberamente",
-      "texte": "A S. Valentino in Campo (km 3,000) la strada è stata RIAPERTA al traffico, i lavori di recupero sono terminati.",
-      "debut": "2026-10-01",
-      "fin": "2026-10-01",
-      "gps": [
-        46.43783,
-        11.47605
       ]
     },
     {
@@ -676,6 +676,20 @@
       "gps": [
         46.75367,
         11.67768
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2871801",
+      "route": "LS/SP39 — Marebbe",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Venerdí 02.10.2026: A Pieve di Marebbe (km 1,150 - km 1,250) CHIUSURA al traffico dalle ore 15:00 alle ore 17:00 a causa di lavori.",
+      "debut": "2026-10-01",
+      "fin": "2026-10-02",
+      "gps": [
+        46.71976,
+        11.92505
       ]
     },
     {
@@ -1030,6 +1044,20 @@
     },
     {
       "source": "bz",
+      "id": "2955601",
+      "route": "SS241 — di Val d'Ega e Passo Costalunga",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "All’altezza del Lago di Carezza (km 22,000) rallentamenti dopo un incidente.",
+      "debut": "2026-10-01",
+      "fin": "",
+      "gps": [
+        46.41172,
+        11.56665
+      ]
+    },
+    {
+      "source": "bz",
       "id": "586001",
       "route": "SS241 — di Val d'Ega e Passo Costalunga",
       "niveau": "gene",
@@ -1138,20 +1166,6 @@
       "gps": [
         46.7903,
         11.88177
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2975701",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Rio di Pusteria e Chienes (km 9,400 - km 23,400) a tratti senso unico alternato dalle ore 07:00 alle ore 16:00 per lavori di taglio erba.",
-      "debut": "2026-09-29",
-      "fin": "2026-10-01",
-      "gps": [
-        46.80541,
-        11.67857
       ]
     },
     {
