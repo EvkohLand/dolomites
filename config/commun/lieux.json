@@ -14903,7 +14903,24 @@
         }
       ],
       "doutes": "Page officielle non lue (JavaScript) : horaires tirés de PagesJaunes et OSM, concordants."
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Intermarché Super Arles Trinquetaille — Chapelle du Mejan et tour de l'horloge (Arles)",
+        "credit": "Gzen92 — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "courses-intermarche-arles-web-1.jpg"
+      },
+      {
+        "legende": "Environs de Intermarché Super Arles Trinquetaille — Rhône (Arles) (1)",
+        "credit": "Gzen92 — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "courses-intermarche-arles-web-2.jpg"
+      },
+      {
+        "legende": "Environs de Intermarché Super Arles Trinquetaille — Rhône (Arles) (3)",
+        "credit": "Gzen92 — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "courses-intermarche-arles-web-3.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-finale",
@@ -15083,7 +15100,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Savona — Via Stalingrado 11 — Savona",
+        "credit": "Roberta Salamone — Wikimedia Commons, CC BY 3.0",
+        "fichier": "carburant-eni-savona-stalingrado-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-acqui",
@@ -15239,7 +15263,14 @@
         }
       ],
       "doutes": ""
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Eni Spinetta Marengo (Alessandria) — SS10 Via Genova 26 — Platano Napoleone",
+        "credit": "Brigante mandrogno — Wikimedia Commons, Public domain",
+        "fichier": "carburant-eni-spinetta-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-pompebianche-salo",
@@ -15329,7 +15360,14 @@
         }
       ],
       "doutes": "2,055 € déclaré le 25/09 et non remis à jour depuis ; écart de 13 centimes avec toutes les stations voisines : possible erreur de saisie. Relire le prix la veille."
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Pompe Bianche Salò — Piazza S. Bernardino 10 — Plaque dedicated to Pierino Ebranati",
+        "credit": "Luca.favorido — Wikimedia Commons, CC0",
+        "fichier": "carburant-pompebianche-salo-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "carburant-eni-trento-maccani",
@@ -18513,7 +18551,14 @@
           "url": "https://www.openstreetmap.org/search?query=St.%20Peter%20134%2C%20Villn%C3%B6%C3%9F"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Pension Garni Raschötzhof (St. Peter) — Villnoess Sankt Peter und Paul 8631",
+        "credit": "Pelz — Wikimedia Commons, CC BY-SA 3.0",
+        "fichier": "abri-raschoetzhof-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-teiser-stern",
@@ -18669,7 +18714,14 @@
           "url": "https://www.openstreetmap.org/search?query=St.%20Magdalena%2038%2C%20Villn%C3%B6%C3%9F"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Hotel Ranuimüllerhof (Santa Maddalena) — 3,025m Sass Rigais Dolomites Funes Italy - panoramio",
+        "credit": "Hiroki Ogawa — Wikimedia Commons, CC BY 3.0",
+        "fichier": "abri-ranuimuellerhof-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "abri-pension-schirmerhof",
@@ -20496,7 +20548,14 @@
           "url": "https://www.openstreetmap.org/node/8888249699"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Fontaine (Bai de Dones, Cinque Torri) — Lagazuoi - galleria",
+        "credit": "Bludev — Wikimedia Commons, CC BY-SA 4.0",
+        "fichier": "service-fontaine-cinque-torri-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "service-fontaine-cortina",
@@ -20539,7 +20598,14 @@
           "url": "https://www.openstreetmap.org/node/2721631662"
         }
       ]
-    }
+    },
+    "photos": [
+      {
+        "legende": "Environs de Fontaine de 1868 (Cortina) — Cortina d'Ampezzo Italy - panoramio",
+        "credit": "Hiroki Ogawa — Wikimedia Commons, CC BY 3.0",
+        "fichier": "service-fontaine-cortina-web-1.jpg"
+      }
+    ]
   },
   {
     "id": "service-wc-landro",
