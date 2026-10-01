@@ -4243,6 +4243,41 @@
           ],
           "source": "https://www.suedtirol.info/en/en/experiences-and-events/plp-experiences/experiences-south-tyrol/pdp-experience.smgpoi6af98cb6de2e22ce1ffbb5b17b729a38.tour-of-the-puflatsch.alpe-di-siusi-seiseralm",
           "verifie_le": "2026-09-28"
+        },
+        {
+          "nom": "Boucle de Laranz jusqu’au belvédère Königswarte (Castelrotto)",
+          "type": "boucle",
+          "distance_km": 5.6,
+          "duree": "1 h 25",
+          "duree_h": 1.4,
+          "denivele_plus_m": 117,
+          "niveau": {
+            "officiel": "facile (Seiser Alm)",
+            "traduction": "facile"
+          },
+          "depart": "Telfen (Castelrotto)",
+          "depart_gps": [
+            46.5562,
+            11.5541
+          ],
+          "risque": "Faible ; chemins forestiers.",
+          "vertige": {
+            "niveau": "aucun",
+            "passages": "Chemins forestiers, aucun passage délicat cité."
+          },
+          "plan": [
+            "Telfen",
+            "balisage 5, 5A, 5B",
+            "belvédère Königswarte",
+            "retour à Telfen"
+          ],
+          "chien": {
+            "admis": true,
+            "passages_delicats": "aucun cité",
+            "laisse_museliere": "Laisse obligatoire (lieux publics) ; muselière à avoir sur soi"
+          },
+          "source": "https://www.seiser-alm.it/de/freizeit-aktiv/berge-wandern/laranzer-runde",
+          "verifie_le": "2026-10-01"
         }
       ],
       "acces_commun": {

@@ -1447,6 +1447,27 @@
               "url": "https://www.brixen.org/en/my-holiday/brixen-as-a-holiday-destination/brixen-suedtirol-guest-pass"
             }
           ]
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Brückenwirt (Novacella)",
+          "resume": "Auberge à 5 min du lac de Varna, ouverte le jeudi, cuisine midi et soir.",
+          "source": "https://www.hotel-brueckenwirt.com/essen",
+          "gps": [
+            46.7415,
+            11.6474
+          ],
+          "horaires": {
+            "general": "Tous les jours sauf mardi soir et mercredi ; cuisine 11 h 30 – 14 h et 17 h 30 – 20 h"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
         }
       ]
     },
@@ -1991,6 +2012,52 @@
             "admis": null,
             "conditions": "Règle non publiée : demander sur place."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Boulangerie Trocker (Ortisei)",
+          "resume": "Boulangerie du centre d’Ortisei ouverte le lundi hors saison.",
+          "source": "https://www.valgardena.it/",
+          "gps": [
+            46.5751,
+            11.6709
+          ],
+          "horaires": {
+            "general": "Hors saison : lundi – samedi 6 h 30 – 12 h et 15 h – 19 h",
+            "par_jour": {
+              "2026-10-12": "Hors saison : lundi – samedi 6 h 30 – 12 h et 15 h – 19 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Maurizkeller (Ortisei) — moyen de gamme",
+          "resume": "Cuisine ouverte jusqu’à 14 h (arriver avant) ; soupe de Knödel au speck 13 €, couvert 3 €. Pas « pas cher » : le pique-nique reste plus économique.",
+          "source": "https://www.maurizkeller.com",
+          "gps": [
+            46.5741,
+            11.6713
+          ],
+          "horaires": {
+            "general": "Jusqu’au 25/10, 12 h – 14 h et 17 h – 21 h 15"
+          },
+          "prix": {
+            "detail": "Carte officielle : Speckknödelsuppe 13 €, couvert 3 €/personne, goulasch 29 €."
+          },
+          "prix_montant": 13,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
         }
       ]
     },
@@ -2530,6 +2597,148 @@
           ],
           "source": "https://www.seiseralm.it/de/info-service/aktuelle-infos/informationen-a-z/7DA28F601EF1431FA6E7FD25ACEA9962-pfarrkirche-von-kastelruth.html",
           "page_contact": "https://www.seiseralm.it/de/info-service/aktuelle-infos/informationen-a-z/7DA28F601EF1431FA6E7FD25ACEA9962-pfarrkirche-von-kastelruth.html"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Santner’s — restaurant-pizzeria (Siusi)",
+          "resume": "Au pied de la télécabine de Siusi, sur le trajet de la descente : cuisine le midi, pizzeria jusqu’à 23 h.",
+          "source": "https://www.santners.it/de/restaurant-pizzeria",
+          "gps": [
+            46.5403,
+            11.5637
+          ],
+          "horaires": {
+            "general": "Cuisine 11 h 30 – 14 h ; pizzeria 11 h 30 – 14 h et 17 h – 23 h ; jour de fermeture et saison non publiés"
+          },
+          "prix": {
+            "detail": "10–20 € par personne selon Restaurant Guru (non officiel)."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Liftstüberl (Castelrotto)",
+          "resume": "Restaurant ouvert en semaine, donc le lundi ; cuisine chaude midi et soir.",
+          "source": "https://www.liftstueberl.com/it",
+          "gps": [
+            46.5635,
+            11.5627
+          ],
+          "horaires": {
+            "general": "Lundi – vendredi 9 h – 22 h ; cuisine 11 h 30 – 14 h et 17 h 30 – 20 h 30 ; fermé samedi et dimanche",
+            "par_jour": {
+              "2026-10-12": "Lundi – vendredi 9 h – 22 h ; cuisine 11 h 30 – 14 h et 17 h 30 – 20 h 30 ; fermé samedi et dimanche"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Boulangerie Oberprantacher (Siusi)",
+          "resume": "Pain et en-cas pour le pique-nique du plateau, ouverte dès 6 h 30.",
+          "source": "https://www.openstreetmap.org/search?query=Oberprantacher%20Seis",
+          "gps": [
+            46.5446,
+            11.561
+          ],
+          "horaires": {
+            "general": "Lundi – samedi 6 h 30 – 12 h et 15 h 30 – 18 h 30 (OpenStreetMap)",
+            "par_jour": {
+              "2026-10-12": "Lundi – samedi 6 h 30 – 12 h et 15 h 30 – 18 h 30 (OpenStreetMap)"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "vue",
+          "nom": "Calvaire de Castelrotto (Kalvarienberg / Kofel)",
+          "resume": "Promenade d’environ 30 min depuis le centre : 7 chapelles, tour romane et vue sur le Sciliar. Gratuit, accès libre.",
+          "source": "https://www.seiser-alm.it/de/highlights/sehenswuerdigkeiten/kalvarienberg",
+          "gps": [
+            46.5699,
+            11.5592
+          ],
+          "horaires": {
+            "general": "Accès libre ; certaines chapelles fermées"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Accès libre."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Chemin public, en laisse."
+          },
+          "duree_conseillee": "30 min"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "marche",
+          "nom": "Boucherie Silbernagl (Castelrotto)",
+          "resume": "Fromage Spatzenkäse et charcuterie maison pour le pique-nique.",
+          "source": "https://www.metzgerei-silbernagl.it",
+          "gps": [
+            46.5674,
+            11.5603
+          ],
+          "horaires": {
+            "general": "Lundi – samedi 7 h 30 – 12 h 30 et 15 h – 19 h",
+            "par_jour": {
+              "2026-10-12": "Lundi – samedi 7 h 30 – 12 h 30 et 15 h – 19 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Magasin d’alimentation : un adulte garde le chien dehors."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "marche",
+          "nom": "Speck Trocker — boutique de la ferme Kaltenbrunnhof (Tisens)",
+          "resume": "Speck de la ferme, à environ 10 min de détour depuis Castelrotto ; ouverte le lundi.",
+          "source": "https://www.kaltenbrunnhof.com/trocker-speck/hofladen",
+          "gps": [
+            46.5735,
+            11.5378
+          ],
+          "horaires": {
+            "general": "Lundi – vendredi 9 h – 12 h et 14 h – 18 h",
+            "par_jour": {
+              "2026-10-12": "Lundi – vendredi 9 h – 12 h et 14 h – 18 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Boutique de ferme : à demander."
+          }
         }
       ]
     },
@@ -5256,6 +5465,204 @@
             "conditions": "Règle non publiée : demander sur place."
           },
           "duree_conseillee": "1 h"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "marche",
+          "nom": "Marché du jeudi et marché paysan de Rio di Pusteria",
+          "resume": "Sur la route du 15 octobre (passage vers 10 h 50) : fromage d’alpage, speck, pain des producteurs. Seul marché de producteurs qui tombe pendant le voyage.",
+          "source": "https://www.suedtirol.info/",
+          "gps": [
+            46.797,
+            11.667
+          ],
+          "horaires": {
+            "general": "Jeudi 8 h 30 – 12 h 30",
+            "par_jour": {
+              "2026-10-15": "Jeudi 8 h 30 – 12 h 30"
+            }
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Entrée libre."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Marché en plein air, en laisse."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Château de Welsperg (Monguelfo)",
+          "resume": "Château ouvert le jeudi matin en octobre, 5 € par adulte ; à Monguelfo, sur la route de Braies vers Varna.",
+          "source": "https://www.gsieser-tal.com/",
+          "gps": [
+            46.7599,
+            12.1137
+          ],
+          "horaires": {
+            "general": "14/09 – 31/10/2026, jeudi – samedi 10 h – 14 h",
+            "par_jour": {
+              "2026-10-15": "14/09 – 31/10/2026, jeudi – samedi 10 h – 14 h"
+            }
+          },
+          "prix": {
+            "adulte": "5 €",
+            "detail": "5 € par adulte."
+          },
+          "prix_montant": 5,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Promenade historique de Brunico",
+          "resume": "1,9 km et 2 h, gratuit : colline du château, église du Rain, Stadtgasse, portes de ville. À Brunico, chiens interdits dans les cimetières et dans les champs jusqu’au 31 octobre : rester sur les chemins.",
+          "source": "https://www.bruneck.com/de/activity/historischer-rundgang-durch-bruneck_4941",
+          "gps": [
+            46.7953,
+            11.9362
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "En laisse ; interdits dans les cimetières (règlement de Brunico)."
+          },
+          "duree_conseillee": "2 h"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "vue",
+          "nom": "Lac de Valdaora (Olanger Stausee)",
+          "resume": "Sentiers autour du lac, gratuits, sur la route du 15.",
+          "source": "https://www.pustertal.org/",
+          "gps": [
+            46.7608,
+            12.0679
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "En laisse."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Musée et vestiges romains Mansio Sebatum (San Lorenzo)",
+          "resume": "Musée romain à 5 € par adulte ; les vestiges en plein air autour sont libres.",
+          "source": "https://www.mansio-sebatum.it",
+          "gps": [
+            46.783,
+            11.9022
+          ],
+          "horaires": {
+            "general": "Jeudi 8 h – 12 h (après-midi contradictoire sur le site)",
+            "par_jour": {
+              "2026-10-15": "Jeudi 8 h – 12 h (après-midi contradictoire sur le site)"
+            }
+          },
+          "prix": {
+            "adulte": "5 €",
+            "detail": "5 € par adulte ; vestiges extérieurs libres."
+          },
+          "prix_montant": 5,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "Ausluger — boutique de ferme en libre-service (San Lorenzo)",
+          "resume": "Ouverte tous les jours de 6 h à 22 h : œufs, farines, pâtes, porc élevé en plein air, sirops, confitures, fromage de ferme.",
+          "source": "https://www.ausluger.com/de",
+          "gps": [
+            46.7757,
+            11.9021
+          ],
+          "horaires": {
+            "general": "Tous les jours 6 h – 22 h"
+          },
+          "prix": {
+            "detail": "Prix affichés sur place."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Libre-service : un adulte garde le chien dehors."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Minigrill Schorsch (Valdaora)",
+          "resume": "Snack le moins cher trouvé sur la route du 15 (1–10 € par personne, non officiel).",
+          "source": "https://www.openstreetmap.org/search?query=Minigrill%20Schorsch%20Olang",
+          "gps": [
+            46.7614,
+            12.03
+          ],
+          "horaires": {
+            "general": "Jeudi 10 h 30 – 20 h (OpenStreetMap)",
+            "par_jour": {
+              "2026-10-15": "Jeudi 10 h 30 – 20 h (OpenStreetMap)"
+            }
+          },
+          "prix": {
+            "detail": "1–10 € par personne selon Restaurant Guru (non officiel)."
+          },
+          "prix_montant": 10,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Espace chien sans laisse du Kühbergl (Brunico)",
+          "resume": "Zone communale où le chien peut courir librement, gratuite.",
+          "source": "https://www.bruneck.com/",
+          "gps": [
+            46.7914,
+            11.9375
+          ],
+          "horaires": {
+            "general": "Lundi – vendredi 7 h – 13 h et 14 h – 20 h (horaires communaux d’hiver)"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Sans laisse dans l’enclos."
+          }
         }
       ]
     },
