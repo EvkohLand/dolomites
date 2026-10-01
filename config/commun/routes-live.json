@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-09-30T22:10Z",
+  "genere_le": "2026-10-01T05:43Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-09-30T20:09"
+      "maj": "2026-10-01T07:41"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-09-30"
+      "maj": "2026-10-01"
     }
   },
   "messages": [
@@ -218,20 +218,6 @@
     },
     {
       "source": "bz",
-      "id": "2713301",
-      "route": "",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Per uno sciopero di 24 ore sugli autobus della SASA si potranno verificare ritardi e disservizi. I servizi minimi dalle ore 06:00 alle 09:00 e dalle ore 12:00 alle ore 15:00 sono garantiti. Tutti i percorsi con partenza prima delle 09:00 ovvero delle 15:00 raggiungeranno il capolinea. Ulteriori informazioni su https://www.altoadigemobilita.info/it/il-mio-viaggio/avvisi.",
-      "debut": "2026-09-28",
-      "fin": "2026-10-01",
-      "gps": [
-        46.49722,
-        11.35601
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -414,34 +400,6 @@
     },
     {
       "source": "bz",
-      "id": "3016412",
-      "route": "LS/SP13 — S. Paolo - Riva di sotto",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra S. Paolo e Riva di Sotto (km 1,500 - km 3,170) a tratti senso unico alternato per lavori di messa in sicurezza (anche nel fine settimana).",
-      "debut": "2025-10-13",
-      "fin": "2026-09-30",
-      "gps": [
-        46.48174,
-        11.26307
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3112912",
-      "route": "LS/SP132 — Prato Isarco - Nova Levante",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Nova Levante e San Valentino in Campo (km 17,070 - km 17,290) senso unico alternato per lavori di raddrizzamento e allargamento (anche nel fine settimana).",
-      "debut": "2026-08-18",
-      "fin": "2026-09-30",
-      "gps": [
-        46.42919,
-        11.49347
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3008401",
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "fermeture",
@@ -498,20 +456,6 @@
     },
     {
       "source": "bz",
-      "id": "3145012",
-      "route": "LS/SP14 — Caldaro - Roverè della Luna",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Pianizza di Sotto (km 1,000 - km 2,000) senso unico alternato per lavori di asfaltatura (anche nel fine settimana).",
-      "debut": "2026-09-21",
-      "fin": "2026-09-30",
-      "gps": [
-        46.42829,
-        11.25296
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3131912",
       "route": "LS/SP146 — S. Andrea - S. Leonardo",
       "niveau": "gene",
@@ -522,20 +466,6 @@
       "gps": [
         46.71097,
         11.6885
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2825801",
-      "route": "LS/SP153 — Fundres",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Vandoies di Sotto(km 0,230 - km 0,330) CHIUSURA al traffico dalle ore 08:15 alle ore 11:15 per il montaggio di una gru da cantiere. La deviazione avviene attraverso la via Wiedenhofegg",
-      "debut": "2026-09-30",
-      "fin": "2026-09-30",
-      "gps": [
-        46.81723,
-        11.72316
       ]
     },
     {
@@ -806,6 +736,20 @@
     },
     {
       "source": "bz",
+      "id": "2928601",
+      "route": "LS/SP66 — Riscone",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Riscone (km 2,710 – km 3,000) CHIUSURA al traffico dalle ore 14:30 alle ore 15:30 per transumanza. Il traffico viene deviato per la via Reinthal.",
+      "debut": "2026-10-03",
+      "fin": "2026-10-03",
+      "gps": [
+        46.77673,
+        11.95111
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3149512",
       "route": "LS/SP67 — Valle S. Silvestro",
       "niveau": "gene",
@@ -960,20 +904,6 @@
     },
     {
       "source": "bz",
-      "id": "3147701",
-      "route": "SS.38 — Superstrada MEBO",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione Merano tra Bolzano Sud e Appiano in galleria di Castelfirmiano (km 222,700 - km 225,000) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori di pulizia e di manutenzione degli impianti tecnici. La deviazione avviene attraverso Bolzano.",
-      "debut": "2026-09-28",
-      "fin": "2026-10-01",
-      "gps": [
-        46.47618,
-        11.31499
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2764501",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
@@ -1114,7 +1044,7 @@
     },
     {
       "source": "bz",
-      "id": "2894201",
+      "id": "2894212",
       "route": "SS244 — di Val Badia",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1152,34 +1082,6 @@
       "gps": [
         46.78198,
         11.89122
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3148412",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Pedraces (km 24,400 - km 24,800) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori di asfaltatura.",
-      "debut": "2026-09-25",
-      "fin": "2026-09-30",
-      "gps": [
-        46.61486,
-        11.89347
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2983312",
-      "route": "SS42 — Passo Mendola",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Ganda (km 234,150 - Km 234,300) senso unico alternato per la urbanizzazione nella zona produttiva Ganda 4 (anche nei fine settimana e festività).",
-      "debut": "2026-08-17",
-      "fin": "2026-09-30",
-      "gps": [
-        46.44117,
-        11.25344
       ]
     },
     {
@@ -1226,20 +1128,6 @@
     },
     {
       "source": "bz",
-      "id": "2996601",
-      "route": "SS49 — della Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Sulla circonvallazione di Monguelfo (km 47,900 - km 51,000) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:00 per lavori di manutenzione nella galleria. Il traffico viene deviato tramite SP 46racc e strade comunali.",
-      "debut": "2026-09-30",
-      "fin": "2026-10-01",
-      "gps": [
-        46.76059,
-        12.09334
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3052801",
       "route": "SS49 — della Pusteria",
       "niveau": "fermeture",
@@ -1278,20 +1166,6 @@
       "gps": [
         46.79051,
         11.95922
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2751812",
-      "route": "SS620 — del Passo di Lavazè",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Novale (km 1,800 - km 1,950)) senso unico alternato per lavori di risanamento ponte.",
-      "debut": "2026-09-29",
-      "fin": "2026-09-30",
-      "gps": [
-        46.41383,
-        11.48697
       ]
     },
     {
