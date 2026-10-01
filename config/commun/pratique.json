@@ -22,14 +22,25 @@
       ]
     },
     {
-      "titre": "Ouest — Bressanone et Val di Funes",
-      "note": "Comparer en priorité le pré privé de Pinzagen avec Löwenhof ; vérifier la largeur de la tente ouverte, le sol après pluie et l'accord pour Prince. Gamp, Vahrner See et la ferme de Funes sont des replis à confirmer.",
+      "titre": "Nuits du 10 et 11 — Val di Funes (du meilleur bon plan au moins bon)",
+      "note": "Retenu : ferme Zum Gletscher Hons (4,7 ★, 42 €, tente de toit acceptée, place tenue jusqu’à 18 h ; à réserver). Moins cher : aire de la Sportbar (16 € + douches, tente de toit non confirmée). Zöhlhof : 1 seule nuit. Aucune autre aire de ferme ni annonce privée dans la vallée (Campspace, Nomady, Roter Hahn vérifiés le 02/10).",
+      "lieux": [
+        "ferme-gletscher-hons",
+        "aire-sportbar-villnoess",
+        "ferme-zoehlhof",
+        "camping-gamp-chiusa"
+      ]
+    },
+    {
+      "titre": "Nuits du 12 et 15 — Bressanone (du meilleur bon plan au moins bon)",
+      "note": "Retenu : pré de la ferme Van Moar (5,0 ★, 36,10 €, tente de toit et chien acceptés, 1 seul emplacement à réserver sur Campspace). Moins cher : Lercherhof (20 €, tente de toit vue en août, sans toilettes, appeler avant). Sans réservation : Vahrner See (44,60 €). Jeudi 15 seulement : Gummererhof (gratuit avec dîner) ou Griesserhof (45 € vin compris). Exclu : parking Löwenhof (« not suitable for tents »).",
       "lieux": [
         "ferme-pinzagen-van-moar",
+        "ferme-lercherhof",
+        "camping-vahrner-see",
+        "ferme-griesserhof",
         "camping-loewenhof",
-        "ferme-gletscher-hons",
-        "camping-gamp-chiusa",
-        "camping-vahrner-see"
+        "ferme-roderhof"
       ]
     },
     {
@@ -40,10 +51,16 @@
       ]
     },
     {
-      "titre": "Est — Dobbiaco et Cortina",
-      "note": "Olympia publie des tarifs d'octobre, mais la catégorie compatible voiture + tente reste à confirmer ; Cortina est une piste sans ouverture confirmée.",
+      "titre": "Nuits du 13 et 14 — Dobbiaco (du meilleur bon plan au moins bon)",
+      "note": "Retenu : Camping Olympia (4,5 ★, 48,40 €, chien 6 €, à 29 min d’Antorno ; nuits à demander). Repli : Camping Antholz (4,6 ★, 44,50 €, réservable en ligne, mais 25 min de plus le matin des Tre Cime). Exclus : Alla Baita (Misurina) et Schießstand (Brunico) fermés ; parkings de Braies et Landro (tente de toit interdite, amende de 100 à 500 €) ; Alpen Natur Camping (aucune disponibilité en octobre).",
       "lieux": [
         "camping-olympia",
+        "camping-antholz",
+        "camping-lago-dobbiaco",
+        "agricamping-glinzhof",
+        "camping-caravan-park-sexten",
+        "aire-camperpark-dolomites",
+        "aire-monguelfo",
         "camping-cortina"
       ]
     },

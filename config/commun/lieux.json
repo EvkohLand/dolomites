@@ -22726,5 +22726,360 @@
         }
       ]
     }
+  },
+  {
+    "id": "ferme-lercherhof",
+    "nom": "Lercherhof — ferme avec emplacement (Schalders, Varna)",
+    "categorie": "agricamper",
+    "gps": [
+      46.7383,
+      11.606
+    ],
+    "commune": "Vahrn / Varna – Schalders",
+    "resume": "Ferme au-dessus de Bressanone, 2 places : 20 € la nuit (gratuit avec le petit-déjeuner à 35 €). Un voyageur y a dormi en tente de toit en août 2026. Pas de toilettes ; appeler avant ; chien à confirmer.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "detail": "« 20€ or free if you buy breakfast for 35 € » (park4night). Taxe de séjour non publiée.",
+      "unite": "nuit, eau et électricité comprises (ou gratuit avec le petit-déjeuner à 35 €)",
+      "montant": 20
+    },
+    "chien": {
+      "admis": null,
+      "note": "Chiens admis dans les appartements (Roter Hahn) ; pour l’emplacement : à confirmer."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Séjour d’un voyageur le 26/09/2026 ; « Keine spontane Anreise - bitte vorab kontaktieren »."
+    },
+    "horaires": [],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "oui : « Wir waren 2 Nächte dort mit unserem Dachzelt » (avis du 19/08/2026)"
+      },
+      {
+        "libelle": "Sanitaires",
+        "valeur": "aucun : « Water and electricity, no toilets »"
+      }
+    ],
+    "source": "https://park4night.com/fr/place/564749",
+    "liens": [
+      {
+        "libelle": "Park4Night — Lercherhof (avis 2026)",
+        "url": "https://park4night.com/fr/place/564749"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Park4Night — Lercherhof (avis 2026)",
+          "url": "https://park4night.com/fr/place/564749"
+        }
+      ]
+    },
+    "note_google": {
+      "note": 4.8,
+      "avis": 19,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/search/?api=1&query=Lercherhof%20Schalders%20Vahrn",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
+  },
+  {
+    "id": "ferme-zoehlhof",
+    "nom": "Bioweingut Zöhlhof — domaine viticole (Feldthurns)",
+    "categorie": "agricamper",
+    "gps": [
+      46.6586,
+      11.6001
+    ],
+    "commune": "Feldthurns / Velturno",
+    "resume": "Domaine viticole bio : une nuit sur le parking pour 30 € de dégustation de vins, WC et eau. 1 nuit maximum, inscription obligatoire ; tente de toit et chien à confirmer.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "detail": "Stationnement gratuit + « Dégustation de vins obligatoire : 30 € par véhicule » (park4night). Taxe non publiée.",
+      "unite": "nuit (dégustation de vins obligatoire, par véhicule)",
+      "montant": 30
+    },
+    "chien": {
+      "admis": null,
+      "note": "Domaine « welcomes dogs » (Google) ; pour la nuit : à confirmer."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "« Ouvert toute l’année » ; avis du 23/09/2026 ; une seule nuit."
+    },
+    "horaires": [],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "non précisé (vans et camping-cars dans les avis)"
+      },
+      {
+        "libelle": "Sanitaires",
+        "valeur": "WC et eau"
+      }
+    ],
+    "source": "https://park4night.com/fr/place/666053",
+    "liens": [
+      {
+        "libelle": "Park4Night — Zöhlhof",
+        "url": "https://park4night.com/fr/place/666053"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Park4Night — Zöhlhof",
+          "url": "https://park4night.com/fr/place/666053"
+        }
+      ]
+    },
+    "note_google": {
+      "note": 4.8,
+      "avis": 88,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/search/?api=1&query=Z%C3%B6hlhof%20Feldthurns",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
+  },
+  {
+    "id": "ferme-griesserhof",
+    "nom": "Griesserhof — aire à la ferme et taverne (Varna)",
+    "categorie": "agricamper",
+    "gps": [
+      46.74,
+      11.6429
+    ],
+    "commune": "Vahrn / Varna",
+    "resume": "Aire de ferme à 12 min de Van Moar : 45 € avec 3 bouteilles de vin, WC. Taverne fermée lundi et mardi : seulement pour le jeudi 15. Tente de toit et chien à confirmer.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "detail": "« Three bottles of wine, a place to stay, toilets, €45 » (avis du 03/09/2026).",
+      "unite": "nuit, 3 bouteilles de vin comprises",
+      "montant": 45
+    },
+    "chien": {
+      "admis": null,
+      "note": "Non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Aire « ouverte toute l’année » ; taverne fermée lundi et mardi."
+    },
+    "horaires": [],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "non précisé (6 places en cour gravillonnée)"
+      }
+    ],
+    "source": "https://park4night.com/fr/place/216278",
+    "liens": [
+      {
+        "libelle": "Park4Night — Griesserhof",
+        "url": "https://park4night.com/fr/place/216278"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Park4Night — Griesserhof",
+          "url": "https://park4night.com/fr/place/216278"
+        }
+      ]
+    },
+    "note_google": {
+      "note": 4.5,
+      "avis": 450,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/search/?api=1&query=Griesserhof%20Vahrn",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
+  },
+  {
+    "id": "ferme-roderhof",
+    "nom": "Roderhof — ferme (Schalders, 1 350 m)",
+    "categorie": "agricamper",
+    "gps": [
+      46.7443,
+      11.5988
+    ],
+    "commune": "Vahrn / Varna – Schalders",
+    "resume": "Ferme de montagne, ouverte toute l’année, au don libre. Aucun sanitaire et route raide et étroite : dernier recours.",
+    "prix": {
+      "type": "variable",
+      "annee_tarif": 2026,
+      "detail": "« Freiwillige Spende » (park4night).",
+      "unite": "don libre"
+    },
+    "chien": {
+      "admis": null,
+      "note": "Non précisé."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "« Ouvert toute l’année » ; prévenir avant."
+    },
+    "horaires": [],
+    "pratique": [
+      {
+        "libelle": "Sanitaires",
+        "valeur": "aucun : « apporter vos propres toilettes »"
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "route raide, sinueuse et étroite"
+      }
+    ],
+    "source": "https://park4night.com/fr/place/643699",
+    "liens": [
+      {
+        "libelle": "Park4Night — Roderhof",
+        "url": "https://park4night.com/fr/place/643699"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Park4Night — Roderhof",
+          "url": "https://park4night.com/fr/place/643699"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camping-antholz",
+    "nom": "Camping Antholz (Anterselva di Sopra)",
+    "categorie": "camping",
+    "gps": [
+      46.8648,
+      12.1096
+    ],
+    "commune": "Rasen-Antholz / Rasun Anterselva",
+    "resume": "Meilleur repli pour les nuits du 13 et 14 si Olympia refuse : ouvert toute l’année, réservable en ligne pour 1 ou 2 nuits, 44,50 € chien et taxe compris. Mais 25 min de plus jusqu’à Antorno et 17 min de plus jusqu’à Braies.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "detail": "« Special offer weeks » 20.09–19.12.26 : emplacement 11 + 2 × 12 + chien 4,50 + taxe 2 × 2,50 = 44,50 € (Comfort 50,50 €). Électricité 1 €/kWh.",
+      "unite": "nuit, emplacement Standard, 2 adultes + chien + taxe",
+      "montant": 44.5
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 4.5,
+      "note": "« Dog € 4,50 » ; « Dogs must be kept on a lead »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert toute l’année ; le moteur confirme 13→15/10/2026."
+    },
+    "horaires": [
+      {
+        "libelle": "Arrivée",
+        "valeur": "15 h – 19 h, plus tard sur demande ; barrière fermée 22 h – 7 h"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "non écrite : à confirmer"
+      }
+    ],
+    "source": "https://www.camping-antholz.it/en/lets-camp/price-list",
+    "liens": [
+      {
+        "libelle": "Camping Antholz — tarifs 2026",
+        "url": "https://www.camping-antholz.it/en/lets-camp/price-list"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Camping Antholz — tarifs 2026",
+          "url": "https://www.camping-antholz.it/en/lets-camp/price-list"
+        },
+        {
+          "libelle": "Camping Antholz — informations",
+          "url": "https://www.camping-antholz.it/en/lets-camp/visitor-information"
+        }
+      ]
+    },
+    "note_google": {
+      "note": 4.6,
+      "avis": 1587,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/search/?api=1&query=Camping%20Antholz",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
+  },
+  {
+    "id": "camping-caravan-park-sexten",
+    "nom": "Caravan Park Sexten (Sesto)",
+    "categorie": "camping",
+    "gps": [
+      46.6682,
+      12.3994
+    ],
+    "commune": "Sexten / Sesto",
+    "resume": "Grand camping 5 étoiles ouvert en octobre : emplacement ≈ 70 € + chien, ou aire hors barrière 48 € sans réservation (camping-cars, auvent interdit : tente de toit à faire confirmer). À 49 min d’Antorno.",
+    "prix": {
+      "type": "payant",
+      "annee_tarif": 2026,
+      "detail": "128 € pour 2 nuits (13→15/10) = 64 €/nuit + taxe 2 × 3 € ; aire « Camper stop » 42 € + taxe = 48 €.",
+      "unite": "nuit, emplacement Comfort 2 personnes + taxe, hors chien et électricité",
+      "montant": 70
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Dogs are allowed… Maximum two dogs per unit », supplément non publié."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Moteur officiel : 13→15/10/2026 disponible."
+    },
+    "horaires": [
+      {
+        "libelle": "Arrivée",
+        "valeur": "réception 8 h – 21 h ; barrière fermée 23 h – 7 h"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "non écrite ; l’aire interdit d’ouvrir l’auvent"
+      }
+    ],
+    "source": "https://www.caravanparksexten.it/en/camping/camper-stop-parking.html",
+    "liens": [
+      {
+        "libelle": "Caravan Park Sexten — aire et conditions",
+        "url": "https://www.caravanparksexten.it/en/camping/camper-stop-parking.html"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Caravan Park Sexten — aire et conditions",
+          "url": "https://www.caravanparksexten.it/en/camping/camper-stop-parking.html"
+        }
+      ]
+    },
+    "note_google": {
+      "note": 4.5,
+      "avis": 6546,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/search/?api=1&query=Caravan%20Park%20Sexten",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   }
 ]

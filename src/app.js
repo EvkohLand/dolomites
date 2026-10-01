@@ -1541,7 +1541,11 @@
         var ra = el('div', 'puces');
         autres.forEach(function (id) {
           var l = E.parId.get(id);
-          var b = el('button', 'puce', [l.nom, noteGoogle(l), prixAffiche(l)].filter(Boolean).join(' · '));
+          /* Étiquette courte (lisible sur téléphone) : nom · note · prix ; le détail est dans la fiche. */
+          var g = l.note_google;
+          var court = [l.nom, g && typeof g.note === 'number' ? String(g.note).replace('.', ',') + ' ★' : null,
+            l.prix && typeof l.prix.montant === 'number' ? euros(l.prix.montant) : null].filter(Boolean).join(' · ');
+          var b = el('button', 'puce', court);
           b.type = 'button';
           b.addEventListener('click', function () { ouvrirPanneau(id, { retour: j.jour }); });
           ra.appendChild(b);
