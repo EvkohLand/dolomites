@@ -64,7 +64,7 @@
     "note": "Zone des Dolomites : la normale de chaque point est calculée par la page depuis l'archive Open-Meteo (moyenne du même jour sur les 10 dernières années, à l'altitude du lieu)."
   },
   "tempete": {
-    "rafales_kmh": 55,
+    "rafales_kmh": 70,
     "codes_orage": [
       95,
       96,
@@ -76,7 +76,7 @@
     "titre_calme": "Si tempête ou orage la nuit",
     "source": "Prévision horaire Open-Meteo (rafales à 10 m et code orage) au lieu de la nuit, de 18 h à 9 h, recalculée à chaque ouverture ; fiable à 3–5 jours.",
     "consignes": [
-      "Rafales de 55 km/h ou plus, ou orage prévus : ne pas dormir dans la tente de toit. La replier avant la nuit, avant que le vent se lève. Seuil prudent : certains fabricants ne testent leurs tentes qu’à 56 km/h ; à ajuster selon la notice de la tente.",
+      "Rafales de 70 km/h ou plus (limite de résistance de notre tente), ou orage prévus : ne pas dormir dans la tente de toit. La replier avant la nuit, avant que le vent se lève.",
       "Décider avant 16 h, pour trouver un toit en dur pendant que les réceptions sont ouvertes.",
       "Orage : s’abriter dans la voiture, portières fermées (la carrosserie protège de la foudre), jamais dans la tente ni sous un arbre isolé.",
       "Garer loin des arbres et des pentes rocheuses (chutes de branches et de pierres), de préférence le nez face au vent.",
