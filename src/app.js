@@ -1200,7 +1200,7 @@
           ['Réservation', x.reservation && typeof x.reservation === 'object' ? (x.reservation.obligatoire ? 'obligatoire' : 'non obligatoire') : x.reservation],
           ['Adresse', x.adresse],
           ['Accès et parking', x.acces],
-          ['Avec un chien en octobre', x.interet]
+          ['Avec un chien en octobre', x.interet_octobre_chien]
         ].forEach(function (p) {
           if (!p[1]) return;
           grille.appendChild(el('dt', null, p[0]));

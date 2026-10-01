@@ -1002,6 +1002,7 @@
         },
         {
           "nom": "Bauernmarkt Brixen / Mercato contadino di Bressanone",
+          "resume": "Gratuit, le matin du 14 oct. avant la vieille ville : courses de produits locaux avec le chien.",
           "type": "marche",
           "adresse": "Hartmannsplatz / Piazza Artmanno, 39042 Brixen / Bressanone",
           "gps": [
@@ -1045,7 +1046,6 @@
             "lieu": "Parking couvert de Stufels (5–10 min à pied)",
             "prix": "payant, tarif non trouvé"
           },
-          "interet_octobre_chien": "Gratuit, le matin du 14 oct. avant la vieille ville : courses de produits locaux avec le chien.",
           "site_officiel": "https://www.brixen.org/de/mit-allen-sinnen/lokale-produkte/maerkte-brixen/bauernmarkt",
           "sources": [
             {
@@ -1065,6 +1065,7 @@
         },
         {
           "nom": "Kloster Säben / Monastero di Sabiona (au-dessus de Chiusa / Klausen)",
+          "resume": "Balade gratuite de 30–40 min avec le chien jusqu'au plus ancien lieu de pèlerinage du Tyrol, vue sur la vallée de l'Isarco ; à coupler avec la journée Funes.",
           "type": "eglise",
           "adresse": "Säbener Promenade, 39043 Klausen / Chiusa (départ à pied depuis la Tinneplatz)",
           "gps": [
@@ -1108,7 +1109,6 @@
             "lieu": "à Chiusa",
             "prix": "non trouvé"
           },
-          "interet_octobre_chien": "Balade gratuite de 30–40 min avec le chien jusqu'au plus ancien lieu de pèlerinage du Tyrol, vue sur la vallée de l'Isarco ; à coupler avec la journée Funes.",
           "site_officiel": "https://www.klausen.it/de/ferienregion-suedtirol/klausen/sehenswuerdigkeiten/kloster-saeben.html",
           "sources": [
             {
@@ -1773,6 +1773,7 @@
         },
         {
           "nom": "Centre d'Ortisei et église paroissiale Saint-Ulrich (Dlieja de San Durich)",
+          "resume": "Gratuit, sans effort, se combine avec une demi-journée Seceda ou un jour de mauvais temps.",
           "type": "eglise",
           "adresse": "Piazza S. Durich, 39046 Ortisei",
           "gps": [
@@ -1816,7 +1817,6 @@
             "lieu": "parkings payants d'Ortisei",
             "prix": "non vérifié"
           },
-          "interet_octobre_chien": "Gratuit, sans effort, se combine avec une demi-journée Seceda ou un jour de mauvais temps.",
           "site_officiel": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/ortisei-val-gardena/chiesa-parrocchiale-di-ortisei/54B87FF3F6E24A90A5923D17A3BD9043",
           "sources": [
             {
@@ -1837,6 +1837,7 @@
         },
         {
           "nom": "Passo Gardena (Grödner Joch, 2121 m) – belvédère en voiture",
+          "resume": "Vue sur le Sella et le Cir sans marcher, sur le trajet vers l'Alta Badia : l'arrêt panoramique le moins cher du val.",
           "type": "vue",
           "adresse": "Passo Gardena, 39048 Selva di Val Gardena (SS243)",
           "gps": [
@@ -1880,7 +1881,6 @@
             "lieu": "Parking payant du Passo Gardena (60 places)",
             "prix": "4 €/h (h1–3), 2 €/h ensuite, 20 €/jour"
           },
-          "interet_octobre_chien": "Vue sur le Sella et le Cir sans marcher, sur le trajet vers l'Alta Badia : l'arrêt panoramique le moins cher du val.",
           "site_officiel": "https://www.val-gardena.com/it/indirizzi/dettaglio/base/poi/selva-di-val-gardena/parcheggio-passo-gardena/762900D4E3B8455490E0140737E94844",
           "sources": [
             {
@@ -1905,6 +1905,7 @@
         },
         {
           "nom": "Passo Sella (2218 m) – belvédère Sassolungo en voiture",
+          "resume": "Face-à-face avec le Sassolungo et vue sur le Sella et la Marmolada sans marcher ; peu fréquenté en octobre.",
           "type": "vue",
           "adresse": "Passo Sella, 39048 Selva di Val Gardena (SS242)",
           "gps": [
@@ -1948,7 +1949,6 @@
             "lieu": "Parking payant du Passo Sella (199 places l'été)",
             "prix": "4 €/h (h1–3), 2 €/h ensuite, 20 €/jour"
           },
-          "interet_octobre_chien": "Face-à-face avec le Sassolungo et vue sur le Sella et la Marmolada sans marcher ; peu fréquenté en octobre.",
           "site_officiel": "https://www.val-gardena.com/it/le-dolomiti/passo-sella",
           "sources": [
             {
@@ -2337,6 +2337,7 @@
         },
         {
           "nom": "Accès au plateau : montée en voiture avant 9 h (parking réservé) ou Seiser Alm Bahn depuis Siusi",
+          "resume": "Poste de coût n° 1 de la journée : P1 réservé et montée avant 9:00 = 15 € ; cabine depuis Siusi = 66 € pour 2 + chien ; cabine d'Ortisei = 78 € + chien.",
           "type": "bon-plan",
           "adresse": "Gare aval : Schlernstraße 39 / Via Sciliar 39, 39040 Siusi allo Sciliar ; gare amont : Compatsch",
           "gps": [
@@ -2379,7 +2380,6 @@
             "lieu": "Gare aval Siusi (extérieur gratuit, garages payants) ; P1 Spitzbühl ; P2 Compatsch",
             "prix": "0 € / 15 € / 30 € par jour"
           },
-          "interet_octobre_chien": "Poste de coût n° 1 de la journée : P1 réservé et montée avant 9:00 = 15 € ; cabine depuis Siusi = 66 € pour 2 + chien ; cabine d'Ortisei = 78 € + chien.",
           "site_officiel": "https://www.seiseralmbahn.it/de/info-service/mobilitaet/seiser-alm-bahn-sommer.html",
           "sources": [
             {
@@ -2408,6 +2408,7 @@
         },
         {
           "nom": "Laghetto di Fiè (Völser Weiher)",
+          "resume": "Lac forestier où se reflète le Sciliar, mélèzes dorés en octobre, balade à plat idéale pour le chien ; 6 € de parking, gratuit en arrivant après 18 h.",
           "type": "vue",
           "adresse": "Laghetto di Fiè, 39050 Fiè allo Sciliar",
           "gps": [
@@ -2449,7 +2450,6 @@
             "lieu": "Parking du Völser Weiher, au bord du lac",
             "prix": "6 €/jour (5 h–16 h) ; gratuit 18 h–2 h"
           },
-          "interet_octobre_chien": "Lac forestier où se reflète le Sciliar, mélèzes dorés en octobre, balade à plat idéale pour le chien ; 6 € de parking, gratuit en arrivant après 18 h.",
           "site_officiel": "https://www.seiseralm.it/de/info-service/aktuelle-infos/informationen-a-z/599117C730604B659D640122F998C147-voelser-weiher.html",
           "sources": [
             {
@@ -2477,6 +2477,7 @@
         },
         {
           "nom": "Église Saint-Valentin (San Valentino) de Siusi – point de vue sur le Sciliar",
+          "resume": "La photo la plus connue du Sciliar, gratuite, courte balade avec le chien ; à faire en descendant du plateau.",
           "type": "vue",
           "adresse": "Au-dessus de Siusi allo Sciliar, 39040 Castelrotto (sentier n° 7)",
           "gps": [
@@ -2518,7 +2519,6 @@
             "lieu": "Siusi : garage derrière la station Esso / gare routière, ou garage de la gare aval de la Seiser Alm Bahn",
             "prix": "payant (tarif non publié)"
           },
-          "interet_octobre_chien": "La photo la plus connue du Sciliar, gratuite, courte balade avec le chien ; à faire en descendant du plateau.",
           "site_officiel": "https://www.seiseralm.it/de/info-service/aktuelle-infos/informationen-a-z/F52A69C4F08FAC6E06B64AF50245CD76-kirche-st-valentin.html",
           "sources": [
             {
@@ -2539,6 +2539,7 @@
         },
         {
           "nom": "Castelrotto : centre historique et église Saints-Pierre-et-Paul",
+          "resume": "Arrêt gratuit sur la route Ortisei ↔ Siusi, compatible avec le chien.",
           "type": "eglise",
           "adresse": "Krausenplatz 1, 39040 Castelrotto",
           "gps": [
@@ -2580,7 +2581,6 @@
             "lieu": "Parkgarage Zentrum (gare routière) ou Parkgarage Dorf",
             "prix": "payant (tarif non publié)"
           },
-          "interet_octobre_chien": "Arrêt gratuit sur la route Ortisei ↔ Siusi, compatible avec le chien.",
           "site_officiel": "https://www.seiseralm.it/de/info-service/aktuelle-infos/informationen-a-z/7DA28F601EF1431FA6E7FD25ACEA9962-pfarrkirche-von-kastelruth.html",
           "sources": [
             {
@@ -3104,6 +3104,7 @@
         },
         {
           "nom": "Passo Giau",
+          "resume": "Vue en face du Ra Gusela et du Nuvolau sans marcher, gratuit, à combiner avec Cinque Torri le même jour.",
           "type": "vue",
           "adresse": "SP638, Passo Giau, 32020 Colle Santa Lucia (BL)",
           "gps": [
@@ -3140,7 +3141,6 @@
             "lieu": "Bord de la SP638 au col",
             "prix": "gratuit"
           },
-          "interet_octobre_chien": "Vue en face du Ra Gusela et du Nuvolau sans marcher, gratuit, à combiner avec Cinque Torri le même jour.",
           "site_officiel": "https://cortinadelicious.it/EN/news32-Where-to-park-between-the-Giau-and-Falzarego-passes",
           "sources": [
             {
@@ -3160,6 +3160,7 @@
         },
         {
           "nom": "Cinque Torri et musée en plein air de la Grande Guerre",
+          "resume": "Tranchées reconstituées au pied des tours, gratuites, accessibles en voiture presque jusqu'au bout en octobre.",
           "type": "vue",
           "adresse": "Località 5 Torri, 32043 Cortina d'Ampezzo (BL)",
           "gps": [
@@ -3196,7 +3197,6 @@
             "lieu": "Rifugio Cinque Torri, Cianzopè ou Bai de Dones",
             "prix": "gratuit"
           },
-          "interet_octobre_chien": "Tranchées reconstituées au pied des tours, gratuites, accessibles en voiture presque jusqu'au bout en octobre.",
           "site_officiel": "https://www.cortinamuseoguerra.it/historical-trails/5-torri/?lang=en",
           "sources": [
             {
@@ -3225,6 +3225,7 @@
         },
         {
           "nom": "Passo Falzarego et Passo Valparola (belvédère et Forte Tre Sassi extérieur)",
+          "resume": "Arrêt gratuit sur le trajet, face au Lagazuoi et au Sasso di Stria, même sans prendre la cabine.",
           "type": "vue",
           "adresse": "SR48 / SP24, Passo Falzarego – Passo Valparola, Cortina d'Ampezzo (BL)",
           "gps": [
@@ -3261,7 +3262,6 @@
             "lieu": "Parking de la gare aval du Lagazuoi",
             "prix": "gratuit jusqu'au 18 octobre 2026"
           },
-          "interet_octobre_chien": "Arrêt gratuit sur le trajet, face au Lagazuoi et au Sasso di Stria, même sans prendre la cabine.",
           "site_officiel": "https://lagazuoi.it/",
           "sources": [
             {
@@ -3495,6 +3495,7 @@
         },
         {
           "nom": "Passo Pordoi (belvédère routier)",
+          "resume": "L'alternative gratuite au téléphérique : la paroi du Sella se voit déjà très bien du col.",
           "type": "vue",
           "adresse": "SS48 / SR48, Passo Pordoi, 38032 Canazei (TN)",
           "gps": [
@@ -3531,7 +3532,6 @@
             "lieu": "Places gratuites au-dessus de la gare aval du téléphérique",
             "prix": "gratuit (quelques places) ; parking du téléphérique payant"
           },
-          "interet_octobre_chien": "L'alternative gratuite au téléphérique : la paroi du Sella se voit déjà très bien du col.",
           "site_officiel": "https://www.sasspordoi.it/en/",
           "sources": [
             {
@@ -3551,6 +3551,7 @@
         },
         {
           "nom": "Passo Sella (Jëuf de Sela)",
+          "resume": "Le plus beau face-à-face avec le Sassolungo accessible en voiture, sur le trajet Pordoi ↔ Val Gardena.",
           "type": "vue",
           "adresse": "SS242, Passo Sella, Canazei (TN) / Selva di Val Gardena (BZ)",
           "gps": [
@@ -3587,7 +3588,6 @@
             "lieu": "Au col",
             "prix": "non publié ; places « très limitées » et stationnement interdit le long de la route"
           },
-          "interet_octobre_chien": "Le plus beau face-à-face avec le Sassolungo accessible en voiture, sur le trajet Pordoi ↔ Val Gardena.",
           "site_officiel": "https://www.valgardena.it/en/summer-holidays-dolomites/mobility-val-gardena/dolomites-passes/",
           "sources": [
             {
@@ -3747,6 +3747,7 @@
         },
         {
           "nom": "Pederü (fin de route, porte du parc de Fanes)",
+          "resume": "Si le plateau est enneigé, la route du Val dai Tamersc et le cirque de Pederü donnent déjà un aperçu du parc en voiture, pour 1 à 2 € de parking.",
           "type": "vue",
           "adresse": "Str. Val dai Tamersc 16, 39030 San Vigilio di Marebbe (BZ)",
           "gps": [
@@ -3785,7 +3786,6 @@
             "lieu": "Parking terminal de Pederü",
             "prix": "1 €/h ; moins d'une heure ≈ 1 €"
           },
-          "interet_octobre_chien": "Si le plateau est enneigé, la route du Val dai Tamersc et le cirque de Pederü donnent déjà un aperçu du parc en voiture, pour 1 à 2 € de parking.",
           "site_officiel": "https://www.sanvigilio.com/en",
           "sources": [
             {
@@ -3809,6 +3809,7 @@
         },
         {
           "nom": "Santuario Santa Croce / La Crusc (Badia)",
+          "resume": "Sanctuaire du XVe siècle au pied de la paroi du Sas dla Crusc, but de marche gratuit si Fanes est trop enneigé ; pas un arrêt en voiture.",
           "type": "eglise",
           "adresse": "Loc. La Crusc 1, 39036 Badia (BZ), 2 045 m",
           "gps": [
@@ -3845,7 +3846,6 @@
             "lieu": "San Leonardo / Badia",
             "prix": "non publié"
           },
-          "interet_octobre_chien": "Sanctuaire du XVe siècle au pied de la paroi du Sas dla Crusc, but de marche gratuit si Fanes est trop enneigé ; pas un arrêt en voiture.",
           "site_officiel": "https://www.lacrusc.com/la-chiesa-processioni-lacrusc-santuario/",
           "sources": [
             {
@@ -4460,6 +4460,7 @@
         },
         {
           "nom": "Lac de Landro / Dürrensee et belvédère Tre Cime (Drei-Zinnen-Blick)",
+          "resume": "La vue la plus connue sur les Tre Cime sans marcher ni payer, avec mélèzes dorés en octobre ; à faire en passant.",
           "type": "vue",
           "adresse": "SS51 (Via Dolomiti), Carbonin / Schluderbach, 39034 Dobbiaco (BZ)",
           "gps": [
@@ -4503,7 +4504,6 @@
             "lieu": "bord de route gratuit au sud du lac (46.62540, 12.22580) ; belvédère Drei-Zinnen-Blick 46.63983, 12.23292",
             "prix": "gratuit en bord de route ; 2 €/h aux parkings aménagés"
           },
-          "interet_octobre_chien": "La vue la plus connue sur les Tre Cime sans marcher ni payer, avec mélèzes dorés en octobre ; à faire en passant.",
           "site_officiel": "https://www.dreizinnen.com/en/info/lake-of-landro_6261",
           "sources": [
             {
@@ -4531,6 +4531,7 @@
         },
         {
           "nom": "Collégiale de San Candido / Stiftskirche Innichen",
+          "resume": "Le plus important édifice roman des Alpes orientales (XIIIe s., fresque de la Création vers 1280, crucifixion vers 1250), à 10 min de Dobbiaco ; se combine avec une promenade dans le centre piéton.",
           "type": "eglise",
           "adresse": "Piazza del Magistrato / Pflegeplatz 1, 39038 San Candido / Innichen (BZ)",
           "gps": [
@@ -4574,7 +4575,6 @@
             "lieu": "parkings de San Candido",
             "prix": "non trouvé"
           },
-          "interet_octobre_chien": "Le plus important édifice roman des Alpes orientales (XIIIe s., fresque de la Création vers 1280, crucifixion vers 1250), à 10 min de Dobbiaco ; se combine avec une promenade dans le centre piéton.",
           "site_officiel": "https://www.dreizinnen.com/en/info/collegiate-church_5985",
           "sources": [
             {
@@ -4599,6 +4599,7 @@
         },
         {
           "nom": "Lac de Misurina",
+          "resume": "Tour du lac plat face au Sorapis, sur la route des Tre Cime : 45 min de marche facile pour le chien.",
           "type": "vue",
           "adresse": "Misurina, 32041 Auronzo di Cadore (BL)",
           "gps": [
@@ -4642,7 +4643,6 @@
             "lieu": "devant le Despar (disque, 1 h gratuite) ; éviter le parking principal (portique 2 m, tente de toit 1,95 m)",
             "prix": "gratuit 1 h au disque ; sinon 2 €/h"
           },
-          "interet_octobre_chien": "Tour du lac plat face au Sorapis, sur la route des Tre Cime : 45 min de marche facile pour le chien.",
           "site_officiel": "https://www.dolomiti.it/en/auronzo-misurina/",
           "sources": [
             {
@@ -4666,6 +4666,7 @@
         },
         {
           "nom": "Route à péage des Tre Cime (Auronzo) — accès au Rifugio Auronzo",
+          "resume": "Donne le tour des Tre Cime sans dénivelé à la montée ; mode économie : la montée à pied depuis la barrière (1 h 15–1 h 30) économise 40 €.",
           "type": "experience",
           "adresse": "Barrière de péage après le lac d'Antorno, 32041 Auronzo di Cadore (BL)",
           "gps": [
@@ -4710,7 +4711,6 @@
             "lieu": "Parkings P1–P4 au Rifugio Auronzo, inclus ; alternative gratuite : ~15 places juste avant la barrière (46.59940, 12.27000) puis montée à pied 3,3 km / +470 m",
             "prix": "40 € ; gratuit à pied"
           },
-          "interet_octobre_chien": "Donne le tour des Tre Cime sans dénivelé à la montée ; mode économie : la montée à pied depuis la barrière (1 h 15–1 h 30) économise 40 €.",
           "site_officiel": "https://auronzo.info/en/parking-tre-cime-di-lavaredo/",
           "sources": [
             {
@@ -5289,6 +5289,7 @@
         },
         {
           "nom": "Plateau de Prato Piazza / Plätzwiese",
+          "resume": "Grand plateau plat face à la Croda Rossa et au Cristallo, idéal pour le chien ; monter après 15 h (7 €) en fin de journée Braies.",
           "type": "vue",
           "adresse": "Strada Prato Piazza / Plätzwiesenstraße, 39030 Braies (BZ) — départ au parking P5 Ponticello / Brückele",
           "gps": [
@@ -5330,7 +5331,6 @@
             "lieu": "parking du plateau (inclus dans le péage)",
             "prix": "10 € / 7 € après 15 h"
           },
-          "interet_octobre_chien": "Grand plateau plat face à la Croda Rossa et au Cristallo, idéal pour le chien ; monter après 15 h (7 €) en fin de journée Braies.",
           "site_officiel": "https://www.prags.bz/en/plaetzwiese",
           "sources": [
             {
@@ -5354,6 +5354,7 @@
         },
         {
           "nom": "Lac de Dobbiaco / Toblacher See",
+          "resume": "Balade du soir plate et ombragée au retour de Braies, sans rien payer en se garant à la gare.",
           "type": "vue",
           "adresse": "Via Dolomiti 3, 39034 Dobbiaco (BZ) — entrée du val di Landro",
           "gps": [
@@ -5394,7 +5395,6 @@
             "lieu": "parking du lac ou gare de Dobbiaco (gratuit)",
             "prix": "2 €/h ; gratuit à la gare"
           },
-          "interet_octobre_chien": "Balade du soir plate et ombragée au retour de Braies, sans rien payer en se garant à la gare.",
           "site_officiel": "https://www.dreizinnen.com/en/region/highlights/lake-toblach",
           "sources": [
             {
