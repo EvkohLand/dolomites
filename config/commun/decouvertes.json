@@ -5820,6 +5820,163 @@
           }
         }
       ]
+    },
+    {
+      "id": "route-aller",
+      "zones_planning": [
+        "Route / Carezza / Funes"
+      ],
+      "items": [
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Pause de midi à Peschiera del Garda (sortie A4 Peschiera)",
+          "resume": "Vers 11 h 30 : promenade au bord du lac au parc Catullo (1,4 km de la sortie), parking P4 gratuit (fermé seulement le lundi matin), pizza à emporter et boulangeries ouvertes le samedi. Plage pour chiens privée et payante.",
+          "source": "https://www.openstreetmap.org/?mlat=45.4397&mlon=10.69546#map=17/45.4397/10.69546",
+          "gps": [
+            45.4397,
+            10.69546
+          ],
+          "horaires": {
+            "general": "Samedi : boulangerie Facciotti 7 h 30 – 12 h 30 ; Pizza Express 11 h – 21 h (OpenStreetMap)"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Parc et parking P4 gratuits selon OpenStreetMap."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Promenades du lac en laisse selon un seul avis (dogwelcome.it), pas de règlement officiel trouvé."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Pause à Castelnuovo Scrivia (sortie A21)",
+          "resume": "Vers 9 h 15 : petit parc à 1,2 km de la sortie, parking gratuit Piazza della Libertà, café ouvert dès 7 h, gazole Eni à 0,9 km.",
+          "source": "https://www.openstreetmap.org/?mlat=44.97666&mlon=8.88485#map=17/44.97666/8.88485",
+          "gps": [
+            44.97666,
+            8.88485
+          ],
+          "horaires": {
+            "general": "Café Briganti samedi 7 h – 1 h (OpenStreetMap)"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Parc et parking gratuits selon OpenStreetMap."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : à vérifier sur place."
+          }
+        }
+      ]
+    },
+    {
+      "id": "route-retour",
+      "zones_planning": [
+        "Route"
+      ],
+      "items": [
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Pause à Ovada (sortie A26) — parc et Conad qui accepte les chiens",
+          "resume": "Vers 13 h 30 : parc de la Villa Gabrieli (7 h 30 – 19 h 30) à 1,9 km de la sortie, parking gratuit ; Conad à côté dont la fiche annonce l’accès des animaux et des chariots adaptés ; gazole Eni à 1,2 km.",
+          "source": "https://www.openstreetmap.org/way/27415580",
+          "gps": [
+            44.63892,
+            8.64079
+          ],
+          "horaires": {
+            "general": "Parc 7 h 30 – 19 h 30 ; Conad vendredi 8 h – 20 h"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Parc gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis en laisse dans le parc (site du parc, selon la recherche du 01/10) ; Conad : « Accesso animali consentito » (fiche conad.it)."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Pause de midi à Crémone (sortie A21 Cremona)",
+          "resume": "Vers 11 h 30 : parcs Gino Strada et Misani à 300 m de la sortie, parking gratuit ; pizza à la part chez Nonsolopizza (lundi – vendredi 11 h – 13 h, à 2,9 km).",
+          "source": "https://www.openstreetmap.org/?mlat=45.14341&mlon=10.07381#map=17/45.14341/10.07381",
+          "gps": [
+            45.14341,
+            10.07381
+          ],
+          "horaires": {
+            "general": "Nonsolopizza lundi – vendredi 11 h – 13 h"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Parcs et parking gratuits selon OpenStreetMap."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : à vérifier sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Pause à Rovereto Sud (sortie A22) — aire canine",
+          "resume": "Vers 9 h : aire canine à 400 m de la sortie (clôture non connue) et parking gratuit à côté.",
+          "source": "https://www.openstreetmap.org/?mlat=45.8482&mlon=11.00329#map=17/45.8482/11.00329",
+          "gps": [
+            45.8482,
+            11.00329
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit selon OpenStreetMap."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Aire canine (OpenStreetMap)."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "Aire de Canaver (A8, km 127,6) — gazole le moins cher des aires françaises du retour",
+          "resume": "Aire de jeux, tables de pique-nique, eau, douches ; gazole à 2,25 € au 01/10, le moins cher des aires françaises du trajet. Aucune aire de l’A8/A9 de la route n’a d’espace chien (Vinci) : chien en laisse.",
+          "source": "https://www.openstreetmap.org/?mlat=43.46707&mlon=6.67227#map=17/43.46707/6.67227",
+          "gps": [
+            43.46707,
+            6.67227
+          ],
+          "horaires": {
+            "general": "Aire d’autoroute, 24 h/24"
+          },
+          "prix": {
+            "detail": "Gazole TotalEnergies 2,25 € (flux public des prix, 01/10)."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "En laisse ; pas d’espace dédié."
+          }
+        }
+      ]
     }
   ]
 }
