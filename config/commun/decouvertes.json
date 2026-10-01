@@ -170,6 +170,53 @@
               "url": "https://perdersi.org/2024/01/07/borgio-verezzi-la-finestra-dei-sogni-tra-cielo-e-mare/"
             }
           ]
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Plan pluie — Musée archéologique du Finale (Finalborgo)",
+          "resume": "Dans le couvent Santa Caterina : 5 €, ouvert jusqu’à 19 h (seulement si vous arrivez avant 18 h 30).",
+          "source": "https://www.museoarcheologicodelfinale.it",
+          "gps": [
+            44.1758,
+            8.3263
+          ],
+          "horaires": {
+            "general": "Mardi – dimanche 10 h – 13 h et 16 h – 19 h"
+          },
+          "prix": {
+            "adulte": "5 €",
+            "detail": "5 €"
+          },
+          "prix_montant": 5,
+          "chien": {
+            "admis": false,
+            "conditions": "Non précisé pour l’intérieur : visite à tour de rôle, l’un garde le chien."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "nom": "Osteria da Oride (Pietra Ligure)",
+          "resume": "Osteria notée 4,5 ★, ouverte le vendredi soir (fermée mardi et mercredi) ; chiens admis dedans et dehors selon Google.",
+          "source": "https://www.google.com/maps/search/?api=1&query=Osteria%20da%20Oride%20Pietra%20Ligure",
+          "gps": [
+            44.1495,
+            8.283
+          ],
+          "horaires": {
+            "general": "Fermée mardi et mercredi",
+            "par_jour": {
+              "2026-10-09": "19 h – 22 h"
+            }
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis selon Google Maps (attribut) ; à confirmer sur place."
+          }
         }
       ]
     },
@@ -1576,6 +1623,92 @@
             "admis": null,
             "conditions": "Règle non publiée : demander sur place."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "nom": "Pizzeria Gubidunes (Gudon, entrée du Val di Funes)",
+          "resume": "Pizzeria notée 4,7 ★, ouverte le samedi et le dimanche ; chiens admis selon Google.",
+          "source": "https://www.google.com/maps/search/?api=1&query=Pizzeria%20Gubidunes%20Gufidaun",
+          "gps": [
+            46.6481,
+            11.6022
+          ],
+          "horaires": {
+            "general": "Fermée le mardi ; samedi 12 h – minuit, dimanche dès 9 h 30"
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis selon Google Maps (attribut) ; à confirmer sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "nom": "Gassl Bräu (Chiusa) — brasserie",
+          "resume": "Brasserie artisanale notée 4,6 ★ : pizzas et knödel ; fermée le mardi.",
+          "source": "https://www.gassl-braeu.it",
+          "gps": [
+            46.6398,
+            11.5646
+          ],
+          "horaires": {
+            "general": "Cuisine 12 h – 15 h et 18 h – 22 h ; fermée le mardi"
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis selon Google Maps (avis) ; à confirmer sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "prix": {
+            "detail": "Trio de knödel 16 €, strudel 9,50 €, couvert 2,50 € (carte de septembre 2026)."
+          },
+          "nom": "Decantei (Bressanone) — chiens bienvenus",
+          "resume": "Bistro de la vieille ville noté 4,5 ★, ouvert tous les jours ; chiens bienvenus selon l’office de tourisme. Trio de knödel 16 €, strudel 9,50 €.",
+          "source": "https://www.brixen-suedtirol.com/",
+          "gps": [
+            46.7152,
+            11.6585
+          ],
+          "horaires": {
+            "general": "Tous les jours 8 h 30 – 23 h ; cuisine 11 h 30 – 14 h et 18 h 30 – 21 h 30"
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens bienvenus (office de tourisme de Bressanone)."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Plan pluie — Piscine couverte Acquarena (Bressanone)",
+          "resume": "11,50 € la journée, billet de 3 h à −20 % après 19 h 30, tous les jours 9 h – 22 h. Pas de chien : à tour de rôle.",
+          "source": "https://www.brixen.eu/",
+          "gps": [
+            46.7196,
+            11.6574
+          ],
+          "horaires": {
+            "general": "Tous les jours 9 h – 22 h"
+          },
+          "prix": {
+            "adulte": "11,50 €",
+            "detail": "Journée 11,50 € ; −20 % après 19 h 30 (à reconfirmer)."
+          },
+          "prix_montant": 11.5,
+          "chien": {
+            "admis": false,
+            "conditions": "Chiens interdits à la piscine."
+          }
         }
       ]
     },
@@ -2165,6 +2298,29 @@
           "chien": {
             "admis": null,
             "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Plan pluie — Musée de la Val Gardena (Ortisei)",
+          "resume": "Musée Gherdëina, ouvert le lundi, 10 € : sculpture sur bois et histoire de la vallée. À tour de rôle avec le chien.",
+          "source": "https://www.museumgherdeina.it",
+          "gps": [
+            46.5739,
+            11.6746
+          ],
+          "horaires": {
+            "general": "Lundi – samedi 10 h – 18 h (17 h en octobre selon d’autres sources)"
+          },
+          "prix": {
+            "adulte": "10 €",
+            "detail": "10 €"
+          },
+          "prix_montant": 10,
+          "chien": {
+            "admis": false,
+            "conditions": "Non précisé pour l’intérieur : visite à tour de rôle, l’un garde le chien."
           }
         }
       ]
@@ -2846,6 +3002,27 @@
           "chien": {
             "admis": null,
             "conditions": "Boutique de ferme : à demander."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "nom": "Pizzeria Sporthütte (Castelrotto)",
+          "resume": "Pizzeria notée 4,5 ★, ouverte le lundi (fermée le mercredi) ; chiens admis selon Google.",
+          "source": "https://www.sporthuette.it",
+          "gps": [
+            46.5672,
+            11.5653
+          ],
+          "horaires": {
+            "general": "11 h – 14 h et 17 h 30 – 22 h ; fermée le mercredi"
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis selon Google Maps (attribut) ; à confirmer sur place."
           }
         }
       ]
@@ -5116,6 +5293,72 @@
             "admis": null,
             "conditions": "Règle non publiée : demander sur place."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Plan pluie — Maison du parc naturel des Tre Cime (Dobbiaco)",
+          "resume": "Gratuite, dans l’ancien Grand Hotel de Dobbiaco : ouverte le mardi 13 et le mercredi 14.",
+          "source": "https://nature-parks.province.bz.it/",
+          "gps": [
+            46.723,
+            12.2253
+          ],
+          "horaires": {
+            "general": "Mardi – samedi 9 h 30 – 12 h 30 et 14 h 30 – 18 h, jusqu’au 31/10"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": false,
+            "conditions": "Non précisé pour l’intérieur : visite à tour de rôle, l’un garde le chien."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "nom": "Pâtisserie Birgit (Dobbiaco)",
+          "resume": "Pâtisserie notée 4,5 ★, ouverte jusqu’au 30 novembre ; chiens admis selon Google.",
+          "source": "https://www.dreizinnen.com/",
+          "gps": [
+            46.7357,
+            12.223
+          ],
+          "horaires": {
+            "general": "8 h – 12 h et 14 h 30 – 18 h"
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis selon Google Maps (attribut) ; à confirmer sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "nom": "färber (San Candido) — restaurant-bar",
+          "resume": "Restaurant-bar noté 4,9 ★, nombreux plats végétariens ; chiens admis selon Google. Horaires et prix à vérifier.",
+          "source": "https://www.google.com/maps/search/?api=1&query=f%C3%A4rber%20Innichen",
+          "gps": [
+            46.7326,
+            12.2805
+          ],
+          "horaires": {
+            "general": "À vérifier"
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis selon Google Maps (attribut) ; à confirmer sur place."
+          }
         }
       ]
     },
@@ -5844,6 +6087,27 @@
             "conditions": "En laisse."
           },
           "duree_conseillee": "3 h"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "nom": "Weißes Lamm (Brunico) — chiens admis",
+          "resume": "Cuisine tyrolienne notée 4,5 ★, ouverte le jeudi 15 (congés du 18 au 26/10) ; chiens admis selon l’office de tourisme de Brunico.",
+          "source": "https://www.bruneck.com/",
+          "gps": [
+            46.7963,
+            11.9405
+          ],
+          "horaires": {
+            "general": "12 h – 14 h et 18 h – 23 h ; congés 18 – 26/10"
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis (office de tourisme de Brunico)."
+          }
         }
       ]
     },
@@ -5929,6 +6193,55 @@
             "conditions": "Sentier en laisse."
           },
           "duree_conseillee": "2 h"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Plan pluie — Bolzano, arcades et marché de la place aux Fruits",
+          "resume": "Rue des arcades couverte et marché de l’Obstplatz le samedi matin (8 h – 13 h), cathédrale gratuite : repli si Carezza est sous la pluie.",
+          "source": "https://www.suedtirolerland.it/",
+          "gps": [
+            46.4975,
+            11.3535
+          ],
+          "horaires": {
+            "general": "Marché samedi 8 h – 13 h ; cathédrale lundi – samedi 10 h – 17 h"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Rues et marché en plein air, en laisse."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Plan pluie — Cascades de Barbiano (jusqu’à la chute inférieure)",
+          "resume": "Gratuit, sur la route de Funes (sortie Ponte Gardena) : chute inférieure à 1 h du village. Par forte pluie, s’arrêter là (sentier raide, rocheux, glissant ; plus haut, passages à câbles).",
+          "source": "https://www.suedtirol.info/",
+          "gps": [
+            46.6004,
+            11.504
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "En laisse."
+          },
+          "duree_conseillee": "2 h aller-retour"
         }
       ]
     },
@@ -6073,6 +6386,31 @@
             "admis": null,
             "conditions": "Règle non publiée : demander sur place."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Plan pluie — Cascades de Riva (Campo Tures)",
+          "resume": "Trois chutes en 55 min, la première à 20 min sur un chemin praticable en poussette ; spectaculaires sous la pluie. Détour d’environ 30 min par Brunico. Parkings gratuits à 15 min de marche.",
+          "source": "https://www.sand-in-taufers.org/",
+          "gps": [
+            46.9142,
+            11.97
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit ; parking principal ≈ 3 €."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Sentier en plein air, en laisse."
+          },
+          "duree_conseillee": "1 h – 2 h"
         }
       ]
     },
