@@ -6124,6 +6124,11 @@
         "date": "2026-09-28",
         "etat": "offres reçues",
         "resume": "Deux offres personnalisées pour 18→19, 18→21 ou 21→25 oct., prix derrière un lien. Le nouveau planning (nuits du 13 au 16) n'a pas encore été demandé."
+      },
+      {
+        "date": "2026-10-02",
+        "etat": "à demander",
+        "resume": "Les offres reçues portent sur d’autres dates (18→25 oct.). Les nuits du 13 et du 14 (programme 8 jours) n’ont jamais été demandées : demande à envoyer."
       }
     ],
     "abris_tempete": [
@@ -11440,6 +11445,11 @@
         "date": "2026-09-28",
         "etat": "réservation non sollicitée",
         "resume": "Probablement ce lieu (contact « Hans Mantinger », interlocutrice Elisabeth ; nom de l'établissement absent du mail) : 42 €/nuit tout compris ; Elisabeth écrit avoir RÉSERVÉ du 13 au 16 octobre malgré la mention « pas une réservation » ; place tenue jusqu'à 18h, prévenir en cas de retard. Le nouveau planning ne dort pas là à ces dates : répondre pour annuler ou déplacer."
+      },
+      {
+        "date": "2026-10-01",
+        "etat": "aucune réservation active",
+        "resume": "À notre demande, la réservation posée d’office par Elisabeth (13→16 oct.) est annulée (« stato annullato »). Elle réservera dès que les dates seront données. Les nuits du 10 et du 11 (programme 8 jours) restent donc à réserver : 42 €/nuit tout compris, place tenue jusqu’à 18 h."
       }
     ],
     "abris_tempete": [
@@ -12783,6 +12793,11 @@
         "date": "2026-09-28",
         "etat": "réponse positive",
         "resume": "Voiture avec tente de toit acceptée, aire pour chiens, chien 2,50 €/jour, électricité 0,60 €/kWh, eau 1 €/100 L. Manquent : prix de base, total avec taxe, heure limite d'arrivée. Dates demandées : 12→13 ou 14→15 oct. — la nuit du 9→10 est à redemander."
+      },
+      {
+        "date": "2026-10-01",
+        "etat": "nuit du 9 à confirmer",
+        "resume": "Tente de toit et chien acceptés (28/09), mais la disponibilité confirmée portait sur le 12→13 oct., pas sur le 9→10. Lien de réservation envoyé ; en plus du prix : chien 2,50 €/jour, taxe de séjour 0,70 €/personne. Disponibilité du 9 et arrivée tardive par code à faire confirmer."
       }
     ],
     "abris_tempete": [
@@ -13255,6 +13270,11 @@
         "date": "2026-09-28",
         "etat": "réponse reçue",
         "resume": "Pas de réservation : venir directement ou appeler pendant le trajet ; arrivée conseillée en début d'après-midi ; check-in 8h30–21h ; hauteur maximale 2,70 m ; tente ouverte sur le camping ; douches ouvertes ; électricité (prise EURO/adaptateur)."
+      },
+      {
+        "date": "2026-10-01",
+        "etat": "réponse reçue",
+        "resume": "Aucun problème connu avec les tentes de toit, même par pluie ou vent. Saison des voyages terminée : inutile d’appeler, il suffit de venir."
       }
     ],
     "abris_tempete": [
