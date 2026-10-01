@@ -1,112 +1,32 @@
 #!/usr/bin/env node
-/* Récupère des photos sous licence libre depuis Wikimedia Commons et les inscrit
-   dans config/commun/lieux.json, avec leur auteur et leur licence.
+/* Complète les POI sans photo à partir de Wikimedia Commons.
+   - recherche précise par nom/commune en premier ;
+   - fallback géographique autour du POI si nécessaire ;
+   - uniquement licences librement réutilisables ;
+   - les photos de proximité sont légendées « Environs de … » pour ne pas les
+     présenter comme une vue exacte de l'établissement.
 
-   Usage :
-     node photos-commons.js            toutes les fiches qui ont moins de CIBLE photos
-     node photos-commons.js lagazuoi   une seule fiche
-
-   Les fiches sans aucune photo sont traitées en premier. Si les recherches par nom
-   ne donnent pas assez d'images, un fallback géographique cherche des photos Commons
-   autour des coordonnées du POI. Elles sont alors explicitement légendées « Environs de … »
-   afin de ne jamais faire croire qu'elles représentent exactement un commerce/camping.
-
-   Pourquoi Commons et pas une recherche d'images ordinaire : le dépôt est public.
-   Republier une photo prise sur un site de tourisme est une contrefaçon ; les
-   images de Commons sont librement réutilisables si l'on cite l'auteur, ce que
-   ce script inscrit dans le champ « credit » de chaque photo. */
+   Usage : node photos-commons.js [id-lieu]
+*/
 'use strict';
 
 const fs = require('fs');
 const path = require('path');
 
-const CIBLE = Number(process.env.CIBLE || 30);
+const CIBLE = Number(process.env.CIBLE || 3);
 const LARGEUR = Number(process.env.LARGEUR || 960);
-const RESULTATS_PAR_RECHERCHE = Number(process.env.RESULTATS_PAR_RECHERCHE || 50);
-const MIN_GEO = Number(process.env.MIN_GEO || 6);
-const MIN_GEO_PRIORITAIRE = Number(process.env.MIN_GEO_PRIORITAIRE || 10);
+const RESULTATS = Number(process.env.RESULTATS_PAR_RECHERCHE || 12);
 const SEULEMENT_SANS_PHOTO = process.env.SEULEMENT_SANS_PHOTO === '1';
-const RAYONS_GEO = [800, 2500, 8000];
+const CONCURRENCE = Math.max(1, Number(process.env.CONCURRENCE || 4));
 const PRIORITAIRES = new Set(['camping', 'agricamper', 'aire', 'supermarche']);
 const API = 'https://commons.wikimedia.org/w/api.php';
-
 const LICENCES_OK = /^(cc0|ccby|ccbysa|publicdomain|pd)/;
 const LICENCES_KO = /(noncommercial|noderiv|fairuse|\bnc\b|-nc-|-nd-|ccbync|ccbynd)/;
 
-function normaliser(txt) {
-  return String(txt || '').toLowerCase().replace(/[\s._-]/g, '');
-}
-
 const dodo = ms => new Promise(r => setTimeout(r, ms));
 
-async function api(params, essai) {
-  essai = essai || 1;
-  const u = new URL(API);
-  u.search = new URLSearchParams({ format: 'json', origin: '*', ...params }).toString();
-  const r = await fetch(u, { headers: { 'User-Agent': 'dolomites-carnet/1.0 (carnet de voyage personnel)' } });
-  if (r.status === 429 || r.status === 503) {
-    if (essai > 5) throw new Error('Commons HTTP ' + r.status + ' après 5 tentatives');
-    const attente = 4000 * essai;
-    process.stdout.write(`(débit limité, pause ${attente / 1000}s) `);
-    await dodo(attente);
-    return api(params, essai + 1);
-  }
-  if (!r.ok) throw new Error('Commons HTTP ' + r.status);
-  return r.json();
-}
-
-async function chercher(requete, limite) {
-  const d = await api({
-    action: 'query', list: 'search', srnamespace: '6',
-    srsearch: requete + ' filetype:bitmap', srlimit: String(limite)
-  });
-  return (d.query?.search || []).map(x => x.title);
-}
-
-async function chercherAutour(gps, rayon, limite) {
-  const d = await api({
-    action: 'query', list: 'geosearch', gsnamespace: '6',
-    gscoord: `${gps[0]}|${gps[1]}`,
-    gsradius: String(rayon),
-    gslimit: String(limite)
-  });
-  return (d.query?.geosearch || []).map(x => x.title);
-}
-
-async function detailler(titres) {
-  const out = [];
-  for (let i = 0; i < titres.length; i += 20) {
-    const d = await api({
-      action: 'query', prop: 'imageinfo', titles: titres.slice(i, i + 20).join('|'),
-      iiprop: 'url|extmetadata|size', iiurlwidth: String(LARGEUR)
-    });
-    for (const p of Object.values(d.query?.pages || {})) {
-      const info = p.imageinfo?.[0];
-      if (!info) continue;
-      const m = info.extmetadata || {};
-      const licence = (m.LicenseShortName?.value || m.License?.value || '').replace(/<[^>]+>/g, '').trim();
-      const auteur = (m.Artist?.value || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-      const legende = (m.ObjectName?.value || p.title.replace(/^File:/, '').replace(/\.[a-z]+$/i, ''))
-        .replace(/<[^>]+>/g, '').replace(/[_-]+/g, ' ').trim();
-      out.push({ titre: p.title, url: info.thumburl || info.url, licence, auteur, legende,
-                 largeur: info.width, hauteur: info.height });
-    }
-    await dodo(250);
-  }
-  return out;
-}
-
-function acceptable(ph) {
-  if (!ph.url || !ph.licence) return false;
-  const n = normaliser(ph.licence);
-  if (LICENCES_KO.test(n)) return false;
-  if (!LICENCES_OK.test(n)) return false;
-  if (ph.largeur && ph.largeur < 640) return false;
-  if (ph.hauteur && ph.largeur) {
-    const r = ph.largeur / ph.hauteur;
-    if (r > 3 || r < 0.5) return false;
-  }
-  return true;
+function normaliser(txt) {
+  return String(txt || '').toLowerCase().replace(/[\s._-]/g, '');
 }
 
 function nettoyerTextePublic(txt) {
@@ -117,116 +37,163 @@ function nettoyerTextePublic(txt) {
     .trim();
 }
 
-function credit(ph) {
-  const brut = ph.auteur && ph.auteur.length < 70 ? ph.auteur : 'auteur non précisé';
-  const a = nettoyerTextePublic(brut) || 'auteur non précisé';
-  return `${a} — Wikimedia Commons, ${ph.licence}`;
+async function api(params, essai = 1) {
+  const u = new URL(API);
+  u.search = new URLSearchParams({ format: 'json', origin: '*', ...params }).toString();
+  const r = await fetch(u, {
+    headers: { 'User-Agent': 'dolomites-carnet/1.0 (carnet de voyage personnel)' }
+  });
+  if (r.status === 429 || r.status === 503) {
+    if (essai > 5) throw new Error(`Commons HTTP ${r.status} après 5 tentatives`);
+    await dodo(1500 * essai);
+    return api(params, essai + 1);
+  }
+  if (!r.ok) throw new Error(`Commons HTTP ${r.status}`);
+  return r.json();
 }
 
-function ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, prefixe) {
-  for (const ph of details) {
-    if (gardees.length >= CIBLE) break;
-    if (!acceptable(ph)) continue;
-    const cleLegende = normaliser(ph.legende);
-    if (urlsGardees.has(ph.url)) continue;
-    if (cleLegende && legendesGardees.has(cleLegende)) continue;
-    const brut = nettoyerTextePublic(ph.legende).slice(0, 90) || l.nom;
-    const legende = prefixe ? `${prefixe} — ${brut}`.slice(0, 140) : brut;
-    gardees.push({ url: ph.url, legende, credit: credit(ph) });
-    urlsGardees.add(ph.url);
-    if (cleLegende) legendesGardees.add(cleLegende);
+async function chercherTexte(q) {
+  const d = await api({
+    action: 'query', list: 'search', srnamespace: '6',
+    srsearch: q + ' filetype:bitmap', srlimit: String(RESULTATS)
+  });
+  return (d.query?.search || []).map(x => x.title);
+}
+
+async function chercherAutour(gps, rayon) {
+  const d = await api({
+    action: 'query', list: 'geosearch', gsnamespace: '6',
+    gscoord: `${gps[0]}|${gps[1]}`,
+    gsradius: String(rayon), gslimit: String(RESULTATS)
+  });
+  return (d.query?.geosearch || []).map(x => x.title);
+}
+
+async function detailler(titres) {
+  if (!titres.length) return [];
+  const out = [];
+  for (let i = 0; i < titres.length; i += 20) {
+    const d = await api({
+      action: 'query', prop: 'imageinfo', titles: titres.slice(i, i + 20).join('|'),
+      iiprop: 'url|extmetadata|size', iiurlwidth: String(LARGEUR)
+    });
+    for (const p of Object.values(d.query?.pages || {})) {
+      const info = p.imageinfo?.[0];
+      if (!info) continue;
+      const m = info.extmetadata || {};
+      const licence = (m.LicenseShortName?.value || m.License?.value || '')
+        .replace(/<[^>]+>/g, '').trim();
+      const auteur = (m.Artist?.value || '').replace(/<[^>]+>/g, '')
+        .replace(/\s+/g, ' ').trim();
+      const legende = (m.ObjectName?.value || p.title.replace(/^File:/, '').replace(/\.[a-z]+$/i, ''))
+        .replace(/<[^>]+>/g, '').replace(/[_-]+/g, ' ').trim();
+      out.push({ url: info.thumburl || info.url, licence, auteur, legende,
+                 largeur: info.width, hauteur: info.height });
+    }
   }
+  return out;
+}
+
+function acceptable(ph) {
+  if (!ph.url || !ph.licence) return false;
+  const n = normaliser(ph.licence);
+  if (LICENCES_KO.test(n) || !LICENCES_OK.test(n)) return false;
+  if (ph.largeur && ph.largeur < 640) return false;
+  if (ph.hauteur && ph.largeur) {
+    const ratio = ph.largeur / ph.hauteur;
+    if (ratio > 3 || ratio < 0.5) return false;
+  }
+  return true;
+}
+
+function credit(ph) {
+  const brut = ph.auteur && ph.auteur.length < 70 ? ph.auteur : 'auteur non précisé';
+  return `${nettoyerTextePublic(brut) || 'auteur non précisé'} — Wikimedia Commons, ${ph.licence}`;
+}
+
+function ajouter(details, lieu, gardees, prefixe, cible) {
+  const urls = new Set(gardees.map(p => p && p.url).filter(Boolean));
+  const legendes = new Set(gardees.map(p => normaliser(p && p.legende)).filter(Boolean));
+  for (const ph of details) {
+    if (gardees.length >= cible) break;
+    if (!acceptable(ph) || urls.has(ph.url)) continue;
+    const cle = normaliser(ph.legende);
+    if (cle && legendes.has(cle)) continue;
+    const base = nettoyerTextePublic(ph.legende).slice(0, 90) || lieu.nom;
+    gardees.push({
+      url: ph.url,
+      legende: prefixe ? `${prefixe} — ${base}`.slice(0, 140) : base,
+      credit: credit(ph)
+    });
+    urls.add(ph.url);
+    if (cle) legendes.add(cle);
+  }
+}
+
+async function enrichir(lieu) {
+  const gardees = (lieu.photos || []).filter(Boolean).slice();
+  if (SEULEMENT_SANS_PHOTO && gardees.length) return;
+  const cible = Math.min(CIBLE, PRIORITAIRES.has(lieu.categorie) ? 3 : 1);
+  if (gardees.length >= cible) return;
+
+  const commune = lieu.commune ? lieu.commune.replace(/\s*\([A-Z]{2}\)/, '').trim() : '';
+  const nomCourt = lieu.nom.split('/')[0].trim();
+  const requete = lieu.recherche_photo || (commune ? `${nomCourt} ${commune}` : lieu.nom);
+
+  try {
+    const titres = await chercherTexte(requete);
+    ajouter(await detailler(titres), lieu, gardees, null, cible);
+  } catch (e) {
+    console.log(`  ${lieu.id} : recherche précise en échec — ${e.message}`);
+  }
+
+  const gpsOk = Array.isArray(lieu.gps) && lieu.gps.length >= 2 &&
+    Number.isFinite(Number(lieu.gps[0])) && Number.isFinite(Number(lieu.gps[1]));
+
+  if (gpsOk && gardees.length < cible) {
+    for (const rayon of [2500, 8000]) {
+      if (gardees.length >= cible) break;
+      try {
+        const titres = await chercherAutour(lieu.gps, rayon);
+        ajouter(await detailler(titres), lieu, gardees, `Environs de ${nomCourt}`, cible);
+      } catch (e) {
+        console.log(`  ${lieu.id} : recherche GPS ${rayon} m en échec — ${e.message}`);
+      }
+    }
+  }
+
+  lieu.photos = gardees;
+  console.log(`  ${lieu.id} : ${gardees.length}/${cible} photo(s)`);
 }
 
 (async () => {
   const fichier = path.join(__dirname, 'config', 'commun', 'lieux.json');
   const lieux = JSON.parse(fs.readFileSync(fichier, 'utf8'));
   const voulu = process.argv[2];
-
-  const aTraiter = lieux.slice().sort((a, b) => {
-    const na = (a.photos || []).filter(Boolean).length;
-    const nb = (b.photos || []).filter(Boolean).length;
-    if ((na === 0) !== (nb === 0)) return na === 0 ? -1 : 1;
-    const pa = PRIORITAIRES.has(a.categorie) ? 0 : 1;
-    const pb = PRIORITAIRES.has(b.categorie) ? 0 : 1;
-    if (pa !== pb) return pa - pb;
-    return na - nb;
+  const candidats = lieux.filter(l => {
+    if (voulu && l.id !== voulu) return false;
+    const n = (l.photos || []).filter(Boolean).length;
+    return SEULEMENT_SANS_PHOTO ? n === 0 : n < CIBLE;
   });
 
-  for (const l of aTraiter) {
-    if (voulu && l.id !== voulu) continue;
-    const existantes = (l.photos || []).filter(Boolean);
-    const deja = existantes.length;
-    if (SEULEMENT_SANS_PHOTO && deja > 0) continue;
-    if (deja >= CIBLE) { console.log(`  ${l.id} : déjà ${deja} photos, ignoré`); continue; }
-
-    const communePhoto = l.commune ? l.commune.replace(/\s*\([A-Z]{2}\)/, '').trim() : '';
-    const nomCourt = l.nom.split('/')[0].trim();
-    const requetes = [
-      l.recherche_photo,
-      communePhoto ? nomCourt + ' ' + communePhoto : null,
-      l.nom
-    ].filter(Boolean);
-
-    const vus = new Set();
-    const gardees = existantes.slice();
-    const urlsGardees = new Set(gardees.map(x => x && x.url).filter(Boolean));
-    const legendesGardees = new Set(gardees.map(x => normaliser(x && x.legende)).filter(Boolean));
-
-    for (const q of requetes) {
-      if (gardees.length >= CIBLE) break;
-      let titres;
-      try { titres = await chercher(q, RESULTATS_PAR_RECHERCHE); }
-      catch (e) { console.log(`  ${l.id} : recherche « ${q} » en échec — ${e.message}`); continue; }
-      const nouveaux = titres.filter(t => !vus.has(t));
-      nouveaux.forEach(t => vus.add(t));
-      if (!nouveaux.length) continue;
-      const details = await detailler(nouveaux);
-      ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, null);
-      await dodo(300);
+  console.log(`${candidats.length} POI à enrichir, concurrence ${CONCURRENCE}.`);
+  let index = 0;
+  async function worker() {
+    while (true) {
+      const i = index++;
+      if (i >= candidats.length) return;
+      await enrichir(candidats[i]);
     }
-
-    const gpsValide = Array.isArray(l.gps) && l.gps.length >= 2 &&
-      Number.isFinite(Number(l.gps[0])) && Number.isFinite(Number(l.gps[1]));
-    const minimumGeo = Math.min(CIBLE, PRIORITAIRES.has(l.categorie) ? MIN_GEO_PRIORITAIRE : MIN_GEO);
-    if (gpsValide && gardees.length < minimumGeo) {
-      for (const rayon of RAYONS_GEO) {
-        if (gardees.length >= minimumGeo) break;
-        let titres;
-        try { titres = await chercherAutour(l.gps, rayon, RESULTATS_PAR_RECHERCHE); }
-        catch (e) { console.log(`  ${l.id} : recherche géographique ${rayon} m en échec — ${e.message}`); continue; }
-        const nouveaux = titres.filter(t => !vus.has(t));
-        nouveaux.forEach(t => vus.add(t));
-        if (!nouveaux.length) continue;
-        const details = await detailler(nouveaux);
-        ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, `Environs de ${nomCourt}`);
-        await dodo(300);
-      }
-    }
-
-    l.photos = gardees;
-    const etat = gardees.length >= CIBLE ? 'OK' : (gardees.length ? 'partiel' : 'AUCUNE');
-    console.log(`  ${l.id} : ${gardees.length}/${CIBLE} photos — ${etat}`);
-    fs.writeFileSync(fichier, JSON.stringify(lieux, null, 2) + '\n', 'utf8');
-    await dodo(250);
   }
+  await Promise.all(Array.from({ length: Math.min(CONCURRENCE, candidats.length || 1) }, worker));
 
   fs.writeFileSync(fichier, JSON.stringify(lieux, null, 2) + '\n', 'utf8');
-
   const sans = lieux.filter(l => !(l.photos || []).filter(Boolean).length);
-  const sous = lieux.filter(l => (l.photos || []).filter(Boolean).length < CIBLE);
-  console.log(`\n${lieux.length} lieux traités.`);
   console.log(`Couverture photo : ${lieux.length - sans.length}/${lieux.length} lieux avec au moins une photo.`);
   if (sans.length) {
     console.log(`${sans.length} lieu(x) encore sans photo :`);
     sans.forEach(l => console.log(`  ! ${l.id} — ${l.nom}`));
   } else {
     console.log('Tous les lieux ont au moins une photo.');
-  }
-  if (sous.length) {
-    console.log(`${sous.length} sous la cible de ${CIBLE} :`);
-    sous.forEach(l => console.log(`  · ${l.id} (${(l.photos || []).length})`));
-  } else {
-    console.log(`Tous les lieux ont au moins ${CIBLE} photos.`);
   }
 })();
