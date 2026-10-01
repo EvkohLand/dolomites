@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-01T14:46Z",
+  "genere_le": "2026-10-01T20:19Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-01T16:36"
+      "maj": "2026-10-01T20:01"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,16 +218,30 @@
     },
     {
       "source": "bz",
-      "id": "3112401",
+      "id": "2882101",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Chiusa e Bolzano Nord 2 km di coda dopo un incidente.",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l’uscita di Bolzano Nord è CHIUSA dalle ore 21:00 alle ore 06:00 a causa di lavori.",
       "debut": "2026-10-01",
-      "fin": "",
+      "fin": "2026-10-02",
       "gps": [
-        46.50778,
-        11.46481
+        46.49504,
+        11.40902
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3073601",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In entrambe le direzioni l’entrata di Trento Centro è CHIUSA dalle ore 20:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-10-01",
+      "fin": "2026-10-02",
+      "gps": [
+        46.08209,
+        11.10523
       ]
     },
     {
@@ -1040,20 +1054,6 @@
       "gps": [
         46.57898,
         11.52248
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2955601",
-      "route": "SS241 — di Val d'Ega e Passo Costalunga",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "All’altezza del Lago di Carezza (km 22,000) rallentamenti dopo un incidente.",
-      "debut": "2026-10-01",
-      "fin": "",
-      "gps": [
-        46.41172,
-        11.56665
       ]
     },
     {
