@@ -11,14 +11,14 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/enrichir-photos.yml"
-      - "photos-commons.js"
+      - "photos-missing-fast.js"
       - "photos-localiser-manquantes.js"
 
 permissions:
   contents: write
 
 concurrency:
-  group: enrichir-photos-fast
+  group: enrichir-photos-bounded
   cancel-in-progress: true
 
 jobs:
@@ -40,13 +40,10 @@ jobs:
       - name: Rechercher des photos libres sur Wikimedia Commons
         env:
           CIBLE: ${{ github.event.inputs.cible || '3' }}
-          LARGEUR: "960"
-          RESULTATS_PAR_RECHERCHE: "12"
-          SEULEMENT_SANS_PHOTO: "1"
-          MIN_GEO: "1"
-          MIN_GEO_PRIORITAIRE: "3"
-          CONCURRENCE: "4"
-        run: node photos-commons.js
+          RESULTATS_PAR_RECHERCHE: "10"
+          CONCURRENCE: "6"
+          HTTP_TIMEOUT_MS: "10000"
+        run: node photos-missing-fast.js
 
       - name: Conserver le résultat de la recherche
         run: cp config/commun/lieux.json "$RUNNER_TEMP/lieux-enrichis.json"
