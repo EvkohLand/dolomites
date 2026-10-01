@@ -30,10 +30,6 @@ const RAYONS_GEO = [800, 2500, 8000];
 const PRIORITAIRES = new Set(['camping', 'agricamper', 'aire', 'supermarche']);
 const API = 'https://commons.wikimedia.org/w/api.php';
 
-/* Licences acceptées : domaine public et Creative Commons réutilisables.
-   Tout ce qui porte « NonCommercial », « NoDerivatives » ou « Fair use » est écarté. */
-/* Le libellé arrive sous des formes variées : « CC BY-SA 3.0 », « cc-by-sa-3.0 »,
-   « Public domain », « CC0 ». On normalise avant de comparer. */
 const LICENCES_OK = /^(cc0|ccby|ccbysa|publicdomain|pd)/;
 const LICENCES_KO = /(noncommercial|noderiv|fairuse|\bnc\b|-nc-|-nd-|ccbync|ccbynd)/;
 
@@ -43,8 +39,6 @@ function normaliser(txt) {
 
 const dodo = ms => new Promise(r => setTimeout(r, ms));
 
-/* Commons limite le débit : un 429 n'est pas une erreur définitive, on attend et on
-   réessaie. Sans ça, une rafale de requêtes fait échouer tous les lieux d'un coup. */
 async function api(params, essai) {
   essai = essai || 1;
   const u = new URL(API);
@@ -81,7 +75,6 @@ async function chercherAutour(gps, rayon, limite) {
 
 async function detailler(titres) {
   const out = [];
-  // 20 titres par appel : au-delà, l'API tronque.
   for (let i = 0; i < titres.length; i += 20) {
     const d = await api({
       action: 'query', prop: 'imageinfo', titles: titres.slice(i, i + 20).join('|'),
@@ -98,7 +91,7 @@ async function detailler(titres) {
       out.push({ titre: p.title, url: info.thumburl || info.url, licence, auteur, legende,
                  largeur: info.width, hauteur: info.height });
     }
-    await dodo(900);
+    await dodo(250);
   }
   return out;
 }
@@ -169,12 +162,11 @@ function ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, prefi
 
     const communePhoto = l.commune ? l.commune.replace(/\s*\([A-Z]{2}\)/, '').trim() : '';
     const nomCourt = l.nom.split('/')[0].trim();
-    const requetes = [l.recherche_photo,
-                      communePhoto ? nomCourt + ' ' + communePhoto : null,
-                      l.nom + ' Dolomites',
-                      l.nom + ' Italy',
-                      l.nom]
-                     .filter(Boolean);
+    const requetes = [
+      l.recherche_photo,
+      communePhoto ? nomCourt + ' ' + communePhoto : null,
+      l.nom
+    ].filter(Boolean);
 
     const vus = new Set();
     const gardees = existantes.slice();
@@ -191,7 +183,7 @@ function ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, prefi
       if (!nouveaux.length) continue;
       const details = await detailler(nouveaux);
       ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, null);
-      await dodo(1100);
+      await dodo(300);
     }
 
     const gpsValide = Array.isArray(l.gps) && l.gps.length >= 2 &&
@@ -208,7 +200,7 @@ function ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, prefi
         if (!nouveaux.length) continue;
         const details = await detailler(nouveaux);
         ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, `Environs de ${nomCourt}`);
-        await dodo(1100);
+        await dodo(300);
       }
     }
 
@@ -216,7 +208,7 @@ function ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, prefi
     const etat = gardees.length >= CIBLE ? 'OK' : (gardees.length ? 'partiel' : 'AUCUNE');
     console.log(`  ${l.id} : ${gardees.length}/${CIBLE} photos — ${etat}`);
     fs.writeFileSync(fichier, JSON.stringify(lieux, null, 2) + '\n', 'utf8');
-    await dodo(1500);
+    await dodo(250);
   }
 
   fs.writeFileSync(fichier, JSON.stringify(lieux, null, 2) + '\n', 'utf8');
