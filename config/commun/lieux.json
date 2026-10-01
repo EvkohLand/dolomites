@@ -22856,7 +22856,7 @@
       11.6429
     ],
     "commune": "Vahrn / Varna",
-    "resume": "Aire de ferme à 12 min de Van Moar : 45 € avec 3 bouteilles de vin, WC. Taverne fermée lundi et mardi : seulement pour le jeudi 15. Tente de toit et chien à confirmer.",
+    "resume": "Aire de ferme à 12 min de Van Moar, WC 24 h/24, eau gratuite, chiens admis (Park4Night) ; un voyageur y est arrivé « late evening with our roof tent ». 45 € avec 3 bouteilles de vin. Taverne fermée lundi et mardi : seulement pour le jeudi 15.",
     "prix": {
       "type": "payant",
       "annee_tarif": 2026,
@@ -22865,8 +22865,8 @@
       "montant": 45
     },
     "chien": {
-      "admis": null,
-      "note": "Non précisé."
+      "admis": true,
+      "note": "Chiens admis selon Park4Night (avis) ; à confirmer."
     },
     "ouverture": {
       "a_reverifier": true,
@@ -22876,7 +22876,11 @@
     "pratique": [
       {
         "libelle": "Tente de toit",
-        "valeur": "non précisé (6 places en cour gravillonnée)"
+        "valeur": "oui : « arrived late evening with our roof tent » (avis Park4Night du 07/05/2025)"
+      },
+      {
+        "libelle": "Sanitaires",
+        "valeur": "WC ouverts 24 h/24, eau gratuite"
       }
     ],
     "source": "https://park4night.com/fr/place/216278",
@@ -23080,6 +23084,56 @@
       "releve": "2026-10-02",
       "url": "https://www.google.com/maps/search/?api=1&query=Caravan%20Park%20Sexten",
       "source": "Google Maps (Maps Grounding Lite)"
+    }
+  },
+  {
+    "id": "camping-ansitz-wildberg",
+    "nom": "Camping Ansitz Wildberg (San Lorenzo di Sebato)",
+    "categorie": "camping",
+    "gps": [
+      46.7812,
+      11.8987
+    ],
+    "commune": "St. Lorenzen / San Lorenzo di Sebato",
+    "resume": "Camping du Val Pusteria ouvert jusqu’au 1er novembre : ≈ 46 € la nuit avec le chien. À ≈ 30 min de Braies, entre Bressanone et Dobbiaco. Tente de toit à confirmer.",
+    "prix": {
+      "type": "payant",
+      "montant": 46,
+      "unite": "nuit, emplacement Standard 2 personnes + chien + taxe",
+      "annee_tarif": 2026,
+      "detail": "13/09 – 18/10/2026 : 36 € + chien 5 € + taxe 2 × 2,50 € = 46 €."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 5,
+      "note": "Chien 5 €."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Ouvert jusqu’au 1er novembre 2026."
+    },
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "non écrite : à confirmer"
+      }
+    ],
+    "source": "https://www.campingwildberg.com/preise-angebote/preise-camping-sommer/",
+    "note_google": {
+      "note": 4.6,
+      "avis": 2259,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/search/?api=1&query=Camping%20Ansitz%20Wildberg",
+      "source": "Google Maps (Maps Grounding Lite)"
+    },
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Camping Wildberg — tarifs 2026",
+          "url": "https://www.campingwildberg.com/preise-angebote/preise-camping-sommer/"
+        }
+      ]
     }
   }
 ]

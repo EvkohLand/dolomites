@@ -140,6 +140,36 @@
               "url": "https://www.arcaplanet.it/pet-store"
             }
           ]
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "vue",
+          "nom": "Bourg de Verezzi — place Sant’Agostino au coucher du soleil",
+          "resume": "Balcon sur la mer dans l’un des « plus beaux bourgs d’Italie », à 5 km de Pietra : « s’innamorarsi del tramonto » (blog perdersi.org). Gratuit ; parking rare près de la place.",
+          "source": "https://borghipiubelliditalia.it/en/borgo/verezzi/",
+          "gps": [
+            44.1679,
+            8.311
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          },
+          "liens": [
+            {
+              "libelle": "Blog perdersi.org",
+              "url": "https://perdersi.org/2024/01/07/borgio-verezzi-la-finestra-dei-sogni-tra-cielo-e-mare/"
+            }
+          ]
         }
       ]
     },
@@ -1460,6 +1490,84 @@
           ],
           "horaires": {
             "general": "Tous les jours sauf mardi soir et mercredi ; cuisine 11 h 30 – 14 h et 17 h 30 – 20 h"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Jausenstation Moar (St. Jakob, Funes)",
+          "resume": "Gibier, agneau, lard maison et légumes du jardin sur une terrasse au soleil à 1 340 m ; 4,6 ★ (237 avis). Ouverte le dimanche 11.",
+          "source": "https://www.jausenstationmoar.it/de/jausenstation",
+          "gps": [
+            46.653,
+            11.6466
+          ],
+          "horaires": {
+            "general": "De Pâques à mi-novembre, en continu ; fermée le lundi",
+            "par_jour": {
+              "2026-10-11": "ouvert"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Saderhof — Törggelen à la ferme (Tötschling, Bressanone)",
+          "resume": "Törggelen « aux prix avantageux » (blog suedtirol-kompakt) : lard, vin et châtaignes de la ferme ; 4,7 ★ (327 avis). Ouvert le lundi 12, à quelques minutes de Van Moar.",
+          "source": "https://www.saderhof.it/en/farm-tavern.html",
+          "gps": [
+            46.6989,
+            11.6267
+          ],
+          "horaires": {
+            "general": "19/09 – 29/11/2026 dès 11 h ; fermé le mardi en septembre et octobre",
+            "par_jour": {
+              "2026-10-12": "dès 11 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          },
+          "liens": [
+            {
+              "libelle": "Blog suedtirol-kompakt — Törggelen",
+              "url": "https://www.suedtirol-kompakt.com/toerggelen-eisacktal/"
+            }
+          ]
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Griesserhof — Buschenschank (Varna)",
+          "resume": "Ferme-auberge élue de l’année 2018 (Roter Hahn), Schlutzer et vins blancs du domaine ; 4,5 ★ (450 avis). Ouverte le jeudi 15, fermée lundi et mardi.",
+          "source": "https://www.roterhahn.it/de/baeuerliche-schankbetriebe/suedtirol/griesserhof-vahrn+4132-2",
+          "gps": [
+            46.74,
+            11.6429
+          ],
+          "horaires": {
+            "general": "Automne : mercredi – dimanche dès 12 h (à confirmer) ; fermé lundi et mardi",
+            "par_jour": {
+              "2026-10-15": "dès 12 h"
+            }
           },
           "prix": {
             "detail": "Prix non publiés."
@@ -4952,6 +5060,62 @@
             "admis": true,
             "conditions": "« Hunde erlaubt » (office des Tre Cime)."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Fromagerie-musée Drei Zinnen (Dobbiaco) — gratuite après 13 h",
+          "resume": "Fabrication du fromage et Toblacher Stangenkäse en vente ; entrée 5 €, gratuite le week-end et dès 13 h en semaine : le mercredi 14 après les Tre Cime. Bistro ouvert tous les jours. Boutique 4,4 ★ (5 923 avis).",
+          "source": "https://3zinnen.it/de/schaukaeserei.html",
+          "gps": [
+            46.7297,
+            12.2187
+          ],
+          "horaires": {
+            "general": "Mardi – samedi 8 h – 19 h, fermé le lundi",
+            "par_jour": {
+              "2026-10-14": "gratuit dès 13 h"
+            }
+          },
+          "prix": {
+            "adulte": "5 € (gratuit dès 13 h)",
+            "detail": "Entrée gratuite le week-end et dès 13 h en semaine."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          },
+          "liens": [
+            {
+              "libelle": "Bistro de la fromagerie",
+              "url": "https://3zinnen.it/de/bistro/"
+            }
+          ]
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "visite",
+          "nom": "Cimetière militaire de Nasswand",
+          "resume": "Cimetière de la Grande Guerre (1 259 soldats, croix de bois) au bord de la route Dobbiaco – Landro, plat et gratuit ; 4,8 ★ (93 avis).",
+          "source": "https://www.outdooractive.com/de/poi/hochpustertal/kriegerfriedhof-nasswand/32582975/",
+          "gps": [
+            46.6762,
+            12.2217
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
         }
       ]
     },
@@ -5636,6 +5800,50 @@
             "admis": true,
             "conditions": "Sans laisse dans l’enclos."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Fane Alm (Vals) — village d’alpage",
+          "resume": "« Le plus beau village d’alpage » du Haut-Adige, à 10 km de Rio di Pusteria : 1 h de montée par le Milchweg depuis le parking. Idée pour l’après-midi libre du jeudi 15. Éviter la gorge de la Schramme avec le chien.",
+          "source": "https://www.fane-alm.com/",
+          "gps": [
+            46.8842,
+            11.6208
+          ],
+          "horaires": {
+            "general": "Kuttnhütte mi-avril – mi-novembre ; Zingerle Hütte 9 h – 16 h 30"
+          },
+          "prix": {
+            "detail": "Parking 8 € (5 € après 14 h) selon un résumé, à vérifier."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "En laisse."
+          },
+          "duree_conseillee": "3 h"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Alpage de Rodeneck-Lüsen — Rastnerhütte",
+          "resume": "Larges chemins d’alpage aux « herrliche Ausblicke » sur le Sass de Putia, la Plose et le Sciliar ; environ 3 h aller-retour depuis le parking de Zumis. Ouverture d’octobre à vérifier. Rastnerhütte 4,5 ★ (660 avis).",
+          "source": "https://www.suedtirol-kompakt.com/wanderung-ueber-die-rodenecker-luesner-alm/",
+          "gps": [
+            46.7764,
+            11.7822
+          ],
+          "horaires": {
+            "general": "Mai à octobre selon les guides"
+          },
+          "prix": {
+            "detail": "Parking de Zumis payant."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "En laisse."
+          },
+          "duree_conseillee": "3 h"
         }
       ]
     },
@@ -5696,6 +5904,31 @@
               "url": "https://www.arcaplanet.it/pet-store"
             }
           ]
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "activite",
+          "nom": "Bad Dreikirchen depuis Barbian — trois chapelles sans voitures",
+          "resume": "Boucle facile de 6 km (2 h, +317 m) jusqu’à trois chapelles gothiques imbriquées, vue sur le Sciliar ; Barbian est sur la route Bolzano → Chiusa. Idée de repli si Carezza est sous la pluie. Éviter le passage par les cascades (câbles).",
+          "source": "https://www.suedtirolerland.it/en/leisure-activities/mountains-and-hiking/in-the-valle-isarco/to-tre-chiese-at-barbiano/",
+          "gps": [
+            46.6179,
+            11.5105
+          ],
+          "horaires": {
+            "general": "Auberges Messnerhof et Bad Dreikirchen ouvertes d’avril à novembre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Sentier libre."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Sentier en laisse."
+          },
+          "duree_conseillee": "2 h"
         }
       ]
     },
@@ -5787,6 +6020,55 @@
           "prix": {
             "detail": "10–20 € par personne selon Google Maps."
           },
+          "chien": {
+            "admis": null,
+            "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "vue",
+          "nom": "Lac de Valparola",
+          "resume": "Petit lac à quelques minutes à pied du col de Valparola (sentier CAI 24, boucle d’1,25 km), sur la route du 13 ; 5,0 ★ (31 avis). À combiner avec le Forte Tre Sassi.",
+          "source": "https://www.agordinodolomiti.it/it_IT/esperienze/cosa-vedere/natura/lago-di-valparola/",
+          "gps": [
+            46.5297,
+            11.9881
+          ],
+          "horaires": {
+            "general": "Accès libre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Gratuit."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "En laisse."
+          },
+          "duree_conseillee": "30 min"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "vue",
+          "nom": "Passo delle Erbe (Würzjoch) — route panoramique",
+          "resume": "Route panoramique vers la Val Badia au pied du Sass de Putia, ouverte de mai à novembre ; étroite, à une seule voie par endroits. Parking gratuit hors saison selon Park4Night (à vérifier). Pas de nuit sur place (camping sauvage interdit).",
+          "source": "https://www.suedtirol.info/en/en/information/mobility-and-barrier-free-accessibility/local-transport-in-south-tyrol/dolomite-passes/wuerzjoch-pass",
+          "gps": [
+            46.6748,
+            11.8132
+          ],
+          "horaires": {
+            "general": "Route ouverte de mai à novembre"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Route gratuite."
+          },
+          "prix_montant": 0,
           "chien": {
             "admis": null,
             "conditions": "Règle non publiée : demander sur place."
