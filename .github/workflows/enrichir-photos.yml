@@ -41,7 +41,7 @@ jobs:
         env:
           CIBLE: ${{ github.event.inputs.cible || '3' }}
           LARGEUR: "960"
-          RESULTATS_PAR_RECHERCHE: "35"
+          RESULTATS_PAR_RECHERCHE: "12"
           SEULEMENT_SANS_PHOTO: "1"
           MIN_GEO: "1"
           MIN_GEO_PRIORITAIRE: "3"
