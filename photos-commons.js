@@ -25,6 +25,7 @@ const LARGEUR = Number(process.env.LARGEUR || 960);
 const RESULTATS_PAR_RECHERCHE = Number(process.env.RESULTATS_PAR_RECHERCHE || 50);
 const MIN_GEO = Number(process.env.MIN_GEO || 6);
 const MIN_GEO_PRIORITAIRE = Number(process.env.MIN_GEO_PRIORITAIRE || 10);
+const SEULEMENT_SANS_PHOTO = process.env.SEULEMENT_SANS_PHOTO === '1';
 const RAYONS_GEO = [800, 2500, 8000];
 const PRIORITAIRES = new Set(['camping', 'agricamper', 'aire', 'supermarche']);
 const API = 'https://commons.wikimedia.org/w/api.php';
@@ -107,18 +108,16 @@ function acceptable(ph) {
   const n = normaliser(ph.licence);
   if (LICENCES_KO.test(n)) return false;
   if (!LICENCES_OK.test(n)) return false;
-  if (ph.largeur && ph.largeur < 640) return false;         // trop petite pour une galerie
+  if (ph.largeur && ph.largeur < 640) return false;
   if (ph.hauteur && ph.largeur) {
     const r = ph.largeur / ph.hauteur;
-    if (r > 3 || r < 0.5) return false;   // panoramique démesurée, panneau, blason
+    if (r > 3 || r < 0.5) return false;
   }
   return true;
 }
 
 function nettoyerTextePublic(txt) {
   return String(txt || '')
-    // Certains noms de fichiers Commons contiennent des identifiants Flickr/Panoramio
-    // assez longs pour ressembler à des numéros personnels au validateur du dépôt.
     .replace(/\b(?:\d[\s.\-]?){8,}\b/g, '')
     .replace(/\s*\(\s*\)/g, '')
     .replace(/\s{2,}/g, ' ')
@@ -151,8 +150,6 @@ function ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, prefi
   const lieux = JSON.parse(fs.readFileSync(fichier, 'utf8'));
   const voulu = process.argv[2];
 
-  // Les trous de couverture passent avant les galeries déjà fournies.
-  // À nombre de photos égal, campings/agricampings/aires/courses passent d'abord.
   const aTraiter = lieux.slice().sort((a, b) => {
     const na = (a.photos || []).filter(Boolean).length;
     const nb = (b.photos || []).filter(Boolean).length;
@@ -167,10 +164,9 @@ function ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, prefi
     if (voulu && l.id !== voulu) continue;
     const existantes = (l.photos || []).filter(Boolean);
     const deja = existantes.length;
+    if (SEULEMENT_SANS_PHOTO && deja > 0) continue;
     if (deja >= CIBLE) { console.log(`  ${l.id} : déjà ${deja} photos, ignoré`); continue; }
 
-    // On commence par les formulations les plus précises pour éviter qu'un nom
-    // générique (camping, aire, station...) ramène des photos d'un homonyme.
     const communePhoto = l.commune ? l.commune.replace(/\s*\([A-Z]{2}\)/, '').trim() : '';
     const nomCourt = l.nom.split('/')[0].trim();
     const requetes = [l.recherche_photo,
@@ -198,9 +194,6 @@ function ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, prefi
       await dodo(1100);
     }
 
-    // Les petits établissements et services ont souvent zéro résultat textuel.
-    // On complète alors avec des photos géolocalisées de plus en plus larges.
-    // La légende indique explicitement qu'il s'agit des environs, pas du POI lui-même.
     const gpsValide = Array.isArray(l.gps) && l.gps.length >= 2 &&
       Number.isFinite(Number(l.gps[0])) && Number.isFinite(Number(l.gps[1]));
     const minimumGeo = Math.min(CIBLE, PRIORITAIRES.has(l.categorie) ? MIN_GEO_PRIORITAIRE : MIN_GEO);
@@ -222,7 +215,6 @@ function ajouterDetails(details, l, gardees, urlsGardees, legendesGardees, prefi
     l.photos = gardees;
     const etat = gardees.length >= CIBLE ? 'OK' : (gardees.length ? 'partiel' : 'AUCUNE');
     console.log(`  ${l.id} : ${gardees.length}/${CIBLE} photos — ${etat}`);
-    // Sauvegarde au fil de l'eau : une interruption ne perd pas le travail déjà fait.
     fs.writeFileSync(fichier, JSON.stringify(lieux, null, 2) + '\n', 'utf8');
     await dodo(1500);
   }
