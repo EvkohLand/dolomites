@@ -84,6 +84,62 @@
             "admis": null,
             "conditions": "Chiens admis sur les emplacements du camping ; en salle : à demander."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "Arcaplanet Finale Ligure — animalerie",
+          "resume": "Animalerie où tous les chiens sont les bienvenus (règle écrite de l’enseigne) : croquettes, eau, accessoires.",
+          "source": "https://negozi.arcaplanet.it/liguria/sv/finale-ligure-via-del-sagittario-7-4t",
+          "adresse": "Via del Sagittario 7, Finale Ligure",
+          "gps": [
+            44.17123,
+            8.3356
+          ],
+          "horaires": {
+            "general": "Vendredi et samedi 9 h – 20 h"
+          },
+          "prix": {
+            "detail": "Magasin."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "« In tutti i Pet store Arcaplanet i tuoi animali sono sempre i benvenuti »."
+          },
+          "liens": [
+            {
+              "libelle": "Arcaplanet — règle animaux",
+              "url": "https://www.arcaplanet.it/pet-store"
+            }
+          ]
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "Arcaplanet Borghetto Santo Spirito — animalerie",
+          "resume": "Animalerie où tous les chiens sont les bienvenus (règle écrite de l’enseigne) : croquettes, eau, accessoires.",
+          "source": "https://negozi.arcaplanet.it/liguria/sv/borghetto-santo-spirito-c.so-iv-novembre-51-2p",
+          "adresse": "Corso IV Novembre 51, Borghetto Santo Spirito",
+          "gps": [
+            44.11081,
+            8.24244
+          ],
+          "horaires": {
+            "general": "Vendredi et samedi 9 h – 19 h 30"
+          },
+          "prix": {
+            "detail": "Magasin."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "« In tutti i Pet store Arcaplanet i tuoi animali sono sempre i benvenuti »."
+          },
+          "liens": [
+            {
+              "libelle": "Arcaplanet — règle animaux",
+              "url": "https://www.arcaplanet.it/pet-store"
+            }
+          ]
         }
       ]
     },
@@ -1335,6 +1391,62 @@
             "admis": null,
             "conditions": "Règle non publiée : demander sur place."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "Carte d’hôte gratuite de Villnöss (Südtirol Guest Pass) — remise par la ferme Zum Gletscher Hons",
+          "resume": "Carte gratuite remise pour les nuits à la ferme : bus et trains du Haut-Adige gratuits (bus 330 vers Zans), −50 % aux parkings de Zans et de Ranui (5 € au lieu de 10 €), une entrée gratuite au musée des minéraux de Teis et une dégustation de 3 vins. Exclus : navettes de l’Alpe di Siusi et lignes 444, 439, 442 en saison, 333. Chien : billet de bus et muselière.",
+          "source": "https://www.odlesdolomites.com/en/guest-pass",
+          "horaires": {
+            "general": "Du jour d’arrivée au jour de départ"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Remise par l’hébergement (fiche officielle de la ferme : Guest Pass actif ; Campercontact le confirme)."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Dans le bus : billet chien (2 € le trajet ou 3,50 € la journée) et muselière."
+          },
+          "liens": [
+            {
+              "libelle": "Fiche de la ferme (office de Funes)",
+              "url": "https://www.odlesdolomites.com/en/accommodations/C87E93A37AAE756F4256E175636B7B34"
+            },
+            {
+              "libelle": "Campercontact — carte d’hôte et bus pour Zans",
+              "url": "https://www.campercontact.com/nl/trentino-alto-adige/funes/93252/zum-gletscher-hons"
+            }
+          ]
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "Carte d’hôte du camping Vahrner See (Südtirol Guest Pass) — demander la version",
+          "resume": "Le camping du lac de Varna remet le Südtirol Guest Pass (suedtirol.info). Si c’est la version complète « Brixen Südtirol Guest Pass », un musée par jour est gratuit : l’abbaye de Novacella, à 2 km, devient gratuite (26 € d’économie à deux). Sinon, version « Mobilcard » : transports seulement. À demander à l’arrivée.",
+          "source": "https://www.suedtirol.info/en/en/accommodation/pdp-enquiry.FBA8F5A6E54211D499340050044A1601.camping-vahrner-see---al-lago-di-varna.varna-vahrn",
+          "horaires": {
+            "general": "Nuits du 12 au 13 et du 15 au 16"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Version remise non confirmée par le site du camping."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Dans le bus : billet chien et muselière."
+          },
+          "liens": [
+            {
+              "libelle": "Office de Bressanone — Brixen Südtirol Guest Pass",
+              "url": "https://www.brixen.org/en/my-holiday/brixen-as-a-holiday-destination/brixen-suedtirol-guest-pass"
+            }
+          ]
         }
       ]
     },
@@ -4527,6 +4639,110 @@
             "admis": null,
             "conditions": "« Animali benvenuti » sur le site, visiblement pour l’hébergement ; salle du restaurant : à demander."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "HolidayPass du camping Olympia (bus gratuits)",
+          "resume": "Carte d’hôte remise par le camping : tous les transports publics du Haut-Adige gratuits, ligne 445 jusqu’à Cortina comprise. Avec le programme en voiture, gain presque nul (Antorno déjà gratuit, ligne 444 arrêtée le 11/10, Misurina hors Haut-Adige).",
+          "source": "https://www.camping-olympia.com/gut-zu-wissen/",
+          "horaires": {
+            "general": "De 0 h le jour d’arrivée à 23 h 59 le jour du départ"
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Exclus en haute saison : lignes 439, 442 et 444."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "Dans le bus : billet chien et muselière."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Restaurant-Pizzeria Samyr — à 120 m du camping Olympia",
+          "resume": "Chiens acceptés selon l’office de tourisme ; ouvert de 8 h à 23 h, en-cas le matin et l’après-midi.",
+          "source": "https://www.dreizinnen.com/de/infos/restaurant-pizzeria-samyr_7229",
+          "gps": [
+            46.73476,
+            12.19261
+          ],
+          "horaires": {
+            "general": "8 h – 23 h ; en-cas 8 h – 12 h et 14 h – 17 h 30"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "« Hunde erlaubt » (office des Tre Cime)."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Café Annelies (Dobbiaco)",
+          "resume": "Café du centre de Dobbiaco qui accepte les chiens, ouvert tous les jours.",
+          "source": "https://www.dreizinnen.com/de/infos/caf-annelies_7205",
+          "gps": [
+            46.73609,
+            12.2239
+          ],
+          "horaires": {
+            "general": "27/03 – 06/12, tous les jours 8 h – 23 h"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "« Hunde erlaubt » (office des Tre Cime)."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Bar-Restaurant Weiherbad (Villabassa)",
+          "resume": "À 900 m du camping Olympia, chiens acceptés, ouvert jusqu’au 18 octobre.",
+          "source": "https://www.dreizinnen.com/de/infos/bar-restaurant-weiherbad_7055",
+          "gps": [
+            46.73739,
+            12.18315
+          ],
+          "horaires": {
+            "general": "Jusqu’au 18/10, 8 h – 23 h"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "« Hunde erlaubt » (office des Tre Cime)."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Bistrò Union (Dobbiaco)",
+          "resume": "Bistro d’hôtel qui accepte les chiens, ouvert jusqu’au 17 octobre.",
+          "source": "https://www.dreizinnen.com/de/infos/hotel-bistr-union_7209",
+          "gps": [
+            46.72513,
+            12.22265
+          ],
+          "horaires": {
+            "general": "Jusqu’au 17/10, 8 h – 22 h"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "« Hunde erlaubt » (office des Tre Cime)."
+          }
         }
       ]
     },
@@ -5072,6 +5288,34 @@
             "admis": null,
             "conditions": "Règle non publiée : demander sur place."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "bon-plan",
+          "nom": "Arcaplanet Bolzano — animalerie (sortie Bolzano Sud)",
+          "resume": "Animalerie où tous les chiens sont les bienvenus (règle écrite de l’enseigne) : croquettes, eau, accessoires.",
+          "source": "https://negozi.arcaplanet.it/trentino-alto-adige/bz/bolzano-via-galileo-galilei-2-x6",
+          "adresse": "Via Galilei 2, Bolzano",
+          "gps": [
+            46.48733,
+            11.34157
+          ],
+          "horaires": {
+            "general": "Samedi 9 h – 19 h 30"
+          },
+          "prix": {
+            "detail": "Magasin."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "« In tutti i Pet store Arcaplanet i tuoi animali sono sempre i benvenuti »."
+          },
+          "liens": [
+            {
+              "libelle": "Arcaplanet — règle animaux",
+              "url": "https://www.arcaplanet.it/pet-store"
+            }
+          ]
         }
       ]
     },
