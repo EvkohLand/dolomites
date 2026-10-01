@@ -1559,7 +1559,31 @@
           b.addEventListener('click', function () { ouvrirPanneau(id, { retour: j.jour }); });
           du.appendChild(b);
         });
+        /* Pharmacies de garde du jour, en direct : le district (BEZI_ID) se déduit de la
+           commune de la nuit (commune_istat), puis on garde les pharmacies IS_TURN du district. */
+        var pg = urg.pharmacies_garde;
+        if (pg && n.commune_istat && j.date && window.fetch) {
+          var zpg = el('div');
+          du.appendChild(zpg);
+          fetch(pg.url_modele.replace('{date}', j.date))
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (liste) {
+              var ici = liste.find(function (x) { return x.GEME_ISTAT === n.commune_istat; });
+              if (!ici) return;
+              var garde = liste.filter(function (x) { return x.IS_TURN === 1 && x.BEZI_ID === ici.BEZI_ID; });
+              if (!garde.length) return;
+              zpg.appendChild(el('p', 'bloc__titre', pg.libelle));
+              var ul = el('ul', 'tempete__consignes');
+              garde.forEach(function (x) {
+                ul.appendChild(el('li', null, x.PHAR_DESC_I + ' — ' + x.GEME_DESC_I + ', ' + x.PHAR_ADRESS_I +
+                  ' · garde ' + x.TURN_TIMETABLE + (x.PHAR_PHONE ? ' · ' + x.PHAR_PHONE : '')));
+              });
+              zpg.appendChild(ul);
+              zpg.appendChild(el('p', 'jour__note', pg.source));
+            }).catch(function () {});
+        }
         var lu = el('div', 'puces');
+        if (pg) lu.appendChild(lienExterne('Pharmacies de garde (officiel)', pg.page));
         (urg.sources || []).forEach(function (x) { lu.appendChild(lienExterne(x.libelle, x.url)); });
         du.appendChild(lu);
         dn.appendChild(du);

@@ -143,6 +143,12 @@
         "libelle": "Ordre des vétérinaires — gardes",
         "url": "https://www.tieraerztekammer.com/bereitschaftsdienste/"
       }
-    ]
+    ],
+    "pharmacies_garde": {
+      "libelle": "Pharmacies de garde ce jour-là (liste officielle du Haut-Adige)",
+      "url_modele": "https://daten.buergernetz.bz.it/services/pharmacy/v1/json?date={date}",
+      "page": "https://gesundheit.provinz.bz.it/de/turnusapotheken",
+      "source": "Service officiel de la province de Bolzano (données ouvertes), interrogé à chaque ouverture."
+    }
   }
 }
