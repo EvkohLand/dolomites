@@ -85,9 +85,9 @@
       "ordre": 4,
       "jour": 4,
       "type": "transfert",
-      "libelle": "Alpe di Siusi à pied, puis Ortisei → Varna",
+      "libelle": "Alpe di Siusi à pied, puis Ortisei → Bressanone (Van Moar)",
       "de": "ferme-gletscher-hons",
-      "vers": "camping-vahrner-see",
+      "vers": "ferme-pinzagen-van-moar",
       "par": [
         "parking-alpe-p1",
         "parking-ortisei-gratuit"
@@ -98,17 +98,17 @@
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Alpe di Siusi à pied, puis Ortisei → Varna",
-      "distance_km": 94,
-      "duree_h": 2.4
+      "note": "Alpe di Siusi à pied, puis Ortisei → Bressanone (Van Moar)",
+      "distance_km": 89,
+      "duree_h": 2.3
     },
     {
       "id": "etape-j5",
       "ordre": 5,
       "jour": 5,
       "type": "transfert",
-      "libelle": "Varna → Cinque Torri à pied → Dobbiaco",
-      "de": "camping-vahrner-see",
+      "libelle": "Bressanone → Cinque Torri à pied → Dobbiaco",
+      "de": "ferme-pinzagen-van-moar",
       "vers": "camping-olympia",
       "par": [
         "courses-lidl-varna",
@@ -120,9 +120,9 @@
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Varna → Cinque Torri à pied → Dobbiaco",
-      "distance_km": 124,
-      "duree_h": 3
+      "note": "Bressanone → Cinque Torri à pied → Dobbiaco",
+      "distance_km": 127,
+      "duree_h": 3.1
     },
     {
       "id": "etape-j6",
@@ -154,9 +154,9 @@
       "ordre": 7,
       "jour": 7,
       "type": "transfert",
-      "libelle": "Lago di Braies → Varna",
+      "libelle": "Lago di Braies → Bressanone (Van Moar)",
       "de": "camping-olympia",
-      "vers": "camping-vahrner-see",
+      "vers": "ferme-pinzagen-van-moar",
       "par": [
         "lago-braies",
         "marche-rio-di-pusteria",
@@ -169,9 +169,9 @@
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Lago di Braies → Varna",
-      "distance_km": 78,
-      "duree_h": 1.9
+      "note": "Lago di Braies → Bressanone (Van Moar)",
+      "distance_km": 80,
+      "duree_h": 2
     },
     {
       "id": "etape-retour",
@@ -179,15 +179,15 @@
       "jour": 8,
       "type": "retour",
       "libelle": "Retour à Saint-Gély par l’autoroute",
-      "de": "camping-vahrner-see",
+      "de": "ferme-pinzagen-van-moar",
       "vers": "depart",
       "par": [],
       "visites": [],
       "visites_hors_route": [],
       "pays": "IT",
       "note": "Retour à Saint-Gély par l’autoroute",
-      "distance_km": 962,
-      "duree_h": 10.5,
+      "distance_km": 955,
+      "duree_h": 10.6,
       "autoroute": true,
       "troncons_peage": [
         "it-a22",

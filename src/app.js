@@ -145,6 +145,14 @@
 
   /* ---------- Prix ---------- */
 
+  /* Note Google relevée (pas d'appel en direct : la clé Maps ne peut pas être exposée
+     dans une page publique) : toujours affichée avec sa date de relevé. */
+  function noteGoogle(l) {
+    var g = l && l.note_google;
+    if (!g || typeof g.note !== 'number') return null;
+    return String(g.note).replace('.', ',') + ' ★ (' + g.avis + ' avis Google)';
+  }
+
   function prixAffiche(l) {
     var p = l && l.prix;
     if (!p) return null;
@@ -706,6 +714,8 @@
       badges.appendChild(bp);
     }
     if (l.niveau_prix) badges.appendChild(el('span', 'badge badge--niveau', l.niveau_prix));
+    var ng = noteGoogle(l);
+    if (ng) badges.appendChild(el('span', 'badge', ng + ', relevé le ' + dateCourte(l.note_google.releve)));
     if (l.nuit_possible === false) badges.appendChild(el('span', 'badge badge--alerte', 'Ne pas y dormir avec notre tente de toit'));
     if (l.chien && l.chien.admis) {
       var t = 'Chien admis';
@@ -1531,7 +1541,7 @@
         var ra = el('div', 'puces');
         autres.forEach(function (id) {
           var l = E.parId.get(id);
-          var b = el('button', 'puce', l.nom);
+          var b = el('button', 'puce', [l.nom, noteGoogle(l), prixAffiche(l)].filter(Boolean).join(' · '));
           b.type = 'button';
           b.addEventListener('click', function () { ouvrirPanneau(id, { retour: j.jour }); });
           ra.appendChild(b);

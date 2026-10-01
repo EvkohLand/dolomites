@@ -6177,7 +6177,14 @@
       "veto-bruneck",
       "veto-vetcortina",
       "veto-vetbz-bolzano"
-    ]
+    ],
+    "note_google": {
+      "note": 4.5,
+      "avis": 3605,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x4778295c60048205:0xca67f0f25205b1d5",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "camping-cortina",
@@ -6547,7 +6554,14 @@
         "etat": "sans réponse",
         "resume": "Demande pour 14→18 oct. envoyée le 27/09 ; aucune réponse au 29/09 (le camping ne prend de toute façon pas de réservation)."
       }
-    ]
+    ],
+    "note_google": {
+      "note": 3.7,
+      "avis": 1092,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x477835c858c9d13f:0x150d64f9b1518680",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "aire-ortisei",
@@ -10232,7 +10246,14 @@
         "etat": "offre reçue",
         "resume": "Offre personnalisée pour 13→16 ou 13→17 oct., détails derrière un lien (prix non écrits dans le mail). Rien de réservé."
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4.1,
+      "avis": 728,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x477805019f329a37:0xafc8d551aebfdca6",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "camping-sass-dlacia",
@@ -11497,7 +11518,14 @@
       "veto-kleintierklinik-pranter",
       "veto-vetbz-bolzano",
       "pharmacie-rosenapotheke-varna"
-    ]
+    ],
+    "note_google": {
+      "note": 4.7,
+      "avis": 366,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x477811e51ed05937:0xe44aaa5c925ff009",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "courses-conad-savone",
@@ -12085,7 +12113,14 @@
         "etat": "refus",
         "resume": "Aucune disponibilité pour 12→13 et 14→15 octobre. La nuit du 9→10 n'a pas été redemandée après correction."
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4.4,
+      "avis": 1149,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x769bb353982d1e65:0x413cf43a8988a3fa",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "courses-conad-varazze",
@@ -12414,7 +12449,14 @@
         "etat": "sans réponse",
         "resume": "Demande via l'adresse du secrétariat (place XL, accès Via della Pace) pour la nuit du 10→11 oct. ; aucune réponse."
       }
-    ]
+    ],
+    "note_google": {
+      "note": 3.8,
+      "avis": 109,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d322c58024886f:0x5fcfc885e59bdc38",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "ferme-pinzagen-van-moar",
@@ -12568,7 +12610,14 @@
       "obligatoire": true,
       "url": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507"
     },
-    "description": "Pré privé à côté de la ferme d'Andreas et Dorothea, près du potager, avec vaches et poules en liberté comme voisines et vue sur la Plose. Un seul emplacement de 25 m² sur herbe, pour caravane, van, camping-car ou tente de toit (« Roof Top Tent » dans les types acceptés sur Campspace), 4 personnes au maximum. Ouvert toute l'année, une nuit minimum. Prix Campspace pour le 13–16 octobre 2026 : 108,30 € les 3 nuits « incl. taxes & services », par emplacement (même prix pour 1 ou 2 adultes) ; électricité 5 €/nuit, bois 3,50 €, vélo 9 €/personne/nuit. L'hôte situe la ferme à 50 m du restaurant Alpenrose ; sur Nomady, l'exploitation s'appelle « Van Moar Bauernhof » et n'a pas de site propre. Chiens acceptés, en laisse selon Nomady, sans supplément affiché. WC à 5 minutes au plus, eau potable, lave-linge ; pas de douche sur place. Annulation gratuite jusqu'à 14 jours avant, 50 % de remboursement entre 7 et 14 jours."
+    "description": "Pré privé à côté de la ferme d'Andreas et Dorothea, près du potager, avec vaches et poules en liberté comme voisines et vue sur la Plose. Un seul emplacement de 25 m² sur herbe, pour caravane, van, camping-car ou tente de toit (« Roof Top Tent » dans les types acceptés sur Campspace), 4 personnes au maximum. Ouvert toute l'année, une nuit minimum. Prix Campspace pour le 13–16 octobre 2026 : 108,30 € les 3 nuits « incl. taxes & services », par emplacement (même prix pour 1 ou 2 adultes) ; électricité 5 €/nuit, bois 3,50 €, vélo 9 €/personne/nuit. L'hôte situe la ferme à 50 m du restaurant Alpenrose ; sur Nomady, l'exploitation s'appelle « Van Moar Bauernhof » et n'a pas de site propre. Chiens acceptés, en laisse selon Nomady, sans supplément affiché. WC à 5 minutes au plus, eau potable, lave-linge ; pas de douche sur place. Annulation gratuite jusqu'à 14 jours avant, 50 % de remboursement entre 7 et 14 jours.",
+    "note_google": {
+      "note": 5,
+      "avis": 5,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x47780550114f11e5:0x396d39da19880904",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "agricamping-pietra-ulivo",
@@ -12838,7 +12887,14 @@
       "hopital-santa-corona",
       "pharmacie-del-borgo-finale",
       "veto-anicura-letimbro"
-    ]
+    ],
+    "note_google": {
+      "note": 4.8,
+      "avis": 61,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2f73a4f74b655:0x3044c23f97c9d085",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "camping-gamp-chiusa",
@@ -13059,7 +13115,14 @@
         "etat": "sans réponse",
         "resume": "Demande pour 13→16 ou 13→17 oct. envoyée ; aucune réponse au 29/09."
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4.2,
+      "avis": 1062,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x47780ebc0fcf5db1:0xff4305a36d0ceb77",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "camping-vahrner-see",
@@ -13322,7 +13385,14 @@
       "veto-tierklinik-brixen",
       "veto-kleintierklinik-pranter",
       "veto-vetbz-bolzano"
-    ]
+    ],
+    "note_google": {
+      "note": 3.5,
+      "avis": 670,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x4778046bd9b673c1:0xe8ee5fdb472e7a7e",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "courses-eurospar-bressanone",
@@ -18084,7 +18154,14 @@
         }
       ]
     },
-    "photos": []
+    "photos": [],
+    "note_google": {
+      "note": 4.1,
+      "avis": 898,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2f71cd1e4600b:0xad0264b9f1a502db",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "abri-pension-veltierhof",
@@ -18483,7 +18560,14 @@
         "credit": "febs — Wikimedia Commons, CC BY 2.0",
         "fichier": "abri-campeggio-del-mulino-web-1.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4.2,
+      "avis": 575,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2fa2b3515f8f7:0xc28231452603a7ec",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "abri-ai-pozzi-loano",
@@ -18655,7 +18739,14 @@
         "credit": "Wasquewhat — Wikimedia Commons, CC BY-SA 4.0",
         "fichier": "abri-villaggio-giuele-web-1.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4,
+      "avis": 1140,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2fa332654917b:0xab9593c66836faf3",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "abri-hotel-bello-finale",
@@ -19995,7 +20086,14 @@
         }
       ]
     },
-    "photos": []
+    "photos": [],
+    "note_google": {
+      "note": 4.5,
+      "avis": 342,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d25f27ad5da047:0x7f224fd698281db8",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "agricamping-oasi-ceriale",
@@ -20068,7 +20166,14 @@
         "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
         "fichier": "agricamping-oasi-ceriale-web-3.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4.5,
+      "avis": 329,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2599030c7735d:0xbf01e944074d6cec",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "camping-pian-dei-boschi",
@@ -20132,7 +20237,14 @@
         "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
         "fichier": "camping-pian-dei-boschi-web-3.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4.2,
+      "avis": 1018,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2f71cf9e15c3d:0xa6b122cc5ccb91e0",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "aire-area-camper-pietra",
@@ -20206,7 +20318,14 @@
         "credit": "Arbenganese — Wikimedia Commons, CC BY-SA 4.0",
         "fichier": "aire-area-camper-pietra-web-3.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 3.9,
+      "avis": 580,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2f715986945cf:0xebfbaa528adf9e4c",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "aire-sportbar-villnoess",
@@ -20288,7 +20407,14 @@
         "credit": "Pelz — Wikimedia Commons, CC BY-SA 3.0",
         "fichier": "aire-sportbar-villnoess-web-3.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4,
+      "avis": 136,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x477811bb3927ffff:0xb181e5a43f2c60fb",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "agricamping-sitting-bull-ranch",
@@ -20411,7 +20537,14 @@
         "credit": "Morido — Wikimedia Commons, CC BY 4.0",
         "fichier": "agricamping-glinzhof-web-3.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4.8,
+      "avis": 177,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x47782b192e7f59df:0x9b7214f4b7e9ad4d",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "aire-camperpark-dolomites",
@@ -20488,7 +20621,14 @@
         "credit": "Giorgio___ — Wikimedia Commons, CC0",
         "fichier": "aire-camperpark-dolomites-web-3.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 3.5,
+      "avis": 281,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x4779d509c45e2009:0x8fec265f1e2059e5",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "aire-monguelfo",
@@ -20559,7 +20699,14 @@
         "credit": "Roberto Ferrari from Campogalliano (Modena), Italy — Wikimedia Commons, CC BY-SA 2.0",
         "fichier": "aire-monguelfo-web-3.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 3.4,
+      "avis": 108,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x477829c8578a2b11:0xffebe7b7b9373e01",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "camping-lago-dobbiaco",
@@ -20626,7 +20773,14 @@
         "credit": "József Kovács — Wikimedia Commons, CC BY-SA 3.0",
         "fichier": "camping-lago-dobbiaco-web-3.jpg"
       }
-    ]
+    ],
+    "note_google": {
+      "note": 4.3,
+      "avis": 2418,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x1325962ce4b91845:0x871e907cab00e2a5",
+      "source": "Google Maps (Maps Grounding Lite)"
+    }
   },
   {
     "id": "aire-misurina",

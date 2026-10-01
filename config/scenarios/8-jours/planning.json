@@ -90,9 +90,9 @@
   {
     "date": "2026-10-12",
     "jour": 4,
-    "titre": "Alpe di Siusi à pied, puis Ortisei → Varna",
+    "titre": "Alpe di Siusi à pied, puis Ortisei → Bressanone (Van Moar)",
     "zone": "Alpe di Siusi / Ortisei",
-    "nuit": "camping-vahrner-see",
+    "nuit": "ferme-pinzagen-van-moar",
     "trajet": null,
     "depart": "07:15",
     "depart_de": "ferme-gletscher-hons",
@@ -114,24 +114,24 @@
         "note": "Parking Fever gratuit 90 min avec disque : le centre d’Ortisei à pied (via Rezia, église, promenade Luis Trenker)."
       }
     ],
-    "trajet_nuit_min": 58,
-    "arrivee_nuit": "15:24",
-    "note": "Départ à 7 h 15 pour viser P1 vers 8 h 22 et garder environ 38 min de marge avant la fermeture de la montée à 9 h (1 h 07 de route). Quatre heures de marche sur le plateau sans vide, Ortisei en début d’après-midi par Castelrotto, puis le camping du lac de Varna par Ponte Gardena et Bressanone. Aucune remontée."
+    "trajet_nuit_min": 52,
+    "arrivee_nuit": "15:18",
+    "note": "Départ à 7 h 15 pour viser P1 vers 8 h 22 et garder environ 38 min de marge avant la fermeture de la montée à 9 h (1 h 07 de route). Quatre heures de marche sur le plateau sans vide, Ortisei en début d’après-midi par Castelrotto, puis le pré de la ferme Van Moar à Pinzagen, au-dessus de Bressanone (réservation Campspace ; repli sans réservation : camping du lac de Varna, à 19 min). Aucune remontée."
   },
   {
     "date": "2026-10-13",
     "jour": 5,
-    "titre": "Varna → Cinque Torri à pied → Dobbiaco",
+    "titre": "Bressanone → Cinque Torri à pied → Dobbiaco",
     "zone": "Cinque Torri / Dobbiaco",
     "nuit": "camping-olympia",
     "trajet": null,
     "depart": "09:00",
-    "depart_de": "camping-vahrner-see",
+    "depart_de": "ferme-pinzagen-van-moar",
     "activites": [
       {
         "lieu": "courses-lidl-varna",
-        "trajet_min": 7,
-        "heure": "09:07",
+        "trajet_min": 15,
+        "heure": "09:15",
         "duree_min": 45,
         "duree_confort_min": 60,
         "note": "Courses pour la nouvelle base, à tour de rôle : Lidl interdit les chiens. Prévoir le pique-nique et l’eau de la randonnée (refuges fermés, aucune source connue)."
@@ -139,15 +139,15 @@
       {
         "lieu": "parking-bai-de-dones",
         "trajet_min": 118,
-        "heure": "11:50",
+        "heure": "11:58",
         "duree_min": 165,
         "duree_confort_min": 165,
         "note": "Parking gratuit de Bai de Dones, puis sentiers 424 et 425 jusqu’au refuge Cinque Torri (5,6 km aller-retour, +300 m, sans vide) et +30 min jusqu’aux tranchées de la Grande Guerre (musée en plein air gratuit). Télésiège fermé depuis le 11/10 : tout à pied. Demi-tour si neige ou verglas."
       }
     ],
     "trajet_nuit_min": 73,
-    "arrivee_nuit": "15:48",
-    "note": "Remplace le lac d’Anterselva, jugé trop proche de Braies (jour 7) : un paysage différent, gratuit et sans vide. Départ de Varna à 9 h, courses au Lidl, puis Val Badia et col de Valparola (2 168 m) sans autoroute jusqu’au Falzarego. Randonnée en fin de matinée, quand le sous-bois a dégelé. Retour par Cortina et le val di Landro, camping Olympia vers 15 h 50 (réception 15 h–23 h, 2 nuits minimum). La veille : vérifier météo, neige et ouverture du col de Valparola ; s’il est fermé, passer par Dobbiaco et Cortina (plus long)."
+    "arrivee_nuit": "15:56",
+    "note": "Remplace le lac d’Anterselva, jugé trop proche de Braies (jour 7) : un paysage différent, gratuit et sans vide. Départ de Pinzagen à 9 h, courses au Lidl, puis Val Badia et col de Valparola (2 168 m) sans autoroute jusqu’au Falzarego. Randonnée en fin de matinée, quand le sous-bois a dégelé. Retour par Cortina et le val di Landro, camping Olympia vers 16 h (réception 15 h–23 h, 2 nuits minimum). La veille : vérifier météo, neige et ouverture du col de Valparola ; s’il est fermé, passer par Dobbiaco et Cortina (plus long)."
   },
   {
     "date": "2026-10-14",
@@ -190,9 +190,9 @@
   {
     "date": "2026-10-15",
     "jour": 7,
-    "titre": "Lago di Braies → Varna",
+    "titre": "Lago di Braies → Bressanone (Van Moar)",
     "zone": "Braies / Varna",
-    "nuit": "camping-vahrner-see",
+    "nuit": "ferme-pinzagen-van-moar",
     "trajet": null,
     "depart": "07:30",
     "depart_de": "camping-olympia",
@@ -222,9 +222,9 @@
         "note": "Passage en caisse pour la nouvelle base, à tour de rôle : Lidl interdit les chiens."
       }
     ],
-    "trajet_nuit_min": 7,
-    "arrivee_nuit": "12:22",
-    "note": "Braies à 7 h 55, avant la foule, puis vers le lac de Varna par le Val Pusteria sans autoroute, marché paysan du jeudi à Rio di Pusteria puis courses au Lidl. Arrivée vers 12 h 20 : après-midi de repos au lac. La dernière nuit près de Bressanone raccourcit le retour d’1 h 15 par rapport à Dobbiaco."
+    "trajet_nuit_min": 15,
+    "arrivee_nuit": "12:30",
+    "note": "Braies à 7 h 55, avant la foule, puis vers le lac de Varna par le Val Pusteria sans autoroute, marché paysan du jeudi à Rio di Pusteria puis courses au Lidl. Arrivée vers 12 h 30 au pré de Van Moar (arrivée possible dès 12 h) : après-midi de repos, lac de Varna à 19 min. La dernière nuit au-dessus de Bressanone raccourcit le retour d’1 h 15 par rapport à Dobbiaco."
   },
   {
     "date": "2026-10-16",
@@ -246,6 +246,6 @@
       "fr-a9-a54"
     ],
     "activites": [],
-    "note": "≈ 11 h 30 de volant marge comprise (Varna, entrée sur l’A22 à Bressanone, puis A22, A4, A21, A26, A10, A8, A9), péages comptés. Partir à 7 h 30, relais au volant toutes les 2 h et trois pauses (1 h) : arrivée vers 20:00. Repli : couper en deux avec une nuit en Ligurie (non comptée)."
+    "note": "≈ 11 h 30 de volant marge comprise (Pinzagen, entrée sur l’A22 à Bressanone à 10 min, puis A22, A4, A21, A26, A10, A8, A9), péages comptés. Partir à 7 h 30, relais au volant toutes les 2 h et trois pauses (1 h) : arrivée vers 20:00. Repli : couper en deux avec une nuit en Ligurie (non comptée)."
   }
 ]
