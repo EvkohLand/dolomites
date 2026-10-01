@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-01T05:43Z",
+  "genere_le": "2026-10-01T13:03Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-01T07:41"
+      "maj": "2026-10-01T14:42"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -400,6 +400,20 @@
     },
     {
       "source": "bz",
+      "id": "3150801",
+      "route": "LS/SP131 — S. Valentino in Campo",
+      "niveau": "info",
+      "etat": "Percorribile liberamente",
+      "texte": "A S. Valentino in Campo (km 3,000) la strada è stata RIAPERTA al traffico, i lavori di recupero sono terminati.",
+      "debut": "2026-10-01",
+      "fin": "2026-10-01",
+      "gps": [
+        46.43783,
+        11.47605
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3008401",
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "fermeture",
@@ -648,6 +662,20 @@
       "gps": [
         46.67286,
         11.70647
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2813401",
+      "route": "LS/SP31 — Elvas - Sciaves",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Naz (km 5,200 - km 4,600) CHIUSURA al traffico dalle ore 13:20 alle ore 16:00 in occasione della sfilatra per la festa della mela. Il traffico viene deviato.",
+      "debut": "2026-10-11",
+      "fin": "2026-10-11",
+      "gps": [
+        46.75367,
+        11.67768
       ]
     },
     {
