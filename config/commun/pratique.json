@@ -3,12 +3,22 @@
   "alerte_courses": "Au 28 septembre, le Despar de Corvara affiche fermé sept jours sur sept. Le Despar de Dobbiaco ferme le dimanche : pour une arrivée le dimanche 18, acheter avant, par exemple à La Villa lors du transfert vers San Cassiano. Revérifier les horaires avant de partir.",
   "groupes_hebergement": [
     {
-      "titre": "Étape ligure",
-      "note": "Une nuit sur le trajet. Green Family Park n'est annoncé ouvert que jusqu'au 11 octobre et convient donc seulement à la nuit du 10.",
+      "titre": "Nuit du 9 — Ligurie (du meilleur bon plan au moins bon)",
+      "note": "Retenu : La Pietra e l’Ulivo (4,8 ★, tente de toit acceptée par écrit, arrivée autonome par code ; nuit du 9 à confirmer). Meilleur prix : LaValleggia (4,8 ★, 30 €, arrivée jusqu’à 21 h, départ libre ; tente et ouverture à confirmer). Exclus pour un départ à 7 h 30 : Baciccia et Pineta Aurelio (sortie en voiture interdite la nuit) ; aire Aloha (tentes interdites) ; Cà de Michè (entrée jusqu’à 18 h 30) ; Green Village, Monti e Mare et Tahiti (fermés ou complets).",
       "lieux": [
-        "camping-tahiti-finale",
-        "camping-green-europa-cogoleto",
-        "agricamping-pietra-ulivo"
+        "agricamping-pietra-ulivo",
+        "agricamping-lavalleggia",
+        "camping-holiday-loano",
+        "camping-base-camp-cucco",
+        "camping-san-martino-finale",
+        "agricamping-le-terrazze",
+        "agricamping-lo-zafferano",
+        "agricamping-oasi-ceriale",
+        "camping-pian-dei-boschi",
+        "camping-gallinara-albenga",
+        "camping-park-mara",
+        "camping-bella-vista-albenga",
+        "camping-green-europa-cogoleto"
       ]
     },
     {

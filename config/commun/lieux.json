@@ -22224,5 +22224,507 @@
         "fichier": "marche-rio-di-pusteria-web-1.jpg"
       }
     ]
+  },
+  {
+    "id": "agricamping-lavalleggia",
+    "nom": "Agriturismo LaValleggia — agricampeggio (Tovo San Giacomo)",
+    "categorie": "agricamper",
+    "gps": [
+      44.196,
+      8.2735
+    ],
+    "commune": "Tovo San Giacomo (SV)",
+    "resume": "Meilleur prix pour la nuit du 9 : agritourisme à 18 min de Pietra, sur la route de l’autoroute du lendemain. Tente + voiture 30 €, chien gratuit, arrivée jusqu’à 21 h et départ libre. Ouverture en octobre et tente de toit à confirmer.",
+    "prix": {
+      "type": "payant",
+      "montant": 30,
+      "unite": "nuit, emplacement tente + voiture avec électricité, 2 adultes, chien gratuit, hors taxe",
+      "annee_tarif": 2026,
+      "detail": "« Spazio per tenda+posto auto con energia elettrica » 14 € + 2 × 8 € ; « Posto camper/furgone (fino a 7 m) » 16 + 16 = 32 €. « Gli animali sono esclusi dal pagamento ». Taxe de séjour non publiée."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 0,
+      "note": "« I vostri amici animali sono i benvenuti ! » ; gratuits."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Tarif camping annuel ; tarifs des chambres publiés jusqu’au 2 novembre 2026. Ouverture le 9 octobre à confirmer."
+    },
+    "horaires": [
+      {
+        "libelle": "Arrivée",
+        "valeur": "15 h – 21 h ; « non ci sono limiti di orari » pour sortir (charte des services)"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "Tente de toit : non écrite par le camping, à faire confirmer avant d’y aller."
+      }
+    ],
+    "source": "https://www.lavalleggia.it/tariffe-agriturismo-liguria/",
+    "liens": [
+      {
+        "libelle": "Tarifs et saison (officiel)",
+        "url": "https://www.lavalleggia.it/tariffe-agriturismo-liguria/"
+      }
+    ],
+    "note_google": {
+      "note": 4.8,
+      "avis": 167,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/search/?api=1&query=Agriturismo%20LaValleggia%20Tovo%20San%20Giacomo",
+      "source": "Google Maps (Maps Grounding Lite)"
+    },
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Tarifs et saison (officiel)",
+          "url": "https://www.lavalleggia.it/tariffe-agriturismo-liguria/"
+        },
+        {
+          "libelle": "LaValleggia — charte des services (horaires)",
+          "url": "https://www.lavalleggia.it/wp-content/uploads/2019/10/Carta-dei-servizi_ITALIANO.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "agricamping-le-terrazze",
+    "nom": "Agricampeggio Le Terrazze (Orco Feglino)",
+    "categorie": "agricamper",
+    "gps": [
+      44.2164,
+      8.3571
+    ],
+    "commune": "Orco Feglino (SV)",
+    "resume": "Agricampeggio au-dessus de Finale, côté sortie d’autoroute : 10 emplacements « Van/Auto », ouvert en octobre. 25 € + 10 € si arrivée après 19 h 30.",
+    "prix": {
+      "type": "payant",
+      "montant": 35,
+      "unite": "nuit pour 2 + chien, arrivée après 19 h 30 comprise (25 € avant)",
+      "annee_tarif": 2026,
+      "detail": "2 × 7 + « Van (o tenda 4+ posti) + elettricità » 9 + animal 2 = 25 € ; + 10 € d’arrivée après 19 h 30 = 35 €."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 2,
+      "note": "« Animali € 2 » ; en laisse, jamais seul."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Liste 2026 « media stagione (01/10 – 31/10) »."
+    },
+    "horaires": [
+      {
+        "libelle": "Accueil",
+        "valeur": "8 h – 19 h 30 ; arrivée plus tard +10 € ; silence 23 h – 7 h"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "Probable : « 10 piazzole x Van/Auto » ; non écrit pour une tente de toit."
+      }
+    ],
+    "source": "https://www.associazione1429.com/listino-prezzi/",
+    "liens": [
+      {
+        "libelle": "Tarifs et saison (officiel)",
+        "url": "https://www.associazione1429.com/listino-prezzi/"
+      }
+    ],
+    "note_google": {
+      "note": 4.4,
+      "avis": 206,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2fad85c580a39:0xe2df490386b6fd91",
+      "source": "Google Maps (Maps Grounding Lite)"
+    },
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Tarifs et saison (officiel)",
+          "url": "https://www.associazione1429.com/listino-prezzi/"
+        },
+        {
+          "libelle": "Liste de prix 2026 (PDF)",
+          "url": "https://www.associazione1429.com/wp-content/uploads/2026/03/LISTINO-VAN-TENDE-2026.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camping-holiday-loano",
+    "nom": "Camping Holiday (Loano)",
+    "categorie": "camping",
+    "gps": [
+      44.1372,
+      8.247
+    ],
+    "commune": "Loano (SV)",
+    "resume": "Camping à 9 min de Pietra, ouvert toute l’année : demi-emplacement tente 26,40 € taxe comprise. Chien admis en laisse et muselière. Heure d’arrivée à demander.",
+    "prix": {
+      "type": "payant",
+      "montant": 26.4,
+      "unite": "nuit, demi-emplacement petite tente, 2 adultes, voiture comprise, taxe comprise, + chien (prix non publié)",
+      "annee_tarif": 2026,
+      "detail": "« 1/2 piazzola : tenda piccola » 11 + 2 × 7 = 25 € + taxe 2 × 0,70 = 26,40 € ; emplacement entier « tenda grande » 18 € → 33,40 €."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« I cani sono ammessi al guinzaglio e con museruola »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "« Aperto tutto l’anno », période 30/09 – 20/12."
+    },
+    "horaires": [
+      {
+        "libelle": "Visiteurs",
+        "valeur": "9 h – 23 h ; heure limite d’arrivée non publiée"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "Tente de toit : non écrite par le camping, à faire confirmer avant d’y aller."
+      }
+    ],
+    "source": "http://www.campingholiday.it/listino.htm",
+    "liens": [
+      {
+        "libelle": "Tarifs et saison (officiel)",
+        "url": "http://www.campingholiday.it/listino.htm"
+      }
+    ],
+    "note_google": {
+      "note": 4.2,
+      "avis": 199,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2f65edf8b9c39:0xa91e05b1786fd787",
+      "source": "Google Maps (Maps Grounding Lite)"
+    },
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Tarifs et saison (officiel)",
+          "url": "http://www.campingholiday.it/listino.htm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camping-park-mara",
+    "nom": "Camping Park Mara (Borgio Verezzi)",
+    "categorie": "camping",
+    "gps": [
+      44.1615,
+      8.313
+    ],
+    "commune": "Borgio Verezzi (SV)",
+    "resume": "Camping à 10 min, ouvert jusqu’au 31 octobre, réservable en ligne : emplacement camper 35 € avec le chien. Les emplacements tente ne sont pas accessibles en voiture.",
+    "prix": {
+      "type": "payant",
+      "montant": 35,
+      "unite": "nuit, emplacement camper/caravane standard (3 pers. + électricité) + chien, hors taxe",
+      "annee_tarif": 2026,
+      "detail": "Emplacement standard 32 € + chien 3 € (liste 2026, période 27/09 – 31/10)."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 3,
+      "note": "« Cane 3,00 € »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Période « 27/09 – 31/10 » de la liste 2026."
+    },
+    "horaires": [
+      {
+        "libelle": "Arrivée",
+        "valeur": "avant 21 h (sinon « no show »)"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "Emplacements tente « su terrazze non raggiungibili in auto » : prendre un emplacement camper ; à confirmer."
+      }
+    ],
+    "source": "https://www.campingparkmara.it/prezzi/",
+    "liens": [
+      {
+        "libelle": "Tarifs et saison (officiel)",
+        "url": "https://www.campingparkmara.it/prezzi/"
+      }
+    ],
+    "note_google": {
+      "note": 4.4,
+      "avis": 698,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2f9e39e6d16af:0xe5581d415f3a2a54",
+      "source": "Google Maps (Maps Grounding Lite)"
+    },
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Tarifs et saison (officiel)",
+          "url": "https://www.campingparkmara.it/prezzi/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camping-san-martino-finale",
+    "nom": "Camping San Martino (Le Manie, Finale Ligure)",
+    "categorie": "camping",
+    "gps": [
+      44.1898,
+      8.3774
+    ],
+    "commune": "Finale Ligure (SV)",
+    "resume": "Camping dans la pinède du plateau des Manie, ouvert toute l’année : 28 € + taxe avec le chien. Accueil 12 h – 19 h : arrivée à 20 h à négocier.",
+    "prix": {
+      "type": "payant",
+      "montant": 28,
+      "unite": "nuit pour 2 + tente + chien, voiture comprise, hors taxe",
+      "annee_tarif": 2026,
+      "detail": "2 × 8 + tente 10 + chien 2 = 28 € (moyenne saison 01/10 – 31/10)."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 2,
+      "note": "« Cani 2 € »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "« Reception campeggio (aperto tutto l’anno) »."
+    },
+    "horaires": [
+      {
+        "libelle": "Arrivée",
+        "valeur": "12 h – 19 h"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "Tente de toit : non écrite par le camping, à faire confirmer avant d’y aller."
+      }
+    ],
+    "source": "https://www.campingsanmartino.it/listino-prezzi",
+    "liens": [
+      {
+        "libelle": "Tarifs et saison (officiel)",
+        "url": "https://www.campingsanmartino.it/listino-prezzi"
+      }
+    ],
+    "note_google": {
+      "note": 4.5,
+      "avis": 935,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2fbbd52eef3bd:0xe1a89407e0a2ff64",
+      "source": "Google Maps (Maps Grounding Lite)"
+    },
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Tarifs et saison (officiel)",
+          "url": "https://www.campingsanmartino.it/listino-prezzi"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camping-gallinara-albenga",
+    "nom": "Agricamping Gallinara (Albenga)",
+    "categorie": "camping",
+    "gps": [
+      44.0257,
+      8.2261
+    ],
+    "commune": "Albenga (SV)",
+    "resume": "Camping-ferme très bien noté, ouvert jusqu’en novembre : 31 € taxe comprise. À 26 min à l’ouest, donc à l’opposé de la route du lendemain.",
+    "prix": {
+      "type": "payant",
+      "montant": 31,
+      "unite": "nuit pour 2, petite tente/mini-camper, parking et taxe compris, + chien (non publié)",
+      "annee_tarif": 2026,
+      "detail": "2 × 9 + « canadese o mini-camper » 12 = 30 € + taxe 2 × 0,50 = 31 €."
+    },
+    "chien": {
+      "admis": true,
+      "note": "« Cani e animali domestici ammessi »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "« Aperto da capodanno a novembre »."
+    },
+    "horaires": [
+      {
+        "libelle": "Accès",
+        "valeur": "passage souterrain 2,70 – 2,80 m : la voiture à 1,95 m passe"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "Tente de toit : non écrite par le camping, à faire confirmer avant d’y aller."
+      }
+    ],
+    "source": "https://www.campingallinara.com/it/prezzi-offerte-vacanze-campeggio-mare-albenga-liguria",
+    "liens": [
+      {
+        "libelle": "Tarifs et saison (officiel)",
+        "url": "https://www.campingallinara.com/it/prezzi-offerte-vacanze-campeggio-mare-albenga-liguria"
+      }
+    ],
+    "note_google": {
+      "note": 4.8,
+      "avis": 154,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d25bfdd59c3d39:0x5815437207a7dd39",
+      "source": "Google Maps (Maps Grounding Lite)"
+    },
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Tarifs et saison (officiel)",
+          "url": "https://www.campingallinara.com/it/prezzi-offerte-vacanze-campeggio-mare-albenga-liguria"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camping-bella-vista-albenga",
+    "nom": "Camping Bella Vista (Campochiesa d’Albenga)",
+    "categorie": "camping",
+    "gps": [
+      44.0846,
+      8.2094
+    ],
+    "commune": "Albenga (SV)",
+    "resume": "Camping ouvert jusqu’au 30 novembre, réservable en ligne : 40,50 € avec le chien (31 € avec la carte ACSI).",
+    "prix": {
+      "type": "payant",
+      "montant": 40.5,
+      "unite": "nuit, emplacement 50 m² (2 pers. + voiture + électricité) + chien, hors taxe",
+      "annee_tarif": 2026,
+      "detail": "36,50 + 4 = 40,50 € ; 27 + 4 = 31 € avec la carte ACSI."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 4,
+      "note": "« Massimo 2 animali domestici per piazzola »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Basse saison 01/09 – 30/11/2026."
+    },
+    "horaires": [
+      {
+        "libelle": "Arrivée",
+        "valeur": "dès 14 h ; heure limite non publiée"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "Tente de toit : non écrite par le camping, à faire confirmer avant d’y aller."
+      }
+    ],
+    "source": "https://campingbellavista.nl/storage/app/media/uploaded-files/BellaVista_Prijslijst_Plattegrond_2026%20IT.pdf",
+    "liens": [
+      {
+        "libelle": "Tarifs et saison (officiel)",
+        "url": "https://campingbellavista.nl/storage/app/media/uploaded-files/BellaVista_Prijslijst_Plattegrond_2026%20IT.pdf"
+      }
+    ],
+    "note_google": {
+      "note": 4.3,
+      "avis": 478,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d25f381dc70d53:0x2324601a3dbcd20c",
+      "source": "Google Maps (Maps Grounding Lite)"
+    },
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Tarifs et saison (officiel)",
+          "url": "https://campingbellavista.nl/storage/app/media/uploaded-files/BellaVista_Prijslijst_Plattegrond_2026%20IT.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camping-base-camp-cucco",
+    "nom": "Base Camp Cucco (Orco Feglino)",
+    "categorie": "camping",
+    "gps": [
+      44.2152,
+      8.3314
+    ],
+    "commune": "Orco Feglino (SV)",
+    "resume": "Camping des grimpeurs au-dessus de Finale : 26 € tout compris (liste 2025), arrivée à toute heure. Ouverture en octobre non publiée.",
+    "prix": {
+      "type": "payant",
+      "montant": 26,
+      "unite": "nuit pour 2 + voiture/fourgon + chien, taxes comprises (liste 2025)",
+      "annee_tarif": 2025,
+      "detail": "2 × 8 + « auto/furgone » 8 + chien 2 = 26 €, « comprendono … tasse e iva »."
+    },
+    "chien": {
+      "admis": true,
+      "supplement": 2,
+      "note": "« Cane € 2,00 »."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "Aucune date de saison sur le site : à confirmer."
+    },
+    "horaires": [
+      {
+        "libelle": "Arrivée",
+        "valeur": "« indipendentemente dall’orario di arrivo »"
+      }
+    ],
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "Type d’emplacement « tenda / furgone » ; tente de toit non écrite."
+      }
+    ],
+    "source": "https://www.basecampcucco.com/i-prezzi-del-base-camp-cucco/",
+    "liens": [
+      {
+        "libelle": "Tarifs et saison (officiel)",
+        "url": "https://www.basecampcucco.com/i-prezzi-del-base-camp-cucco/"
+      }
+    ],
+    "note_google": {
+      "note": 4.4,
+      "avis": 143,
+      "releve": "2026-10-02",
+      "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x12d2faf32f4027b9:0x682cd24577d7ac8d",
+      "source": "Google Maps (Maps Grounding Lite)"
+    },
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Tarifs et saison (officiel)",
+          "url": "https://www.basecampcucco.com/i-prezzi-del-base-camp-cucco/"
+        }
+      ]
+    }
   }
 ]
