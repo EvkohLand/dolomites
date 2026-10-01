@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: enrichir-photos
+  group: enrichir-photos-fast
   cancel-in-progress: true
 
 jobs:
@@ -45,6 +45,7 @@ jobs:
           SEULEMENT_SANS_PHOTO: "1"
           MIN_GEO: "1"
           MIN_GEO_PRIORITAIRE: "3"
+          CONCURRENCE: "4"
         run: node photos-commons.js
 
       - name: Conserver le résultat de la recherche
