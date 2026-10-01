@@ -159,16 +159,18 @@
       "vers": "camping-vahrner-see",
       "par": [
         "lago-braies",
+        "marche-rio-di-pusteria",
         "courses-lidl-varna"
       ],
       "visites": [
         "lago-braies",
+        "marche-rio-di-pusteria",
         "courses-lidl-varna"
       ],
       "visites_hors_route": [],
       "pays": "IT",
       "note": "Lago di Braies → Varna",
-      "distance_km": 77,
+      "distance_km": 78,
       "duree_h": 1.9
     },
     {

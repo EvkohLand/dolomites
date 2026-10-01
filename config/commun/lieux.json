@@ -21224,5 +21224,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "marche-rio-di-pusteria",
+    "nom": "Marché du jeudi et marché paysan de Rio di Pusteria",
+    "categorie": "village",
+    "gps": [
+      46.7975,
+      11.6672
+    ],
+    "gps_approximatif": true,
+    "commune": "Rio di Pusteria / Mühlbach",
+    "resume": "Marché hebdomadaire et marché paysan du jeudi matin, au centre et sur la place de l’église : fromage d’alpage, speck, pain des producteurs. Sur la route Braies → Varna du 15 octobre.",
+    "prix": {
+      "type": "gratuit",
+      "montant": 0,
+      "annee_tarif": 2026,
+      "detail": "Entrée libre."
+    },
+    "chien": {
+      "admis": true,
+      "note": "Marché en plein air, en laisse."
+    },
+    "ouverture": {
+      "a_reverifier": false,
+      "note": "Jeudi 15 octobre 2026, 8 h 30 – 12 h 30 (date publiée par l’office de tourisme). Marché au centre, marché paysan sur la place de l’église."
+    },
+    "source": "https://www.brixen-suedtirol.com/de/event/wochenmarkt-und-bauernmarkt-in-mhlbach_7259",
+    "verification": {
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "libelle": "Office de Bressanone — marché du jeudi de Mühlbach : 15.10.2026, 8 h 30 – 12 h 30",
+          "url": "https://www.brixen-suedtirol.com/de/event/wochenmarkt-und-bauernmarkt-in-mhlbach_7259"
+        },
+        {
+          "libelle": "suedtirol.info — Wochenmarkt und Bauernmarkt in Mühlbach",
+          "url": "https://www.suedtirol.info/de/de/erlebnisse-und-events/events-suedtirol/pdp-event.7D4FB07661C849C5A4F68E041748B400.wochenmarkt-und-bauernmarkt-in-muehlbach.muehlbach"
+        }
+      ]
+    }
   }
 ]

@@ -206,17 +206,25 @@
         "note": "Tour du lac (3,6 km, +86 m) tôt, eau miroir et peu de monde ; parking P2. Si la rive est est verglacée, aller-retour par la rive ouest."
       },
       {
+        "lieu": "marche-rio-di-pusteria",
+        "trajet_min": 77,
+        "heure": "10:55",
+        "duree_min": 20,
+        "duree_confort_min": 30,
+        "note": "Marché paysan du jeudi (8 h 30 – 12 h 30), sur la route : fromage d’alpage, speck et pain pour les derniers jours. Gratuit."
+      },
+      {
         "lieu": "courses-lidl-varna",
-        "trajet_min": 89,
-        "heure": "11:07",
+        "trajet_min": 15,
+        "heure": "11:30",
         "duree_min": 45,
         "duree_confort_min": 60,
         "note": "Passage en caisse pour la nouvelle base, à tour de rôle : Lidl interdit les chiens."
       }
     ],
     "trajet_nuit_min": 7,
-    "arrivee_nuit": "11:59",
-    "note": "Braies à 7 h 55, avant la foule, puis vers le lac de Varna par le Val Pusteria sans autoroute, courses au Lidl en passant. Arrivée vers midi : après-midi de repos au lac. La dernière nuit près de Bressanone raccourcit le retour d’1 h 15 par rapport à Dobbiaco."
+    "arrivee_nuit": "12:22",
+    "note": "Braies à 7 h 55, avant la foule, puis vers le lac de Varna par le Val Pusteria sans autoroute, marché paysan du jeudi à Rio di Pusteria puis courses au Lidl. Arrivée vers 12 h 20 : après-midi de repos au lac. La dernière nuit près de Bressanone raccourcit le retour d’1 h 15 par rapport à Dobbiaco."
   },
   {
     "date": "2026-10-16",

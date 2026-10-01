@@ -5468,33 +5468,6 @@
         },
         {
           "disponibilite": "À vérifier le jour même",
-          "type": "marche",
-          "nom": "Marché du jeudi et marché paysan de Rio di Pusteria",
-          "resume": "Sur la route du 15 octobre (passage vers 10 h 50) : fromage d’alpage, speck, pain des producteurs. Seul marché de producteurs qui tombe pendant le voyage.",
-          "source": "https://www.suedtirol.info/",
-          "gps": [
-            46.797,
-            11.667
-          ],
-          "horaires": {
-            "general": "Jeudi 8 h 30 – 12 h 30",
-            "par_jour": {
-              "2026-10-15": "Jeudi 8 h 30 – 12 h 30"
-            }
-          },
-          "prix": {
-            "adulte": "gratuit",
-            "gratuit": true,
-            "detail": "Entrée libre."
-          },
-          "prix_montant": 0,
-          "chien": {
-            "admis": true,
-            "conditions": "Marché en plein air, en laisse."
-          }
-        },
-        {
-          "disponibilite": "À vérifier le jour même",
           "type": "visite",
           "nom": "Château de Welsperg (Monguelfo)",
           "resume": "Château ouvert le jeudi matin en octobre, 5 € par adulte ; à Monguelfo, sur la route de Braies vers Varna.",
