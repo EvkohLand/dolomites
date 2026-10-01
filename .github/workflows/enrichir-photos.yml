@@ -4,26 +4,27 @@ on:
   workflow_dispatch:
     inputs:
       cible:
-        description: "Nombre maximum de photos par lieu"
+        description: "Nombre de photos recherchées pour chaque lieu sans photo"
         required: false
-        default: "30"
+        default: "3"
   push:
     branches: [main]
     paths:
       - ".github/workflows/enrichir-photos.yml"
       - "photos-commons.js"
+      - "photos-localiser-manquantes.js"
 
 permissions:
   contents: write
 
 concurrency:
   group: enrichir-photos
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   enrichir:
     if: github.actor != 'github-actions[bot]'
-    runs-on: [self-hosted, vega]  # own runner (only push/dispatch triggers: no fork code runs here)
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -33,19 +34,23 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Conserver la liste des POI initialement sans photo
+        run: cp config/commun/lieux.json "$RUNNER_TEMP/lieux-avant.json"
+
       - name: Rechercher des photos libres sur Wikimedia Commons
         env:
-          CIBLE: ${{ github.event.inputs.cible || '30' }}
+          CIBLE: ${{ github.event.inputs.cible || '3' }}
           LARGEUR: "960"
           RESULTATS_PAR_RECHERCHE: "35"
+          SEULEMENT_SANS_PHOTO: "1"
+          MIN_GEO: "1"
+          MIN_GEO_PRIORITAIRE: "3"
         run: node photos-commons.js
 
       - name: Conserver le résultat de la recherche
         run: cp config/commun/lieux.json "$RUNNER_TEMP/lieux-enrichis.json"
 
       - name: Reprendre le main courant et fusionner seulement les photos
-        env:
-          CIBLE: ${{ github.event.inputs.cible || '30' }}
         run: |
           git fetch origin main
           git reset --hard origin/main
@@ -73,17 +78,24 @@ jobs:
           fs.writeFileSync(courantPath, JSON.stringify(courant, null, 2) + '\n', 'utf8');
           NODE
 
+      - name: Télécharger réellement les nouvelles images dans photos/
+        env:
+          ORIGINAUX: ${{ runner.temp }}/lieux-avant.json
+          PAR_PRIORITAIRE: "3"
+          PAR_AUTRE: "1"
+        run: node photos-localiser-manquantes.js
+
       - name: Valider la configuration
         run: node validate.js
 
-      - name: Enregistrer les nouvelles photos
+      - name: Enregistrer les images et les références JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add config/commun/lieux.json
+          git add config/commun/lieux.json photos/
           if git diff --cached --quiet; then
-            echo "Aucune nouvelle photo."
+            echo "Aucune nouvelle photo à enregistrer."
           else
-            git commit -m "Enrich photo galleries from Wikimedia Commons"
+            git commit -m "Add missing POI photos from Wikimedia Commons"
             git push
           fi
