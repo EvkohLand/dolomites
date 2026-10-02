@@ -8,17 +8,35 @@
   },
   "depart": {
     "libelle": "Saint-Gély-du-Fesc",
-    "gps": [
-      43.695,
-      3.81
-    ],
+    "gps": [43.695, 3.81],
     "note": "Point pris à la sortie de la commune. Dépôt public : jamais une adresse."
   },
+  "reservations_critiques": [
+    {
+      "date": "2026-10-13",
+      "lieu": "parking-alpe-p1",
+      "libelle": "P1 Spitzbühl — Alpe di Siusi",
+      "obligatoire": true,
+      "tarif_eur": 15,
+      "ouverture": "J-6",
+      "checkpoint_avant": "09:00",
+      "entree_parking_avant": "09:30",
+      "note": "Réservation en ligne obligatoire et soumise aux disponibilités. Le planning vise le checkpoint de San Valentino avant 09:00. Vérifier les conditions et disponibilités avant le départ."
+    },
+    {
+      "date": "2026-10-15",
+      "lieu": "tre-cime-rifugio-auronzo",
+      "libelle": "Parking Rifugio Auronzo — Tre Cime",
+      "obligatoire_si_voiture": true,
+      "tarif_voiture_eur": 40,
+      "validite_heures": 12,
+      "plaque_requise": true,
+      "ouverture_saisonniere": "généralement fin mai à fin octobre, selon météo, neige et état de la route",
+      "note": "Le scénario principal monte à pied depuis Lago d’Antorno et n’a donc pas besoin de cette réservation. Si l’option voiture est choisie, réservation en ligne obligatoire avec plaque. La route peut être fermée pour raisons de sécurité ; pneus hiver et/ou chaînes à bord recommandés par le gestionnaire."
+    }
+  ],
   "carte": {
-    "centre": [
-      46,
-      9.5
-    ],
+    "centre": [46, 9.5],
     "zoom": 7,
     "zoom_min": 5,
     "zoom_max": 17,
@@ -28,16 +46,7 @@
       "message_hors_ligne": "Fond de carte indisponible sans réseau. Les positions des points, leurs coordonnées et tout le détail restent lisibles.",
       "libelle": "Plan"
     },
-    "zone_valide": [
-      [
-        42,
-        2
-      ],
-      [
-        48.5,
-        13.5
-      ]
-    ],
+    "zone_valide": [[42, 2], [48.5, 13.5]],
     "tuiles_aeriennes": {
       "libelle": "Vue aérienne",
       "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
@@ -55,29 +64,11 @@
     "accent": "#2f6f4f"
   },
   "sections": [
-    {
-      "id": "carte",
-      "libelle": "Carte"
-    },
-    {
-      "id": "pratique",
-      "libelle": "Pratique"
-    },
-    {
-      "id": "planning",
-      "libelle": "Planning"
-    },
-    {
-      "id": "budget",
-      "libelle": "Budget"
-    },
-    {
-      "id": "meteo",
-      "libelle": "Météo"
-    },
-    {
-      "id": "reglementation",
-      "libelle": "Règles"
-    }
+    {"id": "carte", "libelle": "Carte"},
+    {"id": "pratique", "libelle": "Pratique"},
+    {"id": "planning", "libelle": "Planning"},
+    {"id": "budget", "libelle": "Budget"},
+    {"id": "meteo", "libelle": "Météo"},
+    {"id": "reglementation", "libelle": "Règles"}
   ]
 }
