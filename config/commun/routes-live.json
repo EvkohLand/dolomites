@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-01T20:19Z",
+  "genere_le": "2026-10-02T00:42Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-01"
+      "maj": "2026-10-02"
     }
   },
   "messages": [
