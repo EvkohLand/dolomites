@@ -5,9 +5,9 @@
       "ordre": 1,
       "jour": 1,
       "type": "aller",
-      "libelle": "Saint-Gély → Pietra Ligure par l’autoroute",
+      "libelle": "Saint-Gély → Celle Ligure par l’autoroute",
       "de": "depart",
-      "vers": "agricamping-pietra-ulivo",
+      "vers": "agriturismo-cele",
       "par": [
         "courses-conad-loano"
       ],
@@ -16,16 +16,17 @@
       ],
       "visites_hors_route": [],
       "pays": "FR",
-      "note": "Saint-Gély → Pietra Ligure par l’autoroute",
-      "distance_km": 462,
-      "duree_h": 5.3,
+      "note": "Saint-Gély → Celle Ligure par l’autoroute",
+      "distance_km": 503,
+      "duree_h": 5.9,
       "autoroute": true,
       "troncons_peage": [
         "fr-a9-a54",
         "fr-a54-a7",
         "fr-a8-provence",
         "fr-a8-riviera",
-        "it-a10-ponente"
+        "it-a10-ponente",
+        "it-a10-savona"
       ]
     },
     {
@@ -33,8 +34,8 @@
       "ordre": 2,
       "jour": 2,
       "type": "aller",
-      "libelle": "Pietra Ligure → Lago di Carezza → Val di Funes",
-      "de": "agricamping-pietra-ulivo",
+      "libelle": "Celle Ligure → Lago di Carezza → Val di Funes",
+      "de": "agriturismo-cele",
       "vers": "ferme-gletscher-hons",
       "par": [
         "lago-carezza"
@@ -44,13 +45,12 @@
       ],
       "visites_hors_route": [],
       "pays": "IT",
-      "note": "Pietra Ligure → Lago di Carezza → Val di Funes",
-      "distance_km": 550,
-      "duree_h": 7,
+      "note": "Celle Ligure → Lago di Carezza → Val di Funes",
+      "distance_km": 516,
+      "duree_h": 6.7,
       "autoroute": true,
       "sans_autoroute_apres": "lago-carezza",
       "troncons_peage": [
-        "it-a10-savona",
         "it-savona-piacenza",
         "it-a21-a4",
         "it-a22-bolzano"

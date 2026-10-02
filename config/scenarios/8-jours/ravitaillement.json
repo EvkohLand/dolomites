@@ -3,7 +3,7 @@
   "genere_le": "2026-09-28",
   "jours": {
     "1": {
-      "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L). Premier passage en caisse au Conad de Loano, avec Prince, avant l’agricamping : provisions jusqu’à la prochaine base.",
+      "conseil": "Partir avec le plein fait hors autoroute (TotalEnergies plafonné à 2,25 €/L). Refaire le plein à l’Eni de Finale Ligure, sur le trajet, avant 19 h (vendredi 15 h–19 h) : le lendemain on part de Celle, après Finale. Premier passage en caisse au Conad de Loano, avec Prince : provisions jusqu’à la prochaine base.",
       "zone": "Route France → Ligurie par l’autoroute (A9, A54, A8, A10)",
       "magasins": [
         {
@@ -19,24 +19,19 @@
       ],
       "eau": [
         {
-          "nom": "La Pietra e l’Ulivo — eau",
+          "nom": "Agriturismo Çele — eau",
           "gps": [
-            44.14807223,
-            8.27046714
+            44.3505,
+            8.5398
           ],
-          "note": "Eau au compteur (0,01 €/L), sanitaires gratuits."
+          "note": "Eau, vidange, douches et WC compris dans les 25 € (site officiel)."
         }
       ],
-      "laverie": [
-        {
-          "nom": "La Pietra e l’Ulivo — lave-linge et sèche-linge",
-          "note": "Sur place (tarif non publié)."
-        }
-      ],
-      "douche": "Douches chaudes gratuites à l’agricamping."
+      "laverie": [],
+      "douche": "Douches à l’Agriturismo Çele, comprises."
     },
     "2": {
-      "conseil": "Plein à l’Eni de Finale (2,19 €) avant l’autoroute. Pas de courses : les provisions de Loano couvrent la ferme, loin des supermarchés.",
+      "conseil": "Plein fait la veille à l’Eni de Finale (Celle est après Finale : y revenir coûterait un aller-retour). Pas de courses : les provisions de Loano couvrent la ferme, loin des supermarchés.",
       "zone": "Ligurie → Bolzano par l’autoroute, puis Carezza et Val di Funes sans autoroute",
       "magasins": [
         {
@@ -45,10 +40,6 @@
         }
       ],
       "stations": [
-        {
-          "lieu": "carburant-eni-finale",
-          "note": "Samedi : 07:30–12:30"
-        },
         {
           "lieu": "carburant-eni-chiusa",
           "note": "Samedi : non communiqué au MIMIT"

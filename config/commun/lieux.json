@@ -12897,6 +12897,88 @@
     }
   },
   {
+    "id": "agriturismo-cele",
+    "nom": "Agriturismo Çele — agri-sosta (Celle Ligure)",
+    "categorie": "agricamper",
+    "gps": [
+      44.3505,
+      8.5398
+    ],
+    "commune": "Via Sanda 30, 17015 Celle Ligure (SV)",
+    "resume": "Ferme avec aire d'accueil en terrasses (14 places) au-dessus de Celle Ligure, à 1,5 km de l'autoroute du lendemain. 25 € les 24 h sans électricité, douches et WC compris. Ouverte toute l'année, uniquement sur réservation.",
+    "prix": {
+      "type": "payant",
+      "montant": 25,
+      "unite": "24 h, emplacement sans électricité, douches et WC compris",
+      "annee_tarif": 2026,
+      "detail": "« 25 euros / 24 hour without electricity » (fiche park4night n° 33584, relevée le 02/10/2026), confirmé par des avis de juin 2026 ; 30 € en payant par carte (avis du 07/10/2025). Dîner de la ferme facultatif, 35 €/personne.",
+      "grille": [
+        {
+          "libelle": "Emplacement 24 h, sans électricité",
+          "valeur": "25 € (30 € par carte)"
+        },
+        {
+          "libelle": "Douches, WC, vidange",
+          "valeur": "compris"
+        },
+        {
+          "libelle": "Dîner de la ferme (facultatif)",
+          "valeur": "35 €/personne"
+        }
+      ]
+    },
+    "chien": {
+      "admis": true,
+      "note": "Animaux accueillis « previa comunicazione » (site officiel) : Prince annoncé dans la demande."
+    },
+    "ouverture": {
+      "a_reverifier": true,
+      "note": "« Aperto sempre, solo su prenotazione » (site officiel) : réserver avant d'arriver. Demande de réservation pour la nuit du 9 envoyée le 02/10."
+    },
+    "pratique": [
+      {
+        "libelle": "Tente de toit",
+        "valeur": "aucune interdiction trouvée (site, fiche et avis) ; confirmation demandée par écrit le 02/10"
+      },
+      {
+        "libelle": "Accès",
+        "valeur": "rampe très raide (plus de 20 %) et terrasses étroites, difficile au-delà de 6–7 m"
+      },
+      {
+        "libelle": "Services",
+        "valeur": "eau, électricité, vidange, douches et WC (site officiel)"
+      }
+    ],
+    "source": "https://agriturismo-cele.com/pernottamento/",
+    "liens": [
+      {
+        "libelle": "Agriturismo Çele — site officiel",
+        "url": "https://agriturismo-cele.com/"
+      },
+      {
+        "libelle": "Hébergement et aire camping-car (officiel)",
+        "url": "https://agriturismo-cele.com/pernottamento/"
+      },
+      {
+        "libelle": "Fiche park4night",
+        "url": "https://park4night.com/fr/place/33584"
+      }
+    ],
+    "verification": {
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "libelle": "Site officiel",
+          "url": "https://agriturismo-cele.com/pernottamento/"
+        },
+        {
+          "libelle": "park4night",
+          "url": "https://park4night.com/fr/place/33584"
+        }
+      ]
+    }
+  },
+  {
     "id": "camping-gamp-chiusa",
     "nom": "Camping Gamp — Chiusa",
     "categorie": "camping",

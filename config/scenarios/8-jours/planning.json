@@ -2,9 +2,9 @@
   {
     "date": "2026-10-09",
     "jour": 1,
-    "titre": "Saint-Gély → Pietra Ligure par l’autoroute",
+    "titre": "Saint-Gély → Celle Ligure par l’autoroute",
     "zone": "Route / Ligurie",
-    "nuit": "agricamping-pietra-ulivo",
+    "nuit": "agriturismo-cele",
     "trajet": "etape-aller-1",
     "autoroute": true,
     "troncons_peage": [
@@ -12,47 +12,47 @@
       "fr-a54-a7",
       "fr-a8-provence",
       "fr-a8-riviera",
-      "it-a10-ponente"
+      "it-a10-ponente",
+      "it-a10-savona"
     ],
     "activites": [
       {
         "lieu": "courses-conad-loano",
         "heure": "19:05",
-        "note": "Premier passage en caisse, avec Prince (chiens admis) : vendredi 8 h–21 h. Provisions jusqu’à la prochaine base."
+        "note": "Premier passage en caisse, avec Prince (chiens admis) : vendredi 8 h–21 h. Provisions jusqu’à la prochaine base. Sur le trajet, 41 km avant Çele."
       }
     ],
-    "note": "Départ à 13 h après les derniers dépôts Vinted, tout en autoroute (A9, A54, A8, A10) : ≈ 5 h 45 de volant marge comprise, péages comptés. Courses au Conad de Loano vers 19 h (1 km avant l’agricamping), arrivée à La Pietra e l’Ulivo vers 19 h 55, arrivée autonome par code. Tente de toit et chien acceptés par écrit le 28/09 ; aucune nuit réservée."
+    "note": "Départ à 13 h après les derniers dépôts Vinted, tout en autoroute (A9, A54, A8, A10) : 503 km, ≈ 6 h 20 de volant marge comprise, péages comptés. Plein à l’Eni de Finale Ligure (ouvert jusqu’à 19 h le vendredi) et courses au Conad de Loano vers 19 h 05, puis 41 km d’autoroute jusqu’à l’Agriturismo Çele, au-dessus de Celle Ligure, vers 20 h 25. Ouvert toute l’année mais uniquement sur réservation : demande envoyée le 02/10. Rampe très raide (plus de 20 %). Aucune nuit réservée."
   },
   {
     "date": "2026-10-10",
     "jour": 2,
-    "titre": "Pietra Ligure → Lago di Carezza → Val di Funes",
+    "titre": "Celle Ligure → Lago di Carezza → Val di Funes",
     "zone": "Route / Carezza / Funes",
     "nuit": "ferme-gletscher-hons",
     "trajet": "etape-aller-2",
     "autoroute": true,
     "sans_autoroute_apres": "lago-carezza",
     "troncons_peage": [
-      "it-a10-savona",
       "it-savona-piacenza",
       "it-a21-a4",
       "it-a22-bolzano"
     ],
     "depart": "07:30",
-    "depart_de": "agricamping-pietra-ulivo",
+    "depart_de": "agriturismo-cele",
     "activites": [
       {
         "lieu": "lago-carezza",
-        "trajet_min": 366,
-        "heure": "14:06",
+        "trajet_min": 346,
+        "heure": "13:46",
         "duree_min": 60,
         "duree_confort_min": 60,
         "note": "Tour du lac à pied (1,2 km, plat) depuis le parking P1 au bord du lac, par le passage souterrain. Éviter les parkings Simhild et Paolina, reliés par une passerelle suspendue."
       }
     ],
     "trajet_nuit_min": 104,
-    "arrivee_nuit": "16:50",
-    "note": "Autoroute de Pietra Ligure à Bolzano Nord puis la route du Val d’Ega (6 h 06 de volant marge comprise, deux pauses de 15 min) : Carezza vers 14 h 05, sur le chemin. Sans autoroute ensuite par Bolzano et Chiusa jusqu’à la ferme Zum Gletscher Hons vers 16 h 50, avant 18 h comme demandé par la ferme."
+    "arrivee_nuit": "16:30",
+    "note": "Autoroute de Celle Ligure à Bolzano Nord puis la route du Val d’Ega (5 h 46 de volant marge comprise, deux pauses de 15 min) : 34 km et une vingtaine de minutes de moins qu’au départ de Pietra Ligure. Carezza vers 13 h 45, sur le chemin. Sans autoroute ensuite par Bolzano et Chiusa jusqu’à la ferme Zum Gletscher Hons vers 16 h 30, avant 18 h comme demandé par la ferme."
   },
   {
     "date": "2026-10-11",
