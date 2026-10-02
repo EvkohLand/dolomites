@@ -14,6 +14,24 @@
     ],
     "note": "Point pris à la sortie de la commune. Dépôt public : jamais une adresse."
   },
+  "reservations_critiques": [
+    {
+      "id": "parking-alpe-p1",
+      "date_visite": "2026-10-13",
+      "ouverture_reservation": "2026-10-07",
+      "heure_limite_reservation_jour_j": "09:00",
+      "heure_limite_checkpoint": "09:00",
+      "heure_limite_entree_parking": "09:30",
+      "prix_voiture_eur": 15,
+      "reservation_obligatoire": true,
+      "sous_reserve_disponibilite": true,
+      "plaque_non_modifiable_apres_paiement": true,
+      "annulation_modification_remboursement": false,
+      "stationnement_interdit": "23:00-05:00",
+      "source": "https://www.seiseralm.it/en/info-service/current-information/information-a-z/E7503F91A0D51BC9FEB48FEE16D368CE-p-parkplatz-p1-spitzbuehl.html",
+      "verifie_le": "2026-10-02"
+    }
+  ],
   "carte": {
     "centre": [
       46,
