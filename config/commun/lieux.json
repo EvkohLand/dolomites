@@ -12468,13 +12468,13 @@
     ],
     "gps_approximatif": true,
     "commune": "Pinzagen / Pinzago près de Bressanone (position du hameau, terrain privé non localisé)",
-    "resume": "Un seul emplacement sur herbe (4 personnes max) à la ferme Van Moar de Pinzagen, ouvert toute l'année ; tente de toit et chien acceptés. 108,30 € les 3 nuits du 13 au 16 octobre 2026 frais compris (36,10 €/nuit), électricité +5 €, pas de douche.",
+    "resume": "Un seul emplacement sur herbe avec vue sur la Plose, à la ferme Van Moar de Pinzagen (au-dessus de Bressanone), ouvert toute l’année ; tente de toit et chien acceptés. 34,50 € la nuit sur Nomady (une nuit seule acceptée), nuits du 12 et du 15 libres au 02/10 ; WC, pas de douche.",
     "prix": {
       "type": "payant",
-      "montant": 36.1,
-      "unite": "nuit, emplacement jusqu'à 4 personnes, chien compris, frais Campspace et « taxes » compris, hors électricité",
+      "montant": 34.5,
+      "unite": "nuit, 2 adultes + chien, total Nomady (1 nuit possible) ; 38,10 € sur Campspace pour une nuit seule",
       "annee_tarif": 2026,
-      "detail": "Campspace, 13–16 octobre 2026, 2 adultes : « € 108.30 /incl. taxes & services, 3 nights, 2 guests, 1 pitch » = 36,10 €/nuit (même prix pour 1 adulte : tarif par emplacement). Électricité +5 €/nuit (41,10 € avec courant). Aucun supplément chien. La plateforme n'indique pas si « taxes » couvre la taxe de séjour de Bressanone. Nomady : « From 34.50 € ».",
+      "detail": "Relevé du 02/10 sans réserver : Nomady 34,50 € « total » par nuit pour 2 adultes et 1 chien, nuits du 12 et du 15 libres, « Min: 1 nights ». Campspace : 38,10 € « incl. taxes & services » pour une nuit seule (73,20 € les 2 nuits), calendrier à 2 nuits minimum en interne. Électricité +5 €/nuit. Frais Nomady éventuels au paiement : à vérifier.",
       "grille": [
         {
           "libelle": "Emplacement (4 pers. max), 13–16 oct. 2026",
@@ -12505,7 +12505,7 @@
     },
     "ouverture": {
       "a_reverifier": false,
-      "note": "Ouvert toute l'année, donc ouvert aux dates d'octobre 2026 ; un seul emplacement, disponibilité à réserver."
+      "note": "Ouvert toute l’année ; nuits du 12→13 et du 15→16 octobre 2026 libres sur Nomady et Campspace (relevé du 02/10, sans réserver)."
     },
     "acces": "Hameau de Pinzagen, au-dessus de Bressanone, à environ 50 m du restaurant Alpenrose selon l'hôte (position donnée : ce restaurant, OpenStreetMap). Adresse exacte communiquée après acceptation de la réservation. Sol en herbe.",
     "source": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507",
@@ -12517,12 +12517,12 @@
     ],
     "liens": [
       {
-        "libelle": "Campspace — tente de toit, chien et prix d'appel",
-        "url": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507"
+        "libelle": "Réserver sur Nomady (34,50 €, 1 nuit possible)",
+        "url": "https://nomady.camp/en/cabin/wiesenstellplatz-mit-aussicht-1749"
       },
       {
-        "libelle": "Nomady — même ferme, avis et horaires d'arrivée",
-        "url": "https://nomady.camp/en/cabin/wiesenstellplatz-mit-aussicht-1749"
+        "libelle": "Campspace — tente de toit, chien et prix d'appel",
+        "url": "https://campspace.com/en/s/wiesenstellplatz-mit-aussicht-auf-der-plose-south-tyrol_9507"
       }
     ],
     "photos": [

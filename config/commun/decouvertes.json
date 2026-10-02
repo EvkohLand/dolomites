@@ -2322,6 +2322,51 @@
             "admis": false,
             "conditions": "Non précisé pour l’intérieur : visite à tour de rôle, l’un garde le chien."
           }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Turonda — pizza & bistrot (Ortisei), service continu",
+          "resume": "Noté 4,6 ★ (2 726 avis), ouvert tous les jours 12 h – 22 h 30 en continu, vente à emporter : la solution pour le midi du lundi 12 (arrivée vers 13 h). Chiens admis selon l’office de tourisme.",
+          "source": "https://www.valgardena.it/en/addresses/detail-gastronomy/base/company/ortisei-val-gardena/turonda-pizza-bistrot/E07CD16C939C5F32B35EF0DC2E6EE0D9/",
+          "gps": [
+            46.57485,
+            11.6705
+          ],
+          "horaires": {
+            "general": "Tous les jours 12 h – 22 h 30, jusqu’au 21 ou 31 octobre",
+            "par_jour": {
+              "2026-10-12": "12 h – 22 h 30"
+            }
+          },
+          "prix": {
+            "detail": "≈ 20 – 35 € par personne (Restaurant Guru) ; carte non publiée."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis (office de tourisme du Val Gardena)."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Pitla Stua (Ortisei) — café et en-cas, chiens bienvenus",
+          "resume": "Café noté 4,5 ★, ouvert toute l’année et tous les jours 7 h 30 – 20 h 30, en-cas à 1 – 10 € ; chiens bienvenus selon l’office de tourisme.",
+          "source": "https://www.valgardena.it/en/addresses/detail/base/company/ortisei-val-gardena/pitla-stua/1EFBAC9B41E102AE00CA2125A9E921DA/",
+          "gps": [
+            46.5725,
+            11.67573
+          ],
+          "horaires": {
+            "general": "Tous les jours 7 h 30 – 20 h 30"
+          },
+          "prix": {
+            "detail": "1 – 10 € par personne selon Google."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens bienvenus (office de tourisme du Val Gardena)."
+          }
         }
       ]
     },
@@ -3641,6 +3686,27 @@
           "chien": {
             "admis": null,
             "conditions": "Règle non publiée : demander sur place."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Ai Due Forni (Cortina) — pizza à la part",
+          "resume": "Pizza à la part notée 4,5 ★ (716 avis), ouverte le mardi 10 h – 21 h 30 : goûter sur la route de Dobbiaco. Boulangerie Santuz juste à côté (4,5 ★).",
+          "source": "https://www.google.com/maps/search/?api=1&query=Ai%20Due%20Forni%20Cortina%20d%20Ampezzo",
+          "gps": [
+            46.53842,
+            12.13523
+          ],
+          "horaires": {
+            "general": "Mardi – dimanche 10 h – 21 h 30, fermé le lundi (Google)"
+          },
+          "prix": {
+            "detail": "Prix abordables, non chiffrés."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Non précisé."
           }
         }
       ]
@@ -6242,6 +6308,48 @@
             "conditions": "En laisse."
           },
           "duree_conseillee": "2 h aller-retour"
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Malga Ochsenhütte (Nova Levante) — chiens admis",
+          "resume": "Alpage noté 4,7 ★ (673 avis), ouvert jusqu’au 31 octobre, cuisine chaude 11 h 30 – 16 h ; chiens admis selon l’office de tourisme. À Carezza, Franzin Alm est fermée du 5 au 30 octobre et le Laurin fermé le samedi.",
+          "source": "https://eggental.com/en/info/malga-ochsenhtte_5220",
+          "gps": [
+            46.43408,
+            11.59696
+          ],
+          "horaires": {
+            "general": "5 juin – 31 octobre, 9 h – 18 h, cuisine 11 h 30 – 16 h ; repos le mercredi"
+          },
+          "prix": {
+            "detail": "Prix non publiés."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Chiens admis (office du Val d’Ega)."
+          }
+        },
+        {
+          "disponibilite": "À vérifier le jour même",
+          "type": "gastronomie",
+          "nom": "Restaurant Bar Rosengarten (Birchabruck) — service continu",
+          "resume": "Sur la route Bolzano → Nova Levante, noté 4,4 ★ (529 avis), ouvert en continu le samedi : escalope-frites, strudel. Chiens admis selon Google.",
+          "source": "https://www.genusslandsuedtirol.it/de/cmspre/restaurant-rosengarten/cmspre-restaurant-3983,74.html",
+          "gps": [
+            46.42469,
+            11.4823
+          ],
+          "horaires": {
+            "general": "6 h 30 – 23 h en continu, fermé le mardi ; fermeture d’automne à vérifier"
+          },
+          "prix": {
+            "detail": "≈ 20 – 30 € par personne selon Google."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "Selon Google ; à confirmer."
+          }
         }
       ]
     },
