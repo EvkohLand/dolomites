@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-02T00:42Z",
+  "genere_le": "2026-10-02T09:39Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-01T20:01"
+      "maj": "2026-10-02T11:16"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,30 +218,16 @@
     },
     {
       "source": "bz",
-      "id": "2882101",
+      "id": "3151301",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione sud l’uscita di Bolzano Nord è CHIUSA dalle ore 21:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-01",
-      "fin": "2026-10-02",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bolzano Nord e Chiusa 6 km di coda per un mezzo pesante in panne.",
+      "debut": "2026-10-02",
+      "fin": "",
       "gps": [
-        46.49504,
-        11.40902
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3073601",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In entrambe le direzioni l’entrata di Trento Centro è CHIUSA dalle ore 20:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-01",
-      "fin": "2026-10-02",
-      "gps": [
-        46.08209,
-        11.10523
+        46.49371,
+        11.41292
       ]
     },
     {
@@ -256,6 +242,20 @@
       "gps": [
         46.49305,
         11.35468
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3077512",
+      "route": "Comune di Bolzano",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "La via San Maurizio nel tratto tra la rotonda Largo Donatori del Sangue e Via Merano è CHIUSA al traffico per lavori.",
+      "debut": "2026-10-02",
+      "fin": "2026-10-15",
+      "gps": [
+        46.50186,
+        11.31184
       ]
     },
     {
@@ -326,6 +326,20 @@
       "gps": [
         46.41293,
         11.43014
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2923601",
+      "route": "Ferrovia",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Domenica 11.10.2026: La linea ferroviaria Bolzano - Merano è INTERROTTA dalle ore 07:50 fino alle ore 13:30 per lavori di manutenzione straordinaria. Sarà attivo un servizio sostitutivo autobus. Sugli autobus sostitutivi il trasporto biciclette non è consentito. Ulteriori informazioni sotto: www.altoadigemobilita.info",
+      "debut": "2026-10-10",
+      "fin": "2026-10-11",
+      "gps": [
+        46.49722,
+        11.35601
       ]
     },
     {
@@ -480,20 +494,6 @@
       "gps": [
         46.35003,
         11.26349
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3131912",
-      "route": "LS/SP146 — S. Andrea - S. Leonardo",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra. S. Andrea e S. Leonardo (km 0,800 - km 3,210) a tratti senso unico alternato e chiusure temporanee fino a 5 minuti per lavori di scavo.",
-      "debut": "2026-08-19",
-      "fin": "2026-10-23",
-      "gps": [
-        46.71097,
-        11.6885
       ]
     },
     {
@@ -666,20 +666,6 @@
     },
     {
       "source": "bz",
-      "id": "3127712",
-      "route": "LS/SP29 — Eores - S. Martino in Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Plancios (km 14,500 - km 14,700) senso unico alternato e chiusure temporanee fino a 5 minuti a causa di lavori.",
-      "debut": "2026-08-24",
-      "fin": "2026-10-02",
-      "gps": [
-        46.67286,
-        11.70647
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2813401",
       "route": "LS/SP31 — Elvas - Sciaves",
       "niveau": "fermeture",
@@ -698,7 +684,7 @@
       "route": "LS/SP39 — Marebbe",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Venerdí 02.10.2026: A Pieve di Marebbe (km 1,150 - km 1,250) CHIUSURA al traffico dalle ore 15:00 alle ore 17:00 a causa di lavori.",
+      "texte": "A Pieve di Marebbe (km 1,150 - km 1,250) CHIUSURA al traffico dalle ore 15:00 alle ore 17:00 a causa di lavori.",
       "debut": "2026-10-01",
       "fin": "2026-10-02",
       "gps": [
@@ -718,6 +704,20 @@
       "gps": [
         46.82782,
         11.80196
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3151212",
+      "route": "LS/SP44 — Anterselva",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Rasun di Sotto (km 0,150 - km 0,290) senso unico alternato dalle ore 08:00 alle ore 17:00 a causa di lavori.",
+      "debut": "2026-10-05",
+      "fin": "2026-10-16",
+      "gps": [
+        46.77654,
+        12.04439
       ]
     },
     {
@@ -820,20 +820,6 @@
     },
     {
       "source": "bz",
-      "id": "3120012",
-      "route": "LS/SP70 — Scaleres",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Varna e Scaleres (km 3,200 - km 3,350) senso unico alternato a causa di lavori.",
-      "debut": "2026-07-27",
-      "fin": "2026-10-02",
-      "gps": [
-        46.73933,
-        11.61696
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3008812",
       "route": "LS/SP72 — Aldino - Nova Ponente",
       "niveau": "gene",
@@ -895,7 +881,7 @@
       "niveau": "gene",
       "etat": "rallentamenti",
       "texte": "A Perara (km 9,480 - km 9,550) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori di scavo (giorni feriali).",
-      "debut": "2026-09-30",
+      "debut": "2026-10-05",
       "fin": "2026-10-09",
       "gps": [
         46.69929,
@@ -1002,6 +988,20 @@
     },
     {
       "source": "bz",
+      "id": "2954301",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bolzano Nord e Campodazzo rallentamenti e code per traffico intenso.",
+      "debut": "2026-10-02",
+      "fin": "",
+      "gps": [
+        46.41463,
+        11.33345
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1090,7 +1090,7 @@
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "A Chiusa (km 0,300 - km 2,600) a tratti senso unico alternato a causa di lavori (giorni feriali).",
+      "texte": "A Chiusa (km 0,300 - km 2,600) a tratti senso unico alternato a causa di lavori (anche nel fine settimana).",
       "debut": "2026-09-01",
       "fin": "2026-11-30",
       "gps": [
@@ -1142,6 +1142,20 @@
     },
     {
       "source": "bz",
+      "id": "670712",
+      "route": "SS244 — di Val Badia",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Punt de Fer (km 22,650 - km 23,250) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori.",
+      "debut": "2026-10-06",
+      "fin": "2026-10-09",
+      "gps": [
+        46.62472,
+        11.89253
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3148312",
       "route": "SS42 — Passo Mendola",
       "niveau": "gene",
@@ -1188,7 +1202,7 @@
       "route": "SS49 — della Pusteria",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Sulla circonvallazione di Rio di Pusteria (km 7,300 - km 9,300) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori in galleria. Deviazione attraverso la SP 182 Rio di Pusteria.",
+      "texte": "Sulla circonvallazione di Rio di Pusteria (km 7,300 - km 9,300) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori in galleria. Deviazione attraverso la SP 182 Rio di Pusteria (giorni feriali).",
       "debut": "2026-09-28",
       "fin": "2026-10-09",
       "gps": [
