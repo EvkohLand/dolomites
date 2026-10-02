@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-02T09:39Z",
+  "genere_le": "2026-10-02T14:08Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-02T11:16"
+      "maj": "2026-10-02T15:58"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,20 +218,6 @@
     },
     {
       "source": "bz",
-      "id": "3151301",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Nord e Chiusa 6 km di coda per un mezzo pesante in panne.",
-      "debut": "2026-10-02",
-      "fin": "",
-      "gps": [
-        46.49371,
-        11.41292
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -438,6 +424,20 @@
       "gps": [
         46.26151,
         11.27079
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3112912",
+      "route": "LS/SP132 — Prato Isarco - Nova Levante",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Nova Levante e San Valentino in Campo (km 17,070 - km 17,290) senso unico alternato per lavori di raddrizzamento e allargamento (anche nel fine settimana).",
+      "debut": "2026-08-18",
+      "fin": "2026-11-15",
+      "gps": [
+        46.42919,
+        11.49347
       ]
     },
     {
@@ -984,20 +984,6 @@
       "gps": [
         46.51152,
         11.46967
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2954301",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Nord e Campodazzo rallentamenti e code per traffico intenso.",
-      "debut": "2026-10-02",
-      "fin": "",
-      "gps": [
-        46.41463,
-        11.33345
       ]
     },
     {
