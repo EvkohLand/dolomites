@@ -22234,7 +22234,7 @@
       8.2735
     ],
     "commune": "Tovo San Giacomo (SV)",
-    "resume": "Meilleur prix pour la nuit du 9 : agritourisme à 18 min de Pietra, sur la route de l’autoroute du lendemain. Tente + voiture 30 €, chien gratuit, arrivée jusqu’à 21 h et départ libre. Ouverture en octobre et tente de toit à confirmer.",
+    "resume": "Agritourisme à 18 min de Pietra, 30 € tente + voiture, chien gratuit : COMPLET la nuit du 9 octobre (réponse écrite du 02/10). À garder pour un autre passage.",
     "prix": {
       "type": "payant",
       "montant": 30,
@@ -22248,8 +22248,8 @@
       "note": "« I vostri amici animali sono i benvenuti ! » ; gratuits."
     },
     "ouverture": {
-      "a_reverifier": true,
-      "note": "Tarif camping annuel ; tarifs des chambres publiés jusqu’au 2 novembre 2026. Ouverture le 9 octobre à confirmer."
+      "a_reverifier": false,
+      "note": "Complet le vendredi 9 octobre 2026 (réponse écrite du 02/10/2026)."
     },
     "horaires": [
       {
@@ -22289,7 +22289,13 @@
           "url": "https://www.lavalleggia.it/wp-content/uploads/2019/10/Carta-dei-servizi_ITALIANO.pdf"
         }
       ]
-    }
+    },
+    "echanges": [
+      {
+        "date": "2026-10-02",
+        "resume": "Question envoyée pour la nuit du 9 (ouverture, tente de toit, prix) ; réponse : « siamo al completo »."
+      }
+    ]
   },
   {
     "id": "agricamping-le-terrazze",
