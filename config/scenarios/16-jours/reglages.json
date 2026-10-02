@@ -8,17 +8,29 @@
   },
   "depart": {
     "libelle": "Saint-Gély-du-Fesc",
-    "gps": [
-      43.695,
-      3.81
-    ],
+    "gps": [43.695, 3.81],
     "note": "Point pris à la sortie de la commune. Dépôt public : jamais une adresse."
   },
+  "reservations_critiques": [
+    {
+      "id": "parking-alpe-p1",
+      "date_visite": "2026-10-13",
+      "ouverture_reservation": "2026-10-07",
+      "heure_limite_reservation_jour_j": "09:00",
+      "heure_limite_checkpoint": "09:00",
+      "heure_limite_entree_parking": "09:30",
+      "prix_voiture_eur": 15,
+      "reservation_obligatoire": true,
+      "sous_reserve_disponibilite": true,
+      "plaque_non_modifiable_apres_paiement": true,
+      "annulation_modification_remboursement": false,
+      "stationnement_interdit": "23:00-05:00",
+      "source": "https://www.seiseralm.it/en/info-service/current-information/information-a-z/E7503F91A0D51BC9FEB48FEE16D368CE-p-parkplatz-p1-spitzbuehl.html",
+      "verifie_le": "2026-10-02"
+    }
+  ],
   "carte": {
-    "centre": [
-      46,
-      9.5
-    ],
+    "centre": [46, 9.5],
     "zoom": 7,
     "zoom_min": 5,
     "zoom_max": 17,
@@ -28,16 +40,7 @@
       "message_hors_ligne": "Fond de carte indisponible sans réseau. Les positions des points, leurs coordonnées et tout le détail restent lisibles.",
       "libelle": "Plan"
     },
-    "zone_valide": [
-      [
-        42,
-        2
-      ],
-      [
-        48.5,
-        13.5
-      ]
-    ],
+    "zone_valide": [[42, 2], [48.5, 13.5]],
     "tuiles_aeriennes": {
       "libelle": "Vue aérienne",
       "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
@@ -55,29 +58,11 @@
     "accent": "#2f6f4f"
   },
   "sections": [
-    {
-      "id": "carte",
-      "libelle": "Carte"
-    },
-    {
-      "id": "pratique",
-      "libelle": "Pratique"
-    },
-    {
-      "id": "planning",
-      "libelle": "Planning"
-    },
-    {
-      "id": "budget",
-      "libelle": "Budget"
-    },
-    {
-      "id": "meteo",
-      "libelle": "Météo"
-    },
-    {
-      "id": "reglementation",
-      "libelle": "Règles"
-    }
+    {"id": "carte", "libelle": "Carte"},
+    {"id": "pratique", "libelle": "Pratique"},
+    {"id": "planning", "libelle": "Planning"},
+    {"id": "budget", "libelle": "Budget"},
+    {"id": "meteo", "libelle": "Météo"},
+    {"id": "reglementation", "libelle": "Règles"}
   ]
 }
