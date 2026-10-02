@@ -1709,6 +1709,109 @@
             "admis": false,
             "conditions": "Chiens interdits à la piscine."
           }
+        },
+        {
+          "disponibilite": "Événement daté 2026",
+          "type": "experience",
+          "nom": "31e fête de la pomme de Natz (dimanche 11)",
+          "resume": "Marché paysan, musique, défilé de chars à 14 h avec la couronne de 3 000 pommes, à 10 min de Bressanone. Possible dans le temps libre de l’après-midi du 11 (≈ 35 min depuis Funes).",
+          "source": "https://www.natz-schabs.info/en/discovery-location/events/apple-festival.html",
+          "gps": [
+            46.7526,
+            11.6809
+          ],
+          "horaires": {
+            "general": "Dimanche 11 octobre 2026, 10 h – 19 h ; défilé à 14 h",
+            "par_jour": {
+              "2026-10-11": "10 h – 19 h"
+            }
+          },
+          "prix": {
+            "detail": "Prix d’entrée non publié (fête de rue)."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "En plein air, en laisse (règle non publiée)."
+          }
+        },
+        {
+          "disponibilite": "Événement daté 2026",
+          "type": "marche",
+          "nom": "SelberGMOCHT — marché d’artisanat et produits locaux (Chiusa, samedi 10)",
+          "resume": "Marché au centre de Chiusa le samedi 10 jusqu’à 16 h 30, sur la route de la ferme de Funes : à attraper si Carezza se termine tôt.",
+          "source": "https://www.suedtirol.info/de/de/erlebnisse-und-events/events-suedtirol/pdp-event.ED86B2ECFE8149CBA2BDB4D201BBB097.selbergmocht-event-markt-in-klausen.klausen",
+          "gps": [
+            46.64285,
+            11.56984
+          ],
+          "horaires": {
+            "general": "Samedi 10 octobre 2026, 9 h – 16 h 30",
+            "par_jour": {
+              "2026-10-10": "9 h – 16 h 30"
+            }
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Marché."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "En plein air, en laisse (règle non publiée)."
+          }
+        },
+        {
+          "disponibilite": "Événement daté 2026",
+          "type": "experience",
+          "nom": "Châtaignes grillées à la ferme Frühaufhof (Barbian, 10 et 11)",
+          "resume": "Châtaignes grillées à la ferme les week-ends d’octobre, à 5 km de Chiusa.",
+          "source": "https://www.suedtirol.info/de/de/erlebnisse-und-events/events-suedtirol/pdp-event.81219C14DE484A179B7A1326C1F20AF5.kastanienbraten-in-barbian.barbian",
+          "gps": [
+            46.60025,
+            11.51853
+          ],
+          "horaires": {
+            "general": "Samedi 10 et dimanche 11 octobre, 13 h – 17 h 30",
+            "par_jour": {
+              "2026-10-10": "13 h – 17 h 30",
+              "2026-10-11": "13 h – 17 h 30"
+            }
+          },
+          "prix": {
+            "detail": "Prix non publié."
+          },
+          "chien": {
+            "admis": true,
+            "conditions": "En plein air, en laisse (règle non publiée)."
+          }
+        },
+        {
+          "disponibilite": "Événement daté 2026",
+          "type": "experience",
+          "nom": "Alpentales — concert-récit gratuit (Bressanone, jeudi 15)",
+          "resume": "Contes alpins en musique (violon, trompette, harmonica), entrée gratuite, au Vinzentinum à 10 min de Van Moar.",
+          "source": "https://www.suedtirol.info/de/de/erlebnisse-und-events/events-suedtirol/pdp-event.3CAAB71614CC450D9F35B19AB04394F2.alpentales.brixen",
+          "gps": [
+            46.7256,
+            11.6541
+          ],
+          "horaires": {
+            "general": "Jeudi 15 octobre 2026, 19 h 30 – 20 h 30",
+            "par_jour": {
+              "2026-10-15": "19 h 30 – 20 h 30"
+            }
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Entrée gratuite."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": null,
+            "conditions": "Salle : à demander."
+          }
         }
       ]
     },
@@ -2366,6 +2469,33 @@
           "chien": {
             "admis": true,
             "conditions": "Chiens bienvenus (office de tourisme du Val Gardena)."
+          }
+        },
+        {
+          "disponibilite": "Événement daté 2026",
+          "type": "marche",
+          "nom": "Segra Sacun — grand marché d’automne d’Ortisei (lundi 12)",
+          "resume": "L’un des plus grands marchés de l’année, le lundi 12 octobre de 8 h à 16 h au centre d’Ortisei : spécialités, artisanat et poires enrubannées offertes. Vous y arrivez vers 13 h.",
+          "source": "https://www.suedtirol.info/de/de/erlebnisse-und-events/events-suedtirol/pdp-event.2B028839716F4B549C01A07702CC8F25.blaettermarkt-segra-sacun.st-ulrich",
+          "gps": [
+            46.5743,
+            11.6716
+          ],
+          "horaires": {
+            "general": "Lundi 12 octobre 2026, 8 h – 16 h",
+            "par_jour": {
+              "2026-10-12": "8 h – 16 h"
+            }
+          },
+          "prix": {
+            "adulte": "gratuit",
+            "gratuit": true,
+            "detail": "Marché en plein air."
+          },
+          "prix_montant": 0,
+          "chien": {
+            "admis": true,
+            "conditions": "En plein air, en laisse (règle non publiée)."
           }
         }
       ]
@@ -3068,6 +3198,27 @@
           "chien": {
             "admis": true,
             "conditions": "Chiens admis selon Google Maps (attribut) ; à confirmer sur place."
+          }
+        },
+        {
+          "disponibilite": "Événement daté 2026",
+          "type": "bon-plan",
+          "nom": "Attention — fête des Kastelruther Spatzen du 9 au 11 octobre",
+          "resume": "Grande fête payante à Castelrotto du 9 au 11 octobre : bouchons possibles ces jours-là ; elle est terminée le lundi 12, jour de votre passage.",
+          "source": "https://www.suedtirol.info/",
+          "gps": [
+            46.5669,
+            11.5603
+          ],
+          "horaires": {
+            "general": "9 – 11 octobre 2026"
+          },
+          "prix": {
+            "detail": "Sur billets."
+          },
+          "chien": {
+            "admis": null,
+            "conditions": "Sans objet."
           }
         }
       ]
