@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-02T14:08Z",
+  "genere_le": "2026-10-02T17:50Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-02T15:58"
+      "maj": "2026-10-02T19:26"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,34 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3151501",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra San Michele ed Egna 4 km di coda dopo un incidente.",
+      "debut": "2026-10-02",
+      "fin": "",
+      "gps": [
+        46.33296,
+        11.2762
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3151601",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Egna e San Michele 2 km di coda dopo un incidente.",
+      "debut": "2026-10-02",
+      "fin": "",
+      "gps": [
+        46.33296,
+        11.2762
       ]
     },
     {
@@ -676,20 +704,6 @@
       "gps": [
         46.75367,
         11.67768
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2871801",
-      "route": "LS/SP39 — Marebbe",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Pieve di Marebbe (km 1,150 - km 1,250) CHIUSURA al traffico dalle ore 15:00 alle ore 17:00 a causa di lavori.",
-      "debut": "2026-10-01",
-      "fin": "2026-10-02",
-      "gps": [
-        46.71976,
-        11.92505
       ]
     },
     {
