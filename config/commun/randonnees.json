@@ -2528,7 +2528,7 @@
           ],
           "chien": {
             "admis": true,
-            "passages_delicats": "Forcella Mesdì : montée raide en lacets, pied sûr exigé ; non recommandée avec un chien de 20–25 kg sans vérification sur place auprès des guides Catores ou de l'office de tourisme.",
+            "passages_delicats": "Forcella Mesdì : montée raide en lacets, pied sûr exigé ; non recommandée avec un chien de 12 kg sans vérification sur place auprès des guides Catores ou de l'office de tourisme.",
             "laisse_museliere": "Laisse obligatoire en permanence (Tyrol du Sud, parc naturel Puez-Odle). Muselière obligatoire dans la cabine et les bus, à porter ; à avoir sur soi partout ailleurs.",
             "betail": "Alpages pâturés en été : laisse courte, se placer entre le bétail et le chien. Présence du bétail mi-octobre 2026 non vérifiée (dépend de la désalpe)."
           },
@@ -4691,7 +4691,7 @@
           ],
           "chien": {
             "admis": false,
-            "passages_delicats": "INCOMPATIBLE avec un chien de 20–25 kg : 848 m de via ferrata (Outdooractive), câbles, pont suspendu en câbles d'acier de 10 à 15 m au-dessus d'une brèche de 25 m, passage exposé où baudrier et longe sont conseillés. La descente par la galerie (marches taillées, pente jusqu'à 40 %, câble) ne convient pas non plus.",
+            "passages_delicats": "INCOMPATIBLE avec un chien de 12 kg : 848 m de via ferrata (Outdooractive), câbles, pont suspendu en câbles d'acier de 10 à 15 m au-dessus d'une brèche de 25 m, passage exposé où baudrier et longe sont conseillés. La descente par la galerie (marches taillées, pente jusqu'à 40 %, câble) ne convient pas non plus.",
             "laisse_museliere": "sans objet",
             "betail": "aucun connu"
           },
@@ -5073,7 +5073,7 @@
           ],
           "chien": {
             "admis": true,
-            "passages_delicats": "S'ARRÊTER au plateau rocheux, avant la brèche verticale : la fin vers le sommet (2 477 m) passe par des échelles métalliques et en bois et de courtes galeries, impossibles avec un chien de 20–25 kg ; les galeries sud ont échelles et câble (casque et lampe exigés)",
+            "passages_delicats": "S'ARRÊTER au plateau rocheux, avant la brèche verticale : la fin vers le sommet (2 477 m) passe par des échelles métalliques et en bois et de courtes galeries, impossibles avec un chien de 12 kg ; les galeries sud ont échelles et câble (casque et lampe exigés)",
             "laisse_museliere": "laisse obligatoire (Parco Dolomiti d'Ampezzo) ; en Tyrol du Sud, laisse et muselière à avoir sur soi",
             "betail": "aucun connu"
           },
@@ -5358,7 +5358,7 @@
             "admis": true,
             "laisse_museliere": "Vénétie (province de Belluno), hors Tyrol du Sud : la loi sud-tyrolienne (muselière à porter sur soi) ne s'applique pas. Laisse recommandée partout et obligatoire près du bétail ; muselière à avoir sur soi par précaution (ordonnance nationale non revérifiée ici).",
             "betail": "pâturages d'été ; troupeaux normalement redescendus mi-octobre (non vérifié)",
-            "passages_delicats": "tranchées restaurées avec marches et passerelles en bois ; rien d'infranchissable pour un chien de 20–25 kg"
+            "passages_delicats": "tranchées restaurées avec marches et passerelles en bois ; rien d'infranchissable pour un chien de 12 kg"
           },
           "eau": "aucune connue",
           "ravitaillement_octobre": [
@@ -6096,7 +6096,7 @@
           "balisage": "627A (Sass Pordoi → Forcella Pordoi), 627 puis 638 jusqu'au sommet du Piz Boè (Capanna Piz Fassa), 638 versant nord-ouest jusqu'au Rifugio Boè, 627 au pied du Piz Boè jusqu'à la Forcella Pordoi, puis 627 dans le couloir jusqu'au Passo Pordoi.",
           "chien": {
             "admis": true,
-            "passages_delicats": "Montée du 638 : rochers, vires et plusieurs passages équipés de câbles métalliques. Descente vers le Rifugio Boè : courte section rocheuse équipée d'un câble et d'escaliers en bois. Couloir de la Forcella Pordoi : environ 600 m de descente dans un pierrier raide et instable. Pour un chien de 20–25 kg, câbles et escaliers imposent de le porter ou de l'aider : déconseillé avec Prince.",
+            "passages_delicats": "Montée du 638 : rochers, vires et plusieurs passages équipés de câbles métalliques. Descente vers le Rifugio Boè : courte section rocheuse équipée d'un câble et d'escaliers en bois. Couloir de la Forcella Pordoi : environ 600 m de descente dans un pierrier raide et instable. Pour un chien de 12 kg, câbles et escaliers imposent de le porter ou de l'aider : déconseillé avec Prince.",
             "laisse_museliere": "Laisse et muselière obligatoires dans le téléphérique ; laisse sur le sentier (APT Val di Fassa).",
             "betail": "Aucun pâturage (milieu minéral)."
           },
@@ -6690,7 +6690,7 @@
             "admis": true,
             "laisse_museliere": "Province de Bolzano : laisse de 1,5 m maximum dans les lieux publics, muselière pour les grands chiens non tenus (suedtirol.info). Laisse obligatoire dans tout le parc naturel Fanes-Senes-Braies selon des sources non officielles ; règlement du parc non trouvé. Tenir Prince en laisse sur tout le parcours.",
             "betail": "Alpages de Fanes pâturés l'été ; troupeaux normalement redescendus fin septembre, non vérifié pour 2026. Marmottes et chamois : laisse courte.",
-            "passages_delicats": "Sentier exposé dans la partie haute, petit pont suspendu, vestiges militaires : passage d'un chien de 20–25 kg en laisse délicat."
+            "passages_delicats": "Sentier exposé dans la partie haute, petit pont suspendu, vestiges militaires : passage d'un chien de 12 kg en laisse délicat."
           },
           "eau": "Aucun point d'eau potable garanti : refuges fermés (eau coupée ou inaccessible), torrents et lacs (Lé Vert, Lé de Limo) non potables sans traitement. Emporter toute l'eau, homme et chien (1,5–2 L par personne, 1 L pour Prince).",
           "ravitaillement_octobre": [
@@ -7038,7 +7038,7 @@
             "admis": false,
             "laisse_museliere": "Province de Bolzano : laisse de 1,5 m maximum dans les lieux publics, muselière pour les grands chiens non tenus (suedtirol.info). Laisse obligatoire dans tout le parc naturel Fanes-Senes-Braies selon des sources non officielles ; règlement du parc non trouvé. Tenir Prince en laisse sur tout le parcours.",
             "betail": "Alpages de Fanes pâturés l'été ; troupeaux normalement redescendus fin septembre, non vérifié pour 2026. Marmottes et chamois : laisse courte.",
-            "passages_delicats": "Crête finale équipée de câbles d'acier, terrain d'escalade : inadapté à un chien de 20–25 kg. Ne pas emmener Prince."
+            "passages_delicats": "Crête finale équipée de câbles d'acier, terrain d'escalade : inadapté à un chien de 12 kg. Ne pas emmener Prince."
           },
           "eau": "Aucune.",
           "ravitaillement_octobre": [
@@ -8428,7 +8428,7 @@
           "balisage": "20 (Riedlhof, Kaserhütten), 61 puis 61A (Forcella di Braies / Pragser Furkel, sommet)",
           "chien": {
             "admis": true,
-            "passages_delicats": "Montée raide sur terrain « schroff » (accidenté, rocheux) au-dessus de la Pragser Furkel ; pas de câble signalé. Pierrier et blocs probables : faisabilité pour un chien de 20–25 kg non confirmée.",
+            "passages_delicats": "Montée raide sur terrain « schroff » (accidenté, rocheux) au-dessus de la Pragser Furkel ; pas de câble signalé. Pierrier et blocs probables : faisabilité pour un chien de 12 kg non confirmée.",
             "laisse_museliere": "Admis ; laisse obligatoire dans tout le parc naturel Fanes-Senes-Braies (règle n° 8 « Hund an die Leine » du parc).",
             "betail": "Alpage des Kaserhütten : troupeaux possibles jusqu'à la désalpe."
           },
@@ -8963,7 +8963,7 @@
             "lieu_id": "parking-lago-dobbiaco",
             "lieu_id_secondaire": "lago-dobbiaco"
           },
-          "acces_transport": "Bus SAD 445 Dobbiaco–Cortina, arrêt « Toblacher See / Lago di Dobbiaco », horaire valable 14/06–12/12/2026 : après le 11/10, départs de la gare de Dobbiaco vers le lac à 7 h 10, 9 h 10, 11 h 10, 14 h 10, 16 h 10, 18 h 10 ; retours du lac 8 h 41, 10 h 41, 13 h 41, 15 h 41, 17 h 41, 19 h 41. Les courses de 10 h, 13 h et 15 h (via Misurina) ne roulent que jusqu'au 11/10. Chien de 20–25 kg admis dans bus et train : billet 2 € le trajet ou 3,50 € la journée, laisse, muselière en règle générale.",
+          "acces_transport": "Bus SAD 445 Dobbiaco–Cortina, arrêt « Toblacher See / Lago di Dobbiaco », horaire valable 14/06–12/12/2026 : après le 11/10, départs de la gare de Dobbiaco vers le lac à 7 h 10, 9 h 10, 11 h 10, 14 h 10, 16 h 10, 18 h 10 ; retours du lac 8 h 41, 10 h 41, 13 h 41, 15 h 41, 17 h 41, 19 h 41. Les courses de 10 h, 13 h et 15 h (via Misurina) ne roulent que jusqu'au 11/10. Chien de 12 kg admis dans bus et train : billet 2 € le trajet ou 3,50 € la journée, laisse, muselière en règle générale.",
           "balisage": "Sentier nature du lac, 11 panneaux ; pas de numéro de sentier CAI/AVS publié sur les fiches officielles",
           "chien": {
             "admis": true,
@@ -9058,7 +9058,7 @@
             "horaires": "non publiés",
             "lieu_id": null
           },
-          "acces_transport": "Départ à pied depuis la gare de Dobbiaco (bus 400 Brunico–San Candido en correspondance, bus 445 vers le lac). Chien de 20–25 kg admis dans bus et train : billet 2 € le trajet ou 3,50 € la journée, laisse, muselière en règle générale.",
+          "acces_transport": "Départ à pied depuis la gare de Dobbiaco (bus 400 Brunico–San Candido en correspondance, bus 445 vers le lac). Chien de 12 kg admis dans bus et train : billet 2 € le trajet ou 3,50 € la journée, laisse, muselière en règle générale.",
           "balisage": "Route goudronnée puis chemin gravillonné par Säge/Seghe ; sentier nature du lac ; numéro de sentier non publié",
           "chien": {
             "admis": true,
@@ -9392,7 +9392,7 @@
             "horaires": "payant 7 h–19 h",
             "lieu_id": "parking-lago-dobbiaco"
           },
-          "acces_transport": "Bus SAD 445 Dobbiaco–Cortina, arrêt « Toblacher See / Lago di Dobbiaco », horaire valable 14/06–12/12/2026 : après le 11/10, départs de la gare de Dobbiaco vers le lac à 7 h 10, 9 h 10, 11 h 10, 14 h 10, 16 h 10, 18 h 10 ; retours du lac 8 h 41, 10 h 41, 13 h 41, 15 h 41, 17 h 41, 19 h 41. Les courses de 10 h, 13 h et 15 h (via Misurina) ne roulent que jusqu'au 11/10. Chien de 20–25 kg admis dans bus et train : billet 2 € le trajet ou 3,50 € la journée, laisse, muselière en règle générale.",
+          "acces_transport": "Bus SAD 445 Dobbiaco–Cortina, arrêt « Toblacher See / Lago di Dobbiaco », horaire valable 14/06–12/12/2026 : après le 11/10, départs de la gare de Dobbiaco vers le lac à 7 h 10, 9 h 10, 11 h 10, 14 h 10, 16 h 10, 18 h 10 ; retours du lac 8 h 41, 10 h 41, 13 h 41, 15 h 41, 17 h 41, 19 h 41. Les courses de 10 h, 13 h et 15 h (via Misurina) ne roulent que jusqu'au 11/10. Chien de 12 kg admis dans bus et train : billet 2 € le trajet ou 3,50 € la journée, laisse, muselière en règle générale.",
           "balisage": "Sentier 14 (montée raide, Sarlhütte), puis sentier 33 par le Sarlriedl et le Sarlsattel jusqu'au sommet",
           "chien": {
             "admis": true,

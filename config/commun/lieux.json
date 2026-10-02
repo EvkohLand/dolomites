@@ -12880,7 +12880,7 @@
       },
       {
         "lieu": "abri-camping-dei-fiori",
-        "note": "À 200 m, mais chien de 20–25 kg à faire accepter."
+        "note": "À 200 m, mais chien de 12 kg à faire accepter."
       }
     ],
     "sante_proche": [
@@ -14169,7 +14169,7 @@
     ],
     "chien": {
       "admis": true,
-      "note": "« Accesso animali consentito » et « Carrelli per animali » sur la fiche officielle du magasin. Les chariots Conad visent les petits chiens : pour Prince (20–25 kg) en laisse, demander à l'accueil en entrant ; Conad ne publie aucune limite de taille."
+      "note": "« Accesso animali consentito » et « Carrelli per animali » sur la fiche officielle du magasin. Les chariots Conad visent les petits chiens : pour Prince (12 kg) en laisse, demander à l'accueil en entrant ; Conad ne publie aucune limite de taille."
     },
     "pratique": [
       {
@@ -14344,7 +14344,7 @@
     "chien": {
       "admis": false,
       "en_sac": true,
-      "note": "Coop Liguria n'admet que les chiens de petite taille, dans les chariots à caisse intégrée (depuis juillet 2023) : Prince (20–25 kg) n'entre pas."
+      "note": "Coop Liguria n'admet que les chiens de petite taille, dans les chariots à caisse intégrée (depuis juillet 2023) : Prince (12 kg) n'entre pas."
     },
     "pratique": [
       {
@@ -18127,7 +18127,7 @@
     },
     "chien": {
       "admis": null,
-      "note": "Admis dans « certains » hébergements ; le camping « préfère les chiens petits à moyens ». Chien de 20–25 kg : à confirmer."
+      "note": "Admis dans « certains » hébergements ; le camping « préfère les chiens petits à moyens ». Chien de 12 kg : à confirmer."
     },
     "ouverture": {
       "fin_saison": "2026-11-03",
@@ -18518,7 +18518,7 @@
     ],
     "commune": "Finale Ligure (SV)",
     "adresse": "Via Castelli, Finalpia, Finale Ligure",
-    "resume": "Bungalow en basse saison (26/09 – 19/10) à 70,20 € la nuit, chien compris : le moins cher en dur si le camping accepte un chien de 20–25 kg dans le bungalow, ce qu’aucune source ne dit.",
+    "resume": "Bungalow en basse saison (26/09 – 19/10) à 70,20 € la nuit, chien compris : le moins cher en dur si le camping accepte un chien de 12 kg dans le bungalow, ce qu’aucune source ne dit.",
     "prix": {
       "type": "payant",
       "annee_tarif": 2026,
