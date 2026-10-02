@@ -4,7 +4,14 @@
     "nom": "Prince",
     "poids": "12 kg"
   },
-  "wc_a_bord": false,
-  "electricite": "facultative",
-  "note": "Profil utilisé par les messages de contact. La hauteur du véhicule vient de vehicule.json."
+  "wc_a_bord": true,
+  "electricite": "facultative (autonomes en électricité)",
+  "note": "Profil utilisé par les messages de contact. La hauteur du véhicule vient de vehicule.json.",
+  "autonomie": {
+    "toilettes": "toilettes sèches",
+    "douche": "douche avec collecteur d'eau",
+    "cuisine": "oui",
+    "electricite": "autonomes",
+    "besoin": "un terrain où la tente de toit peut être ouverte ; douches et toilettes sur place = un plus, jamais une condition"
+  }
 }
