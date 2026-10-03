@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-02T22:08Z",
+  "genere_le": "2026-10-03T05:10Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-02T20:00"
+      "maj": "2026-10-03T06:38"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-02"
+      "maj": "2026-10-03"
     }
   },
   "messages": [
@@ -414,20 +414,6 @@
     },
     {
       "source": "bz",
-      "id": "3146412",
-      "route": "LS/SP129 — Salorno - Pochi",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Cauria (km 10,000 - km 11,000) senso unico alternato per la ristrutturazione del canale idrico (giorni feriali).",
-      "debut": "2026-09-23",
-      "fin": "2026-10-02",
-      "gps": [
-        46.26151,
-        11.27079
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3112912",
       "route": "LS/SP132 — Prato Isarco - Nova Levante",
       "niveau": "gene",
@@ -484,26 +470,12 @@
     },
     {
       "source": "bz",
-      "id": "2793612",
-      "route": "LS/SP14 — Caldaro - Roverè della Luna",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Caldaro (km 11,000 - km 13,750) senso unico alternato per lavori di posa zoccolo in calcestruzzo (giorni feriali).",
-      "debut": "2026-09-28",
-      "fin": "2026-10-02",
-      "gps": [
-        46.35003,
-        11.26349
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3148701",
       "route": "LS/SP157 — Elle",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Ad Elle (km 3,800 - km 6,250) CHIUSURA al traffico dalle ore 07:00 alle ore 17:00 per lavori di asfaltatura (giorni feriali). Deviazione attraverso la SC Mantana-Elle.",
-      "debut": "2026-09-28",
+      "debut": "2026-10-05",
       "fin": "2026-10-08",
       "gps": [
         46.78076,
@@ -638,6 +610,20 @@
     },
     {
       "source": "bz",
+      "id": "2887701",
+      "route": "LS/SP25 — Alpe di Siusi",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In occasione della transumanza sono CHIUSE al traffico le seguenti strade: La SP 25 Alpe di Siusi in direzione valle tra Compaccio e Telfen dalle ore 11:00 alle ore 14:00. La SP 24 Fié-Castelrotto e la SP 64 Castelrotto-Ortisei tra l’incrocio con la strada Alpe di Siusi e Castelrotto (albergo Toni) dalle ore 13:00 alle ore 15:00. Deviazione attraverso strade comunali.",
+      "debut": "2026-10-03",
+      "fin": "2026-10-03",
+      "gps": [
+        46.53996,
+        11.61564
+      ]
+    },
+    {
+      "source": "bz",
       "id": "573812",
       "route": "LS/SP25 — Alpe di Siusi",
       "niveau": "fermeture",
@@ -722,20 +708,6 @@
     },
     {
       "source": "bz",
-      "id": "3149012",
-      "route": "LS/SP62Racc — Laimburg Racc.",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Ad Ora (km 417,000 - km 418,000) senso unico alternato per lavori di asfaltatura.",
-      "debut": "2026-09-28",
-      "fin": "2026-10-02",
-      "gps": [
-        46.33844,
-        11.28435
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2891201",
       "route": "LS/SP64 — Castelrotto - Ortisei",
       "niveau": "gene",
@@ -782,7 +754,7 @@
       "route": "LS/SP66 — Riscone",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "A Riscone (km 2,710 – km 3,000) CHIUSURA al traffico dalle ore 14:30 alle ore 15:30 per transumanza. Il traffico viene deviato per la via Reinthal.",
+      "texte": "A Riscone (km 2,710 - km 3,000) CHIUSURA al traffico dalle ore 14:30 alle ore 15:30 per transumanza. Il traffico viene deviato per la via Reinthal.",
       "debut": "2026-10-03",
       "fin": "2026-10-03",
       "gps": [
@@ -984,34 +956,6 @@
       "gps": [
         46.46869,
         11.33294
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3146812",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Bronzolo (km 425,500 - km 425,600) senso unico alternato per la posa di infrastrutture.",
-      "debut": "2026-09-29",
-      "fin": "2026-10-02",
-      "gps": [
-        46.3966,
-        11.31703
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3149112",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Chiusa (km 468,250 - km 468,350) senso unico alternato dalle ore 08:00 alle ore 17:00 per l'installazione Impianto di rilevamento del traffico.",
-      "debut": "2026-09-30",
-      "fin": "2026-10-02",
-      "gps": [
-        46.64633,
-        11.57815
       ]
     },
     {
