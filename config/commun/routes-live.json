@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-03T11:34Z",
+  "genere_le": "2026-10-03T16:11Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-03T12:28"
+      "maj": "2026-10-03T17:56"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -610,20 +610,6 @@
     },
     {
       "source": "bz",
-      "id": "2887701",
-      "route": "LS/SP25 — Alpe di Siusi",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In occasione della transumanza sono CHIUSE al traffico le seguenti strade: La SP 25 Alpe di Siusi in direzione valle tra Compaccio e Telfen dalle ore 11:00 alle ore 14:00. La SP 24 Fié-Castelrotto e la SP 64 Castelrotto-Ortisei tra l’incrocio con la strada Alpe di Siusi e Castelrotto (albergo Toni) dalle ore 13:00 alle ore 15:00. Deviazione attraverso strade comunali.",
-      "debut": "2026-10-03",
-      "fin": "2026-10-03",
-      "gps": [
-        46.53996,
-        11.61564
-      ]
-    },
-    {
-      "source": "bz",
       "id": "573812",
       "route": "LS/SP25 — Alpe di Siusi",
       "niveau": "fermeture",
@@ -662,6 +648,20 @@
       "gps": [
         46.75367,
         11.67768
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3015001",
+      "route": "LS/SP40 — Strada del Sole della Pusteria",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Terento (km 5,610 - km 7,000) senso unico alternato dalle ore 14:00 alle ore 16:00 per transumanza.",
+      "debut": "2026-10-10",
+      "fin": "2026-10-10",
+      "gps": [
+        46.8298,
+        11.77627
       ]
     },
     {
@@ -746,20 +746,6 @@
       "gps": [
         46.77638,
         11.94531
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2928601",
-      "route": "LS/SP66 — Riscone",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Riscone (km 2,710 - km 3,000) CHIUSURA al traffico dalle ore 14:30 alle ore 15:30 per transumanza. Il traffico viene deviato per la via Reinthal.",
-      "debut": "2026-10-03",
-      "fin": "2026-10-03",
-      "gps": [
-        46.77673,
-        11.95111
       ]
     },
     {
@@ -946,6 +932,20 @@
     },
     {
       "source": "bz",
+      "id": "3076401",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Cardano rallentamenti e code dopo un incidente.",
+      "debut": "2026-10-03",
+      "fin": "",
+      "gps": [
+        46.49362,
+        11.39221
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1119,7 +1119,7 @@
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Sulla circonvallazione di Rio di Pusteria (km 7,300 - km 9,300) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori in galleria. Deviazione attraverso la SP 182 Rio di Pusteria (giorni feriali).",
-      "debut": "2026-09-28",
+      "debut": "2026-10-05",
       "fin": "2026-10-09",
       "gps": [
         46.79759,
