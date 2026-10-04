@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-03T21:09Z",
+  "genere_le": "2026-10-04T05:43Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-03"
+      "maj": "2026-10-04"
     }
   },
   "messages": [
@@ -774,20 +774,6 @@
       "gps": [
         46.36874,
         11.35312
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3139912",
-      "route": "LS/SP72 — Aldino - Nova Ponente",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Nova Ponente (km 18,500 - km 19,600) senso unico alternato per la posa di cavi in fibra ottica (giorni feriali).",
-      "debut": "2026-09-15",
-      "fin": "2026-10-03",
-      "gps": [
-        46.40381,
-        11.45083
       ]
     },
     {
