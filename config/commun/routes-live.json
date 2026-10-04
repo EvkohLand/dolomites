@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-04T13:29Z",
+  "genere_le": "2026-10-04T18:37Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-04T15:28"
+      "maj": "2026-10-04T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -274,20 +274,6 @@
     },
     {
       "source": "bz",
-      "id": "3007001",
-      "route": "Comune di Laives",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Laives via Noldin tra la via Kennedy e la via Goethe come anche via Pietralba tra la via Kennedy ed il Municipio sono CHIUSE al traffico dalle ore 05:00 alle ore 20:00 per il mercato annuale.",
-      "debut": "2026-10-04",
-      "fin": "2026-10-04",
-      "gps": [
-        46.42708,
-        11.3374
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3112712",
       "route": "Comune di Laives",
       "niveau": "fermeture",
@@ -428,20 +414,6 @@
     },
     {
       "source": "bz",
-      "id": "3008401",
-      "route": "LS/SP139 — Laion - S. Pietro",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Laion (km 2,450 - 2,600) CHIUSURA dalle ore 15:00 alle ore 15:55 per transumanza. La deviazione avviene attraverso la SS 242dir Chiusa - Pontives. La Piazza del Paese (km 2,350 - km 2,450) resterá chiusa dalle ore 06:00 alle ore 20:00.",
-      "debut": "2026-10-04",
-      "fin": "2026-10-04",
-      "gps": [
-        46.60924,
-        11.56587
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3074212",
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "gene",
@@ -452,20 +424,6 @@
       "gps": [
         46.60924,
         11.56587
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "687301",
-      "route": "LS/SP139 — Laion - S. Pietro",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Laion (km 2,350 - 2,450) CHIUSURA dalle ore 06:00 alle ore 20:00 per transumanza. Vi é una deviazione locale dalle ore 15:00 alle ore 15:55.",
-      "debut": "2026-10-04",
-      "fin": "2026-10-04",
-      "gps": [
-        46.60609,
-        11.56291
       ]
     },
     {
@@ -928,6 +886,20 @@
       "gps": [
         46.57898,
         11.52248
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3140301",
+      "route": "SS241 — di Val d'Ega e Passo Costalunga",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "All’entrata valle nelle gallerie di Cornedo, Campegno e Contrada (km 0,000 - km 4,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 05:30 per lavori di manutenzione. La deviazione per veicoli fino a 12 m di lunghezza avviene attraverso Collepietra - San Valentino in Campo, per veicoli oltre 12 m di lunghezza attraverso Ora - Aldino.",
+      "debut": "2026-10-19",
+      "fin": "2026-10-21",
+      "gps": [
+        46.48931,
+        11.40347
       ]
     },
     {
