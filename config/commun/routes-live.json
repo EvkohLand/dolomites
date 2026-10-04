@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-04T12:15Z",
+  "genere_le": "2026-10-04T13:29Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-04T13:25"
+      "maj": "2026-10-04T15:28"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,20 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3130501",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Egna e Chiusa rallentamenti per traffico intenso.",
-      "debut": "2026-10-04",
-      "fin": "",
-      "gps": [
-        45.54687,
-        10.7868
       ]
     },
     {
@@ -732,20 +718,6 @@
       "gps": [
         46.57261,
         11.57835
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3012501",
-      "route": "LS/SP65 — Tires",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A San Cipriano (km 14,700 - km 15,500) CHIUSURA al traffico dalle ore 13:00 alle ore 14:00 per transumanza.",
-      "debut": "2026-10-04",
-      "fin": "2026-10-04",
-      "gps": [
-        46.4716,
-        11.5568
       ]
     },
     {
