@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-05T05:28Z",
+  "genere_le": "2026-10-05T14:27Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-05T07:07"
+      "maj": "2026-10-05T15:16"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,6 +218,20 @@
     },
     {
       "source": "bz",
+      "id": "2715801",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Vipiteno e il Brennero rallentamenti per traffico intenso e lavori al ponte Lueg.",
+      "debut": "2026-10-05",
+      "fin": "",
+      "gps": [
+        46.64701,
+        11.58646
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -400,6 +414,20 @@
     },
     {
       "source": "bz",
+      "id": "3152512",
+      "route": "LS/SP131 — S. Valentino in Campo",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A S. Valentino in Campo (km 3,000 - km 3,200) senso unico alternato dalle ore 07:00",
+      "debut": "2026-10-06",
+      "fin": "2026-10-16",
+      "gps": [
+        46.43783,
+        11.47605
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3112912",
       "route": "LS/SP132 — Prato Isarco - Nova Levante",
       "niveau": "gene",
@@ -480,6 +508,20 @@
       "gps": [
         46.50688,
         11.28817
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3152612",
+      "route": "LS/SP173 — Bronzolo – Ponte di Vadena",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Bronzolo (km 0,000 - km 0,060) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori alla circonvallazione.",
+      "debut": "2026-10-06",
+      "fin": "2026-10-08",
+      "gps": [
+        46.40795,
+        11.32646
       ]
     },
     {
