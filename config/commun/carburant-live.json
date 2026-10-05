@@ -1,33 +1,33 @@
 {
-  "genere_le": "2026-10-04T13:29Z",
+  "genere_le": "2026-10-05T16:22Z",
   "rayon_km": 5,
   "note": "Stations à moins de 5 km du tracé du jour ou de la nuit, triées par prix du gazole. Italie : prix « self » (libre-service) quand il existe. Un prix de plus de 8 jours est écarté.",
   "sources": {
     "FR": {
       "libelle": "Flux instantané prix-carburants (data.economie.gouv.fr)",
       "url": "https://www.prix-carburants.gouv.fr/",
-      "releve": "2026-10-04T14:00:21+00:00"
+      "releve": "2026-10-05T17:59:34+00:00"
     },
     "IT": {
       "libelle": "Osservaprezzi carburanti (MIMIT), prix communiqués",
       "url": "https://carburanti.mise.gov.it/",
-      "extraction": "2026-10-03"
+      "extraction": "2026-10-04"
     }
   },
   "moyennes": {
     "FR": {
-      "gazole": 2.372,
-      "e10": 2.167,
-      "sp95": 2.224,
-      "n": 7117,
-      "date": "2026-10-04",
+      "gazole": 2.369,
+      "e10": 2.166,
+      "sp95": 2.222,
+      "n": 7361,
+      "date": "2026-10-05",
       "perimetre": "toutes stations"
     },
     "IT": {
-      "gazole": 2.246,
-      "sp95": 2.051,
-      "n": 19470,
-      "date": "2026-10-03",
+      "gazole": 2.244,
+      "sp95": 2.049,
+      "n": 19518,
+      "date": "2026-10-04",
       "perimetre": "libre-service hors autoroute"
     }
   },
@@ -144,7 +144,7 @@
       "gazole_mode": "self",
       "sp95": 1.987,
       "sp95_mode": "self",
-      "releve": "2026-10-02T12:12"
+      "releve": "2026-10-03T12:12"
     },
     "IT-11843": {
       "pays": "IT",
@@ -226,7 +226,7 @@
       "gazole_servito": 2.38,
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-10-03T07:04"
+      "releve": "2026-10-04T07:13"
     },
     "IT-6506": {
       "pays": "IT",
@@ -259,7 +259,7 @@
       "gazole_servito": 2.059,
       "sp95": 1.889,
       "sp95_mode": "self",
-      "releve": "2026-09-28T21:31"
+      "releve": "2026-10-03T21:31"
     },
     "IT-54873": {
       "pays": "IT",
@@ -308,7 +308,7 @@
       "gazole_mode": "self",
       "sp95": 1.979,
       "sp95_mode": "self",
-      "releve": "2026-10-02T20:17"
+      "releve": "2026-10-03T20:17"
     },
     "IT-50871": {
       "pays": "IT",
@@ -324,7 +324,7 @@
       "gazole_mode": "self",
       "sp95": 1.979,
       "sp95_mode": "self",
-      "releve": "2026-10-02T20:16"
+      "releve": "2026-10-03T20:17"
     },
     "IT-50291": {
       "pays": "IT",
@@ -340,43 +340,24 @@
       "gazole_mode": "self",
       "sp95": 1.979,
       "sp95_mode": "self",
-      "releve": "2026-10-02T20:16"
+      "releve": "2026-10-03T20:16"
     },
-    "IT-40585": {
+    "IT-10883": {
       "pays": "IT",
-      "id": "40585",
-      "nom": "Nogaredo Est",
-      "marque": "Q8",
-      "autoroute": true,
-      "adresse": "Autostrada A22 Brennero-Modena, Km. 159,71, Dir. Nord - 38060, Nogaredo (TN)",
+      "id": "10883",
+      "nom": "Terzoni Alessandro-Scrocchi & C. S.n.c.",
+      "marque": "Esso",
+      "adresse": "Via F.lli Bandiera 45/A 29015, Castel San Giovanni (PC)",
       "gps": [
-        45.90255,
-        11.02764
+        45.06056,
+        9.434
       ],
-      "gazole": 2.184,
+      "gazole": 2.18,
       "gazole_mode": "self",
-      "gazole_servito": 2.404,
-      "sp95": 1.984,
+      "gazole_servito": 2.39,
+      "sp95": 1.98,
       "sp95_mode": "self",
-      "releve": "2026-10-01T14:10"
-    },
-    "IT-3568": {
-      "pays": "IT",
-      "id": "3568",
-      "nom": "Nogaredo Ovest",
-      "marque": "Q8",
-      "autoroute": true,
-      "adresse": "A22 Brennero-Modena, Km. 159.93, Sud - 38060, Nogaredo (TN)",
-      "gps": [
-        45.90233,
-        11.02632
-      ],
-      "gazole": 2.184,
-      "gazole_mode": "self",
-      "gazole_servito": 2.404,
-      "sp95": 1.984,
-      "sp95_mode": "self",
-      "releve": "2026-10-01T14:16"
+      "releve": "2026-10-03T09:18"
     },
     "IT-13892": {
       "pays": "IT",
@@ -426,6 +407,22 @@
       "sp95": 1.987,
       "sp95_mode": "self",
       "releve": "2026-10-01T16:04"
+    },
+    "IT-55693": {
+      "pays": "IT",
+      "id": "55693",
+      "nom": "Europam - Savova Rio Termine",
+      "marque": "Europam",
+      "adresse": "Ss 1 Km 570 Rio Termine Snc 17100, Savona (SV)",
+      "gps": [
+        44.32084,
+        8.49517
+      ],
+      "gazole": 2.187,
+      "gazole_mode": "self",
+      "sp95": 1.987,
+      "sp95_mode": "self",
+      "releve": "2026-10-01T16:17"
     },
     "IT-13692": {
       "pays": "IT",
@@ -609,7 +606,7 @@
       "gazole_servito": 2.289,
       "sp95": 2.097,
       "sp95_mode": "self",
-      "releve": "2026-10-02T15:05"
+      "releve": "2026-10-03T16:06"
     },
     "IT-35013": {
       "pays": "IT",
@@ -642,7 +639,7 @@
       "gazole_mode": "self",
       "sp95": 2.177,
       "sp95_mode": "self",
-      "releve": "2026-10-01T11:01"
+      "releve": "2026-10-03T11:03"
     },
     "IT-52234": {
       "pays": "IT",
@@ -676,7 +673,7 @@
       "gazole_servito": 2.19,
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-09-30T19:40"
+      "releve": "2026-10-03T11:49"
     },
     "IT-61929": {
       "pays": "IT",
@@ -795,7 +792,7 @@
       "gazole_servito": 2.19,
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-10-01T19:19"
+      "releve": "2026-10-03T19:25"
     },
     "IT-35533": {
       "pays": "IT",
@@ -877,23 +874,7 @@
       "gazole_servito": 2.399,
       "sp95": 2.219,
       "sp95_mode": "self",
-      "releve": "2026-10-01T11:45"
-    },
-    "IT-55693": {
-      "pays": "IT",
-      "id": "55693",
-      "nom": "Europam - Savova Rio Termine",
-      "marque": "Europam",
-      "adresse": "Ss 1 Km 570 Rio Termine Snc 17100, Savona (SV)",
-      "gps": [
-        44.32084,
-        8.49517
-      ],
-      "gazole": 2.187,
-      "gazole_mode": "self",
-      "sp95": 1.987,
-      "sp95_mode": "self",
-      "releve": "2026-10-01T16:17"
+      "releve": "2026-10-03T08:01"
     },
     "IT-45061": {
       "pays": "IT",
@@ -943,6 +924,22 @@
       "sp95": 1.987,
       "sp95_mode": "self",
       "releve": "2026-10-01T15:19"
+    },
+    "IT-44118": {
+      "pays": "IT",
+      "id": "44118",
+      "nom": "Europam - Basaluzzo",
+      "marque": "Europam",
+      "adresse": "Via Ovada 15060, Basaluzzo (AL)",
+      "gps": [
+        44.76953,
+        8.70392
+      ],
+      "gazole": 2.187,
+      "gazole_mode": "self",
+      "sp95": 1.987,
+      "sp95_mode": "self",
+      "releve": "2026-10-01T16:30"
     },
     "IT-46531": {
       "pays": "IT",
@@ -1131,12 +1128,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-40585",
-          "km": 0
-        },
-        {
-          "id": "IT-3568",
-          "km": 0
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -1149,6 +1142,10 @@
         {
           "id": "IT-43304",
           "km": 0.1
+        },
+        {
+          "id": "IT-55693",
+          "km": 0.5
         }
       ],
       "3": [
@@ -1241,12 +1238,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-3568",
-          "km": 0
-        },
-        {
-          "id": "IT-40585",
-          "km": 0.1
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -1255,6 +1248,10 @@
         {
           "id": "IT-52811",
           "km": 2.1
+        },
+        {
+          "id": "IT-42717",
+          "km": 0.1
         }
       ]
     },
@@ -1339,12 +1336,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-40585",
-          "km": 0
-        },
-        {
-          "id": "IT-3568",
-          "km": 0
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -1357,6 +1350,10 @@
         {
           "id": "IT-43304",
           "km": 0.1
+        },
+        {
+          "id": "IT-55693",
+          "km": 0.5
         }
       ],
       "3": [
@@ -1513,12 +1510,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-3568",
-          "km": 0
-        },
-        {
-          "id": "IT-40585",
-          "km": 0.1
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -1527,6 +1520,10 @@
         {
           "id": "IT-52811",
           "km": 2.1
+        },
+        {
+          "id": "IT-42717",
+          "km": 0
         }
       ]
     },
@@ -1611,12 +1608,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-40585",
-          "km": 0
-        },
-        {
-          "id": "IT-3568",
-          "km": 0
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -1629,6 +1622,10 @@
         {
           "id": "IT-43304",
           "km": 0.2
+        },
+        {
+          "id": "IT-44118",
+          "km": 1.1
         }
       ],
       "3": [
@@ -1835,12 +1832,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-40585",
-          "km": 0
-        },
-        {
-          "id": "IT-3568",
-          "km": 0
+          "id": "IT-10883",
+          "km": 2
         },
         {
           "id": "IT-13892",
@@ -1849,6 +1842,10 @@
         {
           "id": "IT-52811",
           "km": 2.1
+        },
+        {
+          "id": "IT-43304",
+          "km": 0.1
         }
       ]
     },
@@ -1933,12 +1930,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-40585",
-          "km": 0
-        },
-        {
-          "id": "IT-3568",
-          "km": 0
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -1951,6 +1944,10 @@
         {
           "id": "IT-43304",
           "km": 0.1
+        },
+        {
+          "id": "IT-55693",
+          "km": 0.5
         }
       ],
       "3": [
@@ -2173,12 +2170,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-3568",
-          "km": 0
-        },
-        {
-          "id": "IT-40585",
-          "km": 0.1
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -2187,6 +2180,10 @@
         {
           "id": "IT-52811",
           "km": 2.1
+        },
+        {
+          "id": "IT-42717",
+          "km": 0
         }
       ]
     },
@@ -2271,12 +2268,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-40585",
-          "km": 0
-        },
-        {
-          "id": "IT-3568",
-          "km": 0
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -2289,6 +2282,10 @@
         {
           "id": "IT-43304",
           "km": 0.1
+        },
+        {
+          "id": "IT-55693",
+          "km": 0.5
         }
       ],
       "3": [
@@ -2631,12 +2628,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-3568",
-          "km": 0
-        },
-        {
-          "id": "IT-40585",
-          "km": 0.1
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -2645,6 +2638,10 @@
         {
           "id": "IT-52811",
           "km": 2.1
+        },
+        {
+          "id": "IT-42717",
+          "km": 0
         }
       ]
     },
@@ -2729,12 +2726,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-40585",
-          "km": 0
-        },
-        {
-          "id": "IT-3568",
-          "km": 0
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -2747,6 +2740,10 @@
         {
           "id": "IT-43304",
           "km": 0.1
+        },
+        {
+          "id": "IT-55693",
+          "km": 0.5
         }
       ],
       "3": [
@@ -3149,12 +3146,8 @@
           "km": 2.7
         },
         {
-          "id": "IT-3568",
-          "km": 0
-        },
-        {
-          "id": "IT-40585",
-          "km": 0.1
+          "id": "IT-10883",
+          "km": 1.9
         },
         {
           "id": "IT-13892",
@@ -3163,6 +3156,10 @@
         {
           "id": "IT-52811",
           "km": 2.1
+        },
+        {
+          "id": "IT-42717",
+          "km": 0
         }
       ]
     }
