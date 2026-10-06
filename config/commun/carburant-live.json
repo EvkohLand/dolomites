@@ -1,33 +1,33 @@
 {
-  "genere_le": "2026-10-05T16:22Z",
+  "genere_le": "2026-10-06T14:27Z",
   "rayon_km": 5,
   "note": "Stations à moins de 5 km du tracé du jour ou de la nuit, triées par prix du gazole. Italie : prix « self » (libre-service) quand il existe. Un prix de plus de 8 jours est écarté.",
   "sources": {
     "FR": {
       "libelle": "Flux instantané prix-carburants (data.economie.gouv.fr)",
       "url": "https://www.prix-carburants.gouv.fr/",
-      "releve": "2026-10-05T17:59:34+00:00"
+      "releve": "2026-10-06T16:08:20+00:00"
     },
     "IT": {
       "libelle": "Osservaprezzi carburanti (MIMIT), prix communiqués",
       "url": "https://carburanti.mise.gov.it/",
-      "extraction": "2026-10-04"
+      "extraction": "2026-10-05"
     }
   },
   "moyennes": {
     "FR": {
-      "gazole": 2.369,
-      "e10": 2.166,
-      "sp95": 2.222,
-      "n": 7361,
-      "date": "2026-10-05",
+      "gazole": 2.36,
+      "e10": 2.159,
+      "sp95": 2.219,
+      "n": 7597,
+      "date": "2026-10-06",
       "perimetre": "toutes stations"
     },
     "IT": {
-      "gazole": 2.244,
-      "sp95": 2.049,
-      "n": 19518,
-      "date": "2026-10-04",
+      "gazole": 2.241,
+      "sp95": 2.047,
+      "n": 19359,
+      "date": "2026-10-05",
       "perimetre": "libre-service hors autoroute"
     }
   },
@@ -308,7 +308,7 @@
       "gazole_mode": "self",
       "sp95": 1.979,
       "sp95_mode": "self",
-      "releve": "2026-10-03T20:17"
+      "releve": "2026-10-04T20:17"
     },
     "IT-50871": {
       "pays": "IT",
@@ -324,7 +324,7 @@
       "gazole_mode": "self",
       "sp95": 1.979,
       "sp95_mode": "self",
-      "releve": "2026-10-03T20:17"
+      "releve": "2026-10-04T20:17"
     },
     "IT-50291": {
       "pays": "IT",
@@ -340,7 +340,7 @@
       "gazole_mode": "self",
       "sp95": 1.979,
       "sp95_mode": "self",
-      "releve": "2026-10-03T20:16"
+      "releve": "2026-10-04T20:16"
     },
     "IT-10883": {
       "pays": "IT",
@@ -434,11 +434,11 @@
         46.64036,
         11.67504
       ],
-      "gazole": 2.399,
+      "gazole": 2.249,
       "gazole_mode": "self",
-      "sp95": 2.199,
+      "sp95": 2.049,
       "sp95_mode": "self",
-      "releve": "2026-10-01T09:04"
+      "releve": "2026-10-05T01:31"
     },
     "IT-38788": {
       "pays": "IT",
@@ -539,7 +539,7 @@
       "gazole_servito": 2.19,
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-10-01T12:38"
+      "releve": "2026-10-04T21:53"
     },
     "IT-11543": {
       "pays": "IT",
@@ -606,7 +606,7 @@
       "gazole_servito": 2.289,
       "sp95": 2.097,
       "sp95_mode": "self",
-      "releve": "2026-10-03T16:06"
+      "releve": "2026-10-04T16:06"
     },
     "IT-35013": {
       "pays": "IT",
@@ -625,22 +625,6 @@
       "sp95_mode": "self",
       "releve": "2026-10-03T07:11"
     },
-    "IT-4401": {
-      "pays": "IT",
-      "id": "4401",
-      "nom": "Gnp Velturno",
-      "marque": "GNP",
-      "adresse": "Via Paese 2 39040, Velturno (Bz) 2 39040",
-      "gps": [
-        46.67091,
-        11.6012
-      ],
-      "gazole": 2.377,
-      "gazole_mode": "self",
-      "sp95": 2.177,
-      "sp95_mode": "self",
-      "releve": "2026-10-03T11:03"
-    },
     "IT-52234": {
       "pays": "IT",
       "id": "52234",
@@ -656,7 +640,7 @@
       "gazole_servito": 2.19,
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-10-01T19:37"
+      "releve": "2026-10-04T21:52"
     },
     "IT-16252": {
       "pays": "IT",
@@ -707,7 +691,7 @@
       "gazole_servito": 2.19,
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-10-01T12:19"
+      "releve": "2026-10-04T21:39"
     },
     "IT-41821": {
       "pays": "IT",
@@ -825,7 +809,7 @@
       "gazole_mode": "self",
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-10-02T14:04"
+      "releve": "2026-10-05T07:18"
     },
     "IT-50885": {
       "pays": "IT",
@@ -973,7 +957,7 @@
       "gazole_servito": 2.19,
       "sp95": 1.99,
       "sp95_mode": "self",
-      "releve": "2026-10-02T18:28"
+      "releve": "2026-10-05T07:35"
     },
     "IT-57857": {
       "pays": "IT",
@@ -1008,7 +992,7 @@
       "gazole_servito": 2.739,
       "sp95": 2.099,
       "sp95_mode": "self",
-      "releve": "2026-10-02T11:09"
+      "releve": "2026-10-04T11:13"
     },
     "IT-46791": {
       "pays": "IT",
@@ -1192,15 +1176,15 @@
           "km": 0.2
         },
         {
+          "id": "IT-13692",
+          "km": 0
+        },
+        {
           "id": "IT-57472",
           "km": 0
         },
         {
           "id": "IT-35013",
-          "km": 1.4
-        },
-        {
-          "id": "IT-4401",
           "km": 1.4
         }
       ],

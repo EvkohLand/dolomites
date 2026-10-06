@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-06T06:12Z",
+  "genere_le": "2026-10-06T14:27Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-06T08:01"
+      "maj": "2026-10-06T15:56"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,11 +218,25 @@
     },
     {
       "source": "bz",
+      "id": "2715801",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bolzano Nord e Bressanone coda di mezzi pesanti a causa di lavori in corso.",
+      "debut": "2026-10-06",
+      "fin": "",
+      "gps": [
+        46.64701,
+        11.58646
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3027001",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone coda di mezzi pesanti per lavori.",
+      "texte": "In direzione nord tra Chiusa e Bressanone 2 Km di coda per lavori.",
       "debut": "2026-10-06",
       "fin": "",
       "gps": [
@@ -582,6 +596,20 @@
     },
     {
       "source": "bz",
+      "id": "2831401",
+      "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Siusi (km 13,000 - km 13,500) senso unico alternato dalle ore 07:00 alle ore 17:00 per lavori (giorni feriali).",
+      "debut": "2026-10-06",
+      "fin": "2026-10-29",
+      "gps": [
+        46.53809,
+        11.55018
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3124912",
       "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
       "niveau": "gene",
@@ -648,6 +676,20 @@
       "gps": [
         46.75367,
         11.67768
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2857908",
+      "route": "LS/SP37 — S. Cassiano",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Sciaré e il confine provinciale (km 8,500 - km 10,200) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori conclusivi. Non c’è una deviazione.",
+      "debut": "2026-10-07",
+      "fin": "2026-10-24",
+      "gps": [
+        46.5534,
+        11.97704
       ]
     },
     {
@@ -834,20 +876,6 @@
     },
     {
       "source": "bz",
-      "id": "3150013",
-      "route": "Route / Percorso 3 — Percorso ciclabile Val Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Il percorso ciclabile 3 Val Pusteria a Villabassa (km 59,475 - km 59,675) é CHIUSO per lavori di asfaltatura.",
-      "debut": "2026-10-05",
-      "fin": "2026-10-09",
-      "gps": [
-        46.7358,
-        12.18619
-      ]
-    },
-    {
-      "source": "bz",
       "id": "572708",
       "route": "SS 48 — Passo Falzarego",
       "niveau": "gene",
@@ -872,20 +900,6 @@
       "gps": [
         46.46046,
         11.34001
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2881701",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Sulla circonvallazione ovest di Bressanone (km 477,300 - km 482,200) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:30 per lavori di manutenzione nella galleria. Deviazione attraverso Bressanone.",
-      "debut": "2026-10-21",
-      "fin": "2026-10-23",
-      "gps": [
-        46.70699,
-        11.6489
       ]
     },
     {
@@ -928,6 +942,34 @@
       "gps": [
         46.46869,
         11.33294
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3153001",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Tra Bolzano Sud e San Giacomo (km 432,000 - km 435,500) CHIUSURA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
+      "debut": "2026-10-13",
+      "fin": "2026-10-15",
+      "gps": [
+        46.44363,
+        11.34325
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3153101",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Tra Bolzano Sud e San Giacomo (km 432,000 - km 435,500) CHIUSURA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile.La deviazione avviene attraverso San Giacomo.",
+      "debut": "2026-10-20",
+      "fin": "2026-10-22",
+      "gps": [
+        46.44363,
+        11.34325
       ]
     },
     {
@@ -1124,6 +1166,34 @@
       "gps": [
         46.79051,
         11.95922
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3153301",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Villabassa (km 53,650 - km 57,100) il traffico in direzione Bressanone dalle ore 07:00 alle ore 17:00 viene deviato localmente per Villabassa attraverso la SC 28.38 e la SC 113.23 per lavori di manutenzione straordinari dei percorsi di servizio della circonvallazione (giorni feriali).",
+      "debut": "2026-10-12",
+      "fin": "2026-10-20",
+      "gps": [
+        46.73829,
+        12.15609
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3115301",
+      "route": "SS508 — di Val Sarentino e del Passo di Vizze",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Tra Bolzano e Mezzavia nelle gallerie (km 3,000 - km 13,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 04:30 per lavori di manutenzione. Possibile passaggio alle ore 01:00 in direzione Sarentino, possibile passaggio alle ore 01:15 in direzione Bolzano. La deviazione avviene per la SP 73 Renon e SP 135 Collalbo - Vanga di Sotto.",
+      "debut": "2026-10-12",
+      "fin": "2026-10-15",
+      "gps": [
+        46.51791,
+        11.35696
       ]
     },
     {
