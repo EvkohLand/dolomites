@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-06T14:27Z",
+  "genere_le": "2026-10-06T15:53Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-06T15:56"
+      "maj": "2026-10-06T17:15"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -246,6 +246,20 @@
     },
     {
       "source": "bz",
+      "id": "3123801",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l’entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 22:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-10-06",
+      "fin": "2026-10-07",
+      "gps": [
+        46.76489,
+        11.63791
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -452,6 +466,20 @@
       "gps": [
         46.42919,
         11.49347
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "619512",
+      "route": "LS/SP133 — Cornedo all'Isarco",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A S. Vito (km 3,500 - km 3,510) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori posa tubazioni (giorni feriali).",
+      "debut": "2026-10-12",
+      "fin": "2026-10-23",
+      "gps": [
+        46.48536,
+        11.40233
       ]
     },
     {
@@ -694,6 +722,20 @@
     },
     {
       "source": "bz",
+      "id": "2854301",
+      "route": "LS/SP40 — Strada del Sole della Pusteria",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Falzes presso la rotatoria CHIUSURA al traffico dalle ore 15:00 alle ore 16:00 circa per una sfilata. Il traffico può essere deviato localmente.",
+      "debut": "2026-10-17",
+      "fin": "2026-10-17",
+      "gps": [
+        46.80769,
+        11.88798
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3015001",
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "fermeture",
@@ -806,6 +848,20 @@
     },
     {
       "source": "bz",
+      "id": "3153612",
+      "route": "LS/SP72 — Aldino - Nova Ponente",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Rio Nero (km 20,550 - km 20,850) chiusure temporanee fino a 10 minuti dalle ore 07:30 alle ore 17:00 per lavori forestali (giorni feriali).",
+      "debut": "2026-10-20",
+      "fin": "2026-10-30",
+      "gps": [
+        46.39189,
+        11.4649
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2744412",
       "route": "LS/SP73 — Renon",
       "niveau": "gene",
@@ -900,6 +956,20 @@
       "gps": [
         46.46046,
         11.34001
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2881701",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Sulla circonvallazione ovest di Bressanone (km 477,300 - km 482,200) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:30 per lavori di manutenzione nella galleria. Deviazione attraverso Bressanone.",
+      "debut": "2026-10-21",
+      "fin": "2026-10-23",
+      "gps": [
+        46.70699,
+        11.6489
       ]
     },
     {
