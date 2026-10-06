@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-05T21:58Z",
+  "genere_le": "2026-10-06T06:12Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-05T20:00"
+      "maj": "2026-10-06T08:01"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-05"
+      "maj": "2026-10-06"
     }
   },
   "messages": [
@@ -214,6 +214,20 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3027001",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone coda di mezzi pesanti per lavori.",
+      "debut": "2026-10-06",
+      "fin": "",
+      "gps": [
+        46.64679,
+        11.58679
       ]
     },
     {
@@ -862,6 +876,20 @@
     },
     {
       "source": "bz",
+      "id": "2881701",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Sulla circonvallazione ovest di Bressanone (km 477,300 - km 482,200) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:30 per lavori di manutenzione nella galleria. Deviazione attraverso Bressanone.",
+      "debut": "2026-10-21",
+      "fin": "2026-10-23",
+      "gps": [
+        46.70699,
+        11.6489
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2916201",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
@@ -998,20 +1026,6 @@
       "gps": [
         46.71955,
         11.88821
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3134101",
-      "route": "SS244 — di Val Badia",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nella galleria di Floronzo (km 0,000 - km 1,300) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:00 per lavori di manutenzione. La deviazione avviene attraverso la SS 49 Statale Val Pusteria e la SC 22 Floronzo.",
-      "debut": "2026-10-05",
-      "fin": "2026-10-06",
-      "gps": [
-        46.78198,
-        11.89122
       ]
     },
     {
