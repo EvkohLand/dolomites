@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-07T14:44Z",
+  "genere_le": "2026-10-07T20:34Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-07T16:43"
+      "maj": "2026-10-07T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -470,6 +470,20 @@
     },
     {
       "source": "bz",
+      "id": "3060212",
+      "route": "LS/SP162 — Campi al Lago",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Caldaro e Vadena (km 0,000 - km 6,000) a tratti senso unico alternato per lavori.",
+      "debut": "2026-10-07",
+      "fin": "2026-10-09",
+      "gps": [
+        46.40133,
+        11.25265
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3142012",
       "route": "LS/SP163 — S. Pietro - Passo Erbe",
       "niveau": "gene",
@@ -508,6 +522,20 @@
       "gps": [
         46.50688,
         11.28817
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2991812",
+      "route": "LS/SP169 — Castelvecchio",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Caldaro (km 0,000 - km 5,000) a tratti senso unico alternato per lavori.",
+      "debut": "2026-10-07",
+      "fin": "2026-10-09",
+      "gps": [
+        46.40206,
+        11.23513
       ]
     },
     {
@@ -960,20 +988,6 @@
     },
     {
       "source": "bz",
-      "id": "2721401",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione Nord tra Prato Isarco e Bressanone a tratti code per traffico intenso.",
-      "debut": "2026-10-07",
-      "fin": "",
-      "gps": [
-        46.4951,
-        11.44627
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2764501",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
@@ -1026,20 +1040,6 @@
       "gps": [
         46.51152,
         11.46967
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2975001",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Cardano e Bolzano Sud rallentamenti e code per traffico intenso.",
-      "debut": "2026-10-07",
-      "fin": "",
-      "gps": [
-        46.49344,
-        11.40852
       ]
     },
     {
@@ -1357,12 +1357,6 @@
       "texte": "Si comunica la riapertura al transito dalle ore 18.00 del seguente tratto stradale: SR. 203 “Agordina” dalla progressiva km 56+100 (incrocio con S.P. 251) alla progressiva km 57+800 (loc. Collaz).",
       "date": "2026-09-24T06:30",
       "url": "https://www.venetostrade.it/myportal/VSSPA/avvisi/situazione-strade-provinciali-e-regionali-in-provincia-di-belluno-in-gestione-a-veneto-strade-spa-aggiornamento-al-24092026-ore-1700"
-    },
-    {
-      "titre": "Situazione strade provinciali e regionali in Provincia di Belluno in gestione a Veneto Strade S.p.A. Aggiornamento al 23/09/2026 ore 16:00. Comunicato Viabilità - Chiusura.",
-      "texte": "Comunicato della sede di Sedico (BL), delle ore 16,00 che su SR. 203 \"Agordina\" dal Km. 56+100 (incrocio con SP. 251) fino al Km. 57+800 (loc. Collaz) in Comune di Colle Santa Lucia (BL), a causa di incendio a monte della strada) Chiusura strada con deviazioni in loco.",
-      "date": "2026-09-23T15:24",
-      "url": "https://www.venetostrade.it/myportal/VSSPA/avvisi/situazione-strade-provinciali-e-regionali-in-provincia-di-belluno-in-gestione-a-veneto-strade-spa-aggiornamento-al-23092026-ore-1600"
     }
   ]
 }
