@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-07T13:13Z",
+  "genere_le": "2026-10-07T14:44Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-07T15:05"
+      "maj": "2026-10-07T16:43"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,20 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2714701",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 6 km di coda a causa di lavori.",
-      "debut": "2026-10-07",
-      "fin": "",
-      "gps": [
-        46.64679,
-        11.58679
       ]
     },
     {
@@ -978,7 +964,7 @@
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione Nord tra Chiusa e Bressanone code per traffico intenso.",
+      "texte": "In direzione Nord tra Prato Isarco e Bressanone a tratti code per traffico intenso.",
       "debut": "2026-10-07",
       "fin": "",
       "gps": [
@@ -1040,6 +1026,20 @@
       "gps": [
         46.51152,
         11.46967
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2975001",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Cardano e Bolzano Sud rallentamenti e code per traffico intenso.",
+      "debut": "2026-10-07",
+      "fin": "",
+      "gps": [
+        46.49344,
+        11.40852
       ]
     },
     {
