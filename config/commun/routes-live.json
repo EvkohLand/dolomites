@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-07T05:49Z",
+  "genere_le": "2026-10-07T13:13Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-07T07:29"
+      "maj": "2026-10-07T15:05"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,6 +218,34 @@
     },
     {
       "source": "bz",
+      "id": "2714701",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone 6 km di coda a causa di lavori.",
+      "debut": "2026-10-07",
+      "fin": "",
+      "gps": [
+        46.64679,
+        11.58679
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2882101",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l’uscita di Bolzano Nord è CHIUSA dalle ore 21:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-10-07",
+      "fin": "2026-10-08",
+      "gps": [
+        46.49504,
+        11.40902
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -242,20 +270,6 @@
       "gps": [
         46.50186,
         11.31184
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "635901",
-      "route": "Comune di Bolzano",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Per la partita di calcio del F.C. Südtirol viale Trieste e via Trento vengono CHIUSI al traffico dalle ore 12:00 ca fino alla fine della partita. Anche la pista ciclabile nella zona retrostante dello Stadio Druso viene CHIUSA.",
-      "debut": "2026-10-10",
-      "fin": "2026-10-10",
-      "gps": [
-        46.4919,
-        11.34462
       ]
     },
     {
@@ -638,6 +652,34 @@
     },
     {
       "source": "bz",
+      "id": "3051712",
+      "route": "LS/SP27 — Funes",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Nei pressi della fermata di Funes (km 0,050 - km 0,150) senso unico alternato a causa di lavori.",
+      "debut": "2026-10-07",
+      "fin": "2026-11-27",
+      "gps": [
+        46.65306,
+        11.5995
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3057812",
+      "route": "LS/SP28 — Albes",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Sarnes (km 1,180 - km 1,840) senso unico alternato a causa di lavori.",
+      "debut": "2026-10-12",
+      "fin": "2026-10-23",
+      "gps": [
+        46.69024,
+        11.65054
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3127612",
       "route": "LS/SP29 — Eores - S. Martino in Badia",
       "niveau": "gene",
@@ -732,6 +774,20 @@
       "gps": [
         46.77654,
         12.04439
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2961212",
+      "route": "LS/SP47 — Braies",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Braies (km 0,150 - km 0,515) senso unico alternato per lavori.",
+      "debut": "2026-10-08",
+      "fin": "2026-10-17",
+      "gps": [
+        46.73943,
+        12.13529
       ]
     },
     {
@@ -848,6 +904,20 @@
     },
     {
       "source": "bz",
+      "id": "3153912",
+      "route": "LS/SP73 — Renon",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Mittelberg (km 18,020 - km 18,210) senso unico alternato per lavori (giorni feriali).",
+      "debut": "2026-10-08",
+      "fin": "2026-10-23",
+      "gps": [
+        46.5538,
+        11.47746
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3150612",
       "route": "LS/SP74 — Chiusa - Velturno - Bressanone",
       "niveau": "gene",
@@ -900,6 +970,20 @@
       "gps": [
         46.51884,
         12.0093
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2721401",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione Nord tra Chiusa e Bressanone code per traffico intenso.",
+      "debut": "2026-10-07",
+      "fin": "",
+      "gps": [
+        46.4951,
+        11.44627
       ]
     },
     {
@@ -1058,6 +1142,20 @@
     },
     {
       "source": "bz",
+      "id": "3045201",
+      "route": "SS242 — di Val Gardena e Passo Sella",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Al di sopra di Ponte Gardena (km 1,400 - km 1,800) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori di consolidamento della roccia.",
+      "debut": "2026-10-12",
+      "fin": "2026-10-16",
+      "gps": [
+        46.59863,
+        11.54699
+      ]
+    },
+    {
+      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -1068,6 +1166,20 @@
       "gps": [
         46.64479,
         11.58281
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3085412",
+      "route": "SS243 — del Passo Gardena",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Corvara (km 14,584 - km 14,912) senso unico alternato per lavori di sostituzione barriera.",
+      "debut": "2026-10-07",
+      "fin": "2026-10-16",
+      "gps": [
+        46.5512,
+        11.86615
       ]
     },
     {
