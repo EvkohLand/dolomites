@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-06T22:37Z",
+  "genere_le": "2026-10-07T05:49Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-06T20:02"
+      "maj": "2026-10-07T07:29"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-06"
+      "maj": "2026-10-07"
     }
   },
   "messages": [
@@ -214,20 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3123801",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione sud l’entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 22:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-06",
-      "fin": "2026-10-07",
-      "gps": [
-        46.76489,
-        11.63791
       ]
     },
     {
@@ -960,7 +946,7 @@
     },
     {
       "source": "bz",
-      "id": "2952201",
+      "id": "2952212",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1114,7 +1100,7 @@
     },
     {
       "source": "bz",
-      "id": "3152701",
+      "id": "3152712",
       "route": "SS244 — di Val Badia",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1230,8 +1216,8 @@
       "route": "SS508 — di Val Sarentino e del Passo di Vizze",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Tra Bolzano e Mezzavia nelle gallerie (km 3,000 - km 13,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 04:30 per lavori di manutenzione. Possibile passaggio alle ore 01:00 in direzione Sarentino, possibile passaggio alle ore 01:15 in direzione Bolzano. La deviazione avviene per la SP 73 Renon e SP 135 Collalbo - Vanga di Sotto.",
-      "debut": "2026-10-12",
+      "texte": "Da lunedì 12.10.2026: Tra Bolzano e Mezzavia nelle gallerie (km 3,000 - km 13,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 04:30 per lavori di manutenzione. Possibile passaggio alle ore 01:00 in direzione Sarentino, possibile passaggio alle ore 01:15 in direzione Bolzano. La deviazione avviene per la SP 73 Renon e SP 135 Collalbo - Vanga di Sotto.",
+      "debut": "2026-10-11",
       "fin": "2026-10-15",
       "gps": [
         46.51791,
