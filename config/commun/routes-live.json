@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-08T00:57Z",
+  "genere_le": "2026-10-08T10:27Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-07T20:00"
+      "maj": "2026-10-08T12:19"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,16 +218,44 @@
     },
     {
       "source": "bz",
-      "id": "2882101",
+      "id": "2714701",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione sud l’uscita di Bolzano Nord è CHIUSA dalle ore 21:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-07",
-      "fin": "2026-10-08",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone 6 km di coda a causa di lavori.",
+      "debut": "2026-10-08",
+      "fin": "",
       "gps": [
-        46.49504,
-        11.40902
+        46.64679,
+        11.58679
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3001401",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Mantova Sud e Nogarole Rocca coda di mezzi pesanti a causa di lavori.",
+      "debut": "2026-10-08",
+      "fin": "",
+      "gps": [
+        45.73022,
+        10.94313
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3056101",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Trento Sud e Rovereto Nord 2 km di coda dopo un incidente.",
+      "debut": "2026-10-08",
+      "fin": "",
+      "gps": [
+        45.84202,
+        11.00129
       ]
     },
     {
@@ -810,7 +838,7 @@
       "route": "LS/SP64 — Castelrotto - Ortisei",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Da giovedì 08.10.2026: In occasione della manifestazione \"40. Kastelruther-Spatzen-Fest\" a Castelrotto (km 3,300 - km 2,300), dalla Val Gardena in direzione Castelrotto c'è un senso unico giovedì 08.10.2026 dalle ore 16:00 alle ore 23:30, venerdì 09.10.2026 dalle ore 14:00 alle ore 02:00, sabato 10.10.2026 dalle ore 08:00 alle ore 02:00 e domenica 11.10.2026 dalle 08:00 alle ore 20:00. Il…",
+      "texte": "In occasione della manifestazione \"40. Kastelruther-Spatzen-Fest\" a Castelrotto (km 3,300 - km 2,300), dalla Val Gardena in direzione Castelrotto c'è un senso unico giovedì 08.10.2026 dalle ore 16:00 alle ore 23:30, venerdì 09.10.2026 dalle ore 14:00 alle ore 02:00, sabato 10.10.2026 dalle ore 08:00 alle ore 02:00 e domenica 11.10.2026 dalle 08:00 alle ore 20:00. Il traffico da Castelrotto in…",
       "debut": "2026-10-08",
       "fin": "2026-10-11",
       "gps": [
@@ -970,6 +998,20 @@
       "gps": [
         46.51884,
         12.0093
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3002301",
+      "route": "SS.38 — Superstrada MEBO",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione Bolzano tra Terlano e Bolzano Sud rallentamenti dopo un incidente.",
+      "debut": "2026-10-08",
+      "fin": "",
+      "gps": [
+        46.48421,
+        11.29485
       ]
     },
     {
@@ -1254,6 +1296,20 @@
     },
     {
       "source": "bz",
+      "id": "3051501",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Brunico e Perca (km 35,700) rallentamenti e code dopo un incidente.",
+      "debut": "2026-10-08",
+      "fin": "",
+      "gps": [
+        46.79245,
+        11.96409
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3052801",
       "route": "SS49 — della Pusteria",
       "niveau": "fermeture",
@@ -1337,12 +1393,5 @@
       ]
     }
   ],
-  "veneto": [
-    {
-      "titre": "Situazione strade provinciali e regionali in Provincia di Belluno in gestione a Veneto Strade S.p.A. Aggiornamento al 24/09/2026 ore 17:00.",
-      "texte": "Si comunica la riapertura al transito dalle ore 18.00 del seguente tratto stradale: SR. 203 “Agordina” dalla progressiva km 56+100 (incrocio con S.P. 251) alla progressiva km 57+800 (loc. Collaz).",
-      "date": "2026-09-24T06:30",
-      "url": "https://www.venetostrade.it/myportal/VSSPA/avvisi/situazione-strade-provinciali-e-regionali-in-provincia-di-belluno-in-gestione-a-veneto-strade-spa-aggiornamento-al-24092026-ore-1700"
-    }
-  ]
+  "veneto": []
 }
