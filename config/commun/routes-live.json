@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-08T10:27Z",
+  "genere_le": "2026-10-08T14:56Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-08T12:19"
+      "maj": "2026-10-08T16:24"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -222,7 +222,7 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 6 km di coda a causa di lavori.",
+      "texte": "In direzione nord tra Bolzano Nord e Bressanone 6 km di coda a causa di lavori.",
       "debut": "2026-10-08",
       "fin": "",
       "gps": [
@@ -236,26 +236,12 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Mantova Sud e Nogarole Rocca coda di mezzi pesanti a causa di lavori.",
+      "texte": "In direzione nord tra Pegognaga e Mantova Sud 6 km di coda dopo un incidente.",
       "debut": "2026-10-08",
       "fin": "",
       "gps": [
         45.73022,
         10.94313
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3056101",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Trento Sud e Rovereto Nord 2 km di coda dopo un incidente.",
-      "debut": "2026-10-08",
-      "fin": "",
-      "gps": [
-        45.84202,
-        11.00129
       ]
     },
     {
@@ -820,6 +806,20 @@
     },
     {
       "source": "bz",
+      "id": "3083701",
+      "route": "LS/SP47 — Braies",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A S. Vito (km 5,800 - km 6,200) CHIUSURA al traffico dalle ore 08:45 alle ore 09:30 per una processione.",
+      "debut": "2026-10-18",
+      "fin": "2026-10-18",
+      "gps": [
+        46.7139,
+        12.10134
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3080012",
       "route": "LS/SP56 — Sares",
       "niveau": "fermeture",
@@ -1002,20 +1002,6 @@
     },
     {
       "source": "bz",
-      "id": "3002301",
-      "route": "SS.38 — Superstrada MEBO",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione Bolzano tra Terlano e Bolzano Sud rallentamenti dopo un incidente.",
-      "debut": "2026-10-08",
-      "fin": "",
-      "gps": [
-        46.48421,
-        11.29485
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2764501",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
@@ -1026,6 +1012,20 @@
       "gps": [
         46.46046,
         11.34001
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2788601",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Cardano e Bolzano Sud rallentamenti e code per traffico intenso.",
+      "debut": "2026-10-08",
+      "fin": "",
+      "gps": [
+        46.49265,
+        11.35623
       ]
     },
     {
@@ -1068,6 +1068,20 @@
       "gps": [
         46.51152,
         11.46967
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2995901",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra San Pietro Mezzomonte e Bressanone code per traffico intenso.",
+      "debut": "2026-10-08",
+      "fin": "",
+      "gps": [
+        46.66714,
+        11.6132
       ]
     },
     {
@@ -1296,20 +1310,6 @@
     },
     {
       "source": "bz",
-      "id": "3051501",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Brunico e Perca (km 35,700) rallentamenti e code dopo un incidente.",
-      "debut": "2026-10-08",
-      "fin": "",
-      "gps": [
-        46.79245,
-        11.96409
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3052801",
       "route": "SS49 — della Pusteria",
       "niveau": "fermeture",
@@ -1330,7 +1330,7 @@
       "etat": "traffico bloccato",
       "texte": "Sulla circonvallazione di Rio di Pusteria (km 7,300 - km 9,300) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori in galleria. Deviazione attraverso la SP 182 Rio di Pusteria (giorni feriali).",
       "debut": "2026-10-05",
-      "fin": "2026-10-09",
+      "fin": "2026-10-16",
       "gps": [
         46.79759,
         11.67055
