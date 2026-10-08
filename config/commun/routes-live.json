@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-07T20:34Z",
+  "genere_le": "2026-10-08T00:57Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-07"
+      "maj": "2026-10-08"
     }
   },
   "messages": [
@@ -634,20 +634,6 @@
       "gps": [
         46.50427,
         11.46316
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3145512",
-      "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Ponte Gardena (km 23,965) senso unico alternato e chiusure temporanee fino a 5 minuti dalle ore 07:00 alle ore 17:00 per la posa di tubazioni.",
-      "debut": "2026-09-21",
-      "fin": "2026-10-07",
-      "gps": [
-        46.59366,
-        11.53028
       ]
     },
     {
