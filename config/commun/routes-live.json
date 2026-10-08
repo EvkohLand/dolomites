@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-08T14:56Z",
+  "genere_le": "2026-10-08T18:48Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-08T16:24"
+      "maj": "2026-10-08T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,34 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2714701",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Nord e Bressanone 6 km di coda a causa di lavori.",
-      "debut": "2026-10-08",
-      "fin": "",
-      "gps": [
-        46.64679,
-        11.58679
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3001401",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Pegognaga e Mantova Sud 6 km di coda dopo un incidente.",
-      "debut": "2026-10-08",
-      "fin": "",
-      "gps": [
-        45.73022,
-        10.94313
       ]
     },
     {
@@ -1016,20 +988,6 @@
     },
     {
       "source": "bz",
-      "id": "2788601",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Cardano e Bolzano Sud rallentamenti e code per traffico intenso.",
-      "debut": "2026-10-08",
-      "fin": "",
-      "gps": [
-        46.49265,
-        11.35623
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2881701",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
@@ -1068,20 +1026,6 @@
       "gps": [
         46.51152,
         11.46967
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2995901",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra San Pietro Mezzomonte e Bressanone code per traffico intenso.",
-      "debut": "2026-10-08",
-      "fin": "",
-      "gps": [
-        46.66714,
-        11.6132
       ]
     },
     {
