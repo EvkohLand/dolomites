@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-08T18:48Z",
+  "genere_le": "2026-10-09T01:10Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-08"
+      "maj": "2026-10-09"
     }
   },
   "messages": [
@@ -442,20 +442,6 @@
     },
     {
       "source": "bz",
-      "id": "3148701",
-      "route": "LS/SP157 — Elle",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Ad Elle (km 3,800 - km 6,250) CHIUSURA al traffico dalle ore 07:00 alle ore 17:00 per lavori di asfaltatura (giorni feriali). Deviazione attraverso la SC Mantana-Elle.",
-      "debut": "2026-10-05",
-      "fin": "2026-10-08",
-      "gps": [
-        46.78076,
-        11.84264
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3060212",
       "route": "LS/SP162 — Campi al Lago",
       "niveau": "gene",
@@ -522,20 +508,6 @@
       "gps": [
         46.40206,
         11.23513
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3152612",
-      "route": "LS/SP173 — Bronzolo – Ponte di Vadena",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Bronzolo (km 0,000 - km 0,060) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori alla circonvallazione.",
-      "debut": "2026-10-06",
-      "fin": "2026-10-08",
-      "gps": [
-        46.40795,
-        11.32646
       ]
     },
     {
