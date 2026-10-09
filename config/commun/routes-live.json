@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-09T10:25Z",
+  "genere_le": "2026-10-09T14:39Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-09T11:59"
+      "maj": "2026-10-09T16:13"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -274,20 +274,6 @@
     },
     {
       "source": "bz",
-      "id": "635901",
-      "route": "Comune di Bolzano",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Per la partita di calcio del F.C. Südtirol viale Trieste e via Trento vengono CHIUSI al traffico dalle ore 12:00 ca fino alla fine della partita. Anche la pista ciclabile nella zona retrostante dello Stadio Druso viene CHIUSA.",
-      "debut": "2026-10-24",
-      "fin": "2026-10-24",
-      "gps": [
-        46.4919,
-        11.34462
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2744912",
       "route": "Comune di Laives",
       "niveau": "fermeture",
@@ -480,20 +466,6 @@
       "gps": [
         46.60924,
         11.56587
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "696601",
-      "route": "LS/SP160 — Predonico",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Appiano Monte (km 2,300 - km 2,500) senso unico alternato dalle ore 10:00 alle ore 18:00 per una manifestazione.",
-      "debut": "2026-10-24",
-      "fin": "2026-10-25",
-      "gps": [
-        46.46741,
-        11.24323
       ]
     },
     {
@@ -1156,6 +1128,20 @@
     },
     {
       "source": "bz",
+      "id": "652201",
+      "route": "SS242 — di Val Gardena e Passo Sella",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Selva di Val Gardene code in entrambe le direzioni dopo un incidente.",
+      "debut": "2026-10-09",
+      "fin": "",
+      "gps": [
+        46.57349,
+        11.67101
+      ]
+    },
+    {
+      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -1264,6 +1250,20 @@
       "gps": [
         46.7903,
         11.88177
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3113701",
+      "route": "SS49 — della Pusteria",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Tra Perca e Nessano CHIUSURA dopo un incidente. Si segnalano code.",
+      "debut": "2026-10-09",
+      "fin": "",
+      "gps": [
+        46.78479,
+        12.00441
       ]
     },
     {
