@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-09T01:10Z",
+  "genere_le": "2026-10-09T10:25Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-08T20:00"
+      "maj": "2026-10-09T11:59"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,6 +218,34 @@
     },
     {
       "source": "bz",
+      "id": "2714701",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone 6 km di coda a causa di lavori.",
+      "debut": "2026-10-09",
+      "fin": "",
+      "gps": [
+        46.64679,
+        11.58679
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3123801",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l’entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 22:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-10-09",
+      "fin": "2026-10-10",
+      "gps": [
+        46.76489,
+        11.63791
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -242,6 +270,20 @@
       "gps": [
         46.50186,
         11.31184
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "635901",
+      "route": "Comune di Bolzano",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Per la partita di calcio del F.C. Südtirol viale Trieste e via Trento vengono CHIUSI al traffico dalle ore 12:00 ca fino alla fine della partita. Anche la pista ciclabile nella zona retrostante dello Stadio Druso viene CHIUSA.",
+      "debut": "2026-10-24",
+      "fin": "2026-10-24",
+      "gps": [
+        46.4919,
+        11.34462
       ]
     },
     {
@@ -438,6 +480,20 @@
       "gps": [
         46.60924,
         11.56587
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "696601",
+      "route": "LS/SP160 — Predonico",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Appiano Monte (km 2,300 - km 2,500) senso unico alternato dalle ore 10:00 alle ore 18:00 per una manifestazione.",
+      "debut": "2026-10-24",
+      "fin": "2026-10-25",
+      "gps": [
+        46.46741,
+        11.24323
       ]
     },
     {
@@ -782,7 +838,7 @@
       "route": "LS/SP64 — Castelrotto - Ortisei",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In occasione della manifestazione \"40. Kastelruther-Spatzen-Fest\" a Castelrotto (km 3,300 - km 2,300), dalla Val Gardena in direzione Castelrotto c'è un senso unico giovedì 08.10.2026 dalle ore 16:00 alle ore 23:30, venerdì 09.10.2026 dalle ore 14:00 alle ore 02:00, sabato 10.10.2026 dalle ore 08:00 alle ore 02:00 e domenica 11.10.2026 dalle 08:00 alle ore 20:00. Il traffico da Castelrotto in…",
+      "texte": "In occasione della manifestazione \"40. Kastelruther-Spatzen-Fest\" a Castelrotto (km 3,300 - km 2,300), dalla Val Gardena in direzione Castelrotto c'è un senso unico venerdì 09.10.2026 dalle ore 14:00 alle ore 02:00, sabato 10.10.2026 dalle ore 08:00 alle ore 02:00 e domenica 11.10.2026 dalle 08:00 alle ore 20:00. Il traffico da Castelrotto in direzione Val Gardena viene deviato attraverso via…",
       "debut": "2026-10-08",
       "fin": "2026-10-11",
       "gps": [
@@ -942,20 +998,6 @@
       "gps": [
         46.51884,
         12.0093
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2764501",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nella galleria di San Giacomo CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-10-08",
-      "fin": "2026-10-09",
-      "gps": [
-        46.46046,
-        11.34001
       ]
     },
     {
@@ -1222,20 +1264,6 @@
       "gps": [
         46.7903,
         11.88177
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3052801",
-      "route": "SS49 — della Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Sulla circonvallazione sud di Brunico (km 29,300 - km 33,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 05:00 per lavori di manutenzione nella galleria. Deviazione attraverso l'anello Nord.",
-      "debut": "2026-10-08",
-      "fin": "2026-10-09",
-      "gps": [
-        46.78505,
-        11.90688
       ]
     },
     {
