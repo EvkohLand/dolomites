@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-10T00:44Z",
+  "genere_le": "2026-10-10T09:44Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-09T20:01"
+      "maj": "2026-10-10T11:18"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,20 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3123801",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione sud l’entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 22:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-09",
-      "fin": "2026-10-10",
-      "gps": [
-        46.76489,
-        11.63791
       ]
     },
     {
@@ -698,7 +684,7 @@
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "A Terento (km 5,610 - km 7,000) senso unico alternato dalle ore 14:00 alle ore 16:00 per transumanza.",
+      "texte": "A Terento (km 5,610 - km 7,000) CHIUSURA dalle ore 14:00 alle ore 16:00 per transumanza.",
       "debut": "2026-10-10",
       "fin": "2026-10-10",
       "gps": [
@@ -782,7 +768,7 @@
       "route": "LS/SP64 — Castelrotto - Ortisei",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In occasione della manifestazione \"40. Kastelruther-Spatzen-Fest\" a Castelrotto (km 3,300 - km 2,300), dalla Val Gardena in direzione Castelrotto c'è un senso unico fino alle ore 02:00, sabato 10.10.2026 dalle ore 08:00 alle ore 02:00 e domenica 11.10.2026 dalle 08:00 alle ore 20:00. Il traffico da Castelrotto in direzione Val Gardena viene deviato attraverso via Tiosler.",
+      "texte": "In occasione della manifestazione \"40. Kastelruther-Spatzen-Fest\" a Castelrotto (km 3,300 - km 2,300), dalla Val Gardena in direzione Castelrotto c'è un senso unico dalle ore 08:00 alle ore 02:00 e domenica 11.10.2026 dalle 08:00 alle ore 20:00. Il traffico da Castelrotto in direzione Val Gardena viene deviato attraverso via Tiosler.",
       "debut": "2026-10-08",
       "fin": "2026-10-11",
       "gps": [
@@ -1156,20 +1142,6 @@
     },
     {
       "source": "bz",
-      "id": "2880201",
-      "route": "SS49 — della Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A S. Lorenzo nella galleria di Castelbadia (km 27,000 - km 28,370) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 05:00 per lavori. Deviazione attraverso Floronzo.",
-      "debut": "2026-10-06",
-      "fin": "2026-10-10",
-      "gps": [
-        46.7903,
-        11.88177
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3131201",
       "route": "SS49 — della Pusteria",
       "niveau": "fermeture",
@@ -1208,6 +1180,20 @@
       "gps": [
         46.73829,
         12.15609
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "601301",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione Bressanone tra Rio di Pusteria e Sciaves rallentamenti e code per traffico intenso.",
+      "debut": "2026-10-10",
+      "fin": "",
+      "gps": [
+        46.79255,
+        11.85897
       ]
     },
     {
