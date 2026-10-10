@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-09T18:19Z",
+  "genere_le": "2026-10-10T00:44Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-09"
+      "maj": "2026-10-10"
     }
   },
   "messages": [
@@ -400,20 +400,6 @@
     },
     {
       "source": "bz",
-      "id": "2935612",
-      "route": "LS/SP127 — Ora - Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Nei pressi di Palude di Caldaro (km 1,228 - km 3,150) a tratti senso unico alternato per la posa di una fibra ottica (anche nel fine settimana).",
-      "debut": "2026-09-28",
-      "fin": "2026-10-09",
-      "gps": [
-        46.35269,
-        11.27728
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3152512",
       "route": "LS/SP131 — S. Valentino in Campo",
       "niveau": "gene",
@@ -484,20 +470,6 @@
     },
     {
       "source": "bz",
-      "id": "3060212",
-      "route": "LS/SP162 — Campi al Lago",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Caldaro e Vadena (km 0,000 - km 6,000) a tratti senso unico alternato per lavori.",
-      "debut": "2026-10-07",
-      "fin": "2026-10-09",
-      "gps": [
-        46.40133,
-        11.25265
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3142012",
       "route": "LS/SP163 — S. Pietro - Passo Erbe",
       "niveau": "gene",
@@ -536,20 +508,6 @@
       "gps": [
         46.50688,
         11.28817
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2991812",
-      "route": "LS/SP169 — Castelvecchio",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Caldaro (km 0,000 - km 5,000) a tratti senso unico alternato per lavori.",
-      "debut": "2026-10-07",
-      "fin": "2026-10-09",
-      "gps": [
-        46.40206,
-        11.23513
       ]
     },
     {
@@ -834,20 +792,6 @@
     },
     {
       "source": "bz",
-      "id": "2782012",
-      "route": "LS/SP66 — Riscone",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Riscone (km 2,670 - km 2,750) senso unico alternato per lavori di scavo.",
-      "debut": "2026-10-05",
-      "fin": "2026-10-09",
-      "gps": [
-        46.77638,
-        11.94531
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3149512",
       "route": "LS/SP67 — Valle S. Silvestro",
       "niveau": "gene",
@@ -928,20 +872,6 @@
       "gps": [
         46.5538,
         11.47746
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3150612",
-      "route": "LS/SP74 — Chiusa - Velturno - Bressanone",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Perara (km 9,480 - km 9,550) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori di scavo (giorni feriali).",
-      "debut": "2026-10-05",
-      "fin": "2026-10-09",
-      "gps": [
-        46.69929,
-        11.63664
       ]
     },
     {
@@ -1208,20 +1138,6 @@
       "gps": [
         46.7043,
         11.88374
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "670712",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Punt de Fer (km 22,650 - km 23,250) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori.",
-      "debut": "2026-10-06",
-      "fin": "2026-10-09",
-      "gps": [
-        46.62472,
-        11.89253
       ]
     },
     {
