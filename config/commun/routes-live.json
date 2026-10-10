@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-10T13:58Z",
+  "genere_le": "2026-10-10T17:18Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-10T15:56"
+      "maj": "2026-10-10T19:06"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -284,20 +284,6 @@
       "gps": [
         46.50663,
         11.34593
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3143501",
-      "route": "Comune di Nova Ponente",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "La S.C. via Centro e via Principale dalla Piazza Gibitz fino al ristorante Adler e della via Castello Thurn dalla Piazza Principale fino alla casa culturale a Nova Ponente e fino al parcheggio n. 4 (farmacia) é CHIUSA dalle ore 14:00 alle ore 17:30 in occasione della manifestazione \"21. Eggentaler_Herbst-Classic”.",
-      "debut": "2026-10-10",
-      "fin": "2026-10-10",
-      "gps": [
-        46.41293,
-        11.43014
       ]
     },
     {
@@ -680,20 +666,6 @@
     },
     {
       "source": "bz",
-      "id": "3015001",
-      "route": "LS/SP40 — Strada del Sole della Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Terento (km 5,610 - km 7,000) CHIUSURA dalle ore 14:00 alle ore 16:00 per transumanza.",
-      "debut": "2026-10-10",
-      "fin": "2026-10-10",
-      "gps": [
-        46.8298,
-        11.77627
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3137712",
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "gene",
@@ -768,8 +740,8 @@
       "route": "LS/SP64 — Castelrotto - Ortisei",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In occasione della manifestazione \"40. Kastelruther-Spatzen-Fest\" a Castelrotto (km 3,300 - km 2,300), dalla Val Gardena in direzione Castelrotto c'è un senso unico dalle ore 08:00 alle ore 02:00 e domenica 11.10.2026 dalle 08:00 alle ore 20:00. Il traffico da Castelrotto in direzione Val Gardena viene deviato attraverso via Tiosler.",
-      "debut": "2026-10-08",
+      "texte": "In occasione della manifestazione \"40. Kastelruther-Spatzen-Fest\" a Castelrotto (km 3,300 - km 2,300), dalla Val Gardena in direzione Castelrotto c'è un senso unico fino alle ore 02:00 e domenica 11.10.2026 dalle 08:00 alle ore 20:00. Il traffico da Castelrotto in direzione Val Gardena viene deviato attraverso via Tiosler.",
+      "debut": "2026-10-10",
       "fin": "2026-10-11",
       "gps": [
         46.57261,
