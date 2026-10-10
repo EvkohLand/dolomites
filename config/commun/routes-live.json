@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-10T09:44Z",
+  "genere_le": "2026-10-10T13:58Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-10T11:18"
+      "maj": "2026-10-10T15:56"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -1180,20 +1180,6 @@
       "gps": [
         46.73829,
         12.15609
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "601301",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione Bressanone tra Rio di Pusteria e Sciaves rallentamenti e code per traffico intenso.",
-      "debut": "2026-10-10",
-      "fin": "",
-      "gps": [
-        46.79255,
-        11.85897
       ]
     },
     {
