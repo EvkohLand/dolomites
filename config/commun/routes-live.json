@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-10T21:35Z",
+  "genere_le": "2026-10-11T05:38Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-10"
+      "maj": "2026-10-11"
     }
   },
   "messages": [
@@ -1096,20 +1096,6 @@
       "gps": [
         46.7043,
         11.88374
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3148312",
-      "route": "SS42 — Passo Mendola",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Nei pressi di Ganda (km 234,500) senso unico alternato a causa di lavori (anche nel fine settimana).",
-      "debut": "2026-09-28",
-      "fin": "2026-10-10",
-      "gps": [
-        46.44186,
-        11.25638
       ]
     },
     {
