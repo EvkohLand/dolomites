@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-11T12:41Z",
+  "genere_le": "2026-10-11T14:21Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-11T13:52"
+      "maj": "2026-10-11T16:02"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -634,20 +634,6 @@
       "gps": [
         46.69331,
         11.6812
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2813401",
-      "route": "LS/SP31 — Elvas - Sciaves",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Naz (km 5,200 - km 4,600) CHIUSURA al traffico dalle ore 13:20 alle ore 16:00 in occasione della sfilatra per la festa della mela. Il traffico viene deviato.",
-      "debut": "2026-10-11",
-      "fin": "2026-10-11",
-      "gps": [
-        46.75367,
-        11.67768
       ]
     },
     {
