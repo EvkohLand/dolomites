@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-11T14:21Z",
+  "genere_le": "2026-10-11T19:30Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-11T16:02"
+      "maj": "2026-10-11T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,30 +218,16 @@
     },
     {
       "source": "bz",
-      "id": "3123701",
+      "id": "3123801",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Vipiteno e Bressanone 8 km di coda a causa di lavori.",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l'entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 22:00 alle ore 06:00 a causa di lavori.",
       "debut": "2026-10-11",
-      "fin": "",
+      "fin": "2026-10-12",
       "gps": [
-        46.79086,
-        11.61187
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3154101",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 8 km di coda a causa di lavori.",
-      "debut": "2026-10-11",
-      "fin": "",
-      "gps": [
-        46.72902,
-        11.64322
+        46.76489,
+        11.63791
       ]
     },
     {
@@ -554,7 +540,7 @@
     },
     {
       "source": "bz",
-      "id": "2831412",
+      "id": "2831401",
       "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -876,6 +862,20 @@
     },
     {
       "source": "bz",
+      "id": "2766101",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nelle gallerie S. Daniele e Castelfeder(km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. Il traffico viene deviato per Ora.",
+      "debut": "2026-10-26",
+      "fin": "2026-10-28",
+      "gps": [
+        46.3403,
+        11.29328
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2881701",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
@@ -1100,7 +1100,21 @@
     },
     {
       "source": "bz",
-      "id": "3131212",
+      "id": "2822101",
+      "route": "SS48 — delle Dolomiti",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Ora in galleria Montagna (km 0,650) CHIUSURA dalle ore 21:00 alle ore 06:00 per lavori di pulizia.",
+      "debut": "2026-10-26",
+      "fin": "2026-10-28",
+      "gps": [
+        46.34081,
+        11.29689
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3131201",
       "route": "SS49 — della Pusteria",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
@@ -1124,6 +1138,20 @@
       "gps": [
         46.79051,
         11.95922
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3151112",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Villa di Sotto (km 37,500 - km 37,600) senso unico alternato dalle ore 07:00 alle ore 24:00 a causa di lavori.",
+      "debut": "2026-10-26",
+      "fin": "2026-10-30",
+      "gps": [
+        46.79192,
+        11.99402
       ]
     },
     {
