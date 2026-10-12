@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-12T00:29Z",
+  "genere_le": "2026-10-12T10:39Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-11T20:00"
+      "maj": "2026-10-12T12:19"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,16 +218,16 @@
     },
     {
       "source": "bz",
-      "id": "3123801",
+      "id": "3154101",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione sud l'entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 22:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-11",
-      "fin": "2026-10-12",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone 4 km di coda a causa di lavori.",
+      "debut": "2026-10-12",
+      "fin": "",
       "gps": [
-        46.76489,
-        11.63791
+        46.72902,
+        11.64322
       ]
     },
     {
@@ -540,7 +540,7 @@
     },
     {
       "source": "bz",
-      "id": "2831401",
+      "id": "2831412",
       "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -666,6 +666,20 @@
     },
     {
       "source": "bz",
+      "id": "3155212",
+      "route": "LS/SP43 — Passo Furcia",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A S. Vigilio (km 19,690 - km 19,710) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori di risanamento.",
+      "debut": "2026-10-12",
+      "fin": "2026-10-26",
+      "gps": [
+        46.70253,
+        11.93108
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3151212",
       "route": "LS/SP44 — Anterselva",
       "niveau": "gene",
@@ -718,20 +732,6 @@
       "gps": [
         46.77023,
         11.87374
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3149512",
-      "route": "LS/SP67 — Valle S. Silvestro",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Dobbiaco (km 1,390 - km 1,450) senso unico alternato con chiusure temporanee per lavori di asfaltatura.",
-      "debut": "2026-10-07",
-      "fin": "2026-10-30",
-      "gps": [
-        46.73714,
-        12.22663
       ]
     },
     {
@@ -1004,8 +1004,8 @@
       "source": "bz",
       "id": "3045201",
       "route": "SS242 — di Val Gardena e Passo Sella",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
+      "niveau": "gene",
+      "etat": "rallentamenti",
       "texte": "Al di sopra di Ponte Gardena (km 1,400 - km 1,800) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori di consolidamento della roccia.",
       "debut": "2026-10-12",
       "fin": "2026-10-16",
@@ -1086,6 +1086,20 @@
     },
     {
       "source": "bz",
+      "id": "670712",
+      "route": "SS244 — di Val Badia",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Punt de Fer (km 22,625 - km 23,600) senso unico alternato dalle ore 19:00 alle ore 05:00 per lavori di manutenzione in galleria.",
+      "debut": "2026-10-12",
+      "fin": "2026-10-13",
+      "gps": [
+        46.62472,
+        11.89253
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2822101",
       "route": "SS48 — delle Dolomiti",
       "niveau": "fermeture",
@@ -1114,7 +1128,7 @@
     },
     {
       "source": "bz",
-      "id": "3144512",
+      "id": "3144501",
       "route": "SS49 — della Pusteria",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1160,7 +1174,7 @@
       "route": "SS508 — di Val Sarentino e del Passo di Vizze",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da lunedì 12.10.2026: Tra Bolzano e Mezzavia nelle gallerie (km 3,000 - km 13,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 04:30 per lavori di manutenzione. Possibile passaggio alle ore 01:00 in direzione Sarentino, possibile passaggio alle ore 01:15 in direzione Bolzano. La deviazione avviene per la SP 73 Renon e SP 135 Collalbo - Vanga di Sotto.",
+      "texte": "Tra Bolzano e Mezzavia nelle gallerie (km 3,000 - km 13,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 04:30 per lavori di manutenzione. Possibile passaggio alle ore 01:00 in direzione Sarentino, possibile passaggio alle ore 01:15 in direzione Bolzano. La deviazione avviene per la SP 73 Renon e SP 135 Collalbo - Vanga di Sotto.",
       "debut": "2026-10-11",
       "fin": "2026-10-15",
       "gps": [
