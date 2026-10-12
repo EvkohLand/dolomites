@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-11T19:30Z",
+  "genere_le": "2026-10-12T00:29Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-11"
+      "maj": "2026-10-12"
     }
   },
   "messages": [
@@ -718,20 +718,6 @@
       "gps": [
         46.77023,
         11.87374
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2891201",
-      "route": "LS/SP64 — Castelrotto - Ortisei",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In occasione della manifestazione \"40. Kastelruther-Spatzen-Fest\" a Castelrotto (km 3,300 - km 2,300), dalla Val Gardena in direzione Castelrotto c'è un senso unico dalle ore 08:00 alle ore 20:00. Il traffico da Castelrotto in direzione Val Gardena viene deviato attraverso via Tiosler.",
-      "debut": "2026-10-10",
-      "fin": "2026-10-11",
-      "gps": [
-        46.57261,
-        11.57835
       ]
     },
     {
