@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-12T10:39Z",
+  "genere_le": "2026-10-12T17:00Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-12T12:19"
+      "maj": "2026-10-12T18:45"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,11 +218,25 @@
     },
     {
       "source": "bz",
+      "id": "3123801",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l'entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 22:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-10-11",
+      "fin": "2026-10-12",
+      "gps": [
+        46.76489,
+        11.63791
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3154101",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 4 km di coda a causa di lavori.",
+      "texte": "In direzione nord tra Chiusa e Bressanone 2 km di coda a causa di lavori.",
       "debut": "2026-10-12",
       "fin": "",
       "gps": [
