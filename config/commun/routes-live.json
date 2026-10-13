@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-13T15:16Z",
+  "genere_le": "2026-10-13T16:54Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-13T17:12"
+      "maj": "2026-10-13T18:39"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,20 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3088101",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Egna e Bolzano Sud code di mezzi pesanti dopo un incidente tra due mezzi pesanti.",
-      "debut": "2026-10-13",
-      "fin": "",
-      "gps": [
-        46.46074,
-        11.30401
       ]
     },
     {
