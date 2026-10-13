@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-12T21:14Z",
+  "genere_le": "2026-10-13T06:42Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-12T20:00"
+      "maj": "2026-10-13T08:36"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-12"
+      "maj": "2026-10-13"
     }
   },
   "messages": [
@@ -214,6 +214,34 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3123701",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Vipiteno e Bressanone coda di mezzi pesanti per lavori.",
+      "debut": "2026-10-13",
+      "fin": "",
+      "gps": [
+        46.79086,
+        11.61187
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3154101",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bressanone e Vipiteno 4 km di coda a causa di lavori.",
+      "debut": "2026-10-13",
+      "fin": "",
+      "gps": [
+        46.72902,
+        11.64322
       ]
     },
     {
@@ -428,6 +456,20 @@
     },
     {
       "source": "bz",
+      "id": "3060212",
+      "route": "LS/SP162 — Campi al Lago",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Caldaro e Vadena (km 0,000 - km 6,000) a tratti senso unico alternato per lavori.",
+      "debut": "2026-10-13",
+      "fin": "2026-10-14",
+      "gps": [
+        46.40133,
+        11.25265
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3142012",
       "route": "LS/SP163 — S. Pietro - Passo Erbe",
       "niveau": "gene",
@@ -470,7 +512,21 @@
     },
     {
       "source": "bz",
-      "id": "2786201",
+      "id": "2991812",
+      "route": "LS/SP169 — Castelvecchio",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Caldaro (km 0,000 - km 5,000) a tratti senso unico alternato per lavori.",
+      "debut": "2026-10-13",
+      "fin": "2026-10-14",
+      "gps": [
+        46.40206,
+        11.23513
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2786212",
       "route": "LS/SP179 — Anello nord",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -708,6 +764,20 @@
     },
     {
       "source": "bz",
+      "id": "2770901",
+      "route": "LS/SP55 — Monticolo",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Monticolo (km 3,500 - km 4,000) senso unico alternato a causa di lavori.",
+      "debut": "2026-10-19",
+      "fin": "2026-10-23",
+      "gps": [
+        46.42837,
+        11.28225
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3080012",
       "route": "LS/SP56 — Sares",
       "niveau": "fermeture",
@@ -904,6 +974,20 @@
     },
     {
       "source": "bz",
+      "id": "3141401",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Bolzano in galleria del Virgolo (km 437,700 - km 438,400) CHIUSURA NOTTURNA dalle ore 22:00 alle ore 05:00 per lavori di manutenzione. Deviazione attraverso strade comunali.",
+      "debut": "2026-10-28",
+      "fin": "2026-10-31",
+      "gps": [
+        46.4905,
+        11.35088
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3153001",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
@@ -1068,20 +1152,6 @@
       "gps": [
         46.7043,
         11.88374
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "670712",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Punt de Fer (km 22,625 - km 23,600) senso unico alternato dalle ore 19:00 alle ore 05:00 per lavori di manutenzione in galleria.",
-      "debut": "2026-10-12",
-      "fin": "2026-10-13",
-      "gps": [
-        46.62472,
-        11.89253
       ]
     },
     {
