@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-14T04:45Z",
+  "genere_le": "2026-10-14T11:43Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-14T06:05"
+      "maj": "2026-10-14T12:45"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,34 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3123701",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra il Brennero e Bressanone coda di mezzi pesanti per lavori.",
+      "debut": "2026-10-14",
+      "fin": "",
+      "gps": [
+        46.79086,
+        11.61187
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3154101",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bolzano Nord ed il Brennero coda di mezzi pesanti a causa di lavori.",
+      "debut": "2026-10-14",
+      "fin": "",
+      "gps": [
+        46.72902,
+        11.64322
       ]
     },
     {
@@ -932,7 +960,7 @@
     },
     {
       "source": "bz",
-      "id": "2952212",
+      "id": "2952201",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -992,7 +1020,7 @@
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Tra Bolzano Sud e San Giacomo (km 432,000 - km 435,500) CHIUSURA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile.La deviazione avviene attraverso San Giacomo.",
+      "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
       "debut": "2026-10-20",
       "fin": "2026-10-22",
       "gps": [
