@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-14T13:04Z",
+  "genere_le": "2026-10-14T17:04Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-14T15:00"
+      "maj": "2026-10-14T18:15"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,25 +218,11 @@
     },
     {
       "source": "bz",
-      "id": "3123701",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra il Brennero e Bressanone coda di mezzi pesanti per lavori.",
-      "debut": "2026-10-14",
-      "fin": "",
-      "gps": [
-        46.79086,
-        11.61187
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3154101",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Nord ed il Brennero coda di mezzi pesanti a causa di lavori.",
+      "texte": "In direzione nord tra San Michele ed il Brennero coda di mezzi pesanti a causa di lavori.",
       "debut": "2026-10-14",
       "fin": "",
       "gps": [
@@ -550,20 +536,6 @@
       "gps": [
         46.40206,
         11.23513
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2786212",
-      "route": "LS/SP179 — Anello nord",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Sull'anello nord in galleria a Teodone (km 1,160 - km 1,630) senso unico alternato dalle ore 19:00 alle ore 05:00 per lavori manutenzione.",
-      "debut": "2026-10-13",
-      "fin": "2026-10-14",
-      "gps": [
-        46.79846,
-        11.95049
       ]
     },
     {
@@ -1072,7 +1044,7 @@
     },
     {
       "source": "bz",
-      "id": "586001",
+      "id": "586012",
       "route": "SS241 — di Val d'Ega e Passo Costalunga",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1100,7 +1072,7 @@
     },
     {
       "source": "bz",
-      "id": "3045201",
+      "id": "3045212",
       "route": "SS242 — di Val Gardena e Passo Sella",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1208,20 +1180,6 @@
       "gps": [
         46.72645,
         12.24246
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2918901",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In entrambe le direzioni tra Rio Pusteria e Sciaves all'altezza del Putzerhof (km 6,100) code dopo un incidente.",
-      "debut": "2026-10-14",
-      "fin": "",
-      "gps": [
-        46.77975,
-        11.66927
       ]
     },
     {
