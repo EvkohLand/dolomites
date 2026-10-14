@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-13T22:38Z",
+  "genere_le": "2026-10-14T04:45Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-13T20:00"
+      "maj": "2026-10-14T06:05"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-13"
+      "maj": "2026-10-14"
     }
   },
   "messages": [
@@ -522,20 +522,6 @@
       "gps": [
         46.40206,
         11.23513
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2786212",
-      "route": "LS/SP179 — Anello nord",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Sull'anello nord in galleria a Teodone (km 1,160 - km 1,630) senso unico alternato dalle ore 19:00 alle ore 05:00 per lavori manutenzione.",
-      "debut": "2026-10-13",
-      "fin": "2026-10-14",
-      "gps": [
-        46.79846,
-        11.95049
       ]
     },
     {
