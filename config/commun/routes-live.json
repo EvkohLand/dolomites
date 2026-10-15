@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-15T11:20Z",
+  "genere_le": "2026-10-15T12:52Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-15T13:07"
+      "maj": "2026-10-15T14:49"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -222,7 +222,21 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Sud e Chiusa code di mezzi pesanti per traffico intenso.",
+      "texte": "In direzione nord tra Egna e Chiusa code di mezzi pesanti per traffico intenso.",
+      "debut": "2026-10-15",
+      "fin": "",
+      "gps": [
+        46.33296,
+        11.2762
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3151301",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone 4 km di coda per lavori in corso.",
       "debut": "2026-10-15",
       "fin": "",
       "gps": [
@@ -928,6 +942,20 @@
       "gps": [
         46.51152,
         11.46967
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3123901",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone rallentamenti e code per traffico intenso.",
+      "debut": "2026-10-13",
+      "fin": "",
+      "gps": [
+        46.66714,
+        11.6132
       ]
     },
     {
