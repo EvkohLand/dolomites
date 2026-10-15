@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-14T21:36Z",
+  "genere_le": "2026-10-15T04:28Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-14T20:01"
+      "maj": "2026-10-15T06:17"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-14"
+      "maj": "2026-10-15"
     }
   },
   "messages": [
@@ -214,6 +214,20 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2794501",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bressanone e il Brennero rallentamenti e code per traffico intenso.",
+      "debut": "2026-10-15",
+      "fin": "",
+      "gps": [
+        46.76304,
+        11.63818
       ]
     },
     {
@@ -456,20 +470,6 @@
     },
     {
       "source": "bz",
-      "id": "3060212",
-      "route": "LS/SP162 — Campi al Lago",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Caldaro e Vadena (km 0,000 - km 6,000) a tratti senso unico alternato per lavori.",
-      "debut": "2026-10-13",
-      "fin": "2026-10-14",
-      "gps": [
-        46.40133,
-        11.25265
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3142012",
       "route": "LS/SP163 — S. Pietro - Passo Erbe",
       "niveau": "gene",
@@ -508,20 +508,6 @@
       "gps": [
         46.50688,
         11.28817
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2991812",
-      "route": "LS/SP169 — Castelvecchio",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Caldaro (km 0,000 - km 5,000) a tratti senso unico alternato per lavori.",
-      "debut": "2026-10-13",
-      "fin": "2026-10-14",
-      "gps": [
-        46.40206,
-        11.23513
       ]
     },
     {
@@ -974,13 +960,13 @@
     },
     {
       "source": "bz",
-      "id": "3153001",
+      "id": "3153101",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-10-13",
-      "fin": "2026-10-15",
+      "debut": "2026-10-20",
+      "fin": "2026-10-22",
       "gps": [
         46.44363,
         11.34325
@@ -1012,20 +998,6 @@
       "gps": [
         46.48931,
         11.40347
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "586012",
-      "route": "SS241 — di Val d'Ega e Passo Costalunga",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Nova Levante (km 15,700 - km 16,100) chiusure temporanee fino a 15 minuti dalle ore 07:30 alle ore 17:00 per lavori forestali.",
-      "debut": "2026-10-12",
-      "fin": "2026-10-14",
-      "gps": [
-        46.42566,
-        11.51792
       ]
     },
     {
@@ -1208,20 +1180,6 @@
       "gps": [
         46.73829,
         12.15609
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3115301",
-      "route": "SS508 — di Val Sarentino e del Passo di Vizze",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Tra Bolzano e Mezzavia nelle gallerie (km 3,000 - km 13,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 04:30 per lavori di manutenzione. La deviazione avviene per la SP 73 Renon e SP 135 Collalbo - Vanga di Sotto.",
-      "debut": "2026-10-11",
-      "fin": "2026-10-15",
-      "gps": [
-        46.51791,
-        11.35696
       ]
     },
     {
