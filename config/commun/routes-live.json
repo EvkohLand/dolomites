@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-15T16:53Z",
+  "genere_le": "2026-10-15T21:17Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-15T18:32"
+      "maj": "2026-10-15T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,20 +218,6 @@
     },
     {
       "source": "bz",
-      "id": "2794501",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra San Michele e Egna 4 km di coda dopo un incidente.",
-      "debut": "2026-10-15",
-      "fin": "",
-      "gps": [
-        46.19963,
-        11.13196
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3155501",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
@@ -242,20 +228,6 @@
       "gps": [
         46.77179,
         11.63658
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2896801",
-      "route": "Comune di Bolzano",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Bolzano in via Castel Firmiano all'altezza distributore Q8 rallentamenti e code in entrambe le direzioni dopo un incidente.",
-      "debut": "2024-10-24",
-      "fin": "",
-      "gps": [
-        46.4915,
-        11.30687
       ]
     },
     {
@@ -522,6 +494,20 @@
       "gps": [
         46.50688,
         11.28817
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3087401",
+      "route": "LS/SP174 — Rina - Antermoja",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Tra Rina e Antermoia (km 0,550 - km 5,233) dalle ore 08:00 di sabato 24.10.2026 fino alle ore 18:00 di domenica 24.10.2026 CHIUSURA al traffico per veicoli con massa complessiva sopra 3,5 t per la chiusura della SS 244 Val Badia e l’allestimento di una deviazione.",
+      "debut": "2026-10-22",
+      "fin": "2026-10-25",
+      "gps": [
+        46.7138,
+        11.87816
       ]
     },
     {
@@ -1068,6 +1054,20 @@
       "gps": [
         46.5512,
         11.86615
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "1702501",
+      "route": "SS244 — di Val Badia",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Tra Longega e Piccolino (km 10,000 - km 13,500) CHIUSURA al traffico dalle ore 08:00 di sabato 24.10.2026 fino alle ore 18:00 di domenica 25.10.2026 per lavori di taglio alberi. Il traffico leggero fino a 3,5 t viene deviato attraverso la SP 128 Longega - Rina, la SP 174 Rina - Antermoia e la SP 29 Eores - S. Martino in Badia. Per il traffico pesante non c’è nessuna deviazione in loco. Nella…",
+      "debut": "2026-10-22",
+      "fin": "2026-10-25",
+      "gps": [
+        46.71955,
+        11.88821
       ]
     },
     {
