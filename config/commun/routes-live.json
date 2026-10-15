@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-15T12:52Z",
+  "genere_le": "2026-10-15T16:53Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-15T14:49"
+      "maj": "2026-10-15T18:32"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -222,26 +222,12 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Egna e Chiusa code di mezzi pesanti per traffico intenso.",
+      "texte": "In direzione nord tra San Michele e Egna 4 km di coda dopo un incidente.",
       "debut": "2026-10-15",
       "fin": "",
       "gps": [
-        46.33296,
-        11.2762
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3151301",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 4 km di coda per lavori in corso.",
-      "debut": "2026-10-15",
-      "fin": "",
-      "gps": [
-        46.64679,
-        11.58679
+        46.19963,
+        11.13196
       ]
     },
     {
@@ -256,6 +242,20 @@
       "gps": [
         46.77179,
         11.63658
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2896801",
+      "route": "Comune di Bolzano",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Bolzano in via Castel Firmiano all'altezza distributore Q8 rallentamenti e code in entrambe le direzioni dopo un incidente.",
+      "debut": "2024-10-24",
+      "fin": "",
+      "gps": [
+        46.4915,
+        11.30687
       ]
     },
     {
@@ -946,20 +946,6 @@
     },
     {
       "source": "bz",
-      "id": "3123901",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone rallentamenti e code per traffico intenso.",
-      "debut": "2026-10-13",
-      "fin": "",
-      "gps": [
-        46.66714,
-        11.6132
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -988,13 +974,13 @@
     },
     {
       "source": "bz",
-      "id": "3153001",
+      "id": "3153101",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-10-13",
-      "fin": "2026-10-15",
+      "debut": "2026-10-20",
+      "fin": "2026-10-22",
       "gps": [
         46.44363,
         11.34325
