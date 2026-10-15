@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-15T04:28Z",
+  "genere_le": "2026-10-15T11:20Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-15T06:17"
+      "maj": "2026-10-15T13:07"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -222,12 +222,12 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bressanone e il Brennero rallentamenti e code per traffico intenso.",
+      "texte": "In direzione nord tra Bolzano Sud e Chiusa code di mezzi pesanti per traffico intenso.",
       "debut": "2026-10-15",
       "fin": "",
       "gps": [
-        46.76304,
-        11.63818
+        46.64679,
+        11.58679
       ]
     },
     {
@@ -236,7 +236,7 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Fino a martedì 20.10.2026 – ore 22:00: In direzione sud tra Vipiteno e Bressanone Zona Industriale (km 37,553 - km 38,674) scambio di carreggiata a causa di lavori.",
+      "texte": "Fino a martedì 20.10.2026 - ore 17:00: In direzione sud tra Vipiteno e Bressanone Zona Industriale (km 37,553 - km 38,674) scambio di carreggiata a causa di lavori.",
       "debut": "2026-10-13",
       "fin": "2026-10-20",
       "gps": [
@@ -448,7 +448,7 @@
       "etat": "rallentamenti",
       "texte": "A Laion (km 2,550 - km 2,650) senso unico alternato per lavori.",
       "debut": "2026-09-14",
-      "fin": "2026-10-16",
+      "fin": "2026-11-30",
       "gps": [
         46.60924,
         11.56587
@@ -960,13 +960,13 @@
     },
     {
       "source": "bz",
-      "id": "3153101",
+      "id": "3153001",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-10-20",
-      "fin": "2026-10-22",
+      "debut": "2026-10-13",
+      "fin": "2026-10-15",
       "gps": [
         46.44363,
         11.34325
@@ -1096,6 +1096,20 @@
       "gps": [
         46.7043,
         11.88374
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3156501",
+      "route": "SS42 — Passo Mendola",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Da lunedì 19.10.2026: A Bolzano altezza rotatoria per Frangarto (km 240,900 - km 241,100) senso unico alternato per lavori di asfaltatura.",
+      "debut": "2026-10-18",
+      "fin": "2026-10-23",
+      "gps": [
+        46.48858,
+        11.3003
       ]
     },
     {
