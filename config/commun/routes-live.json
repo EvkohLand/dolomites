@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-15T21:17Z",
+  "genere_le": "2026-10-16T04:23Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-15T20:00"
+      "maj": "2026-10-16T06:07"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-15"
+      "maj": "2026-10-16"
     }
   },
   "messages": [
@@ -218,6 +218,20 @@
     },
     {
       "source": "bz",
+      "id": "3105801",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bressanone ed il Brennero coda di mezzi pesanti per traffico intenso.",
+      "debut": "2026-10-16",
+      "fin": "",
+      "gps": [
+        46.76304,
+        11.63818
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3155501",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
@@ -242,20 +256,6 @@
       "gps": [
         46.49305,
         11.35468
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3077512",
-      "route": "Comune di Bolzano",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "La via San Maurizio nel tratto tra la rotonda Largo Donatori del Sangue e Via Merano è CHIUSA al traffico per lavori.",
-      "debut": "2026-10-02",
-      "fin": "2026-10-15",
-      "gps": [
-        46.50186,
-        11.31184
       ]
     },
     {
@@ -904,20 +904,6 @@
     },
     {
       "source": "bz",
-      "id": "2916201",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nella galleria di Laives CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso Laives.",
-      "debut": "2026-10-15",
-      "fin": "2026-10-16",
-      "gps": [
-        46.42713,
-        11.34893
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2952201",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1152,20 +1138,6 @@
       "gps": [
         46.72645,
         12.24246
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3131201",
-      "route": "SS49 — della Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Sulla circonvallazione di Rio di Pusteria (km 7,300 - km 9,300) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori in galleria. Deviazione attraverso la SP 182 Rio di Pusteria (giorni feriali).",
-      "debut": "2026-10-05",
-      "fin": "2026-10-16",
-      "gps": [
-        46.79759,
-        11.67055
       ]
     },
     {
