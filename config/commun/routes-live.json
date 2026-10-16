@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-16T11:14Z",
+  "genere_le": "2026-10-16T12:43Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-16T12:45"
+      "maj": "2026-10-16T14:31"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -610,34 +610,6 @@
     },
     {
       "source": "bz",
-      "id": "3057812",
-      "route": "LS/SP28 — Albes",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Sarnes (km 1,180 - km 1,840) senso unico alternato a causa di lavori.",
-      "debut": "2026-10-12",
-      "fin": "2026-10-23",
-      "gps": [
-        46.69024,
-        11.65054
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3127612",
-      "route": "LS/SP29 — Eores - S. Martino in Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Meluno di Sopra (km 6,350 - km 6,550) senso unico alternato e chiusure temporanee fino a 5 minuti a causa di lavori.",
-      "debut": "2026-08-24",
-      "fin": "2026-10-31",
-      "gps": [
-        46.69331,
-        11.6812
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2857908",
       "route": "LS/SP37 — S. Cassiano",
       "niveau": "gene",
@@ -918,6 +890,20 @@
     },
     {
       "source": "bz",
+      "id": "2916201",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nella galleria di Laives CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso Laives.",
+      "debut": "2026-10-15",
+      "fin": "2026-10-16",
+      "gps": [
+        46.42713,
+        11.34893
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2952201",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -956,20 +942,6 @@
       "gps": [
         46.4905,
         11.35088
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3143601",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A nord di Chiusa all'altezza della fermata di Funes rallentamenti e code dopo un incidente.",
-      "debut": "2026-10-16",
-      "fin": "",
-      "gps": [
-        46.65636,
-        11.59547
       ]
     },
     {
