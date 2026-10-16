@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-16T04:23Z",
+  "genere_le": "2026-10-16T11:14Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-16T06:07"
+      "maj": "2026-10-16T12:45"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,20 +218,6 @@
     },
     {
       "source": "bz",
-      "id": "3105801",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bressanone ed il Brennero coda di mezzi pesanti per traffico intenso.",
-      "debut": "2026-10-16",
-      "fin": "",
-      "gps": [
-        46.76304,
-        11.63818
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3155501",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
@@ -242,6 +228,20 @@
       "gps": [
         46.77179,
         11.63658
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3156901",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone 6 km di coda a causa di lavori.",
+      "debut": "2026-10-16",
+      "fin": "",
+      "gps": [
+        46.75469,
+        11.63363
       ]
     },
     {
@@ -764,6 +764,20 @@
     },
     {
       "source": "bz",
+      "id": "3156812",
+      "route": "LS/SP65 — Tires",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Nei pressi del bivio Presule (km 4,820) senso unico alternato a causa di lavori (anche nel fine settimana).",
+      "debut": "2026-10-19",
+      "fin": "2026-10-30",
+      "gps": [
+        46.50211,
+        11.48637
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3008812",
       "route": "LS/SP72 — Aldino - Nova Ponente",
       "niveau": "gene",
@@ -946,6 +960,20 @@
     },
     {
       "source": "bz",
+      "id": "3143601",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A nord di Chiusa all'altezza della fermata di Funes rallentamenti e code dopo un incidente.",
+      "debut": "2026-10-16",
+      "fin": "",
+      "gps": [
+        46.65636,
+        11.59547
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3153101",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
@@ -956,6 +984,20 @@
       "gps": [
         46.44363,
         11.34325
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3157001",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone a tratti rallentamenti e code per traffico intenso.",
+      "debut": "2026-10-16",
+      "fin": "",
+      "gps": [
+        46.69121,
+        11.64008
       ]
     },
     {
@@ -978,8 +1020,8 @@
       "route": "SS241 — di Val d'Ega e Passo Costalunga",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "All’entrata valle nelle gallerie di Cornedo, Campegno e Contrada (km 0,000 - km 4,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 05:30 per lavori di manutenzione. La deviazione per veicoli fino a 12 m di lunghezza avviene attraverso Collepietra - San Valentino in Campo, per veicoli oltre 12 m di lunghezza attraverso Ora - Aldino.",
-      "debut": "2026-10-19",
+      "texte": "Da lunedì 19.10.2026: All’entrata valle nelle gallerie di Cornedo, Campegno e Contrada (km 0,000 - km 4,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 05:30 per lavori di manutenzione. La deviazione per veicoli fino a 12 m di lunghezza avviene attraverso Collepietra - San Valentino in Campo, per veicoli oltre 12 m di lunghezza attraverso Ora - Aldino.",
+      "debut": "2026-10-17",
       "fin": "2026-10-21",
       "gps": [
         46.48931,
@@ -1138,20 +1180,6 @@
       "gps": [
         46.72645,
         12.24246
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3144501",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Brunico (km 33,700 – km 35,400) a tratti senso unico alternato dalle ore 07:00 alle ore 16:00 a causa di lavori.",
-      "debut": "2026-10-12",
-      "fin": "2026-10-23",
-      "gps": [
-        46.79051,
-        11.95922
       ]
     },
     {
