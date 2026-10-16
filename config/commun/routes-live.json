@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-16T16:33Z",
+  "genere_le": "2026-10-16T21:00Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-16T18:27"
+      "maj": "2026-10-16T20:01"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -228,34 +228,6 @@
       "gps": [
         46.77179,
         11.63658
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3156901",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 4 km di coda a causa di lavori.",
-      "debut": "2026-10-16",
-      "fin": "",
-      "gps": [
-        46.75469,
-        11.63363
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3157201",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Nord e Bressanone coda di mezzi pesanti a causa di lavori.",
-      "debut": "2026-10-16",
-      "fin": "",
-      "gps": [
-        46.62405,
-        11.54807
       ]
     },
     {
