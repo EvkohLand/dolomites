@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-17T15:27Z",
+  "genere_le": "2026-10-17T20:30Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-17T17:24"
+      "maj": "2026-10-17T20:01"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -564,6 +564,20 @@
       "gps": [
         46.65306,
         11.5995
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2846312",
+      "route": "LS/SP37 — S. Cassiano",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Sciaré ed il confine provinciale (km 9,490 - km 10,200) senso unico alternato dalle ore 07:00 alle ore 17:00 per lavori .",
+      "debut": "2026-10-19",
+      "fin": "2026-10-30",
+      "gps": [
+        46.54708,
+        11.97376
       ]
     },
     {
