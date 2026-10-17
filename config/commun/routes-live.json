@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-17T11:45Z",
+  "genere_le": "2026-10-17T15:27Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-17T13:27"
+      "maj": "2026-10-17T17:24"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -232,20 +232,6 @@
     },
     {
       "source": "bz",
-      "id": "3157201",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 4 km di coda per lavori.",
-      "debut": "2026-10-17",
-      "fin": "",
-      "gps": [
-        46.62405,
-        11.54807
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -298,6 +284,20 @@
       "gps": [
         46.50663,
         11.34593
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3138612",
+      "route": "Comune di Laives",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In via Galizia all’altezza del numero civico 14 senso unico alternato per lavori di scavo e la posa di cavidotti.",
+      "debut": "2026-11-01",
+      "fin": "2026-11-30",
+      "gps": [
+        46.42919,
+        11.34087
       ]
     },
     {
@@ -582,20 +582,6 @@
     },
     {
       "source": "bz",
-      "id": "2854301",
-      "route": "LS/SP40 — Strada del Sole della Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Falzes presso la rotatoria CHIUSURA al traffico dalle ore 15:00 alle ore 16:00 circa per una sfilata. Il traffico può essere deviato localmente.",
-      "debut": "2026-10-17",
-      "fin": "2026-10-17",
-      "gps": [
-        46.80769,
-        11.88798
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3137712",
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "gene",
@@ -834,7 +820,7 @@
     },
     {
       "source": "bz",
-      "id": "2952201",
+      "id": "2952212",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -974,7 +960,7 @@
     },
     {
       "source": "bz",
-      "id": "3128701",
+      "id": "3128712",
       "route": "SS244 — di Val Badia",
       "niveau": "gene",
       "etat": "rallentamenti",
