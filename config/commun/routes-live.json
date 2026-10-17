@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-16T21:00Z",
+  "genere_le": "2026-10-17T04:16Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-16T20:01"
+      "maj": "2026-10-17T06:12"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-16"
+      "maj": "2026-10-17"
     }
   },
   "messages": [
@@ -288,6 +288,20 @@
     },
     {
       "source": "bz",
+      "id": "3138612",
+      "route": "Comune di Laives",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In via Galizia all’altezza del numero civico 14 senso unico alternato per lavori di scavo e la posa di cavidotti.",
+      "debut": "2026-11-01",
+      "fin": "2026-11-30",
+      "gps": [
+        46.42919,
+        11.34087
+      ]
+    },
+    {
+      "source": "bz",
       "id": "587708",
       "route": "LS/SP 29 — Passo Erbe",
       "niveau": "gene",
@@ -344,20 +358,6 @@
     },
     {
       "source": "bz",
-      "id": "3149312",
-      "route": "LS/SP126 — Cortaccia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Corona e Cortaccia (km 4,200 - km 4,800) senso unico alternato per lavori di scavo (anche nel fine settimana).",
-      "debut": "2026-10-05",
-      "fin": "2026-10-16",
-      "gps": [
-        46.31787,
-        11.20413
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3155412",
       "route": "LS/SP127 — Ora - Sella",
       "niveau": "gene",
@@ -368,20 +368,6 @@
       "gps": [
         46.35247,
         11.28829
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3152512",
-      "route": "LS/SP131 — S. Valentino in Campo",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A S. Valentino in Campo (km 3,000 - km 3,200) senso unico alternato dalle ore 07:00",
-      "debut": "2026-10-06",
-      "fin": "2026-10-16",
-      "gps": [
-        46.43783,
-        11.47605
       ]
     },
     {
@@ -466,20 +452,6 @@
       "gps": [
         46.50491,
         11.29388
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3147512",
-      "route": "LS/SP165 — Merano - Bolzano",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A San Maurizio (km 222,000 - km 222,600) senso unico alternato per la posa di tubazioni (anche nel fine settimana).",
-      "debut": "2026-09-24",
-      "fin": "2026-10-16",
-      "gps": [
-        46.50688,
-        11.28817
       ]
     },
     {
@@ -648,20 +620,6 @@
       "gps": [
         46.70253,
         11.93108
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3151212",
-      "route": "LS/SP44 — Anterselva",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Rasun di Sotto (km 0,150 - km 0,290) senso unico alternato dalle ore 08:00 alle ore 17:00 a causa di lavori.",
-      "debut": "2026-10-05",
-      "fin": "2026-10-16",
-      "gps": [
-        46.77654,
-        12.04439
       ]
     },
     {
@@ -974,20 +932,6 @@
     },
     {
       "source": "bz",
-      "id": "3045212",
-      "route": "SS242 — di Val Gardena e Passo Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Al di sopra di Ponte Gardena (km 1,400 - km 1,800) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori di consolidamento della roccia.",
-      "debut": "2026-10-12",
-      "fin": "2026-10-16",
-      "gps": [
-        46.59863,
-        11.54699
-      ]
-    },
-    {
-      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -998,20 +942,6 @@
       "gps": [
         46.64479,
         11.58281
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3085412",
-      "route": "SS243 — del Passo Gardena",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Corvara (km 14,584 - km 14,912) senso unico alternato per lavori di sostituzione barriera.",
-      "debut": "2026-10-07",
-      "fin": "2026-10-16",
-      "gps": [
-        46.5512,
-        11.86615
       ]
     },
     {
@@ -1128,7 +1058,7 @@
     },
     {
       "source": "bz",
-      "id": "3153301",
+      "id": "3153312",
       "route": "SS49 — della Pusteria",
       "niveau": "gene",
       "etat": "rallentamenti",
