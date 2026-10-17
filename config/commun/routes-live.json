@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-17T10:33Z",
+  "genere_le": "2026-10-17T11:45Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-17T12:04"
+      "maj": "2026-10-17T13:27"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -236,7 +236,7 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 6 km di coda per lavori.",
+      "texte": "In direzione nord tra Chiusa e Bressanone 4 km di coda per lavori.",
       "debut": "2026-10-17",
       "fin": "",
       "gps": [
@@ -298,20 +298,6 @@
       "gps": [
         46.50663,
         11.34593
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3138612",
-      "route": "Comune di Laives",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In via Galizia all’altezza del numero civico 14 senso unico alternato per lavori di scavo e la posa di cavidotti.",
-      "debut": "2026-11-01",
-      "fin": "2026-11-30",
-      "gps": [
-        46.42919,
-        11.34087
       ]
     },
     {

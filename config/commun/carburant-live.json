@@ -1,26 +1,27 @@
 {
-  "genere_le": "2026-10-16T12:43Z",
+  "genere_le": "2026-10-17T11:44Z",
   "rayon_km": 5,
   "note": "Stations à moins de 5 km du tracé du jour ou de la nuit, triées par prix du gazole. Italie : prix « self » (libre-service) quand il existe. Un prix de plus de 8 jours est écarté.",
   "sources": {
     "FR": {
       "libelle": "Flux instantané prix-carburants (data.economie.gouv.fr)",
       "url": "https://www.prix-carburants.gouv.fr/",
-      "releve": "2026-10-16T14:18:56+00:00"
+      "releve": "2026-10-17T13:15:00+00:00"
     },
     "IT": {
       "libelle": "Osservaprezzi carburanti (MIMIT), prix communiqués",
       "url": "https://carburanti.mise.gov.it/",
-      "extraction": "2026-10-15"
+      "extraction": "2026-10-15",
+      "perime": true
     }
   },
   "moyennes": {
     "FR": {
-      "gazole": 2.36,
+      "gazole": 2.363,
       "e10": 2.164,
-      "sp95": 2.228,
-      "n": 7639,
-      "date": "2026-10-16",
+      "sp95": 2.229,
+      "n": 7381,
+      "date": "2026-10-17",
       "perimetre": "toutes stations"
     },
     "IT": {
@@ -28,7 +29,8 @@
       "sp95": 2.034,
       "n": 19243,
       "date": "2026-10-15",
-      "perimetre": "libre-service hors autoroute"
+      "perimetre": "libre-service hors autoroute",
+      "perime": true
     }
   },
   "stations": {
@@ -1252,19 +1254,19 @@
           "km": 2.7
         },
         {
+          "id": "IT-62717",
+          "km": 0
+        },
+        {
+          "id": "IT-47200",
+          "km": 0
+        },
+        {
+          "id": "IT-3850",
+          "km": 0
+        },
+        {
           "id": "IT-3530",
-          "km": 0
-        },
-        {
-          "id": "IT-62759",
-          "km": 0
-        },
-        {
-          "id": "IT-62758",
-          "km": 0
-        },
-        {
-          "id": "IT-45903",
           "km": 0
         }
       ]
@@ -1398,11 +1400,11 @@
           "km": 0
         },
         {
-          "id": "IT-53567",
+          "id": "IT-38788",
           "km": 0
         },
         {
-          "id": "IT-38788",
+          "id": "IT-53567",
           "km": 0
         },
         {
@@ -1524,19 +1526,19 @@
           "km": 2.7
         },
         {
+          "id": "IT-62717",
+          "km": 0
+        },
+        {
+          "id": "IT-47200",
+          "km": 0
+        },
+        {
+          "id": "IT-3850",
+          "km": 0
+        },
+        {
           "id": "IT-3530",
-          "km": 0
-        },
-        {
-          "id": "IT-62759",
-          "km": 0
-        },
-        {
-          "id": "IT-62758",
-          "km": 0
-        },
-        {
-          "id": "IT-45903",
           "km": 0
         }
       ]
@@ -1670,11 +1672,11 @@
           "km": 0
         },
         {
-          "id": "IT-53567",
+          "id": "IT-27752",
           "km": 0.7
         },
         {
-          "id": "IT-27752",
+          "id": "IT-53567",
           "km": 0.7
         },
         {
@@ -1724,10 +1726,6 @@
           "km": 0.3
         },
         {
-          "id": "IT-56736",
-          "km": 0
-        },
-        {
           "id": "IT-52234",
           "km": 0
         },
@@ -1737,6 +1735,10 @@
         },
         {
           "id": "IT-35533",
+          "km": 0
+        },
+        {
+          "id": "IT-56736",
           "km": 0
         },
         {
@@ -1998,11 +2000,11 @@
           "km": 0
         },
         {
-          "id": "IT-53567",
+          "id": "IT-38788",
           "km": 0
         },
         {
-          "id": "IT-38788",
+          "id": "IT-53567",
           "km": 0
         },
         {
@@ -2196,7 +2198,7 @@
           "km": 0
         },
         {
-          "id": "IT-3935",
+          "id": "IT-3850",
           "km": 0
         }
       ]
@@ -2336,11 +2338,11 @@
           "km": 0
         },
         {
-          "id": "IT-53567",
+          "id": "IT-38788",
           "km": 0
         },
         {
-          "id": "IT-38788",
+          "id": "IT-53567",
           "km": 0
         },
         {
@@ -2654,7 +2656,7 @@
           "km": 0
         },
         {
-          "id": "IT-3935",
+          "id": "IT-3850",
           "km": 0
         }
       ]
@@ -2794,11 +2796,11 @@
           "km": 0
         },
         {
-          "id": "IT-53567",
+          "id": "IT-38788",
           "km": 0
         },
         {
-          "id": "IT-38788",
+          "id": "IT-53567",
           "km": 0
         },
         {
@@ -3172,7 +3174,7 @@
           "km": 0
         },
         {
-          "id": "IT-3935",
+          "id": "IT-3850",
           "km": 0
         }
       ]
