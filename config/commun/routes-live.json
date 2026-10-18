@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-17T20:30Z",
+  "genere_le": "2026-10-18T04:21Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-17"
+      "maj": "2026-10-18"
     }
   },
   "messages": [
@@ -620,20 +620,6 @@
       "gps": [
         46.70253,
         11.93108
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2961212",
-      "route": "LS/SP47 — Braies",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Braies (km 0,150 - km 0,515) senso unico alternato per lavori.",
-      "debut": "2026-10-08",
-      "fin": "2026-10-17",
-      "gps": [
-        46.73943,
-        12.13529
       ]
     },
     {
