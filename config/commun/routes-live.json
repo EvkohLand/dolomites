@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-18T04:21Z",
+  "genere_le": "2026-10-18T10:56Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-17T20:01"
+      "maj": "2026-10-18T12:32"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -228,6 +228,20 @@
       "gps": [
         46.77179,
         11.63658
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3157201",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bolzano Nord e Bressanone 8 km di coda per lavori.",
+      "debut": "2026-10-18",
+      "fin": "",
+      "gps": [
+        46.62405,
+        11.54807
       ]
     },
     {
@@ -526,6 +540,20 @@
     },
     {
       "source": "bz",
+      "id": "3062112",
+      "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "All’altezza di San Antonio (km 9,000 – km 9,750) senso unico alternato con chiusure temporanee fino a 10 minuti a causa di lavori di abbattimento alberi (anche il fine settimana).",
+      "debut": "2026-11-02",
+      "fin": "2026-11-13",
+      "gps": [
+        46.52883,
+        11.51174
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3124912",
       "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
       "niveau": "gene",
@@ -620,20 +648,6 @@
       "gps": [
         46.70253,
         11.93108
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3083701",
-      "route": "LS/SP47 — Braies",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A S. Vito (km 5,800 - km 6,200) CHIUSURA al traffico dalle ore 08:45 alle ore 09:30 per una processione.",
-      "debut": "2026-10-18",
-      "fin": "2026-10-18",
-      "gps": [
-        46.7139,
-        12.10134
       ]
     },
     {
@@ -872,6 +886,20 @@
       "gps": [
         46.44363,
         11.34325
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3157001",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e San Pietro Mezzomonte rallentamenti e code per traffico intenso. La coda arriva fino all’uscita autostradale di Chiusa.",
+      "debut": "2026-10-16",
+      "fin": "",
+      "gps": [
+        46.69121,
+        11.64008
       ]
     },
     {
