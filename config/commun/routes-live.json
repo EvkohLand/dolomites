@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-18T15:47Z",
+  "genere_le": "2026-10-18T20:34Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-18T17:41"
+      "maj": "2026-10-18T20:06"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -228,20 +228,6 @@
       "gps": [
         46.77179,
         11.63658
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3157201",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 4 km di coda per lavori.",
-      "debut": "2026-10-18",
-      "fin": "",
-      "gps": [
-        46.62405,
-        11.54807
       ]
     },
     {
@@ -1068,20 +1054,6 @@
       "gps": [
         46.73829,
         12.15609
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3158001",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Villabassa rallentamenti dopo un incidente.",
-      "debut": "2026-10-18",
-      "fin": "",
-      "gps": [
-        46.73656,
-        12.1606
       ]
     },
     {
