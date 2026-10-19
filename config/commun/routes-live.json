@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-19T04:31Z",
+  "genere_le": "2026-10-19T12:59Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-19T06:06"
+      "maj": "2026-10-19T14:31"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -362,7 +362,7 @@
       "route": "LS/SP127 — Ora - Sella",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Ad Ora (km 1,050 - km 1,200) senso unico alternato per impermeabilizzazione sul ponte (giorni feriali).",
+      "texte": "Ad Ora (km 1,050 - km 1,200) senso unico alternato per impermeabilizzazione sul ponte (anche nel fine settimana).",
       "debut": "2026-10-13",
       "fin": "2026-10-23",
       "gps": [
@@ -666,6 +666,20 @@
     },
     {
       "source": "bz",
+      "id": "3158512",
+      "route": "LS/SP64 — Castelrotto - Ortisei",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Roncadizza (km 10,970 - km 11,000) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori di messa in sicurezza.",
+      "debut": "2026-10-19",
+      "fin": "2026-10-23",
+      "gps": [
+        46.5711,
+        11.65133
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3156812",
       "route": "LS/SP65 — Tires",
       "niveau": "gene",
@@ -694,6 +708,20 @@
     },
     {
       "source": "bz",
+      "id": "3139912",
+      "route": "LS/SP72 — Aldino - Nova Ponente",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Nova Ponente (km 18,400 - km 19,100) senso unico alternato per lavori di asfaltatura (giorni feriali).",
+      "debut": "2026-10-19",
+      "fin": "2026-10-30",
+      "gps": [
+        46.40381,
+        11.45083
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3153612",
       "route": "LS/SP72 — Aldino - Nova Ponente",
       "niveau": "gene",
@@ -704,6 +732,20 @@
       "gps": [
         46.39189,
         11.4649
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3158312",
+      "route": "LS/SP72 — Aldino - Nova Ponente",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Nova Ponente nei pressi Ganischg (km 19,500 - km 20,000) senso unico alternato per il risanamento di un muro (anche nel fine settimana).",
+      "debut": "2026-10-20",
+      "fin": "2026-11-20",
+      "gps": [
+        46.39306,
+        11.45869
       ]
     },
     {
@@ -988,7 +1030,7 @@
     },
     {
       "source": "bz",
-      "id": "3156501",
+      "id": "3156512",
       "route": "SS42 — Passo Mendola",
       "niveau": "gene",
       "etat": "rallentamenti",
