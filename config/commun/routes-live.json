@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-18T20:34Z",
+  "genere_le": "2026-10-19T04:31Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-18T20:06"
+      "maj": "2026-10-19T06:06"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-18"
+      "maj": "2026-10-19"
     }
   },
   "messages": [
@@ -638,7 +638,7 @@
     },
     {
       "source": "bz",
-      "id": "2770901",
+      "id": "2770912",
       "route": "LS/SP55 — Monticolo",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -894,7 +894,7 @@
       "route": "SS241 — di Val d'Ega e Passo Costalunga",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da lunedì 19.10.2026: All’entrata valle nelle gallerie di Cornedo, Campegno e Contrada (km 0,000 - km 4,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 05:30 per lavori di manutenzione. La deviazione per veicoli fino a 12 m di lunghezza avviene attraverso Collepietra - San Valentino in Campo, per veicoli oltre 12 m di lunghezza attraverso Ora - Aldino.",
+      "texte": "All’entrata valle nelle gallerie di Cornedo, Campegno e Contrada (km 0,000 - km 4,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 05:30 per lavori di manutenzione. La deviazione per veicoli fino a 12 m di lunghezza avviene attraverso Collepietra - San Valentino in Campo, per veicoli oltre 12 m di lunghezza attraverso Ora - Aldino.",
       "debut": "2026-10-17",
       "fin": "2026-10-21",
       "gps": [
@@ -992,7 +992,7 @@
       "route": "SS42 — Passo Mendola",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Da lunedì 19.10.2026: A Bolzano altezza rotatoria per Frangarto (km 240,900 - km 241,100) senso unico alternato per lavori di asfaltatura.",
+      "texte": "A Bolzano all'altezza della rotatoria per Frangarto (km 240,900 - km 241,100) senso unico alternato per lavori di asfaltatura.",
       "debut": "2026-10-18",
       "fin": "2026-10-23",
       "gps": [
