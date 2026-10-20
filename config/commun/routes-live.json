@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-20T14:16Z",
+  "genere_le": "2026-10-20T19:10Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-20T16:11"
+      "maj": "2026-10-20T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,34 +218,6 @@
     },
     {
       "source": "bz",
-      "id": "3155501",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Fino a martedì 20.10.2026 - ore 17:00: In direzione sud tra Vipiteno e Bressanone Zona Industriale (km 37,553 - km 38,674) scambio di carreggiata a causa di lavori.",
-      "debut": "2026-10-13",
-      "fin": "2026-10-20",
-      "gps": [
-        46.77179,
-        11.63658
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3159201",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Egna e Bolzano sud 4 km di coda per traffico intenso.",
-      "debut": "2026-10-20",
-      "fin": "",
-      "gps": [
-        46.33296,
-        11.2762
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3159301",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "fermeture",
@@ -340,6 +312,20 @@
       "gps": [
         46.42919,
         11.34087
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "704201",
+      "route": "Comune di Laives",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Per la manifestazione sportiva \"AGE FACTOR RUN - MEMORIAL ANDREA ISOPPO“ dalle ore 14:45 fino alle ore 17:00 ci sono chiusure temporanee sul seguente tratto: Bronzolo - Laives - Vadena - Bronzolo.",
+      "debut": "2026-10-24",
+      "fin": "2026-10-24",
+      "gps": [
+        46.42062,
+        11.33051
       ]
     },
     {
