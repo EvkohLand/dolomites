@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-19T20:33Z",
+  "genere_le": "2026-10-20T00:16Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-19"
+      "maj": "2026-10-20"
     }
   },
   "messages": [
@@ -1096,20 +1096,6 @@
       "gps": [
         46.73829,
         12.15609
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3142312",
-      "route": "SS620 — del Passo di Lavazè",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Novale (km 6,050 - km 6,150) senso unico alternato per il risanamento del ponte (anche nel fine settimana).",
-      "debut": "2026-09-28",
-      "fin": "2026-10-19",
-      "gps": [
-        46.38458,
-        11.49692
       ]
     }
   ],
