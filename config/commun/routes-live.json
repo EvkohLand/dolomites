@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-20T00:16Z",
+  "genere_le": "2026-10-20T08:25Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-19T20:03"
+      "maj": "2026-10-20T10:20"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -232,6 +232,20 @@
     },
     {
       "source": "bz",
+      "id": "3159201",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Egna e Bolzano sud 2 km di coda dopo un incidente.",
+      "debut": "2026-10-20",
+      "fin": "",
+      "gps": [
+        46.33296,
+        11.2762
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -256,6 +270,20 @@
       "gps": [
         46.4919,
         11.34462
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "1709701",
+      "route": "Comune di Brunico",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Il 26., 27., 28., e 29.10.2026 si svolge la tradizionale fiera di Stegona. È previsto traffico molto intenso, soprattutto nei pressi dell`entrata di Brunico Ovest temporaneamente si possono verificare rallentamenti e code. Nel comune di Brunico fino alle ore 10:00 del 29.10.2026 sono CHIUSE al traffico le seguenti strade e piazze: piazza Mercato di Stegona, via Stegona dal sottopassaggio…",
+      "debut": "2026-10-25",
+      "fin": "2026-10-29",
+      "gps": [
+        46.79606,
+        11.93081
       ]
     },
     {
@@ -382,6 +410,20 @@
       "gps": [
         46.42919,
         11.49347
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3100212",
+      "route": "LS/SP133 — Cornedo all'Isarco",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Cardano (km 0,500 - km 0,750)´senso unico alternato per lavor.",
+      "debut": "2026-10-20",
+      "fin": "2026-11-27",
+      "gps": [
+        46.4925,
+        11.39517
       ]
     },
     {
@@ -666,6 +708,20 @@
     },
     {
       "source": "bz",
+      "id": "3159101",
+      "route": "LS/SP62Racc — Laimburg Racc.",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "As Ora (km 417,000 - km 418,000) CHIUSURA al traffico per lavori di asfaltatura.",
+      "debut": "2026-11-02",
+      "fin": "2026-11-06",
+      "gps": [
+        46.33844,
+        11.28435
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3158512",
       "route": "LS/SP64 — Castelrotto - Ortisei",
       "niveau": "gene",
@@ -676,6 +732,20 @@
       "gps": [
         46.5711,
         11.65133
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3089312",
+      "route": "LS/SP65 — Tires",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra il Passo Nigra e il Lago Carezza (km 24,500 - 29,700) a tratti senso unico alternato per lavori di asfaltatura (anche il fine settimana).",
+      "debut": "2026-10-19",
+      "fin": "2026-11-20",
+      "gps": [
+        46.44052,
+        11.58899
       ]
     },
     {
@@ -1030,7 +1100,7 @@
     },
     {
       "source": "bz",
-      "id": "3156512",
+      "id": "3156501",
       "route": "SS42 — Passo Mendola",
       "niveau": "gene",
       "etat": "rallentamenti",
