@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-20T08:25Z",
+  "genere_le": "2026-10-20T12:58Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-20T10:20"
+      "maj": "2026-10-20T14:42"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -236,12 +236,26 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Egna e Bolzano sud 2 km di coda dopo un incidente.",
+      "texte": "In direzione nord tra Egna e Bolzano sud 2 km di coda per traffico intenso.",
       "debut": "2026-10-20",
       "fin": "",
       "gps": [
         46.33296,
         11.2762
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3159301",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l’entrata Bolzano Sud è CHIUSA al traffico dalle ore 21:00 alle ore 06:00 per lavori.",
+      "debut": "2026-10-20",
+      "fin": "2026-10-21",
+      "gps": [
+        46.47588,
+        11.3173
       ]
     },
     {

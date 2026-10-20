@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-19T14:57Z",
+  "genere_le": "2026-10-20T12:57Z",
   "rayon_km": 5,
   "note": "Stations à moins de 5 km du tracé du jour ou de la nuit, triées par prix du gazole. Italie : prix « self » (libre-service) quand il existe. Un prix de plus de 8 jours est écarté.",
   "sources": {
     "FR": {
       "libelle": "Flux instantané prix-carburants (data.economie.gouv.fr)",
       "url": "https://www.prix-carburants.gouv.fr/",
-      "releve": "2026-10-19T16:28:42+00:00"
+      "releve": "2026-10-20T14:25:18+00:00"
     },
     "IT": {
       "libelle": "Osservaprezzi carburanti (MIMIT), prix communiqués",
@@ -17,11 +17,11 @@
   },
   "moyennes": {
     "FR": {
-      "gazole": 2.366,
-      "e10": 2.167,
-      "sp95": 2.223,
-      "n": 7214,
-      "date": "2026-10-19",
+      "gazole": 2.363,
+      "e10": 2.155,
+      "sp95": 2.214,
+      "n": 7297,
+      "date": "2026-10-20",
       "perimetre": "toutes stations"
     },
     "IT": {
