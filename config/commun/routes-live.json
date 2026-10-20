@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-20T12:58Z",
+  "genere_le": "2026-10-20T14:16Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-20T14:42"
+      "maj": "2026-10-20T16:11"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -236,7 +236,7 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Egna e Bolzano sud 2 km di coda per traffico intenso.",
+      "texte": "In direzione nord tra Egna e Bolzano sud 4 km di coda per traffico intenso.",
       "debut": "2026-10-20",
       "fin": "",
       "gps": [
