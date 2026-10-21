@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-21T13:13Z",
+  "genere_le": "2026-10-21T17:06Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-21T15:06"
+      "maj": "2026-10-21T18:41"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -246,20 +246,6 @@
     },
     {
       "source": "bz",
-      "id": "3159001",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 2 km di coda a causa di lavori.",
-      "debut": "2026-10-21",
-      "fin": "",
-      "gps": [
-        46.73752,
-        11.6393
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3159701",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "fermeture",
@@ -442,6 +428,20 @@
     },
     {
       "source": "bz",
+      "id": "3128612",
+      "route": "LS/SP127 — Ora - Sella",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Ora e Sella (km 1,200 - km 1,260) senso unico alternato dalle ore 08:00 alle ore 17:00 per posa fibra ottica.",
+      "debut": "2026-10-21",
+      "fin": "2026-10-30",
+      "gps": [
+        46.35492,
+        11.28328
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3155412",
       "route": "LS/SP127 — Ora - Sella",
       "niveau": "gene",
@@ -554,6 +554,20 @@
     },
     {
       "source": "bz",
+      "id": "2792512",
+      "route": "LS/SP172 — Ischia Frizzi",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Bolzano (km 0,800 - km 0,850; km 1,400 - km 1,800) senso unico alternato dalle ore 08:00 alle ore 17:00 per posa fibra ottica (giorni feriali).",
+      "debut": "2026-10-26",
+      "fin": "2026-11-06",
+      "gps": [
+        46.46586,
+        11.30606
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2938901",
       "route": "LS/SP174 — Rina - Antermoja",
       "niveau": "fermeture",
@@ -642,7 +656,7 @@
       "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "A Fiè (km 6,430 - km 6,570) senso unico alternato per la costruzione di una nuova fermata bus (anche il fine settimana).",
+      "texte": "A Fiè (km 6,430 - km 6,570) senso unico alternato per la costruzione di una nuova fermata bus (anche nel fine settimana).",
       "debut": "2026-10-20",
       "fin": "2026-11-30",
       "gps": [
@@ -1030,6 +1044,20 @@
     },
     {
       "source": "bz",
+      "id": "2999101",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nelle gallerie S. Daniele e Castelfeder (km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori di asfaltatura. Il traffico viene deviato per Ora.",
+      "debut": "2026-10-27",
+      "fin": "2026-10-29",
+      "gps": [
+        46.3403,
+        11.29328
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1086,16 +1114,16 @@
     },
     {
       "source": "bz",
-      "id": "3140301",
-      "route": "SS241 — di Val d'Ega e Passo Costalunga",
+      "id": "591101",
+      "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "All’entrata valle nelle gallerie di Cornedo, Campegno e Contrada (km 0,000 - km 4,000) CHIUSURA NOTTURNA dalle ore 22:30 alle ore 05:30 per lavori di manutenzione. La deviazione per veicoli fino a 12 m di lunghezza avviene attraverso Collepietra - San Valentino in Campo, per veicoli oltre 12 m di lunghezza attraverso Ora - Aldino.",
-      "debut": "2026-10-17",
-      "fin": "2026-10-21",
+      "texte": "Nella galleria di San Giacomo CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso San Giacomo.",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
       "gps": [
-        46.48931,
-        11.40347
+        46.46046,
+        11.34001
       ]
     },
     {
