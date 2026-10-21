@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-21T04:35Z",
+  "genere_le": "2026-10-21T11:40Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-20T20:00"
+      "maj": "2026-10-21T13:25"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,16 +218,44 @@
     },
     {
       "source": "bz",
-      "id": "3159301",
+      "id": "3123801",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "In direzione sud l’entrata Bolzano Sud è CHIUSA al traffico dalle ore 21:00 alle ore 06:00 per lavori.",
-      "debut": "2026-10-20",
-      "fin": "2026-10-21",
+      "texte": "In direzione sud l'entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 19:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-10-21",
+      "fin": "2026-10-22",
       "gps": [
-        46.47588,
-        11.3173
+        46.76489,
+        11.63791
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3155501",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Fino a giovedì 22.10.2026 - ore 17:00: In direzione sud tra Vipiteno e Bressanone Zona Industriale (km 37,553 - km 38,674) scambio di carreggiata per il cantiere della Valle di Riga.",
+      "debut": "2026-10-13",
+      "fin": "2026-10-22",
+      "gps": [
+        46.77179,
+        11.63658
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3159001",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone 2 km di coda a causa di lavori.",
+      "debut": "2026-10-21",
+      "fin": "",
+      "gps": [
+        46.73752,
+        11.6393
       ]
     },
     {
@@ -242,6 +270,20 @@
       "gps": [
         46.49305,
         11.35468
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3077512",
+      "route": "Comune di Bolzano",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "La via San Maurizio nel tratto tra la rotonda Largo Donatori del Sangue e Via Merano è CHIUSA al traffico per lavori (giorni feriali).",
+      "debut": "2026-10-02",
+      "fin": "2026-11-27",
+      "gps": [
+        46.50186,
+        11.31184
       ]
     },
     {
@@ -498,6 +540,20 @@
     },
     {
       "source": "bz",
+      "id": "2938901",
+      "route": "LS/SP174 — Rina - Antermoja",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Rina (km 0,000 - km 0,330) CHIUSURA dalle ore 08:00 alle ore 17:00 per lavori di asfaltatura.",
+      "debut": "2026-10-23",
+      "fin": "2026-10-26",
+      "gps": [
+        46.7138,
+        11.87816
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3087401",
       "route": "LS/SP174 — Rina - Antermoja",
       "niveau": "fermeture",
@@ -564,6 +620,20 @@
       "gps": [
         46.53809,
         11.55018
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3062012",
+      "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Fiè (km 6,430 - km 6,570) senso unico alternato per la costruzione di una nuova fermata bus.",
+      "debut": "2026-10-20",
+      "fin": "2026-11-30",
+      "gps": [
+        46.50809,
+        11.51002
       ]
     },
     {
@@ -840,7 +910,7 @@
       "etat": "rallentamenti",
       "texte": "Ad Auna di Sotto (km 10,150 - km 10,250) senso unico alternato dalle ore 08:00 alle ore 18:00 per lavori di asfaltatura.",
       "debut": "2026-10-15",
-      "fin": "2026-10-21",
+      "fin": "2026-10-24",
       "gps": [
         46.4979,
         11.38494
@@ -1152,20 +1222,6 @@
       "gps": [
         46.79192,
         11.99402
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3153312",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Villabassa (km 53,650 - km 57,100) il traffico in direzione Bressanone dalle ore 07:00 alle ore 17:00 viene deviato localmente per Villabassa attraverso la SC 28.38 e la SC 113.23 per lavori di manutenzione straordinari dei percorsi di servizio della circonvallazione (giorni feriali).",
-      "debut": "2026-10-12",
-      "fin": "2026-10-20",
-      "gps": [
-        46.73829,
-        12.15609
       ]
     }
   ],
