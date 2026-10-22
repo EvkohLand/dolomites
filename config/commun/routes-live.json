@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-22T13:11Z",
+  "genere_le": "2026-10-22T17:05Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-22T15:09"
+      "maj": "2026-10-22T18:44"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -222,12 +222,26 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "In direzione sud l'entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 20:00 alle ore 06:00 a causa di lavori.",
+      "texte": "In direzione nord l'entrata di Bolzano Nord è CHIUSA al traffico dalle ore 21:00 alle ore 06:00 a causa di lavori.",
       "debut": "2026-10-22",
       "fin": "2026-10-23",
       "gps": [
-        46.76489,
-        11.63791
+        46.49449,
+        11.40832
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3145301",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione nord il tratto Trento Sud - Trento Nord è CHIUSO al traffico dalle ore 22:00 alle ore 05:00 per lavori.",
+      "debut": "2026-10-22",
+      "fin": "2026-10-23",
+      "gps": [
+        45.91564,
+        11.03815
       ]
     },
     {
@@ -242,6 +256,20 @@
       "gps": [
         46.77179,
         11.63658
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3159001",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone coda di mezzi pesanti a causa di lavori.",
+      "debut": "2026-10-22",
+      "fin": "",
+      "gps": [
+        46.73752,
+        11.6393
       ]
     },
     {
