@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-21T21:35Z",
+  "genere_le": "2026-10-22T04:33Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-21T20:00"
+      "maj": "2026-10-22T06:30"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-21"
+      "maj": "2026-10-22"
     }
   },
   "messages": [
@@ -218,20 +218,6 @@
     },
     {
       "source": "bz",
-      "id": "3123801",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione sud l'entrata di Bressanone/Varna è CHIUSA al traffico dalle ore 19:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-21",
-      "fin": "2026-10-22",
-      "gps": [
-        46.76489,
-        11.63791
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3155501",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
@@ -242,20 +228,6 @@
       "gps": [
         46.77179,
         11.63658
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3159701",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione sud il tratto San Michele - Trento Nord è CHIUSO al traffico dalle ore 22:00 alle ore 05:00 a causa di lavori.",
-      "debut": "2026-10-21",
-      "fin": "2026-10-22",
-      "gps": [
-        46.19974,
-        11.13187
       ]
     },
     {
@@ -1086,20 +1058,6 @@
     },
     {
       "source": "bz",
-      "id": "3153101",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-10-20",
-      "fin": "2026-10-22",
-      "gps": [
-        46.44363,
-        11.34325
-      ]
-    },
-    {
-      "source": "bz",
       "id": "578712",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1212,20 +1170,6 @@
     },
     {
       "source": "bz",
-      "id": "3156501",
-      "route": "SS42 — Passo Mendola",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Bolzano all'altezza della rotatoria per Frangarto (km 240,900 - km 241,100) senso unico alternato per lavori di asfaltatura.",
-      "debut": "2026-10-18",
-      "fin": "2026-10-23",
-      "gps": [
-        46.48858,
-        11.3003
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2822101",
       "route": "SS48 — delle Dolomiti",
       "niveau": "fermeture",
@@ -1240,7 +1184,7 @@
     },
     {
       "source": "bz",
-      "id": "2781201",
+      "id": "2781212",
       "route": "SS49 — della Pusteria",
       "niveau": "gene",
       "etat": "rallentamenti",
