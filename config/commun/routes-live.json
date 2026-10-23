@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-23T16:59Z",
+  "genere_le": "2026-10-23T21:20Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-23T18:34"
+      "maj": "2026-10-23T20:06"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,20 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "609401",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l´uscita di Ala/Avio é CHIUSO al traffico dalle ore 20:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-10-23",
+      "fin": "2026-10-24",
+      "gps": [
+        45.74421,
+        10.97554
       ]
     },
     {
