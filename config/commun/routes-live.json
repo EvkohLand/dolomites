@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-22T21:29Z",
+  "genere_le": "2026-10-23T04:39Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-22T20:00"
+      "maj": "2026-10-23T06:07"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-22"
+      "maj": "2026-10-23"
     }
   },
   "messages": [
@@ -214,48 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3123801",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione nord l'entrata di Bolzano Nord è CHIUSA al traffico dalle ore 21:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-22",
-      "fin": "2026-10-23",
-      "gps": [
-        46.49449,
-        11.40832
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3145301",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione nord il tratto Trento Sud - Trento Nord è CHIUSO al traffico dalle ore 22:00 alle ore 05:00 per lavori.",
-      "debut": "2026-10-22",
-      "fin": "2026-10-23",
-      "gps": [
-        45.91564,
-        11.03815
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3155501",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Fino a venerdì 23.10.2026 - ore 12:00: In direzione sud tra Vipiteno e Bressanone Zona Industriale (km 37,553 - km 38,674) scambio di carreggiata per il cantiere della Valle di Riga.",
-      "debut": "2026-10-13",
-      "fin": "2026-10-22",
-      "gps": [
-        46.77179,
-        11.63658
       ]
     },
     {
@@ -974,6 +932,20 @@
     },
     {
       "source": "bz",
+      "id": "2709601",
+      "route": "LS/SP74 — Chiusa - Velturno - Bressanone",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Velturno la SP 74 Chiusa - Velturno (km 4,000 - km 4,200) e la SP 142 Velturno - Latzfons (km 0,000 - km 0,300) sono CHIUSE al traffico dalle ore 08:00 alle ore 18:00 per la manifestazione “Keschtnigl”. Il traffico viene deviato localmente.",
+      "debut": "2026-11-07",
+      "fin": "2026-11-08",
+      "gps": [
+        46.66813,
+        11.59856
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3014212",
       "route": "LS/SP76 — Obereggen",
       "niveau": "gene",
@@ -1026,20 +998,6 @@
       "gps": [
         46.3403,
         11.29328
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2881701",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Sulla circonvallazione ovest di Bressanone (km 477,300 - km 482,200) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:30 per lavori di manutenzione nella galleria. Deviazione attraverso Bressanone.",
-      "debut": "2026-10-21",
-      "fin": "2026-10-23",
-      "gps": [
-        46.70699,
-        11.6489
       ]
     },
     {
