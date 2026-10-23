@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-23T04:39Z",
+  "genere_le": "2026-10-23T11:30Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-23T06:07"
+      "maj": "2026-10-23T12:54"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -228,6 +228,20 @@
       "gps": [
         46.49305,
         11.35468
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3028001",
+      "route": "Comune di Bolzano",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "La via Campegno (SC Bolzano-Colle) è CHIUSA al traffico dalle ore 08:30 alle ore 10:30 per lavori di asfaltatura.",
+      "debut": "2026-10-28",
+      "fin": "2026-10-30",
+      "gps": [
+        46.49103,
+        11.3685
       ]
     },
     {
@@ -545,7 +559,7 @@
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "A Rina (km 0,000 - km 0,330) CHIUSURA dalle ore 08:00 alle ore 17:00 per lavori di asfaltatura.",
-      "debut": "2026-10-23",
+      "debut": "2026-10-26",
       "fin": "2026-10-26",
       "gps": [
         46.7138,
@@ -770,7 +784,7 @@
       "etat": "traffico bloccato",
       "texte": "Tra Sares e Marebbe (km 0,500 - km 3,500) CHIUSURA per la posa di sottoservizi.",
       "debut": "2026-09-28",
-      "fin": "2026-10-30",
+      "fin": "2026-11-06",
       "gps": [
         46.77023,
         11.87374
@@ -1054,6 +1068,20 @@
       "gps": [
         46.4905,
         11.35088
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3153101",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
+      "gps": [
+        46.44363,
+        11.34325
       ]
     },
     {
