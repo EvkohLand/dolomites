@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-23T11:30Z",
+  "genere_le": "2026-10-23T12:51Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-23T12:54"
+      "maj": "2026-10-23T14:43"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,20 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3042401",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Trento Nord und Trient Süd 2 km di coda per una macchina in panne.",
+      "debut": "2026-10-23",
+      "fin": "",
+      "gps": [
+        45.74651,
+        10.98106
       ]
     },
     {
@@ -946,20 +960,6 @@
     },
     {
       "source": "bz",
-      "id": "2709601",
-      "route": "LS/SP74 — Chiusa - Velturno - Bressanone",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Velturno la SP 74 Chiusa - Velturno (km 4,000 - km 4,200) e la SP 142 Velturno - Latzfons (km 0,000 - km 0,300) sono CHIUSE al traffico dalle ore 08:00 alle ore 18:00 per la manifestazione “Keschtnigl”. Il traffico viene deviato localmente.",
-      "debut": "2026-11-07",
-      "fin": "2026-11-08",
-      "gps": [
-        46.66813,
-        11.59856
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3014212",
       "route": "LS/SP76 — Obereggen",
       "niveau": "gene",
@@ -1012,6 +1012,20 @@
       "gps": [
         46.3403,
         11.29328
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2881701",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Sulla circonvallazione ovest di Bressanone (km 477,300 - km 482,200) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:30 per lavori di manutenzione nella galleria. Deviazione attraverso Bressanone.",
+      "debut": "2026-10-21",
+      "fin": "2026-10-23",
+      "gps": [
+        46.70699,
+        11.6489
       ]
     },
     {
