@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-24T04:28Z",
+  "genere_le": "2026-10-24T10:50Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-24T06:13"
+      "maj": "2026-10-24T12:20"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -558,7 +558,7 @@
       "route": "LS/SP174 — Rina - Antermoja",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Tra Rina e Antermoia (km 0,550 - km 5,233) dalle ore 08:00 di sabato 24.10.2026 fino alle ore 18:00 di domenica 24.10.2026 CHIUSURA al traffico per veicoli con massa complessiva sopra 3,5 t per la chiusura della SS 244 Val Badia e l’allestimento di una deviazione.",
+      "texte": "Tra Rina e Antermoia (km 0,550 - km 5,233) fino alle ore 18:00 di domenica 25.10.2026 CHIUSURA al traffico per veicoli con massa complessiva sopra 3,5 t per la chiusura della SS 244 Val Badia e l’allestimento di una deviazione.",
       "debut": "2026-10-22",
       "fin": "2026-10-25",
       "gps": [
@@ -1090,7 +1090,7 @@
       "route": "SS244 — di Val Badia",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Tra Longega e Piccolino (km 10,000 - km 13,500) CHIUSURA al traffico dalle ore 08:00 di sabato 24.10.2026 fino alle ore 18:00 di domenica 25.10.2026 per lavori di taglio alberi. Il traffico leggero fino a 3,5 t viene deviato attraverso la SP 128 Longega - Rina, la SP 174 Rina - Antermoia e la SP 29 Eores - S. Martino in Badia. Per il traffico pesante non c’è nessuna deviazione in loco. Nella…",
+      "texte": "Tra Longega e Piccolino (km 10,000 - km 13,500) CHIUSURA al traffico fino alle ore 18:00 di domenica 25.10.2026 per lavori di taglio alberi. Il traffico leggero fino a 3,5 t viene deviato attraverso la SP 128 Longega - Rina, la SP 174 Rina - Antermoia e la SP 29 Eores - S. Martino in Badia. Per il traffico pesante non c’è nessuna deviazione in loco. Nella stessa fascia sulla SP 174…",
       "debut": "2026-10-22",
       "fin": "2026-10-25",
       "gps": [
