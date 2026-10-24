@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-24T12:13Z",
+  "genere_le": "2026-10-24T15:51Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-24T13:25"
+      "maj": "2026-10-24T17:43"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,6 +218,20 @@
     },
     {
       "source": "bz",
+      "id": "2896701",
+      "route": "Comune di Badia",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Sulla SS 244 Val Badia a Badia CHIUSURA al traffico dalle ore 10:30 alle ore 12:30 circa per la manifestazione \"Cavalcata di S. Leonardo\".",
+      "debut": "2026-11-08",
+      "fin": "2026-11-08",
+      "gps": [
+        46.60413,
+        11.89402
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2918412",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -265,8 +279,8 @@
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Per la partita di calcio del F.C. Südtirol viale Trieste e via Trento vengono CHIUSI al traffico dalle ore 12:00 ca fino alla fine della partita. Anche la pista ciclabile nella zona retrostante dello Stadio Druso viene CHIUSA.",
-      "debut": "2026-10-24",
-      "fin": "2026-10-24",
+      "debut": "2026-10-31",
+      "fin": "2026-10-31",
       "gps": [
         46.4919,
         11.34462
@@ -326,20 +340,6 @@
       "gps": [
         46.42919,
         11.34087
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "704201",
-      "route": "Comune di Laives",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Per la manifestazione sportiva \"AGE FACTOR RUN - MEMORIAL ANDREA ISOPPO“ dalle ore 14:45 fino alle ore 17:00 ci sono chiusure temporanee sul seguente tratto: Bronzolo - Laives - Vadena - Bronzolo.",
-      "debut": "2026-10-24",
-      "fin": "2026-10-24",
-      "gps": [
-        46.42062,
-        11.33051
       ]
     },
     {
@@ -1082,6 +1082,20 @@
       "gps": [
         46.71955,
         11.88821
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2892801",
+      "route": "SS244 — di Val Badia",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In Badia dalla Cassa Raiffeisen di Pedraces/Badia fino all’altezza del parcheggio Sponata ( km 25,180 - km 26,500) CHIUSURA dalle ore 10.30 alle ore 11.30 in occasione della manifestazione “Leonardiritt”.",
+      "debut": "2026-11-08",
+      "fin": "2026-11-08",
+      "gps": [
+        46.61021,
+        11.89363
       ]
     },
     {
