@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-24T10:50Z",
+  "genere_le": "2026-10-24T12:13Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-24T12:20"
+      "maj": "2026-10-24T13:25"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,20 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2896701",
-      "route": "Comune di Badia",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Sulla SS 244 Val Badia a Badia CHIUSURA al traffico dalle ore 10:30 alle ore 12:30 circa per la manifestazione \"Cavalcata di S. Leonardo\".",
-      "debut": "2026-11-08",
-      "fin": "2026-11-08",
-      "gps": [
-        46.60413,
-        11.89402
       ]
     },
     {
@@ -1096,20 +1082,6 @@
       "gps": [
         46.71955,
         11.88821
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2892801",
-      "route": "SS244 — di Val Badia",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In Badia dalla Cassa Raiffeisen di Pedraces/Badia fino all’altezza del parcheggio Sponata ( km 25,180 - km 26,500) CHIUSURA dalle ore 10.30 alle ore 11.30 in occasione della manifestazione “Leonardiritt”.",
-      "debut": "2026-11-08",
-      "fin": "2026-11-08",
-      "gps": [
-        46.61021,
-        11.89363
       ]
     },
     {
