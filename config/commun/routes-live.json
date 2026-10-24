@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-23T21:20Z",
+  "genere_le": "2026-10-24T04:28Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-23T20:06"
+      "maj": "2026-10-24T06:13"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-23"
+      "maj": "2026-10-24"
     }
   },
   "messages": [
@@ -218,16 +218,16 @@
     },
     {
       "source": "bz",
-      "id": "609401",
-      "route": "A22 — Autostrada del Brennero",
+      "id": "2896701",
+      "route": "Comune di Badia",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "In direzione sud l´uscita di Ala/Avio é CHIUSO al traffico dalle ore 20:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-23",
-      "fin": "2026-10-24",
+      "texte": "Sulla SS 244 Val Badia a Badia CHIUSURA al traffico dalle ore 10:30 alle ore 12:30 circa per la manifestazione \"Cavalcata di S. Leonardo\".",
+      "debut": "2026-11-08",
+      "fin": "2026-11-08",
       "gps": [
-        45.74421,
-        10.97554
+        46.60413,
+        11.89402
       ]
     },
     {
@@ -428,20 +428,6 @@
     },
     {
       "source": "bz",
-      "id": "3155412",
-      "route": "LS/SP127 — Ora - Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Ad Ora (km 1,050 - km 1,200) senso unico alternato per impermeabilizzazione sul ponte (anche nel fine settimana).",
-      "debut": "2026-10-13",
-      "fin": "2026-10-23",
-      "gps": [
-        46.35247,
-        11.28829
-      ]
-    },
-    {
-      "source": "bz",
       "id": "702612",
       "route": "LS/SP131 — S. Valentino in Campo",
       "niveau": "gene",
@@ -484,20 +470,6 @@
     },
     {
       "source": "bz",
-      "id": "619512",
-      "route": "LS/SP133 — Cornedo all'Isarco",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A S. Vito (km 3,500 - km 3,510) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori posa tubazioni (giorni feriali).",
-      "debut": "2026-10-12",
-      "fin": "2026-10-23",
-      "gps": [
-        46.48536,
-        11.40233
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3074212",
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "gene",
@@ -512,11 +484,11 @@
     },
     {
       "source": "bz",
-      "id": "696601",
+      "id": "696612",
       "route": "LS/SP160 — Predonico",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "A Appiano Monte (km 2,300 - km 2,500) senso unico alternato dalle ore 10:00 alle ore 18:00 per una manifestazione.",
+      "texte": "Ad Appiano Monte (km 2,300 - km 2,500) senso unico alternato dalle ore 10:00 alle ore 18:00 per una manifestazione.",
       "debut": "2026-10-24",
       "fin": "2026-10-25",
       "gps": [
@@ -778,20 +750,6 @@
     },
     {
       "source": "bz",
-      "id": "2770912",
-      "route": "LS/SP55 — Monticolo",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Monticolo (km 3,500 - km 4,000) senso unico alternato a causa di lavori.",
-      "debut": "2026-10-19",
-      "fin": "2026-10-23",
-      "gps": [
-        46.42837,
-        11.28225
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3080012",
       "route": "LS/SP56 — Sares",
       "niveau": "fermeture",
@@ -816,20 +774,6 @@
       "gps": [
         46.33844,
         11.28435
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3158512",
-      "route": "LS/SP64 — Castelrotto - Ortisei",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Roncadizza (km 10,970 - km 11,000) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori di messa in sicurezza.",
-      "debut": "2026-10-19",
-      "fin": "2026-10-23",
-      "gps": [
-        46.5711,
-        11.65133
       ]
     },
     {
@@ -942,20 +886,6 @@
       "gps": [
         46.4979,
         11.38494
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3153912",
-      "route": "LS/SP73 — Renon",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Mittelberg (km 18,020 - km 18,210) senso unico alternato per lavori (giorni feriali).",
-      "debut": "2026-10-08",
-      "fin": "2026-10-23",
-      "gps": [
-        46.5538,
-        11.47746
       ]
     },
     {
@@ -1166,6 +1096,20 @@
       "gps": [
         46.71955,
         11.88821
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2892801",
+      "route": "SS244 — di Val Badia",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In Badia dalla Cassa Raiffeisen di Pedraces/Badia fino all’altezza del parcheggio Sponata ( km 25,180 - km 26,500) CHIUSURA dalle ore 10.30 alle ore 11.30 in occasione della manifestazione “Leonardiritt”.",
+      "debut": "2026-11-08",
+      "fin": "2026-11-08",
+      "gps": [
+        46.61021,
+        11.89363
       ]
     },
     {
