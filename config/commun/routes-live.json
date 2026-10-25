@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-24T20:42Z",
+  "genere_le": "2026-10-25T04:32Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-24"
+      "maj": "2026-10-25"
     }
   },
   "messages": [
@@ -694,20 +694,6 @@
     },
     {
       "source": "bz",
-      "id": "2857908",
-      "route": "LS/SP37 — S. Cassiano",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Sciaré e il confine provinciale (km 8,500 - km 10,200) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori conclusivi. Non c’è una deviazione.",
-      "debut": "2026-10-07",
-      "fin": "2026-10-24",
-      "gps": [
-        46.5534,
-        11.97704
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3137712",
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "gene",
@@ -858,20 +844,6 @@
       "gps": [
         46.53791,
         11.45065
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3121112",
-      "route": "LS/SP73 — Renon",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Ad Auna di Sotto (km 10,150 - km 10,250) senso unico alternato dalle ore 08:00 alle ore 18:00 per lavori di asfaltatura.",
-      "debut": "2026-10-15",
-      "fin": "2026-10-24",
-      "gps": [
-        46.4979,
-        11.38494
       ]
     },
     {
