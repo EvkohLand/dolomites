@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-25T20:45Z",
+  "genere_le": "2026-10-26T04:37Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-25"
+      "maj": "2026-10-26"
     }
   },
   "messages": [
@@ -466,20 +466,6 @@
       "gps": [
         46.60924,
         11.56587
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "696612",
-      "route": "LS/SP160 — Predonico",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Ad Appiano Monte (km 2,300 - km 2,500) senso unico alternato dalle ore 10:00 alle ore 18:00 per una manifestazione.",
-      "debut": "2026-10-24",
-      "fin": "2026-10-25",
-      "gps": [
-        46.46741,
-        11.24323
       ]
     },
     {
