@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-26T14:33Z",
+  "genere_le": "2026-10-26T20:26Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-26T14:51"
+      "maj": "2026-10-26T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -554,20 +554,6 @@
     },
     {
       "source": "bz",
-      "id": "2938901",
-      "route": "LS/SP174 — Rina - Antermoja",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Rina (km 0,000 - km 0,330) CHIUSURA dalle ore 08:00 alle ore 17:00 per lavori di asfaltatura.",
-      "debut": "2026-10-26",
-      "fin": "2026-10-26",
-      "gps": [
-        46.7138,
-        11.87816
-      ]
-    },
-    {
-      "source": "bz",
       "id": "647512",
       "route": "LS/SP184 — Vandoies di sotto",
       "niveau": "gene",
@@ -904,6 +890,20 @@
     },
     {
       "source": "bz",
+      "id": "3160801",
+      "route": "LS/SP76 — Obereggen",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Da lunedì 02.11.2026: A Ega (km 2,700 - km 3,000) CHIUSURA al traffico per la posa di condutture (anche nel fine settimana). La deviazione avviene attraverso la SS 620 Passo Lavazè.",
+      "debut": "2026-11-01",
+      "fin": "2026-11-14",
+      "gps": [
+        46.40132,
+        11.51644
+      ]
+    },
+    {
+      "source": "bz",
       "id": "572708",
       "route": "SS 48 — Passo Falzarego",
       "niveau": "gene",
@@ -960,6 +960,20 @@
     },
     {
       "source": "bz",
+      "id": "3133801",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Martedì 27.10.2026: A Pineta di Laives nei pressi della zona artigianale Wurzer (km 431,700 - km 432,200) dalle ore 07:00 alle ore 17:00 il traffico verso Laives viene deviato per lavori di carotaggio attraverso le rampe.",
+      "debut": "2026-10-26",
+      "fin": "2026-10-28",
+      "gps": [
+        46.44635,
+        11.34352
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -988,16 +1002,30 @@
     },
     {
       "source": "bz",
-      "id": "3153101",
+      "id": "3159901",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-11-05",
-      "fin": "2026-11-06",
+      "debut": "2026-11-09",
+      "fin": "2026-11-10",
       "gps": [
         46.44363,
         11.34325
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3160612",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Bronzolo (km 426,600) senso unico alternato dalle ore 20:30 alle ore 06:00 per lavori di sistemazione dei giunti.",
+      "debut": "2026-10-27",
+      "fin": "2026-10-29",
+      "gps": [
+        46.40391,
+        11.32405
       ]
     },
     {
@@ -1068,6 +1096,20 @@
       "gps": [
         46.64479,
         11.58281
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "578201",
+      "route": "SS242Dir — di Val Gardena e Passo Sella",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Al di sopra di Pontives (km 14,050 - km 14,450) senso unico alternato dalle ore 07:30 alle ore 18:00 a causa di lavori (giorni feriali).",
+      "debut": "2026-10-28",
+      "fin": "2026-11-06",
+      "gps": [
+        46.59899,
+        11.62175
       ]
     },
     {
@@ -1166,20 +1208,6 @@
       "gps": [
         46.79192,
         11.99402
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3157701",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "All'altezza del lago artificiale di Valdaora rallentamenti dopo un incidente.",
-      "debut": "2026-10-26",
-      "fin": "",
-      "gps": [
-        46.76114,
-        12.05389
       ]
     }
   ],
