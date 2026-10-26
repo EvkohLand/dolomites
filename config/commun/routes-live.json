@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-26T12:50Z",
+  "genere_le": "2026-10-26T14:33Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-26T13:48"
+      "maj": "2026-10-26T14:51"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -1166,6 +1166,20 @@
       "gps": [
         46.79192,
         11.99402
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3157701",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "All'altezza del lago artificiale di Valdaora rallentamenti dopo un incidente.",
+      "debut": "2026-10-26",
+      "fin": "",
+      "gps": [
+        46.76114,
+        12.05389
       ]
     }
   ],

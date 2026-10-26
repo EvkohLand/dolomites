@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-25T12:45Z",
+  "genere_le": "2026-10-26T14:32Z",
   "rayon_km": 5,
   "note": "Stations à moins de 5 km du tracé du jour ou de la nuit, triées par prix du gazole. Italie : prix « self » (libre-service) quand il existe. Un prix de plus de 8 jours est écarté.",
   "sources": {
     "FR": {
       "libelle": "Flux instantané prix-carburants (data.economie.gouv.fr)",
       "url": "https://www.prix-carburants.gouv.fr/",
-      "releve": "2026-10-25T12:25:47+00:00"
+      "releve": "2026-10-26T15:09:26+00:00"
     },
     "IT": {
       "libelle": "Osservaprezzi carburanti (MIMIT), prix communiqués",
@@ -17,11 +17,11 @@
   },
   "moyennes": {
     "FR": {
-      "gazole": 2.372,
-      "e10": 2.133,
-      "sp95": 2.191,
-      "n": 6566,
-      "date": "2026-10-25",
+      "gazole": 2.376,
+      "e10": 2.127,
+      "sp95": 2.186,
+      "n": 6699,
+      "date": "2026-10-26",
       "perimetre": "toutes stations"
     },
     "IT": {
@@ -34,6 +34,21 @@
     }
   },
   "stations": {
+    "FR-34400017": {
+      "pays": "FR",
+      "id": "34400017",
+      "nom": "Villetelle — Autoroute A9 - Aire Ambrussum Sud",
+      "adresse": "Autoroute A9 - Aire Ambrussum Sud, 34400 Villetelle",
+      "gps": [
+        43.71248,
+        4.13135
+      ],
+      "autoroute": true,
+      "gazole": 1.25,
+      "gazole_mode": "self",
+      "sp95": 1.99,
+      "releve": "2026-10-26T13:56:33+00:00"
+    },
     "IT-41309": {
       "pays": "IT",
       "id": "41309",
@@ -220,23 +235,6 @@
       "sp95": 1.99,
       "sp95_mode": "self",
       "releve": "2026-10-12T21:57"
-    },
-    "IT-7930": {
-      "pays": "IT",
-      "id": "7930",
-      "nom": "Eni Ramoino A E C Snc",
-      "marque": "Agip Eni",
-      "adresse": "Via Xxv Aprile 136 18100, Imperia (IM)",
-      "gps": [
-        43.89611,
-        8.0388
-      ],
-      "gazole": 2.19,
-      "gazole_mode": "self",
-      "gazole_servito": 2.4,
-      "sp95": 1.99,
-      "sp95_mode": "self",
-      "releve": "2026-10-14T08:19"
     },
     "IT-6506": {
       "pays": "IT",
@@ -910,23 +908,6 @@
       "sp95_mode": "self",
       "releve": "2026-10-14T15:08"
     },
-    "IT-52331": {
-      "pays": "IT",
-      "id": "52331",
-      "nom": "Eni Pv 55298",
-      "marque": "Agip Eni",
-      "adresse": "V Bonini 1 17100, Savona (SV)",
-      "gps": [
-        44.30113,
-        8.45793
-      ],
-      "gazole": 2.19,
-      "gazole_mode": "self",
-      "gazole_servito": 2.19,
-      "sp95": 1.99,
-      "sp95_mode": "self",
-      "releve": "2026-10-13T08:13"
-    },
     "IT-62756": {
       "pays": "IT",
       "id": "62756",
@@ -992,23 +973,6 @@
       "sp95_mode": "self",
       "releve": "2026-10-14T11:58"
     },
-    "IT-43439": {
-      "pays": "IT",
-      "id": "43439",
-      "nom": "Stazione Eni",
-      "marque": "Agip Eni",
-      "adresse": "450 Di Affi, Km. 4+800, Affi 37017, Lazise (VR)",
-      "gps": [
-        45.47775,
-        10.76335
-      ],
-      "gazole": 2.19,
-      "gazole_mode": "self",
-      "gazole_servito": 2.4,
-      "sp95": 1.99,
-      "sp95_mode": "self",
-      "releve": "2026-10-14T14:04"
-    },
     "IT-46748": {
       "pays": "IT",
       "id": "46748",
@@ -1066,6 +1030,10 @@
     "5-jours": {
       "1": [
         {
+          "id": "FR-34400017",
+          "km": 0
+        },
+        {
           "id": "IT-41309",
           "km": 3.5
         },
@@ -1108,10 +1076,6 @@
         {
           "id": "IT-58188",
           "km": 0.6
-        },
-        {
-          "id": "IT-7930",
-          "km": 0.7
         }
       ],
       "2": [
@@ -1222,6 +1186,10 @@
       ],
       "5": [
         {
+          "id": "FR-34400017",
+          "km": 0
+        },
+        {
           "id": "IT-6506",
           "km": 4
         },
@@ -1264,15 +1232,15 @@
         {
           "id": "IT-3850",
           "km": 0
-        },
-        {
-          "id": "IT-3530",
-          "km": 0
         }
       ]
     },
     "7-jours": {
       "1": [
+        {
+          "id": "FR-34400017",
+          "km": 0
+        },
         {
           "id": "IT-41309",
           "km": 3.5
@@ -1316,10 +1284,6 @@
         {
           "id": "IT-58188",
           "km": 0.6
-        },
-        {
-          "id": "IT-7930",
-          "km": 0.7
         }
       ],
       "2": [
@@ -1494,6 +1458,10 @@
       ],
       "7": [
         {
+          "id": "FR-34400017",
+          "km": 0
+        },
+        {
           "id": "IT-6506",
           "km": 4
         },
@@ -1536,15 +1504,15 @@
         {
           "id": "IT-3850",
           "km": 0
-        },
-        {
-          "id": "IT-3530",
-          "km": 0
         }
       ]
     },
     "8-jours": {
       "1": [
+        {
+          "id": "FR-34400017",
+          "km": 0
+        },
         {
           "id": "IT-41309",
           "km": 3.5
@@ -1588,10 +1556,6 @@
         {
           "id": "IT-45478",
           "km": 0.3
-        },
-        {
-          "id": "IT-52331",
-          "km": 0.4
         }
       ],
       "2": [
@@ -1816,6 +1780,10 @@
       ],
       "8": [
         {
+          "id": "FR-34400017",
+          "km": 0
+        },
+        {
           "id": "IT-6506",
           "km": 4
         },
@@ -1858,15 +1826,15 @@
         {
           "id": "IT-3850",
           "km": 0
-        },
-        {
-          "id": "IT-43439",
-          "km": 0
         }
       ]
     },
     "10-jours": {
       "1": [
+        {
+          "id": "FR-34400017",
+          "km": 0
+        },
         {
           "id": "IT-41309",
           "km": 3.5
@@ -1910,10 +1878,6 @@
         {
           "id": "IT-58188",
           "km": 0.6
-        },
-        {
-          "id": "IT-7930",
-          "km": 0.7
         }
       ],
       "2": [
@@ -2154,6 +2118,10 @@
       ],
       "10": [
         {
+          "id": "FR-34400017",
+          "km": 0
+        },
+        {
           "id": "IT-6506",
           "km": 3.9
         },
@@ -2196,15 +2164,15 @@
         {
           "id": "IT-47200",
           "km": 0
-        },
-        {
-          "id": "IT-3850",
-          "km": 0
         }
       ]
     },
     "14-jours": {
       "1": [
+        {
+          "id": "FR-34400017",
+          "km": 0
+        },
         {
           "id": "IT-41309",
           "km": 3.5
@@ -2248,10 +2216,6 @@
         {
           "id": "IT-58188",
           "km": 0.6
-        },
-        {
-          "id": "IT-7930",
-          "km": 0.7
         }
       ],
       "2": [
@@ -2612,6 +2576,10 @@
       ],
       "14": [
         {
+          "id": "FR-34400017",
+          "km": 0
+        },
+        {
           "id": "IT-6506",
           "km": 3.9
         },
@@ -2654,15 +2622,15 @@
         {
           "id": "IT-47200",
           "km": 0
-        },
-        {
-          "id": "IT-3850",
-          "km": 0
         }
       ]
     },
     "16-jours": {
       "1": [
+        {
+          "id": "FR-34400017",
+          "km": 0
+        },
         {
           "id": "IT-41309",
           "km": 3.5
@@ -2706,10 +2674,6 @@
         {
           "id": "IT-58188",
           "km": 0.6
-        },
-        {
-          "id": "IT-7930",
-          "km": 0.7
         }
       ],
       "2": [
@@ -3130,6 +3094,10 @@
       ],
       "16": [
         {
+          "id": "FR-34400017",
+          "km": 0
+        },
+        {
           "id": "IT-6506",
           "km": 3.9
         },
@@ -3171,10 +3139,6 @@
         },
         {
           "id": "IT-47200",
-          "km": 0
-        },
-        {
-          "id": "IT-3850",
           "km": 0
         }
       ]
