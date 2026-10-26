@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-26T04:37Z",
+  "genere_le": "2026-10-26T12:50Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-25T20:01"
+      "maj": "2026-10-26T13:48"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,20 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3160301",
+      "route": "",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Per uno sciopero di 24 ore i treni di Trenitalia, Trenord/ÖBB e Italo possono subire ritardi e soppressioni da giovedì 29.10.2026 - ore 21:00 a venerdì 30.10.2026 - ore 20:59. Venerdì 30.10.2026 dalle ore 00:00 alle ore 24:00 ci potranno essere cambiamenti di orario e cancellazioni sugli autobus di SASA. I servizi minimi degli autobus sono garantiti dalle ore 06:00 alle ore 09:00 e dalle ore…",
+      "debut": "2026-10-26",
+      "fin": "2026-10-30",
+      "gps": [
+        46.49673,
+        11.35825
       ]
     },
     {
@@ -456,6 +470,20 @@
     },
     {
       "source": "bz",
+      "id": "2842301",
+      "route": "LS/SP139 — Laion - S. Pietro",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Da lunedì 02.11.2026: A San Pietro (km 6,550 - km 8,400) CHIUSURA al traffico dalle ore 08:30 alle ore 12:30 e dalle ore 14:30 alle ore 18:00 a causa di lavori. La deviazione avviene attravereso la SS 242dir Chiusa – Pontives.",
+      "debut": "2026-10-30",
+      "fin": "2026-11-04",
+      "gps": [
+        46.60367,
+        11.60867
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3074212",
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "gene",
@@ -466,6 +494,20 @@
       "gps": [
         46.60924,
         11.56587
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3103012",
+      "route": "LS/SP139 — Laion - S. Pietro",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A San Pietro (km 6,550 - km 8,400) senso unico alternato a causa di lavori (giorni feriali).",
+      "debut": "2026-10-28",
+      "fin": "2026-11-06",
+      "gps": [
+        46.60367,
+        11.60867
       ]
     },
     {
@@ -726,7 +768,7 @@
       "route": "LS/SP65 — Tires",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Tra il Passo Nigra e il Lago Carezza (km 24,500 - 29,700) a tratti senso unico alternato per lavori di asfaltatura (anche il fine settimana).",
+      "texte": "Tra il Passo Nigra e il Lago Carezza (km 24,500 - km 29,700) a tratti senso unico alternato per lavori di asfaltatura (anche il fine settimana).",
       "debut": "2026-10-19",
       "fin": "2026-11-20",
       "gps": [
@@ -880,7 +922,7 @@
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Nelle gallerie S. Daniele e Castelfeder(km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. Il traffico viene deviato per Ora.",
+      "texte": "Nelle gallerie S. Daniele e Castelfeder (km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. Il traffico viene deviato per Ora.",
       "debut": "2026-10-26",
       "fin": "2026-10-28",
       "gps": [
@@ -1002,6 +1044,20 @@
     },
     {
       "source": "bz",
+      "id": "3160512",
+      "route": "SS242 — di Val Gardena e Passo Sella",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "All’altezza di S. Pietro in Valle (km 7,670 - km 7,720) senso unico alternato dalle ore 08:00 alle ore 17:00 per il ripristino delle condotte interrotte (giorni feriali).",
+      "debut": "2026-10-28",
+      "fin": "2026-11-06",
+      "gps": [
+        46.59487,
+        11.61707
+      ]
+    },
+    {
+      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -1076,7 +1132,7 @@
       "route": "SS48 — delle Dolomiti",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "A Ora in galleria Montagna (km 0,650) CHIUSURA dalle ore 21:00 alle ore 06:00 per lavori di pulizia.",
+      "texte": "A Ora in galleria Montagna (km 0,650) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia.",
       "debut": "2026-10-26",
       "fin": "2026-10-28",
       "gps": [
