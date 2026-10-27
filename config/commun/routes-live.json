@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-27T08:53Z",
+  "genere_le": "2026-10-27T13:33Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-27T09:39"
+      "maj": "2026-10-27T14:19"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -232,30 +232,30 @@
     },
     {
       "source": "bz",
-      "id": "2788101",
+      "id": "2882101",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Verona Nord e Ala/Avio 6 km di coda a causa di un veicolo in fiamme..",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l’uscita di Bolzano Nord è CHIUSA dalle ore 21:00 alle ore 06:00 a causa di lavori.",
       "debut": "2026-10-27",
-      "fin": "",
+      "fin": "2026-10-28",
       "gps": [
-        45.74651,
-        10.98106
+        46.49504,
+        11.40902
       ]
     },
     {
       "source": "bz",
-      "id": "3118601",
+      "id": "3110401",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Affi e Ala/Avio 6 km di coda per traffico intenso.",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione nord tra Verona Nord e Affi (km 211,600) TRAFFICO BLOCCATO e 4 km di coda dopo un incidente tra mezzi pesanti. In direzione nord chiusa anche l'entrata di Verona Nord.",
       "debut": "2026-10-27",
       "fin": "",
       "gps": [
-        45.52624,
-        10.78153
+        45.55638,
+        10.7998
       ]
     },
     {
@@ -382,6 +382,20 @@
       "gps": [
         46.42919,
         11.34087
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3161012",
+      "route": "Comune di Villandro",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "La strada comunale \"Unterblabach\" (vecchia strada comunale Chiusa-Villandro) é CHIUSA al traffico dalle ore 07:00 alle ore 18:00 a causa di lavori.",
+      "debut": "2026-10-28",
+      "fin": "2026-12-24",
+      "gps": [
+        46.63641,
+        11.55192
       ]
     },
     {
@@ -978,7 +992,7 @@
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "A Pineta di Laives nei pressi della zona artigianale Wurzer (km 431,700 - km 432,200) dalle ore 07:00 alle ore 17:00 il traffico verso Laives viene deviato per lavori di carotaggio attraverso le rampe.",
+      "texte": "A Pineta di Laives nei pressi della zona artigianale Vurza (km 431,700 - km 432,200) dalle ore 07:00 alle ore 17:00 il traffico verso Laives viene deviato per lavori di carotaggio attraverso le rampe.",
       "debut": "2026-10-26",
       "fin": "2026-10-28",
       "gps": [
