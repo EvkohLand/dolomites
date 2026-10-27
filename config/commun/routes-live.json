@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-27T00:22Z",
+  "genere_le": "2026-10-27T08:53Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-26T20:00"
+      "maj": "2026-10-27T09:39"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -228,6 +228,34 @@
       "gps": [
         46.49673,
         11.35825
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2788101",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Verona Nord e Ala/Avio 6 km di coda a causa di un veicolo in fiamme..",
+      "debut": "2026-10-27",
+      "fin": "",
+      "gps": [
+        45.74651,
+        10.98106
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3118601",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Affi e Ala/Avio 6 km di coda per traffico intenso.",
+      "debut": "2026-10-27",
+      "fin": "",
+      "gps": [
+        45.52624,
+        10.78153
       ]
     },
     {
@@ -950,7 +978,7 @@
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Martedì 27.10.2026: A Pineta di Laives nei pressi della zona artigianale Wurzer (km 431,700 - km 432,200) dalle ore 07:00 alle ore 17:00 il traffico verso Laives viene deviato per lavori di carotaggio attraverso le rampe.",
+      "texte": "A Pineta di Laives nei pressi della zona artigianale Wurzer (km 431,700 - km 432,200) dalle ore 07:00 alle ore 17:00 il traffico verso Laives viene deviato per lavori di carotaggio attraverso le rampe.",
       "debut": "2026-10-26",
       "fin": "2026-10-28",
       "gps": [
@@ -988,13 +1016,13 @@
     },
     {
       "source": "bz",
-      "id": "3159901",
+      "id": "3153101",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-11-09",
-      "fin": "2026-11-10",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
       "gps": [
         46.44363,
         11.34325
