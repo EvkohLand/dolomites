@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-27T15:18Z",
+  "genere_le": "2026-10-27T22:07Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-27T16:05"
+      "maj": "2026-10-27T20:48"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -242,20 +242,6 @@
       "gps": [
         46.49504,
         11.40902
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3110401",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione nord tra Verona Nord e Affi (km 211,600) TRAFFICO BLOCCATO e 6 km di coda dopo un incidente tra mezzi pesanti. In direzione nord chiusa anche l'entrata di Verona Nord.",
-      "debut": "2026-10-27",
-      "fin": "",
-      "gps": [
-        45.55638,
-        10.7998
       ]
     },
     {
@@ -946,20 +932,6 @@
     },
     {
       "source": "bz",
-      "id": "2766101",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nelle gallerie S. Daniele e Castelfeder (km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. Il traffico viene deviato per Ora.",
-      "debut": "2026-10-26",
-      "fin": "2026-10-28",
-      "gps": [
-        46.3403,
-        11.29328
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2952212",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -988,7 +960,7 @@
     },
     {
       "source": "bz",
-      "id": "3133801",
+      "id": "3133812",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
