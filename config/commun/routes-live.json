@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-27T13:33Z",
+  "genere_le": "2026-10-27T15:18Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-27T14:19"
+      "maj": "2026-10-27T16:05"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -250,7 +250,7 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "In direzione nord tra Verona Nord e Affi (km 211,600) TRAFFICO BLOCCATO e 4 km di coda dopo un incidente tra mezzi pesanti. In direzione nord chiusa anche l'entrata di Verona Nord.",
+      "texte": "In direzione nord tra Verona Nord e Affi (km 211,600) TRAFFICO BLOCCATO e 6 km di coda dopo un incidente tra mezzi pesanti. In direzione nord chiusa anche l'entrata di Verona Nord.",
       "debut": "2026-10-27",
       "fin": "",
       "gps": [
@@ -1194,6 +1194,20 @@
       "gps": [
         46.7043,
         11.88374
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3161309",
+      "route": "SS244 — di Val Badia",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Prestate sempre la massima attenzione al rispetto dei limiti di velocità, in questo momento in particolare a Pedraces.",
+      "debut": "2026-10-27",
+      "fin": "2026-10-27",
+      "gps": [
+        46.60214,
+        11.89715
       ]
     },
     {
