@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-28T12:42Z",
+  "genere_le": "2026-10-28T14:29Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-28T13:25"
+      "maj": "2026-10-28T14:53"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -250,7 +250,7 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Affi e Rovereto Sud coda di mezzi pesanti per traffico intenso.",
+      "texte": "In direzione nord tra Verona Nord e Ala/Avio coda di mezzi pesanti per traffico intenso.",
       "debut": "2026-10-28",
       "fin": "",
       "gps": [
@@ -262,8 +262,8 @@
       "source": "bz",
       "id": "3140701",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
+      "niveau": "gene",
+      "etat": "rallentamenti",
       "texte": "In direzione sud tra Rovereto Sud e Ala/Avio 6 km di coda dopo un incidente.",
       "debut": "2026-10-04",
       "fin": "",
@@ -1292,6 +1292,20 @@
       "gps": [
         46.79192,
         11.99402
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "648001",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione San Candido tra Brunico e Perca rallentamenti e code per traffico intenso.",
+      "debut": "2026-10-28",
+      "fin": "",
+      "gps": [
+        46.79265,
+        11.97585
       ]
     }
   ],
