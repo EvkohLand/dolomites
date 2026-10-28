@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-27T22:07Z",
+  "genere_le": "2026-10-28T05:29Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-27T20:48"
+      "maj": "2026-10-28T06:19"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-27"
+      "maj": "2026-10-28"
     }
   },
   "messages": [
@@ -232,20 +232,6 @@
     },
     {
       "source": "bz",
-      "id": "2882101",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione sud l’uscita di Bolzano Nord è CHIUSA dalle ore 21:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-10-27",
-      "fin": "2026-10-28",
-      "gps": [
-        46.49504,
-        11.40902
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2896701",
       "route": "Comune di Badia",
       "niveau": "fermeture",
@@ -274,7 +260,7 @@
     },
     {
       "source": "bz",
-      "id": "3028001",
+      "id": "3028012",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
@@ -932,6 +918,20 @@
     },
     {
       "source": "bz",
+      "id": "2916301",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nella galleria di Laives CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso Laives.",
+      "debut": "2026-11-12",
+      "fin": "2026-11-13",
+      "gps": [
+        46.42713,
+        11.34893
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2952212",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1100,7 +1100,7 @@
     },
     {
       "source": "bz",
-      "id": "578201",
+      "id": "578212",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1166,34 +1166,6 @@
       "gps": [
         46.7043,
         11.88374
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3161309",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Prestate sempre la massima attenzione al rispetto dei limiti di velocità, in questo momento in particolare a Pedraces.",
-      "debut": "2026-10-27",
-      "fin": "2026-10-27",
-      "gps": [
-        46.60214,
-        11.89715
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2822101",
-      "route": "SS48 — delle Dolomiti",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Ora in galleria Montagna (km 0,650) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia.",
-      "debut": "2026-10-26",
-      "fin": "2026-10-28",
-      "gps": [
-        46.34081,
-        11.29689
       ]
     },
     {
