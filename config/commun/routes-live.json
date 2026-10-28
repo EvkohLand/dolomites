@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-28T05:29Z",
+  "genere_le": "2026-10-28T12:42Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-28T06:19"
+      "maj": "2026-10-28T13:25"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,16 +218,86 @@
     },
     {
       "source": "bz",
-      "id": "3160301",
-      "route": "",
+      "id": "2717801",
+      "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Per uno sciopero di 24 ore i treni di Trenitalia, Trenord/ÖBB e Italo possono subire ritardi e soppressioni da giovedì 29.10.2026 - ore 21:00 a venerdì 30.10.2026 - ore 20:59. Venerdì 30.10.2026 dalle ore 00:00 alle ore 24:00 ci potranno essere cambiamenti di orario e cancellazioni sugli autobus di SASA. I servizi minimi degli autobus sono garantiti dalle ore 06:00 alle ore 09:00 e dalle ore…",
-      "debut": "2026-10-26",
-      "fin": "2026-10-30",
+      "texte": "In direzione sud tra Chiusa e Bolzano Nord coda di mezzi pesanti per lavori.",
+      "debut": "2026-10-28",
+      "fin": "",
       "gps": [
-        46.49673,
-        11.35825
+        46.49282,
+        11.37472
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2788101",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Ala/Avio e Rovereto Sud 4 km di coda dopo un incidente.",
+      "debut": "2026-10-27",
+      "fin": "",
+      "gps": [
+        45.74651,
+        10.98106
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3118601",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Affi e Rovereto Sud coda di mezzi pesanti per traffico intenso.",
+      "debut": "2026-10-28",
+      "fin": "",
+      "gps": [
+        45.52624,
+        10.78153
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3140701",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud tra Rovereto Sud e Ala/Avio 6 km di coda dopo un incidente.",
+      "debut": "2026-10-04",
+      "fin": "",
+      "gps": [
+        45.88101,
+        11.00952
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3161701",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bolzano Sud e Bolzano Nord coda di mezzi pesanti a causa di lavori.",
+      "debut": "2026-10-28",
+      "fin": "",
+      "gps": [
+        46.33296,
+        11.2762
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "636001",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Trento Sud e Rovereto Sud coda di mezzi pesanti dopo un incidente.",
+      "debut": "2026-10-28",
+      "fin": "",
+      "gps": [
+        45.83318,
+        11.00289
       ]
     },
     {
@@ -722,6 +792,20 @@
     },
     {
       "source": "bz",
+      "id": "3161612",
+      "route": "LS/SP54 — Maso Pill - Andriano",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Riva di Sotto (km 0,000 - km 2,200) a tratti senso unico alternato a causa di lavori (giorni feriali).",
+      "debut": "2026-10-28",
+      "fin": "2026-11-06",
+      "gps": [
+        46.48107,
+        11.27689
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3080012",
       "route": "LS/SP56 — Sares",
       "niveau": "fermeture",
@@ -914,20 +998,6 @@
       "gps": [
         46.51884,
         12.0093
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2916301",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nella galleria di Laives CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso Laives.",
-      "debut": "2026-11-12",
-      "fin": "2026-11-13",
-      "gps": [
-        46.42713,
-        11.34893
       ]
     },
     {
@@ -1166,6 +1236,34 @@
       "gps": [
         46.7043,
         11.88374
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3161812",
+      "route": "SS244 — di Val Badia",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Corvara (km 33,960 - km 34,650) seno unico alternato dalle ore 07:00 alle ore 18:00 per lavori di asfaltatura (giorni feriali).",
+      "debut": "2026-10-28",
+      "fin": "2026-11-06",
+      "gps": [
+        46.54623,
+        11.87621
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3161501",
+      "route": "SS42 — Passo Mendola",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra S. Michele/Appiano e Pillhof (km 236,000 – km 239,00) a tratti senso unico alternato a causa di lavori (giorni feriali).",
+      "debut": "2026-10-28",
+      "fin": "2026-11-06",
+      "gps": [
+        46.45362,
+        11.26999
       ]
     },
     {
