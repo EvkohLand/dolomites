@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-28T14:29Z",
+  "genere_le": "2026-10-28T20:13Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-28T14:53"
+      "maj": "2026-10-28T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,90 +218,6 @@
     },
     {
       "source": "bz",
-      "id": "2717801",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Chiusa e Bolzano Nord coda di mezzi pesanti per lavori.",
-      "debut": "2026-10-28",
-      "fin": "",
-      "gps": [
-        46.49282,
-        11.37472
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2788101",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Ala/Avio e Rovereto Sud 4 km di coda dopo un incidente.",
-      "debut": "2026-10-27",
-      "fin": "",
-      "gps": [
-        45.74651,
-        10.98106
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3118601",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Verona Nord e Ala/Avio coda di mezzi pesanti per traffico intenso.",
-      "debut": "2026-10-28",
-      "fin": "",
-      "gps": [
-        45.52624,
-        10.78153
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3140701",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Rovereto Sud e Ala/Avio 6 km di coda dopo un incidente.",
-      "debut": "2026-10-04",
-      "fin": "",
-      "gps": [
-        45.88101,
-        11.00952
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3161701",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Sud e Bolzano Nord coda di mezzi pesanti a causa di lavori.",
-      "debut": "2026-10-28",
-      "fin": "",
-      "gps": [
-        46.33296,
-        11.2762
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "636001",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Trento Sud e Rovereto Sud coda di mezzi pesanti dopo un incidente.",
-      "debut": "2026-10-28",
-      "fin": "",
-      "gps": [
-        45.83318,
-        11.00289
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2896701",
       "route": "Comune di Badia",
       "niveau": "fermeture",
@@ -474,7 +390,7 @@
       "route": "LS/SP 44 — Passo Stalle",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Collegamento tra la Valle Anterselva e la Valle Defereggen (km 18,680 - km 23,460) aperto ININTERROTTAMENTE a senso unico alternato (dall’Italia verso l’Austria sempre 15 minuti dopo ogni mezz’ora e dall’Austria verso l’Italia sempre 15 minuti dopo l’ora piena). Divieto di transito per autobus, veicoli di peso superiore a 3,5 t, veicoli con rimorchio e veicoli di altezza superiore a 3 m.",
+      "texte": "Collegamento tra la Valle Anterselva e la Valle Defereggen (km 18,680 - km 23,460) aperto ININTERROTTAMENTE a senso unico alternato (dall’Italia verso l’Austria sempre 15 minuti dopo ogni mezz’ora e dall’Austria verso l’Italia sempre 15 minuti dopo l’ora piena). Divieto di transito per autobus, veicoli di peso superiore a 3,5 t, veicoli con rimorchio e veicoli di altezza superiore a 3 m. DA…",
       "debut": "2026-05-13",
       "fin": "",
       "gps": [
@@ -1002,6 +918,34 @@
     },
     {
       "source": "bz",
+      "id": "2784901",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Chiusa (km 465,200 - km 465,400) senso unico alternato con attese fino a 5 minuti dalle ore 08:00 alle ore 16:30 per riparazione reti paramassi.",
+      "debut": "2026-11-02",
+      "fin": "2026-11-06",
+      "gps": [
+        46.62939,
+        11.55014
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2916301",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nella galleria di Laives CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso Laives.",
+      "debut": "2026-11-12",
+      "fin": "2026-11-13",
+      "gps": [
+        46.42713,
+        11.34893
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2952212",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1282,6 +1226,20 @@
     },
     {
       "source": "bz",
+      "id": "2834201",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Dobbiaco (km 57,100 - km 58,550) a tratti senso unico alternato per lavori di asfaltatura.",
+      "debut": "2026-10-30",
+      "fin": "2026-11-04",
+      "gps": [
+        46.73178,
+        12.19994
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3151112",
       "route": "SS49 — della Pusteria",
       "niveau": "gene",
@@ -1292,20 +1250,6 @@
       "gps": [
         46.79192,
         11.99402
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "648001",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione San Candido tra Brunico e Perca rallentamenti e code per traffico intenso.",
-      "debut": "2026-10-28",
-      "fin": "",
-      "gps": [
-        46.79265,
-        11.97585
       ]
     }
   ],
