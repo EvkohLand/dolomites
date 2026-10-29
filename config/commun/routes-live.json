@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-29T09:49Z",
+  "genere_le": "2026-10-29T14:38Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-29T10:16"
+      "maj": "2026-10-29T15:36"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,6 +218,20 @@
     },
     {
       "source": "bz",
+      "id": "3129101",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Egna e Bolzano Sud coda di mezzi pesanti a causa di lavori.",
+      "debut": "2026-10-29",
+      "fin": "",
+      "gps": [
+        46.47588,
+        11.3173
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3157801",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
@@ -236,7 +250,7 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Sud e Bolzano Nord coda di mezzi pesanti a causa di lavori.",
+      "texte": "In direzione nord tra Bolzano Sud e Bolzano Nord 6 km di coda a causa di lavori.",
       "debut": "2026-10-29",
       "fin": "",
       "gps": [
@@ -302,6 +316,20 @@
     },
     {
       "source": "bz",
+      "id": "3163001",
+      "route": "Comune di Bolzano",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Venerdì 30.10.2026: Per una manifestazione le seguenti strade sono CHIUSE al traffico dalle ore 10:00 alle ore 14:00 circa: Piazza Mazzini, Corso della Libertà, Ponte Talvera, Via Museo, Via Cassa di Risparmio, Via Leonardo da Vinci, Piazza Unversità, Via Sernesi e Piazza Domenicani.",
+      "debut": "2026-10-29",
+      "fin": "2026-10-30",
+      "gps": [
+        46.50168,
+        11.34059
+      ]
+    },
+    {
+      "source": "bz",
       "id": "635901",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -312,20 +340,6 @@
       "gps": [
         46.4919,
         11.34462
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "1709701",
-      "route": "Comune di Brunico",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Il 26., 27., 28., e 29.10.2026 si svolge la tradizionale fiera di Stegona. È previsto traffico molto intenso, soprattutto nei pressi dell`entrata di Brunico Ovest temporaneamente si possono verificare rallentamenti e code. Nel comune di Brunico fino alle ore 10:00 del 29.10.2026 sono CHIUSE al traffico le seguenti strade e piazze: piazza Mercato di Stegona, via Stegona dal sottopassaggio…",
-      "debut": "2026-10-25",
-      "fin": "2026-10-29",
-      "gps": [
-        46.79606,
-        11.93081
       ]
     },
     {
@@ -536,6 +550,20 @@
       "gps": [
         46.60367,
         11.60867
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3162812",
+      "route": "LS/SP16 — Autostrada - Termeno",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra la stazione di Egna e la zona industriale di Cortaccia (km 0,000 - km 3,000) a tratti senso unico alternato a causa di lavori (giorni feriali).",
+      "debut": "2026-10-29",
+      "fin": "2026-12-31",
+      "gps": [
+        46.31769,
+        11.2573
       ]
     },
     {
@@ -946,20 +974,6 @@
     },
     {
       "source": "bz",
-      "id": "3162401",
-      "route": "SS.38 — Superstrada MEBO",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione Merano l'entrata e l'uscita di Appiano sono CHIUSE al traffico dalle ore 09:00 alle ore 11:00 ca. per lavori di taglio erba.",
-      "debut": "2026-10-29",
-      "fin": "",
-      "gps": [
-        46.48719,
-        11.2895
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2784901",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -970,6 +984,20 @@
       "gps": [
         46.62939,
         11.55014
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2788601",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Bolzano Sud e Cardano rallentamenti e code per traffico intenso.",
+      "debut": "2026-10-29",
+      "fin": "",
+      "gps": [
+        46.49265,
+        11.35623
       ]
     },
     {
@@ -1040,6 +1068,20 @@
       "gps": [
         46.44363,
         11.34325
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3160612",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Bronzolo (km 426,600) senso unico alternato dalle ore 20:30 alle ore 06:00 per lavori di sistemazione dei giunti.",
+      "debut": "2026-10-27",
+      "fin": "2026-10-29",
+      "gps": [
+        46.40391,
+        11.32405
       ]
     },
     {
