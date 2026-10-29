@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-29T14:38Z",
+  "genere_le": "2026-10-29T18:25Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-29T15:36"
+      "maj": "2026-10-29T19:10"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -222,7 +222,7 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Egna e Bolzano Sud coda di mezzi pesanti a causa di lavori.",
+      "texte": "In direzione nord tra Egna e Bolzano Sud coda di mezzi pesanti per traffico intenso.",
       "debut": "2026-10-29",
       "fin": "",
       "gps": [
@@ -236,12 +236,12 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione sud tra Bressanone e Bolzano Nord coda di mezzi pesanti a causa di lavori.",
+      "texte": "In direzione sud tra Chiusa e Bolzano Nord 2 km di coda a causa di lavori.",
       "debut": "2026-10-29",
       "fin": "",
       "gps": [
-        46.55064,
-        11.50942
+        46.64679,
+        11.58679
       ]
     },
     {
@@ -456,6 +456,20 @@
     },
     {
       "source": "bz",
+      "id": "2914812",
+      "route": "LS/SP127 — Ora - Sella",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Ora (km 1,300 - km 1,550) senso unico alternato per lavori (anche nel fine settimana).",
+      "debut": "2026-10-30",
+      "fin": "2026-12-04",
+      "gps": [
+        46.35247,
+        11.28829
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3128612",
       "route": "LS/SP127 — Ora - Sella",
       "niveau": "gene",
@@ -466,6 +480,20 @@
       "gps": [
         46.35492,
         11.28328
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3163301",
+      "route": "LS/SP13 — S. Paolo - Riva di sotto",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Da lunedì 09.11.2026: Tra S. Paolo e Riva di Sotto (km 1,400 - km 2,880, km 2,880 - km 3,170) CHIUSURA al traffico per lavori di asfaltatura (anche nel fine settimana).",
+      "debut": "2026-11-08",
+      "fin": "2026-11-27",
+      "gps": [
+        46.48174,
+        11.26307
       ]
     },
     {
@@ -834,6 +862,20 @@
     },
     {
       "source": "bz",
+      "id": "3163512",
+      "route": "LS/SP70 — Scaleres",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Varna e Scaleres (km 3,200 - km 3,300) senso unico alternato a causa di lavori.",
+      "debut": "2026-11-04",
+      "fin": "2026-11-20",
+      "gps": [
+        46.73933,
+        11.61696
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3008812",
       "route": "LS/SP72 — Aldino - Nova Ponente",
       "niveau": "gene",
@@ -900,6 +942,20 @@
       "gps": [
         46.53791,
         11.45065
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3163412",
+      "route": "LS/SP73 — Renon",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Al di sopra di Auna di Sotto (km 10,620 - km 10,720) senso unico alternato per lavori di scavo.",
+      "debut": "2026-11-02",
+      "fin": "2026-11-06",
+      "gps": [
+        46.52081,
+        11.44793
       ]
     },
     {
@@ -992,7 +1048,7 @@
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione sud tra Bolzano Sud e Cardano rallentamenti e code per traffico intenso.",
+      "texte": "In direzione nord tra Bolzano Sud e Cardano rallentamenti e code per traffico intenso.",
       "debut": "2026-10-29",
       "fin": "",
       "gps": [
@@ -1068,20 +1124,6 @@
       "gps": [
         46.44363,
         11.34325
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3160612",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Bronzolo (km 426,600) senso unico alternato dalle ore 20:30 alle ore 06:00 per lavori di sistemazione dei giunti.",
-      "debut": "2026-10-27",
-      "fin": "2026-10-29",
-      "gps": [
-        46.40391,
-        11.32405
       ]
     },
     {
