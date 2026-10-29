@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-10-28T20:13Z",
+  "genere_le": "2026-10-29T00:50Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-28"
+      "maj": "2026-10-29"
     }
   },
   "messages": [
@@ -974,20 +974,6 @@
     },
     {
       "source": "bz",
-      "id": "3133812",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Pineta di Laives nei pressi della zona artigianale Vurza (km 431,700 - km 432,200) dalle ore 07:00 alle ore 17:00 il traffico verso Laives viene deviato per lavori di carotaggio attraverso le rampe.",
-      "debut": "2026-10-26",
-      "fin": "2026-10-28",
-      "gps": [
-        46.44635,
-        11.34352
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1208,20 +1194,6 @@
       "gps": [
         46.45362,
         11.26999
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2781212",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Dobbiaco e S. Candido (km 60,670 - km 61,680) a tratti senso unico alternato per lavori di asfaltatura.",
-      "debut": "2026-10-20",
-      "fin": "2026-10-28",
-      "gps": [
-        46.72645,
-        12.24246
       ]
     },
     {
