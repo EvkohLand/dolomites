@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-29T00:50Z",
+  "genere_le": "2026-10-29T09:49Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-28T20:00"
+      "maj": "2026-10-29T10:16"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,34 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3157801",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Bressanone e Bolzano Nord coda di mezzi pesanti a causa di lavori.",
+      "debut": "2026-10-29",
+      "fin": "",
+      "gps": [
+        46.55064,
+        11.50942
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3159201",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Bolzano Sud e Bolzano Nord coda di mezzi pesanti a causa di lavori.",
+      "debut": "2026-10-29",
+      "fin": "",
+      "gps": [
+        46.33296,
+        11.2762
       ]
     },
     {
@@ -918,6 +946,20 @@
     },
     {
       "source": "bz",
+      "id": "3162401",
+      "route": "SS.38 — Superstrada MEBO",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione Merano l'entrata e l'uscita di Appiano sono CHIUSE al traffico dalle ore 09:00 alle ore 11:00 ca. per lavori di taglio erba.",
+      "debut": "2026-10-29",
+      "fin": "",
+      "gps": [
+        46.48719,
+        11.2895
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2784901",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -960,20 +1002,6 @@
     },
     {
       "source": "bz",
-      "id": "2999101",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nelle gallerie S. Daniele e Castelfeder (km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per lavori di asfaltatura. Il traffico viene deviato per Ora.",
-      "debut": "2026-10-27",
-      "fin": "2026-10-29",
-      "gps": [
-        46.3403,
-        11.29328
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1012,20 +1040,6 @@
       "gps": [
         46.44363,
         11.34325
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3160612",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Bronzolo (km 426,600) senso unico alternato dalle ore 20:30 alle ore 06:00 per lavori di sistemazione dei giunti.",
-      "debut": "2026-10-27",
-      "fin": "2026-10-29",
-      "gps": [
-        46.40391,
-        11.32405
       ]
     },
     {
@@ -1104,7 +1118,7 @@
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Al di sopra di Pontives (km 14,050 - km 14,450) senso unico alternato dalle ore 07:30 alle ore 18:00 a causa di lavori (giorni feriali).",
+      "texte": "Nei pressi del bivio per S. Pietro (km 14,050 - km 14,450) senso unico alternato dalle ore 07:30 alle ore 18:00 a causa di lavori (giorni feriali).",
       "debut": "2026-10-28",
       "fin": "2026-11-06",
       "gps": [
