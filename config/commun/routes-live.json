@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-30T09:54Z",
+  "genere_le": "2026-10-30T14:30Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-30T10:18"
+      "maj": "2026-10-30T15:08"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -358,20 +358,6 @@
     },
     {
       "source": "bz",
-      "id": "2878801",
-      "route": "Ferrovia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Domenica 15.11.2026: La linea ferroviaria della Val Pusteria nel tratto Fortezza - San Candido dalle ore 07:30 alle ore 13:15 e nel tratto San Candido - Confine di Stato dalle ore 09:00 alle ore 12:00 è INTERROTTA per lavori di manutenzione straordinaria. C’è un servizio autobus sostitutivo.",
-      "debut": "2026-11-14",
-      "fin": "2026-11-15",
-      "gps": [
-        46.78909,
-        11.6102
-      ]
-    },
-    {
-      "source": "bz",
       "id": "587708",
       "route": "LS/SP 29 — Passo Erbe",
       "niveau": "gene",
@@ -466,6 +452,20 @@
       "gps": [
         46.48174,
         11.26307
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3152512",
+      "route": "LS/SP131 — S. Valentino in Campo",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A S.Valentino in Campo (km 3,000 - km 3,100) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori.",
+      "debut": "2026-11-09",
+      "fin": "2026-12-10",
+      "gps": [
+        46.43783,
+        11.47605
       ]
     },
     {
@@ -628,9 +628,9 @@
       "route": "LS/SP19 — Cortaccia - Salorno",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "A Magrè (km 2,800 - km 2,900) senso unico alternato a causa di lavori di risanamento.",
+      "texte": "A Magrè (km 2,800 - km 2,870) senso unico alternato per lavori di messa in sicurezza (anche nel fine settimana).",
       "debut": "2026-09-07",
-      "fin": "2026-11-30",
+      "fin": "2026-12-04",
       "gps": [
         46.29044,
         11.21188
@@ -1278,6 +1278,20 @@
       "gps": [
         46.73178,
         12.19994
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3013701",
+      "route": "SS49 — della Pusteria",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Tra San Lorenzo e Brunico traffico BLOCCATO dopo un incidente.",
+      "debut": "2026-10-30",
+      "fin": "",
+      "gps": [
+        46.79614,
+        11.85335
       ]
     },
     {

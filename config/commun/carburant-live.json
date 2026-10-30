@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-29T14:38Z",
+  "genere_le": "2026-10-30T14:30Z",
   "rayon_km": 5,
   "note": "Stations à moins de 5 km du tracé du jour ou de la nuit, triées par prix du gazole. Italie : prix « self » (libre-service) quand il existe. Un prix de plus de 8 jours est écarté.",
   "sources": {
     "FR": {
       "libelle": "Flux instantané prix-carburants (data.economie.gouv.fr)",
       "url": "https://www.prix-carburants.gouv.fr/",
-      "releve": "2026-10-29T15:27:31+00:00"
+      "releve": "2026-10-30T15:06:34+00:00"
     },
     "IT": {
       "libelle": "Osservaprezzi carburanti (MIMIT), prix communiqués",
@@ -18,10 +18,10 @@
   "moyennes": {
     "FR": {
       "gazole": 2.388,
-      "e10": 2.114,
-      "sp95": 2.177,
-      "n": 7244,
-      "date": "2026-10-29",
+      "e10": 2.109,
+      "sp95": 2.171,
+      "n": 7335,
+      "date": "2026-10-30",
       "perimetre": "toutes stations"
     },
     "IT": {
@@ -221,19 +221,20 @@
       "sp95_mode": "self",
       "releve": "2026-10-12T21:57"
     },
-    "FR-83170012": {
+    "FR-13680007": {
       "pays": "FR",
-      "id": "83170012",
-      "nom": "Tourves — Autoroute A8 - Aire De Cambarette Sud - Terrasses De Provence Centre",
-      "adresse": "Autoroute A8 - Aire De Cambarette Sud - Terrasses De Provence Centre, 83170 Tourves",
+      "id": "13680007",
+      "nom": "Lançon-Provence — Autoroute A7 - Aire De Lançon Est",
+      "adresse": "Autoroute A7 - Aire De Lançon Est, 13680 Lançon-Provence",
       "gps": [
-        43.42412,
-        5.96988
+        43.599,
+        5.159
       ],
       "autoroute": true,
       "gazole": 2.25,
       "gazole_mode": "self",
-      "releve": "2026-10-29T00:01:00+00:00"
+      "e10": 1.99,
+      "releve": "2026-10-30T00:01:00+00:00"
     },
     "IT-6506": {
       "pays": "IT",
@@ -1073,7 +1074,7 @@
           "km": 0.6
         },
         {
-          "id": "FR-83170012",
+          "id": "FR-13680007",
           "km": 0
         }
       ],
@@ -1281,7 +1282,7 @@
           "km": 0.6
         },
         {
-          "id": "FR-83170012",
+          "id": "FR-13680007",
           "km": 0
         }
       ],
@@ -1875,7 +1876,7 @@
           "km": 0.6
         },
         {
-          "id": "FR-83170012",
+          "id": "FR-13680007",
           "km": 0
         }
       ],
@@ -2213,7 +2214,7 @@
           "km": 0.6
         },
         {
-          "id": "FR-83170012",
+          "id": "FR-13680007",
           "km": 0
         }
       ],
@@ -2671,7 +2672,7 @@
           "km": 0.6
         },
         {
-          "id": "FR-83170012",
+          "id": "FR-13680007",
           "km": 0
         }
       ],
