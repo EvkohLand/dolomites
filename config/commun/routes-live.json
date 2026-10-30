@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-30T14:30Z",
+  "genere_le": "2026-10-30T17:58Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-30T15:08"
+      "maj": "2026-10-30T18:52"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -274,20 +274,6 @@
     },
     {
       "source": "bz",
-      "id": "3163001",
-      "route": "Comune di Bolzano",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Per una manifestazione le seguenti strade sono CHIUSE al traffico dalle ore 10:00 alle ore 14:00 circa: Piazza Mazzini, Corso della Libertà, Ponte Talvera, Via Museo, Via Cassa di Risparmio, Via Leonardo da Vinci, Piazza Unversità, Via Sernesi e Piazza Domenicani.",
-      "debut": "2026-10-29",
-      "fin": "2026-10-30",
-      "gps": [
-        46.50168,
-        11.34059
-      ]
-    },
-    {
-      "source": "bz",
       "id": "635901",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -354,6 +340,20 @@
       "gps": [
         46.63641,
         11.55192
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2878801",
+      "route": "Ferrovia",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Domenica 15.11.2026: La linea ferroviaria della Val Pusteria nel tratto Fortezza - San Candido dalle ore 07:30 alle ore 13:15 e nel tratto San Candido - Confine di Stato dalle ore 09:00 alle ore 12:00 è INTERROTTA per lavori di manutenzione straordinaria. C’è un servizio autobus sostitutivo.",
+      "debut": "2026-11-14",
+      "fin": "2026-11-15",
+      "gps": [
+        46.78909,
+        11.6102
       ]
     },
     {
@@ -1114,6 +1114,20 @@
     },
     {
       "source": "bz",
+      "id": "683101",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Egna e San Floriano rallentamenti e code dopo un incidente.",
+      "debut": "2026-10-30",
+      "fin": "",
+      "gps": [
+        46.29134,
+        11.24474
+      ]
+    },
+    {
+      "source": "bz",
       "id": "609508",
       "route": "SS241 — di Val d'Ega e Passo Costalunga",
       "niveau": "info",
@@ -1278,20 +1292,6 @@
       "gps": [
         46.73178,
         12.19994
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3013701",
-      "route": "SS49 — della Pusteria",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Tra San Lorenzo e Brunico traffico BLOCCATO dopo un incidente.",
-      "debut": "2026-10-30",
-      "fin": "",
-      "gps": [
-        46.79614,
-        11.85335
       ]
     },
     {
