@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-29T18:25Z",
+  "genere_le": "2026-10-30T00:52Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-29T19:10"
+      "maj": "2026-10-29T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-29"
+      "maj": "2026-10-30"
     }
   },
   "messages": [
@@ -214,48 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3129101",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Egna e Bolzano Sud coda di mezzi pesanti per traffico intenso.",
-      "debut": "2026-10-29",
-      "fin": "",
-      "gps": [
-        46.47588,
-        11.3173
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3157801",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Chiusa e Bolzano Nord 2 km di coda a causa di lavori.",
-      "debut": "2026-10-29",
-      "fin": "",
-      "gps": [
-        46.64679,
-        11.58679
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3159201",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Sud e Bolzano Nord 6 km di coda a causa di lavori.",
-      "debut": "2026-10-29",
-      "fin": "",
-      "gps": [
-        46.33296,
-        11.2762
       ]
     },
     {
@@ -680,20 +638,6 @@
     },
     {
       "source": "bz",
-      "id": "2831412",
-      "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Siusi (km 13,000 - km 13,500) senso unico alternato dalle ore 07:00 alle ore 17:00 per lavori (giorni feriali).",
-      "debut": "2026-10-06",
-      "fin": "2026-10-29",
-      "gps": [
-        46.53809,
-        11.55018
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3062012",
       "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
       "niveau": "gene",
@@ -1040,20 +984,6 @@
       "gps": [
         46.62939,
         11.55014
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2788601",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Bolzano Sud e Cardano rallentamenti e code per traffico intenso.",
-      "debut": "2026-10-29",
-      "fin": "",
-      "gps": [
-        46.49265,
-        11.35623
       ]
     },
     {
