@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-30T00:52Z",
+  "genere_le": "2026-10-30T09:54Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-29T20:00"
+      "maj": "2026-10-30T10:18"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -278,7 +278,7 @@
       "route": "Comune di Bolzano",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Venerdì 30.10.2026: Per una manifestazione le seguenti strade sono CHIUSE al traffico dalle ore 10:00 alle ore 14:00 circa: Piazza Mazzini, Corso della Libertà, Ponte Talvera, Via Museo, Via Cassa di Risparmio, Via Leonardo da Vinci, Piazza Unversità, Via Sernesi e Piazza Domenicani.",
+      "texte": "Per una manifestazione le seguenti strade sono CHIUSE al traffico dalle ore 10:00 alle ore 14:00 circa: Piazza Mazzini, Corso della Libertà, Ponte Talvera, Via Museo, Via Cassa di Risparmio, Via Leonardo da Vinci, Piazza Unversità, Via Sernesi e Piazza Domenicani.",
       "debut": "2026-10-29",
       "fin": "2026-10-30",
       "gps": [
@@ -354,6 +354,20 @@
       "gps": [
         46.63641,
         11.55192
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2878801",
+      "route": "Ferrovia",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Domenica 15.11.2026: La linea ferroviaria della Val Pusteria nel tratto Fortezza - San Candido dalle ore 07:30 alle ore 13:15 e nel tratto San Candido - Confine di Stato dalle ore 09:00 alle ore 12:00 è INTERROTTA per lavori di manutenzione straordinaria. C’è un servizio autobus sostitutivo.",
+      "debut": "2026-11-14",
+      "fin": "2026-11-15",
+      "gps": [
+        46.78909,
+        11.6102
       ]
     },
     {
@@ -502,8 +516,8 @@
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da lunedì 02.11.2026: A San Pietro (km 6,550 - km 8,400) CHIUSURA al traffico dalle ore 08:30 alle ore 12:30 e dalle ore 14:30 alle ore 18:00 a causa di lavori. La deviazione avviene attravereso la SS 242dir Chiusa – Pontives.",
-      "debut": "2026-10-30",
+      "texte": "Da lunedì 02.11.2026: A San Pietro (km 6,550 - km 8,400) CHIUSURA al traffico dalle ore 08:30 alle ore 12:30 e dalle ore 13:30 alle ore 17:30 a causa di lavori. La deviazione avviene attravereso la SS 242dir Chiusa – Pontives.",
+      "debut": "2026-11-01",
       "fin": "2026-11-04",
       "gps": [
         46.60367,
@@ -630,7 +644,7 @@
       "etat": "rallentamenti",
       "texte": "A Siusi (km 13,900 - km 14,100) senso unico alternato con chiusure temporanee fino a 15 minuti per la costruzione di una fermata dell'autobus (anche nei fine settimana e festività).",
       "debut": "2026-08-31",
-      "fin": "2026-10-30",
+      "fin": "2026-12-04",
       "gps": [
         46.53964,
         11.55612
@@ -788,6 +802,20 @@
       "gps": [
         46.44052,
         11.58899
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3111612",
+      "route": "LS/SP65 — Tires",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Tires (km 12,800 - km 12,900) senso unico alternato per lavori di risananmento.",
+      "debut": "2026-11-02",
+      "fin": "2026-11-20",
+      "gps": [
+        46.46708,
+        11.52839
       ]
     },
     {
@@ -1128,6 +1156,20 @@
     },
     {
       "source": "bz",
+      "id": "2732112",
+      "route": "SS242Dir — di Val Gardena e Passo Sella",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Pontives (km 14,050 - km 14,450) senso unico alternato dalle ore 07:30 alle ore 18:00 per lavori (giorni feriali).",
+      "debut": "2026-10-30",
+      "fin": "2026-11-06",
+      "gps": [
+        46.59899,
+        11.62175
+      ]
+    },
+    {
+      "source": "bz",
       "id": "578212",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -1226,7 +1268,7 @@
     },
     {
       "source": "bz",
-      "id": "2834201",
+      "id": "2834212",
       "route": "SS49 — della Pusteria",
       "niveau": "gene",
       "etat": "rallentamenti",
