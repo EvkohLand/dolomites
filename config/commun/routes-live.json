@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-30T22:13Z",
+  "genere_le": "2026-10-31T05:27Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-30T20:01"
+      "maj": "2026-10-31T06:20"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-10-30"
+      "maj": "2026-10-31"
     }
   },
   "messages": [
@@ -246,20 +246,6 @@
     },
     {
       "source": "bz",
-      "id": "3028012",
-      "route": "Comune di Bolzano",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "La via Campegno (SC Bolzano-Colle) è CHIUSA al traffico dalle ore 08:30 alle ore 10:30 per lavori di asfaltatura.",
-      "debut": "2026-10-28",
-      "fin": "2026-10-30",
-      "gps": [
-        46.49103,
-        11.3685
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3077512",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -284,20 +270,6 @@
       "gps": [
         46.4919,
         11.34462
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2744912",
-      "route": "Comune di Laives",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Sulla SC 40.1 per La Costa/Seit CHIUSURA dalle ore 08:30 alle ore 12:00 e dalle ore 13:30 alle ore 18:00 a causa di lavori di asfaltatura (giorni feriali).",
-      "debut": "2026-10-06",
-      "fin": "2026-10-30",
-      "gps": [
-        46.44814,
-        11.35537
       ]
     },
     {
@@ -424,20 +396,6 @@
       "gps": [
         46.35247,
         11.28829
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3128612",
-      "route": "LS/SP127 — Ora - Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Ora e Sella (km 1,200 - km 1,260) senso unico alternato dalle ore 08:00 alle ore 17:00 per posa fibra ottica.",
-      "debut": "2026-10-21",
-      "fin": "2026-10-30",
-      "gps": [
-        46.35492,
-        11.28328
       ]
     },
     {
@@ -722,20 +680,6 @@
     },
     {
       "source": "bz",
-      "id": "2846312",
-      "route": "LS/SP37 — S. Cassiano",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Sciaré ed il confine provinciale (km 9,490 - km 10,200) senso unico alternato dalle ore 07:00 alle ore 17:00 per lavori .",
-      "debut": "2026-10-19",
-      "fin": "2026-10-30",
-      "gps": [
-        46.54708,
-        11.97376
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3137712",
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "gene",
@@ -820,20 +764,6 @@
     },
     {
       "source": "bz",
-      "id": "3156812",
-      "route": "LS/SP65 — Tires",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Nei pressi del bivio Presule (km 4,820) senso unico alternato a causa di lavori (anche nel fine settimana).",
-      "debut": "2026-10-19",
-      "fin": "2026-10-30",
-      "gps": [
-        46.50211,
-        11.48637
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3163512",
       "route": "LS/SP70 — Scaleres",
       "niveau": "gene",
@@ -858,34 +788,6 @@
       "gps": [
         46.36874,
         11.35312
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3139912",
-      "route": "LS/SP72 — Aldino - Nova Ponente",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Nova Ponente (km 18,400 - km 19,100) senso unico alternato per lavori di asfaltatura (giorni feriali).",
-      "debut": "2026-10-19",
-      "fin": "2026-10-30",
-      "gps": [
-        46.40381,
-        11.45083
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3153612",
-      "route": "LS/SP72 — Aldino - Nova Ponente",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Rio Nero (km 20,550 - km 20,850) chiusure temporanee fino a 10 minuti dalle ore 07:30 alle ore 17:00 per lavori forestali (giorni feriali).",
-      "debut": "2026-10-20",
-      "fin": "2026-10-30",
-      "gps": [
-        46.39189,
-        11.4649
       ]
     },
     {
@@ -1058,27 +960,13 @@
     },
     {
       "source": "bz",
-      "id": "3141401",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Bolzano in galleria del Virgolo (km 437,700 - km 438,400) CHIUSURA NOTTURNA dalle ore 22:00 alle ore 05:00 per lavori di manutenzione. Deviazione attraverso strade comunali.",
-      "debut": "2026-10-28",
-      "fin": "2026-10-31",
-      "gps": [
-        46.4905,
-        11.35088
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3153101",
+      "id": "3159901",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-11-05",
-      "fin": "2026-11-06",
+      "debut": "2026-11-09",
+      "fin": "2026-11-10",
       "gps": [
         46.44363,
         11.34325
@@ -1254,7 +1142,7 @@
     },
     {
       "source": "bz",
-      "id": "3161501",
+      "id": "3161512",
       "route": "SS42 — Passo Mendola",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1278,20 +1166,6 @@
       "gps": [
         46.73178,
         12.19994
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3151112",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Villa di Sotto (km 37,500 - km 37,600) senso unico alternato dalle ore 07:00 alle ore 24:00 a causa di lavori.",
-      "debut": "2026-10-26",
-      "fin": "2026-10-30",
-      "gps": [
-        46.79192,
-        11.99402
       ]
     }
   ],
