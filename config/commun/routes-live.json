@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-10-31T13:52Z",
+  "genere_le": "2026-10-31T19:14Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-10-31T13:54"
+      "maj": "2026-10-31T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -256,20 +256,6 @@
       "gps": [
         46.50186,
         11.31184
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "635901",
-      "route": "Comune di Bolzano",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Per la partita di calcio del F.C. Südtirol viale Trieste e via Trento vengono CHIUSI al traffico dalle ore 12:00 ca fino alla fine della partita. Anche la pista ciclabile nella zona retrostante dello Stadio Druso viene CHIUSA.",
-      "debut": "2026-10-31",
-      "fin": "2026-10-31",
-      "gps": [
-        46.4919,
-        11.34462
       ]
     },
     {
@@ -680,6 +666,20 @@
     },
     {
       "source": "bz",
+      "id": "2846312",
+      "route": "LS/SP37 — S. Cassiano",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Sciaré ed il confine provinciale (km 9,490 - km 10,200) senso unico alternato dalle ore 07:00 alle ore 17:00 per lavori .",
+      "debut": "2026-10-19",
+      "fin": "2026-11-06",
+      "gps": [
+        46.54708,
+        11.97376
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3137712",
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "gene",
@@ -960,13 +960,13 @@
     },
     {
       "source": "bz",
-      "id": "3159901",
+      "id": "3153101",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-11-09",
-      "fin": "2026-11-10",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
       "gps": [
         46.44363,
         11.34325
