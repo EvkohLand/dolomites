@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-02T00:37Z",
+  "genere_le": "2026-11-02T10:54Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-01T20:00"
+      "maj": "2026-11-02T11:16"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -460,7 +460,7 @@
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da lunedì 02.11.2026: A San Pietro (km 6,550 - km 8,400) CHIUSURA al traffico dalle ore 08:30 alle ore 12:30 e dalle ore 13:30 alle ore 17:30 a causa di lavori. La deviazione avviene attravereso la SS 242dir Chiusa – Pontives.",
+      "texte": "Tra San Pietro e l'incrocio con la SS 242dir Chiusa-Pontives (km 6,550 - km 8,400) CHIUSURA al traffico dalle ore 08:30 alle ore 12:30 e dalle ore 13:30 alle ore 17:30 a causa di lavori. La deviazione avviene attravereso la SS 242dir Chiusa – Pontives.",
       "debut": "2026-11-01",
       "fin": "2026-11-04",
       "gps": [
@@ -880,7 +880,7 @@
       "route": "LS/SP76 — Obereggen",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da lunedì 02.11.2026: A Ega (km 2,700 - km 3,000) CHIUSURA al traffico per la posa di condutture (anche nel fine settimana). La deviazione avviene attraverso la SS 620 Passo Lavazè.",
+      "texte": "Tra Ega ed Obereggen (km 2,700 - km 3,000) CHIUSURA al traffico per la posa di condutture (anche nel fine settimana). La deviazione avviene attraverso la SS 620 Passo Lavazè.",
       "debut": "2026-11-01",
       "fin": "2026-11-14",
       "gps": [
@@ -1142,7 +1142,7 @@
     },
     {
       "source": "bz",
-      "id": "3161512",
+      "id": "3161501",
       "route": "SS42 — Passo Mendola",
       "niveau": "gene",
       "etat": "rallentamenti",
