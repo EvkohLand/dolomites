@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-02T17:25Z",
+  "genere_le": "2026-11-02T21:40Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-02T17:50"
+      "maj": "2026-11-02T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -256,6 +256,20 @@
       "gps": [
         46.50186,
         11.31184
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3163912",
+      "route": "Comune di Bolzano",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In via Evangelista Torricelli senso unico alternato con chiusure temporanee fino a 5 minuti dalle ore 08:30 alle ore 16:30 per lavori.",
+      "debut": "2026-11-05",
+      "fin": "2026-11-27",
+      "gps": [
+        46.4801,
+        11.32573
       ]
     },
     {
