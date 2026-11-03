@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-02T21:40Z",
+  "genere_le": "2026-11-03T06:37Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-02T20:00"
+      "maj": "2026-11-03T06:34"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-02"
+      "maj": "2026-11-03"
     }
   },
   "messages": [
@@ -474,7 +474,7 @@
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Tra San Pietro e l'incrocio con la SS 242dir Chiusa-Pontives (km 6,550 - km 8,400) CHIUSURA al traffico dalle ore 08:30 alle ore 12:30 e dalle ore 13:30 alle ore 17:30 a causa di lavori. La deviazione avviene attravereso la SS 242dir Chiusa – Pontives.",
+      "texte": "Tra San Pietro e l'incrocio con la SS 242dir Chiusa-Pontives (km 6,550 - km 8,400) CHIUSURA al traffico dalle ore 08:30 alle ore 12:30 e dalle ore 13:30 alle ore 17:30 a causa di lavori. La deviazione avviene attraverso la SS 242dir Chiusa – Pontives.",
       "debut": "2026-11-01",
       "fin": "2026-11-04",
       "gps": [
@@ -648,20 +648,6 @@
       "gps": [
         46.50427,
         11.46316
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "573812",
-      "route": "LS/SP25 — Alpe di Siusi",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A S. Valentino (km 2,500) CHIUSURA al traffico dalle ore 09:00 alle ore 17:00. Nel caso in cui i 250 parcheggi sull`Alpe di Siusi fossero già occupati prima delle ore 09:00, la strada viene chiusa prima (vale anche per gli autobus). Ulteriori informazioni: www.alpedisiusi.info.",
-      "debut": "2026-05-22",
-      "fin": "2026-11-02",
-      "gps": [
-        46.54948,
-        11.58307
       ]
     },
     {
