@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-03T06:37Z",
+  "genere_le": "2026-11-03T15:28Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-03T06:34"
+      "maj": "2026-11-03T16:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -960,16 +960,44 @@
     },
     {
       "source": "bz",
-      "id": "3159901",
+      "id": "3153101",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-11-09",
-      "fin": "2026-11-10",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
       "gps": [
         46.44363,
         11.34325
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3160601",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Bronzolo (km 425,600 - km 426,200) senso unico alternato dalle ore 07:00 alle ore 19:00 per l'esecuzione della variante (anche il fine settimana).",
+      "debut": "2026-11-08",
+      "fin": "2026-11-17",
+      "gps": [
+        46.39744,
+        11.31728
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3164112",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Laghetti e Bronzolo (km 410,400 - km 425,800) a tratti senso unico alternato per il taglio di rami.",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
+      "gps": [
+        46.3356,
+        11.28302
       ]
     },
     {
