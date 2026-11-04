@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-04T06:05Z",
+  "genere_le": "2026-11-04T14:23Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-04T06:09"
+      "maj": "2026-11-04T15:18"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,20 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3074301",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone 2 km di coda per lavori.",
+      "debut": "2026-11-04",
+      "fin": "",
+      "gps": [
+        46.69452,
+        11.64201
       ]
     },
     {
@@ -476,7 +490,7 @@
       "etat": "traffico bloccato",
       "texte": "Tra San Pietro e l'incrocio con la SS 242dir Chiusa-Pontives (km 6,550 - km 8,400) CHIUSURA al traffico dalle ore 08:30 alle ore 12:30 e dalle ore 13:30 alle ore 17:30 a causa di lavori. La deviazione avviene attraverso la SS 242dir Chiusa – Pontives.",
       "debut": "2026-11-01",
-      "fin": "2026-11-04",
+      "fin": "2026-11-05",
       "gps": [
         46.60367,
         11.60867
@@ -522,6 +536,20 @@
       "gps": [
         46.31769,
         11.2573
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3055012",
+      "route": "LS/SP162 — Campi al Lago",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Castel Varco (km 4,600 - km 5,200) senso unico alternato con chiusure temporanee fino a 5 minuti per lavori di realizzazione muro in sassi.",
+      "debut": "2026-11-05",
+      "fin": "2026-11-27",
+      "gps": [
+        46.38213,
+        11.28175
       ]
     },
     {
@@ -722,16 +750,16 @@
     },
     {
       "source": "bz",
-      "id": "3159101",
-      "route": "LS/SP62Racc — Laimburg Racc.",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "As Ora (km 417,000 - km 418,000) CHIUSURA al traffico per lavori di asfaltatura.",
-      "debut": "2026-11-02",
-      "fin": "2026-11-06",
+      "id": "2955701",
+      "route": "LS/SP65 — Tires",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Tires e Gemeier (km 13,900 - km 14,700) senso unico alternato dalle ore 07:00 alle ore 12:00 e dalle ore 13:00 alle ore 17:00 per lavori di asfaltatura (giorni feriali).",
+      "debut": "2026-11-09",
+      "fin": "2026-11-20",
       "gps": [
-        46.33844,
-        11.28435
+        46.46533,
+        11.53365
       ]
     },
     {
@@ -942,20 +970,6 @@
       "gps": [
         46.51152,
         11.46967
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3008501",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nelle gallerie S. Daniele e Castelfeder (km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. Il traffico viene deviato per Ora.",
-      "debut": "2026-11-19",
-      "fin": "2026-11-20",
-      "gps": [
-        46.3403,
-        11.29328
       ]
     },
     {
