@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-03T23:14Z",
+  "genere_le": "2026-11-04T06:05Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-03T20:00"
+      "maj": "2026-11-04T06:09"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-03"
+      "maj": "2026-11-04"
     }
   },
   "messages": [
@@ -942,6 +942,20 @@
       "gps": [
         46.51152,
         11.46967
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3008501",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nelle gallerie S. Daniele e Castelfeder (km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. Il traffico viene deviato per Ora.",
+      "debut": "2026-11-19",
+      "fin": "2026-11-20",
+      "gps": [
+        46.3403,
+        11.29328
       ]
     },
     {
