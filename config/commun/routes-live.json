@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-04T15:45Z",
+  "genere_le": "2026-11-04T21:15Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-04T15:47"
+      "maj": "2026-11-04T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,34 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3074301",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 2 km di coda per lavori.",
-      "debut": "2026-11-04",
-      "fin": "",
-      "gps": [
-        46.69452,
-        11.64201
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3159001",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone coda di mezzi pesanti a causa di lavori.",
-      "debut": "2026-11-04",
-      "fin": "",
-      "gps": [
-        46.73752,
-        11.6393
       ]
     },
     {
@@ -988,6 +960,20 @@
     },
     {
       "source": "bz",
+      "id": "3008501",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Nelle gallerie S. Daniele e Castelfeder (km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. Il traffico viene deviato per Ora.",
+      "debut": "2026-11-19",
+      "fin": "2026-11-20",
+      "gps": [
+        46.3403,
+        11.29328
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1002,13 +988,13 @@
     },
     {
       "source": "bz",
-      "id": "3159901",
+      "id": "3153101",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-11-09",
-      "fin": "2026-11-10",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
       "gps": [
         46.44363,
         11.34325
