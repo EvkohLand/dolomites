@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-05T06:34Z",
+  "genere_le": "2026-11-05T15:48Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-05T07:20"
+      "maj": "2026-11-05T16:18"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -222,7 +222,7 @@
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone 2 km di coda a causa di lavori.",
+      "texte": "In direzione nord tra Chiusa e Bressanone coda di mezzi pesanti per lavori.",
       "debut": "2026-11-05",
       "fin": "",
       "gps": [
@@ -242,6 +242,20 @@
       "gps": [
         46.60413,
         11.89402
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2897901",
+      "route": "Comune di Bolzano",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Da lunedì 09.11.2026: La funivia del Renon è FUORI SERVIZIO per lavori di revisione all’impianto. I collegamenti tra Soprabolzano e Bolzano Autostazione vengono garantiti con un servizio sostitutivo autobus (quadro orario B161). Il treno del Renon tra Collalbo e Soprabolzano subirá delle variazioni nel periodo di chiusura (quadro orario 160). Ulteriori informazioni: www.altoadigemobilita.info",
+      "debut": "2026-11-07",
+      "fin": "2026-11-24",
+      "gps": [
+        46.49991,
+        11.364
       ]
     },
     {
@@ -932,20 +946,6 @@
     },
     {
       "source": "bz",
-      "id": "3164301",
-      "route": "SS.38 — Superstrada MEBO",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione Merano tra Appiano e Terlano code dopo un incidente.",
-      "debut": "2026-11-05",
-      "fin": "",
-      "gps": [
-        46.50138,
-        11.26756
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2784901",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1036,7 +1036,7 @@
       "etat": "rallentamenti",
       "texte": "A Bronzolo (km 425,600 - km 426,200) senso unico alternato dalle ore 07:00 alle ore 19:00 per l'esecuzione della variante (anche il fine settimana).",
       "debut": "2026-11-08",
-      "fin": "2026-11-17",
+      "fin": "2027-01-31",
       "gps": [
         46.39744,
         11.31728
@@ -1239,12 +1239,5 @@
       ]
     }
   ],
-  "veneto": [
-    {
-      "titre": "Chiusura SP33 \"di Sauris\" dalla prog. km 6+100 alla prog. km 6+300",
-      "texte": "OGGETTO: Situazione strade provinciali e regionali in Provincia di Belluno in gestione a Veneto Strade S.p.A. Aggiornamento al 22/10/2026 ore 14:20. Si comunica la chiusura del seguente tratto stradale: - S.P. 33 \"di Sauris\" dalla progressiva km 6+100 alla progressiva km 6+300 (loc. Ponte Moretti) a causa di colata detritica. Il presente comunicato è scaricabile al seguente link: http://www.venetostrade.it/venetostrade.viabilita.beta/public/comunicato_news.pdf Lo stesso verrà aggiornato in…",
-      "date": "2026-10-22T12:42",
-      "url": "https://www.venetostrade.it/myportal/VSSPA/avvisi/chiusura-sp33-di-sauris-dalla-prog-km-6100-alla-prog-km-6300"
-    }
-  ]
+  "veneto": []
 }
