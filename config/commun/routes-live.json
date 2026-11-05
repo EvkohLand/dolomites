@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-05T17:20Z",
+  "genere_le": "2026-11-05T23:35Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-05T17:50"
+      "maj": "2026-11-05T20:03"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -232,16 +232,30 @@
     },
     {
       "source": "bz",
-      "id": "3159001",
+      "id": "3062401",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Chiusa e Bressanone coda di mezzi pesanti per lavori.",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione nord l'uscita di Bressanone è CHIUSA al traffico dalle ore 20:00 alle ore 06:00 a causa di lavori.",
       "debut": "2026-11-05",
-      "fin": "",
+      "fin": "2026-11-06",
       "gps": [
-        46.73752,
-        11.6393
+        46.76258,
+        11.63847
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3146501",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l'entrata San Michele è CHIUSA al traffico dalle ore 21:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
+      "gps": [
+        46.20316,
+        11.13604
       ]
     },
     {
@@ -256,6 +270,20 @@
       "gps": [
         46.47588,
         11.3173
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "674601",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud il tratto Bolzano Nord – Bolzano Sud è CHIUSO al traffico dalle ore 21:00 alle ore 02:00 a causa di lavori.",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
+      "gps": [
+        46.49371,
+        11.41292
       ]
     },
     {
@@ -1082,20 +1110,6 @@
       "gps": [
         46.57898,
         11.52248
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "591101",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nella galleria di San Giacomo CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-11-05",
-      "fin": "2026-11-06",
-      "gps": [
-        46.46046,
-        11.34001
       ]
     },
     {
