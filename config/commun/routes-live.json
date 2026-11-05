@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-05T15:48Z",
+  "genere_le": "2026-11-05T17:20Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-05T16:18"
+      "maj": "2026-11-05T17:50"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,6 +218,20 @@
     },
     {
       "source": "bz",
+      "id": "3050401",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione nord l'entrata di Bolzano Sud è CHIUSA al traffico dalle ore 01:00 alle ore 06:00 per lavori.",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
+      "gps": [
+        46.47413,
+        11.31654
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3159001",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "gene",
@@ -228,6 +242,20 @@
       "gps": [
         46.73752,
         11.6393
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3164401",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione nord il tratto Bolzano Sud – Bolzano Nord è CHIUSO dalle ore 01:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-11-05",
+      "fin": "2026-11-06",
+      "gps": [
+        46.47588,
+        11.3173
       ]
     },
     {
@@ -494,20 +522,6 @@
       "gps": [
         46.4925,
         11.39517
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2842301",
-      "route": "LS/SP139 — Laion - S. Pietro",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Tra San Pietro e l'incrocio con la SS 242dir Chiusa-Pontives (km 6,550 - km 8,400) CHIUSURA al traffico dalle ore 08:30 alle ore 12:30 e dalle ore 13:30 alle ore 17:30 a causa di lavori. La deviazione avviene attraverso la SS 242dir Chiusa – Pontives.",
-      "debut": "2026-11-01",
-      "fin": "2026-11-05",
-      "gps": [
-        46.60367,
-        11.60867
       ]
     },
     {
