@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-06T06:30Z",
+  "genere_le": "2026-11-06T15:23Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-06T07:22"
+      "maj": "2026-11-06T16:01"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -526,6 +526,20 @@
     },
     {
       "source": "bz",
+      "id": "2980201",
+      "route": "LS/SP157 — Elle",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Da lunedì 09.11.2026: Tra Mantana ed Elle (km 2,650 - km 3,000) CHIUSURA al traffico dalle ore 08:00 alle ore 17:00 per lavori di taglio alberi (giorni feriali).",
+      "debut": "2026-11-06",
+      "fin": "2026-11-20",
+      "gps": [
+        46.77789,
+        11.84505
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3162812",
       "route": "LS/SP16 — Autostrada - Termeno",
       "niveau": "gene",
@@ -694,20 +708,6 @@
     },
     {
       "source": "bz",
-      "id": "2846312",
-      "route": "LS/SP37 — S. Cassiano",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Sciaré ed il confine provinciale (km 9,490 - km 10,200) senso unico alternato dalle ore 07:00 alle ore 17:00 per lavori .",
-      "debut": "2026-10-19",
-      "fin": "2026-11-06",
-      "gps": [
-        46.54708,
-        11.97376
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3137712",
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "gene",
@@ -788,20 +788,6 @@
       "gps": [
         46.46708,
         11.52839
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3163512",
-      "route": "LS/SP70 — Scaleres",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Varna e Scaleres (km 3,200 - km 3,300) senso unico alternato a causa di lavori.",
-      "debut": "2026-11-04",
-      "fin": "2026-11-20",
-      "gps": [
-        46.73933,
-        11.61696
       ]
     },
     {
@@ -1180,20 +1166,6 @@
       "gps": [
         46.7043,
         11.88374
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3161812",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Corvara (km 33,960 - km 34,650) seno unico alternato dalle ore 07:00 alle ore 18:00 per lavori di asfaltatura (giorni feriali).",
-      "debut": "2026-10-28",
-      "fin": "2026-11-06",
-      "gps": [
-        46.54623,
-        11.87621
       ]
     },
     {
