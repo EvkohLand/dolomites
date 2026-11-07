@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-06T23:02Z",
+  "genere_le": "2026-11-07T05:50Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-06T20:02"
+      "maj": "2026-11-07T06:13"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-06"
+      "maj": "2026-11-07"
     }
   },
   "messages": [
@@ -316,6 +316,20 @@
     },
     {
       "source": "bz",
+      "id": "2709601",
+      "route": "Comune di Velturno",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Velturno la SP 74 Chiusa - Velturno (km 4,000 - km 4,200) e la SP 142 Velturno - Latzfons (km 0,000 - km 0,300) sono CHIUSE al traffico dalle ore 08:00 alle ore 18:00 per la manifestazione “Keschtnigl”. Il traffico viene deviato localmente.",
+      "debut": "2026-11-07",
+      "fin": "2026-11-08",
+      "gps": [
+        46.66813,
+        11.59856
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3161012",
       "route": "Comune di Villandro",
       "niveau": "fermeture",
@@ -498,20 +512,6 @@
     },
     {
       "source": "bz",
-      "id": "3103012",
-      "route": "LS/SP139 — Laion - S. Pietro",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A San Pietro (km 6,550 - km 8,400) senso unico alternato a causa di lavori (giorni feriali).",
-      "debut": "2026-10-28",
-      "fin": "2026-11-06",
-      "gps": [
-        46.60367,
-        11.60867
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2980201",
       "route": "LS/SP157 — Elle",
       "niveau": "fermeture",
@@ -578,20 +578,6 @@
       "gps": [
         46.50491,
         11.29388
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2792512",
-      "route": "LS/SP172 — Ischia Frizzi",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Bolzano (km 0,800 - km 0,850; km 1,400 - km 1,800) senso unico alternato dalle ore 08:00 alle ore 17:00 per posa fibra ottica (giorni feriali).",
-      "debut": "2026-10-26",
-      "fin": "2026-11-06",
-      "gps": [
-        46.46586,
-        11.30606
       ]
     },
     {
@@ -708,34 +694,6 @@
     },
     {
       "source": "bz",
-      "id": "3161612",
-      "route": "LS/SP54 — Maso Pill - Andriano",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Riva di Sotto (km 0,000 - km 2,200) a tratti senso unico alternato a causa di lavori (giorni feriali).",
-      "debut": "2026-10-28",
-      "fin": "2026-11-06",
-      "gps": [
-        46.48107,
-        11.27689
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3080012",
-      "route": "LS/SP56 — Sares",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Tra Sares e Marebbe (km 0,500 - km 3,500) CHIUSURA per la posa di sottoservizi.",
-      "debut": "2026-09-28",
-      "fin": "2026-11-06",
-      "gps": [
-        46.77023,
-        11.87374
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2955701",
       "route": "LS/SP65 — Tires",
       "niveau": "gene",
@@ -820,34 +778,6 @@
     },
     {
       "source": "bz",
-      "id": "3163412",
-      "route": "LS/SP73 — Renon",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Al di sopra di Auna di Sotto (km 10,620 - km 10,720) senso unico alternato per lavori di scavo.",
-      "debut": "2026-11-02",
-      "fin": "2026-11-06",
-      "gps": [
-        46.52081,
-        11.44793
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2709601",
-      "route": "LS/SP74 — Chiusa - Velturno - Bressanone",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Velturno la SP 74 Chiusa - Velturno (km 4,000 - km 4,200) e la SP 142 Velturno - Latzfons (km 0,000 - km 0,300) sono CHIUSE al traffico dalle ore 08:00 alle ore 18:00 per la manifestazione “Keschtnigl”. Il traffico viene deviato localmente.",
-      "debut": "2026-11-07",
-      "fin": "2026-11-08",
-      "gps": [
-        46.66813,
-        11.59856
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3014212",
       "route": "LS/SP76 — Obereggen",
       "niveau": "gene",
@@ -900,20 +830,6 @@
       "gps": [
         46.51884,
         12.0093
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2784901",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Chiusa (km 465,200 - km 465,400) senso unico alternato con attese fino a 5 minuti dalle ore 08:00 alle ore 16:30 per riparazione reti paramassi.",
-      "debut": "2026-11-02",
-      "fin": "2026-11-06",
-      "gps": [
-        46.62939,
-        11.55014
       ]
     },
     {
@@ -1002,20 +918,6 @@
     },
     {
       "source": "bz",
-      "id": "3164112",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Laghetti e Bronzolo (km 410,400 - km 425,800) a tratti senso unico alternato per il taglio di rami.",
-      "debut": "2026-11-05",
-      "fin": "2026-11-06",
-      "gps": [
-        46.3356,
-        11.28302
-      ]
-    },
-    {
-      "source": "bz",
       "id": "578712",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1044,20 +946,6 @@
     },
     {
       "source": "bz",
-      "id": "3160512",
-      "route": "SS242 — di Val Gardena e Passo Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "All’altezza di S. Pietro in Valle (km 7,670 - km 7,720) senso unico alternato dalle ore 08:00 alle ore 17:00 per il ripristino delle condotte interrotte (giorni feriali).",
-      "debut": "2026-10-28",
-      "fin": "2026-11-06",
-      "gps": [
-        46.59487,
-        11.61707
-      ]
-    },
-    {
-      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -1068,34 +956,6 @@
       "gps": [
         46.64479,
         11.58281
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2732112",
-      "route": "SS242Dir — di Val Gardena e Passo Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Pontives (km 14,050 - km 14,450) senso unico alternato dalle ore 07:30 alle ore 18:00 per lavori (giorni feriali).",
-      "debut": "2026-10-30",
-      "fin": "2026-11-06",
-      "gps": [
-        46.59899,
-        11.62175
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "578212",
-      "route": "SS242Dir — di Val Gardena e Passo Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Nei pressi del bivio per S. Pietro (km 14,050 - km 14,450) senso unico alternato dalle ore 07:30 alle ore 18:00 a causa di lavori (giorni feriali).",
-      "debut": "2026-10-28",
-      "fin": "2026-11-06",
-      "gps": [
-        46.59899,
-        11.62175
       ]
     },
     {
@@ -1138,34 +998,6 @@
       "gps": [
         46.71955,
         11.88821
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3152712",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Longega e Piccolino (km 11,750 - km 11,850) senso unico alternato per lavori di messa in sicurezza.",
-      "debut": "2026-10-06",
-      "fin": "2026-11-06",
-      "gps": [
-        46.7043,
-        11.88374
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3161501",
-      "route": "SS42 — Passo Mendola",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra S. Michele/Appiano e Pillhof (km 236,000 – km 239,00) a tratti senso unico alternato a causa di lavori (giorni feriali).",
-      "debut": "2026-10-28",
-      "fin": "2026-11-06",
-      "gps": [
-        46.45362,
-        11.26999
       ]
     }
   ],
