@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-07T05:50Z",
+  "genere_le": "2026-11-07T12:52Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-07T06:13"
+      "maj": "2026-11-07T13:48"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,20 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2714701",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Vipiteno ed il Brennero 2 km di coda per traffico intenso.",
+      "debut": "2026-11-07",
+      "fin": "",
+      "gps": [
+        46.64679,
+        11.58679
       ]
     },
     {
@@ -928,6 +942,20 @@
       "gps": [
         46.57898,
         11.52248
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2740601",
+      "route": "SS241 — di Val d'Ega e Passo Costalunga",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Nova Levante (km 17,500 – km 17,700) CHIUSURA al traffico dalle ore 19:00 alle ore 20:30 e dalle ore 21:30 a lle ore 21:50 in occasione di una corsa di Krampus.",
+      "debut": "2026-11-14",
+      "fin": "2026-11-14",
+      "gps": [
+        46.43028,
+        11.54181
       ]
     },
     {
