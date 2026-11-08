@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-08T14:31Z",
+  "genere_le": "2026-11-08T17:53Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-08T13:57"
+      "maj": "2026-11-08T18:30"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -298,20 +298,6 @@
       "gps": [
         46.42919,
         11.34087
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2709601",
-      "route": "Comune di Velturno",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Velturno la SP 74 Chiusa - Velturno (km 4,000 - km 4,200) e la SP 142 Velturno - Latzfons (km 0,000 - km 0,300) sono CHIUSE al traffico dalle ore 08:00 alle ore 18:00 per la manifestazione “Keschtnigl”. Il traffico viene deviato localmente.",
-      "debut": "2026-11-07",
-      "fin": "2026-11-08",
-      "gps": [
-        46.66813,
-        11.59856
       ]
     },
     {
