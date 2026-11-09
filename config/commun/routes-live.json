@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-08T21:58Z",
+  "genere_le": "2026-11-09T06:10Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-08T20:00"
+      "maj": "2026-11-09T06:26"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-08"
+      "maj": "2026-11-09"
     }
   },
   "messages": [
@@ -222,7 +222,7 @@
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da lunedì 09.11.2026: La funivia del Renon è FUORI SERVIZIO per lavori di revisione all’impianto. I collegamenti tra Soprabolzano e Bolzano Autostazione vengono garantiti con un servizio sostitutivo autobus (quadro orario B161). Il treno del Renon tra Collalbo e Soprabolzano subirá delle variazioni nel periodo di chiusura (quadro orario 160). Ulteriori informazioni: www.altoadigemobilita.info",
+      "texte": "La funivia del Renon è FUORI SERVIZIO per lavori di revisione all’impianto. I collegamenti tra Soprabolzano e Bolzano Autostazione vengono garantiti con un servizio sostitutivo autobus (quadro orario B161). Il treno del Renon tra Collalbo e Soprabolzano subirá delle variazioni nel periodo di chiusura (quadro orario 160). Ulteriori informazioni: www.altoadigemobilita.info",
       "debut": "2026-11-07",
       "fin": "2026-11-24",
       "gps": [
@@ -404,7 +404,7 @@
       "route": "LS/SP13 — S. Paolo - Riva di sotto",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da lunedì 09.11.2026: Tra S. Paolo e Riva di Sotto (km 1,400 - km 2,880, km 2,880 - km 3,170) CHIUSURA al traffico per lavori di asfaltatura (anche nel fine settimana).",
+      "texte": "Tra S. Paolo e Riva di Sotto (km 1,400 - km 2,880, km 2,880 - km 3,170) CHIUSURA al traffico per lavori di asfaltatura (anche nel fine settimana).",
       "debut": "2026-11-08",
       "fin": "2026-11-27",
       "gps": [
@@ -488,7 +488,7 @@
       "route": "LS/SP157 — Elle",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Da lunedì 09.11.2026: Tra Mantana ed Elle (km 2,650 - km 3,000) CHIUSURA al traffico dalle ore 08:00 alle ore 17:00 per lavori di taglio alberi (giorni feriali).",
+      "texte": "Tra Mantana ed Elle (km 2,650 - km 3,000) CHIUSURA al traffico dalle ore 08:00 alle ore 17:00 per lavori di taglio alberi (giorni feriali).",
       "debut": "2026-11-06",
       "fin": "2026-11-20",
       "gps": [
@@ -666,7 +666,7 @@
     },
     {
       "source": "bz",
-      "id": "2955701",
+      "id": "2955712",
       "route": "LS/SP65 — Tires",
       "niveau": "gene",
       "etat": "rallentamenti",
