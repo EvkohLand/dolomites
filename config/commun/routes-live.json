@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-09T06:10Z",
+  "genere_le": "2026-11-09T17:47Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-09T06:26"
+      "maj": "2026-11-09T17:58"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,6 +218,20 @@
     },
     {
       "source": "bz",
+      "id": "3165001",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In entrambe le direzioni tra Bolzano Nord e Bolzano Sud CHIUSURA al traffico dalle ore 21:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-11-09",
+      "fin": "2026-11-10",
+      "gps": [
+        46.48962,
+        11.348
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2897901",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -318,8 +332,8 @@
       "source": "bz",
       "id": "2878801",
       "route": "Ferrovia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
       "texte": "Domenica 15.11.2026: La linea ferroviaria della Val Pusteria nel tratto Fortezza - San Candido dalle ore 07:30 alle ore 13:15 e nel tratto San Candido - Confine di Stato dalle ore 09:00 alle ore 12:00 è INTERROTTA per lavori di manutenzione straordinaria. C’è un servizio autobus sostitutivo.",
       "debut": "2026-11-14",
       "fin": "2026-11-15",
@@ -360,9 +374,9 @@
       "source": "bz",
       "id": "588108",
       "route": "LS/SP 44 — Passo Stalle",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Collegamento tra la Valle Anterselva e la Valle Defereggen (km 18,680 - km 23,460) aperto ININTERROTTAMENTE a senso unico alternato (dall’Italia verso l’Austria sempre 15 minuti dopo ogni mezz’ora e dall’Austria verso l’Italia sempre 15 minuti dopo l’ora piena). Divieto di transito per autobus, veicoli di peso superiore a 3,5 t, veicoli con rimorchio e veicoli di altezza superiore a 3 m. DA…",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Dal lago di Anterselva in poi (km 17,400) CHIUSURA INVERNALE.",
       "debut": "2026-05-13",
       "fin": "",
       "gps": [
@@ -480,6 +494,20 @@
       "gps": [
         46.60924,
         11.56587
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2892012",
+      "route": "LS/SP153 — Fundres",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Vallarga (km 4,200 - km 4,250) senso unico alternato per lavori.",
+      "debut": "2026-11-09",
+      "fin": "2026-12-30",
+      "gps": [
+        46.85132,
+        11.72537
       ]
     },
     {
@@ -750,6 +778,20 @@
     },
     {
       "source": "bz",
+      "id": "3165412",
+      "route": "LS/SP73 — Renon",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Al di sopra di Bolzano all’altezza di Costa di Sopra (km 2,770 – km 2,870) senso unico alternato dalle ore 07:00 alle ore 18:00 a causa di lavori (anche nel fine settimana).",
+      "debut": "2026-11-09",
+      "fin": "2026-12-14",
+      "gps": [
+        46.49857,
+        11.39682
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3014212",
       "route": "LS/SP76 — Obereggen",
       "niveau": "gene",
@@ -932,6 +974,20 @@
     },
     {
       "source": "bz",
+      "id": "3164912",
+      "route": "SS242 — di Val Gardena e Passo Sella",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra S. Pietro in Valle e Pontives (km 8,400 - km 8,750) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori a delle condotte.",
+      "debut": "2026-11-09",
+      "fin": "2026-11-13",
+      "gps": [
+        46.58952,
+        11.62697
+      ]
+    },
+    {
+      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -970,6 +1026,20 @@
       "gps": [
         46.71955,
         11.88821
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3165212",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Chienes (km 22,505 - km 22,540) limitazione di velocità a causa di lavori a un muro.",
+      "debut": "2026-11-09",
+      "fin": "2026-11-25",
+      "gps": [
+        46.80647,
+        11.83454
       ]
     }
   ],
