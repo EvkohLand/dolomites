@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-10T03:28Z",
+  "genere_le": "2026-11-10T14:46Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-09T20:01"
+      "maj": "2026-11-10T15:42"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,20 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3165001",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In entrambe le direzioni tra Bolzano Nord e Bolzano Sud CHIUSURA al traffico dalle ore 21:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-11-09",
-      "fin": "2026-11-10",
-      "gps": [
-        46.48962,
-        11.348
       ]
     },
     {
@@ -680,6 +666,20 @@
     },
     {
       "source": "bz",
+      "id": "2881312",
+      "route": "LS/SP32 — Rodengo",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Rio di Pusteria (km 0,100 - km 1,175) senso unico alternato per lavori.",
+      "debut": "2026-11-16",
+      "fin": "2026-11-20",
+      "gps": [
+        46.79583,
+        11.67101
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3137712",
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "gene",
@@ -904,20 +904,6 @@
     },
     {
       "source": "bz",
-      "id": "3159901",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nella galleria di San Giacomo (km 432,000 - km 435,500) CHIUSURA NOTTURNA dalle ore 20:00 alle ore 06:00 per installazione e collaudo passerella pedociclabile. La deviazione avviene attraverso San Giacomo.",
-      "debut": "2026-11-09",
-      "fin": "2026-11-10",
-      "gps": [
-        46.44363,
-        11.34325
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3160601",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1026,6 +1012,20 @@
       "gps": [
         46.71955,
         11.88821
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3010712",
+      "route": "SS48 — delle Dolomiti",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Ora e Montagna (km 1,500 - km 2,800) senso unico alternato con attese fino a 5 minuti per taglio rami.",
+      "debut": "2026-11-17",
+      "fin": "2026-11-20",
+      "gps": [
+        46.34089,
+        11.29781
       ]
     },
     {
