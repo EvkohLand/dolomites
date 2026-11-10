@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-10T14:46Z",
+  "genere_le": "2026-11-10T15:46Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-10T15:42"
+      "maj": "2026-11-10T16:21"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -690,6 +690,20 @@
       "gps": [
         46.82782,
         11.80196
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2849301",
+      "route": "LS/SP62 — Laimburg",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Vadena (km 8,350) senso unico alternato per sostituzione di coperchi di pozzetti.",
+      "debut": "2026-11-16",
+      "fin": "2026-11-18",
+      "gps": [
+        46.36945,
+        11.29024
       ]
     },
     {
