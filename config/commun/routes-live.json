@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-11T15:36Z",
+  "genere_le": "2026-11-11T21:52Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-11T15:13"
+      "maj": "2026-11-11T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,20 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3165601",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Bressanone e Bolzano Nord coda di mezzi pesanti per traffico intenso.",
-      "debut": "2026-11-11",
-      "fin": "",
-      "gps": [
-        46.63375,
-        11.55783
       ]
     },
     {
@@ -708,20 +694,6 @@
     },
     {
       "source": "bz",
-      "id": "3165701",
-      "route": "LS/SP46 — Valle di Casies",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Al di sopra di Monguelfo (km 1,500) rallentamenti dopo un incidente. Possibilità per deviare attraverso Tesido.",
-      "debut": "2026-11-11",
-      "fin": "",
-      "gps": [
-        46.76349,
-        12.11436
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2849301",
       "route": "LS/SP62 — Laimburg",
       "niveau": "gene",
@@ -1110,6 +1082,20 @@
       "gps": [
         46.80647,
         11.83454
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3165901",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Rasun di Sotto (km 42,500 - km 42,700) senso unico alternato dalle ore 07:30 alle ore 17:00 per lavori di asfaltatura.",
+      "debut": "2026-11-16",
+      "fin": "2026-11-20",
+      "gps": [
+        46.77218,
+        12.04221
       ]
     }
   ],
