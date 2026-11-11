@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-11T06:00Z",
+  "genere_le": "2026-11-11T14:07Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-11T06:57"
+      "maj": "2026-11-11T13:30"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,20 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3165601",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Chiusa e Bolzano Nord coda di mezzi pesanti per traffico intenso.",
+      "debut": "2026-11-11",
+      "fin": "",
+      "gps": [
+        46.50974,
+        11.46515
       ]
     },
     {
@@ -694,6 +708,20 @@
     },
     {
       "source": "bz",
+      "id": "3165701",
+      "route": "LS/SP46 — Valle di Casies",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Al di sopra di Monguelfo (km 1,500) rallentamenti dopo un incidente. Possibilità per deviare attraverso Tesido.",
+      "debut": "2026-11-11",
+      "fin": "",
+      "gps": [
+        46.76349,
+        12.11436
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2849301",
       "route": "LS/SP62 — Laimburg",
       "niveau": "gene",
@@ -904,6 +932,20 @@
     },
     {
       "source": "bz",
+      "id": "3115112",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Bolzano in galleria del Virgolo (km 437,714 - km 438,422) senso unico alternato dalle ore 22:00 alle ore 05:00 per lavori di pulizia.",
+      "debut": "2026-11-12",
+      "fin": "2026-11-13",
+      "gps": [
+        46.4905,
+        11.35088
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1026,6 +1068,20 @@
       "gps": [
         46.71955,
         11.88821
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3134201",
+      "route": "SS244 — di Val Badia",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Nelle gallerie tra Mantana e Longega (km 3,900 - km 9,300) a tratti senso unico alternato dalle ore 07:30 alle ore 17:00 per lavori di pulizia nelle gallerie.",
+      "debut": "2026-11-11",
+      "fin": "2026-11-13",
+      "gps": [
+        46.76312,
+        11.86427
       ]
     },
     {
