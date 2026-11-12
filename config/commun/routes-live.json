@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-11T21:52Z",
+  "genere_le": "2026-11-12T07:01Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-11T20:00"
+      "maj": "2026-11-12T07:41"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-11"
+      "maj": "2026-11-12"
     }
   },
   "messages": [
@@ -946,6 +946,20 @@
     },
     {
       "source": "bz",
+      "id": "3166401",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "info",
+      "etat": "Percorribile liberamente",
+      "texte": "La galleria di circonvallazione di Laives è stata RIAPERTA al traffico dopo un incidente.",
+      "debut": "2026-11-12",
+      "fin": "",
+      "gps": [
+        46.41939,
+        11.34365
+      ]
+    },
+    {
+      "source": "bz",
       "id": "578712",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1068,6 +1082,20 @@
       "gps": [
         46.34089,
         11.29781
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3157501",
+      "route": "SS49 — della Pusteria",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Perca rallentamenti e code dopo un incidente.",
+      "debut": "2026-11-12",
+      "fin": "",
+      "gps": [
+        46.79182,
+        11.99324
       ]
     },
     {
