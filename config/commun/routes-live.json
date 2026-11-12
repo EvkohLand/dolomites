@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-12T07:01Z",
+  "genere_le": "2026-11-12T16:13Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-12T07:41"
+      "maj": "2026-11-12T16:31"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,6 +214,34 @@
       "gps": [
         45.08378,
         9.26463
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3165001",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In entrambe le direzioni tra Bolzano Nord e Bolzano Sud CHIUSURA al traffico dalle ore 21:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-11-12",
+      "fin": "2026-11-13",
+      "gps": [
+        46.48962,
+        11.348
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3166501",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone coda di mezzi pesanti per traffico intenso.",
+      "debut": "2026-11-12",
+      "fin": "",
+      "gps": [
+        46.74236,
+        11.63989
       ]
     },
     {
@@ -946,20 +974,6 @@
     },
     {
       "source": "bz",
-      "id": "3166401",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "info",
-      "etat": "Percorribile liberamente",
-      "texte": "La galleria di circonvallazione di Laives è stata RIAPERTA al traffico dopo un incidente.",
-      "debut": "2026-11-12",
-      "fin": "",
-      "gps": [
-        46.41939,
-        11.34365
-      ]
-    },
-    {
-      "source": "bz",
       "id": "578712",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -1058,20 +1072,6 @@
     },
     {
       "source": "bz",
-      "id": "3134201",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Nelle gallerie tra Mantana e Longega (km 3,900 - km 9,300) a tratti senso unico alternato dalle ore 07:30 alle ore 17:00 per lavori di pulizia nelle gallerie.",
-      "debut": "2026-11-11",
-      "fin": "2026-11-13",
-      "gps": [
-        46.76312,
-        11.86427
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3010712",
       "route": "SS48 — delle Dolomiti",
       "niveau": "gene",
@@ -1082,20 +1082,6 @@
       "gps": [
         46.34089,
         11.29781
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3157501",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Perca rallentamenti e code dopo un incidente.",
-      "debut": "2026-11-12",
-      "fin": "",
-      "gps": [
-        46.79182,
-        11.99324
       ]
     },
     {
