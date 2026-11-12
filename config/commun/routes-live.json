@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-12T17:31Z",
+  "genere_le": "2026-11-12T23:31Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-12T18:08"
+      "maj": "2026-11-12T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -214,20 +214,6 @@
       "gps": [
         45.08378,
         9.26463
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2737701",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra San Michele e Trento Nord 2 km di coda per traffico intenso.",
-      "debut": "2026-11-12",
-      "fin": "",
-      "gps": [
-        45.91564,
-        11.03815
       ]
     },
     {
