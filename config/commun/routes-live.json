@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-12T23:31Z",
+  "genere_le": "2026-11-13T06:30Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-12T20:00"
+      "maj": "2026-11-13T06:26"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-12"
+      "maj": "2026-11-13"
     }
   },
   "messages": [
@@ -218,20 +218,6 @@
     },
     {
       "source": "bz",
-      "id": "3165001",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In entrambe le direzioni tra Bolzano Nord e Bolzano Sud CHIUSURA al traffico dalle ore 21:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-11-12",
-      "fin": "2026-11-13",
-      "gps": [
-        46.48962,
-        11.348
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2897910",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -284,6 +270,20 @@
       "gps": [
         46.4801,
         11.32573
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3035101",
+      "route": "Comune di Laives",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Per la manifestazione „Krampuslauf“ le seguenti strade sono CHIUSE per il tempo necessario al transito della sfilata dalle ore 13:00 alle ore 24:00: via Kennedy dall’intersezione di via Pietralba (Crosara) fino all’intersezione con via Galizia, via Galizia dalla rotatoria fino all’intersezione con via Kennedy e via Noldin. Il traffico viene deviato localmente.",
+      "debut": "2026-11-28",
+      "fin": "2026-11-28",
+      "gps": [
+        46.42694,
+        11.33727
       ]
     },
     {
@@ -792,20 +792,6 @@
     },
     {
       "source": "bz",
-      "id": "2744412",
-      "route": "LS/SP73 — Renon",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Collalbo (km 13,620 - km 13,650) senso unico alternato per lavori di risanamento ponte (anche il fine settimana).",
-      "debut": "2026-08-31",
-      "fin": "2026-11-12",
-      "gps": [
-        46.53791,
-        11.45065
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3165412",
       "route": "LS/SP73 — Renon",
       "niveau": "gene",
@@ -876,20 +862,6 @@
     },
     {
       "source": "bz",
-      "id": "2916301",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nella galleria di Laives CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. La deviazione avviene attraverso Laives.",
-      "debut": "2026-11-12",
-      "fin": "2026-11-13",
-      "gps": [
-        46.42713,
-        11.34893
-      ]
-    },
-    {
-      "source": "bz",
       "id": "2952212",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -914,20 +886,6 @@
       "gps": [
         46.3403,
         11.29328
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3115112",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Bolzano in galleria del Virgolo (km 437,714 - km 438,422) senso unico alternato dalle ore 22:00 alle ore 05:00 per lavori di pulizia.",
-      "debut": "2026-11-12",
-      "fin": "2026-11-13",
-      "gps": [
-        46.4905,
-        11.35088
       ]
     },
     {
