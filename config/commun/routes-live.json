@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-13T06:30Z",
+  "genere_le": "2026-11-13T15:41Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-13T06:26"
+      "maj": "2026-11-13T16:39"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -218,6 +218,20 @@
     },
     {
       "source": "bz",
+      "id": "3166501",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione nord tra Chiusa e Bressanone coda di mezzi pesanti per lavori.",
+      "debut": "2026-11-13",
+      "fin": "",
+      "gps": [
+        46.74236,
+        11.63989
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2897910",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -270,20 +284,6 @@
       "gps": [
         46.4801,
         11.32573
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3035101",
-      "route": "Comune di Laives",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Per la manifestazione „Krampuslauf“ le seguenti strade sono CHIUSE per il tempo necessario al transito della sfilata dalle ore 13:00 alle ore 24:00: via Kennedy dall’intersezione di via Pietralba (Crosara) fino all’intersezione con via Galizia, via Galizia dalla rotatoria fino all’intersezione con via Kennedy e via Noldin. Il traffico viene deviato localmente.",
-      "debut": "2026-11-28",
-      "fin": "2026-11-28",
-      "gps": [
-        46.42694,
-        11.33727
       ]
     },
     {
@@ -886,6 +886,20 @@
       "gps": [
         46.3403,
         11.29328
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3115112",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Bolzano in galleria del Virgolo (km 437,714 - km 438,422) senso unico alternato dalle ore 22:00 alle ore 05:00 per lavori di pulizia.",
+      "debut": "2026-11-12",
+      "fin": "2026-11-13",
+      "gps": [
+        46.4905,
+        11.35088
       ]
     },
     {
