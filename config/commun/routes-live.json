@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-14T06:09Z",
+  "genere_le": "2026-11-14T13:26Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-14T06:57"
+      "maj": "2026-11-14T13:49"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -270,20 +270,6 @@
       "gps": [
         46.4801,
         11.32573
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "635901",
-      "route": "Comune di Bolzano",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Per la partita di calcio del F.C. Südtirol viale Trieste e via Trento vengono CHIUSI al traffico dalle ore 12:00 ca fino alla fine della partita. Anche la pista ciclabile nella zona retrostante dello Stadio Druso viene CHIUSA.",
-      "debut": "2026-11-29",
-      "fin": "2026-11-29",
-      "gps": [
-        46.4919,
-        11.34462
       ]
     },
     {
