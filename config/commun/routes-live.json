@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-13T23:28Z",
+  "genere_le": "2026-11-14T06:09Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-13T20:01"
+      "maj": "2026-11-14T06:57"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-13"
+      "maj": "2026-11-14"
     }
   },
   "messages": [
@@ -274,6 +274,20 @@
     },
     {
       "source": "bz",
+      "id": "635901",
+      "route": "Comune di Bolzano",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Per la partita di calcio del F.C. Südtirol viale Trieste e via Trento vengono CHIUSI al traffico dalle ore 12:00 ca fino alla fine della partita. Anche la pista ciclabile nella zona retrostante dello Stadio Druso viene CHIUSA.",
+      "debut": "2026-11-29",
+      "fin": "2026-11-29",
+      "gps": [
+        46.4919,
+        11.34462
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3035101",
       "route": "Comune di Laives",
       "niveau": "fermeture",
@@ -284,20 +298,6 @@
       "gps": [
         46.42694,
         11.33727
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3112712",
-      "route": "Comune di Laives",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "La via Max Valier in corrispondenza della curva è CHIUSA al traffico nelle immediate vicinanze della nuova fermata ferroviaria „Bolzano Aeroporto.",
-      "debut": "2026-07-02",
-      "fin": "2026-11-13",
-      "gps": [
-        46.50663,
-        11.34593
       ]
     },
     {
@@ -414,7 +414,7 @@
     },
     {
       "source": "bz",
-      "id": "3163301",
+      "id": "3163312",
       "route": "LS/SP13 — S. Paolo - Riva di sotto",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
@@ -484,6 +484,20 @@
     },
     {
       "source": "bz",
+      "id": "2740701",
+      "route": "LS/SP139 — Laion - S. Pietro",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Laion (km 2,350 - km 2,600) CHIUSURA al traffico dalle ore 15:00 alle ore 20:00 in occasione della sfilata di Krampus. Il traffico potrà essere deviato sulla via Trojer Anger, via Nassenweg e via Vogelweide (tranne nella fascia oraria tra le ore 18.00 e le ore 20.00).",
+      "debut": "2026-11-28",
+      "fin": "2026-11-28",
+      "gps": [
+        46.60609,
+        11.56291
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3074212",
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "gene",
@@ -517,7 +531,7 @@
       "niveau": "fermeture",
       "etat": "traffico bloccato",
       "texte": "Tra Mantana ed Elle (km 2,650 - km 3,000) CHIUSURA al traffico dalle ore 08:00 alle ore 17:00 per lavori di taglio alberi (giorni feriali).",
-      "debut": "2026-11-06",
+      "debut": "2026-11-16",
       "fin": "2026-11-20",
       "gps": [
         46.77789,
@@ -634,20 +648,6 @@
       "gps": [
         46.50809,
         11.51002
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3062112",
-      "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "All’altezza di San Antonio (km 9,000 – km 9,750) senso unico alternato con chiusure temporanee fino a 10 minuti a causa di lavori di abbattimento alberi (anche il fine settimana).",
-      "debut": "2026-11-02",
-      "fin": "2026-11-13",
-      "gps": [
-        46.52883,
-        11.51174
       ]
     },
     {
@@ -960,20 +960,6 @@
     },
     {
       "source": "bz",
-      "id": "3164912",
-      "route": "SS242 — di Val Gardena e Passo Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra S. Pietro in Valle e Pontives (km 8,400 - km 8,750) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori a delle condotte.",
-      "debut": "2026-11-09",
-      "fin": "2026-11-13",
-      "gps": [
-        46.58952,
-        11.62697
-      ]
-    },
-    {
-      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -984,20 +970,6 @@
       "gps": [
         46.64479,
         11.58281
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2894212",
-      "route": "SS244 — di Val Badia",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Piccolino (km 14,500 - km 14,600) senso unico alternato per la realizzazione di un sottopassaggio.",
-      "debut": "2026-09-28",
-      "fin": "2026-11-13",
-      "gps": [
-        46.69054,
-        11.89311
       ]
     },
     {
