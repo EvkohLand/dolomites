@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-11-14T19:53Z",
+  "genere_le": "2026-11-15T00:59Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-14"
+      "maj": "2026-11-15"
     }
   },
   "messages": [
@@ -928,20 +928,6 @@
       "gps": [
         46.57898,
         11.52248
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2740601",
-      "route": "SS241 — di Val d'Ega e Passo Costalunga",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Nova Levante (km 17,500 – km 17,700) CHIUSURA al traffico dalle ore 19:00 alle ore 20:30 e dalle ore 21:30 a lle ore 21:50 in occasione di una corsa di Krampus.",
-      "debut": "2026-11-14",
-      "fin": "2026-11-14",
-      "gps": [
-        46.43028,
-        11.54181
       ]
     },
     {
