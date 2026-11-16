@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-16T00:57Z",
+  "genere_le": "2026-11-16T11:00Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-15T20:00"
+      "maj": "2026-11-16T11:47"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -680,7 +680,7 @@
     },
     {
       "source": "bz",
-      "id": "2849301",
+      "id": "2849312",
       "route": "LS/SP62 — Laimburg",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -862,6 +862,20 @@
     },
     {
       "source": "bz",
+      "id": "3120212",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Bronzolo (km 426,700 - km 427,100) modifica della viabilità e deviazione sulla SP 173 Bronzolo - ponte di Vadena per lavori di realizzazione svincolo Bronzolo Nord.",
+      "debut": "2026-11-30",
+      "fin": "2027-01-31",
+      "gps": [
+        46.40391,
+        11.32405
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3140412",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -900,6 +914,20 @@
       "gps": [
         46.57898,
         11.52248
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3022101",
+      "route": "SS241 — di Val d'Ega e Passo Costalunga",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Ponte Nova (km 11,600 - km 11,700) senso unico alternato con chiusure temporanee fino a 15 minuti per la demolizione di un edificio residenziale (anche fine settimana).",
+      "debut": "2026-11-16",
+      "fin": "2026-12-04",
+      "gps": [
+        46.43203,
+        11.47572
       ]
     },
     {
@@ -946,6 +974,20 @@
     },
     {
       "source": "bz",
+      "id": "670712",
+      "route": "SS244 — di Val Badia",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Punt de Fer (km 21,800 - km 23,000) senso unico alternato dalle ore 08:00 alle ore 17:00 con tempi di attesa fino a 10 minuti per lavori di taglio piante.",
+      "debut": "2026-11-16",
+      "fin": "2026-11-30",
+      "gps": [
+        46.63203,
+        11.89627
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3010712",
       "route": "SS48 — delle Dolomiti",
       "niveau": "gene",
@@ -974,7 +1016,7 @@
     },
     {
       "source": "bz",
-      "id": "3165901",
+      "id": "3165912",
       "route": "SS49 — della Pusteria",
       "niveau": "gene",
       "etat": "rallentamenti",
