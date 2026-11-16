@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-15T18:46Z",
+  "genere_le": "2026-11-16T00:57Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-15T18:01"
+      "maj": "2026-11-15T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-15"
+      "maj": "2026-11-16"
     }
   },
   "messages": [
@@ -438,20 +438,6 @@
       "gps": [
         46.43701,
         11.47574
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3112912",
-      "route": "LS/SP132 — Prato Isarco - Nova Levante",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Nova Levante e San Valentino in Campo (km 17,070 - km 17,290) senso unico alternato per lavori di raddrizzamento e allargamento (anche nel fine settimana).",
-      "debut": "2026-08-18",
-      "fin": "2026-11-15",
-      "gps": [
-        46.42919,
-        11.49347
       ]
     },
     {
