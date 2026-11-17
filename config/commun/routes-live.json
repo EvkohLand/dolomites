@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-17T07:46Z",
+  "genere_le": "2026-11-17T17:04Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-17T08:27"
+      "maj": "2026-11-17T17:51"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -242,20 +242,6 @@
       "gps": [
         46.64679,
         11.58679
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "656401",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione nord tra Rovereto Nord e Trento Nord coda di mezzi pesanti per traffico intenso.",
-      "debut": "2026-11-17",
-      "fin": "",
-      "gps": [
-        45.74641,
-        10.98116
       ]
     },
     {
@@ -904,6 +890,20 @@
     },
     {
       "source": "bz",
+      "id": "3103101",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Ad Ora (km 420,500 - km 423,500) senso unico alternato a causa lavori di taglio rami.",
+      "debut": "2026-11-18",
+      "fin": "2026-11-20",
+      "gps": [
+        46.35339,
+        11.31079
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3120212",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -924,7 +924,7 @@
       "etat": "rallentamenti",
       "texte": "A Bolzano Sud nei pressi del portale nord della galleria di S. Giacomo restringimento della carreggiata per lavori per la realizzazione del sottopasso (anche nel fine settimana).",
       "debut": "2026-09-14",
-      "fin": "2026-12-31",
+      "fin": "2027-11-30",
       "gps": [
         46.46869,
         11.33294
@@ -1058,7 +1058,7 @@
     },
     {
       "source": "bz",
-      "id": "3165912",
+      "id": "3165901",
       "route": "SS49 — della Pusteria",
       "niveau": "gene",
       "etat": "rallentamenti",
