@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-18T11:30Z",
+  "genere_le": "2026-11-18T16:43Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-18T12:16"
+      "maj": "2026-11-18T17:34"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -526,6 +526,20 @@
     },
     {
       "source": "bz",
+      "id": "647801",
+      "route": "LS/SP153 — Fundres",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Vandoies (km 0,325 - km 0,550) senso unico alternato per lavori.",
+      "debut": "2026-11-24",
+      "fin": "2026-11-27",
+      "gps": [
+        46.81723,
+        11.72316
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2980201",
       "route": "LS/SP157 — Elle",
       "niveau": "fermeture",
@@ -1016,6 +1030,20 @@
     },
     {
       "source": "bz",
+      "id": "3134101",
+      "route": "SS244 — di Val Badia",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A San Lorenzo la galleria di Floronzo (km 0,000 - km 1,300) è CHIUSA al traffico dalle ore 07:30 alle ore 17:00 per lavori di manutenzione. La deviazione avviene attraverso la SC 22 Floronzo.",
+      "debut": "2026-11-23",
+      "fin": "2026-11-25",
+      "gps": [
+        46.78198,
+        11.89122
+      ]
+    },
+    {
+      "source": "bz",
       "id": "670712",
       "route": "SS244 — di Val Badia",
       "niveau": "gene",
@@ -1026,6 +1054,20 @@
       "gps": [
         46.63203,
         11.89627
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3124801",
+      "route": "SS42 — Passo Mendola",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A San Michele/Appiano si é verificato un incidente, é aperta solo una corsia. In direzione Caldaro la coda arriva fino all'entrata ed uscita di Appiano sulla MEBO.",
+      "debut": "2026-11-18",
+      "fin": "",
+      "gps": [
+        46.47642,
+        11.27726
       ]
     },
     {
