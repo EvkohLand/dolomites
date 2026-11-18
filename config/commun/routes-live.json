@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-18T16:43Z",
+  "genere_le": "2026-11-18T20:24Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-18T17:34"
+      "maj": "2026-11-18T20:02"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -232,11 +232,25 @@
     },
     {
       "source": "bz",
+      "id": "2882101",
+      "route": "A22 — Autostrada del Brennero",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud l’uscita di Bolzano Nord è CHIUSA dalle ore 21:00 alle ore 06:00 a causa di lavori.",
+      "debut": "2026-11-18",
+      "fin": "2026-11-19",
+      "gps": [
+        46.49504,
+        11.40902
+      ]
+    },
+    {
+      "source": "bz",
       "id": "676901",
       "route": "A22 — Autostrada del Brennero",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "In direzione nord l'uscita di Bressanone è CHIUSA dalle ore 20:00 alle ore 06:00 a causa di lavori.",
+      "texte": "In direzione nord l'uscita di Bressanone è CHIUSA fino alle ore 06:00 a causa di lavori.",
       "debut": "2026-11-18",
       "fin": "2026-11-19",
       "gps": [
@@ -1062,7 +1076,7 @@
       "route": "SS42 — Passo Mendola",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "A San Michele/Appiano si é verificato un incidente, é aperta solo una corsia. In direzione Caldaro la coda arriva fino all'entrata ed uscita di Appiano sulla MEBO.",
+      "texte": "A San Michele/Appianol'incidente é stato risolto.",
       "debut": "2026-11-18",
       "fin": "",
       "gps": [
