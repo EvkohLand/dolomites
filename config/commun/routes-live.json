@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-19T11:29Z",
+  "genere_le": "2026-11-19T16:47Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-19T12:07"
+      "maj": "2026-11-19T17:45"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -232,16 +232,16 @@
     },
     {
       "source": "bz",
-      "id": "3140701",
+      "id": "3112401",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In direzione sud tra Rovereto Sud e Ala/Avio coda di mezzi pesanti per traffico intenso.",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione sud tra Chiusa e Bolzano Nord TRAFFICO BLOCCATO e 8 km di coda dopo un incidente.",
       "debut": "2026-11-19",
       "fin": "",
       "gps": [
-        45.88101,
-        11.00952
+        46.52859,
+        11.49028
       ]
     },
     {
@@ -858,6 +858,20 @@
       "gps": [
         46.51884,
         12.0093
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "2850901",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Chiusa (km 467,600 - km 467,800) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori al distributore.",
+      "debut": "2026-11-23",
+      "fin": "2026-11-27",
+      "gps": [
+        46.64431,
+        11.57102
       ]
     },
     {
