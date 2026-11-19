@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-11-18T20:24Z",
+  "genere_le": "2026-11-19T02:30Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-18"
+      "maj": "2026-11-19"
     }
   },
   "messages": [
@@ -732,20 +732,6 @@
       "gps": [
         46.82782,
         11.80196
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2849312",
-      "route": "LS/SP62 — Laimburg",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Vadena (km 8,350) senso unico alternato per sostituzione di coperchi di pozzetti.",
-      "debut": "2026-11-16",
-      "fin": "2026-11-18",
-      "gps": [
-        46.36945,
-        11.29024
       ]
     },
     {
