@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-19T02:30Z",
+  "genere_le": "2026-11-19T11:29Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-18T20:02"
+      "maj": "2026-11-19T12:07"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -232,30 +232,16 @@
     },
     {
       "source": "bz",
-      "id": "2882101",
+      "id": "3140701",
       "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione sud l’uscita di Bolzano Nord è CHIUSA dalle ore 21:00 alle ore 06:00 a causa di lavori.",
-      "debut": "2026-11-18",
-      "fin": "2026-11-19",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "In direzione sud tra Rovereto Sud e Ala/Avio coda di mezzi pesanti per traffico intenso.",
+      "debut": "2026-11-19",
+      "fin": "",
       "gps": [
-        46.49504,
-        11.40902
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "676901",
-      "route": "A22 — Autostrada del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione nord l'uscita di Bressanone è CHIUSA fino alle ore 06:00 a causa di lavori.",
-      "debut": "2026-11-18",
-      "fin": "2026-11-19",
-      "gps": [
-        46.76258,
-        11.63847
+        45.88101,
+        11.00952
       ]
     },
     {
@@ -714,7 +700,7 @@
       "etat": "rallentamenti",
       "texte": "A Rio di Pusteria (km 0,100 - km 1,175) senso unico alternato per lavori.",
       "debut": "2026-11-16",
-      "fin": "2026-11-20",
+      "fin": "2026-11-27",
       "gps": [
         46.79583,
         11.67101
@@ -908,7 +894,7 @@
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Ad Ora (km 420,500 - km 423,500) senso unico alternato a causa lavori di taglio rami.",
+      "texte": "Tra Ora e Bronzolo (km 420,500 - km 423,500) a tratti senso unico alternato a causa lavori di taglio rami.",
       "debut": "2026-11-18",
       "fin": "2026-11-20",
       "gps": [
@@ -1054,20 +1040,6 @@
       "gps": [
         46.63203,
         11.89627
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3124801",
-      "route": "SS42 — Passo Mendola",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A San Michele/Appianol'incidente é stato risolto.",
-      "debut": "2026-11-18",
-      "fin": "",
-      "gps": [
-        46.47642,
-        11.27726
       ]
     },
     {
