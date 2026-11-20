@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-20T02:14Z",
+  "genere_le": "2026-11-20T11:24Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-19T20:00"
+      "maj": "2026-11-20T11:43"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -638,6 +638,20 @@
     },
     {
       "source": "bz",
+      "id": "2831412",
+      "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Siusi (km 11,100 - km 11,300) senso unico alternato dalle ore 07:30 alle ore 17:00 per lavori (giorni feriali).",
+      "debut": "2026-11-24",
+      "fin": "2026-12-11",
+      "gps": [
+        46.53809,
+        11.55018
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3062012",
       "route": "LS/SP24 — Prato Isarco - Ponte Gardena",
       "niveau": "gene",
@@ -872,20 +886,6 @@
       "gps": [
         46.51152,
         11.46967
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3008501",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Nelle gallerie S. Daniele e Castelfeder (km 417,700 - km 419,418) CHIUSURA NOTTURNA dalle ore 21:00 alle ore 06:00 per lavori di pulizia. Il traffico viene deviato per Ora.",
-      "debut": "2026-11-19",
-      "fin": "2026-11-20",
-      "gps": [
-        46.3403,
-        11.29328
       ]
     },
     {
