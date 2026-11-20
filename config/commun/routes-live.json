@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-20T16:21Z",
+  "genere_le": "2026-11-20T20:02Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-20T16:59"
+      "maj": "2026-11-20T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -540,16 +540,16 @@
     },
     {
       "source": "bz",
-      "id": "2980212",
+      "id": "2980201",
       "route": "LS/SP157 — Elle",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "Tra Mantana ed Elle (km 2,650 - km 3,000) CHIUSURA al traffico dalle ore 08:00 alle ore 17:00 per lavori di taglio alberi (giorni feriali).",
-      "debut": "2026-11-16",
-      "fin": "2026-11-20",
+      "texte": "Tra Mantana ed Elle (km 3,550 - km 3,750) CHIUSURA al traffico dalle ore 08:00 alle ore 17:00 per lavori di taglio alberi (giorni feriali).",
+      "debut": "2026-11-21",
+      "fin": "2026-11-24",
       "gps": [
-        46.77789,
-        11.84505
+        46.78248,
+        11.8429
       ]
     },
     {
