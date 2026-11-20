@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-20T11:24Z",
+  "genere_le": "2026-11-20T16:21Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-20T11:43"
+      "maj": "2026-11-20T16:59"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -414,6 +414,20 @@
     },
     {
       "source": "bz",
+      "id": "2811812",
+      "route": "LS/SP129 — Salorno - Pochi",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A Salorno (km 2,020 - km 2,220) senso unico alternato per lavori di scavo.",
+      "debut": "2026-11-23",
+      "fin": "2026-12-11",
+      "gps": [
+        46.24459,
+        11.22984
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3163312",
       "route": "LS/SP13 — S. Paolo - Riva di sotto",
       "niveau": "fermeture",
@@ -526,7 +540,7 @@
     },
     {
       "source": "bz",
-      "id": "2980201",
+      "id": "2980212",
       "route": "LS/SP157 — Elle",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
@@ -834,20 +848,6 @@
     },
     {
       "source": "bz",
-      "id": "3160801",
-      "route": "LS/SP76 — Obereggen",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Tra Ega ed Obereggen (km 2,700 - km 3,000) CHIUSURA al traffico per la posa di condutture (anche nel fine settimana). La deviazione avviene attraverso la SS 620 Passo Lavazè.",
-      "debut": "2026-11-01",
-      "fin": "2026-11-20",
-      "gps": [
-        46.40132,
-        11.51644
-      ]
-    },
-    {
-      "source": "bz",
       "id": "572708",
       "route": "SS 48 — Passo Falzarego",
       "niveau": "gene",
@@ -890,7 +890,7 @@
     },
     {
       "source": "bz",
-      "id": "3103101",
+      "id": "3103112",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -1058,6 +1058,20 @@
     },
     {
       "source": "bz",
+      "id": "2996601",
+      "route": "SS49 — della Pusteria",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Sulla circonvallazione di Monguelfo (km 47,900 - km 51,000) CHIUSURA NOTTURNA dalle ore 19:00 alle ore 05:00 per lavori di manutenzione nella galleria. Il traffico viene deviato tramite SP 46racc e strade comunali.",
+      "debut": "2026-12-03",
+      "fin": "2026-12-04",
+      "gps": [
+        46.76059,
+        12.09334
+      ]
+    },
+    {
+      "source": "bz",
       "id": "3165212",
       "route": "SS49 — della Pusteria",
       "niveau": "gene",
@@ -1068,20 +1082,6 @@
       "gps": [
         46.80647,
         11.83454
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3165901",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Rasun di Sotto (km 42,500 - km 42,700) senso unico alternato dalle ore 07:30 alle ore 17:00 per lavori di asfaltatura.",
-      "debut": "2026-11-16",
-      "fin": "2026-11-20",
-      "gps": [
-        46.77218,
-        12.04221
       ]
     }
   ],
