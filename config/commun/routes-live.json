@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-21T02:08Z",
+  "genere_le": "2026-11-21T10:53Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-20T20:00"
+      "maj": "2026-11-21T11:29"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -222,7 +222,7 @@
       "route": "",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "A causa di uno sciopero di 24 ore venerdì 20 novembre 2026 dalle ore 00:00 alle ore 24:00 potrebbero verificarsi soppressioni e variazioni di orario sulle linee di autobus SASA e Simobil così come per il treno del Renon. Anche per i treni di Trenitalia e SAD sono previsti ritardi e soppressioni a causa di uno sciopero di 23 ore da venerdì 20.11.2026 alle ore 21:00 a sabato 21.11.2026 alle ore…",
+      "texte": "Per i treni di Trenitalia e SAD sono previsti ritardi e soppressioni a causa di uno sciopero di 23 ore fino a sabato 21.11.2026 alle ore 20:00. Gli elenchi dei servizi garantiti sono consultabili sul sito internet della mobilità Alto Adige www.altoadigemobilita.info. Ulteriori informazioni sui siti internet www.trenitalia.com, www.fsitaliane.it o al numero verde gratuito 800 89 20 21.",
       "debut": "2026-11-18",
       "fin": "2026-11-21",
       "gps": [
@@ -540,7 +540,7 @@
     },
     {
       "source": "bz",
-      "id": "2980201",
+      "id": "2980212",
       "route": "LS/SP157 — Elle",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
