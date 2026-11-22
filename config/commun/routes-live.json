@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-22T01:11Z",
+  "genere_le": "2026-11-22T11:09Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-21T20:00"
+      "maj": "2026-11-22T11:43"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -740,7 +740,7 @@
       "route": "LS/SP73 — Renon",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Al di sopra di Bolzano all’altezza di Costa di Sopra (km 2,770 – km 2,870) senso unico alternato dalle ore 07:00 alle ore 18:00 a causa di lavori (anche nel fine settimana).",
+      "texte": "Al di sopra di Bolzano all’altezza di Costa di Sopra (km 2,770 - km 2,870) senso unico alternato dalle ore 07:00 alle ore 18:00 a causa di lavori (anche nel fine settimana).",
       "debut": "2026-11-09",
       "fin": "2026-12-14",
       "gps": [
