@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-23T01:35Z",
+  "genere_le": "2026-11-23T12:18Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-22T20:00"
+      "maj": "2026-11-23T11:10"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -316,16 +316,30 @@
     },
     {
       "source": "bz",
-      "id": "3161012",
+      "id": "2740301",
+      "route": "Comune di Nova Ponente",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "A Nova Ponente CHIUSURA al traffico della via Windegg dalla casa di riposo fino all’incrocio con la via Principale e la via Principale/via Centro fino alla Piazza Principal per una sfilata di San Nicolò.",
+      "debut": "2026-12-04",
+      "fin": "2026-12-04",
+      "gps": [
+        46.41343,
+        11.43045
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3161001",
       "route": "Comune di Villandro",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
-      "texte": "La strada comunale \"Unterblabach\" (vecchia strada comunale Chiusa-Villandro) é CHIUSA al traffico dalle ore 07:00 alle ore 18:00 a causa di lavori.",
-      "debut": "2026-10-28",
-      "fin": "2026-12-24",
+      "texte": "Per una sfilata dei Krampus a Villanders la strada Principale nel centro del paese dal bivio dell’Hotel Hubertus fino al municipio, sarà CHIUSA al traffico dalle ore 20:00 alle ore 22:00.",
+      "debut": "2026-12-07",
+      "fin": "2026-12-07",
       "gps": [
-        46.63641,
-        11.55192
+        46.6312,
+        11.53948
       ]
     },
     {
@@ -526,7 +540,7 @@
     },
     {
       "source": "bz",
-      "id": "2980212",
+      "id": "2980201",
       "route": "LS/SP157 — Elle",
       "niveau": "fermeture",
       "etat": "traffico bloccato",
@@ -876,20 +890,6 @@
     },
     {
       "source": "bz",
-      "id": "3022101",
-      "route": "SS241 — di Val d'Ega e Passo Costalunga",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Ponte Nova (km 11,600 - km 11,700) senso unico alternato con chiusure temporanee fino a 15 minuti per la demolizione di un edificio residenziale (anche fine settimana).",
-      "debut": "2026-11-16",
-      "fin": "2026-12-04",
-      "gps": [
-        46.43203,
-        11.47572
-      ]
-    },
-    {
-      "source": "bz",
       "id": "609508",
       "route": "SS241 — di Val d'Ega e Passo Costalunga",
       "niveau": "info",
@@ -904,13 +904,27 @@
     },
     {
       "source": "bz",
+      "id": "3098401",
+      "route": "SS242 — di Val Gardena e Passo Sella",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Ponte Gardena e Pontives (km 4,300 - km 4,600) senso unico alternato dalle ore 08:00 alle ore 17:00 a causa di lavori.",
+      "debut": "2026-11-23",
+      "fin": "2026-11-27",
+      "gps": [
+        46.59513,
+        11.58342
+      ]
+    },
+    {
+      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "A Chiusa (km 0,300 - km 2,600) a tratti senso unico alternato a causa di lavori (anche nel fine settimana).",
-      "debut": "2026-09-01",
-      "fin": "2026-11-30",
+      "texte": "A Chiusa (km 0,300 - km 2,600) a tratti senso unico alternato per la realizzazione di barriere antirumore (giorni feriali).",
+      "debut": "2026-12-01",
+      "fin": "2026-12-04",
       "gps": [
         46.64479,
         11.58281
