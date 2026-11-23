@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-23T12:18Z",
+  "genere_le": "2026-11-23T19:28Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-23T11:10"
+      "maj": "2026-11-23T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -348,7 +348,7 @@
       "route": "LS/SP 29 — Passo Erbe",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Tra Eores ed il Passo delle Erbe divieto di transito per autobus, divieto di transito per veicoli di peso superiore a 24 t e di lunghezza superiore a 12 m. Da San Martino in Badia fino al Passo delle Erbe la strada è aperta per gli autobus con lunghezza fino a 12 m.",
+      "texte": "Tra Eores ed il Passo delle Erbe divieto di transito per autobus, divieto di transito per veicoli di peso superiore a 24 t e di lunghezza superiore a 12 m. Da San Martino in Badia fino al Passo delle Erbe la strada è aperta per gli autobus con lunghezza fino a 12 m DA DOMANI MARTEDÍ 24.11.2026 - ORE 15:00 ENTRA IN VIGORE LA CHIUSURA INVERNALE.",
       "debut": "2025-11-20",
       "fin": "",
       "gps": [
@@ -970,6 +970,20 @@
       "gps": [
         46.63203,
         11.89627
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3161501",
+      "route": "SS42 — Passo Mendola",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Ponte Adige e Pillhof (km 239,000 – km 240,500) temporaneo restringimento della carreggiate e brevi interruzioni di massino 5 minuti per lavori per la realizzazione di due rotatorie (anche nel fine settimana).",
+      "debut": "2026-11-30",
+      "fin": "2027-03-09",
+      "gps": [
+        46.47934,
+        11.28411
       ]
     },
     {
