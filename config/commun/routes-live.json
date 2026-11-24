@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-24T13:33Z",
+  "genere_le": "2026-11-24T19:05Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-24T13:32"
+      "maj": "2026-11-24T20:00"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -348,7 +348,7 @@
       "route": "LS/SP 29 — Passo Erbe",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Tra Eores ed il Passo delle Erbe divieto di transito per autobus, divieto di transito per veicoli di peso superiore a 24 t e di lunghezza superiore a 12 m. Da San Martino in Badia fino al Passo delle Erbe la strada è aperta per gli autobus con lunghezza fino a 12 m DA DOMANI MARTEDÍ 24.11.2026 - ORE 15:00 ENTRA IN VIGORE LA CHIUSURA INVERNALE.",
+      "texte": "Tra Eores (poco dopo il bivio con la SP 163 parcheggio gratuito) ed il Passo delle Erbe CHIUSURA INVERNALE. Da San Martino in Badia fino al Passo delle Erbe la strada è aperta al traffico, divieto di transito per gli autobus con lunghezza superiore a 12 m. Sulle strade di collegamento SP 29 Plancios (km 19,370 - km 20,700) e SP 163 San Pietro/Funes (km 6,500 - km 8,700) CHIUSURA NOTTURNA dalle…",
       "debut": "2025-11-20",
       "fin": "",
       "gps": [
@@ -536,20 +536,6 @@
       "gps": [
         46.81723,
         11.72316
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2980201",
-      "route": "LS/SP157 — Elle",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Tra Mantana ed Elle (km 3,550 - km 3,750) CHIUSURA al traffico dalle ore 08:00 alle ore 17:00 per lavori di taglio alberi (giorni feriali).",
-      "debut": "2026-11-21",
-      "fin": "2026-11-24",
-      "gps": [
-        46.78248,
-        11.8429
       ]
     },
     {
@@ -792,6 +778,20 @@
     },
     {
       "source": "bz",
+      "id": "589701",
+      "route": "LS/SP94 — Fortezza - Aica",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "Ad Ladestatt (km 2,730) CHIUSURA al traffico in direzione entrata autostradale di Bressanone/Varna per lavori.",
+      "debut": "2026-11-30",
+      "fin": "2027-05-21",
+      "gps": [
+        46.76822,
+        11.64988
+      ]
+    },
+    {
+      "source": "bz",
       "id": "572708",
       "route": "SS 48 — Passo Falzarego",
       "niveau": "gene",
@@ -802,20 +802,6 @@
       "gps": [
         46.51884,
         12.0093
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3167601",
-      "route": "SS.38 — Superstrada MEBO",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "In direzione Bolzano l'entrata di Appiano è CHIUSA al traffico dalle ore 13:00 alle ore 16:00 ca. a causa di lavori.",
-      "debut": "2026-11-24",
-      "fin": "2026-11-24",
-      "gps": [
-        46.48499,
-        11.29029
       ]
     },
     {
@@ -998,6 +984,20 @@
       "gps": [
         46.47934,
         11.28411
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3167912",
+      "route": "SS42 — Passo Mendola",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "All'altezza Pillhof (km 238,500 - km 238,700) senso unico alternato dalle ore 20:00 alle ore 06:00 per lavori di messa in sicurezza.",
+      "debut": "2026-11-30",
+      "fin": "2026-12-02",
+      "gps": [
+        46.47726,
+        11.2789
       ]
     },
     {
