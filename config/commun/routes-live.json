@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-11-23T19:28Z",
+  "genere_le": "2026-11-24T02:08Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-23"
+      "maj": "2026-11-24"
     }
   },
   "messages": [
@@ -816,20 +816,6 @@
       "gps": [
         46.64431,
         11.57102
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2952212",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Steg (km 449,600 - km 449,900) a necessità senso unico alternato per l'esecuzione di nuovi paramassi.",
-      "debut": "2026-09-01",
-      "fin": "2026-11-23",
-      "gps": [
-        46.51152,
-        11.46967
       ]
     },
     {
