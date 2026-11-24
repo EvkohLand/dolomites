@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-24T02:08Z",
+  "genere_le": "2026-11-24T13:33Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-23T20:00"
+      "maj": "2026-11-24T13:32"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -526,7 +526,7 @@
     },
     {
       "source": "bz",
-      "id": "647801",
+      "id": "647812",
       "route": "LS/SP153 — Fundres",
       "niveau": "gene",
       "etat": "rallentamenti",
@@ -806,6 +806,20 @@
     },
     {
       "source": "bz",
+      "id": "3167601",
+      "route": "SS.38 — Superstrada MEBO",
+      "niveau": "fermeture",
+      "etat": "traffico bloccato",
+      "texte": "In direzione Bolzano l'entrata di Appiano è CHIUSA al traffico dalle ore 13:00 alle ore 16:00 ca. a causa di lavori.",
+      "debut": "2026-11-24",
+      "fin": "2026-11-24",
+      "gps": [
+        46.48499,
+        11.29029
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2850901",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -862,6 +876,20 @@
     },
     {
       "source": "bz",
+      "id": "3167712",
+      "route": "SS12 — dell'Abetone e del Brennero",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra Bolzano Nord e Prato Isarco (km 445,350 - km 445,575) restringimento di carreggiata a causa di lavori (anche nel fine settimana).",
+      "debut": "2026-11-24",
+      "fin": "2027-03-31",
+      "gps": [
+        46.49371,
+        11.43351
+      ]
+    },
+    {
+      "source": "bz",
       "id": "578712",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -894,7 +922,7 @@
       "route": "SS242 — di Val Gardena e Passo Sella",
       "niveau": "gene",
       "etat": "rallentamenti",
-      "texte": "Tra Ponte Gardena e Pontives (km 4,300 - km 4,600) senso unico alternato dalle ore 08:00 alle ore 17:00 a causa di lavori.",
+      "texte": "Tra Ponte Gardena e Pontives (km 4,300 - km 4,600) senso unico alternato a causa di lavori.",
       "debut": "2026-11-23",
       "fin": "2026-11-27",
       "gps": [
