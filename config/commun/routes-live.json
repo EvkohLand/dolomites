@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-11-25T19:09Z",
+  "genere_le": "2026-11-26T03:30Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-25"
+      "maj": "2026-11-26"
     }
   },
   "messages": [
@@ -984,20 +984,6 @@
       "gps": [
         46.76059,
         12.09334
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3165212",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Chienes (km 22,505 - km 22,540) limitazione di velocità a causa di lavori a un muro.",
-      "debut": "2026-11-09",
-      "fin": "2026-11-25",
-      "gps": [
-        46.80647,
-        11.83454
       ]
     },
     {
