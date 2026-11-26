@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-26T03:30Z",
+  "genere_le": "2026-11-26T16:46Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-25T20:03"
+      "maj": "2026-11-26T17:31"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -518,7 +518,7 @@
       "etat": "rallentamenti",
       "texte": "A Vandoies (km 0,325 - km 0,550) senso unico alternato per lavori.",
       "debut": "2026-11-24",
-      "fin": "2026-11-27",
+      "fin": "2026-12-01",
       "gps": [
         46.81723,
         11.72316
@@ -606,6 +606,20 @@
       "gps": [
         46.29044,
         11.21188
+      ]
+    },
+    {
+      "source": "bz",
+      "id": "3167812",
+      "route": "LS/SP20 — Magrè",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "A S. Floriano (km 0,220 - km 0,320) senso unico alternato dalle ore 08:00 alle ore 17:00 per lavori di installazione.",
+      "debut": "2026-12-11",
+      "fin": "2026-12-11",
+      "gps": [
+        46.2871,
+        11.23849
       ]
     },
     {
