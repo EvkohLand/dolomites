@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-27T01:41Z",
+  "genere_le": "2026-11-27T12:02Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-26T20:00"
+      "maj": "2026-11-27T12:15"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
@@ -470,6 +470,20 @@
     },
     {
       "source": "bz",
+      "id": "3168612",
+      "route": "LS/SP134 — Soprabolzano",
+      "niveau": "gene",
+      "etat": "rallentamenti",
+      "texte": "Tra \"Weber im Moos\" e Costalovara (km 0,790 - km 0,840) senso unico alternato per lavori di scavo.",
+      "debut": "2026-11-30",
+      "fin": "2026-12-03",
+      "gps": [
+        46.52065,
+        11.44338
+      ]
+    },
+    {
+      "source": "bz",
       "id": "2740701",
       "route": "LS/SP139 — Laion - S. Pietro",
       "niveau": "fermeture",
@@ -550,20 +564,6 @@
       "gps": [
         46.38213,
         11.28175
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3142012",
-      "route": "LS/SP163 — S. Pietro - Passo Erbe",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A San Pietro (km 0,190 - km 0,240) senso uncio alternato per la costruzione di un marciapiede.",
-      "debut": "2026-09-14",
-      "fin": "2026-12-18",
-      "gps": [
-        46.64337,
-        11.68497
       ]
     },
     {
@@ -680,34 +680,6 @@
     },
     {
       "source": "bz",
-      "id": "3051712",
-      "route": "LS/SP27 — Funes",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Nei pressi della fermata di Funes (km 0,050 - km 0,150) senso unico alternato a causa di lavori.",
-      "debut": "2026-10-07",
-      "fin": "2026-11-27",
-      "gps": [
-        46.65306,
-        11.5995
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "2881312",
-      "route": "LS/SP32 — Rodengo",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Rio di Pusteria (km 0,100 - km 1,175) senso unico alternato per lavori.",
-      "debut": "2026-11-16",
-      "fin": "2026-11-27",
-      "gps": [
-        46.79583,
-        11.67101
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3137712",
       "route": "LS/SP40 — Strada del Sole della Pusteria",
       "niveau": "gene",
@@ -746,34 +718,6 @@
       "gps": [
         46.49857,
         11.39682
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3014212",
-      "route": "LS/SP76 — Obereggen",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Obereggen (km 6,005) senso unico alternato per posa di una nuova linea di alta tensione.",
-      "debut": "2026-09-24",
-      "fin": "2026-12-04",
-      "gps": [
-        46.39628,
-        11.52585
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3063812",
-      "route": "LS/SP76 — Obereggen",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "A Obereggen (km 4,300 - km 5,800) CHIUSURA al traffico per posa di una nuova linea ad alta tensione (giorni feriali). Deviazione attraverso la SS. 620 Passo Lavazé.",
-      "debut": "2026-10-05",
-      "fin": "2026-12-04",
-      "gps": [
-        46.39628,
-        11.52585
       ]
     },
     {
