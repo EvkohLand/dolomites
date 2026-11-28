@@ -1,12 +1,12 @@
 {
-  "genere_le": "2026-11-28T03:15Z",
+  "genere_le": "2026-11-28T15:25Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
     "bz": {
       "libelle": "Centrale trafic de la Province de Bolzano",
       "url": "https://verkehr.provinz.bz.it/it/",
-      "maj": "2026-11-27T20:00"
+      "maj": "2026-11-28T16:20"
     },
     "anas": {
       "libelle": "ANAS, VAI — viabilité des routes nationales",
