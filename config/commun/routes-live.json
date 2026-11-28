@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-11-27T21:07Z",
+  "genere_le": "2026-11-28T03:15Z",
   "rayon_km": 5,
   "note": "Copie de secours, lue hors ligne ou si la source directe ne répond pas. Messages en cours à moins de 5 km d'un tracé.",
   "sources": {
@@ -16,7 +16,7 @@
     "veneto": {
       "libelle": "Veneto Strade — avis de circulation, province de Belluno",
       "url": "https://www.venetostrade.it/myportal/VSSPA/home",
-      "maj": "2026-11-27"
+      "maj": "2026-11-28"
     }
   },
   "messages": [
@@ -232,34 +232,6 @@
     },
     {
       "source": "bz",
-      "id": "3077512",
-      "route": "Comune di Bolzano",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "La via San Maurizio nel tratto tra la rotonda Largo Donatori del Sangue e Via Merano è CHIUSA al traffico per lavori (giorni feriali).",
-      "debut": "2026-10-02",
-      "fin": "2026-11-27",
-      "gps": [
-        46.50186,
-        11.31184
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3163912",
-      "route": "Comune di Bolzano",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "In via Evangelista Torricelli senso unico alternato con chiusure temporanee fino a 5 minuti dalle ore 08:30 alle ore 16:30 per lavori.",
-      "debut": "2026-11-05",
-      "fin": "2026-11-27",
-      "gps": [
-        46.4801,
-        11.32573
-      ]
-    },
-    {
-      "source": "bz",
       "id": "635901",
       "route": "Comune di Bolzano",
       "niveau": "fermeture",
@@ -414,20 +386,6 @@
     },
     {
       "source": "bz",
-      "id": "3163312",
-      "route": "LS/SP13 — S. Paolo - Riva di sotto",
-      "niveau": "fermeture",
-      "etat": "traffico bloccato",
-      "texte": "Tra S. Paolo e Riva di Sotto (km 1,400 - km 2,880, km 2,880 - km 3,170) CHIUSURA al traffico per lavori di asfaltatura (anche nel fine settimana).",
-      "debut": "2026-11-08",
-      "fin": "2026-11-27",
-      "gps": [
-        46.48174,
-        11.26307
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3152512",
       "route": "LS/SP131 — S. Valentino in Campo",
       "niveau": "gene",
@@ -452,20 +410,6 @@
       "gps": [
         46.43701,
         11.47574
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3100212",
-      "route": "LS/SP133 — Cornedo all'Isarco",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Cardano (km 0,500 - km 0,750)´senso unico alternato per lavor.",
-      "debut": "2026-10-20",
-      "fin": "2026-11-27",
-      "gps": [
-        46.4925,
-        11.39517
       ]
     },
     {
@@ -550,20 +494,6 @@
       "gps": [
         46.31769,
         11.2573
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3055012",
-      "route": "LS/SP162 — Campi al Lago",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Castel Varco (km 4,600 - km 5,200) senso unico alternato con chiusure temporanee fino a 5 minuti per lavori di realizzazione muro in sassi.",
-      "debut": "2026-11-05",
-      "fin": "2026-11-27",
-      "gps": [
-        46.38213,
-        11.28175
       ]
     },
     {
@@ -750,20 +680,6 @@
     },
     {
       "source": "bz",
-      "id": "2850901",
-      "route": "SS12 — dell'Abetone e del Brennero",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Chiusa (km 467,600 - km 467,800) senso unico alternato dalle ore 07:00 alle ore 18:00 per lavori al distributore.",
-      "debut": "2026-11-23",
-      "fin": "2026-11-27",
-      "gps": [
-        46.64431,
-        11.57102
-      ]
-    },
-    {
-      "source": "bz",
       "id": "3120212",
       "route": "SS12 — dell'Abetone e del Brennero",
       "niveau": "gene",
@@ -848,20 +764,6 @@
     },
     {
       "source": "bz",
-      "id": "3098401",
-      "route": "SS242 — di Val Gardena e Passo Sella",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "Tra Ponte Gardena e Pontives (km 4,300 - km 4,600) senso unico alternato a causa di lavori.",
-      "debut": "2026-11-23",
-      "fin": "2026-11-27",
-      "gps": [
-        46.59513,
-        11.58342
-      ]
-    },
-    {
-      "source": "bz",
       "id": "1704312",
       "route": "SS242Dir — di Val Gardena e Passo Sella",
       "niveau": "gene",
@@ -942,20 +844,6 @@
       "gps": [
         46.76059,
         12.09334
-      ]
-    },
-    {
-      "source": "bz",
-      "id": "3165901",
-      "route": "SS49 — della Pusteria",
-      "niveau": "gene",
-      "etat": "rallentamenti",
-      "texte": "A Rasun di Sotto (km 42,500 - km 42,700) senso unico alternato dalle ore 07:30 alle ore 17:00 per lavori posa di guardrail.",
-      "debut": "2026-11-25",
-      "fin": "2026-11-27",
-      "gps": [
-        46.77218,
-        12.04221
       ]
     }
   ],
